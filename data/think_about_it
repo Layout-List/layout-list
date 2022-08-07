@@ -1,0 +1,23 @@
+{
+    "id": 81217458,
+    "name": "Think About It",
+    "author": "DJJDK",
+    "creators": [],
+    "verifier": "DJJDK",
+    "verification": "https://youtu.be/sSMhnQtCwSs",
+    "percentToQualify": 52,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/MfCs-9Ti80s",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/FX2NMVuZPmM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
