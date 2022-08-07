@@ -1,0 +1,41 @@
+{
+    "id": 77765467,
+    "name": "huang quan",
+    "author": "Snips",
+    "creators": [],
+    "verifier": "Fusion425",
+    "verification": "https://youtu.be/JnJJh216c20",
+    "percentToQualify": 55,
+    "records": [
+        {
+          "user": "rustic",
+          "link": "https://youtu.be/YtXiwTG3ObI",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=HBwcmaoLsjw",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Snips",
+          "link": "https://youtu.be/5zVCFt-VZaQ",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/n1wPTPAXVjk",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Flazyx",
+          "link": "https://youtu.be/V37gsFhudyg",
+          "percent": "100",
+          "hz": "240FPS"
+        },
+    ]
+}
