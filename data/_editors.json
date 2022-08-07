@@ -18,10 +18,10 @@
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/c/PrometheusCoding/",
+    },
     {
         "role": "dev",
         "name": "Electro",
         "link": "https://electrowo.tk/"
-    }
     }
 ]
