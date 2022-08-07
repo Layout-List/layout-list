@@ -1,0 +1,27 @@
+[
+    {
+        "role": "owner",
+        "name": "DJJDK",
+        "link": "https://www.youtube.com/channel/UCE349mtrdQYGr-avCPlbCiA"
+    },
+    {
+        "role": "admin",
+        "name": "Bluestone",
+        "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
+    },
+    {
+        "role": "helper",
+        "name": "reet",
+        "link": "https://www.youtube.com/channel/UCBVxcdiWfecG50wTlKLa_KQ"
+    },
+    {
+        "role": "dev",
+        "name": "Prometheus",
+        "link": "https://www.youtube.com/c/PrometheusCoding/",
+    {
+        "role": "dev",
+        "name": "Electro",
+        "link": "https://electrowo.tk/"
+    }
+    }
+]
