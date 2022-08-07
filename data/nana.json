@@ -2,22 +2,35 @@
     "id": 68483637,
     "name": "NANA",
     "author": "DJJDK",
-    "creators": [],
-    "verifier": "sqrtpie",
-    "verification": "https://youtu.be/7f65fqqo1Pg",
-    "percentToQualify": 50,
+    "creators": [
+        "Racio",
+        "Blathers",
+        "NewDark",
+        "St1ng",
+        "Tragikly",
+        "DaAlexSeed",
+    ],
+    "verifier": "Blathers",
+    "verification": "https://youtu.be/pQoHbzv-uSU",
+    "percentToQualify": 53,
     "records": [
         {
-          "user": "rustic",
-          "link": "https://youtu.be/cl75uEWc6u0",
+          "user": "Plasmic",
+          "link": "https://www.youtube.com/watch?v=cPpFXE8_8P8",
           "percent": 100,
           "hz": 360
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/KWiR3Bcyu5Y",
+          "user": "Fusion425 🏆",
+          "link": "https://www.youtube.com/watch?v=zkrI9MaemCQ",
           "percent": 100,
           "hz": 360
-        }
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=PKgL6rU5TfY",
+          "percent": 100,
+          "hz": 360
+        },
     ]
 }
