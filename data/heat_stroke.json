@@ -1,0 +1,38 @@
+{
+    "id": 77057017,
+    "name": "Heat stroke",
+    "author": "Flare",
+    "creators": [
+      "Justkeya",
+      "Fusion425"
+    ],
+    "verifier": "ShimzyZE",
+    "verification": "https://youtu.be/95jLAE7a6So",
+    "percentToQualify": 60,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/LizWO7SGv9I",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=Ys6S0E2YSag",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=atoAhBRwjK4",
+          "percent": "71",
+          "hz": 240
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/FX2NMVuZPmM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
