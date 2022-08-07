@@ -1,4 +1,4 @@
-# Welcome to the maintained Geometry Dash Shitty List repo!
+# Welcome to the maintained Geometry Dash Layout List repo!
 
 # FAQ
 
@@ -6,7 +6,7 @@
 
 ### Website FAQ
 
-Can I use the Shitty List template?
+Can I use the Layout List template?
 
 - I mean, sure. just make sure you give credit somewhere and make sure you state
   that you're not affiliated with the shitty list.
