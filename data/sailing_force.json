@@ -1,1 +1,52 @@
-
+{
+    "id": 75196480,
+    "name": "Sailing Force",
+    "author": "Blueskiii",
+    "creators": [
+        "N3mo",
+        "Striked",
+        "Ji",
+        "Korewa",
+        "Pesca",
+        "Arax",
+        "Pepsaiko",
+        "Vantablack",
+        "SomeoneD",
+        "IHunglezz",
+        "Haru",
+        "Vulna",
+        "Jamscone",
+        "Cron7",
+        "Muon",
+        "IlleniunArt"
+    ],
+    "verifier": "dice88",
+    "verification": "https://youtu.be/oVtu5f6M7lI",
+    "percentToQualify": 59,
+    "records": [
+        {
+          "user": "zNolan",
+          "link": "https://www.youtube.com/watch?v=RgC35xwD8so",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://youtu.be/zimPRqEjOCo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/u_aDbGSNYIY",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://youtu.be/F9B6x-LaiPM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
