@@ -14,8 +14,8 @@ export function score(rank, percent, minPercent) {
     if (rank > 150) {
         return 0;
     }
-
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
+    let maximum_points = 250; //change this to change points of top 1
+    let score = ((140 * maximum_points + 7000) / Math.sqrt(3157 * (rank-1) + 19600) - 50)*
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
     score = Math.max(0, score);
