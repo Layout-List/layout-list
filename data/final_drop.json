@@ -1,0 +1,30 @@
+{
+    "id": 78187269,
+    "name": "Final Drop",
+    "author": "HZover",
+    "creators": [],
+    "verifier": "HZover",
+    "verification": "https://youtu.be/sQNRJAUwq7A",
+    "percentToQualify": 53,
+    "password": "Not Copyable",
+    "records": [
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/05bmJIRkMQQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=roNm0bCIGF4",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://youtu.be/QwYL46a0y8M",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
