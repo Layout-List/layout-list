@@ -1,0 +1,78 @@
+{
+    "id": 65280584,
+    "name": "Light It Up",
+    "author": "ARwooly",
+    "creators": [
+      "Skralen",
+      "Kyoze",
+      "Kiwi",
+      "zGod",
+      "xInf3rn0",
+      "Gianv",
+      "St1ng",
+      "Yuko",
+      "Hattoruu",
+      "Kylerocket06",
+      "Tragikly",
+      "Tsunami"
+    ],
+    "verifier": "JDK",
+    "verification": "https://youtu.be/rJiQRf_-wjo",
+    "percentToQualify": 54,
+    "records": [
+        {
+          "user": "Blathers",
+          "link": "https://www.youtube.com/watch?v=oVdIFlFw_ko",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Tenebris",
+          "link": "https://www.youtube.com/watch?v=YOcTbBmqhEs",
+          "percent": 100,
+          "hz": 280
+        },
+        {
+          "user": "Victurkey",
+          "link": "https://www.youtube.com/watch?v=--J0sUP68LE",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://youtu.be/heuNAIsQJ0M",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://youtu.be/uZGya6iPJpk",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=2_5c2vwjeco",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/y9aQYsaeBIU",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=sIbIcg95NKo",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ShimzyZE",
+          "link": "https://www.youtube.com/watch?v=x8qacwOPDrw",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
