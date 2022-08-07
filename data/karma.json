@@ -1,0 +1,149 @@
+{
+    "id": 63471387,
+    "name": "Karma ⭐",
+    "author": "ARtu",
+    "creators": [],
+    "verifier": "ARtu",
+    "verification": "https://youtu.be/7f65fqqo1Pg",
+    "percentToQualify": 50,
+    "records": [
+        {
+          "user": "Blathers",
+          "link": "https://www.youtube.com/watch?v=ML7PjNADK-k",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "BrowarKedawar",
+          "link": "https://www.youtube.com/watch?v=PNldiePqHos",
+          "percent": 100,
+          "hz": "240FPS"
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://www.youtube.com/watch?v=rucVDCtNPnY",
+          "percent": "100",
+          "hz": "240FPS"
+        },
+        {
+          "user": "Snowy",
+          "link": "https://youtu.be/6uCImBqMFhg",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/rULDBARxuZk",
+          "percent": "100",
+          "hz": "288FPS"
+        },
+        {
+          "user": "theworldofme",
+          "link": "https://www.youtube.com/watch?v=WhfsCfeiB0c",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/ueNdMDzAQOM",
+          "percent": "100",
+          "hz": "288FPS"
+        },
+        {
+          "user": "Zenta",
+          "link": "https://www.youtube.com/watch?v=rEYATZAaWG4",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "MiniWheatDuo",
+          "link": "https://youtu.be/-1jhNHSrYMY",
+          "percent": "100",
+          "hz": "Mobile"
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=LgGbXW6hOik",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Kuaikuai27",
+          "link": "https://youtu.be/vShhErywipU",
+          "percent": "100",
+          "hz": "288FPS"
+        },
+        {
+          "user": "WauksGD",
+          "link": "https://youtu.be/IbAwlwGM0Ok",
+          "percent": "100",
+          "hz": "144FPS"
+        },
+        {
+          "user": "joaopedroo",
+          "link": "https://youtu.be/0w3gxyzeeaA",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=6XXis_VNZGQ",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Bibox",
+          "link": "https://www.youtube.com/watch?v=2lnBz40JBL8&t=1s",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Teno",
+          "link": "https://youtu.be/_Z2XLv-hmNc",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "Tenebris",
+          "link": "https://youtu.be/YqMaVvzUBck",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "potate",
+          "link": "https://www.youtube.com/watch?v=HoHFoGaXi-s",
+          "percent": "100",
+          "hz": "165FPS"
+        },
+        {
+          "user": "lun",
+          "link": "https://www.youtube.com/watch?v=XHSDu_tQ7l8",
+          "percent": "100",
+          "hz": "240FPS"
+        },
+        {
+          "user": "Hyperbeat",
+          "link": "https://www.twitch.tv/videos/1525965105",
+          "percent": "100",
+          "hz": "360FPS"
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://youtu.be/TArERm3ePNQ",
+          "percent": "100",
+          "hz": "60FPS"
+        },
+        {
+          "user": "Fawami",
+          "link": "https://youtu.be/1pLJAPQAxec",
+          "percent": "100",
+          "hz": "165FPS"
+        },
+        {
+          "user": "leaf",
+          "link": "https://youtu.be/8-qkhYI4iOc",
+          "percent": "100",
+          "hz": "144FPS"
+        },
+    ]
+}
