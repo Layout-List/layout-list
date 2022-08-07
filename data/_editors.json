@@ -5,6 +5,11 @@
         "link": "https://www.youtube.com/channel/UCE349mtrdQYGr-avCPlbCiA"
     },
     {
+        "role": "owner",
+        "name": "Blathers",
+        "link": "https://www.youtube.com/channel/UC18eM9f_J-tVdruPEWqkFsQ"
+    },
+    {
         "role": "admin",
         "name": "Bluestone",
         "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
