@@ -1,0 +1,29 @@
+{
+    "id": 76939435,
+    "name": "Magic Touch",
+    "author": "TheNamesSnek",
+    "creators": [],
+    "verifier": "TheNamesSnek",
+    "verification": "https://youtu.be/hTkDCwsbEvk",
+    "percentToQualify": 47,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=cre1hYU7T84",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=Ys6S0E2YSag",
+          "percent": 100,
+          "hz": 360
+        },
+      {
+          "user": "DJJDK",
+          "link": "https://youtu.be/_L165NEPdUg",
+          "percent": 57,
+          "hz": 240
+        }
+    ]
+}
