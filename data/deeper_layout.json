@@ -1,0 +1,35 @@
+{
+    "id": 70552197,
+    "name": "Deeper Layout",
+    "author": "TheNamesSnek",
+    "creators": [],
+    "verifier": "TheNamesSnek",
+    "verification": "https://youtu.be/NQdSFN5V8k0",
+    "percentToQualify": 53,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/-3AMDHd2RiQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://youtu.be/QxY_245RRnY",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://youtu.be/mrbjI-bz860",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://youtu.be/Vr5lp449v64",
+          "percent": 100,
+          "hz": 360
+        },
+    ]
+}
