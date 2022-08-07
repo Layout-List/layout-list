@@ -10,14 +10,14 @@
         {
           "user": "rustic",
           "link": "https://youtu.be/cl75uEWc6u0",
-          "percent": "100",
-          "hz": "360FPS"
+          "percent": 100,
+          "hz": 360
         },
         {
           "user": "Armani",
           "link": "https://youtu.be/KWiR3Bcyu5Y",
-          "percent": "100",
-          "hz": "360FPS"
+          "percent": 100,
+          "hz": 360
         },
     ]
 }
