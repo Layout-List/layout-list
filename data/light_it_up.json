@@ -16,7 +16,7 @@
       "Tragikly",
       "Tsunami"
     ],
-    "verifier": "JDK",
+    "verifier": "DJJDK",
     "verification": "https://youtu.be/rJiQRf_-wjo",
     "percentToQualify": 54,
     "records": [
