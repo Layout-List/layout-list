@@ -1,0 +1,59 @@
+{
+    "id": 71060838,
+    "name": "Chilly Chappers",
+    "author": "Blathers",
+    "creators": [],
+    "verifier": "Blathers",
+    "verification": "https://youtu.be/bO-WbF2GpyQ",
+    "percentToQualify": 53,
+    "records": [
+        {
+          "user": "Plasmic",
+          "link": "https://www.twitch.tv/videos/1090223333",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://youtu.be/nEy-xWJ81Zw",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://www.youtube.com/watch?v=QqSwkHdZz9w",
+          "percent": "100",
+          "hz": 360
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=Nz7BsJFB3vI",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "idiotdash",
+          "link": "https://www.youtube.com/watch?v=7zhzSYL9k_I",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+          "percent": 100,
+          "hz": 360
+        },
+      {
+          "user": "ZBosGaming",
+          "link": "https://clips.twitch.tv/ExpensiveCogentKumquatFloof-9yem7B1aahM0lcf0",
+          "percent": 62,
+          "hz": 360
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=pt4WVcgHKCo",
+          "percent": 56,
+          "hz": 240
+        }
+    ]
+}
