@@ -1,0 +1,71 @@
+{
+    "id": 73374303,
+    "name": "SLM",
+    "author": "ZBosGaming",
+    "creators": [],
+    "verifier": "ZBosGaming",
+    "verification": "https://youtu.be/yrE_54IeZHQ",
+    "percentToQualify": 49,
+    "records": [
+        {
+          "user": "Kind1e",
+          "link": "https://www.youtube.com/watch?v=IYL5JuoXG8Y",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://www.youtube.com/watch?v=WNnuemU-r8I",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=runB8WNRXes",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=XbNrNeABsBg",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ShimzyZE",
+          "link": "https://youtu.be/XPz-QPcVLRA",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/PhvB1yrNfOI",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/mYDuAvnf9AQ",
+          "percent": 70,
+          "hz": 240
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=y74p2wTav_A",
+          "percent": 66,
+          "hz": 240
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://youtu.be/xG0p98bsHVk",
+          "percent": 57,
+          "hz": 60
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=QmALNirFRbg",
+          "percent": 52,
+          "hz": 240
+        }
+    ]
+}
