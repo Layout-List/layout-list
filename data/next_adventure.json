@@ -1,0 +1,47 @@
+{
+    "id": 77477626,
+    "name": "Next Adventure",
+    "author": "Blathers",
+    "creators": [],
+    "verifier": "Blathers",
+    "verification": "https://youtu.be/JwxZqgfmaOA",
+    "percentToQualify": 56,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://youtu.be/Rl-o9kOGLLU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=658B5SA7eHM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "mrperson",
+          "link": "https://www.youtube.com/watch?v=hQcSUa28CiM",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "rustic",
+          "link": "https://youtu.be/akiYLUNZOKQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "leaf",
+          "link": "https://www.youtube.com/watch?v=0PG7P3IUs30",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
