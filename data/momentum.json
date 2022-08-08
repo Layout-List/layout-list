@@ -1,0 +1,41 @@
+{
+    "id": 77185894,
+    "name": "Momentum",
+    "author": "TheNamesSnek",
+    "creators": [],
+    "verifier": "TheNamesSnek",
+    "verification": "https://youtu.be/H_iGdRkkIas",
+    "percentToQualify": 57,
+    "records": [
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/QwD9qlRULhI",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/OpKlMDLx3ZM",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/eEfnZ3B9WHs",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "DJJDK",
+          "link": "i will deal with it  today, I promimse",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/FX2NMVuZPmM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
