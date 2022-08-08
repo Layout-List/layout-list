@@ -1,0 +1,89 @@
+{
+    "id": 75771921,
+    "name": "From Vapor",
+    "author": "culobdj",
+    "creators": [],
+    "verifier": "culobdj",
+    "verification": "https://youtu.be/WItHjESHhnE",
+    "percentToQualify": 54,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=sP34P9Q1EV4",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/aFa2XNNH4N4",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "JustShock",
+          "link": "https://www.youtube.com/watch?v=JX68eD4G3Rc",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/ztwfjxe9TsI",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/6s47gHU5Kx8",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://www.youtube.com/watch?v=5H2HP0mEYK0",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://youtu.be/Rl-o9kOGLLU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=SisK43ftrtg",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ShimzyZE",
+          "link": "https://www.youtube.com/watch?v=8UisG_YkkdU",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Vink",
+          "link": "https://www.youtube.com/watch?v=VCPAyXS_9Y4",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "TurtleER",
+          "link": "https://youtu.be/E0dQNrRwmHI",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/NNXGTapDoOM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
