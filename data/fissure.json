@@ -1,0 +1,23 @@
+{
+    "id": 77436470,
+    "name": "Fissure",
+    "author": "Kuaikuai27",
+    "creators": [],
+    "verifier": "Kuaikuai27",
+    "verification": "https://youtu.be/-sxPH9ohhqk",
+    "percentToQualify": 51,
+    "records": [
+        {
+          "user": "CaioMD",
+          "link": "https://youtu.be/QwYL46a0y8M",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/RWmdbAvk_CI",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
