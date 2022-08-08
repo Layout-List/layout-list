@@ -1,0 +1,53 @@
+{
+    "id": 76441202,
+    "name": "michito",
+    "author": "josecalebcv",
+    "creators": [],
+    "verifier": "josecalebcv",
+    "verification": "https://youtu.be/nsVLSWQLoNU",
+    "percentToQualify": 56,
+    "records": [
+        {
+          "user": "ToastyBois",
+          "link": "https://youtu.be/94PzT57-ilg",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/-w2YaYlzCRc",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=gcmarOsQtoo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "mrperson",
+          "link": "https://www.youtube.com/watch?v=rqN38d2JoJM",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "jz5",
+          "link": "https://www.youtube.com/watch?v=mBEtGxp6bdo&t",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "culobdj",
+          "link": "https://youtu.be/uKdkZh7SlaI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/Ux3F5eN0jJg",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
