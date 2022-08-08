@@ -1,0 +1,77 @@
+{
+    "id": 73963992,
+    "name": "ARE YOU WITH THAT",
+    "author": "idiotdash",
+    "creators": [],
+    "verifier": "idiotdash",
+    "verification": "https://youtu.be/tAdYjgLltY0",
+    "percentToQualify": 49,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/4eBlA1L3VuQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ShakeNX",
+          "link": "https://www.youtube.com/watch?v=C8GVF5nprIQ",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Kind1e",
+          "link": "https://youtu.be/9XSDV-sPZPI",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/_VjJeMnE5OU",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "matt843",
+          "link": "https://youtu.be/bITviLrR0_E",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/eq-bDPQDNeM",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://youtu.be/PbbpdB6LmZ4",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/HeMtqZhtDto",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://www.youtube.com/watch?v=wdfRYWTaDTs",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
