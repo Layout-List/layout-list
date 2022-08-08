@@ -1,0 +1,61 @@
+{
+    "id": 74463343,
+    "name": "0am",
+    "author": "Blue7",
+    "creators": [
+      "Muon"
+    ],
+    "verifier": "Blue7",
+    "verification": "https://youtu.be/Hp-JpSRDzb8",
+    "percentToQualify": 50,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/Q_A7fj3H2-w",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/x30MFucxggU",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://youtu.be/UvNu7IofwCk",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/J_YEkjIulfY",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/HeMtqZhtDto",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/DNe8JHQGm68",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://youtu.be/TiJ2WFi4pPc",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Lev_Nix",
+          "link": "https://youtu.be/crtGajnqcYI",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
