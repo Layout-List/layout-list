@@ -1,0 +1,41 @@
+{
+    "id": 79952113,
+    "name": "Anotation",
+    "author": "Gwispy",
+    "creators": [],
+    "verifier": "rustic",
+    "verification": "https://youtu.be/plHaDMjPIOA",
+    "percentToQualify": 60,
+    "records": [
+        {
+          "user": "Nolli",
+          "link": "https://www.youtube.com/watch?v=bA6suh9zdRs",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://www.youtube.com/watch?v=3xtj6Egs5_U",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Vink",
+          "link": "https://www.youtube.com/watch?v=VCPAyXS_9Y4",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/NNXGTapDoOM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/fJGFRVfZCik",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
