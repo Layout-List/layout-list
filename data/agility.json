@@ -1,0 +1,49 @@
+{
+    "id": 79790842,
+    "name": "Agility",
+    "author": "DJJDK",
+    "creators": [
+      "SoullessEcho"
+    ],
+    "verifier": "DJJDK",
+    "verification": "https://youtu.be/CF4zPWJRXGU",
+    "percentToQualify": 56,
+    "records": [
+        {
+          "user": "rustic",
+          "link": "https://youtu.be/uSQvSrPFYFc",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ZBosGaming",
+          "link": "soon",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=7uQugv7sERA",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/Ux3F5eN0jJg",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ObvSilver",
+          "link": "https://youtu.be/X9y9wsG2dYg",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "agentgiscool",
+          "link": "https://www.youtube.com/watch?v=ChY9KIPchdo",
+          "percent": 100,
+          "hz": "Mobile"
+        }
+    ]
+}
