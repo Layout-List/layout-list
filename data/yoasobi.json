@@ -188,12 +188,6 @@
           "hz": "120
         },
         {
-          "user": "LimeDub",
-          "link": "https://www.youtube.com/watch?v=G9d579Vz8Ls",
-          "percent": "62",
-          "hz": 144
-        },
-        {
           "user": "Bluestone",
           "link": "https://youtu.be/d2_SA3mrWo4",
           "percent": 100,
@@ -214,19 +208,25 @@
         {
           "user": "Lucid",
           "link": "https://www.youtube.com/watch?v=09MeGSiLKro",
-          "percent": "92",
+          "percent": 92,
           "hz": 288
         },
         {
           "user": "Styx",
           "link": "https://youtu.be/XekJKTPNkXg",
-          "percent": "70",
+          "percent": 70,
           "hz": 240
+        },
+        {
+          "user": "LimeDub",
+          "link": "https://www.youtube.com/watch?v=G9d579Vz8Ls",
+          "percent": 62,
+          "hz": 144
         },
         {
           "user": "Sloudy",
           "link": "https://youtu.be/90TRWL-0h78",
-          "percent": "61",
+          "percent": 61,
           "hz": 288
         }
     ]
