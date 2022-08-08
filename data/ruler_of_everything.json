@@ -1,0 +1,77 @@
+{
+    "id": 72202989,
+    "name": "Ruler of Everything",
+    "author": "Salukis",
+    "creators": [],
+    "verifier": "xtyles",
+    "verification": "https://youtu.be/6LSr7uKA_0s",
+    "percentToQualify": 49,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/ry49jjlHZWE",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Solo12",
+          "link": "https://www.youtube.com/watch?v=awirCQNMVW4",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/CZoMGk1lhbw",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Fezzern",
+          "link": "https://www.youtube.com/watch?v=hPEStsUe6AQ",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/Udluu1WdnAM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/exQBU5B_1dU",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "theworldofme",
+          "link": "https://youtu.be/8hzuJi5YFbM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/Po7uLUmLJ7k",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/5DPRsUFdEMo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/DZ_ndqdR5Kw",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
