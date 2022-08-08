@@ -1,0 +1,55 @@
+{
+    "id": 76589973,
+    "name": "6pm",
+    "author": "Blue7",
+    "creators": [
+      "Muon"
+    ],
+    "verifier": "Blue7",
+    "verification": "https://youtu.be/QY5jCUNGzFw",
+    "percentToQualify": 49,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/LizWO7SGv9I",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Luk231",
+          "link": "https://www.youtube.com/watch?v=GPI3qMIIB3M",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/kIN9A6_knKg",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Lev_Nix",
+          "link": "https://youtu.be/Cuif_oyFT6E",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://www.youtube.com/watch?v=5H2HP0mEYK0",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Fawami",
+          "link": "https://youtu.be/y1Y5tSTFyvM",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/Ux3F5eN0jJg",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
