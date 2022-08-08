@@ -86,12 +86,6 @@
           "hz": 144
         },
         {
-          "user": "DJJDK",
-          "link": "soon",
-          "percent": "80",
-          "hz": 240
-        },
-        {
           "user": "EmeraldOre",
           "link": "https://www.youtube.com/watch?v=Y_PHb5mRHOc&t=18s",
           "percent": 100,
@@ -108,6 +102,12 @@
           "link": "https://www.youtube.com/watch?v=LSqC4waFbV8",
           "percent": 100,
           "hz": 144
+        },
+         {
+          "user": "DJJDK",
+          "link": "soon",
+          "percent": "80",
+          "hz": 240
         }
     ]
 }
