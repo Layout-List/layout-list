@@ -1,0 +1,41 @@
+{
+    "id": 77806122,
+    "name": "PPGD",
+    "author": "PILHA",
+    "creators": [],
+    "verifier": "PILHA",
+    "verification": "https://youtu.be/uTW2QPntV-Y",
+    "percentToQualify": 53,
+    "records": [
+        {
+          "user": "joaopedroo",
+          "link": "https://www.youtube.com/watch?v=otNPVeL7avI",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/gm91lQ7-mdk",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://youtu.be/mlLE45kt6NY",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=wpR02-YoFA4",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=qlAmoMqNzbc",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
