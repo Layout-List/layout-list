@@ -1,0 +1,60 @@
+{
+    "id": 72612321,
+    "name": "Tormenta ⭐",
+    "author": "BrazilTeam",
+    "creators": [],
+    "verifier": "Luyz",
+    "verification": "https://youtu.be/509Th77agCk",
+    "percentToQualify": 52,
+    "records": [
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/9lGBBBLRKYY",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://www.youtube.com/watch?v=YDteYJmGc6o",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/mrbjI-bz860",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "MiniWheatDuo",
+          "link": "https://www.youtube.com/watch?v=8UyKuh8_h7g",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/kShpugE9_to",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Lev_Nix",
+          "link": "https://youtu.be/edCCGsgBTwI",
+          //raw footage https://www.youtube.com/watch?v=UZG4CLodG98
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "leaf",
+          "link": "https://www.youtube.com/watch?v=X5tGq-sA5Bw",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+          "percent": 100,
+          "hz": 360
+        },
+    ]
+}
