@@ -9,6 +9,35 @@
     "verification": "https://youtu.be/o4zPMnJHC6E",
     "percentToQualify": 48,
     "records": [
-        
+        {
+          "user": "Fawami",
+          "link": "https://youtu.be/2BNEfM58_x0",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "rustic",
+          "link": "https://youtu.be/JzDXj3KkGnQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/qwFL6r5vzNE",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Blathers",
+          "link": "owner",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/NNXGTapDoOM",
+          "percent": 100,
+          "hz": 360
+        }
     ]
 }
