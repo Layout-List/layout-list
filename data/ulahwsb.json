@@ -1,0 +1,53 @@
+{
+    "id": 72071894,
+    "name": "ULaHWSB",
+    "author": "sqrtpie",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/mMVi6bntf80",
+    "percentToQualify": 59,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/SkTYu0_cJ98",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Kind1e",
+          "link": "https://youtu.be/HZ34useO7A8",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/5W4oahBCer4",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/w-HRZRoC_EQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/DNe8JHQGm68",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://www.youtube.com/watch?v=GZqhZHDHCAs",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
