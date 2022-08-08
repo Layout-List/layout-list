@@ -1,0 +1,53 @@
+{
+    "id": 74426934,
+    "name": "Bajox",
+    "author": "Bibox",
+    "creators": [],
+    "verifier": "rustic",
+    "verification": "https://youtu.be/G4DywBPUAKM",
+    "percentToQualify": 61,
+    "records": [
+        {
+          "user": "Bibox",
+          "link": "https://www.youtube.com/watch?v=AJq7vfmGZRQ",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/7eq4eKcWKAM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/zHK45V62Nwo",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/P84KjbKKB60",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/10CH9kJmZSE",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Flazyx",
+          "link": "https://youtu.be/atiPeDEW7-o",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
