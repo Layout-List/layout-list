@@ -1,0 +1,43 @@
+{
+    "id": 74131002,
+    "name": "Papermoon layout",
+    "author": "sqrtpie",
+    "creators": [
+      "ZBosGaming"
+    ],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/UtrSrOaa36E",
+    "percentToQualify": 50,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/pygSfdisXUA",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/agvwXU0vNJY",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "ImFinGD",
+          "link": "https://www.youtube.com/watch?v=7vvtORJ1XHc",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=Qx2uaxc3nFE",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/FX2NMVuZPmM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
