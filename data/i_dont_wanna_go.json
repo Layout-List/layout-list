@@ -1,1 +1,104 @@
-
+{
+    "id": 65949625,
+    "name": "Cruelty of Hope",
+    "author": "ZeroSR",
+    "creators": [
+        "Convie"
+    ],
+    "verifier": "ZeroSR",
+    "verification": "https://youtu.be/fyPqEFApPEs",
+    "percentToQualify": 53,
+    "password": "100418",
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://www.twitch.tv/videos/1129485336",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "sqrtpie 🏆",
+          "link": "https://youtu.be/jwK5rLP0AgY",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "lukecaz16",
+          "link": "https://youtu.be/bDKMuTr2c5g",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/meRugoNHIy8",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://www.youtube.com/watch?v=e1UhYMzmcgU",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/GI4Z00Op3pI",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "TheRealCave",
+          "link": "https://youtu.be/vaJI2BgXVXs",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://youtu.be/RS9dfKCgVw8",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Kuaikuai27",
+          "link": "https://youtu.be/y1IKPFqa5Nk",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/ouaAEyegzio",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "MiniWheatDuo",
+          "link": "https://youtu.be/cC4tYaLJFBA",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "JDK",
+          "link": "soon",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Blathers",
+          "link": "owner",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=sXn42Y5O6ck",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "TurtleER",
+          "link": "https://youtu.be/_xXqQkMjk50",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
