@@ -17,7 +17,7 @@
           "user": "weekend135",
           "link": "https://www.youtube.com/watch?v=vrsg0dWNhuA",
           "percent": 100,
-          "hz": "280
+          "hz": 280
         },
         {
           "user": "ZBosGaming",
@@ -112,7 +112,7 @@
         {
           "user": "DJJDK",
           "link": "https://youtu.be/a2E5qd2m5E4",
-          "percent": 60",
+          "percent": 60,
           "hz": 240
         }
     ]
