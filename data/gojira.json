@@ -1,0 +1,67 @@
+{
+    "id": 74822160,
+    "name": "Gojira",
+    "author": "lukecaz16",
+    "creators": [
+      "ZBosGaming"
+    ],
+    "verifier": "ZBosGaming",
+    "verification": "https://youtu.be/z3RrRY3K3Fc",
+    "percentToQualify": 54,
+    "records": [
+        {
+          "user": "lukecaz16",
+          "link": "https://www.youtube.com/watch?v=vhK-uCVxOFM",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Blathers",
+          "link": "https://www.youtube.com/watch?v=pI3NYmOryvk",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=VpMmwKXQUYw",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://www.youtube.com/watch?v=6zBnmmhgmBk",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=5hm6GOTSycE",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "CaioMD",
+          "link": "https://www.youtube.com/watch?v=_Kphjy-zDYU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "mrperson",
+          "link": "https://www.youtube.com/watch?v=NFiENW3vZm4",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=r1_372lSpdg",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/NNXGTapDoOM",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
