@@ -1,0 +1,59 @@
+{
+    "id": 66902221,
+    "name": "Just for the drop",
+    "author": "sqrtpie",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/7f65fqqo1Pg",
+    "percentToQualify": 55,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/Jo41B-fasoE",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Flazyx",
+          "link": "https://youtu.be/vgyL6ePhFF8",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/h3r1qKJGqyU",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/60sF0hkylqc",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/HeMtqZhtDto",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/DNe8JHQGm68",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/2P07g-C1EXo",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
