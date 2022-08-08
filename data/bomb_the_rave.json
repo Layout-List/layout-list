@@ -1,0 +1,59 @@
+{
+    "id": 71294919,
+    "name": "bomb the rave",
+    "author": "Sagascius",
+    "creators": [],
+    "verifier": "Sagascius",
+    "verification": "https://youtu.be/0VRCuVf_vs0",
+    "percentToQualify": 51,
+    "records": [
+        {
+          "user": "Blueskiii",
+          "link": "https://www.youtube.com/watch?v=5YPOqy3Rw7U",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "JDK",
+          "link": "https://www.youtube.com/watch?v=Wet5V-GRbvA",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425 🏆",
+          "link": "https://youtu.be/AtztkezVeck",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/vI9e_nV7me0",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "MiniWheatDuo",
+          "link": "https://youtu.be/g5W13JCC7OU",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=M35rwGGE67g",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "leaf",
+          "link": "https://youtu.be/omH81kh5NaY",
+          "percent": 100,
+          "hz": 107
+        }
+    ]
+}
