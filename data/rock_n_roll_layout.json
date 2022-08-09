@@ -1,0 +1,80 @@
+{
+    "id": 64788380,
+    "name": "Rock n Roll Layout",
+    "author": "Koopazu2",
+    "creators": [
+      "GiggsRH",
+      "Paardappels"
+    ],
+    "verifier": "Koopazu2",
+    "verification": "https://youtu.be/rDUOSHKOps4",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/IWxKRu6inpU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ZBosGaming",
+          "link": "https://www.youtube.com/watch?v=BakbJkFsZXY",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://youtu.be/gtatHXAc77A",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "matt843",
+          "link": "https://youtu.be/61-R9qrgcrU",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Sloudy",
+          "link": "https://youtu.be/eF5O46nvXPU",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Mistik",
+          "link": "https://www.youtube.com/watch?v=qAcbRIbx8Ko",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Culobdj",
+          "link": "https://www.youtube.com/watch?v=JZK_j-MTUvc",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://www.youtube.com/watch?v=l5YzM9-E4co",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=d2L4htTxEf0",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/5DPRsUFdEMo",
+          "percent": 100,
+          "hz": 288
+        }
+    ]
+}
