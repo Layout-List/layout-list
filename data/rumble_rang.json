@@ -1,0 +1,89 @@
+{
+    "id": 75226335,
+    "name": "Rumble Rang",
+    "author": "sqrtpie",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/HTtesEtmYrw",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/ZoFbyLQryu0",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Fezzern",
+          "link": "https://www.youtube.com/watch?v=RlyQtsVbm1s",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/Udluu1WdnAM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=UHPSTZioGXE",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=XfRfDkUeJoA",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/OPy8vCkcYcM",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/5DPRsUFdEMo",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/djR32QsmJNE",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/_CkVEJgN6iE",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/gDBJ4r2yBPI",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://youtu.be/QutohniCTJk",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "agentgiscool",
+          "link": "https://www.youtube.com/watch?v=izVLmjCjQiY",
+          "percent": 100,
+          "hz": "Mobile"
+        }
+    ]
+}
