@@ -1,0 +1,101 @@
+{
+    "id": 72773143,
+    "name": "Drugged Duck",
+    "author": "QuackerDeezles",
+    "creators": [],
+    "verifier": "QuackerDeezles",
+    "verification": "https://youtu.be/L-ZrBGg-iQ4",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "ZBosGaming",
+          "link": "https://www.youtube.com/watch?v=z58Hi_2YkdE",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://www.youtube.com/watch?v=PLi9ULaKQA4&t=1432",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/AGyMV1fxaOc",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Kind1e",
+          "link": "https://m.youtube.com/watch?v=-CcM4Z9c9CM&feature=youtu.be",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=SDOhxi9sfLw",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://m.youtube.com/watch?v=IRHhptg0vmo&t=135s",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/I2Y6JfXrug0",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=d2L4htTxEf0",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Fezzern",
+          "link": "https://youtu.be/38c_5TJL0xs",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=CmRed2uoRGE",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/q-NdrpkEW38",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/DNe8JHQGm68",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Disastrum",
+          "link": "https://youtu.be/2ogmF0Uxzfg",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "TurtleER",
+          "link": "https://youtu.be/AwuX4KeBqGs",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
