@@ -7,6 +7,77 @@
     "verification": "https://www.youtube.com/watch?v=DtnOBtPrt9k",
     "percentToQualify": 100,
     "records": [
-        
+        {
+          "user": "ZBosGaming",
+          "link": "https://youtu.be/mXkYdJp7-Fs",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/u4u7e7LEzds",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://youtu.be/DphuZGAQKtQ",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/sqEH_1lWz5w",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://www.youtube.com/watch?app=desktop&v=Rc00xVBlg5g",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/r9y76xe8oWg",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Fezzern",
+          "link": "https://youtu.be/lb01teif29c",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=xbD6uP-9jOU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "culobdj",
+          "link": "https://youtu.be/xJ6jbB1cVjw",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/djJhwWXHWeo",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/5DPRsUFdEMo",
+          "percent": 100,
+          "hz": 288
+        }
     ]
 }
