@@ -1,0 +1,41 @@
+{
+    "id": 59927315,
+    "name": "My Ordinary Life",
+    "author": "NaoSouDasher",
+    "creators": [],
+    "verifier": "NaoSouDasher",
+    "verification": "https://youtu.be/6K7C6zhBhP8",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/1oIiJFfCDlM",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/8uinWwZDysk",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "ZoidM",
+          "link": "https://www.youtube.com/watch?v=T9pNF7qBLPI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/QFPJ_9FuiEk",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
