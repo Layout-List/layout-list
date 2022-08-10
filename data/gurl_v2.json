@@ -1,0 +1,77 @@
+{
+    "id": 77397053,
+    "name": "GurL v2",
+    "author": "ToastyBois",
+    "creators": [],
+    "verifier": "ToastyBois",
+    "verification": "https://youtu.be/085iSe5Yyew",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/XpzP6JG-Q0Q",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/jr8n4LXs58I",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/sV96R8bFd4w",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/ouaAEyegzio",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/ovtZZM4IUWE",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/BpVSzaGArhA",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=ldAaw_lPbY4",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "IPRG",
+          "link": "https://www.youtube.com/watch?v=QBDGXbbOsGo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ZoidM",
+          "link": "https://www.youtube.com/watch?v=Dj8xqY3_G9c",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Flazyx",
+          "link": "https://www.youtube.com/watch?v=zW9s1vf1YxU",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
