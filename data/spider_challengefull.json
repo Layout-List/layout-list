@@ -1,0 +1,53 @@
+{
+    "id": 79439405,
+    "name": "spider challengefull",
+    "author": "benitree",
+    "creators": [],
+    "verifier": "benitree",
+    "verification": "https://youtu.be/d1ShYdmSgDY",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/GD0gVTAVoxU",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=qwFL6r5vzNE",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "agentgiscool",
+          "link": "https://www.youtube.com/watch?v=pjAMXQ2hxxI",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/Ux3F5eN0jJg",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Pivit",
+          "link": "https://youtu.be/tyuezEAlmtk",
+          "percent": 100,
+          "hz": 300
+        },
+        {
+          "user": "Thunderstorm36",
+          "link": "https://youtu.be/LdtsgEW8Cig",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "DartsyGD",
+          "link": "https://www.youtube.com/watch?v=UJZH4IIfpVk",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+    ]
+}
