@@ -1,0 +1,29 @@
+{
+    "id": 80688784,
+    "name": "Dancing Moonman ⭐",
+    "author": "XxJ0SHxX",
+    "creators": [],
+    "verifier": "XxJ0SHxX",
+    "verification": "https://youtu.be/6QZi39FK_dk",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/FX2NMVuZPmM",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ThePhoenix225",
+          "link": "https://www.youtube.com/watch?v=7TavCqNsDUQ",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/1xEwllGFnMU",
+          "percent": 100,
+          "hz": 60
+        }
+    ]
+}
