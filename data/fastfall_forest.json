@@ -1,0 +1,35 @@
+{
+    "id": 77798455,
+    "name": "FastFall Forest",
+    "author": "Chromanical",
+    "creators": [],
+    "verifier": "Chromanical",
+    "verification": "https://youtu.be/n3df83cnXTs",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/2RBhVVOLgfI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=_Nn6PEcW35c",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://www.youtube.com/watch?v=zLHsgnDoR_Q",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
