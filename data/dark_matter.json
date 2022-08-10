@@ -1,0 +1,73 @@
+{
+    "id": 61133016,
+    "name": "Dark Matter Layout",
+    "author": "Aconn",
+    "creators": [
+      "Natteboss"
+    ],
+    "verifier": "Natteboss",
+    "verification": "https://youtu.be/r7dMoajhxIk",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/OpKlMDLx3ZM",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Gusters",
+          "link": "https://www.youtube.com/watch?v=9yBJ-d88z-8",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/8aGXg_utTYA",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=ldAaw_lPbY4",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://www.youtube.com/watch?v=1AjXkjfYw7Q",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/5fV3zbPaEUU",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Solo12",
+          "link": "https://youtu.be/nJvlb4VILl8",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://www.youtube.com/watch?v=zLHsgnDoR_Q",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "DartsyGD",
+          "link": "https://youtu.be/0HR9_UhTwJM",
+          "percent": 100,
+          "hz": "Mobile"
+        }
+    ]
+}
