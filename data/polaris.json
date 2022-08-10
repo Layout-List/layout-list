@@ -1,0 +1,77 @@
+{
+    "id": 76300077,
+    "name": "Polaris",
+    "author": "EmeraldOre",
+    "creators": [],
+    "verifier": "EmeraldOre",
+    "verification": "https://youtu.be/z6g_8yntLaU",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/xVsm47yOUx0",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=sP34P9Q1EV4",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Gusters",
+          "link": "https://youtu.be/SYzmiC9rb9I",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "dynamicgmd",
+          "link": "https://youtu.be/2MYC0Bs71gM",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "MilkshakeGD",
+          "link": "https://www.youtube.com/watch?v=LfN_C0QgM3Q",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/sHEwlikFvw0",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Solo12",
+          "link": "https://youtu.be/JUDJ8oN--Zo",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "tobi",
+          "link": "https://youtu.be/ZKPQKNFnnGY",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://www.youtube.com/watch?v=zLHsgnDoR_Q",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "DartsyGD",
+          "link": "https://www.youtube.com/watch?v=Wdj92bSedBs",
+          "percent": 100,
+          "hz": "Mobile"
+        }
+    ]
+}
