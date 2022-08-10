@@ -1,0 +1,53 @@
+{
+    "id": 79246271,
+    "name": "NOW I DO",
+    "author": "Salukis",
+    "creators": [],
+    "verifier": "Solo12",
+    "verification": "https://youtu.be/BKzVUgpIGVg",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/bUxwpMXbdUA",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://youtu.be/3hJKUlJY_ug",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/pXn915-XI1M",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Blathers",
+          "link": "owner",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Xtyles",
+          "link": "https://youtu.be/OUk_5RIMGxw",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ZeLaND",
+          "link": "https://www.youtube.com/watch?v=G3jN8uLBMBw",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/Ux3F5eN0jJg",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
