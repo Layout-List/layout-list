@@ -1,0 +1,95 @@
+{
+    "id": 76246433,
+    "name": "Druggered Duck",
+    "author": "QuackerDeezles",
+    "creators": [],
+    "verifier": "QuackerDeezles",
+    "verification": "https://youtu.be/N7H8Wtna1ZM",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "culobdj",
+          "link": "https://youtu.be/L5WiaEYR-L4",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/uucKQnmuHB0",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Luk231",
+          "link": "https://youtu.be/43PUKF2h13g",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=HI0XStDT__w",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "MilkshakeGD",
+          "link": "https://www.youtube.com/watch?v=UoneP1fhMlo",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/v9da5LAf1Pw",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/5DPRsUFdEMo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=2qtqa5_9KV8",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "Gusters",
+          "link": "https://www.youtube.com/watch?v=7h9CqFfynD0",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/_LboYybRDWQ",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "AlexNoodlez",
+          "link": "https://www.youtube.com/watch?v=5vihQ19rfl8",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/SVwlqfOENOk",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "ThePhoenix225",
+          "link": "https://www.youtube.com/watch?v=2y2AvmQ-g8o",
+          "percent": 100,
+          "hz": 144
+        }
+    ]
+}
