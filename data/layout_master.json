@@ -1,0 +1,41 @@
+{
+    "id": 78435863,
+    "name": "Layout Master",
+    "author": "sqrtpie",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/kzgdFvxtuZY",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/iP_OGe9Ljb8",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/_D1xpeMlQUI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=gfLOq581o1k",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/WRgidj3JGUQ",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
