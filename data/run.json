@@ -1,0 +1,41 @@
+{
+    "id": 78353144,
+    "name": "Run ⭐",
+    "author": "Cdpre",
+    "creators": [],
+    "verifier": "Cdpre",
+    "verification": "https://youtu.be/3fyRZt4JJAo",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "soon",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/UpGKqvSSXzg",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Solo12",
+          "link": "https://youtu.be/pJeXntu6bvg",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://www.youtube.com/watch?v=zLHsgnDoR_Q",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        }
+    ]
+}
