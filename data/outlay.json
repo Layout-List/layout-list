@@ -1,0 +1,59 @@
+{
+    "id": 78455855,
+    "name": "Outlay ⭐",
+    "author": "foretoken",
+    "creators": [],
+    "verifier": "foretoken",
+    "verification": "https://youtu.be/aqxseUYJJRo",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/OCCM9QhXYak",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=KHQ7UX9sCAI",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Blathers",
+          "link": "https://www.youtube.com/watch?v=_row1ckXmKo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "jz5",
+          "link": "https://youtu.be/0Mm-oO9YvUE",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "rustic",
+          "link": "https://www.youtube.com/watch?v=gexfwB_Dldk",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "ZoidM",
+          "link": "https://www.youtube.com/watch?v=cMc75czRd7Q",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/Ux3F5eN0jJg",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=FkzzUpt30f0",
+          "percent": 100,
+          "hz": 120
+        }
+    ]
+}
