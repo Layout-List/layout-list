@@ -41,7 +41,7 @@
           "user": "matt843",
           "link": "https://www.youtube.com/watch?v=esu-4cjSGOU",
           "percent": 100,
-          "hz": "85
+          "hz": 85
         },
         {
           "user": "ThisGuyKreas",
@@ -59,7 +59,7 @@
           "user": "Gwispy",
           "link": "https://www.twitch.tv/videos/1213469611",
           "percent": 100,
-          "hz": "280
+          "hz": 280
         },
         {
           "user": "Fusion425",
@@ -102,12 +102,6 @@
           "link": "https://youtu.be/5DPRsUFdEMo",
           "percent": 100,
           "hz": 288
-        },
-        {
-          "user": "The47c",
-          "link": "https://www.youtube.com/watch?v=3GGmlbsLGpg",
-          "percent": 100,
-          "hz": "61
         },
         {
           "user": "jxiden",
