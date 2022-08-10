@@ -41,7 +41,7 @@
           "user": "matt843",
           "link": "https://youtu.be/YQqOjLIhMI8",
           "percent": 100,
-          "hz": "85
+          "hz": 85
         },
         {
           "user": "Mistik",
@@ -133,12 +133,6 @@
           "percent": 100,
           "hz": "Mobile"
         },
-        /*{(RAW FOOTAGE)
-          "user": "ZoidM",
-          "link": "https://youtu.be/hXDIOhROZiY",
-          "percent": 100,
-          "hz": 60
-        },*/
         {
           "user": "EmeraldOre",
           "link": "https://www.youtube.com/watch?v=VpLOlUBbaVg",
@@ -161,7 +155,7 @@
           "user": "The47c",
           "link": "https://www.youtube.com/watch?v=atnOOeDmJ6Y",
           "percent": 100,
-          "hz": "61
+          "hz": 61
         },
         {
           "user": "MoistyBoi",
