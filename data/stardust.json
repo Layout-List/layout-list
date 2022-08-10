@@ -1,0 +1,83 @@
+{
+    "id": 75933409,
+    "name": "Stardust",
+    "author": "EmeraldOre",
+    "creators": [],
+    "verifier": "rustic",
+    "verification": "https://youtu.be/YreciK2OwY0",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/6-9siebbAXU",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/w-HRZRoC_EQ",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/krFEt6ogNTs",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "culobdj",
+          "link": "https://www.youtube.com/watch?v=1UP-lzeITPs",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "EmeraldOre",
+          "link": "https://www.youtube.com/watch?v=1VGgLvayeaQ",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "MilkshakeGD",
+          "link": "https://www.youtube.com/watch?v=iRb9zLcxdAo",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/KMM3s9iraps",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/5DPRsUFdEMo",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Solo12",
+          "link": "https://www.youtube.com/watch?v=FMDhjTXhBTQ",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Santipront",
+          "link": "https://www.youtube.com/watch?v=8P7vSCbCnWY&ab_channel=Santipront",
+          "percent": 100,
+          "hz": 120
+        },
+        {
+          "user": "Gusters",
+          "link": "https://youtu.be/SYzmiC9rb9I",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/WRgidj3JGUQ",
+          "percent": 100,
+          "hz": "Mobile"
+        }
+    ]
+}
