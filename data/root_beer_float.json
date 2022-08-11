@@ -1,0 +1,77 @@
+{
+    "id": 77543011,
+    "name": "Root Beer Float",
+    "author": "NatteBoss",
+    "creators": [],
+    "verifier": "NatteBoss",
+    "verification": "https://youtu.be/ruV8cMFEc5E",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/apLmv2tZs-4",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
+          "percent": 100,
+          "hz": 288
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/0Q2LQ-Aw1tM",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/dWbP7O87uz0",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "MilkshakeGD",
+          "link": "https://www.youtube.com/watch?v=LfN_C0QgM3Q",
+          "percent": 100,
+          "hz": 165
+        },
+        {
+          "user": "Solo12",
+          "link": "https://www.youtube.com/watch?v=uJJood7uJEM",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "tobi",
+          "link": "https://www.youtube.com/watch?v=2fwNsLpK5qY",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://www.youtube.com/watch?v=zLHsgnDoR_Q",
+          "percent": 100,
+          "hz": "Mobile"
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/cmgkwWe0PYU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "Will",
+          "link": "https://youtu.be/5SUUuVXrTnI",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "DartsyGD",
+          "link": "https://youtu.be/zZ_tVb9iUJo",
+          "percent": 100,
+          "hz": "Mobile"
+        }
+    ]
+}
