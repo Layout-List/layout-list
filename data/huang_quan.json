@@ -6,6 +6,10 @@
     "verifier": "Fusion425",
     "verification": "https://youtu.be/JnJJh216c20",
     "percentToQualify": 55,
+    {
+    "song": "song name",
+    "link": "youtube.com"
+    },
     "records": [
         {
           "user": "rustic",
