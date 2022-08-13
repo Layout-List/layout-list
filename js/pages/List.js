@@ -58,7 +58,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Song</div>
-                            <p><a target="_blank" href="https://youtu.be/PGNiXGX2nLU">{{ level.song || '(insert song here)' }} </a></p>
+                            <p>{{ level.song || '(insert song here)' }} </a></p>
                         </li>
                     </ul>
                     <h2>Records</h2>
