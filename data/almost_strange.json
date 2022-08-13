@@ -24,6 +24,12 @@
           "link": "https://www.youtube.com/watch?v=6Sh5PDuICB0",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/8I3FUIgi2So",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }
