@@ -59,6 +59,7 @@ export default {
                         <li>
                             <div class="type-title-sm">Song</div>
                             <p>{{ level.song || '(insert song here)' }}</p>
+                            text.link("https://www.youtube.com")
                         </li>
                     </ul>
                     <h2>Records</h2>
