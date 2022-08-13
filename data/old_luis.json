@@ -43,6 +43,12 @@
           "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
           "percent": 100,
           "hz": 120
+        },
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/gIWRnDnQp94",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
