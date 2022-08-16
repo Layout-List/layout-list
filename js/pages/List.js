@@ -136,7 +136,7 @@ export default {
         list: [],
         editors: [],
         loading: true,
-        selected: 0,
+        selected: Math.floor(Math.random()*130),
         errors: [],
         roleIconMap,
         store,
