@@ -8,6 +8,11 @@
     "percentToQualify": 54,
     "song": "ラストチャプター - nano.RIPE",
     "records": [
-        
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/ry24Knveanw",
+          "percent": 100,
+          "hz": 360
+        }
     ]
 }
