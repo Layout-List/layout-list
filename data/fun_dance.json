@@ -350,6 +350,12 @@
           "link": "https://www.youtube.com/watch?v=Kiwj53lHaUY",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "Death2you",
+          "link": "https://youtu.be/cQyhwGJh-mY",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }
