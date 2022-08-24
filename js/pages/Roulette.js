@@ -112,6 +112,7 @@ export default {
         showRemaining: false,
         useMainList: true,
         useExtendedList: true,
+        useLegacyList: true,
         toasts: [],
         fileInput: undefined,
     }),
@@ -167,13 +168,13 @@ export default {
                 return;
             }
 
-            if (!this.useMainList && !this.useExtendedList) {
+            if (!this.useMainList && !this.useExtendedList && !this.useLegacyList) {
                 return;
             }
 
             this.loading = true;
 
-            const fullList = await fetchList();
+            let fullList = await fetchList();
 
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
@@ -182,9 +183,9 @@ export default {
                 );
                 return;
             }
-
+            fullList = fullList.filter(level=>level['comparisonlevel']!==true);
             const fullListMapped = fullList.map(([lvl, _], i) => ({
-                rank: i + 1,
+                rank: lvl['position'] + 1,
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
@@ -193,6 +194,9 @@ export default {
             if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
             if (this.useExtendedList) {
                 list.push(...fullListMapped.slice(75, 150));
+            }
+            if (this.useLegacyList) {
+                list.push(...fullListMapped.slice(150));
             }
 
             // random 100 levels

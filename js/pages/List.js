@@ -25,8 +25,9 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
+                            <p v-if="level.comparisonlevel===true" class="type-label-lg">#-</p>
+                            <p v-else-if="level.position+1 <= 150" class="type-label-lg">#{{ level.position+1 }}</p>
+                            <p v-else class="type-label-lg" style="color:darkgrey">#{{ level.position+1 }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
@@ -43,8 +44,8 @@ export default {
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">List Score (100%)</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
+                            <div class="type-title-sm">Points when completed</div>
+                            <p>{{ score(level.position + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -52,17 +53,11 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
-                    </ul>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Song</div>
-                            <p>{{ level.song || '(insert song here)' }} </a></p>
+                            <p>{{ level.password || 'Free to copy' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 150"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-if="level.position + 1 <= 150"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -74,9 +69,6 @@ export default {
                             </td>
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
-                            </td>
-                            <td class="hz">
-                                <p>{{ record.hz }}FPS</p>
                             </td>
                         </tr>
                     </table>
@@ -91,7 +83,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
+                        <p class="type-label-md">Website layout on <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>.</p>
                     </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
@@ -117,9 +109,6 @@ export default {
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
-                    </p>
-                    <p>
                         Do not use secret routes or bug routes
                     </p>
                     <p>
@@ -136,8 +125,9 @@ export default {
         list: [],
         editors: [],
         loading: true,
-        selected: Math.floor(Math.random()*130),
+        selected: 0,
         errors: [],
+        listlevels: 0,
         roleIconMap,
         store,
     }),
