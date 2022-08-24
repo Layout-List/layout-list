@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="level.comparisonlevel===true" class="type-label-lg">#-</p>
+                            <p v-if="level['comparisonlevel']===true" class="type-label-lg">#-</p>
                             <p v-else-if="level.position+1 <= 150" class="type-label-lg">#{{ level.position+1 }}</p>
                             <p v-else class="type-label-lg" style="color:darkgrey">#{{ level.position+1 }}</p>
                         </td>
