@@ -168,13 +168,13 @@ export default {
                 return;
             }
 
-            if (!this.useMainList && !this.useExtendedList && !this.useLegacyList) {
+            if (!this.useMainList && !this.useExtendedList) {
                 return;
             }
 
             this.loading = true;
 
-            let fullList = await fetchList();
+            const fullList = await fetchList();
 
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
@@ -183,9 +183,9 @@ export default {
                 );
                 return;
             }
-            fullList = fullList.filter(level=>level['comparisonlevel']!==true);
+
             const fullListMapped = fullList.map(([lvl, _], i) => ({
-                rank: lvl['position'] + 1,
+                rank: i + 1,
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
