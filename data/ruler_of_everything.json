@@ -73,6 +73,12 @@
           "link": "https://youtu.be/DZ_ndqdR5Kw",
           "percent": 100,
           "hz": 240
+        },
+        {
+          "user": "ZeLaND",
+          "link": "https://www.youtube.com/watch?v=a_PlzTj2uIU",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }
