@@ -55,6 +55,12 @@ export default {
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <div class="type-title-sm">Song</div>
+                            <p>{{ level.song || 'inser here' }}</p>
+                        </li>
+                    </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 150"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
