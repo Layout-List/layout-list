@@ -20,6 +20,11 @@
     "percentToQualify": 55,
     "song": "DanJohansen - Synergetic Enigma",
     "records": [
-        
+        {
+          "user": "qb1",
+          "link": "https://youtu.be/rW6ZZbn6Kzk",
+          "percent": 100,
+          "hz": 240
+        },
     ]
 }
