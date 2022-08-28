@@ -14,6 +14,12 @@
           "link": "soon",
           "percent": 100,
           "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://www.youtube.com/watch?v=sZNUhStE1as",
+          "percent": 100,
+          "hz": 144
         }
     ]
 }
