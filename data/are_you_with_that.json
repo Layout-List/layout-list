@@ -74,6 +74,12 @@
           "link": "https://www.youtube.com/watch?v=wdfRYWTaDTs",
           "percent": 100,
           "hz": 144
+        },
+        {
+          "user": "Papas",
+          "link": "https://www.youtube.com/watch?v=BFPpD8WGMzQ",
+          "percent": 100,
+          "hz": 180
         }
     ]
 }
