@@ -32,6 +32,12 @@
           "link": "https://youtu.be/3pmCudUyW1U",
           "percent": 100,
           "hz": 144
+        },
+        {
+          "user": "Shakespeare",
+          "link": "https://www.youtube.com/watch?v=XVW--ixiJfM",
+          "percent": 100,
+          "hz": 120
         }
     ]
 }
