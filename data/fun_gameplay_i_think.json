@@ -98,6 +98,12 @@
           "link": "https://www.youtube.com/watch?v=QBDGXbbOsGo",
           "percent": 100,
           "hz": 288
+        },
+        {
+          "user": "Shakespeare",
+          "link": "https://www.youtube.com/watch?v=VDKSO12WAAI",
+          "percent": 100,
+          "hz": 120
         }
     ]
 }
