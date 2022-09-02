@@ -153,6 +153,12 @@
           "link": "https://youtu.be/OEQfFJXKDRU",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "TurtlesdoHurtles",
+          "link": "https://www.youtube.com/watch?v=3G3T-mm-j5w",
+          "percent": 100,
+          "hz": "240"
         }
     ]
 }
