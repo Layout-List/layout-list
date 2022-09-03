@@ -113,12 +113,6 @@
           "hz": "Mobile"
         },
         {
-          "user": "TurtleER",
-          "link": "https://youtu.be/HTGBu80aHIM",
-          "percent": 100,
-          "hz": 144
-        },
-        {
           "user": "Vairuz",
           "link": "https://www.youtube.com/watch?v=N_ni4rAEMgQ",
           "percent": 100,
@@ -129,6 +123,12 @@
           "link": "https://www.youtube.com/watch?v=59CuNPwcEpk",
           "percent": 100,
           "hz": 165
+        },
+        {
+          "user": "NotMuch",
+          "link": "https://youtu.be/6YH82tcxA3Y",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }
