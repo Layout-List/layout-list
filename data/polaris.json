@@ -91,6 +91,13 @@
           "link": "https://www.youtube.com/watch?v=QIv7c2laeoc",
           "percent": 100,
           "hz": "Mobile"
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=oKfVCwUMR30",
+          "percent": 100,
+          "hz": 360  
         }
     ]
 }
+
