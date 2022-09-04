@@ -349,6 +349,13 @@
           "link": "https://www.youtube.com/watch?v=aJz8UcwD3B4",
           "percent": 100,
           "hz": "60"
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=EqHf_sADFp0",
+          "percent": 100,
+          "hz": 360  
         }
     ]
 }
+
