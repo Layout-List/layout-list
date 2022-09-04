@@ -224,6 +224,13 @@
           "link": "https://www.youtube.com/watch?v=pTFQoNWh3wI",
           "percent": 100,
           "hz": "Mobile"
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=bt8gHMRPjIY",
+          "percent": 100,
+          "hz": 60  
         }
     ]
 }
+
