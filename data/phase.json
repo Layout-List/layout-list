@@ -9,7 +9,17 @@
     "verification": "https://youtu.be/XTLBQxJ0ETo",
     "percentToQualify": 55,
     "song": "song",
-    "records": [
-        
+    "records": [      
+        {
+          "user": "CaioMD ",
+          "link": "https://youtu.be/QwYL46a0y8M",
+          "percent": 100,
+          "hz": 360  
+        }
     ]
 }
+
+       
+
+
+
