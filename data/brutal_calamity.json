@@ -8,7 +8,13 @@
     "percentToQualify": 53,
     "song": "DM DOKURO - Stained, Brutal Calamity",
     "records": [
-            {
+        {
+          "user": "rustic",
+          "link": "trust me",
+          "percent": 65,
+          "hz": 360  
+        },
+        {
           "user": "Dom_Luca",
           "link": "https://www.youtube.com/watch?v=GHn_s85s7YI",
           "percent": 64,
