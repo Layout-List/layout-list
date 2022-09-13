@@ -445,6 +445,12 @@
           "link": "https://www.youtube.com/watch?v=kQRgk-mEiO4",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "shrridex",
+          "link": "https://www.youtube.com/watch?v=6_P7iVNLmnY",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
