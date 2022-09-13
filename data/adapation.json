@@ -230,6 +230,12 @@
           "link": "https://www.youtube.com/watch?v=bt8gHMRPjIY",
           "percent": 100,
           "hz": 60  
+        },
+        {
+          "user": "ItsTostYT",
+          "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
