@@ -253,6 +253,12 @@
           "link": "https://www.youtube.com/watch?v=h7g_Q3aVzlI",
           "percent": 100,
           "hz": "60"
+        },
+        {
+          "user": "TurtlesdoHurdles",
+          "link": "https://www.youtube.com/watch?v=kQRgk-mEiO4",
+          "percent": 100,
+          "hz": 300
         }
     ]
 }
