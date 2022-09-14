@@ -77,6 +77,12 @@
           "link": "https://youtu.be/5DPRsUFdEMo",
           "percent": 100,
           "hz": 288
+        },
+        {
+          "user": "Shakespeare",
+          "link": "https://youtu.be/KwxQDkKz9Mo",
+          "percent": 100,
+          "hz": "Mobile 120"
         }
     ]
 }
