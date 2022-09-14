@@ -202,6 +202,18 @@
           "hz": 144
         },
         {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=GlTfP5PKawU",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "pixer",
+          "link": "https://youtu.be/t1xV0B7Z2jE",
+          "percent": 98,
+          "hz": 144
+        },
+        {
           "user": "Lucid",
           "link": "https://www.youtube.com/watch?v=09MeGSiLKro",
           "percent": 92,
@@ -224,12 +236,8 @@
           "link": "https://youtu.be/90TRWL-0h78",
           "percent": 61,
           "hz": 288
-        },
-        {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=GlTfP5PKawU",
-          "percent": 100,
-          "hz": 360
         }
+        
+        
     ]
 }
