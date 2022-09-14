@@ -379,6 +379,12 @@
           "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "ArsonnFrog",
+          "link": "https://www.youtube.com/watch?v=4E150XFzxJY&ab_channel=ArsonnFrog",
+          "percent": 100,
+          "hz": 144
         }
     ]
 }
