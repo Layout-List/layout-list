@@ -92,6 +92,12 @@
           "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "Emmet",
+          "link": "https://youtu.be/W93MET_eOgY",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }
