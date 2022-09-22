@@ -211,6 +211,24 @@
           "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "Enigma",
+          "link": "https://youtu.be/Zed2cjRDcuQ",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Pr0Gamer1192",
+          "link": "https://www.youtube.com/watch?v=Q1QQmjYE2LY",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "Suyoshimaster07",
+          "link": "https://youtu.be/hnXtX1jn1R8",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }

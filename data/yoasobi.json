@@ -208,6 +208,12 @@
           "hz": 360
         },
         {
+          "user": "Ordacan",
+          "link": "https://youtu.be/LNkdKMsU6iE",
+          "percent": 100,
+          "hz": 360
+        },
+        {
           "user": "pixer",
           "link": "https://youtu.be/t1xV0B7Z2jE",
           "percent": 98,
@@ -218,6 +224,12 @@
           "link": "https://www.youtube.com/watch?v=09MeGSiLKro",
           "percent": 92,
           "hz": 288
+        },
+        {
+          "user": "ItsTostYT",
+          "link": "https://www.youtube.com/watch?v=PQl8LWBimYo",
+          "percent": 76,
+          "hz": 240
         },
         {
           "user": "Styx",
@@ -237,7 +249,5 @@
           "percent": 61,
           "hz": 288
         }
-        
-        
     ]
 }

@@ -109,6 +109,18 @@
           "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "Pr0Gamer1192",
+          "link": "https://www.youtube.com/watch?v=Ay31sI3ACsA",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "ImRathirX",
+          "link": "https://youtu.be/Jbi7mHgqHfY",
+          "percent": 100,
+          "hz": "Mobile"
         }
     ]
 }

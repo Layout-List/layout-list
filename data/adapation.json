@@ -236,6 +236,12 @@
           "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "Enigma",
+          "link": "https://youtu.be/0fZIlcj-QiY",
+          "percent": 100,
+          "hz": 240
         }
     ]
 }
