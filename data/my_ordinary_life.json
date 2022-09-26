@@ -49,6 +49,12 @@
           "link": "https://www.youtube.com/watch?v=iORxEn8Fi0s",
           "percent": 100,
           "hz": "Mobile"
+        },
+        {
+          "user": "ArctiixPaladin",
+          "link": "https://www.youtube.com/watch?v=FHs00q1UnJU",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
