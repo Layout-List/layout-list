@@ -97,7 +97,13 @@
           "user": "Emmet",
           "link": "https://youtu.be/W93MET_eOgY",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60"
+        },
+        {
+          "user": "Pageyt",
+          "link": "https://www.youtube.com/watch?v=w0f967_lU5k",
+          "percent": 100,
+          "hz": "60"
         }
     ]
 }
