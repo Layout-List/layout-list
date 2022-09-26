@@ -55,6 +55,12 @@
           "link": "https://www.youtube.com/watch?v=FHs00q1UnJU",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "pixer",
+          "link": "https://www.youtube.com/watch?v=23UJ6YSTme8",
+          "percent": 100,
+          "hz": 240
         }
     ]
 }
