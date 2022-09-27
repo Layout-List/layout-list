@@ -29,7 +29,8 @@
           "user": "MiniWheatDuo",
           "link": "https://www.youtube.com/watch?v=8UyKuh8_h7g",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "MoistyBoi",
@@ -40,7 +41,6 @@
         {
           "user": "Lev_Nix",
           "link": "https://youtu.be/edCCGsgBTwI",
-          //raw footage https://www.youtube.com/watch?v=UZG4CLodG98
           "percent": 100,
           "hz": 144
         },
