@@ -16,6 +16,26 @@
     },
     {
         "role": "admin",
+        "name": "Gwisp",
+        "link": ""
+    },
+    {
+        "role": "helper",
+        "name": "EmeraldOre",
+        "link": ""
+    },
+    {
+        "role": "helper",
+        "name": "Ryoui",
+        "link": "https://www.youtube.com/channel/UCiRwGQ3dZLCY7NBKmNn2mwA"
+    },
+    {
+        "role": "helper",
+        "name": "jz5",
+        "link": "https://www.youtube.com/channel/UCiRwGQ3dZLCY7NBKmNn2mwA"
+    },
+    {
+        "role": "helper",
         "name": "Disastrum",
         "link": "https://www.youtube.com/channel/UCiRwGQ3dZLCY7NBKmNn2mwA"
     },
