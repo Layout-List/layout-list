@@ -46,6 +46,12 @@
           "link": "https://www.youtube.com/watch?v=2bQmJIdzRTY",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/OUl2jzj9SVo",
+          "percent": 100,
+          "hz": "360"
         }
     ]
 }
