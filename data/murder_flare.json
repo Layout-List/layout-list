@@ -8,6 +8,11 @@
     "percentToQualify": 54,
     "song": "KORDHELL - Murder In My Mind",
     "records": [
-        
+        {
+          "user": "ShimzyZE",
+          "link": "https://youtu.be/PW9j8xXKjS0",
+          "percent": 100,
+          "hz": 360
+        }
     ]
 }
