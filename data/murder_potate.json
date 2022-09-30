@@ -8,6 +8,11 @@
     "percentToQualify": 67,
     "song": "KORDHELL - Murder In My Mind",
     "records": [
-        
+        {
+          "user": "Emeralff",
+          "link": "https://youtu.be/ZIuQUImTiKo",
+          "percent": 100,
+          "hz": 240
+        }
     ]
 }
