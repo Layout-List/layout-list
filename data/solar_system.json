@@ -1,0 +1,17 @@
+{
+    "id": 83934922,
+    "name": "Solar System",
+    "author": "ZeLaND",
+    "creators": [],
+    "verifier": "ZeLaND",
+    "verification": "https://youtu.be/3Ks9jdIKbeM",
+    "percentToQualify": 100,
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "owner",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
