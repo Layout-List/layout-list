@@ -58,7 +58,8 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Song</div>
-                            <p>{{ level.song || 'inser here' }}</p>
+                            songLink
+                            <p><a :href="(level.songLink===undefined)?'#':level.songLink">{{ level.song || 'insert here' }}</a></p>
                         </li>
                     </ul>
                     <h2>Records</h2>
