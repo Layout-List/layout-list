@@ -397,6 +397,13 @@
           "link": "https://youtu.be/ao8eziZNm68",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "ImRathirX ",
+          "link": "https://www.youtube.com/watch?v=5MOZ9K7Y6U4",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
         }
     ]
 }
