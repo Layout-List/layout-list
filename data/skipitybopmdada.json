@@ -91,7 +91,14 @@
           "user": "ZeLanD",
           "link": "https://www.youtube.com/watch?v=tTc4txOmn4E",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
+        },
+        {
+          "user": "Nooob07",
+          "link": "https://youtu.be/9wRYUQ334w4",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
