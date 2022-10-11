@@ -189,7 +189,8 @@
           "user": "ThisGuyKreas",
           "link": "https://www.youtube.com/watch?app=desktop&v=yG3gst6k5Sw&t=4s",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "danielvess555",
