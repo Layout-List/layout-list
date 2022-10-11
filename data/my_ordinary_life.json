@@ -61,13 +61,13 @@
           "link": "https://www.youtube.com/watch?v=23UJ6YSTme8",
           "percent": 100,
           "hz": 240
-        }/*,
+        },
         {
           "user": "Pageyt",
           "link": "insert",
           "percent": 100,
           "hz": 60,
           "mobile": true
-        }*/
+        }
     ]
 }
