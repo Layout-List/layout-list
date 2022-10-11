@@ -104,6 +104,12 @@
           "link": "https://www.youtube.com/watch?v=VDKSO12WAAI",
           "percent": 100,
           "hz": 120
+        },
+        {
+          "user": "Xyan",
+          "link": "https://youtu.be/X9QUdZ-KgnA",
+          "percent": 100,
+          "hz": 75
         }
     ]
 }
