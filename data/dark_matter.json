@@ -68,7 +68,8 @@
           "user": "DartsyGD",
           "link": "https://youtu.be/0HR9_UhTwJM",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "bonqueque",
