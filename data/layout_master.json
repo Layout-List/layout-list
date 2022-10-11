@@ -49,6 +49,12 @@
           "link": "https://youtu.be/tga7QRJxxcA",
           "percent": 100,
           "hz": 240
+        },
+        {
+          "user": "dunix",
+          "link": "https://www.youtube.com/watch?v=WmMk-e22jlc",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
