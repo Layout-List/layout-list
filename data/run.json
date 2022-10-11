@@ -61,6 +61,12 @@
           "link": "https://www.youtube.com/watch?v=XQH6gvPsaHc",
           "percent": 100,
           "hz": 360  
+        },
+        {
+          "user": "MoistyBoi",
+          "link": "https://youtu.be/53ktKV45MR8",
+          "percent": 100,
+          "hz": "288"
         }
     ]
 }
