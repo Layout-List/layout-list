@@ -76,9 +76,10 @@
           "mobile": true
         },
         {
-        "user": "dunix",
+          "user": "dunix",
           "link": "https://youtu.be/HHCZXs7zh8M",
           "percent": 100,
-          "hz": 60
+          "hz": 60,
+        }
     ]
 }
