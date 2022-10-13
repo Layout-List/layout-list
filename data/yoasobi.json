@@ -79,7 +79,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/qVlF0JqRI_Q",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "rustic",
