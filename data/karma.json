@@ -62,7 +62,8 @@
           "user": "MiniWheatDuo",
           "link": "https://youtu.be/-1jhNHSrYMY",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "CaioMD",
