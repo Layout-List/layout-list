@@ -9,6 +9,17 @@
     "password": "82822",
     "song": "1f1n1ty - 01 Square (Gem Setter OST)",
     "records": [
-        
+        {
+          "user": "Blathers",
+          "link": "owner",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "DJJDK",
+          "link": "owner",
+          "percent": 100,
+          "hz": 240
+        }
     ]
 }
