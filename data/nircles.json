@@ -69,7 +69,8 @@
           "user": "lMystikl",
           "link": "https://youtu.be/Gp63q9DBAX8",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "culobdj",
@@ -87,7 +88,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/MMel0p9zFr8",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Fusion425",
