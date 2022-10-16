@@ -39,6 +39,12 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "Nooob07",
+          "link": "https://www.youtube.com/watch?v=cShNXJpI6kA",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
