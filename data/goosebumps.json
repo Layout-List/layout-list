@@ -30,13 +30,15 @@
           "user": "ShakeNX",
           "link": "https://youtu.be/LLw3wtXWl8I",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Luk231",
           "link": "https://youtu.be/bjqgp3EkVgg",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "danielvess555",
