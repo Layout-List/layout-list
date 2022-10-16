@@ -75,7 +75,8 @@
           "user": "lMystikl",
           "link": "https://youtu.be/KMM3s9iraps",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Dom_Luca",
@@ -93,7 +94,8 @@
           "user": "agentgiscool",
           "link": "https://www.youtube.com/watch?v=ChY9KIPchdo",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "pixer",
