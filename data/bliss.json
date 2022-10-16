@@ -80,7 +80,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/mK5b8F_Mksw",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Fusion425",
@@ -104,13 +105,15 @@
           "user": "MiniWheatDuo",
           "link": "https://youtu.be/V76AR3uOpV8",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "ShakeNX",
           "link": "https://youtu.be/kBvu0v7geUY",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Matthlew",
