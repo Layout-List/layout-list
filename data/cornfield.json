@@ -45,6 +45,12 @@
           "link": "https://www.youtube.com/watch?v=f_LhOWz8ZlM",
           "percent": 100,
           "hz": 360  
+        },
+        {
+          "user": "Nooob07",
+          "link": "https://www.youtube.com/watch?v=cShNXJpI6kA",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
