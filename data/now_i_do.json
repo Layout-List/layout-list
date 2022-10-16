@@ -43,7 +43,8 @@
           "user": "ZeLaND",
           "link": "https://www.youtube.com/watch?v=G3jN8uLBMBw",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Armani",
