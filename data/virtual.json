@@ -66,13 +66,15 @@
           "user": "lMystikl",
           "link": "https://youtu.be/Po7uLUmLJ7k",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "agentgiscool",
           "link": "https://www.youtube.com/watch?v=pjAMXQ2hxxI",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "ObvSilver",
