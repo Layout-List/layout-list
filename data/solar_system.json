@@ -25,6 +25,13 @@
           "link": "https://youtu.be/RgC-FOCGwe4",
           "percent": 100,
           "hz": 144  
+        },
+        {
+          "user": "Pageyt",
+          "link": "https://www.youtube.com/watch?v=4n6v188Tmmw",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
         }
     ]
 }
