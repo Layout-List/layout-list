@@ -37,7 +37,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/y0Hu-jgyxm8",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Lev_Nix",
@@ -73,7 +74,8 @@
           "user": "Zanatis ",
           "link": "https://www.youtube.com/watch?v=X47mBi3nTIw",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 120,
+          "mobile": true
         }
     ]
 }
