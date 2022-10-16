@@ -91,7 +91,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/1b5u3VNsqKo",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Armani",
@@ -109,7 +110,8 @@
           "user": "MiniWheatDuo",
           "link": "https://youtu.be/k8ogD-aqoC0",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "MoistyBoi",
