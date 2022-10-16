@@ -111,6 +111,12 @@
           "link": "soon",
           "percent": "80",
           "hz": 240
+        },
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/o8nRKc5Jxow",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
