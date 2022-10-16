@@ -44,7 +44,8 @@
           "user": "agentgiscool",
           "link": "https://www.youtube.com/watch?v=ChY9KIPchdo",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "mrperson",
