@@ -57,7 +57,8 @@
           "user": "DartsyGD",
           "link": "https://www.youtube.com/watch?v=SitTq4kgVbU",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "pixer",
