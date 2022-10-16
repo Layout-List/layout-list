@@ -12,7 +12,8 @@
           "user": "lMystikl",
           "link": "https://youtu.be/3n4GJeWAfhg",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "DJJDK",
