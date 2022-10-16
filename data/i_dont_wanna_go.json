@@ -75,7 +75,8 @@
           "user": "MiniWheatDuo",
           "link": "https://youtu.be/cC4tYaLJFBA",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "DJJDK",
