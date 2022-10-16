@@ -31,13 +31,15 @@
           "user": "lMystikl",
           "link": "https://youtu.be/vI9e_nV7me0",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "MiniWheatDuo",
           "link": "https://youtu.be/g5W13JCC7OU",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "EmeraldOre",
