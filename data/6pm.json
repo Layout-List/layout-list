@@ -22,7 +22,7 @@
           "user": "Luk231",
           "link": "https://www.youtube.com/watch?v=GPI3qMIIB3M",
           "percent": 100,
-          "hz": 60
+          "hz": 60,
           "mobile": true
         },
         {
@@ -71,7 +71,7 @@
           "user": "Shakespeare ",
           "link": "https://www.youtube.com/watch?v=qEVDslvxnXI",
           "percent": 50,
-          "hz": 60
+          "hz": 60,
           "mobile": true
         }
     ]
