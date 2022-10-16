@@ -18,13 +18,15 @@
           "user": "Luk231",
           "link": "https://youtu.be/tUEKbg18sBw",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "lMystikl",
           "link": "https://youtu.be/KMM3s9iraps",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Nano",
