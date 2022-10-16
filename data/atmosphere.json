@@ -30,7 +30,8 @@
           "user": "ThisGuyKreas",
           "link": "https://www.youtube.com/watch?app=desktop&v=bh2BG8EPPzA",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60
+          "mobile": true
         },
         {
           "user": "rustic",
@@ -54,7 +55,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/HWFkKoKgGjA",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60
+          "mobile": true
         },
         {
           "user": "Armani",
