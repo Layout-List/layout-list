@@ -137,6 +137,12 @@
           "link": "https://www.youtube.com/watch?v=7t85bKuQX6M",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://www.youtube.com/watch?v=6aMgamSHs1g",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
