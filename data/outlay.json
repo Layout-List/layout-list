@@ -60,7 +60,8 @@
           "user": "ThisGuyKreas",
           "link": "https://youtu.be/8I3FUIgi2So",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60",
+          "mobile": true
         },
         {
           "user": "zDarkHTR",
