@@ -68,10 +68,10 @@
           "hz": 360  
         },
         {
-          "user": "Shakespeare ",
+          "user": "Shakespeare",
           "link": "https://www.youtube.com/watch?v=qEVDslvxnXI",
           "percent": 50,
-          "hz": 60,
+          "hz": 120,
           "mobile": true
         }
     ]
