@@ -114,7 +114,8 @@
           "user": "ThisGuyKreas",
           "link": "https://youtu.be/suzdf4QQbMo",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Flazyx",
