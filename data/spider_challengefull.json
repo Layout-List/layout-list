@@ -24,7 +24,8 @@
           "user": "agentgiscool",
           "link": "https://www.youtube.com/watch?v=pjAMXQ2hxxI",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60",
+          "mobile": true
         },
         {
           "user": "Armani",
@@ -48,7 +49,8 @@
           "user": "DartsyGD",
           "link": "https://www.youtube.com/watch?v=UJZH4IIfpVk",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60",
+          "mobile": true
         },
         {
           "user": "mrperson",
