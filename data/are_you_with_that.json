@@ -19,7 +19,8 @@
           "user": "ShakeNX",
           "link": "https://www.youtube.com/watch?v=C8GVF5nprIQ",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60
+          "mobile": true
         },
         {
           "user": "Kind1e",
@@ -31,7 +32,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/_VjJeMnE5OU",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60
+          "mobile": true
         },
         {
           "user": "matt843",
