@@ -127,6 +127,12 @@
           "link": "https://www.youtube.com/watch?v=peJV8t1c8Ww",
           "percent": 100,
           "hz": "60"
+        },
+        {
+          "user": "ArctiixPaladin",
+          "link": "https://www.youtube.com/watch?v=f_LhOWz8ZlM",
+          "percent": 100,
+          "hz": 360  
         }
     ]
 }
