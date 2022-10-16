@@ -24,13 +24,15 @@
           "user": "lMystikl",
           "link": "https://youtu.be/eR5XbOKJBGc",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Luk231",
           "link": "https://youtu.be/U1DfBVjwqfo",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "ShimzyZE",
