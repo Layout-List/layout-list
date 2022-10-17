@@ -24,7 +24,8 @@
           "user": "Luk231",
           "link": "https://youtu.be/43PUKF2h13g",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60",
+          "mobile": true
         },
         {
           "user": "Fusion425",
@@ -48,7 +49,8 @@
           "user": "lMystikl",
           "link": "https://youtu.be/KMM3s9iraps",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60",
+          "mobile": true
         },
         {
           "user": "Armani",
@@ -84,7 +86,8 @@
           "user": "ThisGuyKreas",
           "link": "https://youtu.be/SVwlqfOENOk",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": "60",
+          "mobile": true
         },
         {
           "user": "ThePhoenix225",
