@@ -76,10 +76,22 @@
           "percent": 100,
           "hz": 360
         },
-      {
+        {
           "user": "ZBosGaming",
           "link": "https://www.twitch.tv/videos/1179750397",
           "percent": 57,
+          "hz": 360
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://www.youtube.com/watch?v=12X-AP1n-Og",
+          "percent": 100,
+          "hz": 360
+        },
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/p8_S7vYpFgI",
+          "percent": 100,
           "hz": 360
         }
     ]
