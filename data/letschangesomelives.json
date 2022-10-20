@@ -140,6 +140,12 @@
           "link": "https://youtu.be/u1US2WMyLlI",
           "percent": 100,
           "hz": "60"
+        },
+        {
+          "user": "H3lpFul",
+          "link": "https://www.youtube.com/watch?v=FU6lpX66LoY",
+          "percent": 100,
+          "hz": 360  
         }
     ]
 }
