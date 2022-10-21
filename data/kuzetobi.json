@@ -143,6 +143,12 @@
           "link": "https://www.youtube.com/watch?v=6aMgamSHs1g",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "Trees",
+          "link": "https://youtu.be/J9pjj-jEx5Q",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
