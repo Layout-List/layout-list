@@ -76,6 +76,12 @@
           "percent": 100,
           "hz": 120,
           "mobile": true
+        },
+        {
+          "user": "Dom_Luca",
+          "link": "https://youtu.be/99ZCZnLIVGI",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
