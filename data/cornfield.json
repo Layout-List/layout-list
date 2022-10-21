@@ -57,6 +57,13 @@
           "link": "https://youtu.be/502LXTYq0lA",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "ZeLand",
+          "link": "https://youtu.be/LoouSRkwlOc",
+          "percent": 100,
+          "hz": 60
+          "mobile": true
         }
     ]
 }
