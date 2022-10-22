@@ -8,6 +8,11 @@
     "percentToQualify": 60,
     "song": "Creo - Aurora",
     "records": [
-        
+        {
+          "user": "Armani",
+          "link": "https://youtu.be/FX2NMVuZPmM",
+          "percent": 100,
+          "hz": 360
+        },
     ]
 }
