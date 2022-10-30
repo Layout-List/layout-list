@@ -8,6 +8,11 @@
     "percentToQualify": 100,
     "song": "lchavasse - ~:Rainy Shores:~",
     "records": [
-        
+        {
+          "user": "Fusion425",
+          "link": "trust me",
+          "percent": 100,
+          "hz": 288
+        }
     ]
 }
