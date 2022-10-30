@@ -43,13 +43,15 @@
           "user": "Agentgiscool",
           "link": "https://youtu.be/CguK1XwtB4A",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "ThisGuyKreas",
           "link": "https://m.youtube.com/watch?v=sn08janeqxA",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "jz5",
@@ -73,7 +75,8 @@
           "user": "Solo12",
           "link": "https://www.youtube.com/watch?v=_opr6_KGqEM",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Gwispy",
@@ -121,7 +124,8 @@
           "user": "Kind1e",
           "link": "https://youtu.be/PQiQRhqf1zk",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Pandaa",
@@ -157,13 +161,15 @@
           "user": "UltimaGD",
           "link": "https://youtu.be/WwKCFMnTaj0",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Evolution640",
           "link": "https://youtu.be/Z9ZF5NpJlLQ",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "DuckMoment",
@@ -175,7 +181,8 @@
           "user": "lMystikl",
           "link": "https://youtu.be/KMM3s9iraps",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Dom_Luca",
@@ -187,7 +194,8 @@
           "user": "tobi",
           "link": "https://www.youtube.com/watch?v=pk8HZNRYZN4",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Will",
@@ -199,7 +207,8 @@
           "user": "DartsyGD",
           "link": "https://youtu.be/zZ_tVb9iUJo",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Nooob07",
@@ -217,7 +226,8 @@
           "user": "ZeLaND",
           "link": "https://www.youtube.com/watch?v=ZqDPTC5InL0",
           "percent": 100,
-          "hz": "Mobile"  
+          "hz": 60,
+          "mobile": true 
         },
         {
           "user": "TurtlesdoHurdles",
