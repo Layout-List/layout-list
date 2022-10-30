@@ -91,25 +91,29 @@
           "user": "ZeusGD",
           "link": "https://youtu.be/A9n2kk8SthY",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Agentgiscool",
           "link": "https://youtu.be/mvW1tZ50I1A",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "ThisGuyKreas",
           "link": "https://m.youtube.com/watch?v=wF5Vm3k-T4U",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "AuditLog",
           "link": "https://youtu.be/Zf1B2A3y4AE",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "LimeDub",
@@ -163,7 +167,8 @@
           "user": "Solo12",
           "link": "https://www.youtube.com/watch?v=Oopg_3g8gU4",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "MoistyBoi",
@@ -193,7 +198,8 @@
           "user": "lMystikl",
           "link": "https://youtu.be/KMM3s9iraps",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "DJJDK",
@@ -205,13 +211,15 @@
           "user": "tobi",
           "link": "https://www.youtube.com/watch?v=DRvRq10LFxY",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "DartsyGD",
           "link": "https://youtu.be/5X0qZCxrISk",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Shakespeare",
@@ -223,7 +231,8 @@
           "user": "Will",
           "link": "https://www.youtube.com/watch?v=pTFQoNWh3wI",
           "percent": 100,
-          "hz": "Mobile"
+          "hz": 60,
+          "mobile": true
         },
         {
           "user": "Dom_Luca",
