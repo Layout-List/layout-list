@@ -19,6 +19,18 @@
           "link": "trust me",
           "percent": 100,
           "hz": 288
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/3QwQiOay0jM",
+          "percent": 100,
+          "hz": 144
+        },
+        {
+          "user": "Jab",
+          "link": "https://youtu.be/QfbTkBuiaC4",
+          "percent": 100,
+          "hz": 240
         }
     ]
 }
