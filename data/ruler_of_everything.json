@@ -82,6 +82,12 @@
           "percent": 60,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "Trees",
+          "link": "https://www.youtube.com/watch?v=Mg5CaNM2SDU",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
