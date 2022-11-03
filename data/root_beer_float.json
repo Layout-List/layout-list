@@ -176,6 +176,12 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "Kuahnm",
+          "link": "https://www.youtube.com/watch?v=q_Ip8fdSmaw",
+          "percent": 100,
+          "hz": 165
         }
     ]
 }
