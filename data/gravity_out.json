@@ -31,6 +31,12 @@
           "link": "https://youtu.be/QfbTkBuiaC4",
           "percent": 100,
           "hz": 240
+        },
+        {
+          "user": "ZeLaND",
+          "link": "https://www.youtube.com/watch?v=2aj5UhbiBvQ",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
