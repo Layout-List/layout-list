@@ -64,6 +64,12 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "Kuahnm",
+          "link": "https://youtu.be/pzC_ex4x0Sw",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
