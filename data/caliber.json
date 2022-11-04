@@ -1,1 +1,19 @@
-
+{
+    "id": 80464592,
+    "name": "Caliber",
+    "author": "Salukis",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/abSax7LBxVo",
+    "password": "052422
+    "percentToQualify": 100,
+    "song": "EspiDev - Calibre",
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "owner",
+          "percent": 100,
+          "hz": 240
+        }
+    ]
+}
