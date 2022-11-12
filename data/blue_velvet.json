@@ -1,0 +1,24 @@
+{
+    "id": 85402342,
+    "name": "Blue Velvet",
+    "author": "DJJDK",
+    "creators": [],
+    "verifier": "Jab",
+    "verification": "https://youtu.be/21OWorODn4c",
+    "percentToQualify": 57,
+    "song": "Djjaner - Blue Valvet",
+    "records": [
+        {
+          "user": "DJJDK",
+          "link": "owner",
+          "percent": 100,
+          "hz": 240
+        },
+        {
+          "user": "Blathers",
+          "link": "owner",
+          "percent": 100,
+          "hz": 288
+        }
+    ]
+}
