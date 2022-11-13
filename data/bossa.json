@@ -11,6 +11,12 @@
     "password": "Not Copyable",
     "song": "Dominuus - Bossa",
     "records": [
+        {
+          "user": "Jab",
+          "link": "https://youtu.be/F_lyA_CG9Lg",
+          "percent": 100,
+          "hz": 240
+        }
         
     ]
 }
