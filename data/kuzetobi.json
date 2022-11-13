@@ -168,11 +168,17 @@
           "percent": 100,
           "hz": 180
         },
-         {
+        {
           "user": "Kuahnm",
           "link": "https://youtu.be/VArOPGVHTQI",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "Jab",
+          "link": "https://youtu.be/mbW0r7X3sXA",
+          "percent": 100,
+          "hz": 240
         }
     ]
 }
