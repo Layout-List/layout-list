@@ -19,6 +19,12 @@
     "song": "Disciple - How We Roll",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1039939613541814272/9009.mp3",
     "records": [
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/T5TOfabfWy0",
+          "percent": 100,
+          "hz": 240
+        }
         
     ]
 }
