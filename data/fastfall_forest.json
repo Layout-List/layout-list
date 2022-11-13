@@ -50,6 +50,12 @@
           "link": "https://youtu.be/rnef_TGXXeE",
           "percent": 100,
           "hz": 360  
+        },
+        {
+          "user": "sqrtpie",
+          "link": "https://youtu.be/Su3LuUskws4",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
