@@ -3,12 +3,18 @@
     "name": "Final Drop",
     "author": "HZover",
     "creators": [],
-    "verifier": "HZover",
-    "verification": "https://youtu.be/sQNRJAUwq7A",
+    "verifier": "mrperson",
+    "verification": "https://youtu.be/prZkF42vWfg",
     "percentToQualify": 53,
     "password": "Not Copyable",
     "song": "NemesisTheory - Rose At Nightfall",
     "records": [
+        {
+          "user": "HZover",
+          "link": "https://youtu.be/sQNRJAUwq7A",
+          "percent": 100,
+          "hz": 300
+        },
         {
           "user": "Armani",
           "link": "https://youtu.be/05bmJIRkMQQ",
