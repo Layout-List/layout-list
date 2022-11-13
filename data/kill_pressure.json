@@ -23,6 +23,12 @@
           "user": "mrperson",
           "link": "https://youtu.be/T5TOfabfWy0",
           "percent": 100,
+          "hz": 144
+        },
+           {
+          "user": "Jab",
+          "link": "https://youtu.be/vczsqExhLjs",
+          "percent": 100,
           "hz": 240
         }
         
