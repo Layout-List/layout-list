@@ -77,9 +77,15 @@
           "percent": 100,
           "hz": 288
         },
-         {
+        {
           "user": "sqrtpie",
           "link": "https://youtu.be/Su3LuUskws4",
+          "percent": 100,
+          "hz": 60
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/nQZOtYThqio",
           "percent": 100,
           "hz": 60
         }
