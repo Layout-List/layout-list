@@ -19,6 +19,12 @@
           "link": "owner",
           "percent": 100,
           "hz": 288
+        },
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/A6xd1egyHkQ",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
