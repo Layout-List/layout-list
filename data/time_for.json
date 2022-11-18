@@ -50,6 +50,12 @@
           "link": "https://www.youtube.com/watch?v=pAKaYl4cEKQ",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/W1kasVgz6nI",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
