@@ -9,6 +9,11 @@
     "percentToQualify": 100,
     "song": "Creo - Drift",
     "records": [
-        
+        {
+          "user": "DJJDK",
+          "link": "soon",
+          "percent": 100,
+          "hz": 240
+        }
     ]
 }
