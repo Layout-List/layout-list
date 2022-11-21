@@ -8,6 +8,11 @@
     "percentToQualify": 54,
     "song": "Creo - Idolize",
     "records": [
-        
+        {
+          "user": "DJJDK",
+          "link": "soon",
+          "percent": 100,
+          "hz": 240
+        }
     ]
 }
