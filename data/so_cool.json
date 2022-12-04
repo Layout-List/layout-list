@@ -526,6 +526,13 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "Pageyt",
+          "link": "https://youtu.be/G4q7FEnlRLc",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
         }
     ]
 }
