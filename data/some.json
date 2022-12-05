@@ -20,6 +20,13 @@
           "link": "https://youtu.be/2n9du9QD33k",
           "percent": 100,
           "hz": 144
+        },
+        {
+          "user": "agentgiscool",
+          "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
         }
     ]
 }
