@@ -279,6 +279,12 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "GDEmilio",
+          "link": "https://youtu.be/MBLuBH8X8bo",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
