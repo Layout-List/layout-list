@@ -208,6 +208,12 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "septik",
+          "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
+          "percent": 100,
+          "hz": 75
         }
     ]
 }
