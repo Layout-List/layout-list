@@ -172,6 +172,12 @@
           "link": "https://youtu.be/oKngHV1x6QY",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "septik",
+          "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
+          "percent": 100,
+          "hz": 75
         }
     ]
 }
