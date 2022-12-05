@@ -143,6 +143,12 @@
           "link": "https://www.youtube.com/watch?v=21sJ1iUub5o",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "GDEmilio",
+          "link": "https://youtu.be/QhIXc5EvvXE",
+          "percent": 100,
+          "hz": 60
         }
     ]
 }
