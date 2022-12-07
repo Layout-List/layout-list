@@ -20,6 +20,11 @@
     "song": "「Symphonic Hardcore」[Yooh] Destroy -agitato-",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1049575874208473138/11283.mp3",
     "records": [
-        
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/EpFz2HtJnrs",
+          "percent": 100,
+          "hz": 360
+        }
     ]
 }
