@@ -68,6 +68,12 @@
           "link": "https://www.youtube.com/watch?v=QmALNirFRbg",
           "percent": 52,
           "hz": 240
+        },
+        {
+          "user": "lMystikl",
+          "link": "https://youtu.be/EpFz2HtJnrs",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
