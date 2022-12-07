@@ -56,6 +56,12 @@
           "link": "https://youtu.be/UkjWw2RaLUE",
           "percent": 96,
           "hz": 240
+        },
+        {
+          "user": "Blathers",
+          "link": "https://youtu.be/IZsrfLvPHUs",
+          "percent": 100,
+          "hz": 360
         }
     ]
 }
