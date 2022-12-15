@@ -103,7 +103,14 @@
           "link": "https://www.youtube.com/watch?v=Qhgkr-O9UIM",
           "percent": 100,
           "hz": 60,
-          "mobile": true
+          "mobile": false
+        },
+        {
+          "user": "claw",
+          "link": "https://youtu.be/EXLI2mY9-t0",
+          "percent": 100,
+          "hz": 60,
+          "mobile": false
         }
     ]
 }
