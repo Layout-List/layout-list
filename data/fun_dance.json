@@ -473,6 +473,13 @@
           "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
           "percent": 100,
           "hz": 75
+        },
+        {
+          "user": "claw",
+          "link": "https://youtu.be/EXLI2mY9-t0",
+          "percent": 100,
+          "hz": 60,
+          "mobile": false
         }
     ]
 }
