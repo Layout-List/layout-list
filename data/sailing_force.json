@@ -30,31 +30,36 @@
           "user": "zNolan",
           "link": "https://www.youtube.com/watch?v=RgC35xwD8so",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         },
         {
           "user": "Fusion425",
           "link": "https://youtu.be/zimPRqEjOCo",
           "percent": 100,
-          "hz": 288
+          "hz": 288,
+          "mobile": false
         },
         {
           "user": "Armani",
           "link": "https://youtu.be/u_aDbGSNYIY",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         },
         {
           "user": "CaioMD",
           "link": "https://youtu.be/F9B6x-LaiPM",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         },
         {
           "user": "zDarkHTR",
           "link": "https://youtu.be/RWaDFQRqneo",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
