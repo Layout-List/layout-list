@@ -130,6 +130,13 @@
           "link": "https://youtu.be/KLmqi92Ihac",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "Nooob07",
+          "link": "https://www.youtube.com/watch?v=4oFgxQgpQpI",
+          "percent": 100,
+          "hz": 60,
+          "mobile": false
         }
     ]
 }
