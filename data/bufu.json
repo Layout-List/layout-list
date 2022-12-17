@@ -149,6 +149,13 @@
           "link": "https://youtu.be/QhIXc5EvvXE",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "sikoo23",
+          "link": "https://www.youtube.com/watch?v=wtqdhRh_k0Q",
+          "percent": 100,
+          "hz": 120,
+          "mobile": true
         }
     ]
 }
