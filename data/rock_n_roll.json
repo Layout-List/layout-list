@@ -85,6 +85,13 @@
           "percent": 100,
           "hz": 120,
           "mobile": true
+        },
+        {
+          "user": "PivitHasNoLife",
+          "link": "https://www.youtube.com/watch?v=7xIVmxcpXiY",
+          "percent": 100,
+          "hz": 300,
+          "mobile": false
         }
     ]
 }
