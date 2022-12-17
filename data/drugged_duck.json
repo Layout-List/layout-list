@@ -107,6 +107,13 @@
           "link": "https://youtu.be/WwyWzwGIBig",
           "percent": 100,
           "hz": 360 
+        },
+        {
+          "user": "septik",
+          "link": "https://www.youtube.com/watch?v=n2inxa4mX0o",
+          "percent": 100,
+          "hz": 75,
+          "mobile": false
         }
     ]
 }
