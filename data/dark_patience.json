@@ -137,6 +137,13 @@
           "percent": 100,
           "hz": 60,
           "mobile": false
+        },
+        {
+          "user": "exho",
+          "link": "https://youtu.be/zBRAvU2hPmQ",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
