@@ -5,14 +5,14 @@
         "link": "https://www.youtube.com/channel/UC18eM9f_J-tVdruPEWqkFsQ"
     },
     {
-        "role": "admin",
-        "name": "Bluestone",
-        "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
+        "role": "owner",
+        "name": "Gwisp",
+        "link": "https://www.twitch.tv/gwisplss"
     },
     {
         "role": "admin",
-        "name": "Gwisp",
-        "link": "https://www.twitch.tv/gwisplss"
+        "name": "Bluestone",
+        "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
     },
     {
         "role": "helper",
