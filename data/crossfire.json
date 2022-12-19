@@ -25,6 +25,12 @@
     "song": "Yooh - Destiny",
     "songLink": "https://youtu.be/7U770ZfG6BQ",
     "records": [
-        
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=fJCOR052HAg",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        }
     ]
 }
