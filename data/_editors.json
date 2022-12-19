@@ -45,11 +45,6 @@
         "link": "https://www.youtube.com/channel/UCwe5Z4hnsmwaEP2CC-MkXDA"
     },
     {
-        "role": "helper",
-        "name": "reet",
-        "link": "https://www.youtube.com/channel/UCBVxcdiWfecG50wTlKLa_KQ"
-    },
-    {
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/c/PrometheusAlt"
