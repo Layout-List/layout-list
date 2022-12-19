@@ -10,9 +10,16 @@
     "records": [
         {
           "user": "DJJDK",
-          "link": "soon",
+          "link": "https://youtu.be/dQw4w9WgXcQ",
           "percent": 100,
           "hz": 240
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/dGXhn_5mBDI",
+          "percent": 100,
+          "hz": 144,
+          "mobile": false
         }
     ]
 }
