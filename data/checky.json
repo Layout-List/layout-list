@@ -225,6 +225,13 @@
           "link": "https://www.youtube.com/watch?v=tznEPNqTF1U",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "exho",
+          "link": "https://youtu.be/zBRAvU2hPmQ",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
