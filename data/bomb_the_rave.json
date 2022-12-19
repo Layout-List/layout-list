@@ -70,6 +70,13 @@
           "link": "https://www.youtube.com/watch?v=W_5FsuVa85w",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "zDarkHTR",
+          "link": "https://www.youtube.com/watch?v=Ai12wOirnF0",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
