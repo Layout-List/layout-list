@@ -118,6 +118,13 @@
           "link": "https://youtu.be/W1kasVgz6nI",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "exho",
+          "link": "https://youtu.be/zBRAvU2hPmQ",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
