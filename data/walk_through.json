@@ -8,6 +8,11 @@
     "percentToQualify": 100,
     "song": "CricketSaysChill - Fisher Price",
     "records": [
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/jz3opWQtjAU",
+          "percent": 100,
+          "hz": 360
         
     ]
 }
