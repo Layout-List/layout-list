@@ -44,13 +44,6 @@
           "percent": 100,
           "hz": 240,
           "mobile": false
-        },
-        {
-          "user": "Amza",
-          "link": "trust me",
-          "percent": 100,
-          "hz": 300,
-          "mobile": false
         }
     ]
 }
