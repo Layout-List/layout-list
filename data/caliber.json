@@ -96,6 +96,13 @@
           "link": "https://youtu.be/hu5aKuLgKKQ",
           "percent": 100,
           "hz": 60
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://www.youtube.com/watch?v=Ql9gdCtgm1k",
+          "percent": 100,
+          "hz": 360
+          "mobile": false
         }
     ]
 }
