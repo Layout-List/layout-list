@@ -62,12 +62,19 @@
           "percent": 100,
           "hz": "300"
         },
-         {
+        {
           "user": "lMystikl",
           "link": "https://youtu.be/eISxmDEPcHI",
           "percent": 100,
           "hz": "60"
+        },
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/RRsOWLtZMX0",
+          "percent": 100,
+          "hz": "360"
         }
+    ]
     ]
 }
 
