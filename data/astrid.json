@@ -104,7 +104,8 @@
           "user": "hab",
           "link": "https://youtu.be/8QXoNWiRzbU",
           "percent": 100,
-          "hz": 300
+          "hz": 300,
+          "mobile": false
         }
     ]
 }
