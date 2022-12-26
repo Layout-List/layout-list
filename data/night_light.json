@@ -77,6 +77,13 @@
           "link": "https://youtu.be/EIdzs8Pzr_g",
           "percent": 100,
           "hz": "360"
+        },
+        {
+          "user": "crystl",
+          "link": "https://www.youtube.com/watch?v=iENrHrI27Yo",
+          "percent": 100,
+          "hz": "360",
+          "mobile": false
         }
     ]
 }
