@@ -8,45 +8,46 @@
     "password": "569590",
     "percentToQualify": 100,
     "song": "Creo - Drift",
+    "difficulty": 2,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "soon",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "soon",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://www.youtube.com/watch?v=fJFD7WLqMkM",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://www.youtube.com/watch?v=fJFD7WLqMkM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Nooob07",
-          "link": "https://www.youtube.com/watch?v=D8fh80VaR6c",
-          "percent": 100,
-          "hz": "60",
-          "mobile": false
+            "user": "Nooob07",
+            "link": "https://www.youtube.com/watch?v=D8fh80VaR6c",
+            "percent": 100,
+            "hz": "60",
+            "mobile": false
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/Vt2zoJZiYAA",
-          "percent": 100,
-          "hz": "144",
-          "mobile": false
+            "user": "mrperson",
+            "link": "https://youtu.be/Vt2zoJZiYAA",
+            "percent": 100,
+            "hz": "144",
+            "mobile": false
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/RX1qRI99nMs",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/RX1qRI99nMs",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

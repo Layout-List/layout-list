@@ -8,80 +8,81 @@
     "percentToQualify": 100,
     "password": "002022",
     "song": "tvroom - Now I Do",
+    "difficulty": 1,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "https://youtu.be/bUxwpMXbdUA",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "https://youtu.be/bUxwpMXbdUA",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Matthlew",
-          "link": "https://youtu.be/3hJKUlJY_ug",
-          "percent": 100,
-          "hz": 144
+            "user": "Matthlew",
+            "link": "https://youtu.be/3hJKUlJY_ug",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/pXn915-XI1M",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/pXn915-XI1M",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Blathers",
-          "link": "owner",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "owner",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Xtyles",
-          "link": "https://youtu.be/OUk_5RIMGxw",
-          "percent": 100,
-          "hz": 360
+            "user": "Xtyles",
+            "link": "https://youtu.be/OUk_5RIMGxw",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "ZeLaND",
-          "link": "https://www.youtube.com/watch?v=G3jN8uLBMBw",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "ZeLaND",
+            "link": "https://www.youtube.com/watch?v=G3jN8uLBMBw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/Ux3F5eN0jJg",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/Ux3F5eN0jJg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/L6zQJhQWG68",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/L6zQJhQWG68",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Nooob07",
-          "link": "https://youtu.be/zBRAvU2hPmQ",
-          "percent": 100,
-          "hz": 60
+            "user": "Nooob07",
+            "link": "https://youtu.be/zBRAvU2hPmQ",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/W1kasVgz6nI",
-          "percent": 100,
-          "hz": 60
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/W1kasVgz6nI",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://www.youtube.com/watch?v=sG-VszkpK0Y",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "zDarkHTR",
+            "link": "https://www.youtube.com/watch?v=sG-VszkpK0Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/lAx8a0VbvhY",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/lAx8a0VbvhY",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

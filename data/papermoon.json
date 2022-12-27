@@ -3,55 +3,56 @@
     "name": "Papermoon layout",
     "author": "sqrtpie",
     "creators": [
-      "ZBosGaming"
+        "ZBosGaming"
     ],
     "verifier": "sqrtpie",
     "verification": "https://youtu.be/UtrSrOaa36E",
     "percentToQualify": 50,
     "song": "Tommy february6 - PAPERMOON",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/921852685425201202/32516.mp3",
+    "difficulty": 3,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/pygSfdisXUA",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/pygSfdisXUA",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/agvwXU0vNJY",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/agvwXU0vNJY",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "ImFinGD",
-          "link": "https://www.youtube.com/watch?v=7vvtORJ1XHc",
-          "percent": 100,
-          "hz": 240
+            "user": "ImFinGD",
+            "link": "https://www.youtube.com/watch?v=7vvtORJ1XHc",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=Qx2uaxc3nFE",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=Qx2uaxc3nFE",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/FX2NMVuZPmM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=2bQmJIdzRTY",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=2bQmJIdzRTY",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/OUl2jzj9SVo",
-          "percent": 100,
-          "hz": "360"
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/OUl2jzj9SVo",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

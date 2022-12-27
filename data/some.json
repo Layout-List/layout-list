@@ -8,37 +8,38 @@
     "percentToQualify": 60,
     "password": "001234",
     "song": "Creo - Aurora",
+    "difficulty": 2,
     "records": [
         {
-          "user": "Armani",
-          "link": "https://youtu.be/FX2NMVuZPmM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/2n9du9QD33k",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/2n9du9QD33k",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/5uxyBDTC1eQ",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/5uxyBDTC1eQ",
+            "percent": 100,
+            "hz": "360"
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/xNqzLZ6dHT8",
-          "percent": 100,
-          "hz": "360"
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/xNqzLZ6dHT8",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

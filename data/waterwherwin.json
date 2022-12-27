@@ -7,68 +7,69 @@
     "verification": "https://youtu.be/nXrpooCNWx4",
     "percentToQualify": 100,
     "song": "NK - Classical VIP",
+    "difficulty": 2,
     "records": [
         {
-          "user": "Moisty",
-          "link": "https://youtu.be/2pujtOxX5-s",
-          "percent": 100,
-          "hz": 60
+            "user": "Moisty",
+            "link": "https://youtu.be/2pujtOxX5-s",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/jr8n4LXs58I",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/jr8n4LXs58I",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "jz5",
-          "link": "https://youtu.be/fqlXohA0Ims",
-          "percent": 100,
-          "hz": 360
+            "user": "jz5",
+            "link": "https://youtu.be/fqlXohA0Ims",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Luk231",
-          "link": "https://youtu.be/0HOMNuFeRIQ",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Luk231",
+            "link": "https://youtu.be/0HOMNuFeRIQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/Ux3F5eN0jJg",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/Ux3F5eN0jJg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=ChY9KIPchdo",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=ChY9KIPchdo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Jab",
-          "link": "https://youtu.be/E1-oj2sQijU",
-          "percent": 100,
-          "hz": 240
+            "user": "Jab",
+            "link": "https://youtu.be/E1-oj2sQijU",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "mrperson",
-          "link": "https://www.youtube.com/watch?v=vnF5Uoty8io",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=vnF5Uoty8io",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/tks6jVB9Gm4",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/tks6jVB9Gm4",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/3VoVwdrYg6k",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/3VoVwdrYg6k",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

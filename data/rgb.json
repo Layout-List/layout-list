@@ -1,72 +1,73 @@
 {
     "id": 62909889,
-    "name": "RGB ⭐",
+    "name": "RGB \u2b50",
     "author": "Sillow",
     "creators": [],
     "verifier": "Sillow",
     "verification": "https://youtu.be/i79i4uc3GQs",
     "percentToQualify": 54,
     "song": "Cacola - Yellow and Purple",
+    "difficulty": 3,
     "records": [
         {
-          "user": "Blathers",
-          "link": "https://youtu.be/sbwLqEwunDA",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://youtu.be/sbwLqEwunDA",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=PyMOeC2Mq10",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=PyMOeC2Mq10",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "lboke",
-          "link": "https://youtu.be/KwQ5Hk2mS8A",
-          "percent": 100,
-          "hz": 300
+            "user": "lboke",
+            "link": "https://youtu.be/KwQ5Hk2mS8A",
+            "percent": 100,
+            "hz": 300
         },
         {
-          "user": "Kuaikuai27",
-          "link": "https://youtu.be/J9vfNztzYEs",
-          "percent": 100,
-          "hz": 288
+            "user": "Kuaikuai27",
+            "link": "https://youtu.be/J9vfNztzYEs",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Matthlew",
-          "link": "https://youtu.be/xz8PpMQ1r7o?t=177",
-          "percent": 100,
-          "hz": 144
+            "user": "Matthlew",
+            "link": "https://youtu.be/xz8PpMQ1r7o?t=177",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "JustShock",
-          "link": "https://www.youtube.com/watch?v=zolCI2MF-V8",
-          "percent": 100,
-          "hz": 144
+            "user": "JustShock",
+            "link": "https://www.youtube.com/watch?v=zolCI2MF-V8",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/UPuLAIGKuhY",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/UPuLAIGKuhY",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Chair",
-          "link": "https://www.youtube.com/watch?v=zpIPhAGHSV4",
-          "percent": 100,
-          "hz": 144
+            "user": "Chair",
+            "link": "https://www.youtube.com/watch?v=zpIPhAGHSV4",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/Ux3F5eN0jJg",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/Ux3F5eN0jJg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/OvK21VXcVrc",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/OvK21VXcVrc",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

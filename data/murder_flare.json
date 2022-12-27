@@ -8,24 +8,25 @@
     "percentToQualify": 54,
     "song": "KORDHELL - Murder In My Mind",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1038247909919047781/627681.mp3",
+    "difficulty": 4,
     "records": [
         {
-          "user": "ShimzyZE",
-          "link": "https://youtu.be/PW9j8xXKjS0",
-          "percent": 100,
-          "hz": 360
+            "user": "ShimzyZE",
+            "link": "https://youtu.be/PW9j8xXKjS0",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=-k20_zb4r1I",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=-k20_zb4r1I",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/5iGxwCUBIYU",
-          "percent": 100,
-          "hz": 360
+            "user": "lMystikl",
+            "link": "https://youtu.be/5iGxwCUBIYU",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

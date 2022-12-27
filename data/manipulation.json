@@ -7,26 +7,25 @@
     "verification": "https://youtu.be/PgrtMkuIxkk",
     "percentToQualify": 49,
     "song": "Waterflame - -conclusion-",
+    "difficulty": 4,
     "records": [
-        {        
-          "user": "CaioMD ",
-          "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
-          "percent": 100,
-          "hz": 360  
+        {
+            "user": "CaioMD ",
+            "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=TgQVY5ShjQA",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=TgQVY5ShjQA",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/kCy9ghRQ8v0",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/kCy9ghRQ8v0",
+            "percent": 100,
+            "hz": 144
         }
     ]
 }
-
-

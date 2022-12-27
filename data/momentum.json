@@ -7,48 +7,49 @@
     "verification": "https://youtu.be/H_iGdRkkIas",
     "percentToQualify": 57,
     "song": "Boom Kitty - Pursuit",
+    "difficulty": 3,
     "records": [
         {
-          "user": "Blathers",
-          "link": "https://youtu.be/QwD9qlRULhI",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://youtu.be/QwD9qlRULhI",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/OpKlMDLx3ZM",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/OpKlMDLx3ZM",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/eEfnZ3B9WHs",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/eEfnZ3B9WHs",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "DJJDK",
-          "link": "i will deal with it  today, I promimse",
-          "percent": 100,
-          "hz": 288
+            "user": "DJJDK",
+            "link": "i will deal with it  today, I promimse",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/FX2NMVuZPmM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrutherford1106",
-          "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
-          "percent": 100,
-          "hz": 144
+            "user": "mrutherford1106",
+            "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/RRsOWLtZMX0",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/RRsOWLtZMX0",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

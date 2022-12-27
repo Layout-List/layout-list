@@ -8,36 +8,37 @@
     "percentToQualify": 67,
     "song": "KORDHELL - Murder In My Mind",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1038247909919047781/627681.mp3",
+    "difficulty": 3,
     "records": [
         {
-          "user": "Emeralff",
-          "link": "https://youtu.be/ZIuQUImTiKo",
-          "percent": 100,
-          "hz": 240
+            "user": "Emeralff",
+            "link": "https://youtu.be/ZIuQUImTiKo",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/ZhqD2ETewKE",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/ZhqD2ETewKE",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "TurtlesdoHurdles",
-          "link": "https://youtu.be/1vVWf4qaiq4",
-          "percent": 100,
-          "hz": 360
+            "user": "TurtlesdoHurdles",
+            "link": "https://youtu.be/1vVWf4qaiq4",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Matthlew",
-          "link": "https://youtu.be/DlQPzpQcaFI",
-          "percent": 100,
-          "hz": 144
+            "user": "Matthlew",
+            "link": "https://youtu.be/DlQPzpQcaFI",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/E5QSp3Zfrmw",
-          "percent": 100,
-          "hz": 360
+            "user": "lMystikl",
+            "link": "https://youtu.be/E5QSp3Zfrmw",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

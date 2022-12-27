@@ -9,66 +9,67 @@
     "password": "000010",
     "song": "Cash Cash - Overtime",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/921848528244977704/600364.mp3",
+    "difficulty": 4,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/5dv1ffBZ3XA",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/5dv1ffBZ3XA",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "sqrtpie",
-          "link": "https://www.youtube.com/watch?v=4cbEcvDuS7I",
-          "percent": 100,
-          "hz": 60
+            "user": "sqrtpie",
+            "link": "https://www.youtube.com/watch?v=4cbEcvDuS7I",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "danielvess555",
-          "link": "https://youtu.be/F0QMM1EHHY4",
-          "percent": 100,
-          "hz": 240
+            "user": "danielvess555",
+            "link": "https://youtu.be/F0QMM1EHHY4",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Colaskink",
-          "link": "https://youtu.be/mXZZEKrblLc",
-          "percent": 100,
-          "hz": 300
+            "user": "Colaskink",
+            "link": "https://youtu.be/mXZZEKrblLc",
+            "percent": 100,
+            "hz": 300
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/mOLqrC7OSu8",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/mOLqrC7OSu8",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Bluestone",
-          "link": "https://youtu.be/29tk06ruDJc",
-          "percent": 100,
-          "hz": 120
+            "user": "Bluestone",
+            "link": "https://youtu.be/29tk06ruDJc",
+            "percent": 100,
+            "hz": 120
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/FX2NMVuZPmM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "CaioMD",
-          "link": "https://youtu.be/QwYL46a0y8M",
-          "percent": 100,
-          "hz": 360
+            "user": "CaioMD",
+            "link": "https://youtu.be/QwYL46a0y8M",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/_UyuMS4eyPY",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/_UyuMS4eyPY",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "ShimzyZE",
-          "link": "https://youtu.be/_YZvFTgmLEg",
-          "percent": "54",
-          "hz": 240
+            "user": "ShimzyZE",
+            "link": "https://youtu.be/_YZvFTgmLEg",
+            "percent": "54",
+            "hz": 240
         }
     ]
 }

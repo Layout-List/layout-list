@@ -7,61 +7,62 @@
     "verification": "https://youtu.be/JwxZqgfmaOA",
     "percentToQualify": 56,
     "song": "Drayx - Next Adventure",
+    "difficulty": 4,
     "records": [
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "CaioMD",
-          "link": "https://youtu.be/Rl-o9kOGLLU",
-          "percent": 100,
-          "hz": 360
+            "user": "CaioMD",
+            "link": "https://youtu.be/Rl-o9kOGLLU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=658B5SA7eHM",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=658B5SA7eHM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://www.youtube.com/watch?v=hQcSUa28CiM",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=hQcSUa28CiM",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "rustic",
-          "link": "https://youtu.be/akiYLUNZOKQ",
-          "percent": 100,
-          "hz": 360
+            "user": "rustic",
+            "link": "https://youtu.be/akiYLUNZOKQ",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "leaf",
-          "link": "https://www.youtube.com/watch?v=0PG7P3IUs30",
-          "percent": 100,
-          "hz": 144
+            "user": "leaf",
+            "link": "https://www.youtube.com/watch?v=0PG7P3IUs30",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/gIWRnDnQp94",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/gIWRnDnQp94",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/2wlKMn3rph0",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/2wlKMn3rph0",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://www.youtube.com/watch?v=LYijzNSZ5TM",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "lMystikl",
+            "link": "https://www.youtube.com/watch?v=LYijzNSZ5TM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

@@ -8,86 +8,87 @@
     "percentToQualify": 49,
     "song": "Tally Hall - Ruler of Everything",
     "songLink": "https://cdn.discordapp.com/attachments/855215658206494760/913927951475699772/8888.mp3",
+    "difficulty": 2,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/ry49jjlHZWE",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/ry49jjlHZWE",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Solo12",
-          "link": "https://www.youtube.com/watch?v=awirCQNMVW4",
-          "percent": 100,
-          "hz": 60
+            "user": "Solo12",
+            "link": "https://www.youtube.com/watch?v=awirCQNMVW4",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Blathers",
-          "link": "https://youtu.be/CZoMGk1lhbw",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://youtu.be/CZoMGk1lhbw",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Fezzern",
-          "link": "https://www.youtube.com/watch?v=hPEStsUe6AQ",
-          "percent": 100,
-          "hz": 60
+            "user": "Fezzern",
+            "link": "https://www.youtube.com/watch?v=hPEStsUe6AQ",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/Udluu1WdnAM",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/Udluu1WdnAM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/exQBU5B_1dU",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/exQBU5B_1dU",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "theworldofme",
-          "link": "https://youtu.be/8hzuJi5YFbM",
-          "percent": 100,
-          "hz": 360
+            "user": "theworldofme",
+            "link": "https://youtu.be/8hzuJi5YFbM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "culobdj",
-          "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
-          "percent": 100,
-          "hz": 240
+            "user": "culobdj",
+            "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/Po7uLUmLJ7k",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "lMystikl",
+            "link": "https://youtu.be/Po7uLUmLJ7k",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/5DPRsUFdEMo",
-          "percent": 100,
-          "hz": 288
+            "user": "Armani",
+            "link": "https://youtu.be/5DPRsUFdEMo",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "DJJDK",
-          "link": "https://youtu.be/DZ_ndqdR5Kw",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "https://youtu.be/DZ_ndqdR5Kw",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "ZeLaND",
-          "link": "https://www.youtube.com/watch?v=a_PlzTj2uIU",
-          "percent": 60,
-          "hz": 60,
-          "mobile": true
+            "user": "ZeLaND",
+            "link": "https://www.youtube.com/watch?v=a_PlzTj2uIU",
+            "percent": 60,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Trees",
-          "link": "https://www.youtube.com/watch?v=Mg5CaNM2SDU",
-          "percent": 100,
-          "hz": 360
+            "user": "Trees",
+            "link": "https://www.youtube.com/watch?v=Mg5CaNM2SDU",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

@@ -1,26 +1,26 @@
 {
     "id": 85713394,
-    "name": "Walk Through ⭐",
+    "name": "Walk Through \u2b50",
     "author": "st4nl3yGD",
     "creators": [],
     "verifier": "st4nl3yGD",
     "verification": "https://youtu.be/5uu00Bc1ubQ",
     "percentToQualify": 100,
     "song": "CricketSaysChill - Fisher Price",
+    "difficulty": 1,
     "records": [
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/jz3opWQtjAU",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/jz3opWQtjAU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/n75_JBz4bpU",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "lMystikl",
+            "link": "https://youtu.be/n75_JBz4bpU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
-        
     ]
 }

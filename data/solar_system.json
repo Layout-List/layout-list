@@ -7,130 +7,131 @@
     "verification": "https://youtu.be/3Ks9jdIKbeM",
     "percentToQualify": 100,
     "song": "meganeko - Earth",
+    "difficulty": 0,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "owner",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "ArctiixPaladin",
-          "link": "https://youtu.be/DEQ1v1DvUYU",
-          "percent": 100,
-          "hz": 360
+            "user": "ArctiixPaladin",
+            "link": "https://youtu.be/DEQ1v1DvUYU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/RgC-FOCGwe4",
-          "percent": 100,
-          "hz": 144  
+            "user": "mrperson",
+            "link": "https://youtu.be/RgC-FOCGwe4",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Pageyt",
-          "link": "https://www.youtube.com/watch?v=4n6v188Tmmw",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Pageyt",
+            "link": "https://www.youtube.com/watch?v=4n6v188Tmmw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Suyoshimaster07",
-          "link": "https://youtu.be/s-Qlo7D8Ssc",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Suyoshimaster07",
+            "link": "https://youtu.be/s-Qlo7D8Ssc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Nooob07",
-          "link": "https://www.youtube.com/watch?v=cShNXJpI6kA",
-          "percent": 100,
-          "hz": 60
+            "user": "Nooob07",
+            "link": "https://www.youtube.com/watch?v=cShNXJpI6kA",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "H3lpFul",
-          "link": "https://youtu.be/502LXTYq0lA",
-          "percent": 100,
-          "hz": 360
+            "user": "H3lpFul",
+            "link": "https://youtu.be/502LXTYq0lA",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Trees",
-          "link": "https://youtu.be/eumZ42DOBxA",
-          "percent": 100,
-          "hz": 144
+            "user": "Trees",
+            "link": "https://youtu.be/eumZ42DOBxA",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Kuahnm",
-          "link": "https://youtu.be/pzC_ex4x0Sw",
-          "percent": 100,
-          "hz": 360
+            "user": "Kuahnm",
+            "link": "https://youtu.be/pzC_ex4x0Sw",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Moisty",
-          "link": "https://www.youtube.com/watch?v=nsNilDlzSOQ",
-          "percent": 100,
-          "hz": 288
+            "user": "Moisty",
+            "link": "https://www.youtube.com/watch?v=nsNilDlzSOQ",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "sqrtpie",
-          "link": "https://youtu.be/Su3LuUskws4",
-          "percent": 100,
-          "hz": 60
+            "user": "sqrtpie",
+            "link": "https://youtu.be/Su3LuUskws4",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/nQZOtYThqio",
-          "percent": 100,
-          "hz": 60
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/nQZOtYThqio",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "exho",
-          "link": "https://www.youtube.com/watch?v=pAKaYl4cEKQ",
-          "percent": 100,
-          "hz": 360
+            "user": "exho",
+            "link": "https://www.youtube.com/watch?v=pAKaYl4cEKQ",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "DELETE999",
-          "link": "https://youtu.be/u0mKLIF1VRo",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "DELETE999",
+            "link": "https://youtu.be/u0mKLIF1VRo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=Qhgkr-O9UIM",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=Qhgkr-O9UIM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "GDEmilio",
-          "link": "https://youtu.be/jJkYHQ8Snew",
-          "percent": 100,
-          "hz": 60
+            "user": "GDEmilio",
+            "link": "https://youtu.be/jJkYHQ8Snew",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "septik",
-          "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
-          "percent": 100,
-          "hz": 75
+            "user": "septik",
+            "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
+            "percent": 100,
+            "hz": 75
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/jfbJhDNOqhk",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/jfbJhDNOqhk",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/MDGkTUgUM08",
-          "percent": 100,
-          "hz": 60
+            "user": "lMystikl",
+            "link": "https://youtu.be/MDGkTUgUM08",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/Ql9gdCtgm1k",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/Ql9gdCtgm1k",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

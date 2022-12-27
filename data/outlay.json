@@ -1,98 +1,99 @@
 {
     "id": 78455855,
-    "name": "OutLay ⭐",
+    "name": "OutLay \u2b50",
     "author": "foretoken",
     "creators": [],
     "verifier": "foretoken",
     "verification": "https://youtu.be/aqxseUYJJRo",
     "percentToQualify": 100,
     "song": "Creo - Outlaw",
+    "difficulty": 1,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "https://youtu.be/OCCM9QhXYak",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "https://youtu.be/OCCM9QhXYak",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=KHQ7UX9sCAI",
-          "percent": 100,
-          "hz": 240
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=KHQ7UX9sCAI",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Blathers",
-          "link": "https://www.youtube.com/watch?v=_row1ckXmKo",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://www.youtube.com/watch?v=_row1ckXmKo",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "jz5",
-          "link": "https://youtu.be/0Mm-oO9YvUE",
-          "percent": 100,
-          "hz": 360
+            "user": "jz5",
+            "link": "https://youtu.be/0Mm-oO9YvUE",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "rustic",
-          "link": "https://www.youtube.com/watch?v=gexfwB_Dldk",
-          "percent": 100,
-          "hz": 360
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=gexfwB_Dldk",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "ZoidM",
-          "link": "https://www.youtube.com/watch?v=cMc75czRd7Q",
-          "percent": 100,
-          "hz": 240
+            "user": "ZoidM",
+            "link": "https://www.youtube.com/watch?v=cMc75czRd7Q",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/Ux3F5eN0jJg",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/Ux3F5eN0jJg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "EmeraldOre",
-          "link": "https://www.youtube.com/watch?v=FkzzUpt30f0",
-          "percent": 100,
-          "hz": 120
+            "user": "EmeraldOre",
+            "link": "https://www.youtube.com/watch?v=FkzzUpt30f0",
+            "percent": 100,
+            "hz": 120
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/8I3FUIgi2So",
-          "percent": 100,
-          "hz": "60",
-          "mobile": true
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/8I3FUIgi2So",
+            "percent": 100,
+            "hz": "60",
+            "mobile": true
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://www.youtube.com/watch?v=ik-w2wJU0Qs",
-          "percent": 100,
-          "hz": "360"
+            "user": "zDarkHTR",
+            "link": "https://www.youtube.com/watch?v=ik-w2wJU0Qs",
+            "percent": 100,
+            "hz": "360"
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/eX_D47yBWWw",
-          "percent": 100,
-          "hz": 144 
+            "user": "mrperson",
+            "link": "https://youtu.be/eX_D47yBWWw",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Vitanaldo",
-          "link": "https://youtu.be/353TfmC337w",
-          "percent": 100,
-          "hz": 60
+            "user": "Vitanaldo",
+            "link": "https://youtu.be/353TfmC337w",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "H3lpFul",
-          "link": "https://youtu.be/-Z4oE05lJbw",
-          "percent": 100,
-          "hz": 360
+            "user": "H3lpFul",
+            "link": "https://youtu.be/-Z4oE05lJbw",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "exho",
-          "link": "https://youtu.be/zBRAvU2hPmQ",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "exho",
+            "link": "https://youtu.be/zBRAvU2hPmQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

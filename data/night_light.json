@@ -3,87 +3,88 @@
     "name": "Night Light",
     "author": "DJJDK",
     "creators": [
-      "AuditLog",
-      "ToastyBois"
+        "AuditLog",
+        "ToastyBois"
     ],
     "verifier": "DJJDK",
     "verification": "https://youtu.be/655uzGi7gAo",
     "percentToQualify": 60,
     "song": "Creo - Aura",
+    "difficulty": 2,
     "records": [
         {
-          "user": "rustic",
-          "link": "https://www.youtube.com/watch?v=nfGqhlgoUy8",
-          "percent": 100,
-          "hz": 360
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=nfGqhlgoUy8",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=LizWO7SGv9I",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=LizWO7SGv9I",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "sqrtpie",
-          "link": "https://www.youtube.com/watch?v=hBQ_zPp5Phw",
-          "percent": 100,
-          "hz": 60
+            "user": "sqrtpie",
+            "link": "https://www.youtube.com/watch?v=hBQ_zPp5Phw",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Matthlew",
-          "link": "https://youtu.be/sBazlCiwsaA",
-          "percent": 100,
-          "hz": 144
+            "user": "Matthlew",
+            "link": "https://youtu.be/sBazlCiwsaA",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/V6ilNYtSKOo",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/V6ilNYtSKOo",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "culobdj",
-          "link": "https://youtu.be/uKdkZh7SlaI",
-          "percent": 100,
-          "hz": 240
+            "user": "culobdj",
+            "link": "https://youtu.be/uKdkZh7SlaI",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Moisty",
-          "link": "https://www.youtube.com/watch?v=LTHlbkYpAgQ",
-          "percent": 100,
-          "hz": 60
+            "user": "Moisty",
+            "link": "https://www.youtube.com/watch?v=LTHlbkYpAgQ",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/Ux3F5eN0jJg",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/Ux3F5eN0jJg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/yniSPhKU50Q",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/yniSPhKU50Q",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/EIdzs8Pzr_g",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/EIdzs8Pzr_g",
+            "percent": 100,
+            "hz": "360"
         },
         {
-          "user": "crystl",
-          "link": "https://www.youtube.com/watch?v=iENrHrI27Yo",
-          "percent": 100,
-          "hz": "360",
-          "mobile": false
+            "user": "crystl",
+            "link": "https://www.youtube.com/watch?v=iENrHrI27Yo",
+            "percent": 100,
+            "hz": "360",
+            "mobile": false
         }
     ]
 }
