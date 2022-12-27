@@ -1,4 +1,4 @@
-# Welcome to the maintained Geometry Dash Layout List repo!
+# Welcome to the Geometry Dash Layout List repo!
 
 # FAQ
 
