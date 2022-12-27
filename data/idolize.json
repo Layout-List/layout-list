@@ -7,31 +7,32 @@
     "verification": "https://youtu.be/rJoZ5Ylw2TA",
     "percentToQualify": 54,
     "song": "Creo - Idolize",
+    "difficulty": 3,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "https://youtu.be/dQw4w9WgXcQ",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "https://youtu.be/dQw4w9WgXcQ",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/YdJ_yAdsN7U",
-          "percent": 100,
-          "hz": 144,
-          "mobile": false
+            "user": "mrperson",
+            "link": "https://youtu.be/YdJ_yAdsN7U",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/w9jYbmOUH3g",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/w9jYbmOUH3g",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/R7I9NN4DY5s",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/R7I9NN4DY5s",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

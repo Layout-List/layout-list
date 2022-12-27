@@ -6,44 +6,44 @@
     "verifier": "Fusion425",
     "verification": "https://youtu.be/JnJJh216c20",
     "percentToQualify": 55,
-    "song": "huang quan",
-    "song": "Influx - 黄泉",
+    "song": "Influx - \u9ec4\u6cc9",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/921847447112777748/581117.mp3",
+    "difficulty": 7,
     "records": [
         {
-          "user": "rustic",
-          "link": "https://youtu.be/YtXiwTG3ObI",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "rustic",
+            "link": "https://youtu.be/YtXiwTG3ObI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "CaioMD",
-          "link": "https://www.youtube.com/watch?v=HBwcmaoLsjw",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "CaioMD",
+            "link": "https://www.youtube.com/watch?v=HBwcmaoLsjw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "Snips",
-          "link": "https://youtu.be/5zVCFt-VZaQ",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "Snips",
+            "link": "https://youtu.be/5zVCFt-VZaQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/n1wPTPAXVjk",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "Armani",
+            "link": "https://youtu.be/n1wPTPAXVjk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "Jab",
-          "link": "https://youtu.be/V37gsFhudyg",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
+            "user": "Jab",
+            "link": "https://youtu.be/V37gsFhudyg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

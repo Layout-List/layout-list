@@ -6,34 +6,33 @@
     "verifier": "idiotdash",
     "verification": "https://youtu.be/MKIP9PFibCQ",
     "percentToQualify": 54,
-    "song": "ラストチャプター - nano.RIPE",
+    "song": "\u30e9\u30b9\u30c8\u30c1\u30e3\u30d7\u30bf\u30fc - nano.RIPE",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1013604108420251648/453456.mp3",
+    "difficulty": 4,
     "records": [
         {
-          "user": "Armani",
-          "link": "https://youtu.be/ry24Knveanw",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/ry24Knveanw",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://www.youtube.com/watch?v=UCbknKXCMnc",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=UCbknKXCMnc",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "CaioMD ",
-          "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
-          "percent": 100,
-          "hz": 360  
+            "user": "CaioMD ",
+            "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca ",
-          "link": "https://www.youtube.com/watch?v=EfiF0SXK2zI",
-          "percent": 100,
-          "hz": 360  
+            "user": "Dom_Luca ",
+            "link": "https://www.youtube.com/watch?v=EfiF0SXK2zI",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
-
-

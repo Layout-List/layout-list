@@ -1,6 +1,6 @@
 {
     "id": 80688784,
-    "name": "Dancing Moonman ⭐",
+    "name": "Dancing Moonman \u2b50",
     "author": "XxJ0SHxX",
     "creators": [],
     "verifier": "XxJ0SHxX",
@@ -8,76 +8,77 @@
     "percentToQualify": 100,
     "password": "Not Copyable",
     "song": "OcularNebula - Dancing Moonman",
+    "difficulty": 1,
     "records": [
         {
-          "user": "Armani",
-          "link": "https://youtu.be/FX2NMVuZPmM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "ThePhoenix225",
-          "link": "https://www.youtube.com/watch?v=7TavCqNsDUQ",
-          "percent": 100,
-          "hz": 144
+            "user": "ThePhoenix225",
+            "link": "https://www.youtube.com/watch?v=7TavCqNsDUQ",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Moisty",
-          "link": "https://youtu.be/1xEwllGFnMU",
-          "percent": 100,
-          "hz": 60
+            "user": "Moisty",
+            "link": "https://youtu.be/1xEwllGFnMU",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/3pmCudUyW1U",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/3pmCudUyW1U",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Shakespeare",
-          "link": "https://www.youtube.com/watch?v=XVW--ixiJfM",
-          "percent": 100,
-          "hz": 120
+            "user": "Shakespeare",
+            "link": "https://www.youtube.com/watch?v=XVW--ixiJfM",
+            "percent": 100,
+            "hz": 120
         },
         {
-          "user": "H3lpFul",
-          "link": "https://youtu.be/-Z4oE05lJbw",
-          "percent": 100,
-          "hz": 360
+            "user": "H3lpFul",
+            "link": "https://youtu.be/-Z4oE05lJbw",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/W1kasVgz6nI",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/W1kasVgz6nI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "GDEmilio",
-          "link": "https://youtu.be/HsT_QvDZ-ec",
-          "percent": 100,
-          "hz": 60
+            "user": "GDEmilio",
+            "link": "https://youtu.be/HsT_QvDZ-ec",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "exho",
-          "link": "https://youtu.be/zBRAvU2hPmQ",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "exho",
+            "link": "https://youtu.be/zBRAvU2hPmQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/anKakD6CIRc",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/anKakD6CIRc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/MnRm_DeIRy4",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "lMystikl",
+            "link": "https://youtu.be/MnRm_DeIRy4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

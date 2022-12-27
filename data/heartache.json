@@ -7,21 +7,21 @@
     "verification": "https://www.youtube.com/watch?v=agPHELlKtoY",
     "percentToQualify": 100,
     "song": "steampianist - Unrequited Love and He Who Sleeps Beneath",
+    "difficulty": 2,
     "records": [
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/pUiOiBWrIeo",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "lMystikl",
+            "link": "https://youtu.be/pUiOiBWrIeo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/kZBxmwR5BMY",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/kZBxmwR5BMY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
-        
     ]
 }

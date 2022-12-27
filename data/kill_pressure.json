@@ -3,14 +3,14 @@
     "name": "Kill Pressure",
     "author": "vszruul",
     "creators": [
-      "gokill",
-      "electro543",
-      "aleph",
-      "asumix",
-      "noobypro27",
-      "novawaveJ",
-      "sqrtpie",
-      "zDarkHTR"
+        "gokill",
+        "electro543",
+        "aleph",
+        "asumix",
+        "noobypro27",
+        "novawaveJ",
+        "sqrtpie",
+        "zDarkHTR"
     ],
     "verifier": "zDarkHTR",
     "verification": "https://youtu.be/jNJSfIFAglc",
@@ -18,31 +18,31 @@
     "password": "Not Copyable",
     "song": "Disciple - How We Roll",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1039939613541814272/9009.mp3",
+    "difficulty": 3,
     "records": [
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/T5TOfabfWy0",
-          "percent": 100,
-          "hz": 144
-        },
-       {
-          "user": "Jab",
-          "link": "https://youtu.be/vczsqExhLjs",
-          "percent": 100,
-          "hz": 240
+            "user": "mrperson",
+            "link": "https://youtu.be/T5TOfabfWy0",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=e-7DJaedcVY",
-          "percent": 100,
-          "hz": 360
+            "user": "Jab",
+            "link": "https://youtu.be/vczsqExhLjs",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/HEIrXWUWCMI",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=e-7DJaedcVY",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/HEIrXWUWCMI",
+            "percent": 100,
+            "hz": 360
         }
-        
     ]
 }

@@ -1,54 +1,55 @@
 {
     "id": 61737998,
-    "name": "Havoc ⭐",
+    "name": "Havoc \u2b50",
     "author": "Pocke",
     "creators": [],
     "verifier": "Pocke",
     "verification": "https://youtu.be/NXs9lMwQ4N0",
     "percentToQualify": 100,
     "song": "Creo - Dimension",
+    "difficulty": 1,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "owner",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Moisty",
-          "link": "https://youtu.be/ePHa3JoQCYY",
-          "percent": 100,
-          "hz": 288
+            "user": "Moisty",
+            "link": "https://youtu.be/ePHa3JoQCYY",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/wxNzWitpGIU",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/wxNzWitpGIU",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Ordacan",
-          "link": "https://youtu.be/f4cOmOIf8jU",
-          "percent": 100,
-          "hz": 360
+            "user": "Ordacan",
+            "link": "https://youtu.be/f4cOmOIf8jU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Nooob07",
-          "link": "https://youtu.be/zBRAvU2hPmQ",
-          "percent": 100,
-          "hz": 60
+            "user": "Nooob07",
+            "link": "https://youtu.be/zBRAvU2hPmQ",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/OtMnoH7Kw5k",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/OtMnoH7Kw5k",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/BOxY_ZT5xUo",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/BOxY_ZT5xUo",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

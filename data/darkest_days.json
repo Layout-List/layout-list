@@ -3,111 +3,112 @@
     "name": "Darkest Days",
     "author": "DJJDK",
     "creators": [
-      "AuditLog",
-      "ToastyBois"
+        "AuditLog",
+        "ToastyBois"
     ],
     "verifier": "DJJDK",
     "verification": "https://youtu.be/FzH50fjUjlU",
     "percentToQualify": 100,
     "song": "Creo - Dark Tides",
+    "difficulty": 2,
     "records": [
         {
-          "user": "rustic",
-          "link": "https://youtu.be/xfUvf5mHAWo",
-          "percent": 100,
-          "hz": 144
+            "user": "rustic",
+            "link": "https://youtu.be/xfUvf5mHAWo",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/U52jWHJCGnc",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/U52jWHJCGnc",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/UbsJaraHHBY",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/UbsJaraHHBY",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "sqrtpie",
-          "link": "https://youtu.be/eAH4v29LaKw",
-          "percent": 100,
-          "hz": 60
+            "user": "sqrtpie",
+            "link": "https://youtu.be/eAH4v29LaKw",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Fezzern",
-          "link": "https://www.youtube.com/watch?v=qJaxkrj2nu8",
-          "percent": 100,
-          "hz": 60
+            "user": "Fezzern",
+            "link": "https://www.youtube.com/watch?v=qJaxkrj2nu8",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "jz5",
-          "link": "https://www.youtube.com/watch?v=X7IJlY-vcnw",
-          "percent": 100,
-          "hz": 165
+            "user": "jz5",
+            "link": "https://www.youtube.com/watch?v=X7IJlY-vcnw",
+            "percent": 100,
+            "hz": 165
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=xbD6uP-9jOU",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=xbD6uP-9jOU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "ZeusGD",
-          "link": "https://www.youtube.com/watch?v=iaScqzNcL6Y",
-          "percent": 100,
-          "hz": 240
+            "user": "ZeusGD",
+            "link": "https://www.youtube.com/watch?v=iaScqzNcL6Y",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "culobdj",
-          "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
-          "percent": 100,
-          "hz": 240
+            "user": "culobdj",
+            "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "lukecaz16",
-          "link": "https://youtu.be/8Wru7qoyOyg",
-          "percent": 100,
-          "hz": 240
+            "user": "lukecaz16",
+            "link": "https://youtu.be/8Wru7qoyOyg",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/KMM3s9iraps",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "lMystikl",
+            "link": "https://youtu.be/KMM3s9iraps",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/5DPRsUFdEMo",
-          "percent": 100,
-          "hz": 288
+            "user": "Armani",
+            "link": "https://youtu.be/5DPRsUFdEMo",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=izVLmjCjQiY",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=izVLmjCjQiY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://www.youtube.com/watch?v=oZ_BwJrgtkk",
-          "percent": 100,
-          "hz": "360"
+            "user": "zDarkHTR",
+            "link": "https://www.youtube.com/watch?v=oZ_BwJrgtkk",
+            "percent": 100,
+            "hz": "360"
         },
         {
-          "user": "Nooob07",
-          "link": "https://www.youtube.com/watch?v=-rpgdbHJ8_k",
-          "percent": 100,
-          "hz": "60"
+            "user": "Nooob07",
+            "link": "https://www.youtube.com/watch?v=-rpgdbHJ8_k",
+            "percent": 100,
+            "hz": "60"
         },
         {
-          "user": "Jab",
-          "link": "https://youtu.be/OelyAey4WRc",
-          "percent": 100,
-          "hz": "240"
+            "user": "Jab",
+            "link": "https://youtu.be/OelyAey4WRc",
+            "percent": 100,
+            "hz": "240"
         }
     ]
 }

@@ -6,68 +6,69 @@
     "verifier": "Bibox",
     "verification": "https://youtu.be/mLGSXjIKu-A",
     "percentToQualify": 66,
-    "song": "Schtiffles - ᑫᵘᵉˢᵗᶦᵒᶰ Mᵃʳᵏ",
+    "song": "Schtiffles - \u146b\u1d58\u1d49\u02e2\u1d57\u1da6\u1d52\u1db0 M\u1d43\u02b3\u1d4f",
+    "difficulty": 3,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://www.youtube.com/watch?v=lF9tb8ykDqQ",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://www.youtube.com/watch?v=lF9tb8ykDqQ",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "rustic",
-          "link": "https://www.youtube.com/watch?v=m_ujZ1vqJlM",
-          "percent": 100,
-          "hz": 144
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=m_ujZ1vqJlM",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/-1wn1NGIlm0",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/-1wn1NGIlm0",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "sqrtpie",
-          "link": "https://youtu.be/TOw901yGnng",
-          "percent": 100,
-          "hz": 60
+            "user": "sqrtpie",
+            "link": "https://youtu.be/TOw901yGnng",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/HeMtqZhtDto",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/HeMtqZhtDto",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Luk231",
-          "link": "https://youtu.be/XvUPNzGiU1A",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Luk231",
+            "link": "https://youtu.be/XvUPNzGiU1A",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "culobdj",
-          "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
-          "percent": 100,
-          "hz": 240
+            "user": "culobdj",
+            "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Armani",
-          "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
-          "percent": 100,
-          "hz": 288
+            "user": "Armani",
+            "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=9nbUbV3PoJ8",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=9nbUbV3PoJ8",
+            "percent": 100,
+            "hz": 360
         },
-         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/NEP5ijC5L6o",
-          "percent": 100,
-          "hz": 360
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/NEP5ijC5L6o",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

@@ -10,19 +10,19 @@
     "percentToQualify": 55,
     "password": "Not Copyable",
     "song": "Dominuus - Bossa",
+    "difficulty": 4,
     "records": [
         {
-          "user": "Jab",
-          "link": "https://youtu.be/F_lyA_CG9Lg",
-          "percent": 100,
-          "hz": 240
+            "user": "Jab",
+            "link": "https://youtu.be/F_lyA_CG9Lg",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/C3MH7_5ve54",
-          "percent": 100,
-          "hz": 360
+            "user": "lMystikl",
+            "link": "https://youtu.be/C3MH7_5ve54",
+            "percent": 100,
+            "hz": 360
         }
-        
     ]
 }

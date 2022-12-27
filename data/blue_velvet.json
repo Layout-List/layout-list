@@ -7,42 +7,43 @@
     "verification": "https://youtu.be/21OWorODn4c",
     "percentToQualify": 57,
     "song": "Djjaner - Blue Valvet",
+    "difficulty": 4,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "owner",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Blathers",
-          "link": "owner",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "owner",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/A6xd1egyHkQ",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/A6xd1egyHkQ",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=77nPFkKgP3E",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=77nPFkKgP3E",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/LAQ4XbXD8mg",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/LAQ4XbXD8mg",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/14AAi1gRJqw",
-          "percent": 100,
-          "hz": 360
+            "user": "lMystikl",
+            "link": "https://youtu.be/14AAi1gRJqw",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

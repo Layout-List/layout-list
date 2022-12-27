@@ -8,28 +8,28 @@
     "percentToQualify": 53,
     "song": "DM DOKURO - Stained, Brutal Calamity",
     "songLink": "https://cdn.discordapp.com/attachments/855215021566590977/1019416008932466719/565826.mp3",
+    "difficulty": 6,
     "records": [
         {
-          "user": "sqrtpie",
-          "link": "https://youtu.be/mtNAsdFkP-s",
-          "percent": 100,
-          "hz": 120,
-          "mobile": false
+            "user": "sqrtpie",
+            "link": "https://youtu.be/mtNAsdFkP-s",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=A_AGZHt1SPw",
-          "percent": 72,
-          "hz": 360,
-          "mobile": false
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=A_AGZHt1SPw",
+            "percent": 72,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "rustic",
-          "link": "trust me",
-          "percent": 65,
-          "hz": 360,
-          "mobile": false
+            "user": "rustic",
+            "link": "trust me",
+            "percent": 65,
+            "hz": 360,
+            "mobile": false
         }
-        
     ]
 }

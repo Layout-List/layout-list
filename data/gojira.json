@@ -3,73 +3,74 @@
     "name": "Gojira",
     "author": "lukecaz16",
     "creators": [
-      "ZBosGaming"
+        "ZBosGaming"
     ],
     "verifier": "ZBosGaming",
     "verification": "https://youtu.be/z3RrRY3K3Fc",
     "percentToQualify": 54,
     "song": "Gojira - The Chant",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/924160890566221845/41531.mp3",
+    "difficulty": 4,
     "records": [
         {
-          "user": "lukecaz16",
-          "link": "https://www.youtube.com/watch?v=vhK-uCVxOFM",
-          "percent": 100,
-          "hz": 240
+            "user": "lukecaz16",
+            "link": "https://www.youtube.com/watch?v=vhK-uCVxOFM",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Blathers",
-          "link": "https://www.youtube.com/watch?v=pI3NYmOryvk",
-          "percent": 100,
-          "hz": 360
+            "user": "Blathers",
+            "link": "https://www.youtube.com/watch?v=pI3NYmOryvk",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "rustic",
-          "link": "https://www.youtube.com/watch?v=VpMmwKXQUYw",
-          "percent": 100,
-          "hz": 144
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=VpMmwKXQUYw",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "danielvess555",
-          "link": "https://www.youtube.com/watch?v=6zBnmmhgmBk",
-          "percent": 100,
-          "hz": 240
+            "user": "danielvess555",
+            "link": "https://www.youtube.com/watch?v=6zBnmmhgmBk",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=5hm6GOTSycE",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=5hm6GOTSycE",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "CaioMD",
-          "link": "https://www.youtube.com/watch?v=_Kphjy-zDYU",
-          "percent": 100,
-          "hz": 360
+            "user": "CaioMD",
+            "link": "https://www.youtube.com/watch?v=_Kphjy-zDYU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://www.youtube.com/watch?v=NFiENW3vZm4",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=NFiENW3vZm4",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=r1_372lSpdg",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=r1_372lSpdg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/NNXGTapDoOM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/NNXGTapDoOM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "H3lpFul",
-          "link": "https://youtu.be/G0YEiNsomuU",
-          "percent": 100,
-          "hz": 360
+            "user": "H3lpFul",
+            "link": "https://youtu.be/G0YEiNsomuU",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

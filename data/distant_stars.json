@@ -7,48 +7,49 @@
     "verification": "https://youtu.be/Rujrsz6rrVg",
     "percentToQualify": 53,
     "song": "Erik McClure - Europa",
+    "difficulty": 4,
     "records": [
         {
-          "user": "DJJDK",
-          "link": "https://www.youtube.com/watch?v=3kH0JyIXE2k",
-          "percent": 100,
-          "hz": 288
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=3kH0JyIXE2k",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "rustic",
-          "link": "https://youtu.be/v3BTm2RwHuk",
-          "percent": 100,
-          "hz": 144
+            "user": "rustic",
+            "link": "https://youtu.be/v3BTm2RwHuk",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/NNXGTapDoOM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/NNXGTapDoOM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/mUgOyJJwe7U",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/mUgOyJJwe7U",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://youtu.be/m0o5EBiMzL0E",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://youtu.be/m0o5EBiMzL0E",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://www.youtube.com/watch?v=aaXyWebZc1A",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=aaXyWebZc1A",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/uVxSPDWwZRI",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/uVxSPDWwZRI",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

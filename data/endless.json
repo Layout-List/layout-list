@@ -7,73 +7,74 @@
     "verification": "https://youtu.be/EoUWB_gkkhk",
     "percentToQualify": 53,
     "song": "Creo - Endless",
+    "difficulty": 3,
     "records": [
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/0UWaycNzqdI",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/0UWaycNzqdI",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Luk231",
-          "link": "https://youtu.be/01N-BHZ4LOM",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Luk231",
+            "link": "https://youtu.be/01N-BHZ4LOM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "culobdj",
-          "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
-          "percent": 100,
-          "hz": 240
+            "user": "culobdj",
+            "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/ouaAEyegzio",
-          "percent": 100,
-          "hz": 288
+            "user": "Armani",
+            "link": "https://youtu.be/ouaAEyegzio",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/vO14tymWU6M",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/vO14tymWU6M",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Blathers",
-          "link": "https://youtu.be/CCJO0A8SoVc",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://youtu.be/CCJO0A8SoVc",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Lev_Nix",
-          "link": "https://www.youtube.com/watch?v=w6MwY-AusXw",
-          "percent": 100,
-          "hz": 240
+            "user": "Lev_Nix",
+            "link": "https://www.youtube.com/watch?v=w6MwY-AusXw",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "rustic",
-          "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
-          "percent": 100,
-          "hz": 360
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "ZeusGD",
-          "link": "https://www.youtube.com/watch?v=eOQSbK_vi_k",
-          "percent": 100,
-          "hz": 120
+            "user": "ZeusGD",
+            "link": "https://www.youtube.com/watch?v=eOQSbK_vi_k",
+            "percent": 100,
+            "hz": 120
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://www.youtube.com/watch?v=YVr88h5WA5I",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://www.youtube.com/watch?v=YVr88h5WA5I",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/QevVjQHJm2Q",
-          "percent": 100,
-          "hz": "360"
+            "user": "lMystikl",
+            "link": "https://youtu.be/QevVjQHJm2Q",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

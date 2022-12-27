@@ -7,92 +7,93 @@
     "verification": "https://youtu.be/kzgdFvxtuZY",
     "percentToQualify": 100,
     "song": "Creo - Never Make It",
+    "difficulty": 0,
     "records": [
         {
-          "user": "Moisty",
-          "link": "https://youtu.be/iP_OGe9Ljb8",
-          "percent": 100,
-          "hz": 60
+            "user": "Moisty",
+            "link": "https://youtu.be/iP_OGe9Ljb8",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "DJJDK",
-          "link": "https://youtu.be/_D1xpeMlQUI",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "https://youtu.be/_D1xpeMlQUI",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=gfLOq581o1k",
-          "percent": 100,
-          "hz": "Mobile"
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=gfLOq581o1k",
+            "percent": 100,
+            "hz": "Mobile"
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/WRgidj3JGUQ",
-          "percent": 100,
-          "hz": "Mobile"
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/WRgidj3JGUQ",
+            "percent": 100,
+            "hz": "Mobile"
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/cmgkwWe0PYU",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/cmgkwWe0PYU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/iJkyAENF9IM",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/iJkyAENF9IM",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "pixer",
-          "link": "https://youtu.be/tga7QRJxxcA",
-          "percent": 100,
-          "hz": 240
+            "user": "pixer",
+            "link": "https://youtu.be/tga7QRJxxcA",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "dunix",
-          "link": "https://www.youtube.com/watch?v=WmMk-e22jlc",
-          "percent": 100,
-          "hz": 60
+            "user": "dunix",
+            "link": "https://www.youtube.com/watch?v=WmMk-e22jlc",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/572S4W0eQcY",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/572S4W0eQcY",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "H3lpFul",
-          "link": "https://www.youtube.com/watch?v=mdWdYIrSdng",
-          "percent": 100,
-          "hz": 360  
+            "user": "H3lpFul",
+            "link": "https://www.youtube.com/watch?v=mdWdYIrSdng",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "exho",
-          "link": "https://youtu.be/yO5k0j5SgaY",
-          "percent": 100,
-          "hz": 360  
+            "user": "exho",
+            "link": "https://youtu.be/yO5k0j5SgaY",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Nooob07",
-          "link": "https://youtu.be/vhBNiSJewJw",
-          "percent": 100,
-          "hz": 60
+            "user": "Nooob07",
+            "link": "https://youtu.be/vhBNiSJewJw",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "DELETE999",
-          "link": "https://youtu.be/rD2_XHMhhGw",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
+            "user": "DELETE999",
+            "link": "https://youtu.be/rD2_XHMhhGw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/NNQ_pXG_Hjo",
-          "percent": 100,
-          "hz": 60,
-          "mobile": false
+            "user": "lMystikl",
+            "link": "https://youtu.be/NNQ_pXG_Hjo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }

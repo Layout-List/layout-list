@@ -7,80 +7,81 @@
     "verification": "https://youtu.be/5dMW1P34IgQ",
     "percentToQualify": 52,
     "song": "tv room - Know It All",
+    "difficulty": 4,
     "records": [
         {
-          "user": "necreiP",
-          "link": "https://youtu.be/T3LJzuFrKCg",
-          "percent": 100,
-          "hz": 360
+            "user": "necreiP",
+            "link": "https://youtu.be/T3LJzuFrKCg",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Blathers",
-          "link": "https://youtu.be/yuKBjycch8Q",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://youtu.be/yuKBjycch8Q",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/eR5XbOKJBGc",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "lMystikl",
+            "link": "https://youtu.be/eR5XbOKJBGc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Luk231",
-          "link": "https://youtu.be/U1DfBVjwqfo",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Luk231",
+            "link": "https://youtu.be/U1DfBVjwqfo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "ShimzyZE",
-          "link": "https://www.youtube.com/watch?v=k6XwFpwTKow",
-          "percent": "96",
-          "hz": 360
+            "user": "ShimzyZE",
+            "link": "https://www.youtube.com/watch?v=k6XwFpwTKow",
+            "percent": "96",
+            "hz": 360
         },
         {
-          "user": "danielvess555",
-          "link": "https://youtu.be/iq26-C2wdOI",
-          "percent": 100,
-          "hz": 240
+            "user": "danielvess555",
+            "link": "https://youtu.be/iq26-C2wdOI",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/RS9dfKCgVw8",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/RS9dfKCgVw8",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "CaioMD",
-          "link": "https://youtu.be/GljdGvTpRds",
-          "percent": 100,
-          "hz": 360
+            "user": "CaioMD",
+            "link": "https://youtu.be/GljdGvTpRds",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "TheRealCave",
-          "link": "https://youtu.be/QSc4AoZc5V8",
-          "percent": 100,
-          "hz": 240
+            "user": "TheRealCave",
+            "link": "https://youtu.be/QSc4AoZc5V8",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Vink",
-          "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
-          "percent": 100,
-          "hz": 120
+            "user": "Vink",
+            "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
+            "percent": 100,
+            "hz": 120
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/gIWRnDnQp94",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/gIWRnDnQp94",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/6NzqsVXmUr0",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/6NzqsVXmUr0",
+            "percent": 100,
+            "hz": 144
         }
     ]
 }

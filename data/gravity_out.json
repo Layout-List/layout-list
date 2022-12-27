@@ -1,124 +1,125 @@
 {
     "id": 82141647,
-    "name": "Gravity Out ⭐",
+    "name": "Gravity Out \u2b50",
     "author": "GDTicLos",
     "creators": [],
     "verifier": "GDTicLos",
     "verification": "https://youtu.be/aUIunu5KIzI",
     "percentToQualify": 100,
     "song": "lchavasse - ~:Rainy Shores:~",
+    "difficulty": 0,
     "records": [
         {
-          "user": "Nooob07",
-          "link": "https://youtu.be/54QcgY6ITEk",
-          "percent": 100,
-          "hz": 60
+            "user": "Nooob07",
+            "link": "https://youtu.be/54QcgY6ITEk",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "DJJDK",
-          "link": "owner",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "trust me",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "trust me",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/3QwQiOay0jM",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/3QwQiOay0jM",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Jab",
-          "link": "https://youtu.be/QfbTkBuiaC4",
-          "percent": 100,
-          "hz": 240
+            "user": "Jab",
+            "link": "https://youtu.be/QfbTkBuiaC4",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "ZeLaND",
-          "link": "https://www.youtube.com/watch?v=2aj5UhbiBvQ",
-          "percent": 100,
-          "hz": 60
+            "user": "ZeLaND",
+            "link": "https://www.youtube.com/watch?v=2aj5UhbiBvQ",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "Moisty",
-          "link": "https://www.youtube.com/watch?v=N5A6-3keR_E",
-          "percent": 100,
-          "hz": 288
+            "user": "Moisty",
+            "link": "https://www.youtube.com/watch?v=N5A6-3keR_E",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Kuahnm",
-          "link": "https://www.youtube.com/watch?v=S7TOnOUfslI",
-          "percent": 100,
-          "hz": 360
+            "user": "Kuahnm",
+            "link": "https://www.youtube.com/watch?v=S7TOnOUfslI",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "H3lp_Ful",
-          "link": "https://youtu.be/-j_qQaEpzHE",
-          "percent": 100,
-          "hz": 360
+            "user": "H3lp_Ful",
+            "link": "https://youtu.be/-j_qQaEpzHE",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "sqrtpie",
-          "link": "https://youtu.be/Su3LuUskws4",
-          "percent": 100,
-          "hz": 60
+            "user": "sqrtpie",
+            "link": "https://youtu.be/Su3LuUskws4",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/nQZOtYThqio",
-          "percent": 100,
-          "hz": 60
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/nQZOtYThqio",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "ItzHi",
-          "link": "https://youtu.be/Z_35e8STRsg",
-          "percent": 100,
-          "hz": 60
+            "user": "ItzHi",
+            "link": "https://youtu.be/Z_35e8STRsg",
+            "percent": 100,
+            "hz": 60
         },
         {
-          "user": "DELETE999",
-          "link": "https://youtu.be/xNcc3u32FyU",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "DELETE999",
+            "link": "https://youtu.be/xNcc3u32FyU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "agentgiscool",
-          "link": "https://www.youtube.com/watch?v=Qhgkr-O9UIM",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=Qhgkr-O9UIM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "septik",
-          "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
-          "percent": 100,
-          "hz": 75
+            "user": "septik",
+            "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
+            "percent": 100,
+            "hz": 75
         },
         {
-          "user": "MiniWheatDuo",
-          "link": "owner approved",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "MiniWheatDuo",
+            "link": "owner approved",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/XUTwocoHa8s",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/XUTwocoHa8s",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/jkFwRjo_INg",
-          "percent": 100,
-          "hz": 60  
+            "user": "lMystikl",
+            "link": "https://youtu.be/jkFwRjo_INg",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }

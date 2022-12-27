@@ -7,61 +7,62 @@
     "verification": "https://youtu.be/FgiSl-BXayE",
     "percentToQualify": 50,
     "song": "Teminite - Work",
+    "difficulty": 3,
     "records": [
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/cre1hYU7T84",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/cre1hYU7T84",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "rustic",
-          "link": "https://youtu.be/aM8dYKzr6Mg",
-          "percent": 100,
-          "hz": 144
+            "user": "rustic",
+            "link": "https://youtu.be/aM8dYKzr6Mg",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/cnpwhdzoMjs",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/cnpwhdzoMjs",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/WSbK0YzFxJY",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/WSbK0YzFxJY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=H1MV-F5ZXmU",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=H1MV-F5ZXmU",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/NNXGTapDoOM",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/NNXGTapDoOM",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "TheInsanePro",
-          "link": "https://www.youtube.com/watch?v=BbIuYxvNUuk",
-          "percent": 100,
-          "hz": 120
+            "user": "TheInsanePro",
+            "link": "https://www.youtube.com/watch?v=BbIuYxvNUuk",
+            "percent": 100,
+            "hz": 120
         },
         {
-          "user": "Jab",
-          "link": "https://www.youtube.com/watch?v=05HKUgmYHxg",
-          "percent": 100,
-          "hz": 240
+            "user": "Jab",
+            "link": "https://www.youtube.com/watch?v=05HKUgmYHxg",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/idU8T_WjM90",
-          "percent": 100,
-          "hz": 360
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/idU8T_WjM90",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

@@ -7,79 +7,80 @@
     "verification": "https://youtu.be/_EPo3CmSoUc",
     "percentToQualify": 55,
     "song": "Fractal Dreamers - Fortuna Redux",
+    "difficulty": 2,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/Jo41B-fasoE",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/Jo41B-fasoE",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Jab",
-          "link": "https://youtu.be/vgyL6ePhFF8",
-          "percent": 100,
-          "hz": 240
+            "user": "Jab",
+            "link": "https://youtu.be/vgyL6ePhFF8",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/h3r1qKJGqyU",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/h3r1qKJGqyU",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Blathers",
-          "link": "https://youtu.be/60sF0hkylqc",
-          "percent": 100,
-          "hz": 288
+            "user": "Blathers",
+            "link": "https://youtu.be/60sF0hkylqc",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/HeMtqZhtDto",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/HeMtqZhtDto",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/DNe8JHQGm68",
-          "percent": 100,
-          "hz": 288
+            "user": "Armani",
+            "link": "https://youtu.be/DNe8JHQGm68",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/KMM3s9iraps",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "lMystikl",
+            "link": "https://youtu.be/KMM3s9iraps",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "DJJDK",
-          "link": "https://youtu.be/2P07g-C1EXo",
-          "percent": 100,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "https://youtu.be/2P07g-C1EXo",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "mrutherford1106",
-          "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
-          "percent": 100,
-          "hz": 144
+            "user": "mrutherford1106",
+            "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/tkCDoDdUdVY",
-          "percent": 100,
-          "hz": 144
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/tkCDoDdUdVY",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "H3lpFul",
-          "link": "https://youtu.be/rj1gkj4kY8U",
-          "percent": 100,
-          "hz": 360
+            "user": "H3lpFul",
+            "link": "https://youtu.be/rj1gkj4kY8U",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=7grwjoGzfYw",
-          "percent": 100,
-          "hz": 360
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=7grwjoGzfYw",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

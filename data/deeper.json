@@ -8,36 +8,37 @@
     "percentToQualify": 53,
     "password": "Not Copyable",
     "song": "Waterflame - -Radioactive-",
+    "difficulty": 4,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/-3AMDHd2RiQ",
-          "percent": 100,
-          "hz": 360
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/-3AMDHd2RiQ",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "danielvess555",
-          "link": "https://youtu.be/QxY_245RRnY",
-          "percent": 100,
-          "hz": 240
+            "user": "danielvess555",
+            "link": "https://youtu.be/QxY_245RRnY",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/mrbjI-bz860",
-          "percent": 100,
-          "hz": 288
+            "user": "Fusion425",
+            "link": "https://youtu.be/mrbjI-bz860",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "CaioMD",
-          "link": "https://youtu.be/Vr5lp449v64",
-          "percent": 100,
-          "hz": 360
+            "user": "CaioMD",
+            "link": "https://youtu.be/Vr5lp449v64",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/gIWRnDnQp94",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/gIWRnDnQp94",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

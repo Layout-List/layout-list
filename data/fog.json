@@ -9,12 +9,13 @@
     "password": "Not Copyable",
     "song": "lieu - see it thru (snippet)",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1052290117882085506/171702.mp3",
+    "difficulty": 7,
     "records": [
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/GUqBok9nOUw",
-          "percent": 100,
-          "hz": "360"
+            "user": "Fusion425",
+            "link": "https://youtu.be/GUqBok9nOUw",
+            "percent": 100,
+            "hz": "360"
         }
     ]
 }

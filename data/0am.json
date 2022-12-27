@@ -3,7 +3,7 @@
     "name": "0am",
     "author": "Blue7",
     "creators": [
-      "Muon"
+        "Muon"
     ],
     "verifier": "Blue7",
     "verification": "https://youtu.be/Hp-JpSRDzb8",
@@ -11,80 +11,80 @@
     "password": "772004",
     "song": "Aiobahn - 0am",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1015671021199704064/680273.mp3",
+    "difficulty": 2,
     "records": [
         {
-          "user": "ZBosGaming",
-          "link": "https://youtu.be/Q_A7fj3H2-w",
-          "percent": 100,
-          "hz": 240
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/Q_A7fj3H2-w",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "mrperson",
-          "link": "https://youtu.be/x30MFucxggU",
-          "percent": 100,
-          "hz": 144
+            "user": "mrperson",
+            "link": "https://youtu.be/x30MFucxggU",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "danielvess555",
-          "link": "https://youtu.be/UvNu7IofwCk",
-          "percent": 100,
-          "hz": 240
+            "user": "danielvess555",
+            "link": "https://youtu.be/UvNu7IofwCk",
+            "percent": 100,
+            "hz": 240
         },
         {
-          "user": "Luk231",
-          "link": "https://youtu.be/J_YEkjIulfY",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Luk231",
+            "link": "https://youtu.be/J_YEkjIulfY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
-          "user": "Fusion425",
-          "link": "https://youtu.be/HeMtqZhtDto",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://youtu.be/HeMtqZhtDto",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/DNe8JHQGm68",
-          "percent": 100,
-          "hz": 288
+            "user": "Armani",
+            "link": "https://youtu.be/DNe8JHQGm68",
+            "percent": 100,
+            "hz": 288
         },
         {
-          "user": "Matthlew",
-          "link": "https://youtu.be/TiJ2WFi4pPc",
-          "percent": 100,
-          "hz": 144
+            "user": "Matthlew",
+            "link": "https://youtu.be/TiJ2WFi4pPc",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "Lev_Nix",
-          "link": "https://youtu.be/crtGajnqcYI",
-          "percent": 100,
-          "hz": 144
+            "user": "Lev_Nix",
+            "link": "https://youtu.be/crtGajnqcYI",
+            "percent": 100,
+            "hz": 144
         },
         {
-          "user": "TurtlesdoHurdles",
-          "link": "https://youtu.be/UX3iaXttxxY",
-          "percent": 100,
-          "hz": 360
+            "user": "TurtlesdoHurdles",
+            "link": "https://youtu.be/UX3iaXttxxY",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "Dom_Luca",
-          "link": "https://www.youtube.com/watch?v=l_tauLwkoA0",
-          "percent": 100,
-          "hz": 360  
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=l_tauLwkoA0",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/30yyxs6t0DA",
-          "percent": 100,
-          "hz": 360  
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/30yyxs6t0DA",
+            "percent": 100,
+            "hz": 360
         },
         {
-          "user": "lMystikl",
-          "link": "https://youtu.be/YkRQ_1BmnwI",
-          "percent": 100,
-          "hz": 360
+            "user": "lMystikl",
+            "link": "https://youtu.be/YkRQ_1BmnwI",
+            "percent": 100,
+            "hz": 360
         }
-     
     ]
 }
