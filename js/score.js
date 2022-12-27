@@ -10,16 +10,42 @@ const scale = 3;
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number}
  */
-export function score(rank, percent, minPercent) {
-    if (rank > 150) {
-        return 0;
+export function score(difficulty, percent, minPercent) {
+    let score = 0;
+    if (difficulty>3){
+        minPercent = 100;
     }
-    let maximum_points = 250; //change this to change points of top 1
-    let score = ((140 * maximum_points + 7000) / Math.sqrt(3157 * (rank-1) + 19600) - 50)*
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-
+    switch (difficulty){
+        case 0:
+            score = 5;
+            break;
+        case 1:
+            score = 10;
+            break;
+        case 2:
+            score = 25;
+            break;
+        case 3:
+            score = 50;
+            break;
+        case 4:
+            score = 75;
+            break;
+        case 5:
+            score = 100;
+            break;
+        case 6:
+            score = 150;
+            break;
+        case 7:
+            score = 200;
+            break;
+        default:
+            score = 0;
+            break;
+    }
+    score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
-
     if (percent != 100) {
         return round(score - score / 3);
     }
