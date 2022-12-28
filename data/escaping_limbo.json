@@ -8,6 +8,12 @@
     "percentToQualify": 51,
     "song": "LucidShadowDreamer - Escaping Limbo",
     "records": [
+        {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/dB5XsSzNJU8",
+          "percent": 100,
+          "hz": 360
+        }
         
     ]
 }
