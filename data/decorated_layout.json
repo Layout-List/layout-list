@@ -8,5 +8,13 @@
     "percentToQualify": 51,
     "song": "Dimrain47 - Surface",
     "difficulty": 5,
-    "records": []
+    "records": [
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/hpot0TK2Pj4",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
+    ]
 }
