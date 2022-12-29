@@ -39,7 +39,7 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Extreme", "Supreme", "Legendary"][level.difficulty]}} layout</h3>
+                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Legendary"][level.difficulty]}} layout</h3>
                     <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
