@@ -12,7 +12,7 @@ const scale = 3;
  */
 export function score(difficulty, percent, minPercent) {
     let score = 0;
-    if (difficulty>3){
+    if (difficulty<4){
         minPercent = 100;
     }
     switch (difficulty){
