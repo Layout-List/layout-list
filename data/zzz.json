@@ -300,6 +300,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Pageyt",
+            "link": "https://youtu.be/ycDog5gYt3Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
