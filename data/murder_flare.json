@@ -27,6 +27,13 @@
             "link": "https://youtu.be/5iGxwCUBIYU",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "https://youtube.com/@gopsas2185",
+            "link": "https://www.youtube.com/watch?v=AXVeRw0Cid4",
+            "percent": 81,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
