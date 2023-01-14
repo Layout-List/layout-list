@@ -10,6 +10,13 @@
     "song": "Twikipedia - poster",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1063631701512835072/1181047.mp3",
     "records": [
+        {
+            "user": "Dom_Luca",
+            "link": "https://youtu.be/85foFnuvkhg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
