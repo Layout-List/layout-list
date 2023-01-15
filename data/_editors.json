@@ -11,6 +11,11 @@
     },
     {
         "role": "owner",
+        "name": "zDarkHTR",
+        "link": "https://www.youtube.com/channel/UCFmyN7mKRna6EM8U3ezzS5Q"
+    },
+    {
+        "role": "admin",
         "name": "Gwisp",
         "link": "https://www.twitch.tv/gwisplss"
     },
@@ -33,11 +38,6 @@
         "role": "helper",
         "name": "Ryoui",
         "link": ""
-    },
-    {
-        "role": "helper",
-        "name": "zDarkHTR",
-        "link": "https://www.youtube.com/channel/UCFmyN7mKRna6EM8U3ezzS5Q"
     },
     {
         "role": "helper",
