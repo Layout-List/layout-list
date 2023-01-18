@@ -104,11 +104,15 @@ export default {
                     </template>
                     <h3>Difficulty Rankings</h3>
                     <p>
-                        Legendary Layout = Extreme Demon (250 Points)
-                        Supreme Layout = Extreme Demon (200 Points)
-                        Extreme layout Layout = Extreme Demon (150 Points)
-                        Mythical Layout = High Insane Demon (100 Points)
-                        Insane Layout = 
+                        Legendary Layout = Extreme Demons (250 Points)
+                        Supreme Layout = Extreme Demons (200 Points)
+                        Extreme layout Layout = Extreme Demons (150 Points)
+                        Mythical Layout = High Insane Demons (100 Points)
+                        Insane Layout = Insane Demons (75 Points)
+                        Hard Layout = Hard Demons (50 Points)
+                        Medium Layout = Medium Demons (25 Points)
+                        Easy Layout = Easy Demons (10 Points)
+                        Beginner Layout = Non Demons (5 Points)
                     </p>
                     <h4>Submission Requirements</h4>
                     <p>
