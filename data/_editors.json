@@ -16,18 +16,8 @@
     },
     {
         "role": "admin",
-        "name": "Gwisp",
-        "link": "https://www.twitch.tv/gwisplss"
-    },
-    {
-        "role": "admin",
         "name": "Bluestone",
         "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
-    },
-    {
-        "role": "admin",
-        "name": "jz5",
-        "link": "https://www.youtube.com/channel/UCFmyN7mKRna6EM8U3ezzS5Q"
     },
     {
         "role": "helper",
@@ -43,6 +33,16 @@
         "role": "helper",
         "name": "Mrperson",
         "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
+    },
+    {
+        "role": "helper",
+        "name": "Dom_Luca",
+        "link": "https://www.youtube.com/channel/UCtPBl-ALHykscDBcVeUzIQw"
+    },
+    {
+        "role": "helper",
+        "name": "ToastyBois",
+        "link": "https://www.youtube.com/channel/UCttP-seMHLmeMMoNQZ1za8g"
     },
     {
         "role": "dev",

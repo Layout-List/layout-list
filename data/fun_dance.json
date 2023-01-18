@@ -555,6 +555,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Grilled",
+            "link": "https://youtu.be/nTwBiNyqrdg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/qiE4eCQvOiI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

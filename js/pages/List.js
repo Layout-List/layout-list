@@ -93,7 +93,7 @@ export default {
                         <p class="type-label-md">Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
                     </div>
                     <template v-if="editors">
-                        <h3>List Editors</h3>
+                        <h3>LIST EDITORS</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -102,6 +102,7 @@ export default {
                             </li>
                         </ol>
                     </template>
+                    
                     <h3>Submission Requirements</h3>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
@@ -126,6 +127,36 @@ export default {
                     </p>
                     <p>
                         Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                    </p>
+                    
+                    <h4></h4>
+                    <h4>DIFFICULTY RANKINGS</h4>
+                    <p>
+                        Legendary Layout = Extreme Demons (250 Points)
+                    </p>
+                    <p>
+                        Supreme Layout = Extreme Demons (200 Points)
+                    </p>
+                    <p>
+                        Extreme layout Layout = Extreme Demons (150 Points)
+                    </p>
+                    <p>
+                        Mythical Layout = High Insane Demons (100 Points)
+                    </p>
+                    <p>
+                        Insane Layout = Insane Demons (75 Points)
+                    </p>
+                    <p>
+                        Hard Layout = Hard Demons (50 Points)
+                    </p>
+                    <p>
+                        Medium Layout = Medium Demons (25 Points)
+                    </p>
+                    <p>
+                        Easy Layout = Easy Demons (10 Points)
+                    </p>
+                    <p>
+                        Beginner Layout = Non Demons (5 Points)
                     </p>
                 </div>
             </div>

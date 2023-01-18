@@ -467,13 +467,15 @@
             "user": "GDEmilio",
             "link": "https://youtu.be/Jzo9R167Jao",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "mobile": false
         },
         {
             "user": "septik",
             "link": "https://www.youtube.com/watch?v=jA9n7EsL7Xs",
             "percent": 100,
-            "hz": 75
+            "hz": 75,
+            "mobile": false
         },
         {
             "user": "Lacley",
@@ -486,7 +488,15 @@
           "user": "Pageyt",
           "link": "https://youtu.be/LLEiXuJzR6I",
           "percent": 100,
-          "hz": 60
+          "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "Grilled",
+            "link": "https://youtu.be/nTwBiNyqrdg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
