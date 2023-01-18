@@ -102,6 +102,7 @@ export default {
                             </li>
                         </ol>
                     </template>
+                    
                     <h3>Difficulty Rankings</h3>
                     <p>
                         Legendary Layout = Extreme Demons (250 Points)
@@ -114,6 +115,7 @@ export default {
                         Easy Layout = Easy Demons (10 Points)
                         Beginner Layout = Non Demons (5 Points)
                     </p>
+                    
                     <h4>Submission Requirements</h4>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
