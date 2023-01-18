@@ -191,6 +191,13 @@
             "link": "https://youtu.be/CsWAFDm9JY0",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Grilled",
+            "link": "https://youtu.be/nTwBiNyqrdg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
