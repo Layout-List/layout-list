@@ -5,6 +5,11 @@ import { round, score } from './score.js';
  */
 const dir = '/data';
 
+/**
+ * Symbol, that marks a level as not part of the list
+ */
+const benchmarker = '_';
+
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     try {
