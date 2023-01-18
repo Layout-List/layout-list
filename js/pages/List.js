@@ -129,6 +129,7 @@ export default {
                         Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
                     </p>
                     
+                    <h4></h4>
                     <h4>DIFFICULTY RANKINGS</h4>
                     <p>
                         Legendary Layout = Extreme Demons (250 Points)
