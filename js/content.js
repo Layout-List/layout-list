@@ -14,6 +14,14 @@ export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     try {
         const list = await listResult.json();
+        
+        // Create a lookup dictionary for ranks
+        const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
+            path,
+            index,
+        ) => [path, index + 1]);
+        const ranks = Object.fromEntries(ranksEntries)
+        
         return await Promise.all(
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
