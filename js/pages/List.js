@@ -93,7 +93,7 @@ export default {
                         <p class="type-label-md">Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
                     </div>
                     <template v-if="editors">
-                        <h3>List Editors</h3>
+                        <h3>LIST EDITORS</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -103,7 +103,7 @@ export default {
                         </ol>
                     </template>
                     
-                    <h4>Submission Requirements</h4>
+                    <h3>Submission Requirements</h3>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
                     </p>
@@ -129,7 +129,7 @@ export default {
                         Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
                     </p>
                     
-                    <h3>Difficulty Rankings</h3>
+                    <h4>DIFFICULTY RANKINGS</h4>
                     <p>
                         Legendary Layout = Extreme Demons (250 Points)
                     </p>
