@@ -5,28 +5,46 @@ import { round, score } from './score.js';
  */
 const dir = '/data';
 
+/**
+ * Symbol, that marks a level as not part of the list
+ */
+const benchmarker = '_';
+
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     try {
         const list = await listResult.json();
+
+        // Create a lookup dictionary for ranks
+        const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
+            path,
+            index,
+        ) => [path, index + 1]);
+        const ranks = Object.fromEntries(ranksEntries);
+
         return await Promise.all(
-            list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+            list.map(async (path) => {
+                const rank = ranks[path] || null;
                 try {
+                    const levelResult = await fetch(
+                        `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
+                    );
                     const level = await levelResult.json();
                     return [
+                        null,
+                        rank,
                         {
                             ...level,
+                            rank,
                             path,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
                             ),
                         },
-                        null,
                     ];
                 } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
-                    return [null, path];
+                    console.error(`Failed to load level #${rank} ${path}.`);
+                    return [path, rank, null];
                 }
             }),
         );
@@ -51,9 +69,18 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    list.forEach(([level, err], rank) => {
+
+    if (list === null) {
+        return [null, ['Failed to load list.']];
+    }
+
+    list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
             return;
         }
 
@@ -68,9 +95,9 @@ export async function fetchLeaderboard() {
         };
         const { verified } = scoreMap[verifier];
         verified.push({
-            rank: rank + 1,
+            rank,
             level: level.name,
-            score: score(level["difficulty"], 100, level.percentToQualify),
+            score: score(rank, 100, level.percentToQualify),
             link: level.verification,
         });
 
@@ -87,19 +114,19 @@ export async function fetchLeaderboard() {
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
                 completed.push({
-                    rank: rank + 1,
+                    rank,
                     level: level.name,
-                    score: score(level["difficulty"], 100, level.percentToQualify),
+                    score: score(rank, 100, level.percentToQualify),
                     link: record.link,
                 });
                 return;
             }
 
             progressed.push({
-                rank: rank + 1,
+                rank,
                 level: level.name,
                 percent: record.percent,
-                score: score(level["difficulty"], record.percent, level.percentToQualify),
+                score: score(rank, record.percent, level.percentToQualify),
                 link: record.link,
             });
         });
