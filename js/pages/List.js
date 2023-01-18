@@ -103,6 +103,13 @@ export default {
                         </ol>
                     </template>
                     <h3>Difficulty Rankings</h3>
+                    <p>
+                        Legendary Layout = Extreme Demon (250 Points)
+                        Supreme Layout = Extreme Demon (200 Points)
+                        Extreme layout Layout = Extreme Demon (150 Points)
+                        Mythical Layout = High Insane Demon (100 Points)
+                        Insane Layout = 
+                    </p>
                     <h4>Submission Requirements</h4>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
