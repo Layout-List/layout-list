@@ -138,7 +138,7 @@ export default {
                         Supreme Layout = Extreme Demons (200 Points)
                     </p>
                     <p>
-                        Extreme layout Layout = Extreme Demons (150 Points)
+                        Extreme Layout = Extreme Demons (150 Points)
                     </p>
                     <p>
                         Mythical Layout = High Insane Demons (100 Points)
