@@ -504,6 +504,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Tradeskill",
+            "link": "https://youtu.be/scC9fj6AfJc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
