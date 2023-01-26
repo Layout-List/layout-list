@@ -497,6 +497,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "sikoo23",
+            "link": "https://youtu.be/07_GIkaP780",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "Tradeskill",
+            "link": "https://youtu.be/scC9fj6AfJc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
