@@ -32,7 +32,14 @@
             "user": "lMystikl",
             "link": "https://youtu.be/R7I9NN4DY5s",
             "percent": 100,
-            "hz": "360"
+            "hz": 360
+        },
+        {
+            "user": "Enigma",
+            "link": "https://youtu.be/s2TeE1uG4mw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
