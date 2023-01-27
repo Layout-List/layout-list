@@ -316,6 +316,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "AJaX",
+            "link": "owner watched",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
