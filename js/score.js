@@ -43,6 +43,12 @@ export function score(difficulty, percent, minPercent) {
         case 8:
             score = 250;
             break;
+        case 9:
+            score = 350;
+            break;
+        case 10:
+            score = 500;
+            break;
         default:
             score = 0;
             break;
