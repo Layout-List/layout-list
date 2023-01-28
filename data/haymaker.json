@@ -3,13 +3,20 @@
     "name": "Haymaker",
     "author": "Zylenox",
     "creators": [],
-    "verifier": "Zylenox",
+    "verifier": "SrGuillester",
     "verification": "https://youtu.be/WuvBB2G5KDI",
     "percentToQualify": 100,
     "song": "Charlie Darker & Far Too Loud - Nail Gun",
     "songLink": "",
     "difficulty": 6,
     "records": [
+        {
+          "user": "Mistik",
+          "link": "https://www.youtube.com/watch?v=EBnjvOtYR8o",
+          "percent": 100,
+          "hz": 300,
+          "mobile": false
+        },
         {
           "user": "Mistik",
           "link": "https://www.youtube.com/watch?v=EBnjvOtYR8o",
