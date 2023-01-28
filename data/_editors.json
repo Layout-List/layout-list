@@ -16,6 +16,11 @@
     },
     {
         "role": "admin",
+        "name": "Mrperson",
+        "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
+    },
+    {
+        "role": "admin",
         "name": "Bluestone",
         "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
     },
@@ -28,11 +33,6 @@
         "role": "helper",
         "name": "Ryoui",
         "link": ""
-    },
-    {
-        "role": "helper",
-        "name": "Mrperson",
-        "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
     },
     {
         "role": "helper",
