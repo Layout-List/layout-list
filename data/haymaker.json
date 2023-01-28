@@ -10,6 +10,68 @@
     "songLink": "",
     "difficulty": 5,
     "records": [
-        
+        {
+          "user": "Mistik",
+          "link": "https://www.youtube.com/watch?v=EBnjvOtYR8o",
+          "percent": 100,
+          "hz": 300,
+          "mobile": false
+        },
+        {
+          "user": "ZeusGD",
+          "link": "https://www.youtube.com/watch?v=zu0uuYU1eXI",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        },
+        {
+          "user": "Fusion425",
+          "link": "https://youtu.be/1l60jphhWmc",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        },
+        {
+          "user": "danielvess555",
+          "link": "https://youtu.be/3FT4bJZD_2g",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        },
+        {
+          "user": "truepotato",
+          "link": "https://www.youtube.com/watch?v=airhKbla6uI",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        },
+        {
+          "user": "Armani",
+          "link": "https://www.youtube.com/watch?v=T2qoJfj1_88",
+          "percent": 100,
+          "hz": 288,
+          "mobile": false
+        },
+        {
+          "user": "Matthlew",
+          "link": "https://youtu.be/PoNcEj-pOks",
+          "percent": 100,
+          "hz": 144,
+          "mobile": false
+        },
+        {
+          "user": "Fawami",
+          "link": "https://youtu.be/rNE9uaxqMsc",
+          "percent": 100,
+          "hz": 165,
+          "mobile": false
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://m.youtube.com/watch?v=hkUVlByXezY",
+          "percent": 91,
+          "hz": 60,
+          "mobile": false
+        }
     ]
 }
