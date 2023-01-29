@@ -7,9 +7,29 @@
     "verification": "https://youtu.be/cnhbGGu2nVw",
     "percentToQualify": 100,
     "song": "KORDHELL - LAND OF FIRE",
-    "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1069029452958408835/75782.mp3",
+    "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1069343100268445837/75782.mp3",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/TWKjYOfbObw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "sikoo23",
+            "link": "https://youtu.be/DWsiYpuMexc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/wZYV8N4lQDY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
