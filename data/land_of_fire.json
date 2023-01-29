@@ -10,6 +10,19 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1069029452958408835/75782.mp3",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/TWKjYOfbObw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "sikoo23",
+            "link": "https://youtu.be/DWsiYpuMexc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        }
     ]
 }
