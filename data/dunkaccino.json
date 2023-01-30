@@ -152,6 +152,13 @@
             "link": "https://youtu.be/-3qbDEJi1Mw",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://www.youtube.com/watch?v=jXdSO1hxfGg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
