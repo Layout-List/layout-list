@@ -9,6 +9,12 @@
     "song": "Skorde - Six6Six",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "DELETE999",
+            "link": "https://www.youtube.com/watch?v=b3eKd9exSHI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
