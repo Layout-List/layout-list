@@ -16,19 +16,22 @@
           "user": "CaioMD",
           "link": "https://www.youtube.com/watch?v=ubvv60B5wlM",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         },
         {
           "user": "Fusion425",
           "link": "https://youtu.be/Ml82JWY6HqY",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         },
         {
           "user": "Armani",
           "link": "https://youtu.be/BPEd5XDBwyU",
           "percent": 100,
-          "hz": 360
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
