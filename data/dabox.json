@@ -71,6 +71,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+        {
+            "user": "Reath",
+            "link": "https://youtu.be/t3ABMba9qO0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
