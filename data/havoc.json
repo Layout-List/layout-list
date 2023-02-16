@@ -13,47 +13,61 @@
             "user": "DJJDK",
             "link": "owner",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "mobile": false
         },
         {
             "user": "Moisty",
             "link": "https://youtu.be/ePHa3JoQCYY",
             "percent": 100,
-            "hz": 288
+            "hz": 288,
+            "mobile": false
         },
         {
             "user": "mrperson",
             "link": "https://youtu.be/wxNzWitpGIU",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "Ordacan",
             "link": "https://youtu.be/f4cOmOIf8jU",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Nooob07",
             "link": "https://youtu.be/zBRAvU2hPmQ",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "mobile": false
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/OtMnoH7Kw5k",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "lMystikl",
             "link": "https://youtu.be/BOxY_ZT5xUo",
             "percent": 100,
-            "hz": "360"
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "ThisGuyKreas",
             "link": "https://www.youtube.com/watch?v=jXdSO1hxfGg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "BlackBird552",
+            "link": "https://youtu.be/a1eLX7kwfv0",
             "percent": 100,
             "hz": 60,
             "mobile": false
