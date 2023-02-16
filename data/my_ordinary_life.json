@@ -135,10 +135,18 @@
             "mobile": false
         },
         {
-          "user": "Atotakai",
-          "link": "https://www.youtube.com/watch?v=SdGA35echPo",
-          "percent": 100,
-          "hz": "240"
+            "user": "Atotakai",
+            "link": "https://www.youtube.com/watch?v=SdGA35echPo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "BlackBird552",
+            "link": "https://youtu.be/a1eLX7kwfv0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
