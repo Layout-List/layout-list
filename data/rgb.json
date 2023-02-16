@@ -13,61 +13,78 @@
             "user": "Blathers",
             "link": "https://youtu.be/sbwLqEwunDA",
             "percent": 100,
-            "hz": 288
+            "hz": 288,
+            "mobile": false
         },
         {
             "user": "Fusion425",
             "link": "https://www.youtube.com/watch?v=PyMOeC2Mq10",
             "percent": 100,
-            "hz": 288
+            "hz": 288,
+            "mobile": false
         },
         {
             "user": "lboke",
             "link": "https://youtu.be/KwQ5Hk2mS8A",
             "percent": 100,
-            "hz": 300
+            "hz": 300,
+            "mobile": false
         },
         {
             "user": "Kuaikuai27",
             "link": "https://youtu.be/J9vfNztzYEs",
             "percent": 100,
-            "hz": 288
+            "hz": 288,
+            "mobile": false
         },
         {
             "user": "Matthlew",
             "link": "https://youtu.be/xz8PpMQ1r7o?t=177",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "JustShock",
             "link": "https://www.youtube.com/watch?v=zolCI2MF-V8",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "mrperson",
             "link": "https://youtu.be/UPuLAIGKuhY",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "Chair",
             "link": "https://www.youtube.com/watch?v=zpIPhAGHSV4",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "Armani",
             "link": "https://youtu.be/Ux3F5eN0jJg",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/OvK21VXcVrc",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "BlackBird552",
+            "link": "https://youtu.be/a1eLX7kwfv0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
