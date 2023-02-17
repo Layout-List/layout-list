@@ -45,6 +45,11 @@
         "link": "https://www.youtube.com/channel/UCttP-seMHLmeMMoNQZ1za8g"
     },
     {
+        "role": "helper",
+        "name": "Mystik",
+        "link": "https://www.youtube.com/channel/UCCbDQfFbYpEtyPudE2rcD2g"
+    },
+    {
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/c/PrometheusAlt"
