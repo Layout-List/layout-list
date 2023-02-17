@@ -132,6 +132,12 @@ export default {
                     <h4></h4>
                     <h4>DIFFICULTY RANKINGS</h4>
                     <p>
+                        Silent Layout = Insane Extreme Demons (500 Points)
+                    </p>
+                    <p>
+                        ??? Layout = Hard Extreme Demons (350 Points)
+                    </p>
+                    <p>
                         Legendary Layout = Mid Extreme Demons (250 Points)
                     </p>
                     <p>
