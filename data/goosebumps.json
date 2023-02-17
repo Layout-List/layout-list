@@ -120,16 +120,24 @@
             "hz": 240
         },
         {
-            "user": "zdarkHTR",
+            "user": "zDarkHTR",
             "link": "https://youtu.be/0wi572vreQI",
             "percent": 100,
             "hz": 360
         },
         {
+            "user": "lMystikl",
+            "link": "https://youtu.be/MrreGsWcWO0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "Omni",
             "link": "https://youtu.be/D7KQaGTtcpY",
             "percent": 72,
-            "hz": 165
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
