@@ -49,6 +49,13 @@
             "link": "https://youtu.be/ZQ2CUVimJVk",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/l_8AtEEGj4U",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
