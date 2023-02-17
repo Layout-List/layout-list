@@ -45,19 +45,29 @@
             "user": "mrperson",
             "link": "https://www.youtube.com/watch?v=nD3CaMtFkqk",
             "percent": 100,
-            "hz": "144"
+            "hz": "144",
+            "mobile": false
         },
         {
             "user": "H3lpFul",
             "link": "https://www.youtube.com/watch?v=HLusFlTG7zw",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/AoQlNqBEG6s",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/DqOlzoj8eI0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
