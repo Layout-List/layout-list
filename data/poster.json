@@ -38,6 +38,13 @@
             "percent": 100,
             "hz": 300,
             "mobile": false
+        },
+        {
+            "user": "lMystikl",
+            "link": "https://youtube.com/live/Rw7fCi_Oajk?feature=share",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
