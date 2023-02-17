@@ -240,6 +240,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/2DF-hcWV6og",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

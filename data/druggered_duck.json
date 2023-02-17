@@ -107,7 +107,15 @@
             "user": "zDarkHTR",
             "link": "https://youtu.be/m2gEsjWuXq0",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/2lmdBUjap7s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
