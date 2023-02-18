@@ -40,7 +40,15 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Legendary", "Silent"][level.difficulty]}} layout</h3>
-                    <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
+                    <div v-if="level.showcase" class="tabs">
+                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
+                            <span class="type-label-lg">Verification</span>
+                        </button>
+                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
+                            <span class="type-label-lg">Showcase</span>
+                        </button>
+                    </div>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
@@ -176,10 +184,22 @@ export default {
         errors: [],
         roleIconMap,
         store,
+        toggledShowcase: false,
     }),
     computed: {
         level() {
             return this.list[this.selected][0];
+        },
+        video() {
+            if (!this.level.showcase) {
+                return embed(this.level.verification);
+            }
+
+            return embed(
+                this.toggledShowcase
+                    ? this.level.showcase
+                    : this.level.verification
+            );
         },
     },
     async mounted() {

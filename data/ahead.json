@@ -5,6 +5,7 @@
     "creators": [],
     "verifier": "ZeusGD",
     "verification": "https://youtu.be/vRUU-8FObzs",
+    "showcase": "https://youtu.be/XG8JnuPHkOc",
     "percentToQualify": 54,
     "song": "MrKoolTrix - Journey Ahead",
     "difficulty": 5,
@@ -13,7 +14,8 @@
             "user": "ZBosGaming",
             "link": "https://www.youtube.com/watch?v=oW-yB08kvWE",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Luk231",
@@ -26,43 +28,50 @@
             "user": "Fusion425",
             "link": "https://youtu.be/AtztkezVeck",
             "percent": 100,
-            "hz": 288
+            "hz": 288,
+            "mobile": false
         },
         {
             "user": "CaioMD",
             "link": "https://www.youtube.com/watch?v=zIPNfuGfQBA",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Vink",
             "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
             "percent": 100,
-            "hz": 120
+            "hz": 120,
+            "mobile": false
         },
         {
             "user": "rustic",
             "link": "https://www.youtube.com/watch?v=5H51JknvfYg",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Armani",
             "link": "https://youtu.be/gIWRnDnQp94",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Blathers",
             "link": "https://youtu.be/UkjWw2RaLUE",
             "percent": 96,
-            "hz": 240
+            "hz": 240,
+            "mobile": false
         },
         {
             "user": "lMystikl",
             "link": "https://youtu.be/IZsrfLvPHUs",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "mrperson",
