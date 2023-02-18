@@ -48,7 +48,7 @@ export default {
                             <span class="type-label-lg">Showcase</span>
                         </button>
                     </div>
-                    <iframe class="video" :src="embed(level.verification)" frameborder="0"></iframe>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
