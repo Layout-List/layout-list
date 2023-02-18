@@ -11,11 +11,6 @@
     },
     {
         "role": "admin",
-        "name": "zDarkHTR",
-        "link": "https://www.youtube.com/channel/UCFmyN7mKRna6EM8U3ezzS5Q"
-    },
-    {
-        "role": "admin",
         "name": "Mrperson",
         "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
     },
@@ -23,11 +18,6 @@
         "role": "admin",
         "name": "Bluestone",
         "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
-    },
-    {
-        "role": "helper",
-        "name": "Armani",
-        "link": "https://www.youtube.com/channel/UCsfb0UKNtO7tGZyDmDgk6Vw"
     },
     {
         "role": "helper",
@@ -43,6 +33,11 @@
         "role": "helper",
         "name": "ToastyBois",
         "link": "https://www.youtube.com/channel/UCttP-seMHLmeMMoNQZ1za8g"
+    },
+    {
+        "role": "helper",
+        "name": "Mystik",
+        "link": "https://www.youtube.com/channel/UCCbDQfFbYpEtyPudE2rcD2g"
     },
     {
         "role": "dev",
