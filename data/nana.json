@@ -12,39 +12,45 @@
     ],
     "verifier": "Blathers",
     "verification": "https://youtu.be/pQoHbzv-uSU",
+    "showcase": "https://youtu.be/o_DHFYxb168",
     "percentToQualify": 53,
     "song": "Geoxor - NANA",
     "difficulty": 5,
     "records": [
         {
-          "user": "Plasmic",
-          "link": "https://www.youtube.com/watch?v=cPpFXE8_8P8",
-          "percent": 100,
-          "hz": 360
+            "user": "Plasmic",
+            "link": "https://www.youtube.com/watch?v=cPpFXE8_8P8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "Fusion425",
-          "link": "https://www.youtube.com/watch?v=zkrI9MaemCQ",
-          "percent": 100,
-          "hz": 360
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=zkrI9MaemCQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "CaioMD",
-          "link": "https://www.youtube.com/watch?v=PKgL6rU5TfY",
-          "percent": 100,
-          "hz": 360
+            "user": "CaioMD",
+           "link": "https://www.youtube.com/watch?v=PKgL6rU5TfY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "Armani",
-          "link": "https://youtu.be/gIWRnDnQp94",
-          "percent": 100,
-          "hz": 360
+            "user": "Armani",
+            "link": "https://youtu.be/gIWRnDnQp94",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "DJJDK",
-          "link": "soon",
-          "percent": 56,
-          "hz": 240
+            "user": "DJJDK",
+            "link": "soon",
+            "percent": 56,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
