@@ -176,6 +176,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "ArctiixPaladin",
+            "link": "https://youtu.be/mFFx65nYasQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
