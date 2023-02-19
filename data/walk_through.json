@@ -13,7 +13,8 @@
             "user": "zDarkHTR",
             "link": "https://youtu.be/jz3opWQtjAU",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "lMystikl",
@@ -27,6 +28,13 @@
             "link": "https://youtu.be/QVVzjziVK_U",
             "percent": 100,
             "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         },
         {
