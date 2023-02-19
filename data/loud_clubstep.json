@@ -1,0 +1,27 @@
+{
+    "id": 76787587,
+    "name": "Loud Clubstep",
+    "author": "Fusion425",
+    "creators": [
+        "JustRai",
+        "HRLayouts",
+        "Gwispy",
+        "jz5",
+        "whisperend",
+        "ToastyBois"
+    ],
+    "verifier": "Fusion425",
+    "verification": "https://youtu.be/8IVLclg_sQ4",
+    "percentToQualify": 64,
+    "song": "Aiobahn - Clubstep",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "culobdj",
+            "link": "https://youtu.be/LqVoDiV_Qe4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
+}
