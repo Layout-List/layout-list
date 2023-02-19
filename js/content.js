@@ -25,6 +25,9 @@ export async function fetchList() {
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
+                    const levelResult = await fetch(
+                        `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
+                    );
                     const level = await levelResult.json();
                     return [
                         {
