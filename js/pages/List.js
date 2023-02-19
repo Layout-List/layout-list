@@ -39,7 +39,7 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Legendary", "Silent"][level.difficulty]}} layout</h3>
+                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
                             <span class="type-label-lg">Verification</span>
@@ -143,10 +143,10 @@ export default {
                         Silent Layout = Insane Extreme Demons (500 Points)
                     </p>
                     <p>
-                        ??? Layout = Hard Extreme Demons (350 Points)
+                        Legendary Layout = Hard Extreme Demons (350 Points)
                     </p>
                     <p>
-                        Legendary Layout = Mid Extreme Demons (250 Points)
+                        Ethereal Layout = Mid Extreme Demons (250 Points)
                     </p>
                     <p>
                         Supreme Layout = Easy Extreme Demons (200 Points)
