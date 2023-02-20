@@ -12,6 +12,13 @@
     "songLink": "https://youtu.be/IxxstCcJlsc",
     "difficulty": 3,
     "records": [
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/C5lYOh5JjUw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
