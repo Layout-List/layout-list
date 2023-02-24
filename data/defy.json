@@ -139,6 +139,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "SinSnrGD",
+            "link": "https://youtu.be/0eUh0rlSKho",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
