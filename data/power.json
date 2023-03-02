@@ -214,6 +214,13 @@
             "link": "https://youtu.be/PmqUNiQt7cA",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "SinSnrGD",
+            "link": "https://youtu.be/ALxctYcwIj8",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }

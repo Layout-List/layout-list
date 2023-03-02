@@ -583,6 +583,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "SinSnrGD",
+            "link": "https://youtu.be/eQhz15Tl0Mc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "wist8nGD",
+            "link": "https://youtu.be/4ZuTvdceRFk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
