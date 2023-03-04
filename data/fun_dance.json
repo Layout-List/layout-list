@@ -590,6 +590,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Takayama",
+            "link": "https://youtu.be/CKFSbAd4umA",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
