@@ -125,6 +125,13 @@
             "link": "https://youtu.be/dT6PCfLfwmg",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "SinSnrGD",
+            "link": "https://youtu.be/lBBlXJ7NrUk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
