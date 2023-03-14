@@ -73,6 +73,13 @@
           "percent": 91,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "Aquaizu",
+          "link": "https://youtu.be/WkdK8F8HTf0",
+          "percent": 95,
+          "hz": 180,
+          "mobile": false
         }
     ]
 }

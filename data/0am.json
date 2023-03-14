@@ -85,6 +85,13 @@
             "link": "https://youtu.be/YkRQ_1BmnwI",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/zjEh12R-ktY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
