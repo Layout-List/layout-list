@@ -58,10 +58,17 @@
             "hz": 360
         },
         {
-          "user": "ObvSilver",
-          "link": "https://youtu.be/3IKDjSdjhfw",
-          "percent": 100,
-          "hz": 165
+            "user": "ObvSilver",
+            "link": "https://youtu.be/3IKDjSdjhfw",
+            "percent": 100,
+            "hz": 165
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/3jbeXJL-v3A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
