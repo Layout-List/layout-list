@@ -119,6 +119,13 @@
             "link": "https://youtu.be/whoPyFZxvW8",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/n4OmCzMDvkU",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
         }
     ]
 }
