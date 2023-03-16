@@ -20,6 +20,11 @@
         "link": "https://www.youtube.com/channel/UCfCcFAvTLH-vqmFe93z9D3w"
     },
     {
+        "role": "admin",
+        "name": "lMystikl",
+        "link": "https://www.youtube.com/channel/UCCbDQfFbYpEtyPudE2rcD2g"
+    },
+    {
         "role": "helper",
         "name": "Ryoui",
         "link": ""
@@ -33,11 +38,6 @@
         "role": "helper",
         "name": "ToastyBois",
         "link": "https://www.youtube.com/channel/UCttP-seMHLmeMMoNQZ1za8g"
-    },
-    {
-        "role": "helper",
-        "name": "lMystikl",
-        "link": "https://www.youtube.com/channel/UCCbDQfFbYpEtyPudE2rcD2g"
     },
     {
         "role": "dev",
