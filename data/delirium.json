@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 5,
     "records": [
-        
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/f525OJTgvk4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
