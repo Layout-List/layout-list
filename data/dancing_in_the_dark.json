@@ -10,6 +10,12 @@
     "songLink": "https://youtu.be/K3Qzzggn--s",
     "difficulty": 2,
     "records": [
-      
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/1FpTsaux364",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
