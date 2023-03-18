@@ -1,0 +1,20 @@
+{
+    "id": 79449125,
+    "name": "Delirium",
+    "author": "rodentsardine",
+    "creators": [],
+    "verifier": "rodentsardine",
+    "verification": "https://youtu.be/zbTO_YkgsqY",
+    "percentToQualify": 58,
+    "song": "Djjaner - The Hallucination",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/f525OJTgvk4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}
