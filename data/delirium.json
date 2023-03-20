@@ -10,6 +10,13 @@
     "difficulty": 5,
     "records": [
         {
+            "user": "JJw128",
+            "link": "https://youtu.be/9vGekwULKhI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
             "user": "lMystikl",
             "link": "https://youtu.be/f525OJTgvk4",
             "percent": 100,
