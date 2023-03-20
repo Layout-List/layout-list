@@ -134,6 +134,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Atotakai",
+            "link": "https://www.youtube.com/watch?v=q85PNi2tKcs&ab_channel=Atotakai",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
