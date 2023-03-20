@@ -147,6 +147,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Macorum",
+            "link": "https://youtu.be/IST4x4XOVKQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
