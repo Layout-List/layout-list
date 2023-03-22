@@ -29,6 +29,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Dep96",
+            "link": "https://www.youtube.com/watch?v=0wAiaW6Z9Fs",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
         }
     ]
 }
