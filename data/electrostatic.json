@@ -169,6 +169,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+          "user": "SinSnrGD",
+          "link": "https://www.youtube.com/watch?v=NUNstUNBBT8&ab_channel=sinsnr",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
         }
     ]
 }
