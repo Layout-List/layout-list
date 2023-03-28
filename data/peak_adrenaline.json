@@ -69,6 +69,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://www.youtube.com/watch?v=5V-jJ4NJKaM&ab_channel=Kreas",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
