@@ -1,6 +1,6 @@
 {
     "id": 75762940,
-    "name": "to the moon  ",
+    "name": "to the moon",
     "author": "RewrtTT",
     "creators": [
         "BySelling",
@@ -53,6 +53,13 @@
         {
             "user": "lMystikl",
             "link": "https://youtu.be/d2HgguXqBVQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/cAhCTsEYVVM",
             "percent": 100,
             "hz": 360,
             "mobile": false

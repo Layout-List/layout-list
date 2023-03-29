@@ -611,6 +611,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "zAltair",
+            "link": "https://youtu.be/m5ubdRwYBEg",
+            "percent": 100,
+            "hz": 100,
+            "mobile": false
         }
     ]
 }
