@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 9,
     "records": [
-        
+        {
+            "user": "cursed",
+            "link": "https://youtu.be/ONPUiar0GqI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
