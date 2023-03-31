@@ -140,6 +140,9 @@ export default {
                     <h4></h4>
                     <h4>DIFFICULTY RANKINGS</h4>
                     <p>
+                        Impossible Layout = Top Extreme Demons (1000 Points)
+                    </p>
+                    <p>
                         Silent Layout = Insane Extreme Demons (500 Points)
                     </p>
                     <p>
