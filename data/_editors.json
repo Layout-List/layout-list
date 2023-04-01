@@ -22,7 +22,7 @@
     {
         "role": "admin",
         "name": "lMystikl",
-        "link": "https://www.youtube.com/channel/UCCbDQfFbYpEtyPudE2rcD2g"
+        "link": "https://www.youtube.com/@lMystikl"
     },
     {
         "role": "helper",
@@ -43,6 +43,11 @@
         "role": "helper",
         "name": "Atotakai",
         "link": "https://www.youtube.com/channel/UCgu08lWU3NQqfvnPkIRV9xg"
+    },
+    {
+        "role": "helper",
+        "name": "Hayden",
+        "link": "https://www.youtube.com/@zdarkhtr6212"
     },
     {
         "role": "dev",
