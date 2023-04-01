@@ -70,6 +70,13 @@
             "link": "https://youtu.be/_YZvFTgmLEg",
             "percent": "54",
             "hz": 240
+        },
+        {
+            "user": "SpaceUK",
+            "link": "https://youtu.be/dQw4w9WgXcQ",
+            "percent": 100,
+            "hz": 9999,
+            "mobile": false
         }
     ]
 }
