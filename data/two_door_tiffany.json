@@ -1,0 +1,21 @@
+{
+    "id": 88203501,
+    "name": "two door tiffany",
+    "author": "5SS (hab)",
+    "creators": [],
+    "verifier": "hab",
+    "verification": "https://youtu.be/cyHr8NVYvS4",
+    "percentToQualify": 100,
+    "song": "quinn - two door tiffany",
+    "songLink": "",
+    "difficulty": 4,
+    "records": [
+      {
+        "user": "SpaceUK",
+        "link": "https://youtu.be/dQw4w9WgXcQ",
+        "percent": 100,
+        "hz": 9999,
+        "mobile": false
+      }
+    ]
+}
