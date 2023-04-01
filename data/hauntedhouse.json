@@ -9,6 +9,12 @@
     "song": "Laura Les - Haunted",
     "difficulty": 11,
     "records": [
-        
+        {
+            "user": "EllipseYT",
+            "link": "https://www.youtube.com/watch?v=F2RNYZ03DS8&vl=en",
+            "percent": 100,
+            "hz": 480,
+            "mobile": true
+        }
     ]
 }
