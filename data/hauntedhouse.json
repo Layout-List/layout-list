@@ -5,11 +5,16 @@
     "creators": [],
     "verifier": "???",
     "verification": "https://youtu.be/KvrJ-1jjW1Y",
-    "percentToQualify": 100,
+    "percentToQualify": 15,
     "song": "Laura Les - Haunted",
-    "songLink": "",
     "difficulty": 11,
     "records": [
-        
+        {
+            "user": "EllipseYT",
+            "link": "https://www.youtube.com/watch?v=F2RNYZ03DS8&vl=en",
+            "percent": 144,
+            "hz": 480,
+            "mobile": true
+        }
     ]
 }
