@@ -10,12 +10,6 @@
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1091579813317333086/169586.mp3",
     "difficulty": 11,
     "records": [
-        {
-            "user": "SpaceUK",
-            "link": "https://youtu.be/dQw4w9WgXcQ",
-            "percent": 100,
-            "hz": 9999,
-            "mobile": false
-        }
+        
     ]
 }
