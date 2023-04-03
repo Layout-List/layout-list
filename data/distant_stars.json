@@ -67,9 +67,16 @@
         },
         {
             "user": "AJax",
-            "link": "soon",
+            "link": "https://youtu.be/dQw4w9WgXcQ",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://www.youtube.com/watch?v=5MgqnFRsnII",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]

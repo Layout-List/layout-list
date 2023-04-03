@@ -45,6 +45,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Bibox",
+            "link": "https://youtu.be/p-JgAN0UkDo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

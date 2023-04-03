@@ -108,6 +108,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Bibox",
+            "link": "https://www.youtube.com/watch?v=P2G3T2R-Iro",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
