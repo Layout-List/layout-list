@@ -317,6 +317,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "sarcasticmuch",
+            "link": "https://www.youtube.com/watch?v=72FNf9LHmDc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
