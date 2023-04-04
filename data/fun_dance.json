@@ -604,6 +604,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "ez",
+            "link": "https://www.youtube.com/watch?v=JV0MkomOwkE",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
