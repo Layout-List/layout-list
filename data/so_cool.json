@@ -625,6 +625,12 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+            "user": "zodycoder",
+            "link": "https://youtu.be/r8E5GWqwP4Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
