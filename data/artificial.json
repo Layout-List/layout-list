@@ -538,6 +538,13 @@
             "percent": 100,
             "hz": 100,
             "mobile": false
+        },
+        {
+            "user": "zodycoderr",
+            "link": "https://youtu.be/N1GjEXKD9Yk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
