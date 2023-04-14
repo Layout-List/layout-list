@@ -75,7 +75,14 @@
             "user": "Bibox",
             "link": "https://youtu.be/TtaiPHtYwS8",
             "percent": 100,
-            "hz": "360",
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/lN49cHKFK9M",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]
