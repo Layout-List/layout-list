@@ -310,6 +310,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "SuperGabMaker",
+            "link": "https://youtu.be/-ewEhX-rIEM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }

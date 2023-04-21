@@ -85,6 +85,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Cretter",
+            "link": "https://youtu.be/_WLiI6IfjbE",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
