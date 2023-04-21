@@ -167,6 +167,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://youtu.be/-jSm-DnvX24",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
