@@ -9,6 +9,14 @@
     "song": "Creo - Aurora",
     "difficulty": 0,
     "records": [
+        
+        {
+            "user": "Huskiegaming",
+            "link": "https://youtu.be/8rAbT5BBV7g",
+            "percent": 100,
+            "hz": "120",
+            "mobile": true
+        }
     
     ]
 }
