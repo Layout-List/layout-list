@@ -325,6 +325,13 @@
             "percent": 93,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "fae",
+            "link": "https://youtu.be/hBr1nDvhGcQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
