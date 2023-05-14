@@ -9,6 +9,12 @@
     "song": "WaxTerk - Space Telecom",
     "difficulty": 1,
     "records": [
-     
+        {
+            "user": "lMystikl",
+            "link": "will update later",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
     ]
 }
