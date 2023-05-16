@@ -74,6 +74,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Fawami",
+            "link": "https://www.youtube.com/watch?v=r9nzspYZ4Ng",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
