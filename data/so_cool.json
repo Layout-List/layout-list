@@ -639,6 +639,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "FluffyCatNeo",
+            "link": "https://youtu.be/i0wYkQ1D0oY",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
