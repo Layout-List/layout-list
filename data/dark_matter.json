@@ -178,6 +178,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "sphericle",
+            "link": "https://youtu.be/HawMG6reB3A",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
