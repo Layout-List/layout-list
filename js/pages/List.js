@@ -122,7 +122,7 @@ export default {
                         The recording must have either source audio or clicks/taps in the video. Edited audio does not count for hard demons and above.
                     </p>
                     <p>
-                        The recording must have clicks/taps in the video if the record is on a level from the Insane Layout difficulty category or above (this does not apply to mobile players, although taps are appreciated if possible).
+                        The recording must have clicks/taps in the video if the record is on a level from the Insane Layout difficulty category or above (this does not apply to mobile players, although taps are appreciated).
                     </p>
                     <p>
                         The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
