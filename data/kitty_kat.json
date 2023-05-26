@@ -175,6 +175,13 @@
             "percent": 100,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "Xilver171",
+            "link": "https://youtu.be/V-T4OtGVACQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
