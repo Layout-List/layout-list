@@ -22,13 +22,6 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
-        },
-        {
-            "user": "Oleg225",
-            "link": "https://youtu.be/9C4CRu6V9C8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
         }
     ]
 }
