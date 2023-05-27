@@ -168,6 +168,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Fawami",
+            "link": "https://youtu.be/TX_k3ghknOY",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }

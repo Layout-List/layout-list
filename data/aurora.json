@@ -30,6 +30,20 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Nooob07",
+            "link": "https://youtu.be/U2FcF-H6GO4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/XTApGN0QDaM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     
     ]

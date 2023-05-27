@@ -155,6 +155,20 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Fawami",
+            "link": "https://youtu.be/CMzL3N4Sz4U",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        },
+        {
+            "user": "AnnihilationGD",
+            "link": "https://youtu.be/17Ew8WsaZms",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

@@ -12,6 +12,13 @@
     "song": "DSMagnum - -[ HailFIRE Peaks ]-",
     "difficulty": 5,
     "records": [
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/PIVko3GYuj8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
