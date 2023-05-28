@@ -392,6 +392,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Salukis",
+            "link": "https://youtu.be/OSjTyfnLvaU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
