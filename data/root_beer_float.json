@@ -271,6 +271,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Salukis",
+            "link": "https://www.youtube.com/watch?v=evXx-sr42T0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
