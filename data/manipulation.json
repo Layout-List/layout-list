@@ -34,6 +34,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=vkKd_4lsQMw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
