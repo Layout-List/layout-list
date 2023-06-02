@@ -281,6 +281,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Fid",
+            "link": "https://youtu.be/s7Fp_Lsn8Ec",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
