@@ -278,6 +278,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Fid",
+            "link": "https://www.youtube.com/watch?v=jkTip_XWros",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

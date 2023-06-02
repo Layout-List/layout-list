@@ -69,8 +69,8 @@
         },
         {
           "user": "ThisGuyKreas",
-          "link": "https://m.youtube.com/watch?v=hkUVlByXezY",
-          "percent": 91,
+          "link": "https://www.youtube.com/watch?v=rzZmR-na0cU",
+          "percent": 100,
           "hz": 60,
           "mobile": true
         },
@@ -80,6 +80,13 @@
           "percent": 95,
           "hz": 180,
           "mobile": false
+        },
+        {
+            "user": "AnnihilationGD",
+            "link": "https://youtu.be/GuQ-Gg2PHa8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

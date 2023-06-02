@@ -226,6 +226,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "AnnihilationGD",
+            "link": "https://youtu.be/ULkjQ5qfXOU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
