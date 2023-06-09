@@ -573,6 +573,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Skybolt06",
+            "link": "https://youtu.be/lFQnCwe60NY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
