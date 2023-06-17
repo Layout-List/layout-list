@@ -660,6 +660,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "DaFlamango",
+            "link": "https://youtu.be/b-mc4CxeW8s",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
