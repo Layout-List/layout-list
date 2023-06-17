@@ -10,5 +10,11 @@
     "song": "WaxTerk - Paa_Brain.zip",
     "difficulty": 0,
     "records": [
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/e5wKjFS9LOA",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
