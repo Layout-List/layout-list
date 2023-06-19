@@ -110,6 +110,12 @@ export default {
                             </li>
                         </ol>
                     </template>
+
+                    <h3>Tags</h3>
+                    <p>
+                        ⭐ Rated
+                        ❌ Pending Removal
+                    </p>
                     
                     <h3>Submission Requirements</h3>
                     <p>
