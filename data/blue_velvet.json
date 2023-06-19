@@ -10,12 +10,6 @@
     "difficulty": 4,
     "records": [
         {
-            "user": "DJJDK",
-            "link": "owner",
-            "percent": 100,
-            "hz": 240
-        },
-        {
             "user": "Blathers",
             "link": "owner",
             "percent": 100,
