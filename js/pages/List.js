@@ -113,10 +113,8 @@ export default {
 
                     <h3>Tags</h3>
                     <p>
-                        ⭐ Rated
-                    </p>
-                    <p>
-                        ❌ Pending Removal
+                        (⭐ Rated)
+                        (❌ Pending Removal)
                     </p>
                     
                     <h3>Submission Requirements</h3>
