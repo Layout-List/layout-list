@@ -14,13 +14,22 @@
             "user": "whitmp4",
             "link": "https://youtu.be/e5wKjFS9LOA",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DJJDK",
+            "link": "playtester",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/QKewWYEABGk",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
