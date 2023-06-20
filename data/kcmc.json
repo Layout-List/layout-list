@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
