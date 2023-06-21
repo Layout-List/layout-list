@@ -668,6 +668,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/rPUEfghC2u4",
+            "percent": 100
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
