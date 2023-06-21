@@ -10,16 +10,16 @@
     "songLink": "",
     "difficulty": 3,
     "records": [
-         {
-             "user": "zDarkHTR",
-             "link": "https://youtu.be/rytVlLThjAc",
+        {
+             "user": "DJJDK",
+             "link": "https://youtu.be/oLHXUohHdGY",
              "percent": 100,
              "hz": 360,
              "mobile": false
         },
         {
-             "user": "DJJDK",
-             "link": "https://youtu.be/oLHXUohHdGY",
+             "user": "zDarkHTR",
+             "link": "https://youtu.be/rytVlLThjAc",
              "percent": 100,
              "hz": 360,
              "mobile": false
