@@ -115,7 +115,7 @@ export default {
                     <p>
                         (⭐ Rated )
                         (❌ Pending Removal )
-                        (🪄 Subject to exemeptions )
+                        (🪄 Subject to exemptions )
                     </p>
                     
                     <h3>Submission Requirements</h3>
