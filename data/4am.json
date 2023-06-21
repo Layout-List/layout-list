@@ -7,14 +7,22 @@
     "verification": "https://youtu.be/dSkQYBUx6sU",
     "percentToQualify": 100,
     "song": "re6ce - 4am",
-    "songLink": "https://youtu.be/hIK780cvJ3E",
+    "songLink": "https://cdn.discordapp.com/attachments/855215658206494760/1120900845173739560/1155075.mp3",
     "difficulty": 2,
     "records": [
+        {
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/bQBHJ9KoNRw",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
