@@ -1,0 +1,28 @@
+{
+    "id": 78874359,
+    "name": "New",
+    "author": "Kind1e",
+    "creators": [],
+    "verifier": "Kind1e",
+    "verification": "https://youtu.be/gNWlunngkcQ",
+    "percentToQualify": 100,
+    "song": "Camical Music - Miss you",
+    "songLink": "",
+    "difficulty": 3,
+    "records": [
+         {
+             "user": "zDarkHTR",
+             "link": "https://youtu.be/rytVlLThjAc",
+             "percent": 100,
+             "hz": 360,
+             "mobile": false
+        }
+        {
+             "user": "DJJDK",
+             "link": "https://youtu.be/oLHXUohHdGY",
+             "percent": 100,
+             "hz": 360,
+             "mobile": false
+        }
+    ]
+}
