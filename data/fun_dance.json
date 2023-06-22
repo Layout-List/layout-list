@@ -675,6 +675,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/k3jAycWvgCA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
