@@ -65,6 +65,34 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "ArctiixPaladin",
+            "link": "https://www.youtube.com/watch?v=5zX9NyyV2UM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/pGPvTOnyg1g",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://youtu.be/6ZuJsJ4n0YA",
+            "percent": 100,
+            "hz": "360",
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/w2NrV5SNp7Q",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

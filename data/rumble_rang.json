@@ -110,6 +110,20 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Bibox",
+            "link": "https://youtu.be/TIJbz_q_Sbs",
+            "percent": 100,
+            "hz": "360",
+            "mobile": false
+        },
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/Vzm3xbQxxSg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
