@@ -10,6 +10,12 @@
     "songLink": "https://youtu.be/Hb2PfC_dpcw",
     "difficulty": 3,
     "records": [
+        {
+            "user": "Bibox",
+            "link": "https://youtu.be/DuQFsP2EZMs",
+            "percent": 100,
+            "hz": "360",
+            "mobile": false
         
     ]
 }
