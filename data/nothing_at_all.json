@@ -16,6 +16,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "customs",
+            "link": "https://youtu.be/VaMo6F3K6p8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/-sZccpWfIdg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
