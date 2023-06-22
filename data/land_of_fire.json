@@ -58,6 +58,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "customs",
+            "link": "https://youtu.be/iYTPGc9jBkQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
