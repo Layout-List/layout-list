@@ -215,6 +215,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "IntriZ",
+            "link": "youtube.com/watch?v=knkJ2bXs51c&t=53s",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
