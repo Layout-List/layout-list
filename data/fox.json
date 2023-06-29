@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 3,
     "records": [
-        
+        {
+          "user": "AJaX",
+          "link": "https://youtu.be/kie4wbaykt8",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        }
     ]
 }
