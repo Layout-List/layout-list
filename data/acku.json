@@ -11,18 +11,18 @@
     "difficulty": 1,
     "records": [
         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/fN-cRcnBtCg",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/fN-cRcnBtCg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "DJJDK",
-          "link": "owner",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+            "user": "DJJDK",
+            "link": "owner",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "ThisGuyKreas",
