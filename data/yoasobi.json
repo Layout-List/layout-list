@@ -332,6 +332,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "cheeseburger",
+            "link": "https://youtu.be/LuQAF29KqyU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
