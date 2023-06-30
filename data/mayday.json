@@ -191,6 +191,13 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+            "user": "sikoo23",
+            "link": "https://youtu.be/qP_y1JxxFOA",
+            "percent": 100,
+            "hz": "120",
+            "mobile": true
         }
     ]
 }
