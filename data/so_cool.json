@@ -702,6 +702,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "95.a",
+            "link": "https://youtu.be/Dn9lSOfI0vs",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
