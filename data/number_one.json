@@ -393,6 +393,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Dropp",
+            "link": "https://youtu.be/qO4xHFWf2u0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
