@@ -14,31 +14,43 @@
             "user": "Armani",
             "link": "https://youtu.be/ry24Knveanw",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "mrperson",
             "link": "https://www.youtube.com/watch?v=UCbknKXCMnc",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "CaioMD",
             "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Dom_Luca",
             "link": "https://www.youtube.com/watch?v=EfiF0SXK2zI",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/duzmdGbHpws",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/NY7NwzmPCS8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
