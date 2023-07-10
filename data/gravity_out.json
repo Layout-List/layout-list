@@ -205,6 +205,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Cesr",
+            "link": "https://youtu.be/APs8n57D5sE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
