@@ -9,6 +9,12 @@
     "song": "Koven - Gold (SPACEJUMP X VIRU$ Remix)",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "DJJDK",
+            "link": "soon",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
