@@ -608,6 +608,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Stereo",
+            "link": "https://youtu.be/vXlrM-LQ8aY",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
