@@ -22,6 +22,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "gold layout",
+            "link": "https://www.youtube.com/watch?v=ggrbqmkVvoE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
