@@ -313,6 +313,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Dropp",
+            "link": "https://youtu.be/Snqn3yHrDSo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Stereo",
+            "link": "https://youtu.be/kWdEFU2rAzY",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }

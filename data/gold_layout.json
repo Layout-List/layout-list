@@ -1,6 +1,6 @@
 {
     "id": 91204229,
-    "name": "Gold layout",
+    "name": "gold layout",
     "author": "Morsey",
     "creators": [],
     "verifier": "Morsey",
@@ -12,6 +12,20 @@
         {
             "user": "DJJDK",
             "link": "soon",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/UpDjGPS4fOE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "95.a",
+            "link": "https://www.youtube.com/watch?v=ggrbqmkVvoE",
             "percent": 100,
             "hz": 360,
             "mobile": false
