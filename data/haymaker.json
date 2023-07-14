@@ -129,6 +129,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Seismic",
+            "link": "https://streamable.com/jh98rt",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
