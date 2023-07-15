@@ -11,21 +11,11 @@
     },
     {
         "role": "admin",
-        "name": "Mrperson",
-        "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
-    },
-    {
-        "role": "admin",
-        "name": "lMystikl",
-        "link": "https://www.youtube.com/@lMystikl"
-    },
-    {
-        "role": "helper",
         "name": "Atotakai",
         "link": "https://www.youtube.com/channel/UCgu08lWU3NQqfvnPkIRV9xg"
     },
     {
-        "role": "helper",
+        "role": "admin",
         "name": "zDarkHTR",
         "link": "https://www.youtube.com/@zdarkhtr6212"
     },
@@ -33,6 +23,16 @@
         "role": "helper",
         "name": "NiXaNTyReaL",
         "link": "https://www.youtube.com/channel/UC3fg0-hXdR7gKGFp-h1Kibg"
+    },
+    {
+        "role": "helper",
+        "name": "Mrperson",
+        "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
+    },
+    {
+        "role": "helper",
+        "name": "lMystikl",
+        "link": "https://www.youtube.com/@lMystikl"
     },
     {
         "role": "dev",
