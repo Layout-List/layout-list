@@ -723,6 +723,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=ykOVEyDKmiY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
