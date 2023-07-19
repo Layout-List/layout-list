@@ -84,6 +84,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Korlafr",
+            "link": "https://clipchamp.com/watch/6zpljki38q9",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
