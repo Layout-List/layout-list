@@ -102,6 +102,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "snips",
+            "link": "https://youtu.be/azOFQwJ9d2Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
