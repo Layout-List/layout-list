@@ -76,6 +76,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Luke",
+            "link": "https://youtu.be/nK_l1pJzWWU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
