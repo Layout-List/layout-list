@@ -9,6 +9,12 @@
     "song": "Waterflame - -Sunken field-",
     "difficulty": 3,
     "records": [
-    
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=ilBu-KSyVag",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
