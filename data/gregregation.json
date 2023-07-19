@@ -184,6 +184,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Guill",
+            "link": "https://youtu.be/juyChy6axRk",
+            "percent": 100,
+            "hz": 180,
+            "mobile": false
         }
     ]
 }
