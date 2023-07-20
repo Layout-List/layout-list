@@ -10,6 +10,11 @@
     "songLink": "",
     "difficulty": 1,
     "records": [
-        
+         {
+          "user": "zDarkHTR",
+          "link": "https://youtu.be/AcekFtwS4XA",
+          "percent": 100,
+          "hz": 360
+        }
     ]
 }
