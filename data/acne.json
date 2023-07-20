@@ -11,6 +11,11 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1131685218219196577/1227727.mp3",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/waKbWyJyAuw",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
