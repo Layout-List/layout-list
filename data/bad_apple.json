@@ -9,6 +9,13 @@
     "song": "Nomico - Bad Apple!!",
     "difficulty": 1,
     "records": [
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/RsblDmzzQHQ",
+            "percent": 100,
+            "hz": "240",
+            "mobile": false
+        }
         
     ]
 }
