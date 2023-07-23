@@ -94,6 +94,13 @@
             "percent": 100,
             "hz": "120",
             "mobile": true
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=VTgm5K05oHI&ab_channel=AcaciaDoor",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
