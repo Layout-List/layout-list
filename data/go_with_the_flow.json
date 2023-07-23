@@ -15,6 +15,13 @@
           "link": "https://youtu.be/AcekFtwS4XA",
           "percent": 100,
           "hz": 360
+        },
+        {
+          "user": "Zyxo",
+          "link": "https://youtu.be/yHsttb-x48c",
+          "percent": 100,
+          "hz": 360
+          "mobile": true
         }
     ]
 }
