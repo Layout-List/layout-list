@@ -9,6 +9,13 @@
     "song": "DJStriden - Beyond The Universe [Trance]",
     "difficulty": 1,
     "records": [
+        {
+            "user": "evilemperium",
+            "link": "https://youtu.be/OXlcwAURheg",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        }
         
     ]
 }
