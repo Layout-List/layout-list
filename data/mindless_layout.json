@@ -10,6 +10,12 @@
     "song": "Waterflame - -Control: Mind-",
     "difficulty": 4,
     "records": [
-        
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/37QGXCfROUk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
