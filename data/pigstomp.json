@@ -11,6 +11,11 @@
     "song": "Platnuu - ~Pigstep Remix~",
     "difficulty": 4,
     "records": [
-        
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/BydMouCAVgA",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
