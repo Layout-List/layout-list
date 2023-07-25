@@ -10,6 +10,12 @@
     "song": "Redeilia - Incendiary",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.twitch.tv/videos/1881253037",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }

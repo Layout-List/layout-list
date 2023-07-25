@@ -37,6 +37,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/b3yAP6YsCUA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
