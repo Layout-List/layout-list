@@ -222,6 +222,13 @@
             "percent": 100,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/a6GpJk5MkXA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
