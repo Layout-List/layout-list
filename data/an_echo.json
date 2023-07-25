@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1131682444014256179/90945.mp3",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/av1mKt1rh0k",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
