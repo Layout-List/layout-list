@@ -24,14 +24,14 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
-        },
+        }/*,
         {
             "user": "lMystikl",
             "link": "https://youtu.be/E9hhjwbm-S4",
             "percent": 100,
             "hz": 360,
             "mobile": false
-        }
+        }*/
         
     ]
 }
