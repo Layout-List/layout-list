@@ -374,6 +374,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "SarcasticMuch",
+            "link": "https://youtu.be/HUra3-i6ZSA",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
