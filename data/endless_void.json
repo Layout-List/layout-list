@@ -43,6 +43,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "hab",
+            "link": "https://youtu.be/6ouYB02KMbs",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
         }
     ]
 }
