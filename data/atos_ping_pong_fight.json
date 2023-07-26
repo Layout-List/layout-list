@@ -9,7 +9,12 @@
     "song": "Dunderpatrullen - Tumba Ping Pong Song",
     "difficulty": 2,
     "records": [
-
-        
+        {
+            "user": "theprismaticat",
+            "link": "https://youtu.be/QNI-qaHKWJE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
