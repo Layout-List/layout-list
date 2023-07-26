@@ -116,6 +116,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "sqrtpie",
+            "link": "https://youtu.be/RQbwBLcSt34",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
