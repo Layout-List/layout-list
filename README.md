@@ -69,15 +69,15 @@ Can i submit Multiple levels on 1 video?
 
 ## Owners:
 
-- Bluestone
-- JustCrust
+- DJ JDK
+- Blathers
 
 ---
 
 ## List Admins:
 
-- Davine_007
-- Acidius
+- Atotakai
+- zDarkHTR
 
 ## Server Administrators:
 
@@ -87,22 +87,16 @@ Can i submit Multiple levels on 1 video?
 
 ## List Helpers:
 
-- Samuuu18
-- KylashTheKiller
-- TravelChimp
-- Achlys
-- homegrowntag
-- asmallsock
+- mrperson
+- NiXaNTyReaL
+- mystikl
 
 ---
 
 ## Server Moderators:
 
-- LBoke
-- frigusterio
-- Prometheus
-- Nolife
-- Ryoui
+- Bluestone
+- sqrtpie
 
 ---
 
