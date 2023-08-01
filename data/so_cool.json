@@ -737,6 +737,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Octo",
+            "link": "https://youtu.be/g-j_OkWgM7k",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
         }
     ]
 }

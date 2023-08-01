@@ -9,7 +9,12 @@
     "song": "Creo - Flow",
     "difficulty": 0,
     "records": [
-
-        
+         {
+            "user": "evil",
+            "link": "https://youtu.be/eYcSUUfpSlI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
