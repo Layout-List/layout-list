@@ -100,6 +100,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.twitch.tv/videos/1886501862",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/-Sz1YxOT8Wg",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }

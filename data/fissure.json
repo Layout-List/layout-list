@@ -117,6 +117,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "ozika",
+            "link": "https://www.youtube.com/watch?v=liuHs05xYfk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

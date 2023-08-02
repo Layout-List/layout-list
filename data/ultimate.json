@@ -9,6 +9,12 @@
     "song": "Skorde x Nateki - ULTIMATE",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/24ZQFe8uPPI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
