@@ -120,6 +120,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "dudemanbro",
+            "link": "https://www.youtube.com/watch?v=lC41_pmkd4Y&ab_channel=yckw",
+            "percent": 100,
+            "hz": 321,
+            "mobile": false
         }
     ]
 }
