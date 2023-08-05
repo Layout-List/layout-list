@@ -128,6 +128,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "www.youtube.com/watch?v=zHVTH8BL6RU",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
         }
     ]
 }
