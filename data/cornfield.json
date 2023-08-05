@@ -237,6 +237,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "www.youtube.com/watch?v=K6E0izfN2k4",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
         }
     ]
 }
