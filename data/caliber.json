@@ -213,6 +213,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "dudemanbro",
+            "link": "https://youtu.be/b8ReGmKh1FA",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
         }
     ]
 }
