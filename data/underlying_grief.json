@@ -12,6 +12,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/835538846509957171/1127677346699300965/747194.mp3",
     "difficulty": 5,
     "records": [
-
+        {
+            "user": "pivithasnolife",
+            "link": "https://youtu.be/imT-mHwldqE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
