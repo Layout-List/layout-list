@@ -213,6 +213,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "dudemanbro",
+            "link": "https://youtu.be/b8ReGmKh1FA",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "KasiaUwU",
+            "link": "https://youtu.be/st6CE_Rg4oo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

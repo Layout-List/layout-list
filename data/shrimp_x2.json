@@ -31,7 +31,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/OZlVZbllX6U",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
         }
-        
     ]
 }

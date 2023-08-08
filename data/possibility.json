@@ -31,10 +31,31 @@
             "mobile": false
         },
         {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/z79rq6tegQE",
+            "percent": 100,
+            "hz": 18,
+            "mobile": false
+        },
+        {
             "user": "lMystikl",
             "link": "https://youtu.be/d41C63ni7H4",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "cheeseburger",
+            "link": "https://youtu.be/shoqlEtJU8c",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "KasiaUwU",
+            "link": "https://youtu.be/st6CE_Rg4oo",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
