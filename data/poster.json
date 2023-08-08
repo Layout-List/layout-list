@@ -126,8 +126,8 @@
         },
         {
             "user": "Skybolt06",
-            "link": "https://youtu.be/Oc6GAfvVtDk",
-            "percent": 75,
+            "link": "https://youtu.be/h_1mFalPrMY",
+            "percent": 98,
             "hz": 360,
             "mobile": false
         },
@@ -143,6 +143,13 @@
             "link": "https://youtu.be/tzo6txFD0zg",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://www.youtube.com/watch?v=Eul6w8h5W5Y",
+            "percent": 100,
+            "hz": 300,
             "mobile": false
         },
         {
