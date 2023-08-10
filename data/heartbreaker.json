@@ -20,6 +20,19 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1139063629380075583/991531.mp3",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/MAv41WdVC1w",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "AJaX",
+            "link": "https://youtu.be/WVlDCpnz3QQ",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        }
     ]
 }
