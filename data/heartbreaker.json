@@ -13,10 +13,10 @@
       "exho"
     ],
     "verifier": "Seismic",
-    "verification": "https://youtu.be/7f65fqqo1Pg",
-    "showcase": "https://youtu.be/MtfHuFud430",
+    "verification": "https://youtu.be/bnQ6a1Xn1sU",
+    "showcase": "https://www.youtube.com/watch?v=YY_b6W3s6gI&ab_channel=LayoutListShowcases",
     "percentToQualify": 100,
-    "song": "laxycat - heartbreaker",
+    "song": "lexycat - heartbreaker",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1139063629380075583/991531.mp3",
     "difficulty": 3,
     "records": [
@@ -28,10 +28,31 @@
             "mobile": false
         },
         {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/aQTiqlZ2K9g",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
             "user": "AJaX",
             "link": "https://youtu.be/WVlDCpnz3QQ",
             "percent": 100,
             "hz": 300,
+            "mobile": false
+        },
+        {
+            "user": "Blathers",
+            "link": "https://www.twitch.tv/videos/1896047554",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "cheeseburger",
+            "link": "https://youtu.be/ig4nqvhusvI",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]
