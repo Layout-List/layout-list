@@ -266,7 +266,7 @@
             "mobile": false
         },
         {
-            "user": "AnnihilationGD",
+            "user": "tomm",
             "link": "https://youtu.be/kB20oD2zIp4",
             "percent": 100,
             "hz": 240,
@@ -354,6 +354,13 @@
             "link": "https://youtu.be/st6CE_Rg4oo",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "dudemanbro",
+            "link": "https://youtu.be/bh3RYiT7o6M",
+            "percent": 100,
+            "hz": 13,
             "mobile": false
         }
     ]

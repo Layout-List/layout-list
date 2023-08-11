@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1138895924182138900/1012834.mp3",
     "difficulty": 5,
     "records": [
-        
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/nvpBNErL3l0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
