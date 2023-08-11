@@ -28,11 +28,32 @@
             "mobile": false
         },
         {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/aQTiqlZ2K9g",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
             "user": "AJaX",
             "link": "https://youtu.be/WVlDCpnz3QQ",
             "percent": 100,
             "hz": 300,
             "mobile": false
-        }
+        },
+        {
+            "user": "Blathers",
+            "link": "soon",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "cheeseburger",
+            "link": "https://youtu.be/ig4nqvhusvI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
     ]
 }
