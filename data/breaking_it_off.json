@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1091828149660168232/81485.mp3",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/v4HabIhH3P0",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
