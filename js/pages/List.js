@@ -120,7 +120,7 @@ export default {
                     
                     <h3>Submission Requirements</h3>
                     <p>
-                        You must have acieved the record without using hacks (however, FPS bypass is allowed, up to 360fps).
+                        You must have achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps).
                     </p>
                     <p>
                         You must have achieved the record on the level that is listed on the site - please check the level ID before you submit a record!
