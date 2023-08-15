@@ -9,6 +9,12 @@
     "song": "Sky Dragoon - X4",
     "difficulty": 2,
     "records": [
-
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/mUn0ab_ALJU",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
