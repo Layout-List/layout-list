@@ -1,13 +1,13 @@
 [
     {
         "role": "owner",
-        "name": "Blathers",
-        "link": "https://www.youtube.com/channel/UC18eM9f_J-tVdruPEWqkFsQ"
+        "name": "JDK",
+        "link": "https://www.youtube.com/channel/UCE349mtrdQYGr-avCPlbCiA"
     },
     {
         "role": "owner",
-        "name": "JDK",
-        "link": "https://www.youtube.com/channel/UCE349mtrdQYGr-avCPlbCiA"
+        "name": "Blathers",
+        "link": "https://www.youtube.com/channel/UC18eM9f_J-tVdruPEWqkFsQ"
     },
     {
         "role": "admin",
