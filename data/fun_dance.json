@@ -724,6 +724,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "DaFlamango",
+            "link": "https://www.youtube.com/watch?v=Ju21wptmKwk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
