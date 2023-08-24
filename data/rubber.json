@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 5,
     "records": [
-        
+         {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/0Bh-qwaMKEc",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        }
     ]
 }
