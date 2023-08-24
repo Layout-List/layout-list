@@ -54,6 +54,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Flare",
+            "link": "https://youtu.be/B-cx3bWeq-4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

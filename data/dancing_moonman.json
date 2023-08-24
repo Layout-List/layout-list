@@ -121,6 +121,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Natteboss",
+            "link": "https://youtu.be/Tl4qAb9T_8M",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }

@@ -136,6 +136,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Silas123",
+            "link": "https://www.youtube.com/watch?v=doXz09UTZwU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

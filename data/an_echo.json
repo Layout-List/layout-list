@@ -44,6 +44,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "lottery",
+            "link": "https://www.youtube.com/watch?v=W_86hmqDayE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

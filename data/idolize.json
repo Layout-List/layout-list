@@ -100,6 +100,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Raezori",
+            "link": "https://youtu.be/yevfcox9jqM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
