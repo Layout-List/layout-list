@@ -61,19 +61,19 @@
             "user": "TurtlesdoHurdles",
             "link": "https://www.youtube.com/watch?v=hTGc1_GNt3I",
             "percent": 100,
-            "hz": "300"
+            "hz": 300
         },
         {
             "user": "lMystikl",
             "link": "https://youtu.be/eISxmDEPcHI",
             "percent": 100,
-            "hz": "60"
+            "hz": 60
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/RRsOWLtZMX0",
             "percent": 100,
-            "hz": "360"
+            "hz": 360
         },
         {
             "user": "DELETE999",
@@ -85,6 +85,13 @@
         {
             "user": "Dropp",
             "link": "https://youtu.be/bk3rMmNL_xw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=RS5xYEMCZR0",
             "percent": 100,
             "hz": 360,
             "mobile": false
