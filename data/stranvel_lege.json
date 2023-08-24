@@ -75,6 +75,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "evilemperium",
+            "link": "https://youtu.be/YVTJ51OOQNc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
