@@ -252,6 +252,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Asb",
+            "link": "https://youtu.be/JULwVzqzbXQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

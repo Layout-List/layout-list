@@ -10,19 +10,19 @@
     "songLink": "",
     "difficulty": 1,
     "records": [
-         {
-          "user": "zDarkHTR",
-          "link": "https://youtu.be/AcekFtwS4XA",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/AcekFtwS4XA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
-          "user": "Zyxo",
-          "link": "https://youtu.be/yHsttb-x48c",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "Zyxo",
+            "link": "https://youtu.be/yHsttb-x48c",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "lMystikl",
@@ -61,7 +61,7 @@
         },
         {
             "user": "DJJDK",
-            "link": "soon, it's like 2am rn",
+            "link": "https://youtu.be/VAMm8IIAnmQ",
             "percent": 100,
             "hz": 360,
             "mobile": false

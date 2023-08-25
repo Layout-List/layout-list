@@ -101,6 +101,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Yuuri",
+            "link": "https://www.youtube.com/watch?v=h2hLi5L9eWE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

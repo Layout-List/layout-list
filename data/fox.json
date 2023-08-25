@@ -5,6 +5,7 @@
     "creators": [],
     "verifier": "DJJDK",
     "verification": "https://youtu.be/n2Wi9oQTbPQ",
+    "showcase": "https://youtu.be/sAesbEa3YzY?si=QU7pt26oTQDyoB0-",
     "percentToQualify": 100,
     "song": "steampianist - Fox-trot Fletcher",
     "difficulty": 3,
@@ -57,6 +58,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Matthlew",
+            "link": "https://www.youtube.com/watch?v=jXzfdiBtVVI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }

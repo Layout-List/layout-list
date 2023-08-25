@@ -8,6 +8,7 @@
     ],
     "verifier": "DJJDK",
     "verification": "https://youtu.be/655uzGi7gAo",
+    "showcase": "https://youtu.be/KtgIHpB8Jio?si=RjiM36-ARkw2XMKJ",
     "percentToQualify": 60,
     "song": "Creo - Aura",
     "difficulty": 2,
@@ -16,55 +17,64 @@
             "user": "rustic",
             "link": "https://www.youtube.com/watch?v=nfGqhlgoUy8",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Fusion425",
             "link": "https://www.youtube.com/watch?v=LizWO7SGv9I",
             "percent": 100,
-            "hz": 288
+            "hz": 288,
+            "mobile": false
         },
         {
             "user": "sqrtpie",
             "link": "https://www.youtube.com/watch?v=hBQ_zPp5Phw",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "mobile": false
         },
         {
             "user": "Matthlew",
             "link": "https://youtu.be/sBazlCiwsaA",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "mrperson",
             "link": "https://youtu.be/V6ilNYtSKOo",
             "percent": 100,
-            "hz": 144
+            "hz": 144,
+            "mobile": false
         },
         {
             "user": "culobdj",
             "link": "https://youtu.be/uKdkZh7SlaI",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "mobile": false
         },
         {
             "user": "Moisty",
             "link": "https://www.youtube.com/watch?v=LTHlbkYpAgQ",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "mobile": false
         },
         {
             "user": "Armani",
             "link": "https://youtu.be/Ux3F5eN0jJg",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "zDarkHTR",
             "link": "https://youtu.be/yniSPhKU50Q",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "agentgiscool",
@@ -87,39 +97,39 @@
             "mobile": false
         },
         {
-          "user": "ObvSilver",
-          "link": "https://youtu.be/3IKDjSdjhfw",
-          "percent": 100,
-          "hz": 165,
-          "mobile": false
+            "user": "ObvSilver",
+            "link": "https://youtu.be/3IKDjSdjhfw",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         },
         {
-          "user": "Nooob07",
-          "link": "https://youtu.be/JW7WRl5ONHU",
-          "percent": 100,
-          "hz": 60,
-          "mobile": false
+            "user": "Nooob07",
+            "link": "https://youtu.be/JW7WRl5ONHU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         },
         {
-          "user": "DELETE999",
-          "link": "https://youtu.be/qb2_EiGAjSI",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
+            "user": "DELETE999",
+            "link": "https://youtu.be/qb2_EiGAjSI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         },
         {
-          "user": "ArctiixPaladin",
-          "link": "https://www.youtube.com/watch?v=HLCyAoT_1_I",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
+            "user": "ArctiixPaladin",
+            "link": "https://www.youtube.com/watch?v=HLCyAoT_1_I",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         },
         {
-          "user": "ThisGuyKreas",
-          "link": "https://youtu.be/pGPvTOnyg1g",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/pGPvTOnyg1g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "Poke Zach",
