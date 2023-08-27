@@ -79,13 +79,15 @@
             "user": "Agentgiscool",
             "link": "https://youtu.be/wVEoq0Gd0e8",
             "percent": 100,
-            "hz": "Mobile"
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "ThisGuyKreas",
             "link": "https://m.youtube.com/watch?v=qwQmb6nUvLM",
             "percent": 100,
-            "hz": "Mobile"
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "lukecaz16",
@@ -115,7 +117,8 @@
             "user": "Solo12",
             "link": "https://www.youtube.com/watch?v=n5YjlBDZ4Kk",
             "percent": 100,
-            "hz": "Mobile"
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "danielvess555",
@@ -151,7 +154,8 @@
             "user": "lMystikl",
             "link": "https://youtu.be/KMM3s9iraps",
             "percent": 100,
-            "hz": "Mobile"
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "JustShock",
@@ -169,7 +173,8 @@
             "user": "Ralta",
             "link": "https://youtu.be/fCJO0ibItSY",
             "percent": 100,
-            "hz": "Mobile"
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "H3lpFul",
@@ -249,6 +254,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/8D3p3DxH-VM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
