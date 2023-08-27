@@ -9,6 +9,12 @@
     "song": "dj-Nate - Intercept 2",
     "difficulty": 7,
     "records": [
-        
+        {
+            "user": "Seismic",
+            "link": "https://youtu.be/D0HiRJv3omI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
