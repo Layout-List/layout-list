@@ -12,7 +12,7 @@
     "records": [
         {
             "user": "DJJDK",
-            "link": "whoevers doing this stop removing my records",
+            "link": "ill find my record",
             "percent": 100,
             "hz": 240,
             "mobile": false
@@ -127,6 +127,13 @@
             "link": "https://www.youtube.com/watch?v=jXzfdiBtVVI",
             "percent": 100,
             "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "WellNot",
+            "link": "https://youtu.be/RMyvb6cJgpU",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]
