@@ -11,6 +11,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1143774151627251762/1000409.mp3",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "jz5",
+            "link": "https://youtu.be/mDBBedMF1ys",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
