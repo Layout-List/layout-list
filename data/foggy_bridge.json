@@ -4,11 +4,17 @@
     "author": "Blysteryx",
     "creators": [],
     "verifier": "Blysteryx",
-    "verification": "https://youtu.be/7f65fqqo1Pg",
+    "verification": "https://youtu.be/w5FuiUa6oAU?si=Q_cskVOMwtTBXknf",
     "percentToQualify": 100,
     "song": "https://youtu.be/w5FuiUa6oAU?si=Q_cskVOMwtTBXknf",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/OpNZsagGHM8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
