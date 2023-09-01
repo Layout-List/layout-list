@@ -9,6 +9,12 @@
     "song": "Creo - Aurora",
     "difficulty": 3,
     "records": [
-          
+          {
+            "user": "zDarkHTR",
+            "link": "soon",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
