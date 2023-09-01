@@ -751,6 +751,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Mr. Turtle",
+            "link": "https://youtu.be/LLLLzVP6bUE?si=Wa9pgVZMjx4BSFTM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
