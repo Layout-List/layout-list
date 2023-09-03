@@ -261,6 +261,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "pant michael",
+            "link": "https://www.youtube.com/watch?v=FGANx_42_N8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": true
         }
     ]
 }
