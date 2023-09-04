@@ -108,6 +108,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+          "user": "pant michael",
+          "link": "https://www.youtube.com/watch?v=i9hPjF6FTjw",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
         }
     ]
 }
