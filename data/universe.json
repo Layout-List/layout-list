@@ -43,6 +43,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+          "user": "pant michael",
+          "link": "https://www.youtube.com/watch?v=yo-_vBiVXxA",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://youtu.be/wcCvgCuHANI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
         
     ]
