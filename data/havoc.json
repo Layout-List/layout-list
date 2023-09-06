@@ -106,6 +106,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+         {
+            "user": "WellNot",
+            "link": "https://youtu.be/j3wIisMyDYU?si=EwfANRUxBjvzl3Zo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
