@@ -266,6 +266,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+          {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+          {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/pgSm35kpusA?si=xrgicHGORsk8rOsn",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
