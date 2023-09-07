@@ -64,6 +64,13 @@
             "link": "https://youtu.be/MjXJ1rMLrtA",
             "percent": 100,
             "hz": 360
+        },
+          {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
