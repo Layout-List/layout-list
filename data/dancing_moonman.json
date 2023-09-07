@@ -142,6 +142,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+          {
+            "user": "everet",
+            "link": "https://youtu.be/mkPlrSd-YQc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
