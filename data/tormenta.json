@@ -99,6 +99,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+          {
+            "user": "agentgiscool",
+            "link": "https://youtu.be/IEDnmThHh88",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }

@@ -463,6 +463,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+         {
+            "user": "everett",
+            "link": "https://youtu.be/mkPlrSd-YQc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
