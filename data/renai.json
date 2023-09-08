@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/754066764777914418/1119792660966822029/523223.mp3",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/y3OmQ_Sg7p4?si=XMfeaeAbe9HiPYCs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
