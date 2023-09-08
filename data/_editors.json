@@ -48,6 +48,10 @@
         "name": "Flare"
     },
     {
+        "role": "helper",
+        "name": "whitmp4"
+    },
+    {
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/c/PrometheusAlt"
