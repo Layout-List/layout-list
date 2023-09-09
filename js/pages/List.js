@@ -23,17 +23,18 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
-                            <p class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="rank === null" class="type-label-lg">&mdash;</p>
+                            <p v-else class="type-label-lg">#{{ rank }}</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
+                        <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
                             <button @click="selected = i">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>
-                </div>
+                </table>
             </div>
             <div class="level-container">
                 <div class="level" v-if="level">
@@ -98,7 +99,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Original List by <a href="https://me.redlimerl.com/" target="_blank">RedLime</a></p>
+                        <p class="type-label-md">Website layout on <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>.</p>
                     </div>
                     <template v-if="editors">
                         <h3>LIST EDITORS</h3>
@@ -192,13 +193,14 @@ export default {
         loading: true,
         selected: 0,
         errors: [],
+        listlevels: 0,
         roleIconMap,
         store,
         toggledShowcase: false,
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
             if (!this.level.showcase) {
@@ -216,7 +218,6 @@ export default {
         // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
-
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -225,8 +226,8 @@ export default {
         } else {
             this.errors.push(
                 ...this.list
-                    .filter(([_, err]) => err)
-                    .map(([_, err]) => {
+                    .filter(([err, _, __]) => err)
+                    .map(([err, _, __]) => {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
@@ -239,6 +240,6 @@ export default {
     },
     methods: {
         embed,
-        score,
+        score
     },
 };
