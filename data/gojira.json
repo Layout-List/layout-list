@@ -105,6 +105,13 @@
             "percent": 100,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/AXqRfx9rnRI?si=_4j5-bPrRU4W9qvC",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
