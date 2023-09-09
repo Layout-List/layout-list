@@ -21,8 +21,6 @@ export async function fetchList() {
         ) => [path, index + 1]);
         const ranks = Object.fromEntries(ranksEntries);
 
-        console.log(ranks);
-
         return await Promise.all(
             list.map(async (path) => {
                 const rank = ranks[path] || null;
@@ -31,6 +29,18 @@ export async function fetchList() {
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
+                    console.log([
+                        null,
+                        rank,
+                        {
+                            ...level,
+                            rank,
+                            path,
+                            records: level.records.sort(
+                                (a, b) => b.percent - a.percent,
+                            ),
+                        },
+                    ])
                     return [
                         null,
                         rank,
