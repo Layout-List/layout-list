@@ -59,7 +59,7 @@ export function score(difficulty, percent, minPercent) {
     score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
     if (percent != 100) {
-        return round(score - score / 3);
+        return round(score - score / 2);
     }
 
     return round(score);
