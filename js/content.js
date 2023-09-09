@@ -13,28 +13,37 @@ export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     try {
         const list = await listResult.json();
-        
+
+        // Create a lookup dictionary for ranks
+        const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
+            path,
+            index,
+        ) => [path, index + 1]);
+        const ranks = Object.fromEntries(ranksEntries);
+
         return await Promise.all(
-            list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+            list.map(async (path) => {
+                const rank = ranks[path] || null;
                 try {
                     const levelResult = await fetch(
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
                     return [
+                        null,
+                        rank,
                         {
                             ...level,
+                            rank,
                             path,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
                             ),
                         },
-                        null,
                     ];
                 } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
-                    return [null, path];
+                    console.error(`Failed to load level #${rank} ${path}.`);
+                    return [path, rank, null];
                 }
             }),
         );
