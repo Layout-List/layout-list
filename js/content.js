@@ -21,6 +21,8 @@ export async function fetchList() {
         ) => [path, index + 1]);
         const ranks = Object.fromEntries(ranksEntries);
 
+        console.log(ranks);
+
         return await Promise.all(
             list.map(async (path) => {
                 const rank = ranks[path] || null;
