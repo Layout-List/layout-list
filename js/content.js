@@ -23,7 +23,7 @@ export async function fetchList() {
 
         return await Promise.all(
             list.map(async (path) => {
-                
+                const rank = ranks[path] || null;
                 try {
                     const levelResult = await fetch(
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
