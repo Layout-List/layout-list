@@ -18,7 +18,14 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
-            <div class="page-leaderboard">
+            <div v-if="!leaderboard" class="page-leaderboard">
+                <div class="error-container">
+                    <p class="error" v-if="err.length > 0">
+                        {{ err[0] }}
+                    </p>
+                </div>
+            </div>
+            <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
@@ -44,12 +51,13 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h3>{{ entry.total }}</h3>
+                        <h3>{{ localize(entry.total) }}</h3>
                         <h2 v-if="entry.verified.length > 0">Verified</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="score.rank === null">&mdash;</p>
+                                    <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -63,7 +71,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="score.rank === null">&mdash;</p>
+                                    <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -77,7 +86,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="score.rank === null">&mdash;</p>
+                                    <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
