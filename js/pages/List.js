@@ -199,7 +199,7 @@ export default {
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
             if (!this.level.showcase) {
@@ -217,7 +217,6 @@ export default {
         // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
-
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -226,8 +225,8 @@ export default {
         } else {
             this.errors.push(
                 ...this.list
-                    .filter(([_, err]) => err)
-                    .map(([_, err]) => {
+                    .filter(([err, _, __]) => err)
+                    .map(([err, _, __]) => {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
@@ -240,6 +239,6 @@ export default {
     },
     methods: {
         embed,
-        score,
+        score
     },
 };
