@@ -29,18 +29,6 @@ export async function fetchList() {
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
-                    console.log([
-                        null,
-                        rank,
-                        {
-                            ...level,
-                            rank,
-                            path,
-                            records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
-                            ),
-                        },
-                    ])
                     return [
                         null,
                         rank,
