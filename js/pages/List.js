@@ -23,7 +23,7 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
                             <p v-if="rank === null" class="type-label-lg">&mdash;</p>
                             <p class="type-label-lg">#{{ i + 1 }}</p>
