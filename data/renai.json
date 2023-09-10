@@ -6,6 +6,7 @@
     "verifier": "Natteboss",
     "verification": "https://www.youtube.com/watch?v=2QeF3mkc3B8",
     "percentToQualify": 100,
+    "password": "123123",
     "song": "Kana Hanazawa - Renai Circulation",
     "songLink": "https://cdn.discordapp.com/attachments/754066764777914418/1119792660966822029/523223.mp3",
     "difficulty": 2,
@@ -23,6 +24,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "everett",
+            "link": "https://youtu.be/VZr1jMo_cJI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
