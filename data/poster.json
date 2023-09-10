@@ -165,6 +165,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+          {
+            "user": "jz5",
+            "link": "https://youtu.be/w0x1xurCj5o",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
