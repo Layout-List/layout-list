@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 5,
     "records": [
-        
+       {
+            "user": "agentgiscool",
+            "link": "https://youtu.be/zdcWNrNFFDs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        } 
     ]
 }
