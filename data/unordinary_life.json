@@ -9,6 +9,12 @@
     "song": "The Living Tombstone - My Ordinary Life (Slowed + Reverb)",
     "difficulty": 3,
     "records": [
-        
+         {
+            "user": "Zyxo",
+            "link": "https://youtu.be/ooXpj0D1pPQ?si=k6MjRLBpX72ovGzA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
