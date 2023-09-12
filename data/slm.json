@@ -82,6 +82,13 @@
             "link": "https://www.youtube.com/watch?v=PzzZuVwdco4&ab_channel=TheWebsite",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "Seismic",
+            "link": "https://youtu.be/FszGj-F4PNc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
