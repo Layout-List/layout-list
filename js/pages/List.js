@@ -151,16 +151,16 @@ export default {
                         Impossible Layout = Top Extreme Demons (1000 Points)
                     </p>
                     <p>
-                        Silent Layout = Insane Extreme Demons (500 Points)
+                        Silent Layout = Remorseless/Relentless Extreme Demons (500 Points)
                     </p>
                     <p>
-                        Legendary Layout = Hard Extreme Demons (350 Points)
+                        Legendary Layout = Insane/Extreme Extreme Demons (350 Points)
                     </p>
                     <p>
-                        Ethereal Layout = Mid Extreme Demons (250 Points)
+                        Ethereal Layout = Hard/Harder Extreme Demons (250 Points)
                     </p>
                     <p>
-                        Supreme Layout = Easy Extreme Demons (200 Points)
+                        Supreme Layout = Easy/Medium Extreme Demons (200 Points)
                     </p>
                     <p>
                         Extreme Layout = Beginner Extreme Demons (150 Points)
