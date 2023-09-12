@@ -1,8 +1,10 @@
 {
     "id": 89860783,
     "name": "DesolatioN",
-    "author": "Goldoss, Am1KroN",
-    "creators": [],
+    "author": "Goldoss",
+    "creators": [
+        "Am1KroN"
+    ],
     "verifier": "Am1KroN",
     "verification": "https://youtu.be/jHJJtzJv4H0?si=UwFcW5x434rR8bnk",
     "percentToQualify": 10,
