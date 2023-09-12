@@ -10,6 +10,12 @@
     "songLink": "",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "DJJDK",
+            "link": "in class rn, I promise I'll have the video up at the end of the day lol",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
