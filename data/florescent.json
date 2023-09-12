@@ -1,0 +1,29 @@
+{
+    "id": 86763422,
+    "name": "Florescent",
+    "author": "Blysteryx",
+    "creators": [],
+    "verifier": "Blysteryx",
+    "verification": "https://youtu.be/SaNc517zW6g?si=pzs1ZRJjmlJqk4Db",
+    "percentToQualify": 100,
+    "song": "meganeko - Echolocation",
+    "songLink": "",
+    "difficulty": 0,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/xXhYd_j2j44?si=P-zoWyGSWO7sRMb_",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=3l1yiE2I6vE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
+        
+    ]
+}

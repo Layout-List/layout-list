@@ -10,6 +10,13 @@
     "song": "Schtiffles - Marbl",
     "difficulty": 6,
     "records": [
+        {
+            "user": "Akuriserv",
+            "link": "https://www.youtube.com/watch?v=YUMGnJ-4PZ8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
