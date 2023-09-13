@@ -10,6 +10,12 @@
     "song": "Creo - Rivals",
     "difficulty": 4,
     "records": [
-    
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/Hx7d_I88Www",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
