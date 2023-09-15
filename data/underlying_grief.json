@@ -33,6 +33,13 @@
             "percent": 71,
             "hz": 165,
             "mobile": false
+        },
+          {
+            "user": "Seismic",
+            "link": "https://youtu.be/15hKZ-GOAuI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
