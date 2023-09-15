@@ -3,8 +3,8 @@
     "name": "Atomic Bomb",
     "author": "pivithasnolife",
     "creators": [],
-    "verifier": "blq",
-    "verification": "https://youtu.be/ICTuRHKGIPY?si=RFmmwb192j-Uu84h",
+    "verifier": "Seismic",
+    "verification": "https://youtu.be/pwtE_TXtE58?si=GJBQVsWU92_JZSRu",
     "showcase": "https://www.youtube.com/watch?v=g5pHfYfUFz8",
     "percentToQualify": 60,
     "password": "Not Copyable",
@@ -12,10 +12,10 @@
     "difficulty": 7,
     "records": [
         {
-            "user": "Seismic",
-            "link": "https://youtu.be/D0HiRJv3omI",
+            "user": "blq",
+            "link": "https://youtu.be/ICTuRHKGIPY?si=RFmmwb192j-Uu84h",
             "percent": 100,
-            "hz": 240,
+            "hz": 288,
             "mobile": false
         },
         {
