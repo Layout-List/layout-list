@@ -39,17 +39,17 @@
             "mobile": false
         },
         {
-            "user": "evil",
-            "link": "https://youtu.be/OXFtFQ_wkxo",
-            "percent": 57,
-            "hz": 360,
-            "mobile": false
-        },
-        {
             "user": "Seismic",
             "link": "https://youtu.be/zO2wVhY7yNE",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/B7_jYgJgX8w",
+            "percent": 90,
+            "hz": 360,
             "mobile": false
         }
     ]
