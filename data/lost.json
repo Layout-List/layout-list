@@ -18,6 +18,12 @@
     "song": "Spaze - Dark Heart (Tender Heart VIP)",
     "difficulty": 10,
     "records": [
-
+ {
+            "user": "lxnarmoon",
+            "link": "https://youtu.be/172IFdt8vVM?si=JF1bY4zF5fNc3S6Z",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
