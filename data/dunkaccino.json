@@ -194,6 +194,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "nolli",
+            "link": "https://youtu.be/3_5GAJoyqVs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "whitmp4",
+            "link": "https://youtu.be/kDNZQ4NWFio?si=j80ZKQKQlzbi_uGF",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
