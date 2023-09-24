@@ -9,6 +9,12 @@
     "song": "PompYin - A Day On The Sun",
     "difficulty": 1,
     "records": [
-        
+         {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=Rq-F3PBQIE4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        }
     ]
 }
