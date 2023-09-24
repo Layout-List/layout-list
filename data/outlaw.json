@@ -10,6 +10,12 @@
     "song": "Creo - Outlaw",
     "difficulty": 2,
     "records": [
-        
+          {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=2Q_Fy3YontE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
