@@ -193,6 +193,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+         {
+            "user": "Toiletwasher",
+            "link": "https://youtu.be/oIF5gu6fXWk?si=ShuPFl5oq6MJDob_",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
