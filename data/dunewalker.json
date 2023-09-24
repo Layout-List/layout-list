@@ -10,6 +10,13 @@
     "song": "Tokzick x ImCold - Dunewalker II",
     "difficulty": 3,
     "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtube.com/shorts/9MVVCpmmQMw?si=l9y2mfFO8DU5xilB",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
 
     ]
 }
