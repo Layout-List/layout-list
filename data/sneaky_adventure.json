@@ -9,6 +9,13 @@
     "song": "Kevin Macleod - Sneaky Adventure",
     "difficulty": 1,
     "records": [
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/32hoXQS9SkE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        } 
         
     ]
 }
