@@ -409,6 +409,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "Sdubeo",
+            "link": "https://youtu.be/PEpL3PRSOyo",
+            "percent": 87,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

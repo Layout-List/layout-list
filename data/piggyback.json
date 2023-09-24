@@ -10,5 +10,12 @@
     "song": "cYsmix - Dovregubbens Hall (New Ver.)",
     "difficulty": 2,
     "records": [
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/z0Vr45GAo1Q",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
