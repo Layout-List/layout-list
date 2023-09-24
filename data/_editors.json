@@ -35,6 +35,11 @@
         "link": "https://www.youtube.com/@lMystikl"
     },
     {
+        "role": "admin",
+        "name": "whitmp4",
+        "link": "https://www.youtube.com/channel/UCwgoDsG70_DHpv4-tQdcOIA"
+    },
+    {
         "role": "helper",
         "name": "sqrtpie",
         "link": "https://www.youtube.com/channel/UCYsemIt0-tAO97Qg0m5N69g"
@@ -43,9 +48,10 @@
         "role": "helper",
         "name": "Flare"
     },
-    {
+     {
         "role": "helper",
-        "name": "whitmp4"
+        "name": "Fawami",
+        "link": "https://www.youtube.com/@fawami"
     },
     {
         "role": "dev",

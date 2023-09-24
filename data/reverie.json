@@ -67,10 +67,12 @@
             "mobile": true
         },
         {
-            "user": "zDarkHTR",
-            "link": "https://www.youtube.com/watch?v=Phbhr7fvK2I",
-            "percent": 100,
-            "hz": 360
+            "user": "whitmp4",
+            "link": "https://youtu.be/4-AlZi_FtDw?si=EpSZeF7yi4qN1uYt",
+            "percent": 89,
+            "hz": 360,
+            "mobile": false
         }
+        
     ]
 }
