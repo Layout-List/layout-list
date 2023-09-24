@@ -48,6 +48,10 @@
         "role": "helper",
         "name": "Flare"
     },
+     {
+        "role": "helper",
+        "name": "Fawami"
+    }
     {
         "role": "dev",
         "name": "Prometheus",
