@@ -10,6 +10,12 @@
     "songLink": "https://www.youtube.com/watch?v=V0r0CLhm23M",
     "difficulty": 5,
     "records": [
-
+         {
+            "user": "jz5",
+            "link": "https://youtu.be/VoktaUvKUjQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
