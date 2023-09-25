@@ -9,6 +9,12 @@
     "song": "Azazal - I Said Meow",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/vN_6oERjvOY?si=PYrj5Sgevd23vzAY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
