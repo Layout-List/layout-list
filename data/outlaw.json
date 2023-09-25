@@ -23,6 +23,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/1m0aH4BhiHc?si=8-wPZ8hjVKI7_XHe ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
