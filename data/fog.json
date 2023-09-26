@@ -1,22 +1,16 @@
 {
-    "id": 86757190,
+    "id": 94839313,
     "name": "fog",
     "author": "hab",
-    "creators": [],
-    "verifier": "DLAppleGamez",
-    "verification": "https://youtu.be/eLLEpFVXgWg",
+    "creators": [Flare],
+    "verifier": "zDarkHTR",
+    "verification": "https://youtu.be/_VH1nuHm6QA",
     "showcase": "https://youtu.be/-N2zxQUybNI",
     "percentToQualify": 53,
     "password": "Not Copyable",
     "song": "lieu - see it thru (snippet)",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1052290117882085506/171702.mp3",
-    "difficulty": 8,
+    "difficulty": 4,
     "records": [
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/GUqBok9nOUw",
-            "percent": 100,
-            "hz": "360"
-        }
     ]
 }
