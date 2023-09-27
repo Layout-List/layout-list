@@ -157,6 +157,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "Sanctum",
+            "link": "https://youtu.be/HXz78G5mwEs?si=ZbUWVn-Oi03L1BmK",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
