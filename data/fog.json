@@ -14,12 +14,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1052290117882085506/171702.mp3",
     "difficulty": 4,
     "records": [
-    ]
-    {
+        {
             "user": "evil",
             "link": "https://youtu.be/PB-yB8xJvbM",
             "percent": 100,
             "hz": 240,
             "mobile": false
         }
+    ]
 }
