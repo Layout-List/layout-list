@@ -800,6 +800,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "TheCatAstronaut",
+            "link": "https://youtu.be/kJDIeO7YFGs?si=7LwPFALNKutDsk2z",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
