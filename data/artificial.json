@@ -686,12 +686,19 @@
             "hz": 120,
             "mobile": false
         },
-        {
-            "user": "Sanctum",
-            "link": "https://youtu.be/x9iv4lXhdy4?si=e6E3b_ApNSm7t4nX",
+         {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/_GvpvLlPfwg?si=GryNr4OORf9h_GNZ",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": false
+        },
+         {
+            "user": "skyraze",
+            "link": "https://youtu.be/Vlv5k0R0RmE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
