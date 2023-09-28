@@ -786,6 +786,20 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+         {
+            "user": "skyraze",
+            "link": "https://youtu.be/04j5yMkVP04?si=s8HWczvsB8m9zkMm",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=lZkPPTMoXAY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
