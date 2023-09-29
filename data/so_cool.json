@@ -828,6 +828,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "IExist",
+            "link": "https://www.youtube.com/watch?v=n4fdPfiYB4I&t=8s",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
