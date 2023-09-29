@@ -9,6 +9,12 @@
     "song": "Rukkus - ~NK~ Problematic",
     "difficulty": 1,
     "records": [
-
+         {
+            "user": "evil",
+            "link": "https://youtu.be/uUot7tQ1AUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
