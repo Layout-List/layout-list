@@ -31,6 +31,13 @@
             "mobile": false
         },
         {
+            "user": "Blathers",
+            "link": "https://www.youtube.com/watch?v=sokUwQrvmqI",
+            "percent": 100,
+            "hz": 280,
+            "mobile": false
+        },
+        {
             "user": "mrperson",
             "link": "https://youtu.be/a5Rw43wTfTQ",
             "percent": 59,
