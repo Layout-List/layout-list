@@ -15,6 +15,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+         {
+            "user": "Hokahey",
+            "link": "https://youtu.be/fa7RpWAUoqI",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+         {
+            "user": "Blost",
+            "link": "https://youtu.be/hBM2Jq4youw?si=y3Wh5Iix7iEoq5MX",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }

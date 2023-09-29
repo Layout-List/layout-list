@@ -6,8 +6,15 @@
     "verifier": "EmeraldOre45",
     "verification": "https://youtu.be/WusHHahEies?si=tKJv8J2-4lXMKD7P",
     "percentToQualify": 100,
-    "song": "1",
-    "difficulty": ,
+    "song": "Creo - In Circles",
+    "difficulty": 1,
     "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/uUot7tQ1AUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }

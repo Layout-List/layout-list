@@ -1,6 +1,6 @@
 {
     "id": 87178925,
-    "name": "Acku 🔴",
+    "name": "Acku",
     "author": "Gaelaser",
     "creators": [],
     "verifier": "Gaelaser",
@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "Bossfight - Flirt Flirt Oh It Hurts",
     "songLink": "",
-    "difficulty": 1,
+    "difficulty": 0,
     "records": [
         {
             "user": "DJJDK",
@@ -121,6 +121,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Sanctum",
+            "link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }

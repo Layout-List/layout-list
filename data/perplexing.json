@@ -7,8 +7,14 @@
     "verification": "https://www.youtube.com/watch?v=GJZwXDur3U0",
     "percentToQualify": 100,
     "song": "Rukkus - ~NK~ Problematic",
-    "difficulty": 0,
+    "difficulty": 1,
     "records": [
-
+         {
+            "user": "evil",
+            "link": "https://youtu.be/uUot7tQ1AUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
