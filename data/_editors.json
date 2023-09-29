@@ -20,6 +20,11 @@
         "link": "https://www.youtube.com/channel/UCs_0WzQ7Nzt_1TsxbQcWbnQ"
     },
     {
+        "role": "owner",
+        "name": "whitmp4",
+        "link": "https://www.youtube.com/channel/UCwgoDsG70_DHpv4-tQdcOIA"
+    },
+    {
         "role": "admin",
         "name": "NiXaNTyReaL",
         "link": "https://www.youtube.com/channel/UC3fg0-hXdR7gKGFp-h1Kibg"
@@ -28,11 +33,6 @@
         "role": "admin",
         "name": "Mrperson",
         "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
-    },
-    {
-        "role": "admin",
-        "name": "whitmp4",
-        "link": "https://www.youtube.com/channel/UCwgoDsG70_DHpv4-tQdcOIA"
     },
     {
         "role": "helper",
