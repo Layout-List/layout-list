@@ -9,6 +9,12 @@
     "song": "Rukkus - ~NK~ Take Me Away",
     "difficulty": 5,
     "records": [
-    
+     {
+            "user": "zap",
+            "link": "https://www.youtube.com/watch?v=q0FacVD1Wik&ab_channel=zap",
+            "percent": 53,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
