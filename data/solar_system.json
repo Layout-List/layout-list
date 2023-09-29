@@ -287,6 +287,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "x46y",
+            "link": "https://youtu.be/wKmziGLF0Zw",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
         }
     ]
 }
