@@ -111,6 +111,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+         {
+            "user": "Koozoo2k",
+            "link": "https://youtu.be/EwDUR6OESwU?si=E1-hTfblke6v6KtV",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
