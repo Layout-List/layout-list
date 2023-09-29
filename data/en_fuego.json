@@ -9,5 +9,12 @@
     "song": "Hot - FWLRmusic",
     "difficulty": 2,
     "records": [
+         {
+          "user": "everett",
+          "link": "https://youtu.be/Pt0UK60Lg4A",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        }
     ]
 }
