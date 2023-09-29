@@ -36,6 +36,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+         {
+            "user": "Utc",
+            "link": "https://youtu.be/Vjg9ENu_w9o",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
