@@ -167,6 +167,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+         {
+            "user": "edu",
+            "link": "https://www.youtube.com/watch?v=M-hnlOMia9A",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
