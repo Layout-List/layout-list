@@ -289,6 +289,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Loony",
+            "link": "https://youtu.be/y2fwILkCGB0",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
