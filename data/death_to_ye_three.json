@@ -4,12 +4,19 @@
     "author": "sqrtpie",
     "creators": [],
     "verifier": "sqrtpie",
-    "verification": "https://youtu.be/a9vfLldq90Y",
+    "verification": "https://youtu.be/zXz8pS1I8zs?si=cQ7WNJCTlYMuiqAm",
     "showcase": "https://youtu.be/bi9ZlEfY4KQ",
     "percentToQualify": 59,
     "song": "LucidShadowDreamer - Death to Ye Three",
     "difficulty": 5,
     "records": [
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/a9vfLldq90Y?si=uWnPGJ2vOSpVOkJ-",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
         {
             "user": "Acacia",
             "link": "https://www.youtube.com/watch?v=yk1eDto0eAw",
