@@ -29,6 +29,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+           {
+            "user": "briskrain",
+            "link": "https://www.youtube.com/watch?v=29zzzsRCvN4&ab_channel=briskrain",
+            "percent": 100,
+            "hz": 188,
+            "mobile": false
         }
     ]
 }
