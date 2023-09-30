@@ -294,6 +294,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+           {
+            "user": "elballer",
+            "link": "https://youtu.be/6wk6MJTUPyg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
