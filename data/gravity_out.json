@@ -308,7 +308,15 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+          {
+            "user": "Gybyy",
+            "link": "https://youtu.be/3CtPc5CroAM?si=ZP1yjqCPsgcRh6Zb",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
+
 
     ]
 }
