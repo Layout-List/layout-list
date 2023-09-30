@@ -20,6 +20,11 @@
         "link": "https://www.youtube.com/channel/UCs_0WzQ7Nzt_1TsxbQcWbnQ"
     },
     {
+        "role": "owner",
+        "name": "whitmp4",
+        "link": "https://www.youtube.com/channel/UCwgoDsG70_DHpv4-tQdcOIA"
+    },
+    {
         "role": "admin",
         "name": "NiXaNTyReaL",
         "link": "https://www.youtube.com/channel/UC3fg0-hXdR7gKGFp-h1Kibg"
@@ -30,11 +35,6 @@
         "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
     },
     {
-        "role": "admin",
-        "name": "whitmp4",
-        "link": "https://www.youtube.com/channel/UCwgoDsG70_DHpv4-tQdcOIA"
-    },
-    {
         "role": "helper",
         "name": "sqrtpie",
         "link": "https://www.youtube.com/channel/UCYsemIt0-tAO97Qg0m5N69g"
@@ -43,10 +43,15 @@
         "role": "helper",
         "name": "Flare"
     },
-     {
+    {
         "role": "helper",
         "name": "Fawami",
         "link": "https://www.youtube.com/@fawami"
+    },
+    {
+        "role": "helper",
+        "name": "evil",
+        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
     {
         "role": "dev",
