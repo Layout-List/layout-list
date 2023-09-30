@@ -15,6 +15,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Utc",
+            "link": "https://youtu.be/blOShPCr2yA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
