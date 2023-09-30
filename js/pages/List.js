@@ -129,10 +129,10 @@ export default {
                         You must have achieved the record on the level that is listed on the site - please check the level ID before you submit a record!
                     </p>
                     <p>
-                        The recording must have either source audio or clicks/taps in the video. Edited audio does not count for hard demons and above.
+                        The recording must have either source audio or clicks/taps in the video. Edited audio does not count. (Only required for Hard Demons and above)
                     </p>
                     <p>
-                        The recording must have clicks/taps in the video if the record is on a level from the Insane Layout difficulty category or above (this does not apply to mobile players, although taps are appreciated).
+                        Complete raw footage is required along side your record for any of the Extreme Demon categories.
                     </p>
                     <p>
                         The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.

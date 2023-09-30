@@ -294,6 +294,27 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+           {
+            "user": "elballer",
+            "link": "https://youtu.be/6wk6MJTUPyg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+           {
+            "user": "MrBridge1",
+            "link": "https://www.youtube.com/watch?v=ti_hFdhCENM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Gybyy",
+            "link": "https://youtu.be/ZvWPnnI5ZGw?si=wXCX1BbF-DQiehvo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

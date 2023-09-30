@@ -835,6 +835,27 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+          {
+            "user": "Gybyy",
+            "link": "https://youtu.be/fgXAvfbq-fU?si=Ypa7kj9YmkaHFFvX",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "MrBridge1",
+            "link": "https://www.youtube.com/watch?v=nb2zjYxUIxs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Underhold",
+            "link": "https://youtu.be/Bnnd_1z6opY?si=bJwYfR6bRgqJGJWJ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }

@@ -435,6 +435,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "MrBridge1",
+            "link": "https://www.youtube.com/watch?v=dkwk5QmlWJc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

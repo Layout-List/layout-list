@@ -15,6 +15,48 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Utc",
+            "link": "https://youtu.be/blOShPCr2yA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+          {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/5Vh_g0kTQdc?si=9b99aPgHoielkG4m",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+           {
+            "user": "briskrain",
+            "link": "https://www.youtube.com/watch?v=29zzzsRCvN4&ab_channel=briskrain",
+            "percent": 100,
+            "hz": 188,
+            "mobile": false
+        },
+         {
+            "user": "Hokahey",
+            "link": "https://youtu.be/OLmJh_mHvQk",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+        {
+            "user": "Blost",
+            "link": "https://youtu.be/lDpOQ4yTU4A?si=fT7llu-Y4SmVy_-Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=45q4ASCW_wY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

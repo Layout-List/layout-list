@@ -713,6 +713,27 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "IExist",
+            "link": "https://youtu.be/Iv-qFChi_g0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "Gybyy",
+            "link": "https://youtu.be/S5e3hTPqcnQ?si=Xud68b-1kyR1F-ff",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+          {
+            "user": "MrBridge1",
+            "link": "https://www.youtube.com/watch?v=EJSBWiigupY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
