@@ -43,6 +43,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "Blost",
+            "link": "https://youtu.be/lDpOQ4yTU4A?si=fT7llu-Y4SmVy_-Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
