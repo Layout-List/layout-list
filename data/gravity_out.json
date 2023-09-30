@@ -301,6 +301,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "IExist",
+            "link": "https://youtu.be/Iv-qFChi_g0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
 
     ]
