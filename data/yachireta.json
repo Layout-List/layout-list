@@ -11,6 +11,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/1059284741100146758/1143718248311951370/914838.mp3",
     "difficulty": 4,
     "records": [
-      
+      {
+            "user": "Jab",
+            "link": "https://youtu.be/_FMm3KOn1eI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
