@@ -86,6 +86,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        }.
+         {
+            "user": "Edu",
+            "link": "https://youtu.be/mxY4P_xRN1g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
