@@ -232,6 +232,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+         {
+            "user": "GMDJohn",
+            "link": "https://www.youtube.com/watch?v=1JvsRm4whbk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
