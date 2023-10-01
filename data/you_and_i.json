@@ -11,7 +11,19 @@
     "songLink": "https://cdn.discordapp.com/attachments/835538846509957171/1146505646557110452/2000.mp3",
     "difficulty": 5,
     "records": [
-
-        
+        {
+            "user": "evil",
+            "link": "https://youtu.be/MN1odbQzIL0?si=vtdoAX-QLGhTAfrV",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+          {
+            "user": "whitmp4",
+            "link": "https://youtu.be/P6Xeb6qW1Dw?si=F3NNTWm4MeMPhKDd",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }

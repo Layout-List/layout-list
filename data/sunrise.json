@@ -332,12 +332,19 @@
             "hz": 360,
             "mobile": false
         },
-           {
+        {
             "user": "Gybyy",
             "link": "https://youtu.be/HH1YWJBucng?si=VcgDfOrLRb37iywO",
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Underhold",
+            "link": "https://youtu.be/hcUTLSwntZI?si=rm_GGqmx9dfA5rhJ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
