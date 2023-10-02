@@ -92,6 +92,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+           {
+            "user": "EmilBatStorm",
+            "link": "https://www.youtube.com/watch?v=5EZkSr_lDoQ",
+            "percent": 100,
+            "hz": 40,
+            "mobile": false
         }
     ]
 }
