@@ -24,6 +24,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+          {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=2s5ymOG5dU8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
