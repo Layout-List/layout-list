@@ -329,6 +329,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "EmilBatStorm",
+            "link": "https://youtu.be/lEvv9TjNalY",
+            "percent": 100,
+            "hz": 40,
+            "mobile": false
         }
     ]
 }
