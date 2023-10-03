@@ -156,6 +156,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+          {
+            "user": "LimeDub",
+            "link": "https://youtu.be/SW5OzruGP04?si=9fgku1TJffwKudku",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
