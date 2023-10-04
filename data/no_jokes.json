@@ -44,6 +44,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Jab",
+            "link": "https://youtu.be/4M4bCGEpAAI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "zakonp",
+            "link": "https://youtu.be/9KS1vKhshvc?si=D3wxUJzFgCHK4P4e",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
