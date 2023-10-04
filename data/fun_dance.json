@@ -836,6 +836,13 @@
             "percent": 100,
             "hz": 40,
             "mobile": false
+        },
+          {
+            "user": "FerronPlays",
+            "link": "https://youtu.be/PdsDny8b1Pk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
