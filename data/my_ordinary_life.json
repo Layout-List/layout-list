@@ -260,6 +260,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+         {
+            "user": "LimeDub",
+            "link": "https://www.youtube.com/watch?v=fiAa139N_5g",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }

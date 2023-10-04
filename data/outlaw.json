@@ -44,6 +44,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/PLXHlqGC0IM?si=4JHUE8cSiO7D94s6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/G8ye9PTVmhg?si=jXsadoHRQ7Nlt3EX",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
