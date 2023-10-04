@@ -10,6 +10,12 @@
     "song": "Circus Contraption - Wicked Fascinations (DirtyPaws Remix)",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/saM1_tTKgX0?si=EBsMmLRf7ODdBWZL",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
