@@ -15,6 +15,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Sakira",
+            "link": "https://youtu.be/GQjbjOCiK3Y?si=hcJ0svfn2_lulBtF",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
