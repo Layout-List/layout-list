@@ -526,11 +526,18 @@
             "hz": 60,
             "mobile": true
         },
-           {
+        {
             "user": "Gybyy",
             "link": "https://youtu.be/gzRDPmI7Dew?si=J9UU3fXtunH_bTDC",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "MrBridge1",
+            "link": "https://youtu.be/g9WC4SIqxvc?si=cX07ppGQJbddDiGu",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
