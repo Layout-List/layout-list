@@ -106,6 +106,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "xNebular",
+            "link": "https://youtu.be/7MSl8RFGvT4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
