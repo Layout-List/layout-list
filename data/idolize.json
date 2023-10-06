@@ -135,6 +135,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "pipsok",
+            "link": "https://youtu.be/BTnsUYwERT4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
