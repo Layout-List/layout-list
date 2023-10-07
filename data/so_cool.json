@@ -415,7 +415,8 @@
             "user": "ImRathirX",
             "link": "https://youtu.be/qvDnBG5bzCA",
             "percent": 100,
-            "hz": "Mobile"
+            "hz": 60,
+            "mobile": true
         },
         {
             "user": "Kuahnm",
