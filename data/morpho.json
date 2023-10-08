@@ -9,6 +9,12 @@
     "song": "1nf1n1ty - Veva",
     "difficulty": 2,
     "records": [
+        {
+            "user": "Lacley",
+            "link": "https://www.youtube.com/watch?v=hutVhgFF0EA",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
         
     ]
 }
