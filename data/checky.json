@@ -276,6 +276,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+         {
+            "user": "Lacley",
+            "link": "https://youtu.be/aLfSLcqF2vU?feature=shared",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
