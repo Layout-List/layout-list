@@ -9,6 +9,12 @@
     "song": "EspiDev - Reverie",
     "difficulty": 1,
     "records": [
-        
+          {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/NIvWfrmilmU?si=1UP45Ql7M6BNpLKr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
