@@ -4,11 +4,17 @@
     "author": "whitmp4",
     "creators": [],
     "verifier": "evil",
-    "verification": "https://youtu.be/YaVzgtgXErE",
+    "verification": "https://youtu.be/6vAc_Yvlems",
     "percentToQualify": 56,
     "song": "-Running From Demons- (2021 Vast Album Remaster) - Waterflame",
     "difficulty": 5,
     "records": [
-
+         {
+            "user": "syrcx",
+            "link": "https://youtu.be/dZRHWTFlQQo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }   
     ]
 }

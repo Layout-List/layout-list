@@ -44,6 +44,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Otari",
+            "link": "https://www.youtube.com/watch?v=U2qry4FqfC4&pp=ygUTd2lja2VkIGxheW91dCBieSBJSQ%3D%3D",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

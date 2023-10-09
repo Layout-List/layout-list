@@ -122,6 +122,13 @@
           "percent": 100,
           "hz": 240,
           "mobile": false
+        },
+        {
+          "user": "sphericle",
+          "link": "https://www.youtube.com/live/qtAk9eCFeW4?si=eSdXFEaCCyX-d7p-&t=1434",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
         }
     ]
 }
