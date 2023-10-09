@@ -11,6 +11,13 @@
     "songLink": "https://cdn.discordapp.com/attachments/835538846509957171/1146505646557110452/2000.mp3",
     "difficulty": 5,
     "records": [
+      {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=UD3BVUPPrc4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
         {
             "user": "evil",
             "link": "https://youtu.be/MN1odbQzIL0?si=vtdoAX-QLGhTAfrV",

@@ -9,7 +9,14 @@
     "song": "-Running From Demons- (2021 Vast Album Remaster) - Waterflame",
     "difficulty": 5,
     "records": [
-         {
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=UD3BVUPPrc4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "syrcx",
             "link": "https://youtu.be/dZRHWTFlQQo",
             "percent": 100,
