@@ -10,6 +10,26 @@
     "song": "Miyolophone - Ashes to Ash OST - 03 - New Hylidae",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/5FP-ms8UI80?si=TyaIMQJm3AbT8N4y",
+            "percent": 100,
+            "hz": 16,
+            "mobile": true
+        },
+          {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/np4ufb3qzHg?si=CwyOEMsXz8zcD8N8",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Lacley",
+            "link": "https://www.youtube.com/watch?v=jyaB1EiYhoA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
