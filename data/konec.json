@@ -11,13 +11,20 @@
     "difficulty": 0,
     "records": [
         {
+            "user": "DJJDK",
+            "link": "soon",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "Poke Zach",
             "link": "https://youtu.be/5FP-ms8UI80?si=TyaIMQJm3AbT8N4y",
             "percent": 100,
             "hz": 16,
             "mobile": true
         },
-          {
+        {
             "user": "Hyperbeat",
             "link": "https://youtu.be/np4ufb3qzHg?si=CwyOEMsXz8zcD8N8",
             "percent": 100,
@@ -29,6 +36,20 @@
             "link": "https://www.youtube.com/watch?v=jyaB1EiYhoA",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/WBkZ9AJ1EkA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/dDMiLzD7X0s",
+            "percent": 100,
+            "hz": 144,
             "mobile": false
         }
     ]
