@@ -11,7 +11,14 @@
     "songLink": "https://cdn.discordapp.com/attachments/835538846509957171/1146505646557110452/2000.mp3",
     "difficulty": 5,
     "records": [
-      {
+        {
+            "user": "FluffyCatNeo",
+            "link": "https://www.youtube.com/watch?v=HyHbi4UbJtU",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=UD3BVUPPrc4",
             "percent": 100,
@@ -44,13 +51,6 @@
             "link": "https://youtu.be/_A6Rfk7_qms",
             "percent": 100,
             "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "FluffyCatNeo",
-            "link": "https://www.youtube.com/watch?v=HyHbi4UbJtU",
-            "percent": 100,
-            "hz": 144,
             "mobile": false
         }
     ]
