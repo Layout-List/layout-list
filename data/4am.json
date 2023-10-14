@@ -80,23 +80,16 @@
             "hz": 60,
             "mobile": true
         },
-          {
+        {
             "user": "everett",
             "link": "https://youtu.be/WjCZZn2nwcg",
             "percent": 100,
             "hz": 360,
             "mobile": false
         },
-           {
+        {
             "user": "elballer",
             "link": "https://youtu.be/e57aSyFBHdA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-           {
-            "user": "Lacley",
-            "link": "https://www.youtube.com/watch?v=O9qLaTWWetI",
             "percent": 100,
             "hz": 360,
             "mobile": false
