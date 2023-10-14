@@ -11,6 +11,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/855215021566590977/1162830147838287922/898619.mp3?ex=653d5cf7&is=652ae7f7&hm=de3644ace2b13f9ebe90b022542358aff14e1118b90ef1415f3aa250f0fd00aa&",
     "difficulty": 5,
     "records": [
-        
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/rUuXHXdRfFs?si=VNja2SWVWf8wHKct",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
