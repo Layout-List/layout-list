@@ -16,12 +16,19 @@
             "hz": 144,
             "mobile": false
         },
-         {
+        {
             "user": "ThisGuyKreas",
             "link": "https://youtu.be/w6LpmhfSz8E",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/5o0IyomsJOQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

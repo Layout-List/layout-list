@@ -203,6 +203,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/HiiUePAtL2M",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=Qpf5M31dKic",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
