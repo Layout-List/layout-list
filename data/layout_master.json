@@ -166,12 +166,19 @@
             "hz": 120,
             "mobile": true
         },
-          {
+        {
             "user": "Koozoo2000",
             "link": "https://youtu.be/EwDUR6OESwU?si=E1-hTfblke6v6KtV",
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/Ywm5emPVCyE?si=DhEVrVGp3dNHu1ar",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }

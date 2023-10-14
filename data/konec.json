@@ -59,12 +59,19 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Xeronius",
             "link": "https://www.youtube.com/watch?v=341b-AwQN_8",
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/Ywm5emPVCyE?si=DhEVrVGp3dNHu1ar",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
