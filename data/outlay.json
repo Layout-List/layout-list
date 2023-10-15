@@ -166,6 +166,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/Q0Ymztw5EK0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
