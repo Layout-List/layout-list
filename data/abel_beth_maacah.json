@@ -31,11 +31,18 @@
             "mobile": false
         },
         {
+            "user": "mrperson",
+            "link": "https://youtu.be/afSCqAYgisw",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
             "user": "Tupi",
             "link": "https://youtu.be/ncQscD8y4c0",
             "percent": 76,
             "hz": 120,
             "mobile": false
-        } 
+        }
     ]
 }
