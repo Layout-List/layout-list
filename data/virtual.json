@@ -148,6 +148,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=oF_lR5_fUqU",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }

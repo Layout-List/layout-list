@@ -94,11 +94,18 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Atotakai",
             "link": "https://youtu.be/RoG3ytMghAM",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "crystalsstuff",
+            "link": "https://youtu.be/Hj-XxPBJdsY",
+            "percent": 100,
+            "hz": 330,
             "mobile": false
         }
     ]
