@@ -191,12 +191,19 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "xNebular",
             "link": "https://youtu.be/QkU5D6EpmIY",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "crystalsstuff",
+            "link": "https://youtu.be/D1YsgYadOWg",
+            "percent": 100,
+            "hz":330,
+            "mobile": false
         }
     ]
 }
