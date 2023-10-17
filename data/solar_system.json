@@ -359,6 +359,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "runner",
+            "link": "https://youtu.be/ABR2mywUE-E",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
