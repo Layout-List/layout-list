@@ -155,6 +155,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+         {
+            "user": "xNebular",
+            "link": "https://youtu.be/0npkQSyxD9k",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/904I4OhgHIM?si=MPRzS_JyOPCExBpz",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
