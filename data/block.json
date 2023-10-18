@@ -4,26 +4,10 @@
     "author": "F1regek",
     "creators": [],
     "verifier": "evil",
-    "verification": "https://youtu.be/68mxjNqRUqw",
+    "verification": "https://youtu.be/LlS-DEP9_RA?si=JhC_rWcByT1czDhd",
     "showcase": "https://www.youtube.com/watch?v=26gSovmjo5o",
     "percentToQualify": 53,
     "song": "Llaappssee - Being Alive is Fucking Weird",
     "difficulty": 7,
-    "records": [
-        {
-            "user": "Akuriserv",
-            "link": "https://youtu.be/XiwKEHQhH-U?si=cED_iuETtzsV0Cct",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Cosmiciscool",
-            "link": "https://www.youtube.com/watch?v=r8H1AATZ-N0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        }
-    
-    ]
+    "records": []
 }
