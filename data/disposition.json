@@ -9,6 +9,12 @@
     "song": "Garlagan - Form",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/m6g4Vke_sdc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
