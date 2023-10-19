@@ -50,6 +50,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+        {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/xvIYu2I96Fg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
         }
     ]
 }
