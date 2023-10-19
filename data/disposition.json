@@ -15,6 +15,28 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/904I4OhgHIM?si=MPRzS_JyOPCExBpz",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/wWCyA1bGwk4?si=SUpvyqPV6XOZEiZq",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "whitmp4",
+            "link": "https://youtu.be/t-CpHmM8RhM?si=GkMNzjbPCRAxgKNV",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
+        
     ]
 }

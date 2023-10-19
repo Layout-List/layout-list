@@ -129,7 +129,7 @@ export default {
                         You must have achieved the record on the level that is listed on the site - please check the level ID before you submit a record!
                     </p>
                     <p>
-                        The recording must have either source audio or clicks/taps in the video. Edited audio does not count. (Only required for Insane Demons and above)
+                        The recording must have either source audio or clicks/taps in the video. Edited audio does not count.
                     </p>
                     <p>
                         Complete raw footage is required along side your record for any of the Extreme Demon categories.
