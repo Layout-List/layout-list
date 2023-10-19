@@ -111,9 +111,16 @@
             "hz": 120,
             "mobile": true
         },
-          {
+        {
             "user": "Flare",
             "link": "https://medal.tv/games/geometry-dash/clips/1z0y2CK3h1CoJa/d1337e9OoQDP?invite=cr-MSxVQVgsNzMyMDE2NDgs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/hentC7OScBY",
             "percent": 100,
             "hz": 240,
             "mobile": false

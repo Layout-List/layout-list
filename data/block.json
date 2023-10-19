@@ -2,12 +2,16 @@
     "id": 84142655,
     "name": "block disaster 🟢",
     "author": "F1regek",
-    "creators": ["evil"],
+    "creators": [
+        "evil"
+    ],
     "verifier": "evil",
     "verification": "https://youtu.be/LlS-DEP9_RA?si=JhC_rWcByT1czDhd",
     "showcase": "https://www.youtube.com/watch?v=26gSovmjo5o",
     "percentToQualify": 53,
     "song": "Llaappssee - Being Alive is Fucking Weird",
     "difficulty": 7,
-    "records": []
+    "records": [
+        
+    ]
 }

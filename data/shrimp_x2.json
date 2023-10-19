@@ -12,8 +12,8 @@
         "Goldenera",
         "insxne97"
     ],
-    "verifier": "Lordvadercraft",
-    "verification": "https://www.youtube.com/watch?v=x3ADD8YZyMU&feature=youtu.be",
+    "verifier": "mrperson",
+    "verification": "https://youtu.be/MjG-jdFO0EU",
     "percentToQualify": 61,
     "song": "Miyolophone - Mandragora",
     "difficulty": 5,
@@ -37,13 +37,6 @@
             "link": "https://youtu.be/OZlVZbllX6U",
             "percent": 100,
             "hz": 300,
-            "mobile": false
-        },
-          {
-            "user": "mrperson",
-            "link": "https://youtu.be/BDtjNA0H7E8",
-            "percent": 100,
-            "hz": 144,
             "mobile": false
         }
     ]
