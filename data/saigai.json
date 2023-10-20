@@ -96,9 +96,16 @@
             "hz": 360,
             "mobile": false
         },
-          {
+        {
             "user": "whitmp4",
             "link": "https://youtu.be/kDNZQ4NWFio?si=j80ZKQKQlzbi_uGF",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/fVhTwmxLFyM?si=bzk2hh2NZ0oFklQW",
             "percent": 100,
             "hz": 360,
             "mobile": false

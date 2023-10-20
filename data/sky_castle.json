@@ -1,0 +1,27 @@
+{
+    "id": 95120621,
+    "name": "Sky Castle",
+    "author": "Atotakai",
+    "creators": [],
+    "verifier": "Atotakai",
+    "verification": "https://youtu.be/CnuXzzH19Oc",
+    "percentToQualify": 100,
+    "song": "Waterflame - -conclusion-",
+    "difficulty": 1,
+    "records": [
+          {
+            "user": "Tradeskill",
+            "link": "https://www.youtube.com/watch?v=oJrpJganwtM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=yXVMkjAPu18",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}
