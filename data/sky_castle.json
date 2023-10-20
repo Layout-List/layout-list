@@ -9,6 +9,12 @@
     "song": "Waterflame - -conclusion-",
     "difficulty": 1,
     "records": [
-        
+          {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=yXVMkjAPu18",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
