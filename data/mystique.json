@@ -29,6 +29,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/vbJeDXYlRfE?si=BfnyVlc_SVq1XDwI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
