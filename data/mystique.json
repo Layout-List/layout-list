@@ -9,6 +9,12 @@
     "song": "Dan Johansen - Synergetic Enigma",
     "difficulty": 3,
     "records": [
-        
+         {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=cXY2gIfbqK0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
