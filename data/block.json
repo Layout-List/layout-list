@@ -12,6 +12,12 @@
     "song": "Llaappssee - Being Alive is Fucking Weird",
     "difficulty": 7,
     "records": [
-        
+        {
+            "user": "Akuriserv",
+            "link": "https://youtu.be/LpYALDEF9Dg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }

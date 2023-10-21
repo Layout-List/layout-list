@@ -190,11 +190,18 @@
             "hz": 240,
             "mobile": false
         },
-         {
+        {
             "user": "elballer",
             "link": "https://youtu.be/UN7vR0JCZhs",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Gi5pYZ6Z8eo",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]

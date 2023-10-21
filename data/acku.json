@@ -157,12 +157,19 @@
             "hz": 60,
             "mobile": true
         },
-          {
+        {
             "user": "FerronPlays",
             "link": "https://youtu.be/-15YU_BWXno",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "sphericle",
+            "link": "https://youtu.be/YHlC3F4HjxM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
