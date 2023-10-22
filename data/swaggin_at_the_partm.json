@@ -10,11 +10,18 @@
     "songLink": " https://youtu.be/pQQdg0gfrsM?si=TI4az3gFJzY3h6gq",
     "difficulty": 5,
     "records": [
-          {
+        {
             "user": "Dom_Luca",
             "link": "https://www.youtube.com/watch?v=BuHVcKGiW3A&t=3s",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/CtJf3THWuzg",
+            "percent": 100,
+            "hz": 144,
             "mobile": false
         }
     ]
