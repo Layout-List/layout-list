@@ -9,6 +9,12 @@
     "song": "Creo - Never make it",
     "difficulty": 3,
     "records": [
-        
+         {
+            "user": "zDarkHTR",
+            "link": "https://youtu.be/VeYBAj-xPlA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
