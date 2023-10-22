@@ -253,6 +253,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "kozia",
+            "link": "https://www.youtube.com/watch?v=7x_Rk3ZkU8k",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/beyO8SvVOBk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

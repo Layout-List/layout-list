@@ -182,6 +182,13 @@
           "percent": 100,
           "hz": 240,
           "mobile": false
-        }
+        },
+        {
+            "user": "s3batr0nic",
+            "link": "https://youtu.be/CkOjXZhTEKE?si=lIonkFrjFKiATw6s",
+            "percent": 100,
+            "hz": 100,
+            "mobile": false
+          }
     ]
 }

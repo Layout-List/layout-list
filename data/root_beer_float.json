@@ -490,6 +490,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Killerwars",
+            "link": "https://www.youtube.com/watch?v=vEUjxE3n2Qc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }

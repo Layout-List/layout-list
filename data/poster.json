@@ -228,6 +228,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "ado",
+            "link": "https://www.youtube.com/watch?v=KAfDOZNnBSQ",
+            "percent": 72,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "skzyl",
+            "link": "https://www.youtube.com/watch?v=J6_nkt_M5Iw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
