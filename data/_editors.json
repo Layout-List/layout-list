@@ -35,6 +35,11 @@
         "link": "https://www.youtube.com/channel/UCwtMLVtXmgk6hQ6t7h4mx5A"
     },
     {
+        "role": "admin",
+        "name": "evil",
+        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+    },
+    {
         "role": "helper",
         "name": "sqrtpie",
         "link": "https://www.youtube.com/channel/UCYsemIt0-tAO97Qg0m5N69g"
@@ -48,11 +53,6 @@
         "role": "helper",
         "name": "Fawami",
         "link": "https://www.youtube.com/@fawami"
-    },
-    {
-        "role": "helper",
-        "name": "evil",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
     {
         "role": "dev",
