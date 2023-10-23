@@ -9,11 +9,18 @@
     "song": "Creo - Never Make It",
     "difficulty": 3,
     "records": [
-            {
+        {
             "user": "whitmp4",
             "link": "https://www.youtube.com/watch?v=t-CpHmM8RhM",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/FZ-PlaZ_aSQ",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
