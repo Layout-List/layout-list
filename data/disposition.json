@@ -43,7 +43,27 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://youtu.be/cSTk8sIhL6U?si=I9hwCrK0ct6AnZQC",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/6Vhy_urhIJQ?si=rj4HTZL8d2UKwqzW",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/4LTgqx-7Xy0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
-        
     ]
 }

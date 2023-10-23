@@ -204,6 +204,13 @@
             "percent": 100,
             "hz":330,
             "mobile": false
+        },
+        {
+            "user": "ado",
+            "link": "https://www.youtube.com/watch?v=KAfDOZNnBSQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

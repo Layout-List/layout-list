@@ -873,6 +873,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Ozone1126",
+            "link": "https://youtu.be/1Tm5GLce2to",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Killerwars",
+            "link": "https://www.youtube.com/watch?v=zH8yshE4ElU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }

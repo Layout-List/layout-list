@@ -129,6 +129,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
-        }
+        },
+        {
+          "user": "Tupi",
+          "link": "https://youtu.be/W6dq706Leog",
+          "percent": 49,
+          "hz": 120,
+          "mobile": false
+      }
     ]
 }

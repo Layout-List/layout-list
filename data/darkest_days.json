@@ -124,9 +124,16 @@
             "hz": 60,
             "mobile": true
         },
-         {
+        {
             "user": "whitmp4",
             "link": "https://youtu.be/Qazm3iIJb2w?si=RVsM9sLlxde38hig",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=Dj6sNL-50AU&lc=UgzZ6dW43KqtnM-xH2t4AaABAg",
             "percent": 100,
             "hz": 360,
             "mobile": false

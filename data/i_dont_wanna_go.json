@@ -161,12 +161,19 @@
             "hz": 240,
             "mobile": false
         },
-         {
+        {
             "user": "Blysteryx",
             "link": "https://youtu.be/WXsGEaOD5z4?si=r0Otu93gb4zXnHcg",
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "StevenOct",
+            "link": "https://www.youtube.com/watch?v=_eoMgtx3U6M",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
