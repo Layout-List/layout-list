@@ -9,6 +9,12 @@
     "song": "DreyLand - Battle! [More Rock]",
     "difficulty": 3,
     "records": [
-        
+         {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=ZOOm5OrAsSY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
