@@ -87,6 +87,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+         {
+            "user": "Trixsm",
+            "link": "https://www.youtube.com/watch?v=r0OL9v6hfS0",
+            "percent": 69,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
