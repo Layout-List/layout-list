@@ -10,11 +10,18 @@
     "songlink": "https://cdn.discordapp.com/attachments/921847147438166016/1161705845789298759/739413.mp3?ex=654bbae1&is=653945e1&hm=e8dbf8c6fab76d73aa0a451bdda852ccb1ca4e25f6a46272fa9849083b45eec2&",
     "difficulty": 3,
     "records": [
-         {
+        {
             "user": "DJJDK",
             "link": "https://www.youtube.com/watch?v=ZOOm5OrAsSY",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/ycgaP8wWLoA",
+            "percent": 100,
+            "hz": 144,
             "mobile": false
         }
     ]
