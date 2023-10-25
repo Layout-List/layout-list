@@ -157,7 +157,7 @@ export default {
                         Legendary Layout = Insane/Extreme Extreme Demons (350 Points)
                     </p>
                     <p>
-                        Ethereal Layout = Hard/Harder Extreme Demons (250 Points)
+                        Ethereal Layout = Hard/Very Hard Extreme Demons (250 Points)
                     </p>
                     <p>
                         Supreme Layout = Easy/Medium Extreme Demons (200 Points)
