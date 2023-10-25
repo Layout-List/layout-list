@@ -30,12 +30,19 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Poke Zach",
             "link": "https://youtu.be/s3qRkluI7Fs?si=cMwO2fDfqUKW4iDJ",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/74NuV2d8m4A?si=i1kQanF1U_Pbh1fs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }

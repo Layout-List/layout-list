@@ -88,12 +88,19 @@
             "hz": 144,
             "mobile": false
         },
-         {
+        {
             "user": "Trixsm",
             "link": "https://www.youtube.com/watch?v=r0OL9v6hfS0",
             "percent": 69,
             "hz": 240,
             "mobile": false
-        }
+        },
+        {
+          "user": "PoiPonPL",
+          "link": "https://youtu.be/h7ajZnCrt_c",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+      }
     ]
 }
