@@ -850,6 +850,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "harrythesilly",
+            "link": "https://youtu.be/KGKnD0uRMqM?si=pB1UxXvtQihbvQ5M",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
