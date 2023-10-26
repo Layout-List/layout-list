@@ -101,6 +101,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "yarn",
+            "link": "https://www.youtube.com/watch?v=M7hhA1EKwqc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
