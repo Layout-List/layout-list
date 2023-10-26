@@ -51,6 +51,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Blysterx",
+            "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
