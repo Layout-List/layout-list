@@ -65,6 +65,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=sWIMs-pvE_g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
