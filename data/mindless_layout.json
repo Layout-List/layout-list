@@ -101,6 +101,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Hokahey",
+            "link": "https://www.youtube.com/watch?v=UeKd-OzKv5Q",
+            "percent": 80,
+            "hz": 75,
+            "mobile": false
         }
     ]
 }
