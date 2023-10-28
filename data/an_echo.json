@@ -87,6 +87,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "yarn",
+            "link": "https://youtu.be/gVz6pu0-XPo?feature=shared",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
