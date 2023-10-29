@@ -66,6 +66,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
-        }    
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/dJk_Ncqdn5w",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
