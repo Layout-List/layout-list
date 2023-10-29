@@ -10,6 +10,13 @@
     "difficulty": 0,
     "records": [
         {
+            "user": "DJJDK",
+            "link": "https://youtu.be/N0vGzvttdk4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "evil",
             "link": "https://youtu.be/uUot7tQ1AUQ",
             "percent": 100,
@@ -73,18 +80,18 @@
             "mobile": true
         },
          {
-          "user": "whitmp4",
-          "link": "https://youtu.be/zofsttMn_tM?si=bnRHOFknQioDj4HT",
-          "percent": 100,
-          "hz": 360,
-          "mobile": true
+            "user": "whitmp4",
+            "link": "https://youtu.be/zofsttMn_tM?si=bnRHOFknQioDj4HT",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
         },
-         {
-          "user": "Atotakai",
-          "link": "https://youtu.be/eojSChQwqVI",
-          "percent": 100,
-          "hz": 360,
-          "mobile": true
+        {
+            "user": "Atotakai",
+            "link": "https://youtu.be/eojSChQwqVI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
         },
         {
             "user": "ThisGuyKreas",
