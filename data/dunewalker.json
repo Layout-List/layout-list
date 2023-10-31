@@ -79,6 +79,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=J5Zzk9_FghA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
