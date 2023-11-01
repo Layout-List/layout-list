@@ -19,6 +19,13 @@
     "difficulty": 5,
     "records": [
         {
+            "user": "LordVaderCraft",
+            "link": "verifier",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "Acacia",
             "link": "https://www.youtube.com/watch?v=l7DeT8u5pOc",
             "percent": 100,
