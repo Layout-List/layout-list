@@ -10,6 +10,19 @@
     "songLink": "https://cdn.discordapp.com/attachments/1159362590053503017/1159431874507178004/9999.mp3?ex=654caf94&is=653a3a94&hm=343ee56ced1a8fa897fcc277321eb7e7f0b55edb97d736260606a9c211302952&",
     "difficulty": 2,
     "records": [
-        
+         {
+            "user": "whitmp4",
+            "link": "https://youtu.be/VnXFlcyMlkM?si=QRf8O7h3ytERZbDz",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "yarn",
+            "link": "https://youtu.be/BUVFVKDwYZc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        }
     ]
 }
