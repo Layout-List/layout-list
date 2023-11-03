@@ -175,6 +175,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": " https://youtu.be/TFhlyqoAj2Y",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
