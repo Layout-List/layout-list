@@ -14,6 +14,13 @@
     "difficulty": 5,
     "records": [
         {
+            "user": "Diogan",
+            "link": "https://www.youtube.com/watch?v=a6wHuWWl6tM",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
             "user": "pivithasnolife",
             "link": "https://youtu.be/imT-mHwldqE",
             "percent": 70,
