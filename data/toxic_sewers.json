@@ -9,6 +9,12 @@
     "song": "Waterflame - -Toxic sewers-",
     "difficulty": 1,
     "records": [
-        
+           {
+            "user": "whitmp4",
+            "link": "https://www.youtube.com/watch?v=VnXFlcyMlkM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
