@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 95428448,
+    "name": "INFERTEHNO",
+    "author": "mr123j",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "verifier": "mr123j",
+    "verification": "https://youtu.be/Uw1zzQ2XS3M",
+    "percentToQualify": 57,
+    "song": "Shinrog - Infertehno",
+    "difficulty": 4,
     "records": [
         
     ]
