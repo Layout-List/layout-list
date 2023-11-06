@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
-    "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "id": 95811271,
+    "name": "Mystae Fallentes",
+    "author": "whitmp4",
+    "creators": ["DJJDK"],
+    "verifier": "DJJDK",
+    "verification": "https://youtu.be/N4NQjuwT0Gk?si=l6aGYT18QyHbwR1R",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Dimrain47 - The Falling Mysts",
+    "difficulty": 3,
     "records": [
         
     ]
