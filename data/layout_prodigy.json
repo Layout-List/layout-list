@@ -29,6 +29,20 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=GOqya35T05g",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+         {
+            "user": "yarn",
+            "link": "https://www.youtube.com/watch?v=7NYi4rHUDrI",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
