@@ -9,6 +9,12 @@
     "song": "Creo - Idolize",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "evil",
+            "link": "https://youtu.be/44Mhvx6TxUc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }

@@ -31,12 +31,19 @@
             "hz": 60,
             "mobile": true
         },
-         {
+        {
             "user": "Hyperbeat",
             "link": "https://youtu.be/r4k7Tk4P_b0?si=VHVcCN5k2ME7Atsc",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/44Mhvx6TxUc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
