@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 96159102,
+    "name": "Because We Miss You",
+    "author": "sqrtpie",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/t7unVBZ_TmE?si=e6kNA23PeR66WyJa",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "LucidShadowDreamer - Because We Miss You",
+    "difficulty": 1,
     "records": [
         
     ]
