@@ -1,11 +1,6 @@
 [
     {
         "role": "owner",
-        "name": "DJJDK",
-        "link": "https://www.youtube.com/channel/UCE349mtrdQYGr-avCPlbCiA"
-    },
-    {
-        "role": "owner",
         "name": "Blathers",
         "link": "https://www.youtube.com/channel/UC18eM9f_J-tVdruPEWqkFsQ"
     },
@@ -44,6 +39,11 @@
         "name": "Fawami",
         "link": "https://www.youtube.com/@fawami"
     },
+     {
+        "role": "helper",
+        "name": "Hyperbeat",
+        "link": "https://www.youtube.com/@Hyperbeat"
+    }
     {
         "role": "dev",
         "name": "Prometheus",
