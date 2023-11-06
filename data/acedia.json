@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 95887957,
+    "name": "Acedia",
+    "author": "whitmp4",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "verifier": "whitmp4",
+    "verification": "https://youtu.be/Gtw_USGJKh0?si=Rc2laQWnr-mIy9R2",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Creo - Idolize",
+    "difficulty": 2,
     "records": [
         
     ]
