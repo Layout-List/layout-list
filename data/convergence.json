@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 91131780,
+    "name": "Convergence",
+    "author": "Huskiegaming",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "verifier": "Syrcx",
+    "verification": "https://youtu.be/At0KPcms92M",
+    "percentToQualify": 55,
+    "song": "Creo - Reflections",
+    "difficulty": 5,
     "records": [
         
     ]
