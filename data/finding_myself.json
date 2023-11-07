@@ -1,15 +1,14 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 95879909,
+    "name": "finding myself",
+    "author": "Hyperbeat",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "verifier": "Hyperbeat",
+    "verification": "https://youtu.be/Z8AvRyo4UtY?si=KLJpqjUbtifQFGjg",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "CANOTO - Found",
+    "songLink": "https://drive.google.com/file/d/1spOgaR8nQeSfQXyyWDuyuX-xHgb_Lvu0/view?usp=sharing",
+    "difficulty": 4,
     "records": [
         
     ]
