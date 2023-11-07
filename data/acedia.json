@@ -1,0 +1,20 @@
+{
+    "id": 95887957,
+    "name": "Acedia",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://youtu.be/Gtw_USGJKh0?si=Rc2laQWnr-mIy9R2",
+    "percentToQualify": 100,
+    "song": "Creo - Idolize",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/44Mhvx6TxUc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
+}
