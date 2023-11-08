@@ -1,0 +1,34 @@
+{
+    "id": 96002642,
+    "name": "Twink Braindead",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "Syrcx",
+    "verification": "https://youtu.be/mfRXUas2DHg",
+    "percentToQualify": 100,
+    "song": "lavacakes - twink braindead",
+    "difficulty": 3,
+    "records": [
+         {
+            "user": "whitmp4",
+            "link": "https://www.youtube.com/watch?v=VnXFlcyMlkM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=uuzAE7btAI4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+          {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=hoVM2woIq5Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
+    ]
+}
