@@ -76,9 +76,16 @@
             "hz": 120,
             "mobile": true
         },
-          {
+        {
             "user": "rastuyas",
             "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/6HPuB3SxCfQ",
             "percent": 100,
             "hz": 240,
             "mobile": false
