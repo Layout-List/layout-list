@@ -205,6 +205,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+         {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+         {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/pR_sCWz5PTc?si=IBRj_SMGnoezHTq1",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
