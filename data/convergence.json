@@ -9,6 +9,12 @@
     "song": "Creo - Reflections",
     "difficulty": 5,
     "records": [
-        
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/q3wcDWisH10?si=CIxvsu_l3WNmL6W8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
