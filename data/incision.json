@@ -10,19 +10,26 @@
     "song": "lexycat - INCISION",
     "difficulty": 10,
     "records": [
-         {
+        {
+            "user": "Seismic",
+            "link": "https://www.youtube.com/watch?v=VjzZP20o84A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/60xFOV5bxAY",
+            "percent": 80,
+            "hz": 240,
+            "mobile": false
+        },
+        {
             "user": "mr123j",
             "link": "https://youtu.be/60xFOV5bxAY",
             "percent": 76,
             "hz": 360,
             "mobile": false
         },
-         {
-            "user": "Seismic",
-            "link": "https://www.youtube.com/watch?v=VjzZP20o84A",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
     ]
 }
