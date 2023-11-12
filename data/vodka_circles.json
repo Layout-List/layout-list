@@ -12,11 +12,26 @@
     "difficulty": 5,
     "records": [
         {
+            "user": "Blathers",
+            "link": "https://www.youtube.com/watch?v=r1G2l8EmRo0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
             "user": "Hydraniac",
             "link": "https://youtu.be/lHwG_E3_YtU?si=Ay8Q-uqA9hpNvAvv",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/y-Xb7HwB92o",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
+
     ]
 }
