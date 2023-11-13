@@ -12,14 +12,14 @@
     "records": [
         {
             "user": "Blathers",
-            "link": "owner",
+            "link": "https://www.youtube.com/watch?v=1UvF7qSbqwY",
             "percent": 100,
             "hz": 288,
             "mobile": false
         },
         {
             "user": "DJJDK",
-            "link": "owner",
+            "link": "?",
             "percent": 100,
             "hz": 360,
             "mobile": false
