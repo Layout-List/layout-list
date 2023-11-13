@@ -11,13 +11,6 @@
     "difficulty": 3,
     "records": [
         {
-             "user": "Blathers",
-             "link": "owner",
-             "percent": 100,
-             "hz": 288,
-             "mobile": false
-        },
-        {
              "user": "DJJDK",
              "link": "https://youtu.be/oLHXUohHdGY",
              "percent": 100,
