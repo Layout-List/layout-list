@@ -44,6 +44,11 @@
         "name": "Hyperbeat",
         "link": "https://www.youtube.com/@Hyperbeat"
     },
+     {
+        "role": "helper",
+        "name": "lMystikl",
+        "link": "https://www.youtube.com/@lMystikl"
+    },
     {
         "role": "dev",
         "name": "Prometheus",
