@@ -92,6 +92,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+          {
+            "user": "Blueberry",
+            "link": "https://youtu.be/gfTWjfLF5O4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
