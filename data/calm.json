@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 96174612,
+    "name": "Calm",
+    "author": "Xeronius",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=DZc1gDnTOYc",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "1nf1n1ty - Calm Craggy Area (1f1n1ty Remix)",
+    "difficulty": 0,
     "records": [
         
     ]
