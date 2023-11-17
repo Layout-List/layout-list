@@ -11,13 +11,6 @@
     "difficulty": 0,
     "records": [
         {
-            "user": "Blathers",
-            "link": "owner",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
             "user": "DJJDK",
             "link": "owner",
             "percent": 100,
