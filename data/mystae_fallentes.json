@@ -9,6 +9,20 @@
     "song": "Dimrain47 - The Falling Mysts",
     "difficulty": 3,
     "records": [
+        {
+            "user": "syrcx",
+            "link": "https://youtu.be/sF6UA4cuyto",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/7owZ9GvNLcw?si=5sb0FnjHQ2sLsNm9",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
