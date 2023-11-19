@@ -10,6 +10,13 @@
     "songLink": "https://cdn.discordapp.com/attachments/1174086676738478150/1174086746070339654/75782.mp3?ex=6566507d&is=6553db7d&hm=f726da39e01a4066432dea62ae3ff14d040710b713cebbfa70ac070ecc8e90b6&",
     "difficulty": 1,
     "records": [
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/m6hP21jDSu8?feature=shared",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
