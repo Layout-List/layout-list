@@ -223,6 +223,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "Iza",
+            "link": "https://youtu.be/mdBcaRNEoRo",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
