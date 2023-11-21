@@ -11,6 +11,13 @@
     "songLink": "https://drive.google.com/file/d/1spOgaR8nQeSfQXyyWDuyuX-xHgb_Lvu0/view?usp=sharing",
     "difficulty": 4,
     "records": [
+        {
+            "user": "RFanVS",
+            "link": "https://youtu.be/MKtaXpQM7zE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
         
     ]
 }
