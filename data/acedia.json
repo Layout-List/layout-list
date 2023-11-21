@@ -36,6 +36,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Iza",
+            "link": "https://www.youtube.com/watch?v=XnNykx_jGdo&ab_channel=Sakira",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
