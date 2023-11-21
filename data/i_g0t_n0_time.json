@@ -152,6 +152,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "TheHrnyGDBrave",
+            "link": "https://youtu.be/WK72zjGRb1I?si=Y0VMYJ1qAxhtpF9a",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
         }
     ]
 }
