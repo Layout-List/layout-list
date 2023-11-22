@@ -9,5 +9,12 @@
     "song": "Dj-Rec0il - Gradient Horizon",
     "difficulty": 5,
     "records": [
+        {
+            "user": "nolli",
+            "link": "https://www.youtube.com/watch?v=-sU_ScdLiaA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }

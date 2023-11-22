@@ -9,6 +9,13 @@
     "song": "TheLivingTombstone - Grim Grinning Ghosts",
     "difficulty": 1,
     "records": [
+        {
+            "user": "Blueberry",
+            "link": "https://youtu.be/3Y9fmI1JxTM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
         
     ]
 }
