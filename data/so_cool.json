@@ -915,6 +915,13 @@
             "percent": 100,
             "hz": 10,
             "mobile": false
+        },
+        {
+            "user": "GrumpBoat",
+            "link": "https://youtu.be/YCRFTd-I7dM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
