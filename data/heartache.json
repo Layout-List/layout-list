@@ -92,6 +92,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/V1W8PYNlcXo?si=2P-aUaGmka5OxfF0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
