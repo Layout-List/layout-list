@@ -107,6 +107,20 @@
             "hz": 60,
             "mobile": false
             
+        },
+        {
+            "user": "GrumpBoat",
+            "link": "https://youtu.be/NAN5NdGOa1w",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "runner",
+            "link": "https://www.youtube.com/watch?v=DupjNjcT7Tw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
