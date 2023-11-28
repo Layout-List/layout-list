@@ -12,6 +12,13 @@
     "difficulty": 4,
     "records": [
         {
+            "user": "duszek81",
+            "link": "https://www.youtube.com/watch?v=gxtrn_AfwVE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "Poke Zach",
             "link": "https://youtu.be/ZAk5Q7SZYZ0?si=_4dAmNnobUGTPWUM",
             "percent": 77,
