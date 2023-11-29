@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 75534945,
+    "name": "Beverage",
+    "author": "Huskiegaming",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "verifier": "DJJDK",
+    "verification": "https://www.youtube.com/watch?v=z47ppBoWB2M",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "SnoodDood - Heartbeat",
+    "difficulty": 2,
     "records": [
         
     ]
