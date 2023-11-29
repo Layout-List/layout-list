@@ -1,0 +1,34 @@
+{
+    "id": 96461977,
+    "name": "CAPITAL",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=cw3MtoCjHLU",
+    "percentToQualify": 100,
+    "song": "POSTELVIS - Capital",
+    "difficulty": 3,
+    "records": [
+          {
+            "user": "Iza",
+            "link": "https://www.youtube.com/watch?v=o7dds4SEDWk&ab_channel=Sakira",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/BjGItxO0RP4",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+          {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=D8i3NksKRhI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
+}
