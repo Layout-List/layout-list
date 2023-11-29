@@ -9,6 +9,12 @@
     "song": "POSTELVIS - Capital",
     "difficulty": 3,
     "records": [
-        
+          {
+            "user": "Iza",
+            "link": "https://www.youtube.com/watch?v=o7dds4SEDWk&ab_channel=Sakira",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
