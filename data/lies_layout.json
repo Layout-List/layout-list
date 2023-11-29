@@ -1,15 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 96704591,
+    "name": "Lies Layout",
+    "author": "morsey",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
+    "verifier": "hayden",
+    "verification": "https://www.youtube.com/watch?v=-QHuSyt7lHs",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "kavaltunes - NAZAAR - Lies ft. REAH (Kaval Remix)",
+    "difficulty": 3,
     "records": [
         
     ]
