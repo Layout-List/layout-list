@@ -9,6 +9,12 @@
     "song": "SnoodDood - Heartbeat",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=ZFsQUL5iY3c",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        }
     ]
 }
