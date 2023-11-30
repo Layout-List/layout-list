@@ -11,6 +11,13 @@
     "songLink": "https://cdn.discordapp.com/attachments/1162063594674991246/1162063656515797125/921619.mp3?ex=655f7d1d&is=654d081d&hm=5fe192b75c1c05dd8cf63852beb8a9d499bed7abb3ba772c77cd678ba9992efc&",
     "difficulty": 7,
     "records": [
+        {
+            "user": "syrcx",
+            "link": "https://youtu.be/yUFpnvXW5S8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
         
     ]
 }
