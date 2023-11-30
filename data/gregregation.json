@@ -295,6 +295,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "monthgd",
+            "link": "https://www.youtube.com/watch?v=YDttF4EJynM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
