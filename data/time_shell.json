@@ -204,6 +204,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+         {
+            "user": "Sorry m8",
+            "link": "https://youtu.be/XfF9LeeaAoQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
