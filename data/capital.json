@@ -10,6 +10,20 @@
     "difficulty": 2,
     "records": [
           {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=D8i3NksKRhI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+          "user": "DJJDK",
+          "link": "https://youtu.be/wSYa3bJACl8",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+          },
+          {
             "user": "Iza",
             "link": "https://www.youtube.com/watch?v=o7dds4SEDWk&ab_channel=Sakira",
             "percent": 100,
@@ -22,13 +36,6 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
-        },
-          {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=D8i3NksKRhI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
         }
     ]
 }
