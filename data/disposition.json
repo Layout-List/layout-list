@@ -128,6 +128,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "RedNazFM",
+            "link": "https://www.youtube.com/watch?v=0YkuftAS4Vk",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
         }
     ]
 }
