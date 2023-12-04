@@ -66,6 +66,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "crystalsstuff",
+            "link": "https://www.youtube.com/watch?v=0EDS2JMr_HM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
