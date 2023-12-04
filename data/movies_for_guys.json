@@ -1,4 +1,4 @@
-{
+wasd{
     "id": 95853901,
     "name": "Movies For Guys",
     "author": "jz5",
@@ -65,6 +65,13 @@
             "link": "https://www.youtube.com/watch?v=Cr7X4ryDJaw",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "crystalsstuff",
+            "link": "https://www.youtube.com/watch?v=0EDS2JMr_HM",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
