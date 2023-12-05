@@ -9,6 +9,12 @@
     "song": "Waterflame - ThunderZone v2",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "evil",
+            "link": "https://youtu.be/YHyeMpAmga4?si=xgCptj99q6LICP94",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
