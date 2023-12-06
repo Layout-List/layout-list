@@ -305,11 +305,18 @@
             "hz": 30,
             "mobile": false
         },
-         {
+        {
             "user": "Sorry m8",
             "link": "https://youtu.be/B-qPVyQW9O0",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "RedNazFM",
+            "link": "https://www.youtube.com/watch?v=1vV8UCDCUUQ",
+            "percent": 100,
+            "hz": 75,
             "mobile": false
         }
     ]
