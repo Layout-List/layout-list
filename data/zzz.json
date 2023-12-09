@@ -576,11 +576,11 @@
             "mobile": false
         },
         {
-            "user": "RedNazFM",
-            "link": "https://www.youtube.com/watch?v=1vV8UCDCUUQ",
+            "user": "Rqinn",
+            "link": "https://www.youtube.com/watch?v=72geKPIgOZ4",
             "percent": 100,
-            "hz": 75,
-            "mobile": false
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
