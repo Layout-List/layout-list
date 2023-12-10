@@ -806,12 +806,19 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "RedNazFM",
             "link": "https://www.youtube.com/watch?v=0YkuftAS4Vk",
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "FloppaTopchick",
+            "link": "https://youtu.be/wwTHpfpsxBQ?si=YG6ubINph-P11aLg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
