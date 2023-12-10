@@ -219,6 +219,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Tradeskill",
+            "link": "https://www.youtube.com/watch?v=U7rL-N2crl4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
