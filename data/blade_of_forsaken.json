@@ -10,8 +10,15 @@
     "difficulty": 4,
     "records": [
         {
-            "user": "monthgd",
+            "user": "monthmai",
             "link": "https://youtu.be/6wWOrk1RJ78?si=NXAsGFzUPD1LVZte",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=FIAWpXB4mY4",
             "percent": 100,
             "hz": 360,
             "mobile": false

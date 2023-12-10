@@ -1,9 +1,9 @@
 {
     "id": 95984645,
     "name": "pass the dutchie",
-    "author": "monthgd",
+    "author": "monthmai",
     "creators": [],
-    "verifier": "monthgd",
+    "verifier": "monthmai",
     "verification": "https://youtu.be/dncYzhHvxgE?si=FAPsgeBCFx0yyaOh",
     "percentToQualify": 62,
     "song": "Musical Youth - Pass The Dutchie",
@@ -15,6 +15,13 @@
             "link": "https://youtu.be/SQhrdZ4bCmE",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=FIAWpXB4mY4",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
         
