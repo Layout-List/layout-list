@@ -10,17 +10,17 @@
     "difficulty": 1,
     "records": [
         {
-            "user": "DJJDK",
-            "link": "https://www.youtube.com/watch?v=hQWTIdnaQtw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
             "user": "evil",
             "link": "https://youtu.be/SidUtMEus3s?si=8ftYo1W1typ_CKUM",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=hQWTIdnaQtw",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         },
          {
@@ -56,13 +56,6 @@
             "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
             "percent": 100,
             "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=dTBslqx_44k&feature=youtu.be",
-            "percent": 100,
-            "hz": 240,
             "mobile": false
         },
         {
