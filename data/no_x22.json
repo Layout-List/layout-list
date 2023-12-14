@@ -11,6 +11,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1180752545111617556/1261033.mp3?ex=6587cb00&is=65755600&hm=e03f4f6636d9aa0c65f1e44d399931c29213cc0f7a265d5d2ee2c671b8d832ee&",
     "difficulty": 4,
     "records": [
-        
+         {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/Ew_zPzMNVkM?si=y3tYJVIlQnEixkD3",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
