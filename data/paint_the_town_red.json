@@ -15,6 +15,26 @@
             "link": "https://youtu.be/1HncWLNgcfA",
             "percent": 100,
             "hz": 240
+        },
+         {
+            "user": "zakonp",
+            "link": "https://youtu.be/DyLTh_g2SCk",
+            "percent": 100,
+            "hz": 360
+        },
+          {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+         {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/sY16l-0xgsc?si=6VInfVqoyqCNkgBq",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
