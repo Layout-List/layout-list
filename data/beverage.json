@@ -50,6 +50,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+          {
+            "user": "zakonp",
+            "link": "https://youtu.be/YmjfRB2jh_E",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
