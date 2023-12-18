@@ -44,6 +44,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "Plazma",
+            "link": "https://www.youtube.com/watch?v=78MigAS94NE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
