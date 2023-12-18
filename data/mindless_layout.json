@@ -157,6 +157,13 @@
           "percent": 100,
           "hz": 360,
           "mobile": false
+        },
+         {
+          "user": "Tupi",
+          "link": "https://www.youtube.com/watch?v=L98pSc4v9Uo",
+          "percent": 67,
+          "hz": 240,
+          "mobile": false
         }
     ]
 }
