@@ -1,0 +1,20 @@
+{
+    "id": 97114766,
+    "name": "the eek",
+    "author": "Okasan",
+    "creators": ["whitmp4"],
+    "verifier": "whitmp4",
+    "verification": "https://youtu.be/kTSAFamGdqE?si=pnsqrNq_kX4dFEFQ",
+    "percentToQualify": 100,
+    "song": "surasshu - The Penis (Eek!) [chops remix]",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=vdcP9XpM75M&ab_channel=rastuyas",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
+}
