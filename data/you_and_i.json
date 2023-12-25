@@ -95,11 +95,18 @@
             "hz": 240,
             "mobile": false
         },
-          {
+        {
             "user": "Acacia",
             "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Lezephyx",
+            "link": "https://www.youtube.com/watch?v=qY6zNcvZGRk&t=1s",
+            "percent": 100,
+            "hz": 180,
             "mobile": false
         }
     ]
