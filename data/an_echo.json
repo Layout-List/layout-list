@@ -101,6 +101,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "delonix",
+            "link": "https://youtu.be/a9Dew61p7hw?si=eJHNFR86udlOloyb",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
