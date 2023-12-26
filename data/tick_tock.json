@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1187959218481930402/197862.mp3?ex=6598c83c&is=6586533c&hm=1d3352cda754b91efed0a9b4e49b8f40f709db71e4d8d424af93da868b2ab6f3&",
     "difficulty": 4,
     "records": [
-        
+        {
+               "user": "Hyperbeat",
+               "link": "https://youtu.be/znfHHXTPk8k",
+               "percent": 100,
+               "hz": 360,
+               "mobile": false
+        }
     ]
 }
