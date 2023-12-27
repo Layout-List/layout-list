@@ -49,6 +49,11 @@
         "name": "lMystikl",
         "link": "https://www.youtube.com/@lMystikl"
     },
+     {
+        "role": "helper",
+        "name": "hayden",
+        "link": "https://www.youtube.com/channel/UCs_0WzQ7Nzt_1TsxbQcWbnQ"
+    },
     {
         "role": "dev",
         "name": "Prometheus",
