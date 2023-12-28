@@ -174,7 +174,7 @@ export default {
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    'List is currently broken. Wait until it\'s fixed to start a roulette.',
+                    'List is currently broken. Waitt until it\'s fixed to start a roulette.',
                 );
                 return;
             }
