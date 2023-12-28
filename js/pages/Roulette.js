@@ -171,7 +171,7 @@ export default {
 
             const fullList = await fetchList();
 
-            if (fullList.filter(([_, err]) >= err).length > 0) {
+            if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
                     'List is currently broken. Wait until it\'s fixed to start a roulette.',
