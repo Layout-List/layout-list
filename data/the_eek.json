@@ -22,6 +22,20 @@
           "percent": 100,
           "hz": 360,
           "mobile": false
+        },
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/pfhc03jlT5s",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+          "user": "Xeronius",
+          "link": "https://youtu.be/ZdupHD76TMw?si=Y5W9ChlTx72cuwAz",
+          "percent": 100,
+          "hz": 75,
+          "mobile": false
         }
     ]
 }
