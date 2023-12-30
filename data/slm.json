@@ -131,6 +131,13 @@
           "percent": 100,
           "hz": 360,
           "mobile": false
+        },
+        {
+          "user": "RFanVS",
+          "link": "https://youtu.be/6kaGKsAR2UI",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
         }
     ]
 }
