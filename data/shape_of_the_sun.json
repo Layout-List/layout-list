@@ -10,6 +10,12 @@
     "song": "Creo - Shape of the Sun",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/78NCFkmY_Nc?si=g6P3RzQoY5bBEd-r",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
