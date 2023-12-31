@@ -310,12 +310,19 @@
             "hz": 360,
             "mobile": false
         },
-          {
+        {
           "user": "Acacia",
           "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
           "percent": 100,
           "hz": 360,
           "mobile": false
+        },
+        {
+          "user": "Huskiegaming",
+          "link": "https://youtu.be/DIaeYEwNzqE?si=bjlsh8pbxs_FRl5A",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
         }
     ]
 }
