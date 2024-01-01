@@ -9,6 +9,12 @@
     "song": "1f1n1ty & LOrbSheddy - Dark Matter Suite (Remix)",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=dtouUQv6V-Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }

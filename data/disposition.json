@@ -135,6 +135,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+         {
+            "user": "FloppaTopchick",
+            "link": "https://www.youtube.com/watch?v=Z10WnprP_Hs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
