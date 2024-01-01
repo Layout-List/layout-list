@@ -277,11 +277,18 @@
             "hz": 60,
             "mobile": false
         },
-         {
+        {
             "user": "Lacley",
             "link": "https://youtu.be/aLfSLcqF2vU?feature=shared",
             "percent": 100,
             "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/5TXVFZSEvXw?si=X25Niu7-7mgQWR41",
+            "percent": 100,
+            "hz": 288,
             "mobile": false
         }
     ]
