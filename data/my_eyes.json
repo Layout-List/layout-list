@@ -10,6 +10,12 @@
     "songLink": "https://drive.google.com/file/d/1erCoDANsI-dvZTtYZ9Iykb6NMR3Uyas6/view?usp=sharing",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=dtouUQv6V-Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
