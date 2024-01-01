@@ -18,9 +18,16 @@
             "hz": 240,
             "mobile": false
         },
-         {
+        {
             "user": "Hyperbeat",
             "link": "https://www.twitch.tv/videos/1975590759",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/_7-IA8McmDs",
             "percent": 100,
             "hz": 360,
             "mobile": false
