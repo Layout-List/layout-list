@@ -1,10 +1,12 @@
 {
-    "id": 95591084,
+    "id": 98434666,
     "name": "hollywood baby",
     "author": "monthmai",
-    "creators": [],
-    "verifier": "monthmai",
-    "verification": "https://youtu.be/_qqb9cPt_RA?si=Qx0IivhcT_BTEx4P",
+    "creators": [
+        "hayden"
+    ],
+    "verifier": "hayden",
+    "verification": "https://youtu.be/Kahj5ss_eKA",
     "percentToQualify": 57,
     "password": "679541",
     "song": "100 gecs - Hollywood Baby",
@@ -26,8 +28,8 @@
             "mobile": false
         },
         {
-            "user": "hayden",
-            "link": "https://youtu.be/_7-IA8McmDs",
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=LyfEn1RTOOo",
             "percent": 100,
             "hz": 360,
             "mobile": false
