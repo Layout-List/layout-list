@@ -184,9 +184,16 @@
             "hz": 75,
             "mobile": false
         },
-         {
+        {
             "user": "FloppaTopchick",
             "link": "https://youtu.be/7IhYzLnpoI0?si=UDm3a8Ee_3ZHwbxd",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Hukiegaming",
+            "link": "https://youtu.be/nFYgTSdBTOA?si=R-4qICX8peDddkoS",
             "percent": 100,
             "hz": 60,
             "mobile": true
