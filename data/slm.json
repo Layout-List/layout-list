@@ -145,6 +145,13 @@
             "percent": 50,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "Khronos",
+            "link": "https://youtu.be/McPZTBzi2zs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
