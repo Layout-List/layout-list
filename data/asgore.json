@@ -85,6 +85,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/3ql_9zI-v3E",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.twitch.tv/videos/2001233794",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

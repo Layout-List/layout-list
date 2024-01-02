@@ -90,12 +90,6 @@
             "mobile": true
         },
         {
-            "user": "Khronos",
-            "link": "https://youtu.be/AMk9ztjLkew",
-            "percent": 100,
-            "hz": 240
-        },
-        {
             "user": "mrperson",
             "link": "https://youtu.be/z7xgC7kSPBY",
             "percent": 100,
@@ -324,6 +318,13 @@
             "link": "https://youtu.be/FWhXwOgD4gk",
             "percent": 100,
             "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.twitch.tv/videos/2001233794",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
