@@ -84,14 +84,14 @@
             "link": "https://youtu.be/zofsttMn_tM?si=bnRHOFknQioDj4HT",
             "percent": 100,
             "hz": 360,
-            "mobile": true
+            "mobile": false
         },
         {
             "user": "Atotakai",
             "link": "https://youtu.be/eojSChQwqVI",
             "percent": 100,
             "hz": 360,
-            "mobile": true
+            "mobile": false
         },
         {
             "user": "ThisGuyKreas",
@@ -161,6 +161,13 @@
             "link": "https://youtu.be/3ql_9zI-v3E",
             "percent": 100,
             "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.twitch.tv/videos/2001233794",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
