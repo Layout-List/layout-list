@@ -138,6 +138,13 @@
           "percent": 100,
           "hz": 240,
           "mobile": false
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/lIzeuZ6NVxM",
+            "percent": 50,
+            "hz": 288,
+            "mobile": false
         }
     ]
 }
