@@ -31,11 +31,18 @@
             "hz": 360,
             "mobile": false
         },
-          {
+        {
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=dtouUQv6V-Q",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/3ql_9zI-v3E",
+            "percent": 100,
+            "hz": 288,
             "mobile": false
         }
     ]
