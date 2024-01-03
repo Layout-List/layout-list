@@ -37,7 +37,7 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div class="level" v-if="level">
+                <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
@@ -88,6 +88,10 @@ export default {
                             </td>
                         </tr>
                     </table>
+                </div>
+                <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
+                    <h1>{{ level.name }}</h1>
+                    <p>The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
