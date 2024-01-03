@@ -1,6 +1,6 @@
 {
     "id": 71618613,
-    "name": "Thwack Layout",
+    "name": "Thwack Layout 🟢",
     "author": "neigefeu",
     "creators": [],
     "verifier": "neigefeu",
@@ -477,6 +477,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://www.youtube.com/watch?v=XZFo3TI2OnU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
