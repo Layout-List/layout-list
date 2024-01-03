@@ -1,1 +1,17 @@
+import { fetchList } from '../content.js';
 
+export function pack(level) 
+    switch (level){
+        case 0:
+            pack = 'pack 1';
+            break;
+        case 1:
+            pack = 'pack 2';
+            break;
+    
+        default:
+            pack = '';
+            break;
+    }
+    return pack;
+}
