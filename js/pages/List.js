@@ -127,7 +127,7 @@ export default {
                     
                     <h3>Submission Requirements</h3>
                     <p>
-                        You must have achieved the record without using hacks (This includes hacks that change the physics of the game.).
+                        You must have achieved the record without using hacks (This includes hacks that change the physics of the game).
                     </p>
                     <p>
                         You must have achieved the record on the level that is listed on the site - please check the level ID before you submit a record!
