@@ -169,9 +169,10 @@ export default {
 
             this.loading = true;
 
-            const fullList = await fetchList();
+            const fullList = (await fetchList()).filter(([_, pos, __]) => pos !== null);
 
-            if (fullList.filter(([_, err]) => err).length > 0) {
+
+            if (fullList.filter(([err, _]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
                     'List is currently broken. Wait until it\'s fixed to start a roulette.',
@@ -179,7 +180,7 @@ export default {
                 return;
             }
 
-            const fullListMapped = fullList.map(([lvl, _], i) => ({
+            const fullListMapped = fullList.map(([_, __, lvl], i) => ({
                 rank: i + 1,
                 id: lvl.id,
                 name: lvl.name,
