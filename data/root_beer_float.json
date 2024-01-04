@@ -554,12 +554,19 @@
             "hz": 75,
             "mobile": false
         },
-         {
+        {
             "user": "FloppaTopchick",
             "link": "https://youtu.be/cnbUkL4tyTA?si=bHTTiwJeWTS6uoi6",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=sY9pR8oL6tc",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
