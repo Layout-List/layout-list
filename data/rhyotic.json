@@ -10,6 +10,12 @@
     "songLink": "https://drive.google.com/file/d/11o7J8J0032j4YBKV2EV3cWcOrnXaXMcE/view?usp=sharing",
     "difficulty": 8,
     "records": [
-        
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/zzz3qDcVuuE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
