@@ -271,13 +271,6 @@
             "mobile": false
         },
         {
-            "user": "LimeDub",
-            "link": "https://www.youtube.com/watch?v=G9d579Vz8Ls",
-            "percent": 62,
-            "hz": 144,
-            "mobile": false
-        },
-        {
             "user": "Sloudy",
             "link": "https://youtu.be/90TRWL-0h78",
             "percent": 61,
@@ -450,6 +443,13 @@
             "link": "https://www.youtube.com/watch?v=U7rL-N2crl4",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/DmgLrkk9K4Q",
+            "percent": 100,
+            "hz": 288,
             "mobile": false
         }
     ]
