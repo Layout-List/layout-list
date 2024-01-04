@@ -358,6 +358,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "FloppaTopchick",
+            "link": "https://youtu.be/80LGOsJFGGM",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
