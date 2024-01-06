@@ -12,14 +12,7 @@
     "records": [
         {
             "user": "Akuriserv",
-            "link": "https://youtu.be/XiwKEHQhH-U?si=cED_iuETtzsV0Cct",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Cosmiciscool",
-            "link": "https://www.youtube.com/watch?v=r8H1AATZ-N0",
+            "link": "https://youtu.be/LpYALDEF9Dg?si=FWjOSaOZ7xavPg7t",
             "percent": 100,
             "hz": 360,
             "mobile": false
@@ -29,13 +22,6 @@
           "link": "https://youtu.be/-5UAUYFx-CY",
           "percent": 100,
           "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Syrcx",
-          "link": "https://www.youtube.com/watch?v=GECSr4t_eHo",
-          "percent": 100,
-          "hz": 240,
           "mobile": false
         }
     ]
