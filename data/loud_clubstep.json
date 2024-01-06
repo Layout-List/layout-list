@@ -58,6 +58,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+         {
+            "user": "nolli",
+            "link": "https://www.youtube.com/watch?v=m4W40Jna-n4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
