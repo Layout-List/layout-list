@@ -1,49 +1,15 @@
 {
-    "id": 91976247,
+    "id": 98815878,
     "name": "Ato's Ping Pong Fight",
     "author": "Atotakai",
     "creators": [],
     "verifier": "Atotakai",
-    "verification": "https://youtu.be/7KXirEhwr2E",
+    "verification": "https://youtu.be/aT507XFWUPw",
     "showcase": "https://youtu.be/dJXpQ_dyXtU?si=zTQQb7pouOtH4KkS",
     "percentToQualify": 100,
     "song": "Dunderpatrullen - Tumba Ping Pong Song",
     "difficulty": 2,
     "records": [
-        {
-            "user": "ThePrismatiCat",
-            "link": "https://youtu.be/QNI-qaHKWJE",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "lMystikl",
-            "link": "https://youtu.be/gvnSsdgsYY0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "hayden",
-            "link": "https://youtu.be/lqBYc1wj5Jc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/pHj1t3TbLqg",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=i1kQanF1U_Pbh1fs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        }
+
     ]
 }
