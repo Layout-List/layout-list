@@ -10,6 +10,13 @@
     "song": "TheColdSpirit - Sparkler",
     "difficulty": 5,
     "records": [
+        {
+             "user": "rfanvs",
+             "link": "https://youtu.be/iEQqICIih0c",
+             "percent": 100,
+             "hz": 240,
+             "mobile": false
+        }
         
     ]
 }
