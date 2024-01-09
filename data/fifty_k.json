@@ -10,6 +10,13 @@
     "song": "ColBreakz - 50.000",
     "difficulty": 0,
     "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/ZcI6WNDHOD8?si=XmFS9LScIaFnOSBA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
         
     ]
 }
