@@ -1,6 +1,6 @@
 {
     "id": 97372142,
-    "name": "Rhyotic",
+    "name": "Rhyotic 🔴",
     "author": "Hyperbeat",
     "creators": [],
     "verifier": "Hyperbeat",
@@ -15,6 +15,13 @@
             "link": "https://youtu.be/zzz3qDcVuuE",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+         {
+            "user": "hayden",
+            "link": "https://youtu.be/h2rTfGW4fSY",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]

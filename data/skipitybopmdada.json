@@ -241,6 +241,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://www.youtube.com/watch?v=OYEyXSU8OSE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
