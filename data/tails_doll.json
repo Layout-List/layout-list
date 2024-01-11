@@ -12,6 +12,13 @@
     "difficulty": 7,
     "records": [
         {
+            "user": "lMystikl",
+            "link": "https://youtu.be/6gtsedQObyQ?si=Zip_CNqns4ldgNCZ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "Hyperbeat",
             "link": "https://youtu.be/H8P37i6H6P8",
             "percent": 100,
