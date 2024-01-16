@@ -957,6 +957,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "Floppa",
+            "link": "https://youtu.be/M8gztMBGmbM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

@@ -169,6 +169,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "skyerflume",
+            "link": "https://www.youtube.com/watch?v=G03sx07rHW0&t=18s",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
