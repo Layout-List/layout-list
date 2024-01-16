@@ -176,6 +176,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+        {
+            "user": "Dellpickle",
+            "link": "https://www.youtube.com/watch?v=mIvTWbJmWes",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
