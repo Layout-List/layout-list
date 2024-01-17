@@ -69,39 +69,30 @@ Can i submit Multiple levels on 1 video?
 
 ## Owners:
 
-- DJ JDK
 - Blathers
-
----
-
-## List Admins:
-
 - Atotakai
-- zDarkHTR
-
-## Server Administrators:
-
-- Microwaveee
+- whitmp4
 
 ---
 
 ## List Helpers:
 
-- mrperson
-- NiXaNTyReaL
-- mystikl
+- EvilEmperium
+- Hyperbeat
+- lMystikl
 
 ---
 
 ## Server Moderators:
 
-- Bluestone
+- NiXaNTyReaL
 - sqrtpie
+- Flare
+- Fawami
 
 ---
 
-## Repo Maintainers:
+## List Developers:
 
 - Electro
 - Prometheus
-- Emonadeo
