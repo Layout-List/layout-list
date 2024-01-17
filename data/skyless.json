@@ -51,6 +51,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Dellpickle",
+            "link": "https://youtu.be/0FOvIDpKO8Y?si=L-jDfzSlLgzTX7bJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
         }
     ]
 }
