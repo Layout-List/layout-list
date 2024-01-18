@@ -959,10 +959,17 @@
             "mobile": false
         },
         {
-            "user": "Floppa",
+            "user": "FloppaTopChick",
             "link": "https://youtu.be/M8gztMBGmbM",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+         {
+            "user": "Popples",
+            "link": "https://youtu.be/atl6-BDHL4g?si=0CW_4Jk7aSeDPyTI",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]
