@@ -11,6 +11,13 @@
     "difficulty": 5,
     "records": [
          {
+            "user": "Seismic",
+            "link": "https://www.youtube.com/watch?v=Lg9dAhQ8sfc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
             "user": "Thomas Jefferson",
             "link": "https://www.youtube.com/watch?v=OWpfIeqYClo",
             "percent": 100,
