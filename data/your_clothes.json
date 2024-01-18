@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1196493582081740820/908739.mp3?ex=65b7d47b&is=65a55f7b&hm=1d3e0f8ced4325f458ff6674aa92f023cfa65474ac74b81669105915d37c0371&",
     "difficulty": 5,
     "records": [
-        
+         {
+            "user": "Thomas Jefferson",
+            "link": "https://www.youtube.com/watch?v=OWpfIeqYClo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
