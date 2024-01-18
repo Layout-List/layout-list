@@ -10,6 +10,12 @@
     "song": "six impala - CHROMETYPE",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=MLoysWQt_gc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
