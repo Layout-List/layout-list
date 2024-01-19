@@ -581,6 +581,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Swish",
+            "link": "https://youtu.be/-ZQsNmDpe7w",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
