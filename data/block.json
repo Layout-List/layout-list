@@ -37,6 +37,13 @@
           "percent": 100,
           "hz": 360,
           "mobile": false
+        },
+        {
+          "user": "Popples",
+          "link": "https://youtu.be/6UMZw6dUGhc",
+          "percent": 100,
+          "hz": 120,
+          "mobile": false
         }
     ]
 }
