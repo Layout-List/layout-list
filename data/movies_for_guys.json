@@ -87,6 +87,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+          {
+            "user": "emelia",
+            "link": "https://www.youtube.com/watch?v=172x2fwciPo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
