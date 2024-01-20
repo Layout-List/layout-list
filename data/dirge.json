@@ -10,6 +10,12 @@
     "song": "Destroid - Funk Hole",
     "difficulty": 7,
     "records": [
-        
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/3leShTt7O4s",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
