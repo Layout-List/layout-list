@@ -955,6 +955,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+          {
+            "user": "cinderrblock",
+            "link": "https://www.youtube.com/watch?v=zPRGbj4hqT4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
