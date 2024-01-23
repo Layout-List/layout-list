@@ -16,6 +16,20 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+           {
+            "user": "Blueberry",
+            "link": "https://youtu.be/Br0KlCET-bM",
+            "percent": 100,
+            "hz": 500,
+            "mobile": false
+        },
+         {
+            "user": "sphericle",
+            "link": "https://youtu.be/pHR8PFh2fLs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
