@@ -3,8 +3,8 @@
     "name": "poster",
     "author": "hab",
     "creators": [],
-    "verifier": "hayden",
-    "verification": "https://youtu.be/zZONt-VkBpc",
+    "verifier": "Dom_Luca",
+    "verification": "https://youtu.be/85foFnuvkhg",
     "showcase": "https://youtu.be/l2EVi215atI",
     "percentToQualify": 50,
     "password": "Not Copyable", 
@@ -12,13 +12,6 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1069030212790136843/1181047.mp3",
     "difficulty": 5,
     "records": [
-        {
-            "user": "Dom_Luca",
-            "link": "https://youtu.be/85foFnuvkhg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
         {
             "user": "mrperson",
             "link": "https://youtu.be/eKBgjjVl7Js",
