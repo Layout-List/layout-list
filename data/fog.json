@@ -5,8 +5,8 @@
     "creators": [
         "Flare"
     ],
-    "verifier": "hayden",
-    "verification": "https://youtu.be/_VH1nuHm6QA",
+    "verifier": "Thomas Jefferson",
+    "verification": "https://youtu.be/PB-yB8xJvbM",
     "showcase": "https://youtu.be/2O9YaNrWOfs",
     "percentToQualify": 53,
     "password": "Not Copyable",
@@ -14,13 +14,6 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1052290117882085506/171702.mp3",
     "difficulty": 4,
     "records": [
-        {
-            "user": "Thomas Jefferson",
-            "link": "https://youtu.be/PB-yB8xJvbM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
         {
             "user": "mrperson",
             "link": "https://youtu.be/toZlMHGTc1s",
