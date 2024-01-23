@@ -11,8 +11,8 @@
         "WindowDev",
         "Sandwich475"
     ],
-    "verifier": "hayden",
-    "verification": "https://www.youtube.com/watch?v=0ZEOSfwdzfM",
+    "verifier": "Syrcx",
+    "verification": "https://www.twitch.tv/videos/1997646956",
     "showcase": "https://youtu.be/5EDXMNnx6LE",
     "percentToQualify": 47,
     "song": "Spaze - Dark Heart (Tender Heart VIP)",
@@ -32,12 +32,5 @@
             "hz": 360,
             "mobile": false
         },
-        {
-            "user": "syrcx",
-            "link": "https://www.twitch.tv/videos/1997646956",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
     ]
 }
