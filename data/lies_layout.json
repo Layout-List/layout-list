@@ -3,12 +3,19 @@
     "name": "Lies Layout",
     "author": "morsey",
     "creators": [],
-    "verifier": "Hyperbeat",
-    "verification": "https://www.youtube.com/watch?v=lDO2s5OaT-A",
+    "verifier": "hayden",
+    "verification": "https://www.youtube.com/watch?v=-QHuSyt7lHs",
     "percentToQualify": 100,
     "song": "kavaltunes - NAZAAR - Lies ft. REAH (Kaval Remix)",
     "difficulty": 3,
     "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=lDO2s5OaT-A",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
         {
             "user": "DJJDK",
             "link": "https://www.youtube.com/watch?v=LC--iPU9Fb4",
