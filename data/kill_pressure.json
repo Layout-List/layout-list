@@ -12,8 +12,8 @@
         "sqrtpie",
         "hayden"
     ],
-    "verifier": "hayden",
-    "verification": "https://youtu.be/4RVh1fLCz6Q",
+    "verifier": "mrperson",
+    "verification": "https://youtu.be/T5TOfabfWy0",
     "showcase": "https://www.youtube.com/watch?v=KV1QZXLdgvY&ab_channel=LayoutListShowcases",
     "percentToQualify": 45,
     "password": "Not Copyable",
@@ -21,13 +21,6 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1039939613541814272/9009.mp3",
     "difficulty": 3,
     "records": [
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/T5TOfabfWy0",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
         {
             "user": "Jab",
             "link": "https://youtu.be/vczsqExhLjs",
