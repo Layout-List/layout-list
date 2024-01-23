@@ -3,8 +3,8 @@
     "name": "Incision",
     "author": "DJJDK",
     "creators": [],
-    "verifier": "lMystikl",
-    "verification": "https://youtu.be/PQjyYkpqAd4?si=2AyTB1Yhc95rzWpk",
+    "verifier": "hayden",
+    "verification": "https://youtu.be/oSS-lEKPdls?si=h_3_BSSHbEyYx6eU",
     "showcase": "https://www.youtube.com/watch?v=vM7KjCy54uc",
     "percentToQualify": 52,
     "song": "lexycat - INCISION",
@@ -22,6 +22,13 @@
             "link": "https://youtu.be/Pplg4bfbH_0?si=AymLZpsnTGVrFMvk",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "lMystikl",
+            "link": "https://youtu.be/PQjyYkpqAd4?si=2AyTB1Yhc95rzWpk",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         },
         {
