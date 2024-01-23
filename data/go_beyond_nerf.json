@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 95261876,
+    "name": "go beyond nerf",
+    "author": "morsey",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "insert link",
-    "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "verifier": "lMystikl",
+    "verification": "https://youtu.be/dI-3RnDi8O8",
+    "percentToQualify": 56,
+    "song": "Dungeecount - Distraught Subconscience",
+    "difficulty": 8,
     "records": [
         
     ]
