@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/1198744563213402195/1198744867468214292/465681.mp3?ex=65c00528&is=65ad9028&hm=0c6101e0d5d852223eb03620c294428c5dcff570826ef142943a98b7000ea6fe&",
     "difficulty": 4,
     "records": [
-        
+         {
+            "user": "SarcasticMuch",
+            "link": "https://youtu.be/RTJ_dJxRD2A",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        }
     ]
 }
