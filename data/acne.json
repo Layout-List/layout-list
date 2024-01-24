@@ -13,6 +13,12 @@
     "difficulty": 3,
     "records": [
         {
+            "user": "hayden",
+            "link": "https://youtu.be/waKbWyJyAuw",
+            "percent": 100,
+            "hz": 360
+        },
+        {
             "user": "lMystikl",
             "link": "https://youtu.be/qMb3TdRWuI8",
             "percent": 100,
@@ -55,7 +61,7 @@
             "mobile": false
         },
         {
-            "user": "Atotakai",
+            "user": "Asteria.",
             "link": "https://www.youtube.com/watch?v=aX4s2AiFEf8",
             "percent": 100,
             "hz": 240,

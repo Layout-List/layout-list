@@ -70,7 +70,7 @@ Can i submit Multiple levels on 1 video?
 ## Owners:
 
 - Blathers
-- Atotakai
+- Asteria.
 - whitmp4
 
 ---
