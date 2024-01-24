@@ -3,13 +3,19 @@
     "name": "my eyes",
     "author": "Flare",
     "creators": [],
-    "verifier": "Hyperbeat",
-    "verification": "https://www.youtube.com/watch?v=dtouUQv6V-Q",
+    "verifier": "hayden",
+    "verification": "https://youtu.be/hv8EAu84PRQ?si=NTzJexZN366flmpt",
     "percentToQualify": 100,
     "song": "Travis Scott - My Eyes",
     "songLink": "https://drive.google.com/file/d/1erCoDANsI-dvZTtYZ9Iykb6NMR3Uyas6/view?usp=sharing",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=dtouUQv6V-Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }

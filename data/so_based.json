@@ -9,12 +9,18 @@
       "fae",
       "Huskiegaming"
     ],
-    "verifier": "Syrcx",
-    "verification": "https://youtu.be/Yz4YjJmEkgQ",
+    "verifier": "hayden",
+    "verification": "https://youtu.be/DZPpiyisnVc?si=mABF6Vu1bz6hTw3A",
     "percentToQualify": 59,
     "song": "SuperSoniker - So Cool",
     "difficulty": 6,
     "records": [
-      
+        {
+            "user": "syrcx",
+            "link": "https://youtu.be/Yz4YjJmEkgQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
