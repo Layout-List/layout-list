@@ -64,6 +64,13 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+            "user": "DELTE999",
+            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
