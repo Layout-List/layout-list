@@ -3,27 +3,13 @@
     "name": "M87",
     "author": "Cy4nn",
     "creators": [],
-    "verifier": "Syrcx",
-    "verification": "https://www.youtube.com/watch?v=1olyyGs2vIw",
+    "verifier": "lMystikl",
+    "verification": "https://youtu.be/HZZJrS2G4KA",
     "showcase": "insert link",
     "percentToQualify": 58,
     "song": "TheColdSpirit - Sparkler",
     "difficulty": 5,
     "records": [
-        {
-             "user": "rfanvs",
-             "link": "https://youtu.be/iEQqICIih0c",
-             "percent": 100,
-             "hz": 240,
-             "mobile": false
-            },
-              {
-                "user": "Hyperbeat",
-                "link": "https://www.youtube.com/watch?v=H8P37i6H6P8",
-                "percent": 100,
-                "hz": 360,
-                "mobile": false
-        }
         
     ]
 }
