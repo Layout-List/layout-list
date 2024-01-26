@@ -992,6 +992,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "AquaX125",
+            "link": "https://www.youtube.com/watch?v=uuS7YUrOA88",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
