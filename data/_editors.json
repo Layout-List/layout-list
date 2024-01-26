@@ -30,6 +30,11 @@
         "link": "https://www.youtube.com/@lMystikl"
     },
      {
+        "role": "admin",
+        "name": "Xeronius",
+        "link": "https://www.youtube.com/@Xeronius_"
+    },
+     {
         "role": "helper",
         "name": "NiXaNTyReaL",
         "link": "https://www.youtube.com/channel/UC3fg0-hXdR7gKGFp-h1Kibg"
@@ -48,11 +53,6 @@
         "role": "helper",
         "name": "Fawami",
         "link": "https://www.youtube.com/@fawami"
-    },
-    {
-        "role": "helper",
-        "name": "Xeronius",
-        "link": "https://www.youtube.com/@Xeronius_"
     },
     {
         "role": "dev",
