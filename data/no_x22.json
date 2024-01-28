@@ -32,7 +32,7 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Riley",
             "link": "https://www.youtube.com/watch?v=dO4QLRimQAY",
             "percent": 100,
@@ -44,6 +44,13 @@
             "link": "https://youtu.be/ptj1R_qjEuw",
             "percent": 100,
             "hz": 75,
+            "mobile": false
+        },
+        {
+            "user": "syrcx",
+            "link": "https://youtu.be/SvUwkxD16zk",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
