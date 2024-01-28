@@ -80,11 +80,18 @@
             "hz": 360,
             "mobile": false
         },
-          {
+        {
             "user": "Plazma",
             "link": "https://www.youtube.com/watch?v=Xp2FhcBPH7c",
             "percent": 100,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "syrcx",
+            "link": "https://youtu.be/SvUwkxD16zk",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]
