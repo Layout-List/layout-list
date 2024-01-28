@@ -143,9 +143,16 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Popples",
             "link": "https://youtu.be/ljQtw9EUObg?si=R3x816lAc32QuGY8",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "ArctiixPaladin",
+            "link": "https://www.youtube.com/watch?v=Zi-n3OwVGTQ",
             "percent": 100,
             "hz": 120,
             "mobile": false
