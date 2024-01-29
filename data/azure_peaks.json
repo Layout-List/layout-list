@@ -9,6 +9,12 @@
     "song": "DSMagnum - -[ HailFIRE Peaks ]-",
     "difficulty": 2,
     "records": [
-        
+         {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=0AxTLL3Zjho",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        }
     ]
 }
