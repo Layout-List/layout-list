@@ -37,11 +37,18 @@
           "hz": 360,
           "mobile": false
         },
-          {
+        {
             "user": "sarcasticmuch",
             "link": "https://www.youtube.com/watch?v=XHxAqwfqJus",
             "percent": 96,
             "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/7Yo0IxH_ykg",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]
