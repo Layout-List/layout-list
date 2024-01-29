@@ -9,6 +9,12 @@
     "song": "Creo - Crazy",
     "difficulty": 6,
     "records": [
-        
+        {
+            "user": "syrcx",
+            "link": "https://youtu.be/lwNwf4Y3cno",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
