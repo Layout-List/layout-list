@@ -135,6 +135,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+        {
+            "user": "ArctiixPaladin",
+            "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
