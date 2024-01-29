@@ -1,16 +1,14 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 88434143,
+    "name": "Ylang Ylang",
+    "author": "ImPhara",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "insert link",
-    "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "verifier": "ImPhara",
+    "verification": "https://www.youtube.com/watch?v=H442QO2hxj8",
+    "percentToQualify": 55,
+    "song": "FKJ - Ylang Ylang",
+    "songLink": "https://cdn.discordapp.com/attachments/1186353443653300395/1186355224068235384/738135.mp3?ex=65c116e6&is=65aea1e6&hm=427a131cc6274fbdff3f604e4fa8b1f580609b563c651edbed4b801ff3ca1e04&",
+    "difficulty": 5,
     "records": [
         
     ]
