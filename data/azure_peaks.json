@@ -15,6 +15,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+          {
+            "user": "whitmp4",
+            "link": "https://www.youtube.com/watch?v=b51B4auWb6M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
