@@ -129,6 +129,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Thomas Jefferson",
+            "link": "https://youtu.be/_TuWllv-Dj0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
