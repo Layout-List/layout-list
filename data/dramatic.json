@@ -9,6 +9,12 @@
     "song": "cYsmix - Peer Gynt",
     "difficulty": 1,
     "records": [
-        
+           {
+            "user": "Xeronius",
+            "link": "https://youtu.be/8bjMmw-d1DM",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        }
     ]
 }
