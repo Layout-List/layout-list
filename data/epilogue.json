@@ -6,5 +6,12 @@
     "verifier": "morsey",
     "verification": "https://youtu.be/0pXcCwxOoPQ?si=mSTZxG2fh04FAotR",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/b51B4auWb6M?feature=shared",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        ]
 }
