@@ -36,6 +36,13 @@
             "percent": 100,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "zakonp",
+            "link": "https://www.youtube.com/watch?v=1RJzsXpzH_c",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
