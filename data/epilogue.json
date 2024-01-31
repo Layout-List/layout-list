@@ -1,0 +1,34 @@
+{
+    "id": 62532589,
+    "name": "epilogue Layout",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "morsey",
+    "verification": "https://youtu.be/0pXcCwxOoPQ?si=mSTZxG2fh04FAotR",
+    "percentToQualify": 100,
+    "song": "Creo - Epilogue",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/b51B4auWb6M?feature=shared",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/RH7x4pEugnY?si=4mQyPKHOmH0Ko99y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/4XDORsoIp2A",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        }
+    ]
+}
