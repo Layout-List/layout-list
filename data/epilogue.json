@@ -29,6 +29,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "monthmai",
+            "link": "https://www.youtube.com/watch?v=1RJzsXpzH_c",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
