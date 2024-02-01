@@ -44,6 +44,13 @@
           "percent": 100,
           "hz": 120,
           "mobile": false
+        },
+        {
+          "user": "coubitic",
+          "link": "https://youtu.be/AqtJ0QsYjCU",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
         }
     ]
 }
