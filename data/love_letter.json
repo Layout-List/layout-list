@@ -10,6 +10,11 @@
     "songLink": "https://cdn.discordapp.com/attachments/1199815903248920576/1202365674249261156/102490.mp3?ex=65cd314b&is=65babc4b&hm=a443e3e811ca8cc517f2b6e51a174acdf67e34b941dbe3a5aad2d8b4889ce13e&",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/y195jrOJC5U",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
