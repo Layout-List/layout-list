@@ -93,6 +93,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/Xky6Py6RrPk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
