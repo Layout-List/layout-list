@@ -23,6 +23,20 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://www.youtube.com/watch?v=emFowUCYYCY",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/ysANHYj56qs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
