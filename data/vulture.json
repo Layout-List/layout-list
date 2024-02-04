@@ -11,6 +11,13 @@
     "difficulty": 1,
     "records": [
         {
+            "user": "Blueberry",
+            "link": "https://youtu.be/SLSMe-VVVPw",
+            "percent": 100,
+            "hz": 500,
+            "mobile": false
+        },
+        {
             "user": "Thomas Jefferson",
             "link": "https://youtu.be/NoBIr5ZoFQ8",
             "percent": 100,
