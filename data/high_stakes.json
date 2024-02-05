@@ -107,6 +107,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "hayden",
+            "link": "https://www.youtube.com/watch?v=Vgu3T_mTB98",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
