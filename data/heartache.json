@@ -106,6 +106,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Tomfoolering",
+            "link": "https://www.youtube.com/watch?v=gS6rauaYi0U",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
         }
     ]
 }
