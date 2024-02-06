@@ -68,7 +68,6 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    const possibleMax = 0;
 
     if (list === null) {
         return [null, ['Failed to load list.']];
@@ -83,8 +82,6 @@ export async function fetchLeaderboard() {
         if (rank === null) {
             return;
         }
-
-        //possibleMax += score(level.difficulty, 100, level.percentToQualify);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -144,7 +141,6 @@ export async function fetchLeaderboard() {
         return {
             user,
             total: round(total),
-            possibleMax,
             ...scores,
         };
     });
@@ -152,18 +148,3 @@ export async function fetchLeaderboard() {
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
 }
-
-/* export async function possibleMax() {
-    const list = await fetchList();
-
-    const points = 0;
-
-    if (list === null) {
-        return null;
-    }
-
-    for level : list {
-        points += score(level.difficulty, 100, level.percentToQualify);
-    }
-    return points;
-} */
