@@ -40,6 +40,9 @@ export default {
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
                             </td>
+                             <td class="possibleMax">
+                                <p class="type-label-lg">{{ localize(ientry.possibleMax) }}</p>
+                            </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
