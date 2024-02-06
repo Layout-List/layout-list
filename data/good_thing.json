@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 100267536,
+    "name": "g o o d t h i n g",
+    "author": "whitmp4",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "verifier": "whitmp4",
+    "verification": "https://www.youtube.com/watch?v=nMICeM1e-jY",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "midimachine - g o o d t h i n g",
+    "difficulty": 0,
     "records": [
         
     ]
