@@ -1,7 +1,7 @@
 import { fetchList } from '../content.js';
 
-export function pack(level) 
-    switch (level){
+export async function pack(level) 
+    switch (level) {
         case 0:
             pack = 'pack 1';
             break;
