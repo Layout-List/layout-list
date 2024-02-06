@@ -148,3 +148,18 @@ export async function fetchLeaderboard() {
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
 }
+
+export async function possibleMax() {
+    const list = await fetchList();
+
+    const points = 0;
+
+    if (list === null) {
+        return null;
+    }
+
+    for level : list {
+        points += score(level.difficulty, 100, level.percentToQualify);
+    }
+    return points;
+}
