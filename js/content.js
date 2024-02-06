@@ -84,7 +84,7 @@ export async function fetchLeaderboard() {
             return;
         }
 
-        possibleMax += score(level.difficulty, 100, level.percentToQualify);
+        //possibleMax += score(level.difficulty, 100, level.percentToQualify);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -144,7 +144,7 @@ export async function fetchLeaderboard() {
         return {
             user,
             total: round(total),
-            //possibleMax,
+            possibleMax,
             ...scores,
         };
     });
