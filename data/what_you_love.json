@@ -9,6 +9,12 @@
     "song": "garlagan - What You Love",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=1FVnksS0gKM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        }
     ]
 }
