@@ -65,7 +65,7 @@ export function score(difficulty, percent, minPercent) {
     return round(score);
 }
 
-export function cscore(contributors) {
+export function cscore(contributorroles) {
     let cscore = 0;
     switch (type) {
         // solos under 1 minute
