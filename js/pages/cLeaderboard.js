@@ -1,4 +1,4 @@
-import { fetchLeaderboard } from '../content.js';
+import { fetchcLeaderboard } from '../creatorcontent.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -33,7 +33,7 @@ export default {
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in leaderboard">
+                        <tr v-for="(ientry, i) in cleaderboard">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -51,10 +51,10 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
-                        <h2 v-if="entry.verified.length > 0">Verified</h2>
+                        <h4>{{ localize(entry.total)
+                        <h2 v-if="entry.solos.length > 0">Solos</h2>
                         <table class="table">
-                            <tr v-for="score in entry.verified">
+                            <tr v-for="score in entry.solos">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
                                     <p v-else>#{{ score.rank }}</p>
@@ -67,7 +67,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">Completed</h2>
+                        <h2 v-if="entry.completed.length > 0">Levels Hosted</h2>
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
@@ -82,9 +82,9 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">Progressed</h2>
+                        <h2 v-if="entry.progressed.length > 0">Collab Parts</h2>
                         <table class="table">
-                            <tr v-for="score in entry.progressed">
+                            <tr v-for="score in entry.cparts">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
                                     <p v-else>#{{ score.rank }}</p>
@@ -108,8 +108,8 @@ export default {
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
+        const [cleaderboard, err] = await fetchLeaderboard();
+        this.leaderboard = cleaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
