@@ -149,7 +149,7 @@ export async function fetchLeaderboard() {
     return [res.sort((a, b) => b.total - a.total), errs];
 }
 
-export async function possibleMax() {
+/* export async function possibleMax() {
     const list = await fetchList();
 
     const points = 0;
@@ -162,4 +162,4 @@ export async function possibleMax() {
         points += score(level.difficulty, 100, level.percentToQualify);
     }
     return points;
-}
+} */
