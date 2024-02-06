@@ -10,18 +10,18 @@
     "difficulty": 0,
     "records": [
         {
-            "user": "Xeronius",
-            "link": "https://youtu.be/Xjg0Xx_LCB4",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false
-        },
-        {
             "user": "Poke Zach",
             "link": "https://www.youtube.com/watch?v=wYa5p_bezPE",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/Xjg0Xx_LCB4",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
         },
         {
             "user": "DELETE999",
