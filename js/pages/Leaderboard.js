@@ -40,9 +40,6 @@ export default {
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
                             </td>
-                             <td class="possibleMax">
-                                <p class="type-label-lg">{{ localize(ientry.possibleMax) }}</p>
-                            </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
@@ -55,6 +52,7 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ localize(entry.total) }}</h3>
+                        <h3>{{ localize(entry.possibleMax) }}</h3>
                         <h2 v-if="entry.verified.length > 0">Verified</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
