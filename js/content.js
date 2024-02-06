@@ -144,6 +144,7 @@ export async function fetchLeaderboard() {
         return {
             user,
             total: round(total),
+            possibleMax,
             ...scores,
         };
     });
