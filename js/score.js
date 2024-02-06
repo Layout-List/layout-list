@@ -105,6 +105,9 @@ export function cscore(level) {
             cscore = 50;
             break;
     }
+    
+    return cscore;
+}
 
 export function round(num) {
     if (!('' + num).includes('e')) {
