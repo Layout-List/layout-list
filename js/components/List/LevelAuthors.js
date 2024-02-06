@@ -17,7 +17,7 @@ export default {
             required: true,
         },
     },
-    template: `
+    /* template: `
         <div class="level-authors">
             <template v-if="selfVerified">
                 <div class="type-title-sm">Creator & Verifier</div>
@@ -86,9 +86,9 @@ export default {
                 </p>
             </template>
         </div>
-    `,
+    `, */
 
-    /* template: `
+    template: `
         <div class="level-authors">
             <template v-if="selfVerified">
                 <div class="type-title-sm">Creator & Verifier</div>
@@ -120,7 +120,7 @@ export default {
                 </p>
             </template>
         </div>
-    `, */
+    `,
 
     computed: {
         selfVerified() {
