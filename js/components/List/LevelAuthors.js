@@ -39,8 +39,8 @@ export default {
                 <div class="type-title-sm">Creators</div>
                 <p class="type-body">
                     <template v-for="(creator, index) in [author, ...creators]" :key="\`creator-\$\{creator\}\`">
-                        <span >{{ creator }}</span
-                        ><span v-if="index < creators.length">, </span>
+                        <span>{{ creator }}</span>
+                        <span v-if="index < creators.length">, </span>
                     </template>
                 </p>
                 <div class="type-title-sm">Verifier</div>
