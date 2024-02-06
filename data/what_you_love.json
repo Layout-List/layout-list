@@ -1,0 +1,20 @@
+{
+    "id": 97147316,
+    "name": "What You Love",
+    "author": "ThisGuyKreas",
+    "creators": [],
+    "verifier": "ThisGuyKreas",
+    "verification": "https://youtu.be/SnigW3NS4QQ",
+    "percentToQualify": 100,
+    "song": "garlagan - What You Love",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=1FVnksS0gKM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        }
+    ]
+}

@@ -609,6 +609,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://youtu.be/XsQFIzfrMxA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

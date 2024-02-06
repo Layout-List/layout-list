@@ -1,0 +1,34 @@
+{
+    "id": 100267536,
+    "name": "g o o d t h i n g",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://www.youtube.com/watch?v=nMICeM1e-jY",
+    "percentToQualify": 100,
+    "song": "midimachine - g o o d t h i n g",
+    "difficulty": 0,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=wYa5p_bezPE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/Xjg0Xx_LCB4",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://www.youtube.com/watch?v=1mCRX9rd0WE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
+}
