@@ -63,21 +63,6 @@ export async function fetchEditors() {
     }
 }
 
-export async function possibleMax() {
-    const list = await fetchList();
-
-    const points = 0;
-
-    if (list === null) {
-        return null;
-    }
-
-    list.forEach() => {
-        points += score(level.difficulty, 100, level.percentToQualify);
-    }
-    return points;
-}
-
 export async function fetchLeaderboard() {
     const list = await fetchList();
 
