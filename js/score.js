@@ -65,6 +65,47 @@ export function score(difficulty, percent, minPercent) {
     return round(score);
 }
 
+export function cscore(level) {
+    let cscore = 0;
+    switch (type) {
+        // solos under 1 minute
+        case 0:
+            cscore = 75;
+            break;
+        // solos under 2 minutes
+        case 1:
+            cscore = 100;
+            break;
+        // solos under 3 minutes
+        case 2:
+            cscore = 125;
+            break;
+       // solos under 5 minutes
+        case 3:
+            cscore = 150;
+            break;
+        // solos over 5 minutes
+        case 4:
+            cscore = 200;
+            break;
+        // collab parts under 30 seconds
+        case 5:
+            cscore = 25;
+            break;
+        // collab parts under 1 minute
+        case 6:
+            cscore = 50;
+            break;
+        // collab parts over 1 minute
+        case 7:
+            cscore = 100;
+            break;
+        // collab host
+        case 8:
+            cscore = 50;
+            break;
+    }
+
 export function round(num) {
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
