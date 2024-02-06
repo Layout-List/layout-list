@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 97147316,
+    "name": "What You Love",
+    "author": "ThisGuyKreas",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "verifier": "ThisGuyKreas",
+    "verification": "https://youtu.be/SnigW3NS4QQ",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "garlagan - What You Love",
+    "difficulty": 2,
     "records": [
         
     ]
