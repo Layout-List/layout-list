@@ -127,25 +127,25 @@ export default {
                     
                     <h3>Submission Requirements</h3>
                     <p>
-                        You must have achieved the record without using hacks (This includes hacks that change the physics of the game).
+                        You must have achieved any record without using hacks (This includes hacks that change the physics of the game, ie. physics bypass via MegaHack).
                     </p>
                     <p>
-                        You must have achieved the record on the level that is listed on the site - please check the level ID before you submit a record!
+                        You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
                     </p>
                     <p>
-                        The recording must have either source audio or clicks/taps in the video. Edited audio does not count.
+                        The recording must have either source audio or clicks (visual tap indication if on mobile) for the record to be validated. Edited audio does not count.
                     </p>
                     <p>
-                        Complete raw footage is required along side your record for any of the Extreme Demon categories.
+                        Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
                     </p>
                     <p>
                         The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall as well as present your end stats, or the completion will be invalidated.
+                        The recording must show the player hit the end-wall as well as present your end stats, or the completion will be invalidated.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes!
+                        Do not use secret routes, skips, or bug routes!
                     </p>
                     
                     
