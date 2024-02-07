@@ -125,7 +125,7 @@ export default {
                         (🔴 To be Moved Down )
                     </p>
                     
-                    <h3>Submission Requirements</h3>
+                    <h3>Record Submission Requirements</h3>
                     <p>
                         You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack).
                     </p>
