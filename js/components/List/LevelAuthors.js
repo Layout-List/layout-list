@@ -50,7 +50,6 @@ export default {
                 </p>
             </template>
             <template v-else>
-	        // <template v-else-if=”hosts.length === 1”>
 	            <div class=”type-title-sm”>Host</div>
 	            <p class=”type-body”>
 	                <span>{{ hosts }} </span>
@@ -66,25 +65,6 @@ export default {
                     <span>{{ verifier }}</span>
                 </p>
             </template>
-	        /* <template v-else>
-                <div class=”type-title-sm”>Hosts</div>
-	            <p class="type-body">
-                    <template v-for="(host, index) in [hosts]" :key="\`host-\$\{host\}\`">
-                        <span>{{ host }}</span>
-                        <span v-if="index < hosts.length">, </span>
-                    </template>
-                <div class="type-title-sm">Creators</div>
-                <p class="type-body">
-                    <template v-for="(creator, index) in [author, ...creators]" :key="\`creator-\$\{creator\}\`">
-                        <span>{{ creator }}</span>
-                        <span v-if="index < creators.length">, </span>
-                    </template>
-                </p>
-                <div class="type-title-sm">Verifier</div>
-                <p class="type-body">
-                    <span>{{ verifier }}</span>
-                </p>
-            </template> */
         </div>
     `,
 
@@ -155,4 +135,25 @@ export default {
         },
     },
 };
+<template v-else-if=”hosts.length === 1”>
+
+<template v-else>
+                <div class=”type-title-sm”>Hosts</div>
+	            <p class="type-body">
+                    <template v-for="(host, index) in [hosts]" :key="\`host-\$\{host\}\`">
+                        <span>{{ host }}</span>
+                        <span v-if="index < hosts.length">, </span>
+                    </template>
+                <div class="type-title-sm">Creators</div>
+                <p class="type-body">
+                    <template v-for="(creator, index) in [author, ...creators]" :key="\`creator-\$\{creator\}\`">
+                        <span>{{ creator }}</span>
+                        <span v-if="index < creators.length">, </span>
+                    </template>
+                </p>
+                <div class="type-title-sm">Verifier</div>
+                <p class="type-body">
+                    <span>{{ verifier }}</span>
+                </p>
+            </template>
 */
