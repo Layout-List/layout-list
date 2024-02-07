@@ -120,7 +120,7 @@ export default {
                     <p>
                         (⭐ Rated )
                         (❌ Pending Removal )
-                        (✨ Subject to exemptions )
+                        (✨ Subject to Exemptions )
                         (🟢 To be Moved Up )
                         (🔴 To be Moved Down )
                     </p>
