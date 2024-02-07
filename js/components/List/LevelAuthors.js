@@ -6,7 +6,7 @@ export default {
         },
         hosts: {
             type: Array,
-            required: true,
+            required: false,
         },
         creators: {
             type: Array,
