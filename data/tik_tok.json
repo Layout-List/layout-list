@@ -70,7 +70,14 @@
             "user": "Tradeskill",
             "link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "DELETE999",
+            "link": "https://www.youtube.com/watch?v=VDzNWGfMp8k",
+            "percent": 100,
+            "hz": 360,
             "mobile": false
         }
     ]
