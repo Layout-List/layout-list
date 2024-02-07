@@ -1,4 +1,4 @@
-/* export default {
+export default {
     props: {
         author: {
             type: String,
@@ -36,7 +36,21 @@
                     <span>{{ verifier }}</span>
                 </p>
             </template>
-            <template v-else-if=”hosts.length === 1”>
+            <template v-else-if=”hosts.length === 0”>
+                <div class="type-title-sm">Creators</div>
+                <p class="type-body">
+                    <template v-for="(creator, index) in [author, ...creators]" :key="\`creator-\$\{creator\}\`">
+                        <span>{{ creator }}</span>
+                        <span v-if="index < creators.length">, </span>
+                    </template>
+                </p>
+                <div class="type-title-sm">Verifier</div>
+                <p class="type-body">
+                    <span>{{ verifier }}</span>
+                </p>
+            </template>
+            <template v-else>
+	        // <template v-else-if=”hosts.length === 1”>
 	            <div class=”type-title-sm”>Host</div>
 	            <p class=”type-body”>
 	                <span>{{ hosts }} </span>
@@ -52,8 +66,8 @@
                     <span>{{ verifier }}</span>
                 </p>
             </template>
-	        <template v-else-if=”hosts.length > 1”>
-	            <div class=”type-title-sm”>Hosts</div>
+	        /* <template v-else>
+                <div class=”type-title-sm”>Hosts</div>
 	            <p class="type-body">
                     <template v-for="(host, index) in [hosts]" :key="\`host-\$\{host\}\`">
                         <span>{{ host }}</span>
@@ -70,20 +84,7 @@
                 <p class="type-body">
                     <span>{{ verifier }}</span>
                 </p>
-            </template>
-	        <template v-else>
-                <div class="type-title-sm">Creators</div>
-                <p class="type-body">
-                    <template v-for="(creator, index) in [author, ...creators]" :key="\`creator-\$\{creator\}\`">
-                        <span>{{ creator }}</span>
-                        <span v-if="index < creators.length">, </span>
-                    </template>
-                </p>
-                <div class="type-title-sm">Verifier</div>
-                <p class="type-body">
-                    <span>{{ verifier }}</span>
-                </p>
-            </template>
+            </template> */
         </div>
     `,
 
@@ -92,9 +93,9 @@
             return this.author === this.verifier && this.creators.length === 0;
         },
     },
-}; */
+};
 
-export default {
+/* export default {
     props: {
         author: {
             type: String,
@@ -154,3 +155,4 @@ export default {
         },
     },
 };
+*/
