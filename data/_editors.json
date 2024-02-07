@@ -14,11 +14,6 @@
         "name": "Thomas Jefferson",
         "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
-    {
-        "role": "admin",
-        "name": "Hyperbeat",
-        "link": "https://www.youtube.com/@Hyperbeat"
-    },
      {
         "role": "admin",
         "name": "Mystikl",
@@ -28,6 +23,21 @@
         "role": "admin",
         "name": "Xeronius",
         "link": "https://www.youtube.com/@Xeronius_"
+    },
+      {
+        "role": "admin",
+        "name": "Hyperbeat",
+        "link": "https://www.youtube.com/@Hyperbeat"
+    },
+     {
+        "role": "helper",
+        "name": "Tanginess",
+        "link": "https://www.youtube.com/channel/UCMtN24VDa4x5OfENd6zMxXQ"
+    },
+     {
+        "role": "helper",
+        "name": "Flare",
+        "link": "https://www.youtube.com/@krispychikeen5656"
     },
      {
         "role": "helper",
@@ -41,18 +51,8 @@
     },
     {
         "role": "helper",
-        "name": "Flare",
-        "link": "https://www.youtube.com/@krispychikeen5656"
-    },
-    {
-        "role": "helper",
         "name": "Fawami",
         "link": "https://www.youtube.com/@fawami"
-    },
-     {
-        "role": "helper",
-        "name": "Tanginess",
-        "link": "https://www.youtube.com/channel/UCMtN24VDa4x5OfENd6zMxXQ"
     },
     {
         "role": "dev",
