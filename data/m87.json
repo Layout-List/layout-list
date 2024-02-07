@@ -9,14 +9,5 @@
     "percentToQualify": 58,
     "song": "TheColdSpirit - Sparkler",
     "difficulty": 5,
-    "records": [
-        {
-            "user": "syrcx",
-            "link": "https://www.youtube.com/watch?v=ma-olc77iWg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
-        
-    ]
+    "records": []
 }

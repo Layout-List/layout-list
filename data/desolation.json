@@ -74,19 +74,12 @@
             "hz": 75,
             "mobile": false
         },
-          {
+        {
             "user": "DELETE999",
             "link": "https://youtu.be/7raXBN0OoaI?si=kClwKomPhJFcmNwR",
             "percent": 100,
             "hz": 60,
             "mobile": true
-        },
-        {
-            "user": "syrcx",
-            "link": "https://www.youtube.com/watch?v=80GDCe_uO_8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
         }
     ]
 }

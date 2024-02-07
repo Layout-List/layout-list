@@ -69,18 +69,11 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Hyperbeat",
             "link": "https://youtu.be/EMu_MJ7PiYA?si=bVC2oQ9gQTNgF2pn",
             "percent": 100,
             "hz": 360,
-            "mobile": false
-          },
-        {
-            "user": "syrcx",
-            "link": "https://youtu.be/skizpOJCmWA",
-            "percent": 100,
-            "hz": 240,
             "mobile": false
         }
     ]

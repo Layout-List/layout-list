@@ -31,13 +31,5 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
-        },
-        {
-            "user": "syrcx",
-            "link": "https://www.twitch.tv/videos/1997646956",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
         }
-    ]
 }

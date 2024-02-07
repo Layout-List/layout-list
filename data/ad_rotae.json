@@ -9,14 +9,5 @@
     "password": "123789",
     "song": "Creo - In Circles",
     "difficulty": 4,
-    "records": [
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/IToQBGH-ep8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
-        
-    ]
+    "records": []
 }
