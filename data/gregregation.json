@@ -333,10 +333,17 @@
         },
         {
             "user": "sphericle",
-            "link": " https://youtu.be/Rarhi7gx_uk",
+            "link": "https://youtu.be/Rarhi7gx_uk",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Ultrobro",
+            "link": "https://www.youtube.com/watch?v=xncbnG7LiOs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
