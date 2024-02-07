@@ -69,15 +69,14 @@ Can i submit Multiple levels on 1 video?
 
 ## Owners:
 
-- Blathers
-- Asteria.
 - whitmp4
+- Asteria.
+- EvilEmperium
 
 ---
 
 ## List Helpers:
 
-- EvilEmperium
 - Hyperbeat
 - Mystikl
 - Xeronius
@@ -90,6 +89,7 @@ Can i submit Multiple levels on 1 video?
 - sqrtpie
 - Flare
 - Fawami
+- tangi
 
 ---
 
