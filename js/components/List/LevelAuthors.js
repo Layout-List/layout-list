@@ -1,4 +1,4 @@
-export default {
+/* export default {
     props: {
         author: {
             type: String,
@@ -92,9 +92,9 @@ export default {
             return this.author === this.verifier && this.creators.length === 0;
         },
     },
-};
+}; */
 
-/* export default {
+export default {
     props: {
         author: {
             type: String,
@@ -153,4 +153,4 @@ export default {
             return this.author === this.verifier && this.creators.length === 0;
         },
     },
-}; */
+};
