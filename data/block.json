@@ -51,6 +51,13 @@
           "percent": 100,
           "hz": 240,
           "mobile": false
+        },
+        {
+          "user": "Couropsnov",
+          "link": "https://www.youtube.com/watch?v=kjBGKG-eMIc",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
         }
     ]
 }
