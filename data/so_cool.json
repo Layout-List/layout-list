@@ -1013,6 +1013,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "NotAquatic",
+            "link": "https://www.youtube.com/watch?v=dBmx-gPMcVw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
