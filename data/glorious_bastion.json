@@ -9,12 +9,5 @@
     "password": "945718",
     "song": "Waterflame - -Glorious Thunderzone-",
     "difficulty": 4,
-    "records": [
-        {
-            "user": "syrcx",
-            "link": "https://youtu.be/mV3w4SFn9Yg",
-            "percent": 100,
-            "hz": 240
-        }
-    ]
+    "records": []
 }
