@@ -8,12 +8,13 @@
     "percentToQualify": 58,
     "song": "Creo - Crazy",
     "difficulty": 6,
-    "records": []
-     {
+    "records": [
+        {
             "user": "hayden",
             "link": "https://youtu.be/Xgc7BrSkl2w",
             "percent": 100,
             "hz": 360,
             "mobile": false
         }
+    ]
 }
