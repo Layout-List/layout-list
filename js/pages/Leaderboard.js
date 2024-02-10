@@ -51,7 +51,10 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h4>{{ localize(entry.total) }}</h4><h6>{{ " / " + localize(entry.possibleMax) }}</h6>
+                        <h4>{{ localize(entry.total) }}</h4>
+                        <p class="type-body">
+                            <span>{{ entry.possibleMax }}</span>
+                        </p>
                         <h2 v-if="entry.verified.length > 0">Verified</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
