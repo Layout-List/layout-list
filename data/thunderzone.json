@@ -78,6 +78,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Ultrobro",
+            "link": "https://youtu.be/AhwQyRmnHx0?si=YHLwopp9Ide-MXYS",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
