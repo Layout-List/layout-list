@@ -147,6 +147,9 @@ export default {
                     <p>
                         Do not use secret routes, skips, or bug routes!
                     </p>
+                    <p>
+                        Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
+                    </p>
                     
                     
                     <h4></h4>
