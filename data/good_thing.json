@@ -43,6 +43,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://www.youtube.com/watch?v=1B3wErnAto8",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "Thomas Jefferson",
+            "link": "https://youtu.be/gMt8mUrcmHQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
