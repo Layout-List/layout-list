@@ -30,6 +30,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "Thomas Jefferson",
+            "link": "https://youtu.be/gMt8mUrcmHQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
