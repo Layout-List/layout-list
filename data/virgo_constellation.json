@@ -23,6 +23,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/KpanKd6MTWU",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
         }
     ]
 }
