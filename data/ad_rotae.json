@@ -9,5 +9,14 @@
     "password": "123789",
     "song": "Creo - In Circles",
     "difficulty": 4,
-    "records": []
+    "records": [
+        
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.twitch.tv/videos/2058772284",
+            "percent": 87,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
 }
