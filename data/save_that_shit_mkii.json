@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/855215021566590977/1198752216715108372/162764.mp3?ex=65c00c00&is=65ad9700&hm=b3754dadfe9f10e3715fe612f6fd9f5038c942ca36cafb50e6143c10c9ef8c35&",
     "difficulty": 5,
     "records": [
-        
+        {
+            "user": "Skip",
+            "link": "https://www.youtube.com/watch?v=p8BOD_HU94U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
