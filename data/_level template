@@ -3,7 +3,6 @@
     "name": "Title",
     "author": "creator",
     "creators": [],
-    "contributers": ["creator1", 0, "creator2", 2, etc.],
     "verifier": "verifier",
     "verification": "insert link",
     "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
