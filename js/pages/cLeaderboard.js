@@ -82,15 +82,15 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">Collab Parts</h2>
+                        <h2 v-if="entry.collabParts.length > 0">Collab Parts</h2>
                         <table class="table">
-                            <tr v-for="score in entry.cparts">
+                            <tr v-for="score in entry.collabParts">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.seconds }}</a>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
@@ -104,12 +104,12 @@ export default {
     `,
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.cLeaderboard[this.selected];
         },
     },
     async mounted() {
-        const [cleaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = cleaderboard;
+        const [cLeaderboard, err] = await fetchcLeaderboard();
+        this.cLeaderboard = cleaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
