@@ -49,7 +49,7 @@ What's an easy way to prove I don't hack?
 It's been more than a week and my record still hasn't been added.  What should I do?
 
 - You can ask us in
-  [#list-support](https://discord.com/channels/713151800932433972/744151240765603951).  
+  [#list-support](https://discord.com/channels/713151800932433972/744151240765603951).
   It was probably an accidentally deleted record (yes, it happens), your name was
   misspelled, or your record was rejected for being cheated.
 
