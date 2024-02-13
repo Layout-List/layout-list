@@ -8,7 +8,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        leaderboard: [],
+        cLeaderboard: [],
         loading: true,
         selected: 0,
         err: [],
@@ -28,12 +28,12 @@ export default {
             <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Creator leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in cleaderboard">
+                        <tr v-for="(ientry, i) in cLeaderboard">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -67,9 +67,9 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">Levels Hosted</h2>
+                        <h2 v-if="entry.levelsHosted.length > 0">Levels Hosted</h2>
                         <table class="table">
-                            <tr v-for="score in entry.completed">
+                            <tr v-for="score in entry.levelsHosted">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
                                     <p v-else>#{{ score.rank }}</p>
@@ -90,7 +90,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.seconds }}</a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
