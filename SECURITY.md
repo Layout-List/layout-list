@@ -8,7 +8,7 @@
 
 ## Reporting a Vulnerability
 
-You can Report vulnerabilities through the
+You can report vulnerabilities through the
 [discord server](https://discord.gg/shittylist) or by DM'ing Raily
 (iRaily#1230), BlueStone (Bluestone.#1449), Electro (Electro#0457) or
 Prometheus(Prometheus#9463). Responses to vulnerability reports usually take
