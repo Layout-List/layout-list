@@ -8,7 +8,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        leaderboard: [],
+        cLeaderboard: [],
         loading: true,
         selected: 0,
         err: [],
@@ -28,12 +28,12 @@ export default {
             <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Creator leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in cleaderboard">
+                        <tr v-for="(ientry, i) in cLeaderboard">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -67,9 +67,9 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">Levels Hosted</h2>
+                        <h2 v-if="entry.levelsHosted.length > 0">Levels Hosted</h2>
                         <table class="table">
-                            <tr v-for="score in entry.completed">
+                            <tr v-for="score in entry.levelsHosted">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
                                     <p v-else>#{{ score.rank }}</p>
@@ -82,15 +82,15 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">Collab Parts</h2>
+                        <h2 v-if="entry.collabParts.length > 0">Collab Parts</h2>
                         <table class="table">
-                            <tr v-for="score in entry.cparts">
+                            <tr v-for="score in entry.collabParts">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
@@ -104,12 +104,12 @@ export default {
     `,
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.cLeaderboard[this.selected];
         },
     },
     async mounted() {
-        const [cleaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = cleaderboard;
+        const [cLeaderboard, err] = await fetchcLeaderboard();
+        this.cLeaderboard = cleaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
