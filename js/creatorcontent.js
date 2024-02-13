@@ -31,8 +31,8 @@ export async function fetchCLeaderboard() {
 
         // Solos
         const creator = Object.keys(scoreMap).find(
-            (u) => u.toLowerCase() === level.creators.toLowerCase(),
-        ) || level.creators;
+            (u) => u.toLowerCase() === level.author.toLowerCase() && level.author.toLowerCase() === level.verifier.toLowerCase(),
+        ) || level.author;
         scoreMap[creator] ??= {
             solos: [],
             levelsHosted: [],
@@ -42,12 +42,12 @@ export async function fetchCLeaderboard() {
         solos.push({
             rank,
             level: level.name,
-            score: score(level.contributorroles),
+            score: cscore(level.contributorroles),
             link: level.verification,
         });
 
-        // Records
-        level.records.forEach((record) => {
+        // Levels Hosted
+        level.creatorroles.forEach((creatorrole) => {
             const user = Object.keys(scoreMap).find(
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
             ) || record.user;
