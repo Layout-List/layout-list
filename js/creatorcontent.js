@@ -42,7 +42,7 @@ export async function fetchCLeaderboard() {
         solos.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: score(level.contributorroles),
             link: level.verification,
         });
 
