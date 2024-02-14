@@ -9,5 +9,13 @@
     "password": "945718",
     "song": "Waterflame - -Glorious Thunderzone-",
     "difficulty": 4,
-    "records": []
+    "records": [
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/i4NkkPlKBIc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
 }
