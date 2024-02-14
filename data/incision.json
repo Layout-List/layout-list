@@ -37,6 +37,20 @@
             "percent": 64,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=1SkNbz3a07k",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=5lJ5HAuQNVI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
