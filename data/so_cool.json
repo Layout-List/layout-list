@@ -1020,6 +1020,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "NotAquatic",
+            "link": "https://www.youtube.com/watch?v=dBmx-gPMcVw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "sabrina",
+            "link": "https://youtu.be/NBepyfZci7I?si=eWvg38QH3PQN8abM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
