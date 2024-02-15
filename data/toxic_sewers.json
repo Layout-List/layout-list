@@ -85,6 +85,13 @@
             "percent": 100,
             "hz": 288,
             "mobile": false
+        },
+        {
+            "user": "sabrina",
+            "link": "https://youtu.be/ilhBNoR41UE?si=U5mbo3fl34kKJ0s3",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
