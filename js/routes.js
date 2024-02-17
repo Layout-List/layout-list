@@ -9,5 +9,3 @@ export default [
     { path: '/creatorleaderboard', component: CreatorLeaderboard },
     { path: '/roulette', component: Roulette },
 ];
-// import CreatorLeaderboard from './pages/CreatorLeaderboard.js';
-//    { path: '/creatorleaderboard', component: CreatorLeaderboard },
