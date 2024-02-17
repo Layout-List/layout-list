@@ -24,7 +24,7 @@ export default {
                         {{ err[0] }}
                     </p>
                 </div>
-            
+            </div>
             <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
