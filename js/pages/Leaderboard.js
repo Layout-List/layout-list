@@ -17,7 +17,7 @@ export default {
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
-        <main v-else class="page-lederboard-container">
+        <main v-else class="page-leaderboard-container">
             <div v-if="!leaderboard" class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
@@ -50,7 +50,7 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <h1>#{{ selected + 1 }} {{ entry.usezxdr }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <h2 v-if="entry.verified.length > 0">Verified</h2>
                         <table class="table">
