@@ -81,23 +81,23 @@ Can I submit multiple levels in one video?
 
 ## List Helpers:
 
-- Hyperbeat
 - Mystikl
 - Xeronius
+- Hyperbeat
 
 ---
 
 ## Server Moderators:
 
-- NiXaNTyReaL
-- sqrtpie
 - Flare
+- hayden
+- NiXaNTy
+- sqrtpie
 - Fawami
-- Tanginess
 
 ---
 
 ## List Developers:
 
-- Electro
 - Prometheus
+- Electro
