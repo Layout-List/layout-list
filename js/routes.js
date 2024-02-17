@@ -7,5 +7,5 @@ export default [
     { path: '/leaderboard', component: Leaderboard },
     { path: '/roulette', component: Roulette },
 ];
-// import Cleaderboard from './pages/Cleaderboard.js';
-//    { path: '/creatorleaderboard', component: Cleaderboard },
+// import CreatorLeaderboard from './pages/CreatorLeaderboard.js';
+//    { path: '/creatorleaderboard', component: CreatorLeaderboard },
