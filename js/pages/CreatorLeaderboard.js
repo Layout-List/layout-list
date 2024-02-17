@@ -17,15 +17,15 @@ export default {
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
-        <main v-else class="page-leaderboard-container">
-            <div v-if="!leaderboard" class="page-leaderboard">
+        <main v-else class="page-creatorleaderboard-container">
+            <div v-if="!creatorleaderboard" class="page-creatorleaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         {{ err[0] }}
                     </p>
                 </div>
             </div>
-            <div v-else class="page-leaderboard">
+            <div v-else class="page-creatorleaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         Creator leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
