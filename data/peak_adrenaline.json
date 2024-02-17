@@ -154,6 +154,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+         {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
