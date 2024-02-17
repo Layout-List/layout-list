@@ -104,7 +104,7 @@ export default {
     `,
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.leaasdfderboard[this.selected];
         },
     },
     async mounted() {
