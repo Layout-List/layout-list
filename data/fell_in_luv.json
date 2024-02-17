@@ -11,5 +11,13 @@
     "song": "Playboi Carti - Fell In Luv",
     "songLink": "https://cdn.discordapp.com/attachments/1199549520267202681/1207831018720202802/12343.mp3?ex=65e1134b&is=65ce9e4b&hm=d7999d546bf1a9ebac722e983acc9015bad73295a7e28bcbd1cf180d7580ca80&",
     "difficulty": 3,
-    "records": []
+    "records": [
+         {
+            "user": "Paladean",
+            "link": "https://youtu.be/jWYWCl-76tQ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        }
+    ]
 }
