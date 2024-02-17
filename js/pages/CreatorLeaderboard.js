@@ -1,4 +1,4 @@
-import { fetchLeaderboard } from '../content.js';
+/* import { fetchLeaderboard } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -117,9 +117,9 @@ export default {
     methods: {
         localize,
     },
-};
+}; */
 
-/* import { fetchCreatorLeaderboard } from '../creatorcontent.js';
+import { fetchCreatorLeaderboard } from '../creatorcontent.js';
 
 import Spinner from '../components/Spinner.js';
 
@@ -234,4 +234,4 @@ export default {
         // Hide loading spinner
         this.loading = false;
     },
-}; */
+};
