@@ -50,6 +50,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": false
+        },
+        {
+            "user": "gdBean",
+            "link": "https://youtu.be/Pt7RyZV78H0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
         
     ]

@@ -896,7 +896,7 @@
             "mobile": false
         },
         {
-            "user": "crystalsstuff",
+            "user": "nxtcrystxl",
             "link": "https://www.youtube.com/watch?v=AWipspvOSTc&ab_channel=crystal",
             "percent": 100,
             "hz": 330,
@@ -1041,6 +1041,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "gdBean",
+            "link": "https://youtu.be/h7Bql2Govpw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
