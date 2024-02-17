@@ -9,7 +9,7 @@ const dir = '/data';
  * Symbol, that marks a level as not part of the list
  */
 
-export async function fetchCLeaderboard() {
+export async function fetchCreatorLeaderboard() {
     const list = await fetchList();
 
     const scoreMap = {};
