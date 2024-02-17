@@ -234,4 +234,6 @@ export default {
         // Hide loading spinner
         this.loading = false;
     },
+    methods: {
+    },
 };
