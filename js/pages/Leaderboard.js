@@ -8,7 +8,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        earggeraaergh: [],
+        leaderboard: [],
         loading: true,
         selected: 0,
         err: [],
@@ -17,7 +17,7 @@ export default {
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
-        <main v-else class="page-leaderboard-container">
+        <main v-else class="page-lederboard-container">
             <div v-if="!leaderboard" class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
