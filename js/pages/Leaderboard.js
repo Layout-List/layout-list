@@ -8,7 +8,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        leaderboard: [],
+        lederboard: [],
         loading: true,
         selected: 0,
         err: [],
