@@ -19,7 +19,7 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
-            <div v-if="!leaderboard" class="page-leaderboard">
+            <div v-if="!cLeaderboard" class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         {{ err[0] }}
@@ -29,7 +29,7 @@ export default {
             <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Creator leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container">
