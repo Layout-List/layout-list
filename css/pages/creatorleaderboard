@@ -1,0 +1,93 @@
+.page-creatorleaderboard-container {
+    display: block;
+}
+.page-creatorleaderboard {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(24rem, 2fr) 3fr;
+    grid-template-rows: max-content 1fr;
+    column-gap: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.page-creatorleaderboard > div {
+    overflow-y: auto;
+}
+.page-creatorleaderboard .error-container {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+.page-creatorleaderboard .error-container .error {
+    padding: 1rem;
+    background-color: var(--color-error);
+    color: var(--color-on-error);
+}
+.page-creatorleaderboard .board-container,
+.page-creatorleaderboard .player-container {
+    grid-row: 2;
+    padding-block: 2rem;
+}
+.page-creatorleaderboard .board-container {
+    padding-inline: 1rem;
+}
+.page-creatorleaderboard .board {
+    table-layout: auto;
+    display: block;
+    width: 100%;
+}
+.page-creatorleaderboard .board .rank {
+    padding-block: 1rem;
+    text-align: end;
+}
+.page-creatorleaderboard .board .total {
+    padding: 1rem;
+    text-align: end;
+}
+.page-creatorleaderboard .board .user {
+    width: 100%;
+}
+.page-creatorleaderboard .board .user button {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: start;
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+.page-creatorleaderboard .board .user button:hover {
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background-hover);
+    cursor: pointer;
+}
+.page-creatorleaderboard .board .user.active button {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+.page-creatorleaderboard .player {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+.page-creatorleaderboard .player .table {
+    table-layout: fixed;
+}
+.page-creatorleaderboard .player .table tr td:not(:last-child) {
+    padding-right: 2rem;
+}
+.page-creatorleaderboard .player .table p,
+.page-creatorleaderboard .player .table a {
+    padding-block: 1rem;
+}
+.page-creatorleaderboard .player .table .rank p,
+.page-creatorleaderboard .player .table .score p {
+    text-align: end;
+}
+.page-creatorleaderboard .player .table .level {
+    width: 100%;
+}
+.page-creatorleaderboard .player .table a:hover {
+    text-decoration: underline;
+}
