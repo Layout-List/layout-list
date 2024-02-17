@@ -1,6 +1,5 @@
 import List from './pages/List.js';
 import Leaderboard from './pages/Leaderboard.js';
-import Cleaderboard from './pages/CreatorLeaderboard.js';
 import Roulette from './pages/Roulette.js';
 
 export default [
