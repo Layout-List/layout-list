@@ -7,7 +7,29 @@ export default {
     components: {
         Spinner,
     },
-    data: aef
+    data: () => ({
+        leaderboard: [],
+        loading: true,
+        selected: 0,
+        err: [],
+    }),
+    template: `
+        <main v-if="loading">
+            <Spinner></Spinner>
+        </main>
+        <main v-else class="page-leaderboard-container">
+            <div v-if="!leaderboard" class="page-leaderboard">
+                <div class="error-container">
+                    <p class="error" v-if="err.length > 0">
+                        {{ err[0] }}
+                    </p>
+                </div>
+            </div>
+            <div v-else class="page-leaderboard">
+                <div class="error-container">
+                    <p class="error" v-if="err.length > 0">
+                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                    </p>
                 </div>
                 <div class="board-container">
                     <table class="board">
