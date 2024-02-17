@@ -9,7 +9,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        leaderboard: [],
+        ceaderboard: [],
         loading: true,
         selected: 0,
         err: [],
@@ -34,7 +34,7 @@ export default {
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in cLeaderboard">
+                        <tr v-for="(ientry, i) in ceaderboard">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -105,12 +105,12 @@ export default {
     `,
     computed: {
         entry() {
-            return this.cLeaderboard[this.selected];
+            return this.ceaderboard[this.selected];
         },
     },
     async mounted() {
-        const [cLeaderboard, err] = await fetchLeaderboard();
-        this.cLeaderboard = cLeaderboard;
+        const [ceaderboard, err] = await fetchLeaderboard();
+        this.ceaderboard = ceaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
