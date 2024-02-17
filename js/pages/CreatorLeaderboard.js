@@ -9,7 +9,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        cLeaderboard: [],
+        leaderboard: [],
         loading: true,
         selected: 0,
         err: [],
