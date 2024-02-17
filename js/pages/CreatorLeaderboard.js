@@ -19,7 +19,7 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
-            <div v-if="!cLeaderboard" class="page-leaderboard">
+            <div v-if="!ceaderboard" class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         {{ err[0] }}
