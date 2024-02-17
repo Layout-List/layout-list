@@ -120,7 +120,7 @@ export default {
 }; 
 
 /* import { fetchCreatorLeaderboard } from '../creatorcontent.js';
-
+import { localize } from '../util.js';
 import Spinner from '../components/Spinner.js';
 
 export default {
@@ -235,5 +235,6 @@ export default {
         this.loading = false;
     },
     methods: {
+        localize,
     },
 }; */
