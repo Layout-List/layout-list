@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 77022955,
+    "name": "Tripping Weird",
+    "author": "JPTOfficiaL",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "verifier": "JPTOfficiaL",
+    "verification": "https://youtu.be/b4PYE4B-2QU",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Xorberax - drag me with you (reupload)",
+    "difficulty": 2,
     "records": [
         
     ]
