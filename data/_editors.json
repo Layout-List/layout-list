@@ -16,11 +16,6 @@
     },
      {
         "role": "admin",
-        "name": "Mystikl",
-        "link": "https://www.youtube.com/@lMystikl"
-    },
-     {
-        "role": "admin",
         "name": "Xeronius",
         "link": "https://www.youtube.com/@Xeronius_"
     },
@@ -58,6 +53,11 @@
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/c/PrometheusAlt"
+    },
+    {
+        "role": "dev",
+        "name": "Mystikl",
+        "link": "https://www.youtube.com/@lMystikl"
     },
     {
         "role": "dev",
