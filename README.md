@@ -81,7 +81,6 @@ Can I submit multiple levels in one video?
 
 ## List Helpers:
 
-- Mystikl
 - Xeronius
 - Hyperbeat
 
@@ -100,4 +99,5 @@ Can I submit multiple levels in one video?
 ## List Developers:
 
 - Prometheus
+- Mystikl
 - Electro
