@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/1207841690304380998/1207841905912844298/90690.mp3?ex=65e11d6e&is=65cea86e&hm=afa55b51b827c07d6df15137190e81fef93a73d6bf5a48f77cff1ad28b60d24e&",
     "difficulty": 5,
     "records": [
-        
+         {
+            "user": "hayden",
+            "link": "https://youtu.be/kQ50Ox87JfE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
