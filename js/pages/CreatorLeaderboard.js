@@ -1,4 +1,5 @@
 import { fetchLeaderboard } from '../content.js';
+// import { fetchCreatorLeaderboard } from '../creatorcontent.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -8,7 +9,7 @@ export default {
         Spinner,
     },
     data: () => ({
-        leaderboard: [],
+        cLeaderboard: [],
         loading: true,
         selected: 0,
         err: [],
@@ -18,7 +19,7 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
-            <div v-if="!leaderboard" class="page-leaderboard">
+            <div v-if="!cLeaderboard" class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         {{ err[0] }}
@@ -28,12 +29,12 @@ export default {
             <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                        Creator leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in leaderboard">
+                        <tr v-for="(ientry, i) in cLeaderboard">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -104,12 +105,12 @@ export default {
     `,
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.cLeaderboard[this.selected];
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
+        const [cLeaderboard, err] = await fetchLeaderboard();
+        this.cLeaderboard = cLeaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
@@ -119,7 +120,7 @@ export default {
     },
 };
 
-/* import { fetchcLeaderboard } from '../creatorcontent.js';
+/* import { fetchCreatorLeaderboard } from '../creatorcontent.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -138,15 +139,15 @@ export default {
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
-        <main v-else class="page-creatorleaderboard-container">
-            <div v-if="!creatorleaderboard" class="page-creatorleaderboard">
+        <main v-else class="page-leaderboard-container">
+            <div v-if="!leaderboard" class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         {{ err[0] }}
                     </p>
                 </div>
             </div>
-            <div v-else class="page-creatorleaderboard">
+            <div v-else class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         Creator leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
@@ -172,7 +173,7 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h4>{{ localize(entry.total)
+                        <h4>{{ localize(entry.total) }}</h4>
                         <h2 v-if="entry.solos.length > 0">Solos</h2>
                         <table class="table">
                             <tr v-for="score in entry.solos">
@@ -229,8 +230,8 @@ export default {
         },
     },
     async mounted() {
-        const [cLeaderboard, err] = await fetchcLeaderboard();
-        this.cLeaderboard = cleaderboard;
+        const [cLeaderboard, err] = await fetchCreatorLeaderboard();
+        this.cLeaderboard = cLeaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
