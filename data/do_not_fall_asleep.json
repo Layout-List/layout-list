@@ -10,5 +10,12 @@
     "difficulty": 2,
     "records": [
         
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=bHQ9Rbl3_rg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
