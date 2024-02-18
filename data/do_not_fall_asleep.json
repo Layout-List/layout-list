@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 100966847,
+    "name": "Do not fall asleep",
+    "author": "RaynoXx",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "verifier": "RaynoXx",
+    "verification": "https://youtu.be/aAd3YE8r7WI?si=vcdNzvl2ojpjXJJc",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Koraii - Purgatori",
+    "difficulty": 2,
     "records": [
         
     ]
