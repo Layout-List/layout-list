@@ -351,6 +351,13 @@
             "percent": 100,
             "hz": 500,
             "mobile": false
+        },
+        {
+            "user": "Aresse",
+            "link": "https://www.youtube.com/watch?v=5_b9dxzeSLA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
