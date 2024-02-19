@@ -436,6 +436,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "^ this person is a whore",
+            "link": "https://youtu.be/2OFWvOtUvZo",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
