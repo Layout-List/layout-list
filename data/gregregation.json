@@ -344,6 +344,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://www.youtube.com/watch?v=OU5Zo_YTapU",
+            "percent": 100,
+            "hz": 500,
+            "mobile": false
         }
     ]
 }
