@@ -876,6 +876,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "gdBean",
+            "link": "https://www.youtube.com/watch?v=EgpDW7ZKaI8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
