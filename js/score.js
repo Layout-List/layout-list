@@ -111,7 +111,7 @@ export function cscore(contributorrole) {
 
 export function enjoyment(level) {
     let score = 0;
-    for record in level.records {
+    for (record in level.records) {
         if !(record.enjoyment === null) {
             score += record.enjoyment;
         }
