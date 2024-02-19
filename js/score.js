@@ -109,7 +109,7 @@ export function cscore(contributorrole) {
     return cscore;
 }
 
-export function enjoyment(level) {
+/*export function enjoyment(level) {
     let score = 0;
     for (record in level.records) {
         if (record.enjoyment !== null) {
@@ -117,7 +117,7 @@ export function enjoyment(level) {
         }
     }
     return round(score / level.records.length);
-}
+} */
 
 export function round(num) {
     if (!('' + num).includes('e')) {
