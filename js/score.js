@@ -1,3 +1,4 @@
+import { localize } from './util.js';
 /**
  * Numbers of decimal digits to round to
  */
