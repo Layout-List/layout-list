@@ -204,6 +204,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "The Realm",
+            "link": "https://www.youtube.com/watch?v=r6AIs6rOnwE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
