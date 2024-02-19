@@ -114,6 +114,13 @@
             "percent": 100,
             "hz": 500,
             "mobile": false
+        },
+        {
+            "user": "Dominez28",
+            "link": "https://www.youtube.com/watch?v=3De_6GBhNLE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
