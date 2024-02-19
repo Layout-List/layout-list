@@ -109,6 +109,16 @@ export function cscore(contributorrole) {
     return cscore;
 }
 
+export function enjoyment(level) {
+    let score = 0;
+    for record in level.records {
+        if !(record.enjoyment === null) {
+            score += record.enjoyment;
+        }
+    }
+    return round(score / level.records.length);
+}
+
 export function round(num) {
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
