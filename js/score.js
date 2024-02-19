@@ -112,7 +112,9 @@ export function cscore(contributorrole) {
 export function enjoyment(level) {
     let score = 0;
     for (record in level.records) {
-        score += record.enjoyment;
+        if (record === null) {
+            score += record.enjoyment;
+        }
     }
     return round(score / level.records.length);
 }
