@@ -1,3 +1,4 @@
+import { localize } from './util.js';
 /**
  * Numbers of decimal digits to round to
  */
@@ -112,11 +113,11 @@ export function cscore(contributorrole) {
 export function enjoyment(level) {
     let score = 0;
     for (record in level.records) {
-        if (record.enjoyment === null) {
+        if (record.enjoyment !== null) {
             score += record.enjoyment;
         }
     }
-    return round(score / level.records.length);
+    return localize(round(score / level.records.length));
 }
 
 export function round(num) {
