@@ -117,7 +117,7 @@ export function enjoyment(level) {
             score += record.enjoyment;
         }
     }
-    return round(score / level.records.length);
+    return localize(round(score / level.records.length));
 }
 
 export function round(num) {
