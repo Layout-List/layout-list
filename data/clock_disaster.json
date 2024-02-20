@@ -9,6 +9,12 @@
     "song": "Llaappssee - This Song Means Nothing",
     "difficulty": 7,
     "records": [
-        
+         {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=ehzqgUp8A08",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
