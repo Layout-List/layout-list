@@ -1,6 +1,6 @@
 {
     "id": 47625602,
-    "name": "Kitty Kat Layout",
+    "name": "Kitty Kat LAYOUT",
     "author": "Blathers",
     "creators": [],
     "verifier": "Blathers",
@@ -179,6 +179,13 @@
             "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
             "percent": 100,
             "hz": 240,
+            "mobile": false
+        },
+         {
+            "user": "briskrain",
+            "link": "https://youtu.be/cF2ImIvhsA0?si=u63ppg8shbX_kgkS",
+            "percent": 100,
+            "hz": 144,
             "mobile": false
         }
     ]

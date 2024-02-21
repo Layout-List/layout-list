@@ -14,5 +14,13 @@
     "percentToQualify": 59,
     "song": "SuperSoniker - So Cool",
     "difficulty": 6,
-    "records": []
+    "records": [
+         {
+            "user": "skip",
+            "link": "https://youtu.be/idC48K0HSx4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
 }
