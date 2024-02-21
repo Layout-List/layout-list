@@ -180,6 +180,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+         {
+            "user": "briskrain",
+            "link": "https://youtu.be/cF2ImIvhsA0?si=u63ppg8shbX_kgkS",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
