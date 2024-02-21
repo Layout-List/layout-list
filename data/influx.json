@@ -9,6 +9,12 @@
     "song": "Quartzone & Elemn - Inutilia",
     "difficulty": 4,
     "records": [
-        
+         {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/JCeje4fZFu4?si=X2VlFNnfQF3DFvgL",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
