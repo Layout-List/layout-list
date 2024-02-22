@@ -15,6 +15,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.twitch.tv/videos/2070421108",
+            "percent": 71,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
