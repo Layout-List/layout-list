@@ -1,16 +1,14 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 101123938,
+    "name": "Paninireta",
+    "author": "ToastyBois",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
-    "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
+    "verifier": "ToastyBois",
+    "verification": "https://youtu.be/pu7GeMWT0NU",
+    "percentToQualify": 51,
     "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "songLink": "https://www.mediafire.com/file/z8s4wxq12c7anrz/758448.mp3/file",
+    "difficulty": 6,
     "records": [
         
     ]
