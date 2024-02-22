@@ -9,6 +9,12 @@
     "song": "MDK - Astral Badass",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "DELETE999",
+            "link": "https://youtu.be/bXfrrCU6trA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
