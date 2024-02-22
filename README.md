@@ -83,15 +83,15 @@ Can I submit multiple levels in one video?
 
 - Xeronius
 - Hyperbeat
+- hayden
 
 ---
 
 ## Server Moderators:
 
 - Flare
-- hayden
 - NiXaNTy
-- sqrtpie
+- Poke Zach
 - Fawami
 
 ---
