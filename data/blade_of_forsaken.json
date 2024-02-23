@@ -43,6 +43,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "PoiPonPL",
+            "link": "https://www.youtube.com/watch?v=bG1ARd4Ebgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
