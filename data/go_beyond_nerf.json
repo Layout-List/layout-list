@@ -18,9 +18,16 @@
         },
         {
             "user": "Hyperbeat",
-            "link": "https://www.twitch.tv/videos/2070421108",
-            "percent": 71,
+            "link": "https://www.twitch.tv/videos/2071396107",
+            "percent": 94,
             "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=7p--9cFrgj0",
+            "percent": 100,
+            "hz": 240,
             "mobile": false
         }
     ]

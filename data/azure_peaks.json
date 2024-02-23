@@ -78,6 +78,13 @@
             "percent": 100,
             "hz": 500,
             "mobile": false
+        },
+        {
+            "user": "Fallen",
+            "link": "https://www.youtube.com/watch?v=QgGPx0SkrfU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
