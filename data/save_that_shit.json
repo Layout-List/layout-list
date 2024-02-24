@@ -142,6 +142,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "ImPhara",
+            "link": "https://youtu.be/zm-i9RuXpVU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
