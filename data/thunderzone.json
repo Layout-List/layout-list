@@ -106,6 +106,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+          {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/_OwQSeRRSzg?si=6_F5ACtmZsx8WxLB",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
