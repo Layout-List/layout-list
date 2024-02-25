@@ -12,8 +12,8 @@
       "kloone",
       "exho"
     ],
-    "verifier": "Seismic",
-    "verification": "https://youtu.be/bnQ6a1Xn1sU",
+    "verifier": "Thomas Jefferson",
+    "verification": "https://youtu.be/AG5Tg_onnsA",
     "showcase": "https://www.youtube.com/watch?v=YY_b6W3s6gI&ab_channel=LayoutListShowcases",
     "percentToQualify": 100,
     "song": "lexycat - heartbreaker",
@@ -109,13 +109,6 @@
             "link": "https://youtu.be/z8j1MbiuJjE",
             "percent": 100,
             "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Thomas Jefferson",
-            "link": "https://youtu.be/yau-M2YyGAU",
-            "percent": 100,
-            "hz": 240,
             "mobile": false
         }
     ]
