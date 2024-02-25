@@ -64,6 +64,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Doggo136",
+            "link": "https://www.youtube.com/watch?v=XI-HGfETx_U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
