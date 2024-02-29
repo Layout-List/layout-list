@@ -37,6 +37,13 @@
             "percent": 100,
             "hz": 500,
             "mobile": false
+        },
+        {
+            "user": "ImPhara",
+            "link": "https://www.youtube.com/watch?v=tLpbPBEyjHU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
