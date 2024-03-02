@@ -257,6 +257,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "handsomeorange",
+            "link": "https://www.youtube.com/watch?v=igN_IK6ft4g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
