@@ -9,6 +9,11 @@
     "song": "Dunderpatrullen - Tumba Ping Pong Song",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/YSUJTo31m-8",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
