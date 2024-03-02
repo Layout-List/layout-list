@@ -9,6 +9,12 @@
     "song": "Blackhole12 - Snowflower",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=qEVn8fF93ro",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
