@@ -69,6 +69,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Petarp",
+            "link": "https://www.youtube.com/watch?v=PRgddTi6rWI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         }
     ]
 }
