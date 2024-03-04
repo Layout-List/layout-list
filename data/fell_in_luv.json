@@ -39,6 +39,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+        {
+            "user": "Thomas Jefferson",
+            "link": "https://medal.tv/games/geometry-dash/clips/1Z5mrt4wGHvW5W/d133776t41KF?invite=cr-MSxJQ1YsMTk3MjYyOTM2LA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
