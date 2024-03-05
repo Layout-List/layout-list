@@ -107,6 +107,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "TheCatAstronaut",
+            "link": "https://www.youtube.com/watch?v=wVs3-Nvn7N4",
+            "percent": 100,
+            "hz": 170,
+            "mobile": false
         }
     ]
 }
