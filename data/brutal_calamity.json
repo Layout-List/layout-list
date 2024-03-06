@@ -66,6 +66,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "Cowdoom11",
+            "link": "https://www.youtube.com/watch?v=oZtazJ83gDE",
+            "percent": 57,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
