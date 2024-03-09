@@ -11,6 +11,13 @@
     "difficulty": 3,
     "records": [
         {
+            "user": "hayden",
+            "link": "https://www.youtube.com/watch?v=Mw18M7Qjpyk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
             "user": "Xeronius",
             "link": "https://youtu.be/unMk4ICYQgs",
             "percent": 100,
