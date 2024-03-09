@@ -10,5 +10,12 @@
     "difficulty": 0,
     "records": [
         
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=82OLTGypcfo",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        }
     ]
 }
