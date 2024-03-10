@@ -23,6 +23,13 @@
             "percent": 100,
             "hz": 75,
             "mobile": false
+        },
+         {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/KPf5VZERybY?si=xZ1AjoTppEIoxeQ7",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
