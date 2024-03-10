@@ -10,6 +10,13 @@
     "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1216151490876670032",
     "difficulty": 5,
     "records": [
+         {
+            "user": "mr123j",
+            "link": "https://youtu.be/neFM0xP0K_A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
         
     ]
 }
