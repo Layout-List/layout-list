@@ -145,7 +145,8 @@
             "mobile": false
         },
         {
-            "user": "Thomas Jefferson",
+            "user": "Thomas ",
+            "user": "",
             "link": "https://youtu.be/bHpN3SpSQNc",
             "percent": 100,
             "hz": 240,
