@@ -569,6 +569,13 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+          {
+            "user": "GreenFoxTheDumb",
+            "link": "https://youtu.be/AJD483V-crE",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false
         }
     ]
 }

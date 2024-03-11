@@ -246,6 +246,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+         {
+            "user": "purplekirbl",
+            "link": "https://youtu.be/G0-VA6u0F3g?feature=shared",
+            "percent": 100,
+            "hz": 240,
+            "mobile": true
         }
     ]
 }
