@@ -512,6 +512,13 @@
             "percent": 100,
             "hz": 480,
             "mobile": false
+        },
+        {
+            "user": "MurycynGd",
+            "link": "https://www.youtube.com/watch?v=LqjB3yL4-Ys",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
