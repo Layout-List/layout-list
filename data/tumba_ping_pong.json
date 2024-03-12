@@ -49,6 +49,20 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/rOLpmnScGE4",
+            "percent": 100,
+            "hz": 280,
+            "mobile": true
         }
     ]
 }

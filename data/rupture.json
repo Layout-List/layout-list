@@ -9,6 +9,12 @@
     "song": "Albee - Seismic Activity",
     "difficulty": 4,
     "records": [
-        
+        {
+            "user": "TheInsanePro",
+            "link": "https://www.youtube.com/watch?v=J8b7tIRW2Tk",
+            "percent": 69,
+            "hz": 288
+            "mobile": false
+        }
     ]
 }
