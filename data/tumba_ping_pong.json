@@ -56,6 +56,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/rOLpmnScGE4",
+            "percent": 100,
+            "hz": 280,
+            "mobile": true
         }
     ]
 }
