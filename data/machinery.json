@@ -9,6 +9,12 @@
     "song": "Helvetican - PARIS FREQUENCY",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
