@@ -162,6 +162,20 @@
             "percent": 100,
             "hz": 60,
             "mobile": false
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/hz8oXQcVOEQ?si=sm93bb_LXj1WKE29",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+           {
+            "user": "MurycynGd",
+            "link": "https://www.youtube.com/watch?v=oEm0sF8pO-Q",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
