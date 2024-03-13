@@ -5,7 +5,7 @@ import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
-import LevelEnjoyment from '../components/List/LevelEnjoyment.js';
+//import LevelEnjoyment from '../components/List/LevelEnjoyment.js';
 
 const roleIconMap = {
     owner: 'crown',
