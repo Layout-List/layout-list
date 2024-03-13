@@ -10,6 +10,13 @@
     "songLink": "https://www.mediafire.com/file/lxohrka81bdja9k/339246.mp3/file",
     "difficulty": 8,
     "records": [
-        
+        {
+            "user": "test",
+            "link": "",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
+        }
     ]
 }
