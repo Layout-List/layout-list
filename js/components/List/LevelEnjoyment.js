@@ -25,7 +25,11 @@ export default {
 
     computed: {
         avgEnjoyment() {
-            return 5;
+            let score = 0;
+            for (record in this.records) {
+                score += record.enjoyment;
+            }
+            return (score / this.records.length);
         },
     },
 };
