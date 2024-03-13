@@ -1,10 +1,11 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { score, enjoyment } from '../score.js';
+import { score } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
+import LevelEnjoyment from '../components/List/LevelEnjoyment.js';
 
 const roleIconMap = {
     owner: 'crown',
@@ -249,7 +250,6 @@ export default {
     },
     methods: {
         embed,
-        score,
-        enjoyment
+        score
     },
 };
