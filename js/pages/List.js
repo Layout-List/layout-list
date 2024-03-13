@@ -6,7 +6,6 @@ import { fetchEditors, fetchList } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 import LevelEnjoyment from '../components/List/LevelEnjoyment.js';
-import LevelEnjoyme from '../components/List/LevelEnjoyme.js';
 
 const roleIconMap = {
     owner: 'crown',
@@ -43,9 +42,7 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
-                    <LevelEnjoyme :records="level.records"></LevelEnjoyme>
                     <LevelEnjoyment :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelEnjoyment>
-                    <h3>Average Enjoyment: {{ "in development" }}/10</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
                             <span class="type-label-lg">Verification</span>
