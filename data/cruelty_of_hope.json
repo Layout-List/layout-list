@@ -100,6 +100,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+         {
+            "user": "InfAstraL",
+            "link": "https://www.youtube.com/watch?v=dvcuH4TGlOQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         }
     ]
 }
