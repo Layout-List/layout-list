@@ -9,6 +9,13 @@
     "song": "Xtrullor - Supernova",
     "difficulty": 2,
     "records": [
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/bj49taskbEg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
         
     ]
 }
