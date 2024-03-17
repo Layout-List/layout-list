@@ -1025,6 +1025,13 @@
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Pr0Gamer1192",
+            "link": "https://www.youtube.com/watch?v=EO-QrBXWdZo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

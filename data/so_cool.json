@@ -1077,12 +1077,19 @@
             "hz": 480,
             "mobile": false
         },
-          {
+        {
             "user": "QwidziT",
             "link": "https://youtu.be/k71CcUHzAio",
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Pr0Gamer1192",
+            "link": "https://www.youtube.com/watch?v=f5Ds3loOkSs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
