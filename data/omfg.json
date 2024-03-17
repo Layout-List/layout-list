@@ -10,6 +10,27 @@
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1217774259078692944/627354.mp3?ex=66053fa8&is=65f2caa8&hm=e4139b5b9d5bd31b89598f9f554b518b221fff2a3dd1789a2414fb0b75a9ff0b&",
     "difficulty": 2,
     "records": [
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://www.youtube.com/watch?v=EHF2WRHkwu4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "monthmai",
+            "link": "https://www.youtube.com/watch?v=RrfRNGYjqdw",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        },
+         {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=0dfvBS0CuGk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }

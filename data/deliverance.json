@@ -11,6 +11,20 @@
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1218265254828707990/1165745.mp3?ex=660708ef&is=65f493ef&hm=2cbbcfa9efecd61e1925a9621bc29ee222084fd2d55ab5b59d22e2bc6a63fb3b&",
     "difficulty": 2,
     "records": [
+        {
+            "user": "fusemax",
+            "link": "https://www.youtube.com/watch?v=YWMZ6Kben30",
+            "percent": 144,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=0dfvBS0CuGk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
         
     ]
 }
