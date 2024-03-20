@@ -10,6 +10,13 @@
     "difficulty": 1,
     "records": [
         {
+            "user": "evil",
+            "link": "https://youtu.be/zdxf204b4o8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
             "user": "Xeronius",
             "link": "https://youtu.be/e_Y_Z9jxzpw",
             "percent": 100,
