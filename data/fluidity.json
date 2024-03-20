@@ -10,6 +10,13 @@
     "difficulty": 1,
     "records": [
         {
+            "user": "evil",
+            "link": "https://youtu.be/zdxf204b4o8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
             "user": "Xeronius",
             "link": "https://youtu.be/e_Y_Z9jxzpw",
             "percent": 100,
@@ -37,11 +44,18 @@
             "hz": 120,
             "mobile": true
         },
-          {
+        {
             "user": "RaynoXx",
             "link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
             "percent": 100,
             "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/V_bcFEtg7sc?si=SnSBIPp4qHC-MxXH",
+            "percent": 100,
+            "hz": 120,
             "mobile": true
         }
     ]
