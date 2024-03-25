@@ -112,6 +112,13 @@
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
