@@ -9,6 +9,12 @@
     "song": "Diivi - Glaive - Astrid (Remix)",
     "difficulty": 5,
     "records": [
-        
+        {
+            "user": "idiotdash",
+            "link": "https://youtu.be/8aTeG0WXFrE",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        }
     ]
 }
