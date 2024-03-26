@@ -64,6 +64,13 @@
           "percent": 100,
           "hz": 60,
           "mobile": true
+        },
+        {
+          "user": "The16FigureLimit",
+          "link": "https://www.youtube.com/watch?v=p_XQ72WJye0",
+          "percent": 100,
+          "hz": 75,
+          "mobile": false
         }
         
     ]
