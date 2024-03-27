@@ -136,6 +136,13 @@
           "percent": 100,
           "hz": 75,
           "mobile": false
+        },
+        {
+          "user": "zap",
+          "link": "https://youtu.be/nNq_RLEo4_0?feature=shared",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
         }
     ]
 }

@@ -23,6 +23,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/ONtf9rLryRE?feature=shared",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
         }
     ]
 }
