@@ -9,6 +9,13 @@
     "song": "Dunderpatrullen - Cosmo Hotline",
     "difficulty": 4,
     "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=hEduWNbkjn0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
         
     ]
 }
