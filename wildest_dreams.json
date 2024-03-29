@@ -10,6 +10,12 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1222971944345796608/16869.mp3?ex=66182861&is=6605b361&hm=1c6387c8603e75a4433f815c5f85f1a023500354b4e4db8f4cc9d03d8b803a6e&",
     "difficulty": 2,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=0u641VPkmeI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        }
     ]
 }
