@@ -8,5 +8,5 @@ export default [
     { path: '/leaderboard', component: Leaderboard },
     { path: '/creatorleaderboard', component: CreatorLeaderboard },
     { path: '/roulette', component: Roulette },
-    { path: '/fools', component: Fools },
+    { path: '/fools', component: List },
 ];
