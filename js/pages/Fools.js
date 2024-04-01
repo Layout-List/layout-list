@@ -1,7 +1,7 @@
-export default {
-    template: `
-        <main>
-            <p>{{ "Your computer has virus." }}</p>
-        </main>
-    `,
-}
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+</body>
+</html>
