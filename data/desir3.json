@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
-    "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "id": 103000641,
+    "name": "desir3",
+    "author": "hayden",
+    "creators": ["Flare"],
+    "verifier": "hayden",
+    "verification": "https://youtu.be/_8wqjOrd8TQ",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "onumi - desire",
+    "difficulty": 3,
     "records": [
         
     ]
