@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 103269973,
+    "name": "Pearly Gates",
+    "author": "Blysteryx",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
-    "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "verifier": "Blysteryx",
+    "verification": "https://youtu.be/aBEcaALY8R0?si=jSOK2vyVpMOM2Xm4",
+    "percentToQualify": 100
+    "song": "Meganeko - Earth",
+    "difficulty": 0,
     "records": [
         
     ]
