@@ -30,6 +30,13 @@
             "percent": 100,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "idiotdash",
+            "link": "https://www.youtube.com/watch?v=LGda71OcvTQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

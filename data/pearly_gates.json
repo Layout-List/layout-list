@@ -9,6 +9,12 @@
     "song": "Meganeko - Earth",
     "difficulty": 0,
     "records": [
-        
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/Bs8mv41lKcI",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        }
     ]
 }
