@@ -394,7 +394,8 @@
             "link": "https://www.youtube.com/watch?v=z8Gbsb9jqPE",
             "percent": 100,
             "hz": 60,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 4/10
         },
         {
             "user": "SarcasticMuch",
