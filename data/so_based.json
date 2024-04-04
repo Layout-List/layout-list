@@ -20,7 +20,8 @@
             "link": "https://youtu.be/idC48K0HSx4",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 0
         }
     ]
 }
