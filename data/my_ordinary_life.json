@@ -204,7 +204,8 @@
             "link": "https://www.youtube.com/watch?v=PUgrutdr6dk",
             "percent": 100,
             "hz": 60,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "7"
         },
         {
             "user": "KasiaUwU",
@@ -323,6 +324,13 @@
             "link": "https://www.youtube.com/watch?v=FOy9QFTX0-U",
             "percent": 100,
             "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "QwidziT",
+            "link": "https://youtu.be/EhUC1Bt8B94",
+            "percent": 100,
+            "hz": 120,
             "mobile": true
         }
     ]

@@ -120,6 +120,13 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/k-TWLnp64dQ?si=Td35feRrXBv8b1jA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }

@@ -64,7 +64,8 @@
             "link": "https://youtu.be/dqvA-uchddg",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "5"
         }
     ]
 }
