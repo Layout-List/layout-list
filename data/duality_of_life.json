@@ -9,48 +9,55 @@
     "percentToQualify": 58,
     "song": "Creo - Rivals",
     "difficulty": 4,
+    "enjoyment": "9/10",
     "records": [
         {
             "user": "hayden",
             "link": "https://youtu.be/Hx7d_I88Www",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "?"
         },
         {
             "user": "mrperson",
             "link": "https://youtu.be/5Kz_1pI-J6Y",
             "percent": 100,
             "hz": 144,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6
         },
         {
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=CPgS2uspV78",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6
         },
         {
             "user": "Skip",
             "link": "https://youtu.be/PHntJNLvLsE",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
          {
             "user": "sphericle",
             "link": "https://youtu.be/epI-GVaqBUE",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
             {
             "user": "DeleteNine",
             "link": "https://youtu.be/2yFnAkJ84D0",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }

@@ -8,6 +8,7 @@
     "percentToQualify": 100,
     "song": "surasshu - The Penis (Eek!) [Solaraloes WAAAH! Remix]",
     "difficulty": 3,
+    "enjoyment": "9/10",
     "records": [
         {
             "user": "rastuyas",
@@ -49,7 +50,8 @@
             "link": "https://youtu.be/PHntJNLvLsE",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "DeleteNine",

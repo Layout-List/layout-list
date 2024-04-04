@@ -37,7 +37,8 @@
             "link": "https://youtu.be/MN1odbQzIL0?si=vtdoAX-QLGhTAfrV",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "whitmp4",

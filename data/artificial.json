@@ -581,7 +581,8 @@
             "link": "https://youtu.be/oWiFwRQhWVQ",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "Dropp",

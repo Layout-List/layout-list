@@ -86,7 +86,8 @@
             "link": "https://youtu.be/X1bIoXwxg8E",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 0
         },
         {
             "user": "Xeronius",
