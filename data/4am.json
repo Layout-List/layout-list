@@ -113,7 +113,8 @@
             "link": "https://www.youtube.com/watch?v=-xs601eMwnw",
             "percent": 100,
             "hz": 60,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6/10
         },
         {
             "user": "evil",
