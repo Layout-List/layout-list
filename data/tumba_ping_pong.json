@@ -13,7 +13,9 @@
             "user": "Xeronius",
             "link": "https://youtu.be/YSUJTo31m-8",
             "percent": 100,
-            "hz": 75
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "9"
         },
         {
             "user": "Alvaneder",
