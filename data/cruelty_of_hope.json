@@ -86,7 +86,8 @@
             "link": "https://youtu.be/NBpfppAfN8c",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "10"
         },
          {
             "user": "sphericle",
