@@ -14,21 +14,24 @@
             "link": "https://www.youtube.com/watch?v=ehzqgUp8A08",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 2
         },
          {
             "user": "LimeDub",
             "link": "https://youtu.be/AfxIzAlS_6I",
             "percent": 65,
             "hz": 288,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "?"
         },
          {
             "user": "skip",
             "link": "https://youtu.be/p30tj7H1r1s",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }

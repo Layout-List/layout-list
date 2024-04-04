@@ -63,7 +63,8 @@
             "link": "https://youtu.be/4LTgqx-7Xy0",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 5
         },
         {
             "user": "monthmai",

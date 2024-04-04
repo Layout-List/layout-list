@@ -15,14 +15,16 @@
             "link": "https://www.youtube.com/watch?v=YUMGnJ-4PZ8",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
          {
             "user": "HamsterPlayz",
             "link": "https://www.youtube.com/watch?v=6Fo2euh0ROg",
             "percent": 100,
             "hz": 144,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         }
         
     ]

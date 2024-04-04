@@ -15,14 +15,16 @@
                "link": "https://youtu.be/znfHHXTPk8k",
                "percent": 100,
                "hz": 360,
-               "mobile": false
+               "mobile": false,
+               "enjoyment": 8
         },
         {
             "user": "Blueberry",
             "link": "https://youtu.be/8_ZHrl2EgWk",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

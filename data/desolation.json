@@ -51,7 +51,8 @@
             "link": "https://youtu.be/6HPuB3SxCfQ",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 2
         },
         {
             "user": "nolli",

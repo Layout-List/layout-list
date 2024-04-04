@@ -28,7 +28,8 @@
             "link": "https://youtu.be/pTYtVzVkQOU",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 5
         },
         {
             "user": "rfanvs",
