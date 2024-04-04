@@ -24,7 +24,32 @@
             "link": "https://youtu.be/PQjyYkpqAd4?si=2AyTB1Yhc95rzWpk",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=1SkNbz3a07k",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=5lJ5HAuQNVI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/s-PGet-UEFY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "mr123j",
@@ -38,27 +63,6 @@
             "link": "https://www.youtube.com/watch?v=ixTygurV554",
             "percent": 64,
             "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "Robotic",
-            "link": "https://www.youtube.com/watch?v=1SkNbz3a07k",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=5lJ5HAuQNVI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/s-PGet-UEFY",
-            "percent": 100,
-            "hz": 240,
             "mobile": false
         }
     ]
