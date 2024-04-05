@@ -12,13 +12,15 @@
     "song": "Camellia(\u304b\u3081\u308a\u3042) - Kamah (Scythe)",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/921847562321940540/656428.mp3",
     "difficulty": 7,
+    "enjoyment": "8.75/10",
     "records": [
         {
             "user": "Blathers",
             "link": "https://www.youtube.com/watch?v=ML7PjNADK-k",
             "percent": 100,
             "hz": 288,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 7.5
         },
         {
             "user": "BrowarKedawar",
@@ -158,7 +160,8 @@
             "link": "https://youtu.be/TArERm3ePNQ",
             "percent": 100,
             "hz": 60,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Fawami",
