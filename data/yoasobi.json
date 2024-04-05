@@ -422,7 +422,8 @@
             "link": "https://youtu.be/vccuFLVj7Fc?si=k3oxkwrDHAkJOIUc",
             "percent": 100,
             "hz": 120,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "rastuyas",
