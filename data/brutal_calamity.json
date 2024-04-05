@@ -10,14 +10,15 @@
     "song": "DM DOKURO - Stained, Brutal Calamity",
     "songLink": "https://cdn.discordapp.com/attachments/855215021566590977/1019416008932466719/565826.mp3",
     "difficulty": 8,
-    "enjoyment": "9/10",
+    "enjoyment": "9.5/10",
     "records": [
         {
             "user": "sqrtpie",
             "link": "https://youtu.be/mtNAsdFkP-s",
             "percent": 100,
             "hz": 120,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "hayden",
