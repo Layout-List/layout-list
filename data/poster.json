@@ -106,8 +106,7 @@
             "link": "https://youtu.be/roAduRX80mg",
             "percent": 62,
             "hz": 360,
-            "mobile": true,
-            "enjoyment": "?"
+            "mobile": true
         },
         {
             "user": "Acacia",
@@ -258,8 +257,7 @@
             "link": "https://www.youtube.com/watch?v=KAfDOZNnBSQ",
             "percent": 72,
             "hz": 360,
-            "mobile": false,
-            "enjoyment": "?"
+            "mobile": false
         },
         {
             "user": "skzyl",
