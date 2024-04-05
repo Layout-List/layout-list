@@ -8,6 +8,7 @@
     "percentToQualify": 56,
     "song": "Dungeecount - Distraught Subconscience",
     "difficulty": 8,
+    "enjoyment": "7.05/10",
     "records": [
         {
             "user": "evil",
@@ -22,21 +23,24 @@
             "link": "https://www.youtube.com/watch?v=7p--9cFrgj0",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9.5
         },
         {
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=_Np5EEFG-6U",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8.7
         },
         {
             "user": "hayden",
             "link": "https://youtu.be/pnqeKs21YUw",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }
