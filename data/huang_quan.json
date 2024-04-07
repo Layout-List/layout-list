@@ -1,88 +1,15 @@
 {
-    "id": 77765467,
+    "id": 103619936,
     "name": "huang quan",
     "author": "Snips",
     "creators": [],
-    "verifier": "Fusion425",
-    "verification": "https://youtu.be/JnJJh216c20",
+    "verifier": "hayden",
+    "verification": "https://youtu.be/PtKpZeAH71w",
     "showcase": "https://youtu.be/QoCItbZ3xCs",
     "percentToQualify": 55,
     "song": "Influx - \u9ec4\u6cc9",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/921847447112777748/581117.mp3",
     "difficulty": 8,
     "enjoyment": "6.69/10",
-    "records": [
-        {
-            "user": "rustic",
-            "link": "https://youtu.be/YtXiwTG3ObI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://www.youtube.com/watch?v=HBwcmaoLsjw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Snips",
-            "link": "https://youtu.be/5zVCFt-VZaQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7.5
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/n1wPTPAXVjk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/V37gsFhudyg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/7Ns2bHALadU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "hayden",
-            "link": "https://youtu.be/k27bnk9igZQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Seismic",
-            "link": "https://youtu.be/XsFLTAdpDbo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=a1nz_S2x_dk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+    "records": []
 }
