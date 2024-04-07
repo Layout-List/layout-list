@@ -1,6 +1,6 @@
 {
     "id": 102511672,
-    "name": "DIAN",
+    "name": "DIAN 🔴",
     "author": "Coinlol",
     "creators": [],
     "verifier": "Coinlol",
@@ -8,13 +8,15 @@
     "percentToQualify": 100,
     "song": "EX-LYD - Cosmic Dance",
     "difficulty": 1,
+    "enjoyment": "8.43/10",
     "records": [
         {
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=hEduWNbkjn0",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": "8.7"
         },
         {
             "user": "Blysteryx",
@@ -31,7 +33,14 @@
             "hz": 75,
             "mobile": false,
             "enjoyment": "8"
-        }
-        
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/SKRKPESOwRQ",
+            "percent": 100,
+            "hz": 600,
+            "mobile": false,
+            "enjoyment": "9"
+        } 
     ]
 }
