@@ -16,26 +16,34 @@
             "hz": 360,
             "mobile": false
         },
-            {
-                "user": "Alvaneder",
-                "link": "https://www.youtube.com/watch?v=nLaIsoFNgcM",
-                "percent": 100,
-                "hz": 144,
-                "mobile": false
-            },
-                {
-                    "user": "Hyperbeat",
-                    "link": "https://youtu.be/WYf5hySuID8",
-                    "percent": 100,
-                    "hz": 240,
-                    "mobile": false
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=nLaIsoFNgcM",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
         },
         {
-                    "user": "Xeronius",
-                    "link": "https://youtu.be/GRhbv_hhIEg",
-                    "percent": 100,
-                    "hz": 75,
-                    "mobile": false
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/WYf5hySuID8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/GRhbv_hhIEg",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=v_FQCYW0PSI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": "10"
         }
     ]
 }
