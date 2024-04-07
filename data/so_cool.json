@@ -1091,6 +1091,14 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=SZ2qE7m77vA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "6"
         }
     ]
 }
