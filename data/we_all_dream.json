@@ -10,6 +10,14 @@
     "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/V_Hy06EV66A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
         
     ]
 }
