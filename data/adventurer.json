@@ -25,6 +25,14 @@
     "difficulty": 7,
     "enjoyment": "?/10",
     "records": [
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/d4895QtMM2w",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
         
     ]
 }
