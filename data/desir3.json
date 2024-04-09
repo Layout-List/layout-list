@@ -8,7 +8,16 @@
     "percentToQualify": 100,
     "song": "onumi - desire",
     "difficulty": 3,
+    "enjoyment": "5.2/10",
     "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=0NlzfxqwKXc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5.2
+        }
         
     ]
 }

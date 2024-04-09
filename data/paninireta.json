@@ -9,7 +9,16 @@
     "song": "Himiwari - Fragile",
     "songLink": "https://www.mediafire.com/file/z8s4wxq12c7anrz/758448.mp3/file",
     "difficulty": 6,
+    "enjoyment": "8.6/10",
     "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=0NlzfxqwKXc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8.6
+        }
         
     ]
 }
