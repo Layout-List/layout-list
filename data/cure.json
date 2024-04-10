@@ -9,7 +9,7 @@
     "song": "AURORA - Cure For Me",
     "songLink": "https://drive.google.com/drive/folders/1DSXc6H28BltTbXTebBZbF5lcUjHsYM0V",
     "difficulty": 6,
-    "enjoyment": "8.7/10",
+    "enjoyment": "9/10",
     "records": [
         {
             "user": "Hyperbeat",
@@ -17,7 +17,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 8.7
+            "enjoyment": 9
         }
         
     ]
