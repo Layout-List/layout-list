@@ -14,7 +14,8 @@
             "link": "https://www.youtube.com/watch?v=lDO2s5OaT-A",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "DJJDK",
