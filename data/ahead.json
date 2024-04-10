@@ -92,7 +92,8 @@
             "link": "https://www.twitch.tv/videos/1883094419",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "hayden",

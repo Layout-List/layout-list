@@ -133,7 +133,8 @@
             "link": "https://www.youtube.com/watch?v=BU5Ms7PJ6D4",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "Xeronius",

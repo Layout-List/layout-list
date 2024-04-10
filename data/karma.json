@@ -153,7 +153,8 @@
             "link": "https://www.twitch.tv/videos/1525965105",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 4
         },
         {
             "user": "sqrtpie",

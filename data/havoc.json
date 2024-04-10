@@ -142,16 +142,10 @@
             "link": "https://www.youtube.com/watch?v=FvTvZC5rwzE",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 1
         },
         {
-            "user": "xNebular",
-            "link": "https://youtu.be/0npkQSyxD9k",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-         {
             "user": "xNebular",
             "link": "https://youtu.be/0npkQSyxD9k",
             "percent": 100,
