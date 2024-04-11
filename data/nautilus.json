@@ -63,7 +63,8 @@
             "link": "https://www.youtube.com/watch?v=uOgx6nuo75A",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6
         },
         {
             "user": "Mystikl",
