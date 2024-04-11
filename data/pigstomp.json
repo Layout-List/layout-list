@@ -36,7 +36,8 @@
             "link": "https://m.youtube.com/watch?v=AXqRfx9rnRI",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "ThisGuyKreas",
