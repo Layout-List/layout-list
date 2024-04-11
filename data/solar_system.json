@@ -303,8 +303,9 @@
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=lZkPPTMoXAY",
             "percent": 100,
-            "hz": 360,
-            "mobile": false
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         },
          {
             "user": "x46y",
