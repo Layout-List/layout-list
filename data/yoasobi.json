@@ -366,7 +366,8 @@
             "link": "https://youtu.be/TZwe_cZd8ow",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "snips",

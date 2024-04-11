@@ -94,7 +94,8 @@
             "link": "https://www.youtube.com/watch?v=5Vb6uhJlEFs",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "rastuyas",
