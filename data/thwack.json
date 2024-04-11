@@ -322,7 +322,8 @@
             "link": "https://www.youtube.com/watch?v=jlSxjQKbCUQ",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "Jab",

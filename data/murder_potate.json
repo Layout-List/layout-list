@@ -79,7 +79,8 @@
             "link": "https://youtu.be/EMu_MJ7PiYA?si=bVC2oQ9gQTNgF2pn",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 1
           }
     ]
 }

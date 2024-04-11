@@ -130,7 +130,8 @@
             "link": "https://www.youtube.com/watch?v=BOfM-DfzZkI",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 4
         },
         {
             "user": "Poke Zach",
