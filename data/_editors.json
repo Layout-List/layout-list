@@ -34,11 +34,6 @@
         "name": "Flare",
         "link": "https://www.youtube.com/@krispychikeen5656"
     },
-     {
-        "role": "helper",
-        "name": "NiXaNTy",
-        "link": "https://www.youtube.com/channel/UC3fg0-hXdR7gKGFp-h1Kibg"
-    },
     {
         "role": "helper",
         "name": "Poke Zach",
@@ -46,8 +41,13 @@
     },
     {
         "role": "helper",
-        "name": "Fawami",
-        "link": "https://www.youtube.com/@fawami"
+        "name": "Blysteryx",
+        "link": "https://youtube.com/@blysteryxgd6709?si=aRCRkvcJOf_rKiME"
+    },
+    {
+        "role": "helper",
+        "name": "skip",
+        "link": "https://youtube.com/@skiptracingclub?si=oVlNPkIeDDaklw9d"
     },
     {
         "role": "dev",
