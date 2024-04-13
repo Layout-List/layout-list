@@ -135,7 +135,7 @@ export default {
                     
                     <h3>Record Submission Requirements</h3>
                     <p>
-                        You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack).
+                        You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, as well as clicks between frames).
                     </p>
                     <p>
                         You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
