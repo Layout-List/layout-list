@@ -25,6 +25,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": "7"
+        },
+        {
+            "user": "caterpillar",
+            "link": "https://youtu.be/3wWAJRj0q8E?feature=shared",
+            "percent": 49,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "7"
         }
         
     ]
