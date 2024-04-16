@@ -5,7 +5,6 @@ import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
-import LevelEnjoyment from '../components/List/LevelEnjoyment.js';
 
 const roleIconMap = {
     owner: 'crown',
@@ -66,7 +65,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ level.enjoyment || '?/10' }}</p>
+                            <p>{{ level.enjoyment || "?/10" }}</p>
                         </li>
                     </ul>
                     <ul class="stats">
