@@ -110,6 +110,15 @@ export function cscore(contributorrole) {
     return cscore;
 }
 
+export function avgEnjoyment(records) {
+    let count = 0;
+    for (let i = 0; i < level.records.length(); i++) {
+            count += level.records[i].enjoyment;
+        }
+    }
+    return (count / level.records.length());
+}
+
 export function round(num) {
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
