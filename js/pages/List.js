@@ -65,7 +65,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ level.avgEnjoyment }}</p>
+                            <p>{{ level.avgEnjoyment() }}</p>
                         </li>
                     </ul>
                     <ul class="stats">
@@ -230,7 +230,7 @@ export default {
         avgEnjoyment() {
             let count = 0;
             for (let i = 0; i < records.length; i++) {
-                    count += (record.enjoyment || 0);
+                    count += record.enjoyment;
                 }
             }
             return (count / records.length);
