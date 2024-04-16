@@ -227,14 +227,14 @@ export default {
                     : this.level.verification
             );
         },
-        avgEnjoyment() {
+        /*avgEnjoyment() {
             let count = 0;
             for (let i = 0; i < records.length; i++) {
                     count += record.enjoyment;
                 }
             }
             return (count / records.length);
-        },
+        },*/
     },
     async mounted() {
         // Hide loading spinner
