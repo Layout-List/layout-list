@@ -65,7 +65,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ level.avgEnjoyment() || "?/10" }}</p>
+                            <p>{{ avgEnjoyment(level) || "?/10" }}</p>
                         </li>
                     </ul>
                     <ul class="stats">
@@ -227,13 +227,13 @@ export default {
                     : this.level.verification
             );
         },
-        avgEnjoyment() {
+        avgEnjoyment(level) {
             let count = 0;
-            for (record in this.records) {
+            for (record in level.records) {
                     count += record.enjoyment;
                 }
             }
-            return (count / this.records.length());
+            return (count / level.records.length());
         },
     },
     async mounted() {
