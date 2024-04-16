@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { score } from '../score.js';
+import { score, avgEnjoyment } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
@@ -65,7 +65,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ avgEnjoyment(level) || "?/10" }}</p>
+                            <p>{{ avgEnjoyment(level.records) || "?/10" }}</p>
                         </li>
                     </ul>
                     <ul class="stats">
@@ -227,14 +227,6 @@ export default {
                     : this.level.verification
             );
         },
-        avgEnjoyment(level) {
-            let count = 0;
-            for (let i = 0; i < level.records.length(); i++) {
-                    count += level.records[i].enjoyment;
-                }
-            }
-            return (count / level.records.length());
-        },
     },
     async mounted() {
         // Hide loading spinner
@@ -262,6 +254,7 @@ export default {
     },
     methods: {
         embed,
-        score
+        score,
+        avgEnjoyment
     },
 };
