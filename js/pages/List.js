@@ -229,8 +229,8 @@ export default {
         },
         avgEnjoyment(level) {
             let count = 0;
-            for (record in level.records) {
-                    count += record.enjoyment;
+            for (let i = 0; i < level.records.length(); i++) {
+                    count += level.records[i].enjoyment;
                 }
             }
             return (count / level.records.length());
