@@ -5,7 +5,6 @@ import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
-import LevelEnjoyment from '../components/List/LevelEnjoyment.js';
 
 const roleIconMap = {
     owner: 'crown',
@@ -227,6 +226,15 @@ export default {
                     ? this.level.showcase
                     : this.level.verification
             );
+        },
+        avgEnjoyment() {
+            let count = 0;
+            for (let i = 0; i < records.length; i++) {
+                if (record.enjoyment != null) {
+                    count += record.enjoyment
+                }
+            }
+            return (count / records.length);
         },
     },
     async mounted() {
