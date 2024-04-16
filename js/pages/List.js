@@ -230,8 +230,7 @@ export default {
         avgEnjoyment() {
             let count = 0;
             for (let i = 0; i < records.length; i++) {
-                if (record.enjoyment != null) {
-                    count += record.enjoyment
+                    count += (record.enjoyment || 0)
                 }
             }
             return (count / records.length);
