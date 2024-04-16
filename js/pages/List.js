@@ -65,7 +65,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ level.avgEnjoyment() }}</p>
+                            <p>{{ level.avgEnjoyment }}</p>
                         </li>
                     </ul>
                     <ul class="stats">
