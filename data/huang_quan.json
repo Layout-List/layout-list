@@ -19,6 +19,13 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://clips.twitch.tv/AdventurousAnimatedLlamaRiPepperonis-1OngR7lAnr9bcJLw",
+            "percent": 78,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
