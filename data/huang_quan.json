@@ -22,10 +22,11 @@
         },
         {
             "user": "Hyperbeat",
-            "link": "https://clips.twitch.tv/AdventurousAnimatedLlamaRiPepperonis-1OngR7lAnr9bcJLw",
-            "percent": 78,
+            "link": "https://www.youtube.com/watch?v=7KHNBGmOzPs",
+            "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
