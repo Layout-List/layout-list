@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 97703967,
+    "name": "Space FX",
+    "author": "xXDoraimonXx",
     "creators": [],
-    "verifier": "verifier",
+    "verifier": "xXDoraimonXx",
     "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Bossfight - Milky Ways",
+    "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
         
