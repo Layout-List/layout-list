@@ -293,12 +293,19 @@
             "hz": 60,
             "mobile": false
         },
-          {
+        {
             "user": "RaynoXx",
             "link": "https://youtu.be/hz8oXQcVOEQ?si=sm93bb_LXj1WKE29",
             "percent": 100,
             "hz": 60,
             "mobile": true
-        }
+        }, 
+        {
+            "user": "Raezori",
+            "link": "https://www.youtube.com/watch?v=v0Cq2qf1E80",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
     ]
 }
