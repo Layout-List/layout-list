@@ -235,6 +235,13 @@
             "percent": 100,
             "hz": 165,
             "mobile": false
+        },
+        {
+            "user": "Raezori",
+            "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
