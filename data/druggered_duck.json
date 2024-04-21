@@ -209,8 +209,8 @@
             "link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
             "percent": 100,
             "hz": 60,
-            "mobile" true,
-            "enjoyment" 5
+            "mobile": true,
+            "enjoyment": 5
         }
     ]
 }
