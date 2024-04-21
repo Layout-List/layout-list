@@ -384,6 +384,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "2"
+        },
+        {
+            "user": "Raezori",
+            "link": "https://youtu.be/AlFNoiroSZw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" 1
         }
     ]
 }
