@@ -226,7 +226,8 @@
             "link": "https://www.youtube.com/watch?v=JX2d07P0eDg&ab_channel=NaraZOOM",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment" : 5
         }
     ]
 }
