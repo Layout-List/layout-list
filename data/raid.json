@@ -60,6 +60,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=0nPay3QY4Wc&ab_channel=Blysofthelist",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }
