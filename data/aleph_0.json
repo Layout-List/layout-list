@@ -214,12 +214,19 @@
             "hz": 144,
             "mobile": false
         },
-         {
+        {
             "user": "RaynoXx",
             "link": "https://youtu.be/WgmMEN8sGHA?si=NSMAugcVq-OUy0l4",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "NaraZOOM",
+            "link": "https://www.youtube.com/watch?v=JX2d07P0eDg&ab_channel=NaraZOOM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
