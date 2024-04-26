@@ -75,24 +75,22 @@ Can I submit multiple levels in one video?
 
 - whitmp4
 - Asteria.
-- evil
 
 ---
 
 ## List Helpers:
 
 - Xeronius
-- Hyperbeat
-- hayden
+- rastuyas
+- evil
 
 ---
 
 ## Server Moderators:
 
 - Flare
-- NiXaNTy
 - Poke Zach
-- Fawami
+- Blysteryx
 
 ---
 
