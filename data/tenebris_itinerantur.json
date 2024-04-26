@@ -10,14 +10,6 @@
     "difficulty": 2,
     "records": [
         {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=dtouUQv6V-Q",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
             "user": "Xeronius",
             "link": "https://youtu.be/6X2lhRGpoTo",
             "percent": 100,

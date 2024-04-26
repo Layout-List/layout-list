@@ -18,21 +18,11 @@
         "agentgiscool",
         "Blueberry"
     ],
-    "verifier": "Hyperbeat",
-    "verification": "https://www.youtube.com/watch?v=FhbH_-RHBBY",
+    "verifier": "sn0w",
+    "verification": "https://youtu.be/d4895QtMM2w",
     "percentToQualify": 59,
     "song": "Koraii - Sanctuary",
     "difficulty": 7,
     "enjoyment": "10/10",
-    "records": [
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/d4895QtMM2w",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-        
-    ]
+    "records": []
 }

@@ -11,14 +11,6 @@
     "difficulty": 3,
     "records": [
         {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=0dfvBS0CuGk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
             "user": "Mystikl",
             "link": "https://youtu.be/zan5-tcMbew",
             "percent": 100,

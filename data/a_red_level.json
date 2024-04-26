@@ -10,14 +10,6 @@
     "difficulty": 4,
     "records": [
         {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=CPgS2uspV78",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
             "user": "TheCatAstronaut",
             "link": "https://www.youtube.com/watch?v=xBvaUIDbTKI",
             "percent": 100,

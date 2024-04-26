@@ -12,15 +12,6 @@
     "song": "Creo - Dimension",
     "difficulty": 4,
     "records": [
-        
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=bHQ9Rbl3_rg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
         {
             "user": "Tradeskill",
             "link": "https://youtu.be/kI6fdWmq7q4",

@@ -82,17 +82,15 @@ Can I submit multiple levels in one video?
 ## List Helpers:
 
 - Xeronius
-- Hyperbeat
-- hayden
+- rastuyas
 
 ---
 
 ## Server Moderators:
 
 - Flare
-- NiXaNTy
 - Poke Zach
-- Fawami
+- Blysteryx
 
 ---
 

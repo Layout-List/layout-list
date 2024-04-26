@@ -1,6 +1,6 @@
 {
     "id": 102511672,
-    "name": "DIAN 🔴",
+    "name": "DIAN",
     "author": "Coinlol",
     "creators": [],
     "verifier": "Coinlol",
@@ -10,14 +10,6 @@
     "difficulty": 1,
     "enjoyment": "8.43/10",
     "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=hEduWNbkjn0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "9"
-        },
         {
             "user": "Blysteryx",
             "link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",

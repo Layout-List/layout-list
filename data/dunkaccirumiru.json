@@ -9,14 +9,5 @@
     "song": "Cakewalking Tortokhod - DUNKACCIRUMIRU",
     "songLink": "https://cdn.discordapp.com/attachments/861820730521681920/862722043324530698/573245.mp3?ex=65d76d03&is=65c4f803&hm=4a7e3e921da83124afa623eaccf69d78da9891747201b1e903e171450342bb59&",
     "difficulty": 4,
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=XfyeTlRWJqo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+    "records": []
 }

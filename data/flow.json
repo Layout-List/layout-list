@@ -3,20 +3,13 @@
     "name": "Flow",
     "author": "Solelak",
     "creators": [],
-    "verifier": "Hyperbeat",
-    "verification": "https://youtu.be/dDd4i5iG-K8",
+    "verifier": "Solelak",
+    "verification": "https://www.youtube.com/watch?v=E13FBkkz8k8",
     "percentToQualify": 100,
     "song": "Creo - Flow",
     "difficulty": 0,
     "enjoyment": 9,
     "records": [
-        {
-            "user": "Solelak",
-            "link": "https://www.youtube.com/watch?v=E13FBkkz8k8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
         {
             "user": "Xeronius",
             "link": "https://youtu.be/pYAfhPeUQIw",
