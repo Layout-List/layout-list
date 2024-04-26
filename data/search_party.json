@@ -11,14 +11,6 @@
     "difficulty": 4,
     "records": [
         {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=hEduWNbkjn0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
             "user": "Blueberry",
             "link": "https://www.youtube.com/watch?v=ntYQUDW23gM",
             "percent": 100,

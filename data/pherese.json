@@ -11,14 +11,6 @@
     "enjoyment": "?/10",
     "records": [
         {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=XMd_ZY-92Jg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "9"
-        },
-        {
             "user": "Mystikl",
             "link": "https://youtu.be/3eOTQUWuQzg",
             "percent": 100,
