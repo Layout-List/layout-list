@@ -66,26 +66,26 @@
             "mobile": false
         },
         {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=RS5xYEMCZR0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
             "user": "nxtcrystxl",
             "link": "https://www.youtube.com/watch?v=1rA36dgwb8M",
             "percent": 100,
             "hz": 330,
             "mobile": false
         },
-          {
+        {
             "user": "Qoldres",
             "link": "https://youtu.be/z8b2xKw3K50",
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://medal.tv/games/requested/clips/24JzEUPTM-UIrn/d1337PApuY5j?invite=cr-MSw0WDcsMTk3MjYyOTM2LA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }

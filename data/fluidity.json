@@ -3,21 +3,13 @@
     "name": "Fluidity",
     "author": "Hyperbeat",
     "creators": [],
-    "verifier": "Hyperbeat",
-    "verification": "https://www.youtube.com/watch?v=TBlxA1qA0dc",
+    "verifier": "evil",
+    "verification": "https://youtu.be/zdxf204b4o8",
     "percentToQualify": 100,
     "song": "Skybreak - Seraphim (Angels & Demons II)",
     "difficulty": 1,
     "enjoyment": 9,
     "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/zdxf204b4o8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
         {
             "user": "Xeronius",
             "link": "https://youtu.be/e_Y_Z9jxzpw",
