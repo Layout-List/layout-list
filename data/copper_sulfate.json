@@ -8,15 +8,5 @@
     "percentToQualify": 60,
     "song": "Creo - Octane",
     "difficulty": 7,
-    "records": [
-        
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=6WVp9RXu5cA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+    "records": []
 }

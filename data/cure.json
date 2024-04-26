@@ -10,15 +10,5 @@
     "songLink": "https://drive.google.com/drive/folders/1DSXc6H28BltTbXTebBZbF5lcUjHsYM0V",
     "difficulty": 6,
     "enjoyment": "9/10",
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=0NlzfxqwKXc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-        
-    ]
+    "records": []
 }
