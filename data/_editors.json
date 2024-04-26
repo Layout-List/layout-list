@@ -9,6 +9,11 @@
         "name": "Asteria.",
         "link": "https://www.youtube.com/channel/UCgu08lWU3NQqfvnPkIRV9xg"
     },
+    {
+        "role": "owner",
+        "name": "evil",
+        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+    },
      {
         "role": "admin",
         "name": "Xeronius",
@@ -18,11 +23,6 @@
         "role": "admin",
         "name": "rastuyas",
         "link": "https://www.youtube.com/@rastuyas"
-    },
-    {
-        "role": "admin",
-        "name": "evil",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
      {
         "role": "helper",
