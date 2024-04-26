@@ -8,14 +8,5 @@
     "percentToQualify": 55,
     "song": "Dimrain47 - The Prototype",
     "difficulty": 6,
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=XfyeTlRWJqo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+    "records": []
 }
