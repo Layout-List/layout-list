@@ -10,5 +10,14 @@
     "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1228852201137639434",
     "difficulty": 2,
     "enjoyment": "?/10",
-    "records": []
+    "records": [
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm"
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+    ]
 }
