@@ -3,21 +3,14 @@
     "name": "Thomas Jefferson",
     "author": "Asteria.",
     "creators": [],
-    "verifier": "Thomas Jefferson",
-    "verification": "https://youtu.be/6IXy9FAjTCM?feature=shared",
+    "verifier": "Asteria.",
+    "verification": "https://www.youtube.com/watch?v=ISgTzFB7pJg",
     "percentToQualify": 100,
     "song": "Štátna filharmónia Košice - Orpheus in the Underworld: Can-Can",
     "songLink": "https://cdn.discordapp.com/attachments/1231455334917214238/1231455411656331304/1776.mp3?ex=662bd079&is=662a7ef9&hm=332be490b5c60dbab286cfe25a00b2f6c8987680f623fc6a5375b6af213362da&",
     "difficulty": 2,
     "enjoyment": "?/10",
     "records": [
-        {
-            "user": "Asteria.",
-            "link": "https://www.youtube.com/watch?v=ISgTzFB7pJg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
         
     ]
 }
