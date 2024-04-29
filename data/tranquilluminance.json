@@ -158,6 +158,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "QwidziT",
+            "link": "https://www.youtube.com/watch?v=fhiX-exNiPU&ab_channel=QwiD%5BGMD%5D",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 7
         }
     ]
 }
