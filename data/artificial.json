@@ -921,6 +921,13 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "ipopim12opim",
+            "link": "https://youtu.be/8vOE91VEjBw",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
         }
     ]
 }
