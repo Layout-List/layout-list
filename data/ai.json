@@ -68,6 +68,14 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Creeevy",
+            "link": "https://www.youtube.com/watch?v=_qhkFLZQJYo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "7"
         }
     ]
 }
