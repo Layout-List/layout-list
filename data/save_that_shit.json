@@ -158,6 +158,14 @@
             "percent": 57,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Doggo136",
+            "link": "https://www.youtube.com/watch?v=fh681yxCYAw&ab_channel=Doggo136",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "7"
         }
     ]
 }
