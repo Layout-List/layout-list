@@ -381,7 +381,8 @@
             "link": "https://youtu.be/EH04gVieA-Q?si=AaBv2uZe5jfePRYn",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 0
         },
         {
             "user": "xNebular",
