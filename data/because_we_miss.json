@@ -72,7 +72,8 @@
             "link": "https://youtu.be/Gh2KhEyEv6c?si=6tFOJItUS8lrMpuh",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 3
         },
         {
             "user": "ThisGuyKreas",
