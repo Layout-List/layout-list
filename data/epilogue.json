@@ -21,7 +21,8 @@
             "link": "https://youtu.be/RH7x4pEugnY?si=4mQyPKHOmH0Ko99y",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 10
         },
         {
             "user": "Xeronius",
