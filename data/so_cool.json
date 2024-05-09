@@ -1108,13 +1108,6 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": "10"
-        },
-        {
-            "user": "NotAquatic",
-            "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI&ab_channel=Aquatic",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
         }
     ]
 }
