@@ -9,5 +9,14 @@
     "song": "xKore - Die Bitch!",
     "difficulty": 4,
     "enjoyment": "?/10",
-    "records": []
+    "records": [
+        {
+          "user": "TheCatAstronaut",
+          "link": "https://www.youtube.com/watch?v=n7lQJ9NqS3U&ab_channel=TheCatAstronautExtra",
+          "percent": 100,
+          "hz": 170,
+          "mobile": false,
+          "enjoyment": "6"
+        }
+    ]
 }
