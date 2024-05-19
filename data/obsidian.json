@@ -19,6 +19,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=WgZRfOOEVC8&ab_channel=Tup1%5BGD%5D",
+            "percent": 83,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
