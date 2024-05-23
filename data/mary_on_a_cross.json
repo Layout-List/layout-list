@@ -11,6 +11,12 @@
     "difficulty": 6,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=_mHx0AqqNGk",
+            "percent": 90,
+            "hz": 240,
+            "mobile": false
+        }
     ]
 }
