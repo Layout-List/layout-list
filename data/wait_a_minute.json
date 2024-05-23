@@ -10,8 +10,15 @@
     "song": "Willow Smith - Wait a Minute (sped up)",
     "songLink": "https://cdn.discordapp.com/attachments/855228426208935936/1240629364463370340/willow_smith_-_wait_a_minute_sped_up.mp3?ex=664a8d62&is=66493be2&hm=2634c84bd9586be6f4bc9d6eca7567b08ea989a35a96dc92f540afb501a7780f&",
     "difficulty": 3,
-    "enjoyment": "?/10",
+    "enjoyment": "9/10",
     "records": [
-        
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/2eLucgjNh9l3Fm/d1337TdrF6i2?invite=cr-MSxOUUcsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" : 9
+        }
     ]
 }
