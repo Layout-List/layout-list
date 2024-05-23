@@ -10,13 +10,6 @@
     "difficulty": 2,
     "records": [
         {
-            "user": "DJJDK",
-            "link": "owner",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
             "user": "Fusion425",
             "link": "owner watched",
             "percent": 100,
