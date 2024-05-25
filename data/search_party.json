@@ -9,6 +9,7 @@
     "song": "Jane Remover - Search Party (Blueberry Edit)",
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1222937663456280652/62.mp3?ex=66180874&is=66059374&hm=b8655e65ff28370bace920f3c5e8fe8a86b8a56be46a53a9c61f462d79e0d3be&",
     "difficulty": 4,
+    "enjoyment": 5,
     "records": [
         {
             "user": "Blueberry",
@@ -24,7 +25,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/svbPczIl8VE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
-        
     ]
 }
