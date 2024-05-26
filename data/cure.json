@@ -10,5 +10,14 @@
     "songLink": "https://drive.google.com/drive/folders/1DSXc6H28BltTbXTebBZbF5lcUjHsYM0V",
     "difficulty": 6,
     "enjoyment": "9/10",
-    "records": []
+    "records": [
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=6Xd2QNbgeDQ&ab_channel=Tup1%5BGD%5D",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "8"
+        }
+    ]
 }
