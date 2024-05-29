@@ -182,6 +182,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 9
+        },
+        {
+            "user": "TheCatAstromaut",
+            "link": "https://youtu.be/BRw4irM0dB0",
+            "percent": 100,
+            "hz": 170,
+            "mobile": true,
+            "enjoyment": 1
         }
     ]
 }
