@@ -153,6 +153,14 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=myzjXHVsgLU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
