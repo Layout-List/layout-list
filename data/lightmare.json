@@ -226,7 +226,15 @@
           "percent": 100,
           "hz": 75,
           "mobile": false,
-          "enjoyment": "6"
+          "enjoyment": 6
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=hpPMJCUKgLk",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
