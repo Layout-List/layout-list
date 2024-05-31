@@ -203,7 +203,8 @@
             "link": "https://youtu.be/q_T1ZqWXXMQ",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "hayden",
@@ -267,6 +268,14 @@
             "percent": 74,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/f_aLjY09pGI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 1
         }
     ]
 }
