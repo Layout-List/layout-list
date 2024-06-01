@@ -56,6 +56,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "Portal 3",
+            "link": "https://www.youtube.com/watch?v=pUM5FOCFKM0&ab_channel=Portal3",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }
