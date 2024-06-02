@@ -230,7 +230,7 @@ export default {
     },
     async mounted() {
         // Hide loading spinner
-        this.list = await fetchList();
+        this.list = await fetchChallengeList();
         this.editors = await fetchEditors();
         // Error handling
         if (!this.list) {
