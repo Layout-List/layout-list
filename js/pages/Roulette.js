@@ -22,7 +22,7 @@ export default {
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Levels below top 75</label>
+                        <label for="extended">Levels below top 100</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
                 </form>
