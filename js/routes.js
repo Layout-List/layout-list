@@ -1,4 +1,5 @@
 import List from './pages/List.js';
+import ChallengeList from './pages/ChallengeList.js';
 import Leaderboard from './pages/Leaderboard.js';
 import CreatorLeaderboard from './pages/CreatorLeaderboard.js';
 import Roulette from './pages/Roulette.js';
