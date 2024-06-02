@@ -18,7 +18,7 @@ export default {
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Top 75 levels</label>
+                        <label for="main">Top 100 levels</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
