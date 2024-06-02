@@ -53,6 +53,50 @@ export async function fetchList() {
     }
 }
 
+export async function fetchChallengeList() {
+    const challengeListResult = await fetch(`${dir}/_challengeList.json`);
+    try {
+        const challengeList = await challengeListResult.json();
+
+        // Create a lookup dictionary for ranks
+        const ranksEntries = challengeList.filter((path) => !path.startsWith(benchmarker)).map((
+            path,
+            index,
+        ) => [path, index + 1]);
+        const ranks = Object.fromEntries(ranksEntries);
+
+        return await Promise.all(
+            list.map(async (path) => {
+                const rank = ranks[path] || null;
+                try {
+                    const levelResult = await fetch(
+                        `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
+                    );
+                    const level = await levelResult.json();
+                    return [
+                        null,
+                        rank,
+                        {
+                            ...level,
+                            rank,
+                            path,
+                            records: level.records.sort(
+                                (a, b) => b.percent - a.percent,
+                            ),
+                        },
+                    ];
+                } catch {
+                    console.error(`Failed to load level #${rank} ${path}.`);
+                    return [path, rank, null];
+                }
+            }),
+        );
+    } catch {
+        console.error(`Failed to load challenge list.`);
+        return null;
+    }
+}
+
 export async function fetchEditors() {
     try {
         const editorsResults = await fetch(`${dir}/_editors.json`);
