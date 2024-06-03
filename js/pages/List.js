@@ -21,6 +21,7 @@ export default {
             <router-link class="nav__tab" to="/">
                 <span class="type-label-lg">Layout List</span>
             </router-link>
+            <h2> / </h2>
             <router-link class="nav__tab" to="/challenges">
                 <span class="type-label-lg">Challenge List</span>
             </router-link>
