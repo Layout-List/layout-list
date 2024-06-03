@@ -254,6 +254,6 @@ export default {
     },
     methods: {
         embed,
-        score
+        challengeScore
     },
 };
