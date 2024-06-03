@@ -197,8 +197,8 @@ export async function fetchLeaderboard() {
     return [res.sort((a, b) => b.total - a.total), errs];
 }
 
-export async function fetchLeaderboard() {
-    const list = await fetchList();
+export async function fetchCreatorLeaderboard() {
+    const list = await fetchChallengeList();
 
     const scoreMap = {};
     const errs = [];
