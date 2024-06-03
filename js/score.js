@@ -66,49 +66,59 @@ export function score(difficulty, percent, minPercent) {
     return round(score);
 }
 
-export function challengeScore(difficulty) {
-    let challengeScore = 0;
+export function challengeScore(difficulty, percent, minPercent) {
+    let score = 0;
+    if (difficulty<4){
+        minPercent = 100;
+    }
     switch (difficulty){
         case 0:
-            challengeScore = 5;
+            score = 5;
             break;
         case 1:
-            challengeScore = 10;
+            score = 10;
             break;
         case 2:
-            challengeScore = 25;
+            score = 25;
             break;
         case 3:
-            challengeScore = 50;
+            score = 50;
             break;
         case 4:
-            challengeScore = 75;
+            score = 75;
             break;
         case 5:
-            challengeScore = 100;
+            score = 100;
             break;
         case 6:
-            challengeScore = 150;
+            score = 150;
             break;
         case 7:
-            challengeScore = 200;
+            score = 200;
             break;
         case 8:
-            challengeScore = 250;
+            score = 250;
             break;
         case 9:
-            challengeScore = 350;
+            score = 350;
             break;
         case 10:
-            challengeScore = 500;
+            score = 500;
             break;
         case 11:
-            challengeScore = 1000;
+            score = 1000;
             break;
         default:
-            challengeScore = 0;
+            score = 0;
             break;
-    return challengeScore;
+    }
+    score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    score = Math.max(0, score);
+    if (percent != 100) {
+        return round(score - score / 3);
+    }
+
+    return round(score);
 }
 
 export function cscore(contributorrole) {
