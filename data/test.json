@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "name": "test",
+    "author": "test",
+    "creators": [],
+    "verifier": "test",
+    "verification": "test",
+    "percentToQualify": 100,
+    "song": "test",
+    "difficulty": 1,
+    "enjoyment": "?/10",
+    "records": [
+      
+    ]
+}
