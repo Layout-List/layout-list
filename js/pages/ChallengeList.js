@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { challengeScore } from '../score.js';
+import { score } from '../score.js';
 import { fetchEditors, fetchChallengeList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
@@ -53,7 +53,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ challengeScore(level.difficulty) }}</p>
+                            <p>{{ score(level.difficulty, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -254,6 +254,6 @@ export default {
     },
     methods: {
         embed,
-        challengeScore
+        score
     },
 };
