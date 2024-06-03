@@ -218,7 +218,7 @@ export async function fetchChallengeLeaderboard() {
             return;
         }
 
-        possibleMax += score(level.difficulty, 100, level.percentToQualify);
+        possibleMax += challengeScore(level.difficulty);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -227,13 +227,12 @@ export async function fetchChallengeLeaderboard() {
         scoreMap[verifier] ??= {
             verified: [],
             completed: [],
-            progressed: [],
         };
         const { verified } = scoreMap[verifier];
         verified.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: challengeScore(level.difficulty),
             link: level.verification,
         });
 
@@ -245,33 +244,24 @@ export async function fetchChallengeLeaderboard() {
             scoreMap[user] ??= {
                 verified: [],
                 completed: [],
-                progressed: [],
             };
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
                 completed.push({
                     rank,
                     level: level.name,
-                    score: score(level.difficulty, 100, level.percentToQualify),
+                    score: challengeScore(level.difficulty),
                     link: record.link,
                 });
                 return;
-            }
-
-            progressed.push({
-                rank,
-                level: level.name,
-                percent: record.percent,
-                score: score(level.difficulty, record.percent, level.percentToQualify),
-                link: record.link,
             });
         });
     });
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { verified, completed, progressed } = scores;
-        const total = [verified, completed, progressed]
+        const { verified, completed } = scores;
+        const total = [verified, completed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
 
