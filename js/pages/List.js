@@ -34,8 +34,8 @@ export default {
             <div class="list-container">
                 <nav class="nav">
                     <div class="nav__actions">
-                        <router-link class="nav__cta" type-label-lg to="/">
-                            <span class="type-label-lg">List</span>
+                        <router-link class="nav__cta" type-label-lg to="/challenges">
+                            <span class="type-label-lg">a</span>
                         </router-link>
                     </div>
                 </nav>
