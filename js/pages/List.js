@@ -35,7 +35,7 @@ export default {
                 <nav class="nav">
                     <div class="nav__actions">
                         <router-link class="nav__cta2" type-label-lg to="/challenges">
-                            <span class="type-label-lg">a</span>
+                            <span class="type-label-lg">Challenges</span>
                         </router-link>
                     </div>
                 </nav>
