@@ -34,17 +34,9 @@ export default {
             <div class="list-container">
                 <nav class="nav">
                     <div class="nav__actions">
-                        <button
-                            class="nav__cta" type-label-lg
-                            @click.prevent="to="/""
-                        >Layouts</button>
-                        <h1>/</h1>
-                        <button
-                            class="nav__cta type-label-lg"
-                            href="youtasdf"
-                            target="_blank"
-                            >Challenges</button
-                        >
+                        <router-link class="nav__cta" type-label-lg to="/">
+                            <span class="type-label-lg">List</span>
+                        </router-link>
                     </div>
                 </nav>
                 <table class="list" v-if="list">
