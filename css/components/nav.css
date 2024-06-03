@@ -67,7 +67,8 @@
     border-radius: 0.5rem;
 }
 .nav .nav__actions .nav__cta2:hover:not(:active) {
-    background-color: var(--color-on-background-hover);
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background-hover);
 }
 .nav .nav__actions .nav__cta2.router-link-active {
     background-color: var(--color-primary);
