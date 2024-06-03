@@ -11,7 +11,7 @@
     "enjoyment": "?/10",
     "records": [
       {
-          "user": "test",
+          "user": "tester",
           "link": "test",
           "percent": 100,
           "hz": 1,
