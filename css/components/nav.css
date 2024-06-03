@@ -68,5 +68,5 @@
     transform: translateY(-2px);
 }
 .nav .nav__actions .nav__cta2:hover:not(:active) {
-    background-color: var(--color-background-hover);
+    background-color: rgba(0, 0, 0, 0.2);
 }
