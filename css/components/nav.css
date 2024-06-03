@@ -48,8 +48,8 @@
     height: 1.5rem;
 }
 .nav .nav__actions .nav__cta {
-    margin-left: 2rem;
-    padding: 2rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
     background-color: var(--color-on-primary);
     color: var(--color-primary);
     border-radius: 0.5rem;
