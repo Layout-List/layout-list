@@ -196,3 +196,93 @@ export async function fetchLeaderboard() {
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
 }
+
+export async function fetchLeaderboard() {
+    const list = await fetchList();
+
+    const scoreMap = {};
+    const errs = [];
+    let possibleMax = 0;
+
+    if (list === null) {
+        return [null, ['Failed to load list.']];
+    }
+
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        possibleMax += score(level.difficulty, 100, level.percentToQualify);
+
+        // Verification
+        const verifier = Object.keys(scoreMap).find(
+            (u) => u.toLowerCase() === level.verifier.toLowerCase(),
+        ) || level.verifier;
+        scoreMap[verifier] ??= {
+            verified: [],
+            completed: [],
+            progressed: [],
+        };
+        const { verified } = scoreMap[verifier];
+        verified.push({
+            rank,
+            level: level.name,
+            score: score(level.difficulty, 100, level.percentToQualify),
+            link: level.verification,
+        });
+
+        // Records
+        level.records.forEach((record) => {
+            const user = Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === record.user.toLowerCase(),
+            ) || record.user;
+            scoreMap[user] ??= {
+                verified: [],
+                completed: [],
+                progressed: [],
+            };
+            const { completed, progressed } = scoreMap[user];
+            if (record.percent === 100) {
+                completed.push({
+                    rank,
+                    level: level.name,
+                    score: score(level.difficulty, 100, level.percentToQualify),
+                    link: record.link,
+                });
+                return;
+            }
+
+            progressed.push({
+                rank,
+                level: level.name,
+                percent: record.percent,
+                score: score(level.difficulty, record.percent, level.percentToQualify),
+                link: record.link,
+            });
+        });
+    });
+
+    // Wrap in extra Object containing the user and total score
+    const res = Object.entries(scoreMap).map(([user, scores]) => {
+        const { verified, completed, progressed } = scores;
+        const total = [verified, completed, progressed]
+            .flat()
+            .reduce((prev, cur) => prev + cur.score, 0);
+
+        return {
+            user,
+            total: round(total),
+            possibleMax,
+            ...scores,
+        };
+    });
+
+    // Sort by total score
+    return [res.sort((a, b) => b.total - a.total), errs];
+}
