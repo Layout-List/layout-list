@@ -68,7 +68,7 @@
     transform: translateY(-2px);
 }
 .nav .nav__actions .nav__cta2:hover:not(:active) {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .nav .nav__actions.router-link-active {
     opacity: 0.5;
