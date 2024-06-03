@@ -218,7 +218,7 @@ export async function fetchCreatorLeaderboard() {
             return;
         }
 
-        possibleMax += score(level.difficulty, 100, level.percentToQualify);
+        possibleMax += challengeScore(level.difficulty);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -233,7 +233,7 @@ export async function fetchCreatorLeaderboard() {
         verified.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: challengeScore(level.difficulty),
             link: level.verification,
         });
 
@@ -252,7 +252,7 @@ export async function fetchCreatorLeaderboard() {
                 completed.push({
                     rank,
                     level: level.name,
-                    score: score(level.difficulty, 100, level.percentToQualify),
+                    score: challengeScore(level.difficulty),
                     link: record.link,
                 });
                 return;
@@ -262,7 +262,7 @@ export async function fetchCreatorLeaderboard() {
                 rank,
                 level: level.name,
                 percent: record.percent,
-                score: score(level.difficulty, record.percent, level.percentToQualify),
+                score: challengeScore(level.difficulty),
                 link: record.link,
             });
         });
