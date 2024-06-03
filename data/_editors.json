@@ -14,6 +14,11 @@
         "name": "evil",
         "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
+    {
+        "role": "owner",
+        "name": "Mystikl",
+        "link": "https://www.youtube.com/@lMystikl"
+    },
      {
         "role": "admin",
         "name": "Xeronius",
@@ -48,11 +53,6 @@
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/c/PrometheusAlt"
-    },
-    {
-        "role": "dev",
-        "name": "Mystikl",
-        "link": "https://www.youtube.com/@lMystikl"
     },
     {
         "role": "dev",

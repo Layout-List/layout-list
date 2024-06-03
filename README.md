@@ -76,6 +76,7 @@ Can I submit multiple levels in one video?
 - whitmp4
 - Asteria.
 - evil
+- Mystikl
 
 ---
 
@@ -98,5 +99,4 @@ Can I submit multiple levels in one video?
 ## List Developers:
 
 - Prometheus
-- Mystikl
 - Electro
