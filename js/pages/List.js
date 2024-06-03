@@ -34,18 +34,18 @@ export default {
             <div class="list-container">
                 <nav class="nav">
                     <div class="nav__actions">
-                        <a
+                        <button
                             class="nav__cta type-label-lg"
                             href="ys"
                             target="_blank"
-                            >Layouts</a
+                            >Layouts</button
                         >
                         <h1>/</h1>
-                        <a
+                        <button
                             class="nav__cta type-label-lg"
                             href="youtasdf"
                             target="_blank"
-                            >Challenges</a
+                            >Challenges</button
                         >
                     </div>
                 </nav>
