@@ -69,7 +69,7 @@ export function score(difficulty, percent, minPercent) {
 export function challengeScore(difficulty) {
     let score = 0;
     
-    switch (difficulty){
+    switch (difficulty) {
         case 0:
             score = 5;
             break;
@@ -111,7 +111,7 @@ export function challengeScore(difficulty) {
             break;
     }
 
-    return round(score);
+    return score;
 }
 
 export function cscore(contributorrole) {
