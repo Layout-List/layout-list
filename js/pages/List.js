@@ -25,20 +25,18 @@ const roleIconMap = {
 export default {
     components: { Spinner, LevelAuthors },
     template: `
-        <body id="app">
-            <header :class="{ dark: store.dark }">
-                <nav class="nav">
-                    <router-link class="nav__tab" to="/">
-                        <span class="type-label-lg">Layout List</span>
-                    </router-link>
-                    <h1>/</h1>
-                    <router-link class="nav__tab" to="/challenges">
-                        <span class="type-label-lg">Challenge List</span>
-                    </router-link>
-                </nav>
-            </header>
-            <router-view :class="{ dark: store.dark }"></router-view>
-        </body>
+        <header :class="{ dark: store.dark }">
+            <nav class="nav">
+                <router-link class="nav__tab" to="/">
+                    <span class="type-label-lg">Layout List</span>
+                </router-link>
+                <h1>/</h1>
+                <router-link class="nav__tab" to="/challenges">
+                    <span class="type-label-lg">Challenge List</span>
+                </router-link>
+            </nav>
+        </header>
+        <router-view :class="{ dark: store.dark }"></router-view>
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
