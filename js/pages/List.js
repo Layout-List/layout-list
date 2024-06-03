@@ -36,14 +36,14 @@ export default {
                     <div class="nav__actions">
                         <a
                             class="nav__cta type-label-lg"
-                            href="youtube.com"
+                            href="ys"
                             target="_blank"
                             >Layouts</a
                         >
                         <h1>/</h1>
                         <a
                             class="nav__cta type-label-lg"
-                            href="youtube.com"
+                            href="youtasdf"
                             target="_blank"
                             >Challenges</a
                         >
