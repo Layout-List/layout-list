@@ -37,7 +37,7 @@ export default {
                         <button
                             class="nav__cta" type-label-lg
                             @click.prevent="to="/""
-                        >Layots</button>
+                        >Layouts</button>
                         <h1>/</h1>
                         <button
                             class="nav__cta type-label-lg"
