@@ -66,7 +66,7 @@ export async function fetchChallengeList() {
         const ranks = Object.fromEntries(ranksEntries);
 
         return await Promise.all(
-            list.map(async (path) => {
+            challengeList.map(async (path) => {
                 const rank = ranks[path] || null;
                 try {
                     const levelResult = await fetch(
