@@ -198,7 +198,7 @@ export async function fetchLeaderboard() {
 }
 
 export async function fetchChallengeLeaderboard() {
-    const list = await fetchList();
+    const list = await fetchChallengeList();
 
     const scoreMap = {};
     const errs = [];
