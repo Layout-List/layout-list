@@ -62,15 +62,15 @@
 .nav .nav__actions .nav__cta2 {
     margin-left: 1rem;
     padding: 0.75rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0);
     color: rgba(0, 0, 0, 1);
     border-radius: 0.5rem;
     transition: background-color 200ms ease;
 }
 .nav .nav__actions .nav__cta2:hover:not(:active) {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--color-on-background-hover);
 }
 .nav .nav__actions .nav__cta2.router-link-active {
     background-color: rgba(0, 0, 0, 1);
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
