@@ -45,7 +45,7 @@
     color: var(--color-on-primary);
 }
 .page-list .level-container .level {
-    display: 2rem;
+    display: flex;
     flex-direction: column;
     gap: 2rem;
     padding-right: 2rem;
