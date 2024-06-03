@@ -287,7 +287,7 @@ export async function fetchLeaderboard() {
     return [res.sort((a, b) => b.total - a.total), errs];
 }*/
 export async function fetchChallengeLeaderboard() {
-    const list = await fetchChallengeList();
+    const list = await fetchList();
 
     const scoreMap = {};
     const errs = [];
@@ -307,7 +307,7 @@ export async function fetchChallengeLeaderboard() {
             return;
         }
 
-        possibleMax += challengeScore(level.difficulty);
+        possibleMax += score(level.difficulty, 100, level.percentToQualify);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -322,7 +322,7 @@ export async function fetchChallengeLeaderboard() {
         verified.push({
             rank,
             level: level.name,
-            score: challengeScore(level.difficulty),
+            score: score(level.difficulty, 100, level.percentToQualify),
             link: level.verification,
         });
 
@@ -341,7 +341,7 @@ export async function fetchChallengeLeaderboard() {
                 completed.push({
                     rank,
                     level: level.name,
-                    score: challengeScore(level.difficulty),
+                    score: score(level.difficulty, 100, level.percentToQualify),
                     link: record.link,
                 });
                 return;
@@ -351,7 +351,7 @@ export async function fetchChallengeLeaderboard() {
                 rank,
                 level: level.name,
                 percent: record.percent,
-                score: challengeScore(level.difficulty),
+                score: score(level.difficulty, record.percent, level.percentToQualify),
                 link: record.link,
             });
         });
