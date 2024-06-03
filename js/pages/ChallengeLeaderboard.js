@@ -1,4 +1,4 @@
-import { fetchLeaderboard } from '../content.js';
+import { fetchCreatorLeaderboard } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -82,21 +82,6 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">Progressed</h2>
-                        <table class="table">
-                            <tr v-for="score in entry.progressed">
-                                <td class="rank">
-                                    <p v-if="score.rank === null">&mdash;</p>
-                                    <p v-else>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
             </div>
@@ -108,7 +93,7 @@ export default {
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
+        const [leaderboard, err] = await fetchCreatorLeaderboard();
         this.leaderboard = leaderboard;
         this.err = err;
         // Hide loading spinner
