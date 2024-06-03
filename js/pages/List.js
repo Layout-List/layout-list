@@ -31,16 +31,16 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
-            <nav class="nav">
-                <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">Layout List</span>
-                </router-link>
-                <h1>/</h1>
-                <router-link class="nav__tab" to="/challenges">
-                    <span class="type-label-lg">Challenge List</span>
-                </router-link>
-            </nav>
             <div class="list-container">
+                <nav class="nav">
+                    <router-link class="nav__tab" to="/">
+                        <span class="type-label-lg">Layout List</span>
+                    </router-link>
+                    <h1>/</h1>
+                    <router-link class="nav__tab" to="/challenges">
+                        <span class="type-label-lg">Challenge List</span>
+                    </router-link>
+                </nav>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
