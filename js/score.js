@@ -66,50 +66,50 @@ export function score(difficulty, percent, minPercent) {
     return round(score);
 }
 
-/*export function challengeScore(difficulty) {
-    let score = 0;
+export function challengeScore(difficulty) {
+    let challengeScore = 0;
     switch (difficulty){
         case 0:
-            score = 5;
+            challengeScore = 5;
             break;
         case 1:
-            score = 10;
+            challengeScore = 10;
             break;
         case 2:
-            score = 25;
+            challengeScore = 25;
             break;
         case 3:
-            score = 50;
+            challengeScore = 50;
             break;
         case 4:
-            score = 75;
+            challengeScore = 75;
             break;
         case 5:
-            score = 100;
+            challengeScore = 100;
             break;
         case 6:
-            score = 150;
+            challengeScore = 150;
             break;
         case 7:
-            score = 200;
+            challengeScore = 200;
             break;
         case 8:
-            score = 250;
+            challengeScore = 250;
             break;
         case 9:
-            score = 350;
+            challengeScore = 350;
             break;
         case 10:
-            score = 500;
+            challengeScore = 500;
             break;
         case 11:
-            score = 1000;
+            challengeScore = 1000;
             break;
         default:
-            score = 0;
+            challengeScore = 0;
             break;
-    return score;
-}*/
+    return challengeScore;
+}
 
 export function cscore(contributorrole) {
     let cscore = 0;
