@@ -25,12 +25,14 @@ const roleIconMap = {
 export default {
     components: { Spinner, LevelAuthors },
     template: `
-        <router-link class="nav__cta type-label-lg" to="/">
-            <span class="type-label-lg">Layout List</span>
-        </router-link>
-        <router-link class="nav__cta type-label-lg" to="/challengeleaderboard">
-            <span class="type-label-lg">Challenge List</span>
-        </router-link>
+        <div class="nav__actions">
+            <a
+                        class="nav__cta type-label-lg"
+                        href="https://forms.gle/DeKbKy9TvPxRddkE8"
+                        target="_blank"
+                        >Submit Record</a
+                    >
+        </div>
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
