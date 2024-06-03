@@ -68,9 +68,6 @@ export function score(difficulty, percent, minPercent) {
 
 export function challengeScore(difficulty) {
     let score = 0;
-    if (difficulty<4){
-        minPercent = 100;
-    }
     switch (difficulty){
         case 0:
             score = 5;
