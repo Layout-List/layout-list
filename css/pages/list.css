@@ -21,6 +21,7 @@
     width: 100%;
 }
 .page-list .list .level button {
+    display: flex;
     background-color: var(--color-background);
     color: var(--color-on-background);
     border: none;
