@@ -35,9 +35,7 @@ export default {
                 <nav class="nav">
                     <div class="nav__actions">
                         <button
-                            class="nav__cta type-label-lg"
-                            href="ys"
-                            target="_blank"
+                            class="nav__cta type-label-lg" to="/"
                             >Layouts</button
                         >
                         <h1>/</h1>
