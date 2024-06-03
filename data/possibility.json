@@ -240,7 +240,8 @@
             "link": "https://www.youtube.com/watch?v=glUcNHBWNCw&ab_channel=SpaceUS",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
