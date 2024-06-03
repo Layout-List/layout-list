@@ -21,7 +21,6 @@ const roleIconMap = {
             <router-link class="nav__tab" to="/challenges">
                 <span class="type-label-lg">Challenge List</span>
             </router-link>
-            <router-view :class="{ dark: store.dark }"></router-view>
         </nav>*/
 export default {
     components: { Spinner, LevelAuthors },
@@ -38,6 +37,7 @@ export default {
                     </router-link>
                 </nav>
             </header>
+            <router-view :class="{ dark: store.dark }"></router-view>
         </body>
         <main v-if="loading">
             <Spinner></Spinner>
