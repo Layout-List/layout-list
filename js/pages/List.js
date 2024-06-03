@@ -23,7 +23,7 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <nav class="nav">
-                    <div class="nav__actions">
+                    <div class="nav__actions2">
                          <router-link class="nav__cta2" type-label-lg to="/">
                             <span class="type-label-lg">Full Levels</span>
                           </router-link>
