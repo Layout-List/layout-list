@@ -20,7 +20,7 @@ const roleIconMap = {
                 </router-link>
                 <h1>/</h1>
                 <router-link class="nav__cta2" to="/challenges">
-                    a
+                    <span class="type-label-lg">Challenge List</span>
                 </router-link>
             </nav>
         </header>*/
