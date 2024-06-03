@@ -36,7 +36,6 @@ export default {
                 </router-link>
             </nav>
         </header>
-        <router-view :class="{ dark: store.dark }"></router-view>
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
