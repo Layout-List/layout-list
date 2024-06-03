@@ -62,8 +62,8 @@
 .nav .nav__actions .nav__cta2 {
     margin-left: 1rem;
     padding: 0.75rem;
-    background-color: rgba(0, 0, 0, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 1);
     border-radius: 0.5rem;
     transition: background-color 200ms ease;
 }
