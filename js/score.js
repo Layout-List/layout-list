@@ -21,7 +21,7 @@ export function score(difficulty, percent, minPercent) {
             score = 5;
             break;
         case 1:
-            score = 11;
+            score = 10;
             break;
         case 2:
             score = 25;
@@ -74,7 +74,7 @@ export function challengeScore(difficulty) {
             score = 5;
             break;
         case 1:
-            score = 10;
+            score = 12;
             break;
         case 2:
             score = 25;
