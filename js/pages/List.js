@@ -13,17 +13,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
-/*<header :class="{ dark: store.dark }">
-            <nav class="nav">
-                <router-link class="nav__cta2" to="/">
-                    <span class="type-label-lg">Layout List</span>
-                </router-link>
-                <h1>/</h1>
-                <router-link class="nav__cta2" to="/challenges">
-                    <span class="type-label-lg">Challenge List</span>
-                </router-link>
-            </nav>
-        </header>*/
+
 export default {
     components: { Spinner, LevelAuthors },
     template: `
