@@ -56,6 +56,9 @@
     box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
     transition: transform 200ms ease;
 }
+.nav .nav__actions .nav__cta:hover:not(:active) {
+    transform: translateY(-2px);
+}
 .nav .nav__actions .nav__cta2 {
     margin-left: 1rem;
     padding: 0.75rem;
@@ -63,9 +66,6 @@
     color: rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
     transition: background-color 200ms ease;
-}
-.nav .nav__actions .nav__cta:hover:not(:active) {
-    transform: translateY(-2px);
 }
 .nav .nav__actions .nav__cta2:hover:not(:active) {
     background-color: rgba(0, 0, 0, 0.7);
