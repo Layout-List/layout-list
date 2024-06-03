@@ -32,8 +32,8 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <div class="nav__actions">
-                    <nav class="nav">
+                <nav class="nav">
+                    <div class="nav__actions">
                         <a
                             class="nav__cta type-label-lg"
                             href="youtube.com"
@@ -47,8 +47,8 @@ export default {
                             target="_blank"
                             >Challenges</a
                         >
-                    </nav>
-                </div>
+                    </div>
+                </nav>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
