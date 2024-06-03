@@ -65,7 +65,6 @@
     background-color: var(--color-background);
     color: var(--color-on-background);
     border-radius: 0.5rem;
-    transition: background-color 200ms ease;
 }
 .nav .nav__actions .nav__cta2:hover:not(:active) {
     background-color: var(--color-on-background-hover);
