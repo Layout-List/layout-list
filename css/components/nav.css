@@ -57,7 +57,7 @@
     transition: transform 200ms ease;
 }
 .nav .nav__actions .nav__cta2 {
-    margin-left: 2rem;
+    margin-left: 0rem;
     padding: 0.75rem;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
