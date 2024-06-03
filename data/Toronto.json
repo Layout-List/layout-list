@@ -17,6 +17,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 9
+        },
+        {
+            "user": "Flipperglint",
+            "link": "https://www.youtube.com/watch?v=38B_cpdXvSQ&ab_channel=Flipperglint",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
