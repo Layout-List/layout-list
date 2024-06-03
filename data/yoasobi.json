@@ -439,12 +439,20 @@
             "hz": 288,
             "mobile": false
         },
-         {
+        {
             "user": "sphericle",
             "link": "https://youtu.be/q2jkdG2d6tI",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=x_sKaTR7glM&ab_channel=TurtleERFAKE",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment" : 7
         }
     ]
 }
