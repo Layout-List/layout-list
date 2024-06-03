@@ -66,11 +66,9 @@ export function score(difficulty, percent, minPercent) {
     return round(score);
 }
 
-export function challengeScore(difficulty, percent, minPercent) {
+export function challengeScore(difficulty) {
     let score = 0;
-    if (difficulty<4){
-        minPercent = 100;
-    }
+    
     switch (difficulty){
         case 0:
             score = 5;
@@ -111,11 +109,6 @@ export function challengeScore(difficulty, percent, minPercent) {
         default:
             score = 0;
             break;
-    }
-    score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    score = Math.max(0, score);
-    if (percent != 100) {
-        return round(score - score / 3);
     }
 
     return round(score);
