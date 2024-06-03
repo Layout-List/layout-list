@@ -23,12 +23,14 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <nav class="nav">
-                     <router-link class="nav__cta2" type-label-lg to="/">
-                        <span class="type-label-lg">Full Levels</span>
-                      </router-link>
-                      <router-link class="nav__cta2" type-label-lg to="/challenges">
-                        <span class="type-label-lg">Challenges</span>
-                    </router-link>
+                    <div class="nav__actions">
+                         <router-link class="nav__cta2" type-label-lg to="/">
+                            <span class="type-label-lg">Full Levels</span>
+                          </router-link>
+                          <router-link class="nav__cta2" type-label-lg to="/challenges">
+                            <span class="type-label-lg">Challenges</span>
+                        </router-link>
+                    </div>
                 </nav>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
