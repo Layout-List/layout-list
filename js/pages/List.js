@@ -15,11 +15,11 @@ const roleIconMap = {
 };
 /*<header :class="{ dark: store.dark }">
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
+                <router-link class="nav__cta2" to="/">
                     <span class="type-label-lg">Layout List</span>
                 </router-link>
                 <h1>/</h1>
-                <router-link class="nav__tab" to="/challenges">
+                <router-link class="nav__cta2" to="/challenges">
                     <span class="type-label-lg">Challenge List</span>
                 </router-link>
             </nav>
