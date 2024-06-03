@@ -13,19 +13,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
-/*<nav class="nav">
-            <router-link class="nav__tab" to="/">
-                <span class="type-label-lg">Layout List</span>
-            </router-link>
-            <h1>/</h1>
-            <router-link class="nav__tab" to="/challenges">
-                <span class="type-label-lg">Challenge List</span>
-            </router-link>
-        </nav>*/
-export default {
-    components: { Spinner, LevelAuthors },
-    template: `
-        <header :class="{ dark: store.dark }">
+/*<header :class="{ dark: store.dark }">
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">Layout List</span>
@@ -35,7 +23,10 @@ export default {
                     <span class="type-label-lg">Challenge List</span>
                 </router-link>
             </nav>
-        </header>
+        </header>*/
+export default {
+    components: { Spinner, LevelAuthors },
+    template: `
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
