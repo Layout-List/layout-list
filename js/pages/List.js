@@ -48,7 +48,7 @@ export default {
                             <p v-else class="type-label-lg">#{{ rank }}</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                            <button @click.native.prevent="selected = i">
+                            <button @click="selected = i">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
