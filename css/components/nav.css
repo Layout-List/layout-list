@@ -59,18 +59,24 @@
 .nav .nav__actions .nav__cta:hover:not(:active) {
     transform: translateY(-2px);
 }
-.nav .nav__actions .nav__cta2 {
+.nav .nav__actions2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav .nav__actions2 .nav__cta2 {
     margin-left: 1rem;
     padding: 0.75rem;
     background-color: var(--color-background);
     color: var(--color-on-background);
     border-radius: 0.5rem;
 }
-.nav .nav__actions .nav__cta2:hover:not(:active).router-link-active {
+.nav .nav__actions2 .nav__cta2:hover:not(:active).router-link-active {
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
 }
-.nav .nav__actions .nav__cta2.router-link-active {
+.nav .nav__actions2 .nav__cta2.router-link-active {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
