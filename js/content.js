@@ -197,7 +197,96 @@ export async function fetchLeaderboard() {
     return [res.sort((a, b) => b.total - a.total), errs];
 }
 
-export async function fetchCreatorLeaderboard() {
+/*export async function fetchCreatorLeaderboard() {
+    const list = await fetchChallengeList();
+
+    const scoreMap = {};
+    const errs = [];
+    let possibleMax = 0;
+
+    if (list === null) {
+        return [null, ['Failed to load list.']];
+    }
+
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        possibleMax += challengeScore(level.difficulty);
+
+        // Verification
+        const verifier = Object.keys(scoreMap).find(
+            (u) => u.toLowerCase() === level.verifier.toLowerCase(),
+        ) || level.verifier;
+        scoreMap[verifier] ??= {
+            verified: [],
+            completed: [],
+            progressed: [],
+        };
+        const { verified } = scoreMap[verifier];
+        verified.push({
+            rank,
+            level: level.name,
+            score: challengeScore(level.difficulty),
+            link: level.verification,
+        });
+
+        // Records
+        level.records.forEach((record) => {
+            const user = Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === record.user.toLowerCase(),
+            ) || record.user;
+            scoreMap[user] ??= {
+                verified: [],
+                completed: [],
+                progressed: [],
+            };
+            const { completed, progressed } = scoreMap[user];
+            if (record.percent === 100) {
+                completed.push({
+                    rank,
+                    level: level.name,
+                    score: challengeScore(level.difficulty),
+                    link: record.link,
+                });
+                return;
+            }
+
+            progressed.push({
+                rank,
+                level: level.name,
+                percent: record.percent,
+                score: challengeScore(level.difficulty),
+                link: record.link,
+            });
+        });
+    });
+
+    // Wrap in extra Object containing the user and total score
+    const res = Object.entries(scoreMap).map(([user, scores]) => {
+        const { verified, completed, progressed } = scores;
+        const total = [verified, completed, progressed]
+            .flat()
+            .reduce((prev, cur) => prev + cur.score, 0);
+
+        return {
+            user,
+            total: round(total),
+            possibleMax,
+            ...scores,
+        };
+    });
+
+    // Sort by total score
+    return [res.sort((a, b) => b.total - a.total), errs];
+}*/
+export async function fetchChallengeLeaderboard() {
     const list = await fetchChallengeList();
 
     const scoreMap = {};
