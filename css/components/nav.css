@@ -49,6 +49,7 @@
 }
 .nav .nav__actions .nav__cta {
     margin-left: 1rem;
+    margin-right: 1rem;
     padding: 0.75rem;
     background-color: var(--color-on-primary);
     color: var(--color-primary);
