@@ -35,14 +35,14 @@ export default {
                 <div class="nav__actions">
                     <nav class="nav">
                         <a
-                            class="nav__cta2 type-label-lg"
+                            class="nav__cta type-label-lg"
                             href="https://forms.gle/DeKbKy9TvPxRddkE8"
                             target="_blank"
                             >Layouts</a
                         >
                         <h1>/</h1>
                         <a
-                            class="nav__cta2 type-label-lg"
+                            class="nav__cta type-label-lg"
                             href="https://forms.gle/DeKbKy9TvPxRddkE8"
                             target="_blank"
                             >Challenges</a
