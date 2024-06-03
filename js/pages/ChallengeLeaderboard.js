@@ -1,4 +1,4 @@
-import { fetchCreatorLeaderboard } from '../content.js';
+import { fetchChallengeLeaderboard } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -93,7 +93,7 @@ export default {
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchCreatorLeaderboard();
+        const [leaderboard, err] = await fetchChallengeLeaderboard();
         this.leaderboard = leaderboard;
         this.err = err;
         // Hide loading spinner
