@@ -34,10 +34,10 @@ export default {
                 <div class="board-container">
                     <nav class="nav">
                         <div class="nav__actions2">
-                             <router-link class="nav__cta2" type-label-lg to="/">
+                             <router-link class="nav__cta2" type-label-lg to="/leaderboard">
                                 <span class="type-label-lg">Full Levels</span>
                               </router-link>
-                              <router-link class="nav__cta2" type-label-lg to="/challenges">
+                              <router-link class="nav__cta2" type-label-lg to="/challengeleaderboard">
                                 <span class="type-label-lg">Challenges</span>
                             </router-link>
                         </div>
