@@ -9,13 +9,29 @@
     "song": "Slipknot - Eyeless",
     "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1245376246393864242",
     "difficulty": 7,
-    "enjoyment": "7/10",
+    "enjoyment": "8/10",
     "records": [
         {
             "user": "Mystikl",
             "link": "https://youtu.be/wN11hZQ68a4",
             "percent": 100,
             "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/IcsBRGD6eyg?si=0_VqC3PwFevNplYK",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/ddb3eSV1JxQ",
+            "percent": 100,
+            "hz": 240,
             "mobile": false,
             "enjoyment": 7
         }
