@@ -241,6 +241,14 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Tyjohn323",
+            "link": "https://www.youtube.com/watch?v=upLrjhKJMgw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }
