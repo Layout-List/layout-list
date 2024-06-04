@@ -42,6 +42,7 @@ export default {
                             </router-link>
                         </div>
                     </nav>
+                    <h1>‎ </h1>
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
