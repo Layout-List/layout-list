@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { score } from '../score.js';
+import { score, round } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
@@ -238,6 +238,57 @@ export default {
                     : this.level.verification
             );
         },
+        enjoyment() {
+            let count = 0;
+            let num = 0;
+            for (let i = 0; i < this.level.records.length; i++) {
+                switch (this.level.records[i].enjoyment) {
+                    case 1:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 2:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 3:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 4:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 5:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 6:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 7:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 8:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 9:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 10:
+                        total += this.level.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return round(total / num);
+        }
     },
     async mounted() {
         // Hide loading spinner
