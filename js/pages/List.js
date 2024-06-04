@@ -13,17 +13,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
-/*<header :class="{ dark: store.dark }">
-            <nav class="nav">
-                <router-link class="nav__cta2" to="/">
-                    <span class="type-label-lg">Layout List</span>
-                </router-link>
-                <h1>/</h1>
-                <router-link class="nav__cta2" to="/challenges">
-                    <span class="type-label-lg">Challenge List</span>
-                </router-link>
-            </nav>
-        </header>*/
+
 export default {
     components: { Spinner, LevelAuthors },
     template: `
@@ -33,22 +23,16 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <nav class="nav">
-                    <div class="nav__actions">
-                        <button
-                            class="nav__cta type-label-lg"
-                            href="ys"
-                            target="_blank"
-                            >Layouts</button
-                        >
-                        <h1>/</h1>
-                        <button
-                            class="nav__cta type-label-lg"
-                            href="youtasdf"
-                            target="_blank"
-                            >Challenges</button
-                        >
+                    <div class="nav__actions2">
+                         <router-link class="nav__cta2" type-label-lg to="/">
+                            <span class="type-label-lg">Full Levels</span>
+                          </router-link>
+                          <router-link class="nav__cta2" type-label-lg to="/challenges">
+                            <span class="type-label-lg">Challenges</span>
+                        </router-link>
                     </div>
                 </nav>
+                <h1>‎ </h1>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
