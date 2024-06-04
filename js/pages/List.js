@@ -32,6 +32,7 @@ export default {
                         </router-link>
                     </div>
                 </nav>
+                <h1></h1>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
