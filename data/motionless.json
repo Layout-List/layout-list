@@ -1,0 +1,23 @@
+{
+    "id": 82474028,
+    "name": "motionless",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "morsey",
+    "verification": "https://youtu.be/aFuoyexmhjY",
+    "percentToQualify": 100,
+    "song": "I SEE STARS - Murder Mitten",
+    "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1247693113615454229",
+    "difficulty": 1,
+    "enjoyment": "8/10",
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/vYvybv1pF5o",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
+}
