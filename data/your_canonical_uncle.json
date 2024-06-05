@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "Xomu10 - Pagoda",
     "difficulty": 1,
-    "enjoyment": "3.5/10",
+    "enjoyment": "4.33/10",
     "records": [
         {
             "user": "evil",
@@ -25,6 +25,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/H8bvfhhWkdc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }

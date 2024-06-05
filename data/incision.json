@@ -70,6 +70,14 @@
             "percent": 63,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "skyv",
+            "link": "https://www.youtube.com/watch?v=xoUlmr8w-y8&ab_channel=TheWildSeal",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
