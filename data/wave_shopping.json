@@ -1,0 +1,23 @@
+{
+    "id": 106096380,
+    "name": "Wave Shopping",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "Asteria.",
+    "verification": "https://youtu.be/G-pgQ6cW9MA",
+    "percentToQualify": 100,
+    "song": "SOPHIE - Faceshopping",
+    "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1247694245452840991",
+    "difficulty": 1,
+    "enjoyment": "8/10",
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/JB69Dj6kSa8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
+}

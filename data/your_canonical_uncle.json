@@ -1,0 +1,22 @@
+{
+    "id": 77915201,
+    "name": "your canonical uncle",
+    "author": "TurtleER",
+    "creators": [],
+    "verifier": "TurtleER",
+    "verification": "https://youtu.be/lyQRYUFwJ5M",
+    "percentToQualify": 100,
+    "song": "Xomu10 - Pagoda",
+    "difficulty": 1,
+    "enjoyment": "4/10",
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/vYtgoNtIYgc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        }
+    ]
+}

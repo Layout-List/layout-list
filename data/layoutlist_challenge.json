@@ -1,0 +1,22 @@
+{
+    "id": 101597908,
+    "name": "LayoutList Challenge",
+    "author": "rastuyas",
+    "creators": [],
+    "verifier": "rastuyas",
+    "verification": "https://youtu.be/faoTf8bFP2s",
+    "percentToQualify": 100,
+    "song": "Waterflame - -Control: Mind-",
+    "difficulty": 1,
+    "enjoyment": "8/10",
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/ktjba8umiNg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
+}
