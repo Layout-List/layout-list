@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "six impala - !¡! find the answer ¡!¡",
     "difficulty": 1,
-    "enjoyment": "6/10",
+    "enjoyment": "5.75/10",
     "records": [
         {
             "user": "Mystikl",
@@ -33,6 +33,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/JE8XzIV40vU",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }
