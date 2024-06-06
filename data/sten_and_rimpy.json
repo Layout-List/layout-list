@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "LemKuuja - Ai ?? ??",
     "difficulty": 1,
-    "enjoyment": "3.75/10",
+    "enjoyment": "3/10",
     "records": [
         {
             "user": "evil",
@@ -41,6 +41,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 1
         }
     ]
 }
