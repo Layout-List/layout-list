@@ -9,7 +9,7 @@
     "song": "SOPHIE - Faceshopping",
     "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1247694245452840991",
     "difficulty": 1,
-    "enjoyment": "6.8/10",
+    "enjoyment": "6.9/10",
     "records": [
         {
             "user": "evil",
@@ -58,6 +58,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/pyHLmDNaZdY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

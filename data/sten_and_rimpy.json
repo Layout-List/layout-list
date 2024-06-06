@@ -49,6 +49,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/thwK5_tFQ6w",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }
