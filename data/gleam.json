@@ -9,5 +9,14 @@
     "song": "Creo - Wavelight",
     "difficulty": 4,
     "enjoyment": "?/10",
-    "records": []
+    "records": [
+        {
+            "user": "Afisoac",
+            "link": "https://youtu.be/96A1O9Tefj4",
+            "percent": 53,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

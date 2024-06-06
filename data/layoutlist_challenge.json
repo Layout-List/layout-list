@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "Waterflame - -Control: Mind-",
     "difficulty": 1,
-    "enjoyment": "6.5/10",
+    "enjoyment": "6.6/10",
     "records": [
         {
             "user": "evil",
@@ -41,6 +41,30 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/i5qIykcfpF8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "six impala - !¡! find the answer ¡!¡",
     "difficulty": 1,
-    "enjoyment": "5.75/10",
+    "enjoyment": "5.6/10",
     "records": [
         {
             "user": "Mystikl",
@@ -41,6 +41,22 @@
             "hz": 300,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/l1-YzerjDL8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
