@@ -171,7 +171,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "7"
+            "enjoyment": 7
         },
         {
             "user": "Blysteryx",
@@ -179,7 +179,7 @@
             "percent": 100,
             "hz": 60,
             "mobile": true,
-            "enjoyment": "8"
+            "enjoyment": 8
         },
         {
             "user": "QwidziT",
@@ -187,7 +187,15 @@
             "percent": 100,
             "hz": 120,
             "mobile": true,
-            "enjoyment": "8"
+            "enjoyment": 8
+        },
+        {
+            "user": "SuperGabMaker",
+            "link": "https://youtu.be/s6CWkG2P3AQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
