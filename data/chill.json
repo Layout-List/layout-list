@@ -54,6 +54,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 6
         }
     ]
 }
