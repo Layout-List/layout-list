@@ -65,6 +65,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "mr123j",
+            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }
