@@ -1124,6 +1124,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 7
+        }, 
+        {
+            "user": "jarren",
+            "link": "https://www.youtube.com/watch?app=desktop&v=N8CtYFGtusY&ab_channel=Jarren",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "10"
         }
     ]
 }
