@@ -220,6 +220,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment" : 5
+        },
+        {
+            "user": "Wert_Krapata",
+            "link": "https://youtu.be/9yVzAgZHs9U?si=_o88mfU0fW6aBx7m",
+            "percent": 100,
+            "hz": 600,
+            "mobile": false,
+            "enjoyment" : 8
         }
     ]
 }
