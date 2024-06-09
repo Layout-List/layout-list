@@ -1,0 +1,21 @@
+{
+    "id": 101894708,
+    "name": "Does He Know",
+    "author": "rastuyas",
+    "creators": [],
+    "verifier": "rastuyas",
+    "verification": "https://youtu.be/GtpCtkCC4Xg",
+    "percentToQualify": 100,
+    "song": "Goukisan - Betrayal of Fear",
+    "difficulty": 1,
+    "enjoyment": "?/10",
+    "records": [
+        {
+          "user": "hayden",
+          "link": "https://youtu.be/teyjGzWIHzc",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        }
+    ]
+}
