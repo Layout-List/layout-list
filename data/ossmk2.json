@@ -1,0 +1,21 @@
+{
+    "id": 106177281,
+    "name": "OhioSkibidiSigmaMkII",
+    "author": "Hydraniac",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/iVUTnrxL_0k?si=6PAhK9RlEPMdmh8g",
+    "percentToQualify": 100,
+    "song": "Kevin MacLeod - Fluffing A Duck",
+    "difficulty": 1,
+    "enjoyment": "?/10",
+    "records": [
+        {
+          "user": "hayden",
+          "link": "https://youtu.be/JfeDbjRbJKU",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        }
+    ]
+}
