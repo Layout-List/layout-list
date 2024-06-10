@@ -6,11 +6,17 @@
     "verifier": "rastuyas",
     "verification": "https://www.youtube.com/watch?v=x1ovtb_N9mI&ab_channel=rastuyas",
     "percentToQualify": 100,
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Matt R - Flutterwonder",
+    "songLink": "https://cdn.discordapp.com/attachments/1247456473873780917/1248081942126264340/447407.mp3?ex=66684d23&is=6666fba3&hm=b265eeb4b0205f1b0e98892e2dee1041691deced2e8452350f4f9daf0ba41544&",
+    "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/NQ5tnTt64lA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
     ]
 }
