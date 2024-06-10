@@ -1,0 +1,21 @@
+{
+    "id": 78425566,
+    "name": "Short Challenge",
+    "author": "JPTOfficiaL",
+    "creators": [],
+    "verifier": "JPTOfficiaL",
+    "verification": "https://youtu.be/dGBL-0oiSl0",
+    "percentToQualify": 100,
+    "song": "MadhouseDUDE - Jet Set",
+    "difficulty": 1,
+    "enjoyment": "?/10",
+    "records": [
+        {
+          "user": "hayden",
+          "link": "https://youtu.be/0CR4b-J2AmI",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        }
+    ]
+}
