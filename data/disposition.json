@@ -249,6 +249,14 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "jarren",
+            "link": "https://m.youtube.com/watch?v=npVernBvprw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
         }
     ]
 }
