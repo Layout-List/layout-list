@@ -11,6 +11,13 @@
     "difficulty": 5,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/7k61crF5QNU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        }
     ]
 }
