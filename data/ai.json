@@ -13,69 +13,77 @@
     "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/960277762126524526/23.mp3",
     "difficulty": 7,
     "records": [
-        {
-          "user": "CaioMD",
-          "link": "https://www.youtube.com/watch?v=ubvv60B5wlM",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Fusion425",
-          "link": "https://youtu.be/Ml82JWY6HqY",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Armani",
-          "link": "https://youtu.be/BPEd5XDBwyU",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Seismic",
-          "link": "https://streamable.com/5wr2dc",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "hayden",
-          "link": "https://youtu.be/dkGqEzDGvyM",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Mystikl",
-          "link": "https://youtu.be/5q4QbzReEzA",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "mrperson",
-          "link": "https://youtu.be/RkxTj_NjwCw",
-          "percent": 100,
-          "hz": 144,
-          "mobile": false
-        },
-        {
-            "user": "rfanvs",
-            "link": "https://www.youtube.com/watch?v=V0BwLqzr0sQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Creeevy",
-            "link": "https://www.youtube.com/watch?v=_qhkFLZQJYo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "7"
-        }
+      {
+        "user": "CaioMD",
+        "link": "https://www.youtube.com/watch?v=ubvv60B5wlM",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false
+      },
+      {
+        "user": "Fusion425",
+        "link": "https://youtu.be/Ml82JWY6HqY",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false
+      },
+      {
+        "user": "Armani",
+        "link": "https://youtu.be/BPEd5XDBwyU",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false
+      },
+      {
+        "user": "Seismic",
+        "link": "https://streamable.com/5wr2dc",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false
+      },
+      {
+        "user": "hayden",
+        "link": "https://youtu.be/dkGqEzDGvyM",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false
+      },
+      {
+        "user": "Mystikl",
+        "link": "https://youtu.be/5q4QbzReEzA",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false
+      },
+      {
+        "user": "mrperson",
+        "link": "https://youtu.be/RkxTj_NjwCw",
+        "percent": 100,
+        "hz": 144,
+        "mobile": false
+      },
+      {
+        "user": "rfanvs",
+        "link": "https://www.youtube.com/watch?v=V0BwLqzr0sQ",
+        "percent": 100,
+        "hz": 240,
+        "mobile": false
+      },
+      {
+        "user": "Creeevy",
+        "link": "https://www.youtube.com/watch?v=_qhkFLZQJYo",
+        "percent": 100,
+        "hz": 240,
+        "mobile": false,
+        "enjoyment": 7
+      },
+      {
+        "user": "Syrcx",
+        "link": "https://www.youtube.com/watch?v=5PC---iQsKg",
+        "percent": 100,
+        "hz": 240,
+        "mobile": false,
+        "enjoyment": 1
+      }
     ]
 }

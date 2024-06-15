@@ -276,6 +276,22 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=1zBiYWY_nEw",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=5PC---iQsKg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

@@ -15,13 +15,21 @@
     "song": "SuperSoniker - So Cool",
     "difficulty": 6,
     "records": [
-         {
-            "user": "skip",
-            "link": "https://youtu.be/idC48K0HSx4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        }
+      {
+        "user": "Syrcx",
+        "link": "https://www.youtube.com/watch?v=Yz4YjJmEkgQ",
+        "percent": 100,
+        "hz": 240,
+        "mobile": false,
+        "enjoyment": 4
+    },
+    {
+      "user": "skip",
+      "link": "https://youtu.be/idC48K0HSx4",
+      "percent": 100,
+      "hz": 240,
+      "mobile": false,
+      "enjoyment": 0
+    }
     ]
 }

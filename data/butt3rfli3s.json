@@ -17,6 +17,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/m_gW3n2oXsA",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

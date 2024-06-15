@@ -8,8 +8,16 @@
     "percentToQualify": 56,
     "song": "Dungeecount - Distraught Subconscience",
     "difficulty": 8,
-    "enjoyment": "7.25/10",
+    "enjoyment": "6.25/10",
     "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=M-lxGYVUhHw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
         {
             "user": "evil",
             "link": "https://youtu.be/ZFQUWghcgUc",

@@ -14,6 +14,14 @@
     "difficulty": 7,
     "records": [
         {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=OaV-gyxY5e4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
             "user": "hayden",
             "link": "https://youtu.be/lZ8FoovDqUU",
             "percent": 100,
@@ -26,6 +34,14 @@
             "percent": 100,
             "hz": 360,
             "mobile": false
+        },
+        {
+            "user": "Catchit27",
+            "link": "https://youtu.be/377YQ4-4hnA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

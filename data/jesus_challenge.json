@@ -4,7 +4,7 @@
     "author": "hayden",
     "creators": [],
     "verifier": "evil",
-    "verification": "https://youtu.be/Jmw11LL2UUM",
+    "verification": "https://youtu.be/gVqSg0h349o",
     "percentToQualify": 100,
     "song": "riiece - fanta$y L0v3",
     "songLink": "https://cdn.discordapp.com/attachments/1247657734703288431/1247658274644562114/3473.mp3?ex=66681411&is=6666c291&hm=7e2a389ced1f3c6381853c81542bfec44a4f109a004d386c24dd2052d17440e1&",
@@ -25,6 +25,14 @@
           "percent": 100,
           "hz": 360,
           "mobile": false
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/1FPifER8SgA",
+          "percent": 100,
+          "hz": 144,
+          "mobile": false,
+          "enjoyment": 3
         }
     ]
 }

@@ -487,6 +487,14 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "jarren",
+            "link": "https://m.youtube.com/watch?v=miVzu_0KX-4&t=151s",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 6
         }
     ]
 }
