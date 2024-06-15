@@ -3,12 +3,20 @@
     "name": "Convergence",
     "author": "Huskiegaming",
     "creators": [],
-    "verifier": "rastuyas",
-    "verification": "https://youtu.be/q3wcDWisH10?si=CIxvsu_l3WNmL6W8",
+    "verifier": "Syrcx",
+    "verification": "https://youtu.be/At0KPcms92M",
     "percentToQualify": 55,
     "song": "Creo - Reflections",
     "difficulty": 5,
     "records": [
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/q3wcDWisH10?si=CIxvsu_l3WNmL6W8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
         {
             "user": "mrperson",
             "link": "https://youtu.be/iKAF64vHYbI",
