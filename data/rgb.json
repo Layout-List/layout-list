@@ -122,12 +122,20 @@
             "hz": 75,
             "mobile": false
         },
-         {
+        {
             "user": "RaynoXx",
             "link": "https://youtu.be/WgmMEN8sGHA?si=NSMAugcVq-OUy0l4",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
