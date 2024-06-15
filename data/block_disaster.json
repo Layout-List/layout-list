@@ -9,23 +9,31 @@
     "percentToQualify": 36,
     "song": "Llaappssee - Being Alive is Fucking Weird",
     "difficulty": 8,
-    "enjoyment": "7/10",
+    "enjoyment": "6.8/10",
     "records": [
-        {
-            "user": "Akuriserv",
-            "link": "https://youtu.be/LpYALDEF9Dg?si=FWjOSaOZ7xavPg7t",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
+      {
+        "user": "Akuriserv",
+        "link": "https://youtu.be/LpYALDEF9Dg?si=FWjOSaOZ7xavPg7t",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false,
+        "enjoyment": 9
+      },
+      {
+        "user": "hayden",
+        "link": "https://youtu.be/-5UAUYFx-CY",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false,
+        "enjoyment": "?"
         },
         {
-          "user": "hayden",
-          "link": "https://youtu.be/-5UAUYFx-CY",
+          "user": "Syrcx",
+          "link": "https://www.youtube.com/watch?v=GECSr4t_eHo",
           "percent": 100,
-          "hz": 360,
+          "hz": 240,
           "mobile": false,
-          "enjoyment": "?"
+          "enjoyment": 6
         },
         {
           "user": "Mystikl",
