@@ -155,12 +155,20 @@
             "hz": 75,
             "mobile": false
         },
-           {
+        {
             "user": "gdBean",
             "link": "https://youtu.be/TuHmPw3WmwQ",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }
