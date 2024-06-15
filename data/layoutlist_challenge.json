@@ -80,7 +80,15 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 7
+            "enjoyment": 7   
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=YMz96OUbDbc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7  
         }
     ]
 }

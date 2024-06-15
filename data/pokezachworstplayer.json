@@ -41,6 +41,14 @@
             "hz": 75,
             "mobile": false,
             "enjoyment": "6"
+        },
+        {
+            "user": "Tomfoolering",
+            "link": "https://youtu.be/k3d5badR5IQ?si=sdbi0pNFMCfQ0XDu",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
