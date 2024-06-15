@@ -137,7 +137,7 @@
             "percent": 100,
             "hz": 60,
             "mobile": false,
-            "enjoyment": "9"
+            "enjoyment": 9
         },
         {
             "user": "DJJDK",
@@ -159,7 +159,15 @@
             "percent": 100,
             "hz": 60,
             "mobile": true,
-            "enjoyment": "9"
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }
