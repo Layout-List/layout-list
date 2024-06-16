@@ -9,7 +9,7 @@
     "song": "Creo - Aura",
     "difficulty": 2,
     "enjoyment": "10/10",
-    "records": []
+    "records": [
      {
         "user": "Flipperglint",
         "link": "https://youtu.be/Mr4_JZK4uFw?si=3GspXguj4rxTd8Fa",
@@ -18,4 +18,5 @@
         "mobile": false,
         "enjoyment": "4"
         }
+    ]
 }
