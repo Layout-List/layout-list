@@ -10,4 +10,12 @@
     "difficulty": 2,
     "enjoyment": "10/10",
     "records": []
+     {
+        "user": "Flipperglint",
+        "link": "https://youtu.be/Mr4_JZK4uFw?si=3GspXguj4rxTd8Fa",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false,
+        "enjoyment": "4"
+        }
 }
