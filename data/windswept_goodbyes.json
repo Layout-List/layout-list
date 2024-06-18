@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 105743635,
+    "name": "WINDSWEPT GOODBYES",
+    "author": "nub01",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "verifier": "nub01",
+    "verification": "https://www.youtube.com/watch?v=5AwSQZqytD0&ab_channel=nub01",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "Koraii - Good Girl",
+    "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
         
