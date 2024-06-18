@@ -62,6 +62,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 6
+        },
+        {
+            "user": "GrumpBoat",
+            "link": "https://youtu.be/5CIq8EZjGgE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
         }
     ]
 }
