@@ -1,16 +1,13 @@
 {
-    "id": 00000000,
-    "name": "Title",
-    "author": "creator",
+    "id": 105524359,
+    "name": "Phantom pain",
+    "author": "Blysteryx",
     "creators": [],
-    "verifier": "verifier",
-    "verification": "insert link",
-    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "verifier": "Blysteryx",
+    "verification": "https://www.youtube.com/watch?v=iBeeX2JgOuA",
     "percentToQualify": 100,
-    "password": "IF NO PASSWORD, DELETE THIS TAB",
-    "song": "artist - song name",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 0-11,
+    "song": "SixImpala - Thank You, For The Octopus",
+    "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
         
