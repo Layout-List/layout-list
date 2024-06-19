@@ -73,7 +73,6 @@ Can I submit multiple levels in one video?
 
 ## Owners:
 
-- whitmp4
 - evil
 - Mystikl
 
