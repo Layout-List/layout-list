@@ -1,1 +1,22 @@
-
+{
+    "id": 106346241,
+    "name": "Rimuru",
+    "author": "sn0w",
+    "creators": [],
+    "verifier": "sn0w",
+    "verification": "https://www.youtube.com/watch?v=jXZjTFw_ASY",
+    "percentToQualify": 100,
+    "song": "DanJohansen - Synergetic Enigma",
+    "difficulty": 4,
+    "enjoyment": "?/10",
+    "records": [
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=w8U1IZKRHgY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
+}
