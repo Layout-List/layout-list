@@ -1,33 +1,23 @@
 [
     {
         "role": "owner",
-        "name": "evil",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
-    },
-    {
-        "role": "owner",
-        "name": "Mystikl",
-        "link": "https://www.youtube.com/@lMystikl"
-    },
-     {
-        "role": "admin",
-        "name": "Xeronius",
-        "link": "https://www.youtube.com/@Xeronius_"
+        "name": "hayden",
+        "link": "https://www.youtube.com/@zDarkHTRR"
     },
       {
         "role": "admin",
-        "name": "rastuyas",
-        "link": "https://www.youtube.com/@rastuyas"
+        "name": "Asteria.",
+        "link": "https://www.youtube.com/channel/UCgu08lWU3NQqfvnPkIRV9xg"
     },
     {
         "role": "admin",
-        "name": "hayden",
-        "link": "https://youtube.com/@zdarkhtrr?si=UFez-vaiTkwtkgZ-"
+        "name": "Tanginess",
+        "link": "https://www.youtube.com/channel/UCMtN24VDa4x5OfENd6zMxXQ"
     },
      {
         "role": "helper",
-        "name": "Flare",
-        "link": "https://www.youtube.com/@krispychikeen5656"
+        "name": "Xeronius",
+        "link": "https://www.youtube.com/@Xeronius_"
     },
     {
         "role": "helper",
@@ -36,8 +26,8 @@
     },
     {
         "role": "helper",
-        "name": "Blysteryx",
-        "link": "https://youtube.com/@blysteryxgd6709?si=aRCRkvcJOf_rKiME"
+        "name": "Riley",
+        "link": "https://www.youtube.com/channel/UCegemp_JlX705WVNF8V_8dg"
     },
     {
         "role": "dev",
