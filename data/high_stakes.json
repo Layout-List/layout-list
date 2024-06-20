@@ -109,7 +109,8 @@
             "link": "https://www.youtube.com/watch?v=wVs3-Nvn7N4",
             "percent": 100,
             "hz": 170,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "Syrcx",
