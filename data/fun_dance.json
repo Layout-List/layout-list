@@ -1074,6 +1074,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Blonoxy",
+            "link": "https://youtu.be/V4XJ7elUZRg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
