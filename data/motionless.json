@@ -98,6 +98,14 @@
             "hz": 144,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://youtu.be/NNw9gHxRGIo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
