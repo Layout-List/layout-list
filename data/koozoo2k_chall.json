@@ -10,6 +10,13 @@
     "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=ZjVObA1ErI4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
     ]
 }
