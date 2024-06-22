@@ -11,6 +11,13 @@
     "difficulty": 5,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=_dmlPGALK1c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
     ]
 }
