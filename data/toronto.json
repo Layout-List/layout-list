@@ -35,12 +35,20 @@
             "enjoyment": 10
         },
         {
-             "user": "TheCatAstronaut",
+            "user": "TheCatAstronaut",
             "link": "https://youtu.be/0rlMWJUIXCM",
             "percent": 100,
             "hz": 170,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }

@@ -11,6 +11,13 @@
     "difficulty": 3,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=TX7l-AZ-5lA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
+        }
     ]
 }

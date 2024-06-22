@@ -73,7 +73,7 @@
             "hz": 360,
             "mobile": false
         },
-          {
+        {
             "user": "Fallen",
             "link": "https://youtu.be/6iPAXqSyGAM",
             "percent": 100,
@@ -86,6 +86,14 @@
             "percent": 100,
             "hz": 144,
             "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/nNXaAQPUzj8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

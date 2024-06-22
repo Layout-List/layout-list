@@ -98,6 +98,30 @@
             "hz": 144,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://youtu.be/NNw9gHxRGIo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }

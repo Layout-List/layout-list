@@ -10,6 +10,29 @@
     "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=ZjVObA1ErI4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "XanyxGD",
+            "link": "https://www.youtube.com/watch?v=orXBpdU_jKo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
     ]
 }

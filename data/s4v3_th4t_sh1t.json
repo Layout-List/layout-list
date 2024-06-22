@@ -11,6 +11,29 @@
     "difficulty": 5,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=_dmlPGALK1c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=mU6K_eNyfEs&t=136s",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://youtu.be/AXFGnFlw3RE",
+            "percent": 100,
+            "hz": 500,
+            "mobile": false,
+            "enjoyment": 8
+        }
     ]
 }

@@ -83,12 +83,20 @@
             "mobile": false
         },
         {
-             "user": "TheCatAstronaut",
+            "user": "TheCatAstronaut",
             "link": "https://youtu.be/0rlMWJUIXCM",
             "percent": 100,
             "hz": 170,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "GrumpBoat",
+            "link": "https://youtu.be/4ZeA-XRTU-Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment" : 10
         }
     ]
 }
