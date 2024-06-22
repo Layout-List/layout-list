@@ -10,6 +10,13 @@
     "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Tyjohn323",
+            "link": "https://www.youtube.com/watch?v=xFDAX1wO6iI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 1
+        }
     ]
 }
