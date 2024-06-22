@@ -18,6 +18,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=mU6K_eNyfEs&t=136s",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
