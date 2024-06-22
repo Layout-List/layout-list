@@ -10,6 +10,13 @@
     "difficulty": 4,
     "enjoyment": "?/10",
     "records": [
-        
+         {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/WjduR-RQQik?si=f4-UrCW9e2hVTHRN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment" : 9
+        }
     ]
 }
