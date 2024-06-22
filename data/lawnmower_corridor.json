@@ -15,7 +15,7 @@
             "link": "https://www.youtube.com/watch?v=ExO9z0SIc98&t=2s",
             "percent": 100,
             "hz": 240,
-            "mobile": true,
+            "mobile": false,
             "enjoyment": 8
         }
     ]
