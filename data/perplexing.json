@@ -9,7 +9,7 @@
     "song": "Rukkus - Problematic",
     "difficulty": 0,
     "records": [
-         {
+        {
             "user": "evil",
             "link": "https://youtu.be/uUot7tQ1AUQ",
             "percent": 100,
@@ -17,14 +17,14 @@
             "mobile": false,
             "enjoyment": 8
         },
-         {
+        {
             "user": "Utc",
             "link": "https://youtu.be/j6y8VgExSiw",
             "percent": 100,
             "hz": 120,
             "mobile": false
         },
-         {
+        {
             "user": "Poke Zach",
             "link": "https://youtu.be/VV7qLTss4CY?si=YlgjpDEFo94bQRb1",
             "percent": 100,
@@ -165,7 +165,7 @@
             "mobile": false
         },
         {
-             "user": "TheCatAstronaut",
+            "user": "TheCatAstronaut",
             "link": "https://youtu.be/0rlMWJUIXCM",
             "percent": 100,
             "hz": 170,
