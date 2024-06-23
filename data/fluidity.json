@@ -17,6 +17,13 @@
             "hz": 60,
             "mobile": true,
             "enjoyment" : 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/DQy6resmWvg?si=Gwa8dKNOqLL72YvB",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }
