@@ -664,6 +664,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 7
+        },
+        {
+            "user": "XanyxGD",
+            "link": "https://youtu.be/gz7BBv3X9io",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
