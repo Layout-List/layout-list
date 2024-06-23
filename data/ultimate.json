@@ -11,6 +11,14 @@
     "enjoyment": "?/10",
     "records": [
         {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/24ZQFe8uPPI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
             "user": "Syrcx",
             "link": "https://www.youtube.com/watch?v=jmEcXATftRU&t",
             "percent": 100,
