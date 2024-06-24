@@ -10,6 +10,12 @@
     "difficulty": 0,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Tanginess",
+            "link": "https://www.youtube.com/watch?v=Kd1aPMEGpXs",
+            "percent": 100,
+            "hz": 1000,
+            "mobile": false
+        },
     ]
 }
