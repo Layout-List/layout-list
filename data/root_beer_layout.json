@@ -673,5 +673,13 @@
             "mobile": false,
             "enjoyment": 6
         }
+        {
+            "user": "Blonoxy",
+            "link": "https://www.youtube.com/watch?v=eoqQfDlAiEQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        }
     ]
 }
