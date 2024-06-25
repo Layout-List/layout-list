@@ -81,14 +81,6 @@
             "percent": 41,
             "hz": 60,
             "mobile": true
-        },
-        {
-          "user": "ImPhara",
-          "link": "https://www.youtube.com/watch?v=kjBGKG-eMIc",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false,
-          "enjoyment": "5"
         }
     ]
 }
