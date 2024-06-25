@@ -26,6 +26,14 @@
             "hz": 500,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "ImPhara",
+            "link": "https://youtu.be/tLpbPBEyjHU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
