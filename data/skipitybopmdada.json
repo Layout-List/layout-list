@@ -279,6 +279,22 @@
             "hz": 170,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=ZfwdyyEp6O4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/tktncEvNAZ0",
+            "percent": 100,
+            "hz": 1000,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
