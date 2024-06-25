@@ -103,12 +103,20 @@
             "hz": 500,
             "mobile": false
         },
-         {
+        {
             "user": "skip",
             "link": "https://youtu.be/p30tj7H1r1s",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "morsey",
+            "link": "https://youtu.be/7Pj_jhmujKc?si=e4v-lHncB2yO0tzR",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+            "enjoyment": 8
         }
     ]
 }
