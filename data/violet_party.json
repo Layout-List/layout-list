@@ -16,6 +16,15 @@
             "percent": 100,
             "hz": 1000,
             "mobile": false
+            "enjoyment": "?"
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/06nWFyDZTic",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+            "enjoyment": "10"
         }
     ]
 }
