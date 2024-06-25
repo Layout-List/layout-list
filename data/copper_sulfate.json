@@ -10,6 +10,13 @@
     "difficulty": 7,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "ImPhara",
+            "link": "https://youtu.be/tHI3jmtFURo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
     ]
 }
