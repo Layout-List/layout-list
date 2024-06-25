@@ -1082,6 +1082,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "XanyxGD",
+            "link": "https://youtu.be/4lN2H2QjoT0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
