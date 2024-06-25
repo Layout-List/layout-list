@@ -136,7 +136,7 @@
             "mobile": false
         },
         {
-            "user": "ItsTostYT",
+            "user": "ToastyTP",
             "link": "https://www.youtube.com/watch?v=LEkOJK_UXLg",
             "percent": 100,
             "hz": 60,
@@ -666,12 +666,20 @@
             "enjoyment": 7
         },
         {
-            "user": "XanyxGD",
+            "user": "xanyx",
             "link": "https://youtu.be/gz7BBv3X9io",
             "percent": 100,
             "hz": 60,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Blonoxy",
+            "link": "https://www.youtube.com/watch?v=eoqQfDlAiEQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

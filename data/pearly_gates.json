@@ -81,12 +81,20 @@
             "enjoyment": 7
         },
         {
-            "user": "XanyxGD",
+            "user": "xanyx",
             "link": "https://youtu.be/E3FWkVnOosA",
             "percent": 100,
             "hz": 60,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Blonoxy",
+            "link": "https://youtu.be/XVsLAh8M7AU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
