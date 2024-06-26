@@ -11,6 +11,13 @@
     "difficulty": 4,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Blueberry",
+            "link": "https://www.youtube.com/watch?v=3U9KlPKDhfg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "9"
+        }
     ]
 }
