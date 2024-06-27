@@ -40,9 +40,14 @@
         "link": "https://www.youtube.com/channel/UCegemp_JlX705WVNF8V_8dg"
     },
     {
-        "role": "dev",
-        "name": "Prometheus",
-        "link": "https://www.youtube.com/c/PrometheusAlt"
+        "role": "helper",
+        "name": "Skiptracingclub",
+        "link": "https://www.youtube.com/channel/UCKikz8doJyt1OA_68Kareig"
+    },
+ {
+        "role": "helper",
+        "name": "Hydraniac",
+        "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
     },
     {
         "role": "dev",
