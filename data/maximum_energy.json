@@ -8,5 +8,14 @@
     "percentToQualify": 56,
     "song": "ColchianCat - Zaphkiel",
     "difficulty": 4,
-    "records": []
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" : 9
+        }
+    ]
 }
