@@ -17,6 +17,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "xanyx",
+            "link": "https://www.youtube.com/watch?v=8wnS7g_UMVo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
