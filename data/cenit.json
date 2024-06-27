@@ -24,8 +24,16 @@
             "mobile": false
         },
         {
-             "user": "Syrcx",
+            "user": "Syrcx",
             "link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
             "percent": 100,
             "hz": 240,
             "mobile": false,
