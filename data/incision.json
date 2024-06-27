@@ -86,6 +86,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "voicechatping",
+            "link": "https://youtu.be/qHpPt7PaKGg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }
