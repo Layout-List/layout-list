@@ -9,5 +9,14 @@
     "song": "Cakewalking Tortokhod - DUNKACCIRUMIRU",
     "songLink": "https://www.mediafire.com/file/b39z7fad4iju7jj/573245.mp3/file",
     "difficulty": 4,
-    "records": []
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "9"
+        }
+    ]
 }
