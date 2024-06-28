@@ -118,6 +118,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/sWIMs-pvE_g?si=jEYFjar2gkDKvRLS",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
