@@ -31,12 +31,20 @@
             "hz": 120,
             "mobile": false
         },
-          {
+        {
             "user": "Blysteryx",
             "link": "https://youtu.be/iTC3GlKZHAY",
             "percent": 100,
             "hz": 120,
             "mobile": true
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/5Vb6uhJlEFs?si=GK7dQXyRR5Hu6CCK",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
