@@ -8,5 +8,14 @@
     "percentToQualify": 47,
     "song": "Creo - Rock Thing",
     "difficulty": 5,
-    "records": []
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        }
+    ]
 }

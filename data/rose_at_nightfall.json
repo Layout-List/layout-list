@@ -40,6 +40,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment" : 7
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://youtu.be/p825t7N9W8c",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment" : 9
         }
     ]
 }
