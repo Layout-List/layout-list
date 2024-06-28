@@ -165,12 +165,20 @@
             "mobile": false,
             "enjoyment": "9"
         },
-          {
+        {
             "user": "Doggo136",
             "link": "https://youtu.be/Pws8i4PMWL0",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

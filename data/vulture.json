@@ -148,6 +148,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Iza",
+            "link": "https://www.youtube.com/watch?v=eD6PI7yelQc",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
