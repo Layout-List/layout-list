@@ -38,12 +38,20 @@
             "hz": 144,
             "mobile": false
         },
-         {
+        {
             "user": "Tradeskill",
             "link": "https://youtu.be/1fUsvx0W5Cc",
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
