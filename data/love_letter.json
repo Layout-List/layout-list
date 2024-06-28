@@ -83,19 +83,20 @@
             "hz": 144,
             "mobile": false
         },
-         {
-            "user": "whitmp4",
-            "link": "https://youtu.be/2FlTD0MESeU?si=wacrwFgPoi0OQV7A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
         {
             "user": "Poke Zach",
             "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
             "percent": 100,
             "hz": 60,
             "mobile": true
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/5Vb6uhJlEFs?si=GK7dQXyRR5Hu6CCK",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

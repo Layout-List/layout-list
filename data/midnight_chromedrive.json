@@ -25,13 +25,6 @@
             "mobile": false,
             "enjoyment": "8"
         },
-         {
-            "user": "whitmp4",
-            "link": "https://youtu.be/NlxL7dsWr4w?si=9XATHNs6g5i0LDLz",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
         {
             "user": "DeleteNine",
             "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
@@ -39,7 +32,7 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "LimeDub",
             "link": "https://youtu.be/jALX9Y0UJho",
             "percent": 100,
