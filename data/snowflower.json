@@ -119,7 +119,15 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "8"
+            "enjoyment": 8
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
+            "percent": 54,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
