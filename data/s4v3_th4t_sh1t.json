@@ -58,6 +58,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "7"
+        },
+        {
+            "user": "SarcasticMuch",
+            "link": "https://youtu.be/tQqkhYdi-64",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

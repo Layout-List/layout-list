@@ -249,6 +249,22 @@
             "hz": 170,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
+            "percent": 54,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
