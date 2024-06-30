@@ -19,6 +19,11 @@
         "name": "rastuyas",
         "link": "https://www.youtube.com/@rastuyas"
     },
+    {
+        "role": "admin",
+        "name": "evil",
+        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+    },
      {
         "role": "helper",
         "name": "Xeronius",
@@ -28,11 +33,6 @@
         "role": "helper",
         "name": "Poke Zach",
         "link": "https://youtube.com/@LookAtThisHumongousStick?si=QWtWuTdiLrwwqDOm"
-    },
-    {
-        "role": "admin",
-        "name": "evil",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
     {
         "role": "helper",
