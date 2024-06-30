@@ -1,0 +1,24 @@
+{
+    "id": 104182212,
+    "name": "Radiance",
+    "author": "Aquatic",
+    "creators": [
+        "Skylar"
+    ],
+    "verifier": "Aquatic",
+    "verification": "https://youtu.be/lg6cd8jP8SI?si=GAkvcCpR7TOcNvVi",
+    "percentToQualify": 100,
+    "song": "Creo - Aura",
+    "difficulty": 2,
+    "enjoyment": 10,
+    "records": [
+        {
+            "user": "evil",
+            "link": "soon",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
+}
