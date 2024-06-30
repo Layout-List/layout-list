@@ -19,18 +19,27 @@
         "Blueberry"
     ],
     "verifier": "Hyperbeat",
-    "verification": "https://youtu.be/d4895QtMM2w",
+    "verification": "https://youtu.be/FhbH_-RHBBY?si=Cv1TSu3HlfVWeDgw",
     "percentToQualify": 59,
     "song": "Koraii - Sanctuary",
     "difficulty": 7,
     "enjoyment": "10/10",
     "records": [
         {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/FhbH_-RHBBY?si=Cv1TSu3HlfVWeDgw",
+            "user": "sn0w",
+            "link": "https://youtu.be/d4895QtMM2w",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/3N70foS5hnI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

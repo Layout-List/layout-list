@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "Koraii - Good Girl",
     "difficulty": 1,
-    "enjoyment": "?/10",
+    "enjoyment": "7/10",
     "records": [
         {
             "user": "Blysteryx",
@@ -17,6 +17,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }

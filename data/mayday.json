@@ -323,6 +323,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=DDhCOnRI7UQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

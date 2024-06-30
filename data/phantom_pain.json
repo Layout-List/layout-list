@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "SixImpala - Thank You, For The Octopus",
     "difficulty": 1,
-    "enjoyment": "?/10",
+    "enjoyment": "1/10",
     "records": [
         {
             "user": "Tyjohn323",
@@ -17,6 +17,14 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 0
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }

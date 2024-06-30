@@ -9,7 +9,7 @@
     "song": "Parappa the Rapper - Instructor Mooselini's Car Rap",
     "songLink": "https://www.mediafire.com/file/9elidp1mqkjwwxi/154221.mp3/file",
     "difficulty": 0,
-    "enjoyment": "?/10",
+    "enjoyment": "8/10",
     "records": [
         {
             "user": "ToastyTP",
@@ -18,6 +18,14 @@
             "hz": 144,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
