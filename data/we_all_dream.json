@@ -96,6 +96,14 @@
             "hz": 144,
             "mobile": false,
             "enjoyment" : "?"
+        },
+        {
+            "user": "Aquatic",
+            "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
+            "percent": 144,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }
