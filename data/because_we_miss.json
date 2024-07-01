@@ -125,6 +125,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
         }
     ]
 }
