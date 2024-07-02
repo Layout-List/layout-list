@@ -300,6 +300,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }
