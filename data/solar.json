@@ -10,6 +10,13 @@
     "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "zWren",
+            "link": "https://www.youtube.com/watch?v=RknSBFBihE4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "3"
+        }
     ]
 }
