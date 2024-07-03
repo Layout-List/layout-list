@@ -66,6 +66,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "morsey",
+            "link": "https://youtu.be/8jRD7v5H47Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
