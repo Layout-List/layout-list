@@ -33,6 +33,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": "9"
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/ejU9GDjMHuI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
         }
     ]
 }
