@@ -11,6 +11,13 @@
     "difficulty": 2,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+          "user": "Hyperbeat",
+          "link": "https://www.youtube.com/watch?v=353dln9stV4",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+          "enjoyment": 6
+        }
     ]
 }
