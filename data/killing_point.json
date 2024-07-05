@@ -8,7 +8,7 @@
     "percentToQualify": 100,
     "song": "KaTT, six impala - looking for swords",
     "difficulty": 1,
-    "enjoyment": "2/10",
+    "enjoyment": "2.5/10",
     "records": [
         {
             "user": "evil",
@@ -17,6 +17,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 2
+        },
+        {
+          "user": "Hyperbeat",
+          "link": "https://www.youtube.com/watch?v=353dln9stV4",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+          "enjoyment": 3
         }
     ]
 }
