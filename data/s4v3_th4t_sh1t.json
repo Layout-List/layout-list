@@ -74,6 +74,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://www.youtube.com/watch?v=iiR4N4Q1vHU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
