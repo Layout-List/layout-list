@@ -105,6 +105,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://youtu.be/ckKzJ-cZqm0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true,
+            "enjoyment": 9
         }
     ]
 }
