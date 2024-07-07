@@ -1144,10 +1144,18 @@
         {
             "user": "Aquatic",
             "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
-            "percent": 144,
+            "percent": 100,
             "hz": 360,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Huskiegaming",
+            "link": "https://youtu.be/V_wNMQlxSLU https://youtu.be/4aow6Ymk_ag",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }
