@@ -10,6 +10,13 @@
     "difficulty": 7,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "xanyx",
+            "link": "https://youtu.be/vMX5Z3vbRho",
+            "percent": 74,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 8
+        } 
     ]
 }
