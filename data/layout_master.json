@@ -249,6 +249,14 @@
             "hz": 120,
             "mobile": true,
             "enjoyment": 7
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/xElOt-wt1B8?si=P2evn0td2Y0EPtC6",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment" 4
         }
     ]
 }
