@@ -3,7 +3,7 @@
     "name": "Wait a Minute",
     "author": "creator",
     "creators": [],
-    "verifier": "Phara",
+    "verifier": "ImPhara",
     "verification": "https://www.youtube.com/watch?v=jo8b-ZyiOWo",
     "percentToQualify": 100,
     "song": "Willow Smith - Wait a Minute (Sped Up)",
@@ -11,14 +11,6 @@
     "difficulty": 3,
     "enjoyment": "?/10",
     "records": [
-        {
-            "user": "ImPhara",
-            "link": "https://www.youtube.com/watch?v=jo8b-ZyiOWo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
         {
             "user": "Hydraniac",
             "link": "https://medal.tv/games/geometry-dash/clips/2eLucgjNh9l3Fm/d1337YZr8RBf?invite=cr-MSx3WEosMTg1OTcxMTAwLA",
