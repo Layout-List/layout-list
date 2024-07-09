@@ -16,7 +16,15 @@
             "percent": 74,
             "hz": 60,
             "mobile": false,
-            "enjoyment": 8
+            "enjoyment": 8\
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/Sv9gDO9pVfI"
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         } 
     ]
 }
