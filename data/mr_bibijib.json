@@ -73,6 +73,14 @@
           "hz": 60,
           "mobile": true,
           "enjoyment": 7
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }
