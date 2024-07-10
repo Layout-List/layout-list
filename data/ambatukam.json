@@ -9,7 +9,7 @@
     "song": "dreamybullxxx - ambatakam (trap remix)",
     "songLink": "https://www.mediafire.com/file/schnv1kraiocj5v/9612.mp3/file",
     "difficulty": 2,
-    "enjoyment": "?/10",
+    "enjoyment": "7.5/10",
     "records": [
         {
           "user": "Hyperbeat",
@@ -18,6 +18,14 @@
           "hz": 60,
           "mobile": true,
           "enjoyment": 6
+        },
+        {
+          "user": "evil",
+          "link": "https://youtu.be/Es8DUwyGhZE",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 9
         }
     ]
 }
