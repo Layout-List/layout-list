@@ -47,6 +47,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "cartermon",
+            "link": "https://youtu.be/Vl_b3N1oY0Y?si=mIj6yU27cbayIk3h",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
