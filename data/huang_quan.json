@@ -51,6 +51,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "snips",
+            "link": "https://youtu.be/GJZdXx_bErU?si=BifkbrbdLpH35F9n",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7.5
         }
     ]
 }
