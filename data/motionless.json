@@ -146,6 +146,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "VGdarkz",
+            "link": "https://youtu.be/N0KqYgOSqlQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
