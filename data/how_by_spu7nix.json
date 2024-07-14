@@ -10,6 +10,14 @@
     "difficulty": 2,
     "enjoyment": "?/10",
     "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
         
     ]
 }
