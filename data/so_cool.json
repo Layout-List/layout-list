@@ -1151,10 +1151,18 @@
         },
         {
             "user": "Huskie",
-            "link": "https://youtu.be/V_wNMQlxSLU https://youtu.be/4aow6Ymk_ag",
+            "link": "https://youtu.be/V_wNMQlxSLU",
             "percent": 100,
             "hz": 120,
             "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Toast",
+            "link": "https://youtu.be/lDuFUBQRAPY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
             "enjoyment": 10
         }
     ]
