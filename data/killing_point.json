@@ -25,6 +25,14 @@
           "hz": 60,
           "mobile": true,
           "enjoyment": 3
+        },
+        {
+            "user": "Mystikl",
+            "link": "will add when it uploads",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }
