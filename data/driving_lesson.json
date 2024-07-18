@@ -72,7 +72,7 @@
             "link": "https://youtu.be/HMmr9PEnPRw?si=On4ck-QDQDCvOX5I",
             "percent": 100,
             "hz": 60,
-            "mobile": false,
+            "mobile": true,
             "enjoyment": 8
         }
     ]
