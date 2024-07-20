@@ -7,6 +7,7 @@
     "verification": "https://www.youtube.com/watch?v=5uA_T8WFec8",
     "percentToQualify": 70,
     "song": "Christian Monsutto - Leaves",
+    "songLink": "https://www.mediafire.com/file/zjw48iylpr851t7/421244.mp3/file",
     "difficulty": 7,
     "enjoyment": "?/10",
     "records": [
@@ -57,6 +58,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=kNwnmSZEL8g",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

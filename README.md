@@ -71,26 +71,28 @@ Can I submit multiple levels in one video?
 
 ---
 
-## Owners:
+## Owner:
 
-- evil
-- Mystikl
+- zDark
+
+---
+
+## List Admins:
+
+- Asteria.
+- Evil
+- Tanginess
+- Rastuyas
 
 ---
 
 ## List Helpers:
 
-- Xeronius
-- rastuyas
-- hayden
-
----
-
-## Server Moderators:
-
-- Flare
+- skip
 - Poke Zach
-- Blysteryx
+- Riley
+- hydranic
+- nixantyreal
 
 ---
 

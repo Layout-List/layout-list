@@ -71,6 +71,15 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "skip",
+            "link": "https://www.youtube.com/watch?v=vrMx2bPymYw&",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+            
         }
     ]
 }
