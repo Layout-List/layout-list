@@ -82,6 +82,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://www.youtube.com/watch?v=wXR_bx7x4_M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
