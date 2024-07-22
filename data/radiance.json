@@ -35,6 +35,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "Flipperglint",
+            "link": "https://youtu.be/Mr4_JZK4uFw?si=h9oYyH7yI7c32k2A",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 0
         }
     ]
 }
