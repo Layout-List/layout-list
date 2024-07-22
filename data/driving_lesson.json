@@ -74,6 +74,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "Paladean",
+            "link": "https://youtu.be/d4ohG3lcib4",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
