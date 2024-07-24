@@ -11,6 +11,13 @@
     "difficulty": 2,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+          "user": "sn0w",
+          "link": "https://youtu.be/KgPqngZoHiw",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 4
+        }
     ]
 }
