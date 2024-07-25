@@ -3,8 +3,8 @@
     "name": "tA1lsD0l1 003",
     "author": "Flare",
     "creators": [],
-    "verifier": "hayden",
-    "verification": "https://youtu.be/kQ50Ox87JfE",
+    "verifier": "Hyperbeat",
+    "verification": "https://youtu.be/Var4czQhAFM?si=H3GsRSTIUdbxXnNz",
     "percentToQualify": 52,
     "song": "ta1lsd0ll - ta1lsd003",
     "songLink": "https://www.mediafire.com/file/bv8ucmppts4ek3c/90690.mp3/file",
@@ -26,12 +26,12 @@
             "mobile": false
         },
         {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/Var4czQhAFM?si=H3GsRSTIUdbxXnNz",
+            "user": "hayden",
+            "link": "https://youtu.be/kQ50Ox87JfE",
             "percent": 100,
             "hz": 360,
             "mobile": false,
-            "enjoyment": 9
+            "enjoyment": "?"
         }
     ]
 }
