@@ -331,6 +331,14 @@
             "hz": 360,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "Zyxo".
+            "link": "https://youtu.be/CLZzbdHwkAA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
