@@ -58,6 +58,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+         {
+            "user": "Keruo",
+            "link": "https://youtu.be/vQNi3wy8nUU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }
