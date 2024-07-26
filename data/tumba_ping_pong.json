@@ -83,6 +83,13 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "test",
+            "link": "dont matter",
+            "percent": 100,
+            "hz": 6353.
+            "mobile": false
         }
     ]
 }
