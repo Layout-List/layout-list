@@ -102,6 +102,14 @@
             "hz": 300,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Keruo",
+            "link": "https://www.youtube.com/watch?v=miXbiG_llxo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
