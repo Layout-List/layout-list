@@ -8,6 +8,7 @@
 .nav {
     display: flex;
     column-gap: 2rem;
+    white-space: nowrap;
 }
 .nav .nav__tab {
     padding-top: 4px;
@@ -56,7 +57,7 @@
     box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
     transition: transform 200ms ease;
     width: fit-content;
-    white-space: nowrap;
+    
 }
 .nav .nav__actions .nav__cta:hover:not(:active) {
     transform: translateY(-2px);
