@@ -64,7 +64,7 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    gap: 2rem;
+    gap: auto;
 }
 .page-list .level-container .level .stats li {
     display: flex;
