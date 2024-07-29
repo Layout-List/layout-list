@@ -100,8 +100,8 @@
         {
             "user": "Aquatic",
             "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
-            "percent": 144,
-            "hz": 360,
+            "percent": 100,
+            "hz": 144,
             "mobile": false,
             "enjoyment": "?"
         },
