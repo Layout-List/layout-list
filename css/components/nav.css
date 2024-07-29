@@ -8,7 +8,7 @@
 .nav {
     display: flex;
     column-gap: 2rem;
-    white-space: nowrap;
+    
 }
 .nav .nav__tab {
     padding-top: 4px;
