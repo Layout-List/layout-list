@@ -120,6 +120,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Interive",
+            "link": "https://youtu.be/WtjifugT9GQ?si=WxODGwN4Q4DOkmzC",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }
