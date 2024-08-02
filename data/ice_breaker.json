@@ -60,6 +60,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }
