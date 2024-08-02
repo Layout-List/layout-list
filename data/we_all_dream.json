@@ -128,6 +128,14 @@
             "hz": 120,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/MxT9_mYhLy0",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment" : 9
         }
     ]
 }
