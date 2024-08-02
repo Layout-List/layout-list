@@ -113,6 +113,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/Aum1RLQebes",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "7"
         }
     ]
 }
