@@ -81,6 +81,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+         {
+            "user": "Riley",
+            "link": "https://youtu.be/eeV9lFSSOPk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
