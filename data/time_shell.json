@@ -301,6 +301,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "Sloudy",
+            "link": "https://youtu.be/B_jyivXopFc?si=YjcC2dAL1_m_W2OL",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
