@@ -42,6 +42,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/VUNaNpzry9A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/CvwlBiM3N_U?si=7iMN0GWmPFo6hNUV",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
