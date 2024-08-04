@@ -33,7 +33,7 @@ export default {
                 </div>
                 <div class="board-container">
                     <nav class="nav">
-                        <div class="nav__actions2" style="margin-bottom:30px">
+                        <div class="nav__actions2">
                              <router-link class="nav__cta2" type-label-lg to="/leaderboard">
                                 <span class="type-label-lg">Full Levels</span>
                               </router-link>
