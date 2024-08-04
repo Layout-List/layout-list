@@ -33,7 +33,7 @@ export default {
                 </div>
                 <div class="board-container">
                     <nav class="nav">
-                        <div class="nav__actions2">
+                        <div class="nav__actions2" style="margin-bottom:30px">
                              <router-link class="nav__cta2" type-label-lg to="/leaderboard">
                                 <span class="type-label-lg">Full Levels</span>
                               </router-link>
@@ -42,7 +42,6 @@ export default {
                             </router-link>
                         </div>
                     </nav>
-                    <h1>‎ </h1>
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">

@@ -23,7 +23,7 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <nav class="nav">
-                    <div class="nav__actions2">
+                    <div class="nav__actions2" style="margin-bottom:30px">
                          <router-link class="nav__cta2" type-label-lg to="/">
                             <span class="type-label-lg">Full Levels</span>
                           </router-link>
@@ -32,7 +32,6 @@ export default {
                         </router-link>
                     </div>
                 </nav>
-                <h1>‎ </h1>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
