@@ -3,8 +3,8 @@
     "name": "yeat turban twizz lv",
     "author": "dunix",
     "creators": [],
-    "verifier": "dunix",
-    "verification": "https://youtu.be/NZMb9zfJ7HE",
+    "verifier": "Hyperbeat",
+    "verification": "https://www.youtube.com/watch?v=NI9ohOl7ZyQ",
     "percentToQualify": 100,
     "song": "Twel - Pixel Rave",
     "difficulty": 3,
@@ -17,6 +17,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 1
+        },
+        {
+            "user": "dunix",
+            "link": "https://www.youtube.com/watch?v=NZMb9zfJ7HE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "?"
         }
         
     ]
