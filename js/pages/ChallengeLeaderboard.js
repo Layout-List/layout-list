@@ -42,7 +42,7 @@ export default {
                             </router-link>
                         </div>
                     </nav>
-                    <div class="notice" style="margin:22px">
+                    <div class="notice" style="margin-bottom:22px">
                         <p>The challenge list has been archived as of 7/20/24. No new layouts or records will be added.</p>
                     </div>
                     <table class="board">
