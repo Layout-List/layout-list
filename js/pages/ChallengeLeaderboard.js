@@ -43,7 +43,7 @@ export default {
                         </div>
                     </nav>
                     <div class="notice" style="margin-bottom:22px;margin-top:-12px">
-                        <p>The challenge list has been archived as of 7/20/24. No new layouts or records will be added.</p>
+                        <p>The challenge list will be archived, effective 8/19/24. Records will still be accepted until this date.</p>
                     </div>
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
