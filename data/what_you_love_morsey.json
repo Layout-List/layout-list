@@ -3,7 +3,7 @@
     "name": "what you love",
     "author": "morsey",
     "creators": [],
-    "verifier": "Hydra",
+    "verifier": "Hydraniac",
     "verification": "https://youtu.be/OKkcp8x2mgk?si=QVEg7Jyk2_geUSBI",
     "percentToQualify": 100,
     "song": "What You Love - Gargalan",
@@ -17,6 +17,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 10
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/Kg5ilqhHha8?si=oWBvUXEmpIOS_giN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
         }
     ]
 }
