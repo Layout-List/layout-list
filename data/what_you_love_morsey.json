@@ -1,0 +1,30 @@
+{
+    "id": 108170208,
+    "name": "what you love",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/OKkcp8x2mgk?si=QVEg7Jyk2_geUSBI",
+    "percentToQualify": 100,
+    "song": "What You Love - Gargalan",
+    "difficulty": 2,
+    "enjoyment": "?/10",
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/SoL2CjQlZao?si=YO4w_J99PVk2Rl55",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/Kg5ilqhHha8?si=oWBvUXEmpIOS_giN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+    ]
+}
