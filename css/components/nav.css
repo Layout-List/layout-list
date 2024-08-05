@@ -63,6 +63,9 @@
 .nav .nav__actions .nav__cta:hover:not(:active) {
     transform: translateY(-2px);
 }
+.nav__actions2 {
+    margin-bottom: 30px;
+}
 .nav .nav__actions2 {
     flex: 1;
     display: flex;

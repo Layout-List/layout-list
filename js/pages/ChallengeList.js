@@ -32,7 +32,6 @@ export default {
                         </router-link>
                     </div>
                 </nav>
-                <h1>‎ </h1>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
@@ -122,6 +121,9 @@ export default {
                     </div>
                     <div class="og">
                         <p class="type-label-md">Website layout on <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>, made by DJ JDK & Blathers.</p>
+                    </div>
+                    <div class="notice type-label-sm" style="margin-top:-10">
+                        <p>The challenge list has been archived as of 7/20/24. No new layouts or records will be added.</p>
                     </div>
                     <template v-if="editors">
                         <h3>LIST EDITORS</h3>

@@ -42,7 +42,9 @@ export default {
                             </router-link>
                         </div>
                     </nav>
-                    <h1>‎ </h1>
+                    <div class="notice" style="margin-bottom:22px;margin-top:-12px">
+                        <p>The challenge list has been archived as of 7/20/24. No new layouts or records will be added.</p>
+                    </div>
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
