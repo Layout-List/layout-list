@@ -242,8 +242,8 @@ export function round(num) {
     }
 }
 
-export async function fetchTierLength(difficulty) {
-    const list = await fetchList();
+export function fetchTierLength(difficulty) {
+    const list = fetchList();
     let a = difficulty;
     return a;
 }
