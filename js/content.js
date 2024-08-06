@@ -67,7 +67,7 @@ export async function fetchTierMinimum(difficulty) {
         }
 
         if (level.difficulty === difficulty) {
-            tierMin = Math.max(list[level], tierMin);
+            tierMin = Math.max(rank, tierMin);
         }
     });
 
