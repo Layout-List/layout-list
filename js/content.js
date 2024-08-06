@@ -75,7 +75,7 @@ export async function fetchTierMinimum(difficulty) {
 }
 
 export async function fetchTierLength(difficulty) {
-    const list = await fetchList();
+    /* const list = await fetchList(); */
     let tierLength = 6;
     /* list.forEach(([err, rank, level]) => {
         if (err) {
