@@ -53,6 +53,13 @@
             "hz": 240,
             "mobile": false,
             "enjoyment" : 9
+        },
+        {
+            "user": "DonaldTrumpGD",
+            "link": "https://youtu.be/AOjC7_jbGSI?si=LZhHN7f1Gs5lvJXQ",
+            "percent": 50,
+            "hz": 60,
+            "mobile": true
         }
     ]
 }

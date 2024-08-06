@@ -1,9 +1,10 @@
+import { fetchList } from './content.js';
 import { localize } from './util.js';
-import { fetchTierMinimum, fetchTierLength } from './content.js';
 /**
  * Numbers of decimal digits to round to
  */
 const scale = 1;
+const list = await fetchList();
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
@@ -12,65 +13,50 @@ const scale = 1;
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number}
  */
-export function score(difficulty, percent, minPercent) {
+export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
-    const tierMin = fetchTierMinimum(difficulty);
-    const tierLength = fetchTierLength(difficulty);
+    let tierMin = fetchTierMinimum(difficulty);
+    let tierLength = fetchTierLength(difficulty);
     
     if (difficulty<4){
         minPercent = 100;
     }
-    switch (difficulty){
+    switch (difficulty) {
         case 0:
             /* Beginner Tier */
-            score = 5;
-            /* score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 1:
             /* Easy Tier */
-            score = 10;
-            /* score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 2:
             /* Medium Tier */
-            score = 25;
-            /* score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 3:
             /* Hard Tier */
-            score = 50;
-            /* score = 21 + (19 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 21 + (19 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 4:
             /* Insane Tier */
-            score = 75;
-            /* score = 41 + (29 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 41 + (29 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 5:
             /* Mythical Tier */
-            score = 100;
-            /* score = 71 + (29 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 71 + (29 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 6:
             /* Extreme Tier */
-            score = 150;
-            /* score = 101 + (99 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 101 + (99 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 7:
             /* Legendary Tier */
-            score = 200;
-            /* score = 201 + (199 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = 201 + (199 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 8:
             /* Impossible Tier */
-            score = 250;
-            /* score = 401 + (349 * ((tierMin - (rank - 1)) / tierLength)); */
-            break;
-        case 9:
-            score = 350;
-            break;
-        case 10:
-            score = 500;
+            score = 401 + (349 * ((tierMin - (rank - 1)) / tierLength));
             break;
         default:
             score = 0;
@@ -201,4 +187,43 @@ export function round(num) {
             scale
         );
     }
+}
+
+export function fetchTierMinimum(difficulty) {
+    let tierMin = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierMin = Math.max(rank, tierMin);
+        }
+    });
+
+    return tierMin;
+}
+export function fetchTierLength(difficulty) {
+    let tierLength = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierLength += 1;
+        }
+    });
+
+    return tierLength;
 }

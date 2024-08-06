@@ -50,7 +50,7 @@ export default {
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
+                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
                             <span class="type-label-lg">Verification</span>
@@ -63,7 +63,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(selected - (8 - level.difficulty), level.difficulty, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -172,40 +172,31 @@ export default {
                     <h4></h4>
                     <h4>DIFFICULTY RANKINGS</h4>
                     <p>
-                        Impossible Layout = Top Extreme Demons (1000 Points)
+                        Impossible Layout = Top Extreme Demons (401 to 750 Points)
                     </p>
                     <p>
-                        Silent Layout = Remorseless/Relentless Extreme Demons (500 Points)
+                        Legendary Layout = Mid Extreme Demons (201 to 400 Points)
                     </p>
                     <p>
-                        Legendary Layout = Insane/Extreme Extreme Demons (350 Points)
+                        Extreme Layout = Beginner Extreme Demons (101 to 200 Points)
                     </p>
                     <p>
-                        Ethereal Layout = Hard/Very Hard Extreme Demons (250 Points)
+                        Mythical Layout = High Insane Demons (71 to 100 Points)
                     </p>
                     <p>
-                        Supreme Layout = Easy/Medium Extreme Demons (200 Points)
+                        Insane Layout = Insane Demons (41 to 70 Points)
                     </p>
                     <p>
-                        Extreme Layout = Beginner Extreme Demons (150 Points)
+                        Hard Layout = Hard Demons (21 to 40 Points)
                     </p>
                     <p>
-                        Mythical Layout = High Insane Demons (100 Points)
+                        Medium Layout = Medium Demons (11 to 20 Points)
                     </p>
                     <p>
-                        Insane Layout = Insane Demons (75 Points)
+                        Easy Layout = Easy Demons (6 to 10 Points)
                     </p>
                     <p>
-                        Hard Layout = Hard Demons (50 Points)
-                    </p>
-                    <p>
-                        Medium Layout = Medium Demons (25 Points)
-                    </p>
-                    <p>
-                        Easy Layout = Easy Demons (10 Points)
-                    </p>
-                    <p>
-                        Beginner Layout = Non Demons (5 Points)
+                        Beginner Layout = Non Demons (1 to 5 Points)
                     </p>
                 </div>
             </div>
