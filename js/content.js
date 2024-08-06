@@ -112,8 +112,6 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    const tierLengths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    const tierMaxes = [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999];
     let possibleMax = 0;
 
     if (list === null) {
@@ -129,11 +127,8 @@ export async function fetchLeaderboard() {
         if (rank === null) {
             return;
         }
-
-        tierMaxes[level.difficulty] = Math.min(tierMins[level.difficulty], rank);
-        tierLengths[level.difficulty] += 1;
         
-        /*possibleMax += score(rank, level.difficulty, 100, level.percentToQualify);*/
+        possibleMax += score(rank, level.difficulty, 100, level.percentToQualify);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
