@@ -53,48 +53,6 @@ export async function fetchList() {
     }
 }
 
-export async function fetchTierMinimum(difficulty) {
-    const list = await fetchList();
-    let tierMin = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierMin = Math.max(rank, tierMin);
-        }
-    });
-
-    return tierMin;
-}
-
-export async function fetchTierLength(difficulty) {
-    /* const list = await fetchList(); */
-    let tierLength = 6;
-    /* list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierLength += 1;
-        }
-    }); */
-
-    return tierLength;
-}
-
 export async function fetchChallengeList() {
     const challengeListResult = await fetch(`${dir}/_challengeList.json`);
     try {
@@ -154,6 +112,8 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
+    const tierLengths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+    const tierMaxes = [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999];
     let possibleMax = 0;
 
     if (list === null) {
@@ -170,7 +130,10 @@ export async function fetchLeaderboard() {
             return;
         }
 
-        possibleMax += score(rank, level.difficulty, 100, level.percentToQualify);
+        tierMaxes[level.difficulty] = Math.min(tierMins[level.difficulty], rank);
+        tierLengths[level.difficulty] += 1;
+        
+        /*possibleMax += score(rank, level.difficulty, 100, level.percentToQualify);*/
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
