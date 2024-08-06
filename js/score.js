@@ -21,53 +21,6 @@ export function score(rank, difficulty, percent, minPercent) {
     if (difficulty<4){
         minPercent = 100;
     }
-    /* switch (difficulty) {
-        case 0:
-            /* Beginner Tier *
-            score = rank;
-            break;
-        case 1:
-            /* Easy Tier *
-            score = tierLength;
-            break;
-        case 2:
-            /* Medium Tier *
-            score = tierMin;
-            break;
-        case 3:
-            /* Hard Tier *
-            score = 50;
-            break;
-        case 4:
-            /* Insane Tier *
-            score = 75;
-            break;
-        case 5:
-            /* Mythical Tier *
-            score = 100;
-            break;
-        case 6:
-            /* Extreme Tier *
-            score = 150;
-            break;
-        case 7:
-            /* Legendary Tier *
-            score = 200;
-            break;
-        case 8:
-            /* Impossible Tier *
-            score = 250;
-            break;
-        case 9:
-            score = 350;
-            break;
-        case 10:
-            score = 500;
-            break;
-        default:
-            score = 0;
-            break;
-    } */
     switch (difficulty) {
         case 0:
             /* Beginner Tier */
@@ -104,12 +57,6 @@ export function score(rank, difficulty, percent, minPercent) {
         case 8:
             /* Impossible Tier */
             score = 401 + (349 * ((tierMin - (rank - 1)) / tierLength));
-            break;
-        case 9:
-            score = 350;
-            break;
-        case 10:
-            score = 500;
             break;
         default:
             score = 0;
