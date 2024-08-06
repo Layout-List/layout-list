@@ -24,17 +24,20 @@ export function score(rank, difficulty, percent, minPercent) {
         case 0:
             /* Beginner Tier */
             /* score = 5; */
-            score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength));
+            /* score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = tierMin;
             break;
         case 1:
             /* Easy Tier */
             /* score = 10; */
-            score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength));
+            /* score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = tierLength;
             break;
         case 2:
             /* Medium Tier */
             /* score = 25; */
-            score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength));
+            /* score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength)); */
+            score = rank;
             break;
         case 3:
             /* Hard Tier */
