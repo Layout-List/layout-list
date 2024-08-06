@@ -305,7 +305,7 @@ export default {
             }
         }
         
-        const tierLengths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+        /* const tierLengths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
         const tierMaxes = [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999];
         list.forEach(([err, rank, level]) => {
             if (err) {
@@ -319,7 +319,7 @@ export default {
 
             tierMaxes[level.difficulty] = Math.min(tierMins[level.difficulty], rank);
             tierLengths[level.difficulty] += 1;
-        });
+        }); */
 
         this.loading = false;
     },
