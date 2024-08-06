@@ -5,6 +5,7 @@ import { fetchTierMinimum } from './content.js';
  * Numbers of decimal digits to round to
  */
 const scale = 1;
+const list = fetchList();
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
@@ -254,9 +255,9 @@ export function fetchTierLength(difficulty) {
             return;
         }
 
-        /*if (level.difficulty === difficulty) {
+        if (level.difficulty === difficulty) {
             tierLength += 1;
-        }*/
+        }
     });*/
 
     return tierLength;
