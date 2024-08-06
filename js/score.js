@@ -1,6 +1,5 @@
 import { fetchList } from './content.js';
 import { localize } from './util.js';
-import { fetchTierMinimum } from './content.js';
 /**
  * Numbers of decimal digits to round to
  */
@@ -16,7 +15,7 @@ const list = await fetchList();
  */
 export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
-    /* const tierMin = fetchTierMinimum(difficulty); */
+    let tierMin = fetchTierMinimum(difficulty);
     let tierLength = fetchTierLength(difficulty);
     
     if (difficulty<4){
@@ -243,6 +242,25 @@ export function round(num) {
     }
 }
 
+export function fetchTierMinimum(difficulty) {
+    let tierMin = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierMin = Math.max(rank, tierMin);
+        }
+    });
+
+    return tierMin;
+}
 export function fetchTierLength(difficulty) {
     let tierLength = 0;
     list.forEach(([err, rank, level]) => {
