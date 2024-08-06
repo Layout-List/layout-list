@@ -244,8 +244,8 @@ export function round(num) {
 }
 
 export function fetchTierLength(difficulty) {
-    let tierLength = 4;
-    /*list.forEach(([err, rank, level]) => {
+    let tierLength = 0;
+    list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
             return;
@@ -258,7 +258,7 @@ export function fetchTierLength(difficulty) {
         if (level.difficulty === difficulty) {
             tierLength += 1;
         }
-    });*/
+    });
 
     return tierLength;
 }
