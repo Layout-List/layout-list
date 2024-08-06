@@ -92,7 +92,7 @@ export async function fetchTierLength(difficulty) {
         }
     });
 
-    return tierLength;
+    return 6;
 }
 
 export async function fetchChallengeList() {
