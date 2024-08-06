@@ -53,9 +53,9 @@ export async function fetchList() {
     }
 }
 
-export async function fetchTierMinimum(difficulty) {
+export async function fetchTierMaximum(difficulty) {
     const list = await fetchList();
-    let min = 0;
+    let max = 9999;
     list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
@@ -67,7 +67,7 @@ export async function fetchTierMinimum(difficulty) {
         }
 
         if (level.difficulty === difficulty) {
-            min = Math.max(list[level], min);
+            max = Math.min(list[level], max);
         }
     });
 
