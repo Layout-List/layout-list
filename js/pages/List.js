@@ -285,24 +285,7 @@ export default {
     },
     async mounted() {
         // Hide loading spinner
-        this.list = await fetchList();
-        
-        const tierLengths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-        const tierMaxes = [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999];
-        list.forEach(([err, rank, level]) => {
-            if (err) {
-                errs.push(err);
-                return;
-            }
-
-            if (rank === null) {
-                return;
-            }
-
-            tierMaxes[level.difficulty] = Math.min(tierMins[level.difficulty], rank);
-            tierLengths[level.difficulty] += 1;
-        });
-            
+        this.list = await fetchList();            
         this.editors = await fetchEditors();
         // Error handling
         if (!this.list) {
@@ -321,6 +304,22 @@ export default {
                 this.errors.push('Failed to load list editors.');
             }
         }
+        
+        const tierLengths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+        const tierMaxes = [9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999];
+        list.forEach(([err, rank, level]) => {
+            if (err) {
+                errs.push(err);
+                return;
+            }
+
+            if (rank === null) {
+                return;
+            }
+
+            tierMaxes[level.difficulty] = Math.min(tierMins[level.difficulty], rank);
+            tierLengths[level.difficulty] += 1;
+        });
 
         this.loading = false;
     },
