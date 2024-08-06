@@ -1,5 +1,5 @@
 import { localize } from './util.js';
-import { fetchTierMinimum } from './content.js';
+import { fetchTierMaximum } from './content.js';
 /**
  * Numbers of decimal digits to round to
  */
@@ -12,9 +12,9 @@ const scale = 1;
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number}
  */
-export function score(difficulty, percent, minPercent) {
+export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
-    const tierMin = fetchTierMinimum(difficulty);
+    const tierMax = fetchTierMaximum(difficulty);
     if (difficulty<4){
         minPercent = 100;
     }
@@ -22,7 +22,7 @@ export function score(difficulty, percent, minPercent) {
         case 0:
             /* Beginner Tier */
             score = 5;
-            /* score = 4.99 - (3.99 / (placement - lowest level on tier)); */
+            /* score = 4.99 - (3.99 * (tierMax - rank)); */
             break;
         case 1:
             /* Easy Tier */
