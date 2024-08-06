@@ -227,21 +227,3 @@ export function fetchTierLength(difficulty) {
 
     return tierLength;
 }
-
-export function averageEnjoyment(records) {
-    if (!records || records.length === 0) return '?'; // handle empty records
-
-    let validRecordsCount = 0;
-    const total = records.reduce((sum, record) => {
-        if (typeof record.enjoyment === 'number' && !isNaN(record.enjoyment)) {
-            validRecordsCount++;
-            return sum + record.enjoyment;
-        }
-        return sum;
-    }, 0);
-
-    if (validRecordsCount === 0) return '?'; // handle case with no valid enjoyment values
-
-    const average = total / validRecordsCount;
-    return round(average, 2);
-}
