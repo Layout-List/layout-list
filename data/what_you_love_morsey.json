@@ -25,6 +25,22 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 9
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://www.youtube.com/watch?v=lK4e8sdZqZc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Interive",
+            "link": "https://www.youtube.com/watch?v=Z45aSBcrJ6c",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
