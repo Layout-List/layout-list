@@ -12,7 +12,7 @@ const scale = 1;
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number}
  */
-export function score(rank, difficulty, percent, minPercent) {
+export function score(difficulty, percent, minPercent) {
     let score = 0;
     const tierMax = fetchTierMaximum(difficulty);
     if (difficulty<4){
