@@ -68,13 +68,6 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 6
-        },
-        {
-            "user": "K",
-            "link": "L",
-            "percent": 50,
-            "hz": 47,
-            "mobile": true
         }
     ]
 }
