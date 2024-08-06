@@ -58,9 +58,9 @@ export function fetchTierMinimum(difficulty) {
     let min = 0;
     /*list.forEach(level) {
         min = 0;
-        /*if (level.difficulty === difficulty) {
+        if (level.difficulty === difficulty) {
             min = Math.max(list[level], min);
-        }*/
+        }
     }*/
 
     return min;
