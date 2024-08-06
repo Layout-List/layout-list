@@ -53,13 +53,6 @@
             "hz": 240,
             "mobile": false,
             "enjoyment" : 9
-        },
-        {
-            "user": "K",
-            "link": "JK",
-            "percent": 50,
-            "hz": 658,
-            "mobile": true
         }
     ]
 }
