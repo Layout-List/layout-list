@@ -22,47 +22,47 @@ export function score(difficulty, percent, minPercent) {
         case 0:
             /* Beginner Tier */
             score = 5;
-            /* score = 4.99 - (3.99 * (tierMax - rank)); */
+            /* score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 1:
             /* Easy Tier */
             score = 10;
-            /* score = 9.99 - (4.99 / (placement - lowest level on tier)); */
+            /* score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 2:
             /* Medium Tier */
             score = 25;
-            /* score = 19.99 - (9.99 / (placement - lowest level on tier)); */
+            /* score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 3:
             /* Hard Tier */
             score = 50;
-            /* score = 39.99 - (19.99 / (placement - lowest level on tier)); */
+            /* score = 21 + (19 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 4:
             /* Insane Tier */
             score = 75;
-            /* score = 69.99 - (29.99 / (placement - lowest level on tier)); */
+            /* score = 41 + (29 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 5:
             /* Mythical Tier */
             score = 100;
-            /* score = 99.99 - (29.99 / (placement - lowest level on tier)); */
+            /* score = 71 + (29 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 6:
             /* Extreme Tier */
             score = 150;
-            /* score = 199.99 - (99.99 / (placement - lowest level on tier)); */
+            /* score = 101 + (99 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 7:
             /* Legendary Tier */
             score = 200;
-            /* score = 399.99 - (199.99 / (placement - lowest level on tier)); */
+            /* score = 201 + (199 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 8:
             /* Impossible Tier */
             score = 250;
-            /* score = 750 - (350 / (placement - lowest level on tier)); */
+            /* score = 401 + (349 * ((tierMin - (rank - 1)) / tierLength)); */
             break;
         case 9:
             score = 350;
