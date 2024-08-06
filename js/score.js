@@ -15,7 +15,7 @@ const scale = 1;
 export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
     /* const tierMin = fetchTierMinimum(difficulty); */
-    let tierLength = 4;
+    let tierLength = await fetchTierLength(difficulty);
     
     if (difficulty<4){
         minPercent = 100;
