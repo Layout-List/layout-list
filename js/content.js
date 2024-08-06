@@ -170,7 +170,7 @@ export async function fetchLeaderboard() {
             return;
         }
 
-        possibleMax += score(level.difficulty, 100, level.percentToQualify);
+        possibleMax += score(list[level], level.difficulty, 100, level.percentToQualify);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -185,7 +185,7 @@ export async function fetchLeaderboard() {
         verified.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: score(list[level], level.difficulty, 100, level.percentToQualify),
             link: level.verification,
         });
 
@@ -204,7 +204,7 @@ export async function fetchLeaderboard() {
                 completed.push({
                     rank,
                     level: level.name,
-                    score: score(level.difficulty, 100, level.percentToQualify),
+                    score: score(list[level], level.difficulty, 100, level.percentToQualify),
                     link: record.link,
                 });
                 return;
@@ -214,7 +214,7 @@ export async function fetchLeaderboard() {
                 rank,
                 level: level.name,
                 percent: record.percent,
-                score: score(level.difficulty, record.percent, level.percentToQualify),
+                score: score(list[level], level.difficulty, record.percent, level.percentToQualify),
                 link: record.link,
             });
         });
