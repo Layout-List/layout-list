@@ -53,7 +53,7 @@ export async function fetchList() {
     }
 }
 
-export function fetchTierMinimum(difficulty) {
+export async function fetchTierMinimum(difficulty) {
     const list = await fetchList();
     let min = 0;
     /*list.forEach(level) {
