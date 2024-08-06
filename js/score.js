@@ -28,11 +28,11 @@ export function score(rank, difficulty, percent, minPercent) {
             break;
         case 1:
             /* Easy Tier */
-            score = 10;
+            score = tierLength;
             break;
         case 2:
             /* Medium Tier */
-            score = 25;
+            score = tierMin;
             break;
         case 3:
             /* Hard Tier */
