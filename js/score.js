@@ -5,7 +5,7 @@ import { fetchTierMinimum } from './content.js';
  * Numbers of decimal digits to round to
  */
 const scale = 1;
-const list = fetchList();
+const list = await fetchList();
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
