@@ -244,6 +244,6 @@ export function round(num) {
 
 export function fetchTierLength(difficulty) {
     const list = fetchList();
-    let a = difficulty;
+    let a = 1;
     return a;
 }
