@@ -1,5 +1,5 @@
 import { localize } from './util.js';
-import { fetchTierMinimum, fetchTierLength } from './content.js';
+import { fetchTierMinimum } from './content.js';
 /**
  * Numbers of decimal digits to round to
  */
@@ -239,4 +239,9 @@ export function round(num) {
             scale
         );
     }
+}
+
+export function fetchTierLength(difficulty) {
+    let a = difficulty;
+    return a;
 }
