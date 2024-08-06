@@ -95,7 +95,7 @@ export default {
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
                             <td class="enjoyment">
-                                <p v-if="record['enjoyment']">{{ record.enjoyment }}/10</p>
+                                <p>{{ record.enjoyment }}/10</p>
                             </td>
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
