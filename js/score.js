@@ -1,3 +1,4 @@
+import { fetchList } from './content.js';
 import { localize } from './util.js';
 import { fetchTierMinimum } from './content.js';
 /**
@@ -242,6 +243,7 @@ export function round(num) {
 }
 
 export function fetchTierLength(difficulty) {
+    const list = await fetchList();
     let a = difficulty;
     return a;
 }
