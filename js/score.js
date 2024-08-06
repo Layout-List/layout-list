@@ -25,7 +25,7 @@ export function score(rank, difficulty, percent, minPercent) {
     switch (difficulty) {
         case 0:
             /* Beginner Tier */
-            score = tierLength;
+            score = rank;
             break;
         case 1:
             /* Easy Tier */
