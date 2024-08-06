@@ -53,9 +53,9 @@ export async function fetchList() {
     }
 }
 
-export async function fetchTierMaximum(difficulty) {
+export async function fetchTierMinimum(difficulty) {
     const list = await fetchList();
-    let max = 9999;
+    let tierMin = 0;
     list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
@@ -67,16 +67,16 @@ export async function fetchTierMaximum(difficulty) {
         }
 
         if (level.difficulty === difficulty) {
-            max = Math.min(list[level], max);
+            tierMin = Math.max(list[level], tierMin);
         }
     });
 
-    return max;
+    return tierMin;
 }
 
-/*export function fetchTierMaximum(difficulty) {
+export async function fetchTierLength(difficulty) {
     const list = await fetchList();
-    let max = 0;
+    let tierLength = 0;
     list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
@@ -86,14 +86,14 @@ export async function fetchTierMaximum(difficulty) {
         if (rank === null) {
             return;
         }
-        
+
         if (level.difficulty === difficulty) {
-            max = Math.min(list[level], max);
+            tierLength += 1;
         }
     });
 
-    return max;
-}*/
+    return tierLength;
+}
 
 export async function fetchChallengeList() {
     const challengeListResult = await fetch(`${dir}/_challengeList.json`);
