@@ -63,7 +63,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(selected, level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(level.newNum(), level.difficulty, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -227,6 +227,9 @@ export default {
                     ? this.level.showcase
                     : this.level.verification
             );
+        },
+        newNum() {
+            newNum = selected - (8 - this.level.difficulty);
         },
         enjoyment() {
             let count = 0;
