@@ -21,41 +21,41 @@ export function score(rank, difficulty, percent, minPercent) {
     if (difficulty<4){
         minPercent = 100;
     }
-    switch (difficulty) {
+    /* switch (difficulty) {
         case 0:
-            /* Beginner Tier */
+            /* Beginner Tier *
             score = rank;
             break;
         case 1:
-            /* Easy Tier */
+            /* Easy Tier *
             score = tierLength;
             break;
         case 2:
-            /* Medium Tier */
+            /* Medium Tier *
             score = tierMin;
             break;
         case 3:
-            /* Hard Tier */
+            /* Hard Tier *
             score = 50;
             break;
         case 4:
-            /* Insane Tier */
+            /* Insane Tier *
             score = 75;
             break;
         case 5:
-            /* Mythical Tier */
+            /* Mythical Tier *
             score = 100;
             break;
         case 6:
-            /* Extreme Tier */
+            /* Extreme Tier *
             score = 150;
             break;
         case 7:
-            /* Legendary Tier */
+            /* Legendary Tier *
             score = 200;
             break;
         case 8:
-            /* Impossible Tier */
+            /* Impossible Tier *
             score = 250;
             break;
         case 9:
@@ -67,42 +67,42 @@ export function score(rank, difficulty, percent, minPercent) {
         default:
             score = 0;
             break;
-    }
-    /* switch (difficulty) {
+    } */
+    switch (difficulty) {
         case 0:
-            /* Beginner Tier *
+            /* Beginner Tier */
             score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 1:
-            /* Easy Tier *
+            /* Easy Tier */
             score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 2:
-            /* Medium Tier *
+            /* Medium Tier */
             score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 3:
-            /* Hard Tier *
+            /* Hard Tier */
             score = 21 + (19 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 4:
-            /* Insane Tier *
+            /* Insane Tier */
             score = 41 + (29 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 5:
-            /* Mythical Tier *
+            /* Mythical Tier */
             score = 71 + (29 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 6:
-            /* Extreme Tier *
+            /* Extreme Tier */
             score = 101 + (99 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 7:
-            /* Legendary Tier *
+            /* Legendary Tier */
             score = 201 + (199 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 8:
-            /* Impossible Tier *
+            /* Impossible Tier */
             score = 401 + (349 * ((tierMin - (rank - 1)) / tierLength));
             break;
         case 9:
@@ -114,7 +114,7 @@ export function score(rank, difficulty, percent, minPercent) {
         default:
             score = 0;
             break;
-    } */
+    }
     score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     score = Math.max(0, score);
     if (percent != 100) {
