@@ -71,7 +71,7 @@ export async function fetchTierMaximum(difficulty) {
         }
     });
 
-    return min;
+    return max;
 }
 
 /*export function fetchTierMaximum(difficulty) {
