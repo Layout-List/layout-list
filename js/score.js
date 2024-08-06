@@ -1,5 +1,5 @@
 import { localize } from './util.js';
-import { fetchTierMaximum } from './content.js';
+import { fetchTierMinimum, fetchTierLength } from './content.js';
 /**
  * Numbers of decimal digits to round to
  */
@@ -14,7 +14,9 @@ const scale = 1;
  */
 export function score(difficulty, percent, minPercent) {
     let score = 0;
-    const tierMax = fetchTierMaximum(difficulty);
+    const tierMax = fetchTierMinimum(difficulty);
+    const tierLength = fetchTierLength(difficulty);
+    
     if (difficulty<4){
         minPercent = 100;
     }
