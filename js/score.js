@@ -244,7 +244,7 @@ export function round(num) {
 
 export function fetchTierLength(difficulty) {
     const list = fetchList();
-    let tierLength = 6;
+    let tierLength = 4;
     /*list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
