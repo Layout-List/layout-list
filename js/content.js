@@ -74,6 +74,27 @@ export async function fetchTierMinimum(difficulty) {
     return tierMin;
 }
 
+export async function fetchTierLength(difficulty) {
+    const list = await fetchList();
+    let tierLength = 6;
+    /* list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierLength += 1;
+        }
+    }); */
+
+    return tierLength;
+}
+
 export async function fetchChallengeList() {
     const challengeListResult = await fetch(`${dir}/_challengeList.json`);
     try {
