@@ -70,12 +70,6 @@ export async function fetchTierMinimum(difficulty) {
             min = Math.max(list[level], min);
         }
     });
-    /*list.forEach(level) {
-        min = 0;
-        if (level.difficulty === difficulty) {
-            min = Math.max(list[level], min);
-        }
-    }*/
 
     return min;
 }
