@@ -243,7 +243,21 @@ export function round(num) {
 }
 
 export function fetchTierLength(difficulty) {
-    const list = fetchList();
-    let a = 1;
-    return a;
+    let tierLength = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierLength += 1;
+        }
+    });
+
+    return 6;
 }
