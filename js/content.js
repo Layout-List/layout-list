@@ -69,7 +69,7 @@ export function fetchTierMinimum(difficulty) {
         if (level.difficulty === difficulty) {
             min = Math.max(list[level], min);
         }
-    }
+    });
 
     return min;
 }
@@ -90,7 +90,7 @@ export function fetchTierMaximum(difficulty) {
         if (level.difficulty === difficulty) {
             max = Math.min(list[level], max);
         }
-    }
+    });
 
     return max;
 }
