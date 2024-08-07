@@ -82,6 +82,7 @@ Can I submit multiple levels in one video?
 - Evil
 - Tanginess
 - Rastuyas
+- Mystikl
 
 ---
 
@@ -97,5 +98,4 @@ Can I submit multiple levels in one video?
 
 ## List Developers:
 
-- Prometheus
-- Mystikl
+- sphereicle

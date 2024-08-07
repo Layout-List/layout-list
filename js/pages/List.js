@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { score, round } from '../score.js';
+import { score, round, averageEnjoyment } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
@@ -75,7 +75,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ level.enjoyment || "?/10" }}</p>
+                            <p>{{ averageEnjoyment(level.records) }}</p>
                         </li>
                     </ul>
                     <ul class="stats">
@@ -309,6 +309,7 @@ export default {
     },
     methods: {
         embed,
-        score
+        score,
+        averageEnjoyment
     },
 };
