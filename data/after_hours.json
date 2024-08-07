@@ -12,6 +12,14 @@
     "difficulty": 3,
     "enjoyment": "?/10",
     "records": [
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/ohINdNjCIWY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
         
     ]
 }
