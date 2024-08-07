@@ -1,0 +1,23 @@
+
+{
+    "id": 108418826,
+    "name": "Luigi",
+    "author": "Hydraniac",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/4A8xjQ7NVFo?si=chnscCoYvQ-pqk9A",
+    "percentToQualify": 100,
+    "song": "Creo - Nautilus",
+    "difficulty": 3,
+    "enjoyment": "?/10",
+    "records": [
+        {
+            "user": "Tanginess",
+            "link": "https://www.youtube.com/watch?v=dXpDkMuEWNI",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
+}
