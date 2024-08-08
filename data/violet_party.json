@@ -57,6 +57,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "4"
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=nU9IJgrlBJY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "8"
         }
     ]
 }
