@@ -57,6 +57,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 0
+        },
+        {
+            "user": "TheCatAstronaut",
+            "link": "https://youtu.be/T22vI93Y5Rk",
+            "percent": 100,
+            "hz": 1000,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
