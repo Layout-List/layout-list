@@ -698,6 +698,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 10
+        },
+        {
+            "user": "oSammi",
+            "link": "https://youtu.be/Ire33dsetrs?si=xMvW3O59I2l333eB",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
