@@ -18,6 +18,14 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Jolly",
+            "link": "https://youtu.be/r-RxmJNsJTY?si=DrSjy9XvVXXAnlyV",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
