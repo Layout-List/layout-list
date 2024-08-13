@@ -221,6 +221,9 @@ export default {
         this.list = await fetchList();            
         this.editors = await fetchEditors();
         this.packs = this.getPacks(this.list);
+
+        console.log("Packs:", this.packs);
+        
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -237,6 +240,9 @@ export default {
             if (!this.editors) {
                 this.errors.push('Failed to load list editors.');
             }
+            if (!this.packs) {
+                this.errors.push('Failed to load list packs.');
+            }
         }
         
         this.loading = false;
@@ -248,21 +254,26 @@ export default {
         getPacks(list) {
             // Collect packs and their respective levels
             const packsMap = {};
-
+        
             list.forEach(([level]) => {
                 if (level?.pack) {
-                    if (!packsMap[level.pack]) {
                         packsMap[level.pack] = {
                             name: level.pack,
                             color: level.packColor,
                             levels: [],
                         };
-                    }
+                    
                     packsMap[level.pack].levels.push(level.name);
                 }
             });
-
+        
+            // did it work Lets find out
+            if (Object.keys(packsMap).length === 0) {
+                console.error("no packs created");
+            }
+        
             return Object.values(packsMap);
-        },
+        }
+        
     },
 };

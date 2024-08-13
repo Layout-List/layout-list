@@ -34,7 +34,7 @@ export async function fetchList() {
                     const level = await levelResult.json();
 
                     const pack = packs.find(p =>
-                        p.levels.includes(level.name)
+                        p.levels.map(l => l.toLowerCase()).includes(level.name.toLowerCase())
                     );
                     return [
                         null,
