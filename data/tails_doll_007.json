@@ -48,6 +48,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 0
+        },
+        {
+            "user": "Fawami",
+            "link": "https://youtu.be/jL8IM5o839Y",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
