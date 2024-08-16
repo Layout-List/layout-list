@@ -1,10 +1,8 @@
-import { fetchList } from './content.js';
 import { localize } from './util.js';
 /**
  * Numbers of decimal digits to round to
  */
 const scale = 1;
-const list = await fetchList();
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
@@ -13,10 +11,8 @@ const list = await fetchList();
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number}
  */
-export function score(rank, difficulty, percent, minPercent) {
+export function score(difficulty, percent, minPercent) {
     let score = 0;
-    let tierMin = fetchTierMinimum(difficulty);
-    let tierLength = fetchTierLength(difficulty);
     
     if (difficulty<4){
         minPercent = 100;
@@ -24,39 +20,51 @@ export function score(rank, difficulty, percent, minPercent) {
     switch (difficulty) {
         case 0:
             /* Beginner Tier */
-            score = 1 + (4 * ((tierMin - (rank - 1)) / tierLength));
+            score = 5;
             break;
         case 1:
             /* Easy Tier */
-            score = 6 + (4 * ((tierMin - (rank - 1)) / tierLength));
+            score = 10;
             break;
         case 2:
             /* Medium Tier */
-            score = 11 + (9 * ((tierMin - (rank - 1)) / tierLength));
+            score = 25;
             break;
         case 3:
             /* Hard Tier */
-            score = 21 + (19 * ((tierMin - (rank - 1)) / tierLength));
+            score = 50;
             break;
         case 4:
             /* Insane Tier */
-            score = 41 + (29 * ((tierMin - (rank - 1)) / tierLength));
+            score = 75;
             break;
         case 5:
             /* Mythical Tier */
-            score = 71 + (29 * ((tierMin - (rank - 1)) / tierLength));
+            score = 100;
             break;
         case 6:
             /* Extreme Tier */
-            score = 101 + (99 * ((tierMin - (rank - 1)) / tierLength));
+            score = 150;
             break;
         case 7:
-            /* Legendary Tier */
-            score = 201 + (199 * ((tierMin - (rank - 1)) / tierLength));
+            /* Supreme Tier */
+            score = 200;
             break;
         case 8:
+            /* Ethereal Tier */
+            score = 250;
+            break;
+        case 9:
+            /* Legendary Tier */
+            score = 350;
+            break;
+        case 10:
+            /* Silent Tier */
+            score = 500;
+            break;
+        case 11:
             /* Impossible Tier */
-            score = 401 + (349 * ((tierMin - (rank - 1)) / tierLength));
+            score = 1000;
             break;
         default:
             score = 0;
@@ -163,71 +171,6 @@ export function cscore(contributorrole) {
     return cscore;
 }
 
-/*export function avgEnjoyment(records) {
-    let count = 0;
-    for (let i = 0; i < level.records.length(); i++) {
-            count += level.records[i].enjoyment;
-        }
-    }
-    return (count / level.records.length());
-}*/
-
-export function round(num) {
-    if (!('' + num).includes('e')) {
-        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
-    } else {
-        var arr = ('' + num).split('e');
-        var sig = '';
-        if (+arr[1] + scale > 0) {
-            sig = '+';
-        }
-        return +(
-            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
-            'e-' +
-            scale
-        );
-    }
-}
-
-export function fetchTierMinimum(difficulty) {
-    let tierMin = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierMin = Math.max(rank, tierMin);
-        }
-    });
-
-    return tierMin;
-}
-export function fetchTierLength(difficulty) {
-    let tierLength = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierLength += 1;
-        }
-    });
-
-    return tierLength;
-}
-
 export function averageEnjoyment(records) {
     if (!records || records.length === 0) return '?'; // handle empty records
 
@@ -244,4 +187,21 @@ export function averageEnjoyment(records) {
 
     const average = total / validRecordsCount;
     return round(average, 2);
+}
+
+export function round(num) {
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        var arr = ('' + num).split('e');
+        var sig = '';
+        if (+arr[1] + scale > 0) {
+            sig = '+';
+        }
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
+    }
 }
