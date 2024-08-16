@@ -128,7 +128,7 @@ export async function fetchLeaderboard() {
             return;
         }
         
-        possibleMax += score(rank, level.difficulty, 100, level.percentToQualify);
+        possibleMax += score(level.difficulty, 100, level.percentToQualify);
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
