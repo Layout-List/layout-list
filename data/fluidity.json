@@ -46,7 +46,7 @@
             "link": "https://youtu.be/V_bcFEtg7sc",
             "percent": 100,
             "hz": 240,
-            "mobile": false,
+            "mobile": true,
             "enjoyment": 8
         }
     ]
