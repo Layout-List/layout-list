@@ -407,6 +407,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://www.youtube.com/watch?v=CAMAB8Fn9w0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }
