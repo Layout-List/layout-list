@@ -11,14 +11,6 @@
     "difficulty": 7,
     "records": [
         {
-            "user": "Spaace",
-            "link": "https://www.youtube.com/watch?v=496FIU76WUw",
-            "percent": 50,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
             "user": "Riley",
             "link": "https://youtu.be/ohINdNjCIWY",
             "percent": 100,
