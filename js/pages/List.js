@@ -22,16 +22,6 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <nav class="nav">
-                    <div class="nav__actions2">
-                         <router-link class="nav__cta2" type-label-lg to="/">
-                            <span class="type-label-lg">Full Levels</span>
-                          </router-link>
-                          <router-link class="nav__cta2" type-label-lg to="/challenges">
-                            <span class="type-label-lg">Challenges</span>
-                        </router-link>
-                    </div>
-                </nav>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
@@ -228,60 +218,6 @@ export default {
                     : this.level.verification
             );
         },
-        enjoyment() {
-            let count = 0;
-            let num = 0;
-            for (let i = 0; i < this.records.length; i++) {
-                switch (this.records[i].enjoyment) {
-                    case 1:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 2:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 3:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 4:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 5:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 6:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 7:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 8:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 9:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 10:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    default:
-                        break;
-                }
-            }
-            if (num > 0) {
-                return round(total / num);
-            }
-            return "?";
-        }
     },
     async mounted() {
         // Hide loading spinner
