@@ -32,16 +32,6 @@ export default {
                     </p>
                 </div>
                 <div class="board-container">
-                    <nav class="nav">
-                        <div class="nav__actions2">
-                             <router-link class="nav__cta2" type-label-lg to="/leaderboard">
-                                <span class="type-label-lg">Full Levels</span>
-                              </router-link>
-                              <router-link class="nav__cta2" type-label-lg to="/challengeleaderboard">
-                                <span class="type-label-lg">Challenges</span>
-                            </router-link>
-                        </div>
-                    </nav>
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
