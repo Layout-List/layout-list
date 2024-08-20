@@ -11,6 +11,13 @@
     "difficulty": 3,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/z8yW2RMB_wo",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 8
+        }
     ]
 }
