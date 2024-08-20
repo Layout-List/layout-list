@@ -218,60 +218,6 @@ export default {
                     : this.level.verification
             );
         },
-        enjoyment() {
-            let count = 0;
-            let num = 0;
-            for (let i = 0; i < this.records.length; i++) {
-                switch (this.records[i].enjoyment) {
-                    case 1:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 2:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 3:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 4:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 5:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 6:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 7:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 8:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 9:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 10:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    default:
-                        break;
-                }
-            }
-            if (num > 0) {
-                return round(total / num);
-            }
-            return "?";
-        }
     },
     async mounted() {
         // Hide loading spinner
