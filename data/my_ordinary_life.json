@@ -172,13 +172,6 @@
             "enjoyment": 7
         },
         {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/Edz-VMozLoU",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
             "user": "Zyxo",
             "link": "https://youtu.be/Ucj1H4VnAR0",
             "percent": 100,
@@ -282,13 +275,6 @@
             "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
             "percent": 100,
             "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Tomfoolering",
-            "link": "https://www.youtube.com/watch?v=gS6rauaYi0U",
-            "percent": 100,
-            "hz": 60,
             "mobile": false
         },
         {
