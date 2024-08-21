@@ -26,6 +26,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Interive",
+            "link": "https://youtu.be/gnjNsALNIQE?si=tgUacgGWO2MKMP5u",
+            "percent": 70,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }

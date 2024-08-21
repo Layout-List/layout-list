@@ -8,7 +8,7 @@
     "percentToQualify": 37,
     "song": "ta1lsd0ll - ta1lsd007",
     "songLink": "https://www.mediafire.com/file/tekkycum5d58ubn/523556.mp3/file",
-    "difficulty": 6,
+    "difficulty": 7,
     "records": [
         {
             "user": "Mystikl",
@@ -48,6 +48,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 0
+        },
+        {
+            "user": "Fawami",
+            "link": "https://youtu.be/jL8IM5o839Y",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

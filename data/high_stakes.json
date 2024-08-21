@@ -127,6 +127,30 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/bD-UjsvyW-w",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

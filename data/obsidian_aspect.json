@@ -8,7 +8,7 @@
     "percentToQualify": 70,
     "song": "Christian Monsutto - Leaves",
     "songLink": "https://www.mediafire.com/file/zjw48iylpr851t7/421244.mp3/file",
-    "difficulty": 6,
+    "difficulty": 7,
     "enjoyment": "?/10",
     "records": [
         {
@@ -74,6 +74,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/C79lpE-oEZY",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

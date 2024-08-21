@@ -10,6 +10,13 @@
     "difficulty": 1,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/m-UBl5g6SXs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
     ]
 }

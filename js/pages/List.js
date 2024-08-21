@@ -22,16 +22,6 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <nav class="nav">
-                    <div class="nav__actions2">
-                         <router-link class="nav__cta2" type-label-lg to="/">
-                            <span class="type-label-lg">Full Levels</span>
-                          </router-link>
-                          <router-link class="nav__cta2" type-label-lg to="/challenges">
-                            <span class="type-label-lg">Challenges</span>
-                        </router-link>
-                    </div>
-                </nav>
                 <table class="list" v-if="list">
                     <tr v-for="([err, rank, level], i) in list">
                         <td class="rank">
@@ -51,7 +41,7 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <div class="pack">placeholder</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary", "Impossible"][level.difficulty]}} layout</h3>
+                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
                             <span class="type-label-lg">Verification</span>
@@ -64,7 +54,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(selected - (8 - level.difficulty), level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(level.difficulty, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -229,60 +219,6 @@ export default {
                     : this.level.verification
             );
         },
-        enjoyment() {
-            let count = 0;
-            let num = 0;
-            for (let i = 0; i < this.records.length; i++) {
-                switch (this.records[i].enjoyment) {
-                    case 1:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 2:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 3:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 4:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 5:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 6:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 7:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 8:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 9:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    case 10:
-                        total += this.records[i].enjoyment;
-                        num += 1;
-                        break;
-                    default:
-                        break;
-                }
-            }
-            if (num > 0) {
-                return round(total / num);
-            }
-            return "?";
-        }
     },
     async mounted() {
         // Hide loading spinner

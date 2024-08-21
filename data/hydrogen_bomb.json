@@ -1,0 +1,24 @@
+{
+    "id": 97247638,
+    "name": "Hydrogen Bomb",
+    "author": "Riley",
+    "creators": [
+      "dogpole"
+    ],
+    "verifier": "Spaace",
+    "verification": "https://youtu.be/nNSQ-JFWw_I",
+    "percentToQualify": 51,
+    "song": "DJ Nate - Treat the Oscillators",
+    "difficulty": 9,
+    "enjoyment": "?/10",
+    "records": [
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/OP6uQu9K-Tg",
+            "percent": 75,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        }
+    ]
+}

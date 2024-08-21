@@ -66,6 +66,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/YHSgASkzz6I",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://youtu.be/vuJMNpL-EVs?si=Leht189uIOP9g72i",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

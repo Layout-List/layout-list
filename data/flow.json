@@ -59,7 +59,8 @@
             "link": "https://youtu.be/ZcI6WNDHOD8?si=XmFS9LScIaFnOSBA",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "LimeDub",
@@ -198,6 +199,14 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
         }
     ]
 }

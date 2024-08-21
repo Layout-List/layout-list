@@ -75,14 +75,6 @@
             "mobile": false
         },
         {
-            "user": "Tomfoolering",
-            "link": "https://youtu.be/QX63iIcbVSI?feature=shared",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
             "user": "Blysteryx",
             "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
             "percent": 100,
@@ -121,6 +113,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/xE4ckdBxt9w?si=VXjNPc40RfE85Phj",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }

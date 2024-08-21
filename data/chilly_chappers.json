@@ -8,7 +8,7 @@
     "showcase": "https://youtu.be/YHDPOfxOptM",
     "percentToQualify": 53,
     "song": "Rukkus - Take Me Away",
-    "difficulty": 6,
+    "difficulty": 7,
     "records": [
         {
             "user": "Plasmic",
@@ -116,6 +116,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }

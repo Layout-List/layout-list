@@ -8,7 +8,7 @@
     "showcase": "https://youtu.be/26gSovmjo5o",
     "percentToQualify": 36,
     "song": "Llaappssee - Being Alive is Fucking Weird",
-    "difficulty": 7,
+    "difficulty": 8,
     "enjoyment": "6.8/10",
     "records": [
       {
@@ -105,6 +105,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

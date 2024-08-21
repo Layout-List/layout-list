@@ -8,7 +8,7 @@
     "percentToQualify": 62,
     "song": "Slipknot - Eyeless",
     "songLink": "https://drive.google.com/file/d/1c65Uo7jEyhvSweqehIpHrv01XsRFZm_S/view?usp=drive_link",
-    "difficulty": 6,
+    "difficulty": 7,
     "enjoyment": "8/10",
     "records": [
         {
@@ -50,6 +50,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

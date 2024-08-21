@@ -123,7 +123,7 @@ export default {
                         <p class="type-label-md">Website layout on <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>, made by DJ JDK & Blathers.</p>
                     </div>
                     <div class="notice type-label-sm" style="margin-top:-10">
-                        <p>The challenge list will be archived, effective 8/19/24. Records will still be accepted until this date.</p>
+                        <p>The challenge list has been archived, effective 8/19/24.  Records will no longer be accepted.</p>
                     </div>
                     <template v-if="editors">
                         <h3>LIST EDITORS</h3>

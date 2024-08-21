@@ -1,13 +1,13 @@
 {
-    "id": 108303614,
-    "name": "Rebirth",
-    "author": "Zyxo",
+    "id": 109126257,
+    "name": "Margart Thatch",
+    "author": "Solelak",
     "creators": [],
-    "verifier": "Zyxo",
-    "verification": "https://youtu.be/ZqytDmUzbww",
+    "verifier": "sn0w",
+    "verification": "https://youtu.be/Reh7bXXgWh0?si=yFR4PMAcLYrPiNg7",
     "percentToQualify": 100,
-    "song": "Diivi - Glaive - Astrid (Remix)",
-    "difficulty": 4,
+    "song": "Blast Processing - Waterflame",
+    "difficulty": 2,
     "enjoyment": "?/10",
     "records": [
         {
@@ -16,7 +16,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 4
+            "enjoyment": 9
         }
     ]
 }

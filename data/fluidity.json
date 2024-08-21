@@ -31,7 +31,8 @@
             "link": "https://youtu.be/DQy6resmWvg?si=Gwa8dKNOqLL72YvB",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "Mystikl",
@@ -46,7 +47,7 @@
             "link": "https://youtu.be/V_bcFEtg7sc",
             "percent": 100,
             "hz": 240,
-            "mobile": false,
+            "mobile": true,
             "enjoyment": 8
         }
     ]

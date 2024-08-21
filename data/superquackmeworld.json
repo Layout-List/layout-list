@@ -1,0 +1,47 @@
+{
+    "id": 109018775,
+    "name": "SUPERQUACKMEWORLD",
+    "author": "fusemax",
+    "creators": [],
+    "verifier": "fusemax",
+    "verification": "https://www.youtube.com/watch?v=nqagiZlfXGc",
+    "percentToQualify": 100,
+    "song": "Marilyn Manson - Resident Evil Main Title Theme",
+    "songLink": "https://drive.google.com/file/d/1jeAX8HlVPUN3-6G58h9llxIn6rXMpMcf/view?usp=drive_link",
+    "difficulty": 3,
+    "enjoyment": "?/10",
+    "records": [
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/z8yW2RMB_wo",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/8Dk-9McyxkE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=T-lX1Xy76iY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
+}
