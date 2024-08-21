@@ -10,7 +10,6 @@
     "song": "After Dark - Mr. Kitty",
     "songLink": "https://drive.google.com/file/d/17KSk-OCHxxW5O8rB7VgEOjZNkIqBwywf/view?usp=drive_link",
     "difficulty": 3,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Riley",
@@ -19,7 +18,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/dCvJVTlB6-g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
-        
     ]
 }
