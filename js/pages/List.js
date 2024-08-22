@@ -130,6 +130,7 @@ export default {
                         (✨ Subject to Exemptions )
                         (🟢 To be Moved Up )
                         (🔴 To be Moved Down )
+                        (💫 Accepted Under Old Standards )
                     </p>
                     
                     <h3>Record Submission Requirements</h3>
