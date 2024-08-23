@@ -110,6 +110,14 @@
             "hz": 650,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "pivithasnolife",
+            "link": "https://www.youtube.com/watch?v=f7JOvUlUfjY",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
