@@ -1,4 +1,5 @@
 import { localize } from './util.js';
+import { fetchTierLength } from './content.js';
 /**
  * Numbers of decimal digits to round to
  */
@@ -12,6 +13,7 @@ const scale = 1;
  * @returns {Number}
  */
 export function score(rank, difficulty, percent, minPercent) {
+    let tierLength = fetchTierLength(difficulty);
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
@@ -89,7 +91,7 @@ export function score(rank, difficulty, percent, minPercent) {
     }
 
     // Calculate rank factor to ensure rank 1 gets maxScore and rank 100 gets minScore
-    let rankFactor = (rankScale - rank) / (rankScale - 1);
+    let rankFactor = 1 - (rank - 1) / (tierLength - 1);
 
     // Calculate the score based on the rank factor and difficulty
     score = minScore + rankFactor * (maxScore - minScore);
