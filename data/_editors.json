@@ -1,8 +1,8 @@
 [
     {
         "role": "owner",
-        "name": "hayden",
-        "link": "https://www.youtube.com/@zDarkHTRR"
+        "name": "Mystikl",
+        "link": "https://www.youtube.com/@lMystikl"
     },
     {
         "role": "admin",
@@ -11,13 +11,13 @@
     },
     {
         "role": "admin",
-        "name": "rastuyas",
-        "link": "https://www.youtube.com/@rastuyas"
-    },
-    {
-        "role": "admin",
         "name": "evil",
         "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+    },
+    {
+        "role": "helper",
+        "name": "rastuyas",
+        "link": "https://www.youtube.com/@rastuyas"
     },
     {
         "role": "helper",
@@ -26,22 +26,17 @@
     },
     {
         "role": "helper",
-        "name": "Riley",
-        "link": "https://www.youtube.com/channel/UCegemp_JlX705WVNF8V_8dg"
-    },
-    {
-        "role": "helper",
         "name": "skip",
         "link": "https://www.youtube.com/channel/UCKikz8doJyt1OA_68Kareig"
     },
- {
+     {
         "role": "helper",
         "name": "Hydraniac",
         "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
     },
     {
         "role": "dev",
-        "name": "Mystikl",
-        "link": "https://www.youtube.com/@lMystikl"
+        "name": "sphericle",
+        "link": "https://www.youtube.com/@zsphericle"
     }
 ]
