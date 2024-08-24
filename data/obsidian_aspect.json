@@ -82,6 +82,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=ohINdNjCIWY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
