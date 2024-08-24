@@ -144,6 +144,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }
