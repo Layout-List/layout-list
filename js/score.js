@@ -11,73 +11,103 @@ const scale = 1;
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number}
  */
-export function score(difficulty, percent, minPercent) {
+export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
-    
-    if (difficulty<4){
+    let minScore = 0;
+    let maxScore = 0;
+    const rankScale = 100;  // Fixed scale for ranks
+
+    if (difficulty < 4) {
         minPercent = 100;
     }
+
     switch (difficulty) {
         case 0:
             /* Beginner Tier */
-            score = 5;
+            minScore = 0;
+            maxScore = 5;
             break;
         case 1:
             /* Easy Tier */
-            score = 10;
+            minScore = 5;
+            maxScore = 10;
             break;
         case 2:
             /* Medium Tier */
-            score = 25;
+            minScore = 10;
+            maxScore = 25;
             break;
         case 3:
             /* Hard Tier */
-            score = 50;
+            minScore = 25;
+            maxScore = 50;
             break;
         case 4:
             /* Insane Tier */
-            score = 75;
+            minScore = 50;
+            maxScore = 75;
             break;
         case 5:
             /* Mythical Tier */
-            score = 100;
+            minScore = 75;
+            maxScore = 100;
             break;
         case 6:
             /* Extreme Tier */
-            score = 150;
+            minScore = 100;
+            maxScore = 150;
             break;
         case 7:
             /* Supreme Tier */
-            score = 200;
+            minScore = 150;
+            maxScore = 200;
             break;
         case 8:
             /* Ethereal Tier */
-            score = 250;
+            minScore = 200;
+            maxScore = 250;
             break;
         case 9:
             /* Legendary Tier */
-            score = 350;
+            minScore = 250;
+            maxScore = 350;
             break;
         case 10:
             /* Silent Tier */
-            score = 500;
+            minScore = 350;
+            maxScore = 500;
             break;
         case 11:
             /* Impossible Tier */
-            score = 1000;
+            minScore = 500;
+            maxScore = 1000;
             break;
         default:
-            score = 0;
+            minScore = 0;
+            maxScore = 0;
             break;
     }
-    score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+
+    // Calculate rank factor to ensure rank 1 gets maxScore and rank 100 gets minScore
+    let rankFactor = (rankScale - rank) / (rankScale - 1);
+
+    // Calculate the score based on the rank factor and difficulty
+    score = minScore + rankFactor * (maxScore - minScore);
+
+    // Adjust score based on the percent completion
+    score = score * (percent / 100);
+    
     score = Math.max(0, score);
+
     if (percent != 100) {
         return round(score - score / 3);
     }
 
     return round(score);
 }
+
+
+
 
 export function challengeScore(difficulty) {
     let score = 0;
