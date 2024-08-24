@@ -22,84 +22,22 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <table class="list" v-if="list">
-                    <tr v-for="([err, rank, level], i) in list">
-                        <td class="rank">
-                            <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                            <p v-else class="type-label-lg">#{{ rank }}</p>
-                        </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                            <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                <table class="list" v-if="packs">
+                    <tr v-for="(pack, index) in packs" :key="index">
+                        <td class="level" :class="{ 'active': selected == index, 'error': !pack }">
+                            <button @click="selected = index">
+                                <span class="type-label-lg">{{ pack?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>
                 </table>
             </div>
             <div class="level-container">
-                <div class="level" v-if="level && level.id!=0">
-                    <h1>{{ level.name }}</h1>
-                    <div class="pack">placeholder</div>
-                    <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
-                    <div v-if="level.showcase" class="tabs">
-                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
-                            <span class="type-label-lg">Verification</span>
-                        </button>
-                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
-                            <span class="type-label-lg">Showcase</span>
-                        </button>
-                    </div>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Points</div>
-                            <p>{{ score(level.difficulty, 100, level.percentToQualify) }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">ID</div>
-                            <p>{{ level.id }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ averageEnjoyment(level.records) }}/10</p>
-                        </li>
+                <div class="level" v-if="selectedPack">
+                    <h1>{{ selectedPack.name }}</h1>
+                    <ul>
+                        <h3 v-for="level in selectedPack.levels" :key="level">{{ level }}</h3>
                     </ul>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Song</div>
-                            <p><a target="_blank" :href="(level.songLink===undefined)?'#':level.songLink" :style="{'text-decoration':(level.songLink===undefined)?'none':'underline'}">{{ level.song || 'insert here' }}</a></p>
-                        </li>
-                    </ul>
-                    <h2>Records</h2>
-                    <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
-                    <table class="records">
-                        <tr v-for="record in level.records" class="record">
-                            <td class="percent">
-                                <p>{{ record.percent }}%</p>
-                            </td>
-                            <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
-                            </td>
-                            <td class="enjoyment">
-                                <p>{{ record.enjoyment }}/10</p>
-                            </td>
-                            <td class="mobile">
-                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
-                            </td>
-                            <td class="hz">
-                                <p>{{ record.hz }}FPS</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
-                    <h1>{{ level.name }}</h1>
-                    <p>The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -131,7 +69,6 @@ export default {
                         (✨ Subject to Exemptions )
                         (🟢 To be Moved Up )
                         (🔴 To be Moved Down )
-                        (💫 Accepted Under Old Standards )
                     </p>
                     
                     <h3>Record Submission Requirements</h3>
@@ -196,9 +133,10 @@ export default {
     `,
     data: () => ({
         list: [],
+        packs: [],
         editors: [],
         loading: true,
-        selected: 1,
+        selected: 0,
         errors: [],
         listlevels: 0,
         roleIconMap,
@@ -206,6 +144,9 @@ export default {
         toggledShowcase: false,
     }),
     computed: {
+        selectedPack() {
+            return this.packs[this.selected] || null;
+        },
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
@@ -220,11 +161,71 @@ export default {
                     : this.level.verification
             );
         },
+        enjoyment() {
+            let count = 0;
+            let num = 0;
+            for (let i = 0; i < this.records.length; i++) {
+                switch (this.records[i].enjoyment) {
+                    case 1:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 2:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 3:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 4:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 5:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 6:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 7:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 8:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 9:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    case 10:
+                        total += this.records[i].enjoyment;
+                        num += 1;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            if (num > 0) {
+                return round(total / num);
+            }
+            return "?";
+        }
     },
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();            
         this.editors = await fetchEditors();
+        this.packs = this.getPacks(this.list);
+
+        console.log("new packs log: ", JSON.parse(JSON.stringify(this.packs)));
+
+        console.log("Packs:", this.packs);
+        
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -241,6 +242,9 @@ export default {
             if (!this.editors) {
                 this.errors.push('Failed to load list editors.');
             }
+            if (!this.packs) {
+                this.errors.push('Failed to load list packs.');
+            }
         }
         
         this.loading = false;
@@ -248,6 +252,31 @@ export default {
     methods: {
         embed,
         score,
-        averageEnjoyment
+        averageEnjoyment,
+        getPacks(list) {
+            // Collect packs and their respective levels
+            console.log('list:', list);
+            const packsMap = {};
+        
+            list.forEach(([level]) => {
+                if (level && level.pack) {
+                        packsMap[level.pack] = {
+                            name: level.pack,
+                            color: level.packColor,
+                            levels: [],
+                        };
+                    
+                    packsMap[level.pack].levels.push(level.name);
+                }
+            });
+        
+            // did it work Lets find out
+            if (Object.keys(packsMap).length === 0) {
+                console.error("no packs created");
+            }
+        
+            return Object.values(packsMap);
+        }
+        
     },
 };
