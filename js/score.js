@@ -15,7 +15,7 @@ export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
-    const rankScale = 100;  // Fixed scale for ranks
+    const rankScale = 7;  // Fixed scale for ranks
 
     if (difficulty < 4) {
         minPercent = 100;
