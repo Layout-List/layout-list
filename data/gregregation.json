@@ -418,6 +418,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 2
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=h8QA2XR3Nr4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
         }
     ]
 }
