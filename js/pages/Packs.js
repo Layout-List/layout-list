@@ -222,6 +222,8 @@ export default {
         this.editors = await fetchEditors();
         this.packs = this.getPacks(this.list);
 
+        console.log("new packs log: ", JSON.parse(JSON.stringify(this.packs)));
+
         console.log("Packs:", this.packs);
         
         // Error handling
@@ -253,10 +255,11 @@ export default {
         averageEnjoyment,
         getPacks(list) {
             // Collect packs and their respective levels
+            console.log('list:', list);
             const packsMap = {};
         
             list.forEach(([level]) => {
-                if (level?.pack) {
+                if (level && level.pack) {
                         packsMap[level.pack] = {
                             name: level.pack,
                             color: level.packColor,
