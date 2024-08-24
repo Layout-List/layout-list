@@ -73,7 +73,7 @@ Can I submit multiple levels in one video?
 
 ## Owner:
 
-- zDark
+- Mystikl
 
 ---
 
@@ -81,8 +81,6 @@ Can I submit multiple levels in one video?
 
 - Evil
 - Tanginess
-- Rastuyas
-- Mystikl
 
 ---
 
@@ -90,7 +88,6 @@ Can I submit multiple levels in one video?
 
 - skip
 - Poke Zach
-- Riley
 - hydranic
 - nixantyreal
 
@@ -98,4 +95,4 @@ Can I submit multiple levels in one video?
 
 ## List Developers:
 
-- sphereicle
+- sphericle
