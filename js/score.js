@@ -17,7 +17,6 @@ export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
-    const rankScale = 7;  // Fixed scale for ranks
 
     if (difficulty < 4) {
         minPercent = 100;
@@ -90,12 +89,11 @@ export function score(rank, difficulty, percent, minPercent) {
             break;
     }
 
-    // Calculate rank factor to ensure rank 1 gets maxScore and rank 100 gets minScore
-    let rankFactor = 1 - (rank - 1) / (tierLength - 1);
+    // Calculate the rank-based score, ensuring the highest rank gets minScore and lowest rank gets maxScore
+    let rankFactor = (tierLength - rank) / (tierLength - 1);
+    console.log(rankFactor)
 
-    // Calculate the score based on the rank factor and difficulty
     score = minScore + rankFactor * (maxScore - minScore);
-
     // Adjust score based on the percent completion
     score = score * (percent / 100);
     
