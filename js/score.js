@@ -1,5 +1,6 @@
 import { localize } from './util.js';
 import { fetchTierLength } from './content.js';
+
 /**
  * Numbers of decimal digits to round to
  */
@@ -10,104 +11,102 @@ const scale = 1;
  * @param {Number} rank Position on the list
  * @param {Number} percent Percentage of completion
  * @param {Number} minPercent Minimum percentage required
- * @returns {Number}
+ * @returns {Promise<Number>} Returns a Promise that resolves with the score
  */
 export function score(rank, difficulty, percent, minPercent) {
-    let tierLength = fetchTierLength(difficulty);
-    let score = 0;
-    let minScore = 0;
-    let maxScore = 0;
+    return fetchTierLength(difficulty).then(tierLength => {
+        let score = 0;
+        let minScore = 0;
+        let maxScore = 0;
 
-    if (difficulty < 4) {
-        minPercent = 100;
-    }
+        if (difficulty < 4) {
+            minPercent = 100;
+        }
 
-    switch (difficulty) {
-        case 0:
-            /* Beginner Tier */
-            minScore = 5;
-            maxScore = 10;
-            break;
-        case 1:
-            /* Easy Tier */
-            minScore = 10;
-            maxScore = 25;
-            break;
-        case 2:
-            /* Medium Tier */
-            minScore = 25;
-            maxScore = 50;
-            break;
-        case 3:
-            /* Hard Tier */
-            minScore = 50;
-            maxScore = 75;
-            break;
-        case 4:
-            /* Insane Tier */
-            minScore = 75;
-            maxScore = 100;
-            break;
-        case 5:
-            /* Mythical Tier */
-            minScore = 100;
-            maxScore = 150;
-            break;
-        case 6:
-            /* Extreme Tier */
-            minScore = 150;
-            maxScore = 200;
-            break;
-        case 7:
-            /* Supreme Tier */
-            minScore = 200;
-            maxScore = 250;
-            break;
-        case 8:
-            /* Ethereal Tier */
-            minScore = 250;
-            maxScore = 350;
-            break;
-        case 9:
-            /* Legendary Tier */
-            minScore = 350;
-            maxScore = 500;
-            break;
-        case 10:
-            /* Silent Tier */
-            minScore = 500;
-            maxScore = 1000;
-            break;
-        case 11:
-            /* Impossible Tier */
-            minScore = 1000;
-            maxScore = 1500;
-            break;
-        default:
-            minScore = 0;
-            maxScore = 0;
-            break;
-    }
+        switch (difficulty) {
+            case 0:
+                /* Beginner Tier */
+                minScore = 5;
+                maxScore = 10;
+                break;
+            case 1:
+                /* Easy Tier */
+                minScore = 10;
+                maxScore = 25;
+                break;
+            case 2:
+                /* Medium Tier */
+                minScore = 25;
+                maxScore = 50;
+                break;
+            case 3:
+                /* Hard Tier */
+                minScore = 50;
+                maxScore = 75;
+                break;
+            case 4:
+                /* Insane Tier */
+                minScore = 75;
+                maxScore = 100;
+                break;
+            case 5:
+                /* Mythical Tier */
+                minScore = 100;
+                maxScore = 150;
+                break;
+            case 6:
+                /* Extreme Tier */
+                minScore = 150;
+                maxScore = 200;
+                break;
+            case 7:
+                /* Supreme Tier */
+                minScore = 200;
+                maxScore = 250;
+                break;
+            case 8:
+                /* Ethereal Tier */
+                minScore = 250;
+                maxScore = 350;
+                break;
+            case 9:
+                /* Legendary Tier */
+                minScore = 350;
+                maxScore = 500;
+                break;
+            case 10:
+                /* Silent Tier */
+                minScore = 500;
+                maxScore = 1000;
+                break;
+            case 11:
+                /* Impossible Tier */
+                minScore = 1000;
+                maxScore = 1500;
+                break;
+            default:
+                minScore = 0;
+                maxScore = 0;
+                break;
+        }
 
-    // Calculate the rank-based score, ensuring the highest rank gets minScore and lowest rank gets maxScore
-    let rankFactor = (tierLength - rank) / (tierLength - 1);
-    console.log(rankFactor)
+        // Calculate the rank-based score, ensuring the highest rank gets minScore and lowest rank gets maxScore
+        let rankFactor = (tierLength - rank) / (tierLength - 1);
+        console.log(rankFactor);
 
-    score = minScore + rankFactor * (maxScore - minScore);
-    // Adjust score based on the percent completion
-    score = score * (percent / 100);
-    
-    score = Math.max(0, score);
+        score = minScore + rankFactor * (maxScore - minScore);
+        // Adjust score based on the percent completion
+        score = score * (percent / 100);
+        
+        score = Math.max(0, score);
 
-    if (percent != 100) {
-        return round(score - score / 3);
-    }
+        if (percent != 100) {
+            return round(score - score / 3);
+        }
 
-    return round(score);
+        return round(score);
+    });
 }
-
-
-
 
 export function challengeScore(difficulty) {
     let score = 0;
