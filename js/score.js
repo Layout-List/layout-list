@@ -26,63 +26,63 @@ export function score(rank, difficulty, percent, minPercent) {
     switch (difficulty) {
         case 0:
             /* Beginner Tier */
-            minScore = 1;
-            maxScore = 5;
-            break;
-        case 1:
-            /* Easy Tier */
             minScore = 5;
             maxScore = 10;
             break;
-        case 2:
-            /* Medium Tier */
+        case 1:
+            /* Easy Tier */
             minScore = 10;
             maxScore = 25;
             break;
-        case 3:
-            /* Hard Tier */
+        case 2:
+            /* Medium Tier */
             minScore = 25;
             maxScore = 50;
             break;
-        case 4:
-            /* Insane Tier */
+        case 3:
+            /* Hard Tier */
             minScore = 50;
             maxScore = 75;
             break;
-        case 5:
-            /* Mythical Tier */
+        case 4:
+            /* Insane Tier */
             minScore = 75;
             maxScore = 100;
             break;
-        case 6:
-            /* Extreme Tier */
+        case 5:
+            /* Mythical Tier */
             minScore = 100;
             maxScore = 150;
             break;
-        case 7:
-            /* Supreme Tier */
+        case 6:
+            /* Extreme Tier */
             minScore = 150;
             maxScore = 200;
             break;
-        case 8:
-            /* Ethereal Tier */
+        case 7:
+            /* Supreme Tier */
             minScore = 200;
             maxScore = 250;
             break;
-        case 9:
-            /* Legendary Tier */
+        case 8:
+            /* Ethereal Tier */
             minScore = 250;
             maxScore = 350;
             break;
-        case 10:
-            /* Silent Tier */
+        case 9:
+            /* Legendary Tier */
             minScore = 350;
             maxScore = 500;
             break;
-        case 11:
-            /* Impossible Tier */
+        case 10:
+            /* Silent Tier */
             minScore = 500;
             maxScore = 1000;
+            break;
+        case 11:
+            /* Impossible Tier */
+            minScore = 1000;
+            maxScore = 1500;
             break;
         default:
             minScore = 0;
