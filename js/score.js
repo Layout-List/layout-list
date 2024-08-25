@@ -92,7 +92,6 @@ export function score(rank, difficulty, percent, minPercent) {
 
     // Calculate the rank-based score, ensuring the highest rank gets minScore and lowest rank gets maxScore
     let rankFactor = (tierLength - rank) / (tierLength - 1);
-    console.log(rankFactor);
 
     score = minScore + rankFactor * (maxScore - minScore);
     // Adjust score based on the percent completion
