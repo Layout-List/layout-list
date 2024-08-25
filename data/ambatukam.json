@@ -51,13 +51,21 @@
             "mobile": false,
             "enjoyment": 6
         },
-          {
+        {
             "user": "sn0w",
             "link": "https://youtu.be/vaGnza5uDO0",
             "percent": 100,
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
