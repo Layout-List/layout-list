@@ -53,7 +53,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(selected, level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ points }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -203,6 +203,7 @@ export default {
         roleIconMap,
         store,
         toggledShowcase: false,
+        points: null, // New reactive property to hold the score
     }),
     computed: {
         level() {
@@ -221,9 +222,18 @@ export default {
         },
     },
     async mounted() {
-        // Hide loading spinner
+        // Fetch list and editors data
         this.list = await fetchList();            
         this.editors = await fetchEditors();
+        
+        // Log parameters before calculating the score
+        if (this.level) {
+            
+            this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
+            
+            console.log(this.points);
+        }
+    
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -244,6 +254,7 @@ export default {
         
         this.loading = false;
     },
+    
     methods: {
         embed,
         score,
