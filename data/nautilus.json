@@ -28,7 +28,8 @@
             "link": "https://youtu.be/7pznqYngd6k",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 10
         },
         {
             "user": "Tupi",
