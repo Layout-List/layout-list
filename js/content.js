@@ -164,7 +164,7 @@ export async function fetchLeaderboard() {
                     level: level.name,
                     score: score(level.difficulty, 100, level.percentToQualify),
                     link: record.link,
-                    rating: record.rating,
+                    rating: record.enjoyment,
                 });
                 return;
             }
