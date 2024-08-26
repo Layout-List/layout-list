@@ -78,7 +78,7 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p v-if="score.rating && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
+                                    <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
@@ -96,7 +96,7 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
                                 </td>
                                 <td class="score">
-                                    <p v-if="score.rating && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
+                                    <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
