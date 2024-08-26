@@ -75,7 +75,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <p v-if="score.rating" class="type-label-lg">{{ score.rating }}/10</p>
+                                    <p v-if="score.rating" style="width:fit-content" class="type-label-lg">{{ score.rating }}/10</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
