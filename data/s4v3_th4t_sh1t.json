@@ -49,7 +49,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "9"
+            "enjoyment": 9
         },
         {
             "user": "Hydraniac",
@@ -57,7 +57,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "7"
+            "enjoyment": 7
         },
         {
             "user": "SarcasticMuch",
@@ -120,7 +120,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "7"
+            "enjoyment": 7
         },
         {
             "user": "Hyperbeat",
@@ -128,7 +128,7 @@
             "percent": 100,
             "hz": 360,
             "mobile": false,
-            "enjoyment": "9"
+            "enjoyment": 9
         },
         {
             "user": "Spaace",
@@ -136,7 +136,15 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "3"
+            "enjoyment": 3
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
