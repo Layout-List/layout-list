@@ -9,7 +9,7 @@
     "song": "Waterflame - -The Shredder-",
     "difficulty": 1,
     "records": [
-           {
+        {
             "user": "LimeDub",
             "link": "https://youtu.be/jALX9Y0UJho",
             "percent": 100,
@@ -111,6 +111,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }

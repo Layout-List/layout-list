@@ -94,14 +94,16 @@
             "link": "https://youtu.be/ebGaslBBlWk",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
          {
             "user": "skip",
             "link": "https://youtu.be/p30tj7H1r1s",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
          {
             "user": "InfAstraL",
