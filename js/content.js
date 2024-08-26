@@ -175,6 +175,7 @@ export async function fetchLeaderboard() {
                 percent: record.percent,
                 score: score(level.difficulty, record.percent, level.percentToQualify),
                 link: record.link,
+                rating: record.enjoyment || "?",
             });
         });
     });
