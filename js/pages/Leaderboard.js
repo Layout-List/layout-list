@@ -95,6 +95,9 @@ export default {
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
                                 </td>
+                                <td class="level">
+                                    <p class="type-label-lg">{{ score.rating }}/10</p>
+                                </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
