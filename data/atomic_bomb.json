@@ -10,6 +10,19 @@
     "difficulty": 7,
     "enjoyment": "?/10",
     "records": [
-        
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/nrjqtWUXE_M",
+            "percent": 100,
+            "hz": 120,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/qnUy5kreRVo",
+            "percent": 100,
+            "hz": 240,
+            "enjoyment": 9
+        }
     ]
 }
