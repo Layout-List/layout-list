@@ -189,6 +189,7 @@ export async function fetchLeaderboard() {
                     level: level.name,
                     score: score(rank + 1, level.difficulty, 100, level.percentToQualify),
                     link: record.link,
+                    rating: record.enjoyment,
                 });
                 return;
             }
@@ -199,6 +200,7 @@ export async function fetchLeaderboard() {
                 percent: record.percent,
                 score: score(rank + 1, level.difficulty, record.percent, level.percentToQualify),
                 link: record.link,
+                rating: record.enjoyment,
             });
         });
     });
