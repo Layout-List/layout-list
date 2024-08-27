@@ -15,6 +15,7 @@ const scale = 1;
  */
 export function score(rank, difficulty, percent, minPercent) {
     return fetchTierLength(difficulty).then(tierLength => {
+        
         let score = 0;
         let minScore = 0;
         let maxScore = 0;
@@ -89,7 +90,6 @@ export function score(rank, difficulty, percent, minPercent) {
                 maxScore = 0;
                 break;
         }
-
         // Calculate the rank-based score, ensuring the highest rank gets minScore and lowest rank gets maxScore
         let rankFactor = (tierLength - rank) / (tierLength - 1);
 
@@ -102,8 +102,8 @@ export function score(rank, difficulty, percent, minPercent) {
         if (percent != 100) {
             return round(score - score / 3);
         }
-
-        return round(score);
+        console.log("Tier length: " + tierLength)
+        return tierLength;
     });
 }
 

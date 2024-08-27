@@ -222,35 +222,36 @@ export default {
         },
     },
     async mounted() {
-        // Fetch list and editors data
-        this.list = await fetchList();            
-        this.editors = await fetchEditors();
-        
-        // Log parameters before calculating the score
-        if (this.level) {
-            
-            this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
-            
-            console.log(this.points);
-        }
+    // Fetch list and editors data
+    this.list = await fetchList();            
+    this.editors = await fetchEditors();
     
-        // Error handling
-        if (!this.list) {
-            this.errors = [
-                'Failed to load list. Retry in a few minutes or notify list staff.',
-            ];
-        } else {
-            this.errors.push(
-                ...this.list
-                    .filter(([err, _, __]) => err)
-                    .map(([err, _, __]) => {
-                        return `Failed to load level. (${err}.json)`;
-                    }),
-            );
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
-            }
+    // Log parameters before calculating the score
+    if (this.level) {
+
+        // score now prints the tierLength (as a placeholder), but only when the site is loaded :/
+        this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
+        console.log(this.points);
+        
+    }
+
+    // Error handling
+    if (!this.list) {
+        this.errors = [
+            'Failed to load list. Retry in a few minutes or notify list staff.',
+        ];
+    } else {
+        this.errors.push(
+            ...this.list
+                .filter(([err, _, __]) => err)
+                .map(([err, _, __]) => {
+                    return `Failed to load level. (${err}.json)`;
+                }),
+        );
+        if (!this.editors) {
+            this.errors.push('Failed to load list editors.');
         }
+    }
         
         this.loading = false;
     },
