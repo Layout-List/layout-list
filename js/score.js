@@ -177,9 +177,9 @@ export function averageEnjoyment(records) {
     let validRecordsCount = 0;
     const total = records.reduce((sum, record) => {
         
-        if (typeof record.enjoyment === 'number' && !isNaN(record.enjoyment) && record.percent === 100) {
+        if (!isNaN(record.enjoyment) && record.percent === 100) {
             validRecordsCount++;
-            return sum + parseInt(record.enjoyment);
+            return sum + parseFloat(record.enjoyment);
         }
         return sum;
     }, 0);
