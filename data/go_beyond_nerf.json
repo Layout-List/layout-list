@@ -90,13 +90,6 @@
             "enjoyment": 8
          },
         {
-            "user": "morsey",
-            "link": "https://youtu.be/hxpng29w1eQ",
-            "percent": 75,
-            "hz": 300,
-            "mobile": false
-        },
-        {
             "user": "attrixia",
             "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
             "percent": 100,
@@ -111,6 +104,14 @@
             "hz": 300,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=cM3NhZnHkVc",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
