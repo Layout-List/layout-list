@@ -8,7 +8,6 @@
     "percentToQualify": 56,
     "song": "Dungeecount - Distraught Subconscience",
     "difficulty": 8,
-    "enjoyment": "6.25/10",
     "records": [
         {
             "user": "Syrcx",
@@ -91,19 +90,28 @@
             "enjoyment": 8
          },
         {
-            "user": "morsey",
-            "link": "https://youtu.be/hxpng29w1eQ",
-            "percent": 75,
-            "hz": 300,
-            "mobile": false
-        },
-        {
             "user": "attrixia",
             "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
             "percent": 100,
             "hz": 240,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=pdq6x16rzOQ",
+            "percent": 88,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=cM3NhZnHkVc",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

@@ -5,6 +5,7 @@
     "creators": [],
     "verifier": "Riley",
     "verification": "https://youtu.be/6-kB33t1ICk",
+    "showcase": "https://www.youtube.com/watch?v=vM_d_NQUGjM",
     "percentToQualify": 58,
     "song": "DJ Nate - Intercept 2",
     "difficulty": 7,
@@ -15,6 +16,7 @@
             "link": "https://youtu.be/nrjqtWUXE_M",
             "percent": 100,
             "hz": 120,
+            "mobile": false,
             "enjoyment": 8
         },
         {
@@ -22,7 +24,16 @@
             "link": "https://youtu.be/qnUy5kreRVo",
             "percent": 100,
             "hz": 240,
-            "enjoyment": 9
+            "enjoyment": 9,
+            "mobile": false
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/g00YtpzbJl8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
         }
     ]
 }
