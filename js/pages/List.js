@@ -205,6 +205,21 @@ export default {
         toggledShowcase: false,
         points: null, // New reactive property to hold the score
     }),
+
+    watch: {
+            
+        selected: {
+            handler: async function () {
+                if (this.level) {
+                    // This function will run whenever 'someVariable' changes
+                    this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
+                }
+            },
+            immediate: true,
+        }
+
+  },
+  
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -226,13 +241,9 @@ export default {
     this.list = await fetchList();            
     this.editors = await fetchEditors();
     
-    // Log parameters before calculating the score
     if (this.level) {
-
-        // score now prints the tierLength (as a placeholder), but only when the site is loaded :/
+        // This function will run whenever 'someVariable' changes
         this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
-        console.log(this.points);
-        
     }
 
     // Error handling
@@ -259,6 +270,6 @@ export default {
     methods: {
         embed,
         score,
-        averageEnjoyment
+        averageEnjoyment,
     },
 };
