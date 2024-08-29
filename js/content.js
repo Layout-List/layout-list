@@ -69,7 +69,7 @@ export async function getTierLength(difficulty) {
             tierLength += 1;
         }
     }
-    return [tierLength];
+    return tierLength;
 }
 
 export async function fetchTierLength(difficulty) {
