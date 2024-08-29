@@ -71,6 +71,7 @@ export async function getTierLength(difficulty) {
     }
     return [tierLength];
 }
+
 export async function fetchTierLength(difficulty) {
     const list = await fetchList();
 
