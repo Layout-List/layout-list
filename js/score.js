@@ -11,7 +11,7 @@ const scale = 1;
  * @param {Number} rank Position on the list
  * @param {Number} percent Percentage of completion
  * @param {Number} minPercent Minimum percentage required
- * @returns {Promise<Number>} Returns a Promise that resolves with the score
+ * @returns {Number}
  */
 export function score(rank, difficulty, percent, minPercent) {
     return fetchTierLength(difficulty).then(tierLength => {
@@ -90,11 +90,10 @@ export function score(rank, difficulty, percent, minPercent) {
                 maxScore = 0;
                 break;
         }
-        // Calculate the rank-based score, ensuring the highest rank gets minScore and lowest rank gets maxScore
         let rankFactor = (tierLength - rank) / (tierLength - 1);
 
         score = minScore + rankFactor * (maxScore - minScore);
-        // Adjust score based on the percent completion
+        
         score = score * (percent / 100);
 
         score = Math.max(0, score);
@@ -103,7 +102,7 @@ export function score(rank, difficulty, percent, minPercent) {
             return round(score - score / 3);
         }
         console.log("Tier length: " + tierLength)
-        return tierLength;
+        return score;
     });
 }
 

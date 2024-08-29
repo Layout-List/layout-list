@@ -203,7 +203,6 @@ export default {
         roleIconMap,
         store,
         toggledShowcase: false,
-        points: null, // New reactive property to hold the score
     }),
 
     watch: {
@@ -211,7 +210,6 @@ export default {
         selected: {
             handler: async function () {
                 if (this.level) {
-                    // This function will run whenever 'someVariable' changes
                     this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
                 }
             },
@@ -237,12 +235,11 @@ export default {
         },
     },
     async mounted() {
-    // Fetch list and editors data
+    // Hide loading spinner
     this.list = await fetchList();            
     this.editors = await fetchEditors();
     
     if (this.level) {
-        // This function will run whenever 'someVariable' changes
         this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
     }
 
