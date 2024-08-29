@@ -53,25 +53,6 @@ export async function fetchList() {
     }
 }
 
-export async function getTierLength(difficulty) {
-    const list = await fetchList();
-    let tierLength = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierLength += 1;
-        }
-    }
-    return tierLength;
-}
-
 export async function fetchTierLength(difficulty) {
     const list = await fetchList();
 
