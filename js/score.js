@@ -21,6 +21,7 @@ export function score(rank, difficulty, percent, minPercent) {
         let score = 0;
         let minScore = 0;
         let maxScore = 0;
+        let rankFactor;
         let tierLength = fetchTierLength(difficulty);
 
         if (difficulty < 4) {
@@ -93,7 +94,13 @@ export function score(rank, difficulty, percent, minPercent) {
                 maxScore = 0;
                 break;
         }
-        let rankFactor = (tierLength - rank) / (tierLength - 1);
+        if (tierLength === 1) {
+            rankFactor = tierLength;
+        }
+
+        else {
+            rankFactor = (tierLength - rank) / (tierLength - 1);
+        }
 
         score = minScore + rankFactor * (maxScore - minScore);
         
