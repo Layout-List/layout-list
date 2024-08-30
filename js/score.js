@@ -99,13 +99,13 @@ export function score(rank, difficulty, percent, minPercent) {
         
         score = score * (percent / 100);
 
-        score = Math.max(0, score);
+        score = round(Math.max(0, score));
 
         if (percent != 100) {
             return round(score - score / 3);
         }
         console.log("Tier length: " + tierLength)
-        return tierLength;
+        return score;
     }
 
 export function challengeScore(difficulty) {
