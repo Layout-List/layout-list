@@ -1,10 +1,13 @@
 import { localize } from './util.js';
-import { fetchTierLength } from './content.js';
+import { fetchList } from './content.js';
 
 /**
  * Numbers of decimal digits to round to
  */
 const scale = 1;
+const list = await fetchList();
+
+
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
@@ -14,11 +17,11 @@ const scale = 1;
  * @returns {Number}
  */
 export function score(rank, difficulty, percent, minPercent) {
-    return fetchTierLength(difficulty).then(tierLength => {
         
         let score = 0;
         let minScore = 0;
         let maxScore = 0;
+        let tierLength = fetchTierLength(difficulty);
 
         if (difficulty < 4) {
             minPercent = 100;
@@ -102,10 +105,8 @@ export function score(rank, difficulty, percent, minPercent) {
             return round(score - score / 3);
         }
         console.log("Tier length: " + tierLength)
-        return score;
-    });
-}
-
+        return tierLength;
+    }
 
 export function challengeScore(difficulty) {
     let score = 0;
@@ -233,4 +234,24 @@ export function round(num) {
             scale
         );
     }
+}
+
+export function fetchTierLength(difficulty) {
+    let tierLength = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierLength += 1;
+        }
+    });
+
+    return tierLength;
 }

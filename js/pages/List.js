@@ -53,7 +53,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ points }}</p>
+                            <p>{{ score(selected - (8 - level.difficulty), level.difficulty, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -205,19 +205,6 @@ export default {
         store,
         toggledShowcase: false,
     }),
-
-    watch: {
-            
-        selected: {
-            handler: async function () {
-                if (this.level) {
-                    this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
-                }
-            },
-            immediate: true,
-        }
-
-  },
   
     computed: {
         level() {
@@ -239,10 +226,6 @@ export default {
     // Hide loading spinner
     this.list = await fetchList();            
     this.editors = await fetchEditors();
-    
-    if (this.level) {
-        this.points = await score(this.selected, this.level.difficulty, 100, this.level.percentToQualify);
-    }
 
     // Error handling
     if (!this.list) {
