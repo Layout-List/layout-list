@@ -42,6 +42,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=duNmrPA8gX8",
+            "percent": 79,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 1
         }
     ]
 }
