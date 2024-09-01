@@ -94,7 +94,10 @@ export function score(rank, difficulty, percent, minPercent) {
                 maxScore = 0;
                 break;
         }
-        if (tierLength === 1) {
+        if (rank >= tierLength) {
+                rankFactor = 0;
+        }
+        else if (tierLength === 1) {
             rankFactor = 1;
         } else {
             rankFactor = ((tierLength - rank) - 1) / (tierLength - 1);
