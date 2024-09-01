@@ -11,6 +11,21 @@
     "songLink": "IF NO NONG, DELETE THIS TAB",
     "difficulty": 2,
     "records": [
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/KhST8i2DoRw?si=aD6BDWyKOwu7M9zx,
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
         
     ]
 }
