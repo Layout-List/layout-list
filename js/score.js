@@ -95,22 +95,21 @@ export function score(rank, difficulty, percent, minPercent) {
                 break;
         }
         if (tierLength === 1) {
-            rankFactor = tierLength;
+            rankFactor = 1;
+        } else {
+            rankFactor = ((tierLength - rank) - 1) / (tierLength - 1);
         }
-
-        else {
-            rankFactor = (tierLength - rank) / (tierLength - 1);
-        }
-
+        
         score = minScore + rankFactor * (maxScore - minScore);
         
         score = score * (percent / 100);
 
-        score = round(Math.max(0, score));
+        // score = round(Math.max(0, score));
 
         if (percent != 100) {
             return round(score - score / 3);
         }
+        
         console.log("Tier length: " + tierLength)
         return score;
     }
