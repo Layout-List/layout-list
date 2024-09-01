@@ -95,7 +95,7 @@ export function score(rank, difficulty, percent, minPercent) {
                 break;
         }
         if (rank >= tierLength) {
-                rankFactor = 0.5;
+                rankFactor = 0;
         }
         else if (tierLength === 1) {
             rankFactor = 1;
