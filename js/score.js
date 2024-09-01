@@ -17,105 +17,102 @@ const list = await fetchList();
  * @returns {Number}
  */
 export function score(rank, difficulty, percent, minPercent) {
-        
-        let score = 0;
-        let minScore = 0;
-        let maxScore = 0;
-        let rankFactor;
-        let tierLength = fetchTierLength(difficulty);
 
-        if (difficulty < 4) {
-            minPercent = 100;
-        }
+    let score = 0;
+    let minScore = 0;
+    let maxScore = 0;
+    let rankFactor;
+    let tierLength = fetchTierLength(difficulty);
 
-        switch (difficulty) {
-            case 0:
-                /* Beginner Tier */
-                minScore = 5;
-                maxScore = 10;
-                break;
-            case 1:
-                /* Easy Tier */
-                minScore = 10;
-                maxScore = 25;
-                break;
-            case 2:
-                /* Medium Tier */
-                minScore = 25;
-                maxScore = 50;
-                break;
-            case 3:
-                /* Hard Tier */
-                minScore = 50;
-                maxScore = 75;
-                break;
-            case 4:
-                /* Insane Tier */
-                minScore = 75;
-                maxScore = 100;
-                break;
-            case 5:
-                /* Mythical Tier */
-                minScore = 100;
-                maxScore = 150;
-                break;
-            case 6:
-                /* Extreme Tier */
-                minScore = 150;
-                maxScore = 200;
-                break;
-            case 7:
-                /* Supreme Tier */
-                minScore = 200;
-                maxScore = 250;
-                break;
-            case 8:
-                /* Ethereal Tier */
-                minScore = 250;
-                maxScore = 350;
-                break;
-            case 9:
-                /* Legendary Tier */
-                minScore = 350;
-                maxScore = 500;
-                break;
-            case 10:
-                /* Silent Tier */
-                minScore = 500;
-                maxScore = 1000;
-                break;
-            case 11:
-                /* Impossible Tier */
-                minScore = 1000;
-                maxScore = 1500;
-                break;
-            default:
-                minScore = 0;
-                maxScore = 0;
-                break;
-        }
-        if (rank >= tierLength) {
-                rankFactor = 0;
-        }
-        else if (tierLength === 1) {
-            rankFactor = 1;
-        } else {
-            rankFactor = ((tierLength - rank) - 1) / (tierLength - 1);
-        }
-        
-        score = minScore + rankFactor * (maxScore - minScore);
-        
-        score = score * (percent / 100);
-
-        // score = round(Math.max(0, score));
-
-        if (percent != 100) {
-            return round(score - score / 3);
-        }
-        
-        console.log("Tier length: " + tierLength)
-        return score;
+    if (difficulty < 4) {
+        minPercent = 100;
     }
+
+    switch (difficulty) {
+        case 0:
+            /* Beginner Tier */
+            minScore = 5;
+            maxScore = 10;
+            break;
+        case 1:
+            /* Easy Tier */
+            minScore = 10;
+            maxScore = 25;
+            break;
+        case 2:
+            /* Medium Tier */
+            minScore = 25;
+            maxScore = 50;
+            break;
+        case 3:
+            /* Hard Tier */
+            minScore = 50;
+            maxScore = 75;
+            break;
+        case 4:
+            /* Insane Tier */
+            minScore = 75;
+            maxScore = 100;
+            break;
+        case 5:
+            /* Mythical Tier */
+            minScore = 100;
+            maxScore = 150;
+            break;
+        case 6:
+            /* Extreme Tier */
+            minScore = 150;
+            maxScore = 200;
+            break;
+        case 7:
+            /* Supreme Tier */
+            minScore = 200;
+            maxScore = 250;
+            break;
+        case 8:
+            /* Ethereal Tier */
+            minScore = 250;
+            maxScore = 350;
+            break;
+        case 9:
+            /* Legendary Tier */
+            minScore = 350;
+            maxScore = 500;
+            break;
+        case 10:
+            /* Silent Tier */
+            minScore = 500;
+            maxScore = 1000;
+            break;
+        case 11:
+            /* Impossible Tier */
+            minScore = 1000;
+            maxScore = 1500;
+            break;
+        default:
+            minScore = 0;
+            maxScore = 0;
+            break;
+    }
+
+    if (rank > tierLength) {
+        rankFactor = 0;
+    } else if (tierLength === 1) {
+        rankFactor = 1;
+    } else {
+        // Invert the rank factor calculation so that lower ranks get higher factors
+        rankFactor = (tierLength - rank + 1) / tierLength;
+    }
+
+    score = minScore + rankFactor * (maxScore - minScore);
+    score = score * (percent / 100);
+
+    if (percent != 100) {
+        return round(score - score / 3);
+    }
+    
+    return score;
+}
 
 export function challengeScore(difficulty) {
     let score = 0;
