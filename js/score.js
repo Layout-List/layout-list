@@ -97,11 +97,13 @@ export function score(rank, difficulty, percent, minPercent) {
     let decreaseAmount = (maxScore - minScore) / tierLength;
     
     // decrease points by decreaseAmount the greater the "rank" variable
+
+    
     
     score = score * (percent / 100);
     
     score = round(score);
-
+    
     if (percent != 100) {
         
         return score - score / 3;
