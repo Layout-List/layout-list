@@ -99,6 +99,8 @@ export function score(rank, difficulty, percent, minPercent) {
         return score - score / 3;
     }
 
+    score = round(score);
+    
     return score;
 }
 
