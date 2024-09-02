@@ -60,7 +60,7 @@ export function score(rank, difficulty, percent, minPercent) {
         case 5:
             /* Mythical Tier */
             minScore = 101;
-            maxScore = scoreDivider;
+            maxScore = scoreDivider; // change the scoreDivider variable at the top to edit this
             break;
         }
 
