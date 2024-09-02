@@ -33,57 +33,57 @@ export function score(rank, difficulty, percent, minPercent) {
             break;
         case 1:
             /* Easy Tier */
-            minScore = 10;
+            minScore = 11;
             maxScore = 25;
             break;
         case 2:
             /* Medium Tier */
-            minScore = 25;
+            minScore = 26;
             maxScore = 50;
             break;
         case 3:
             /* Hard Tier */
-            minScore = 50;
+            minScore = 51;
             maxScore = 75;
             break;
         case 4:
             /* Insane Tier */
-            minScore = 75;
+            minScore = 76;
             maxScore = 100;
             break;
         case 5:
             /* Mythical Tier */
-            minScore = 100;
+            minScore = 101;
             maxScore = 150;
             break;
         case 6:
             /* Extreme Tier */
-            minScore = 150;
+            minScore = 151;
             maxScore = 200;
             break;
         case 7:
             /* Supreme Tier */
-            minScore = 200;
+            minScore = 201;
             maxScore = 250;
             break;
         case 8:
             /* Ethereal Tier */
-            minScore = 250;
+            minScore = 251;
             maxScore = 350;
             break;
         case 9:
             /* Legendary Tier */
-            minScore = 350;
+            minScore = 351;
             maxScore = 500;
             break;
         case 10:
             /* Silent Tier */
-            minScore = 500;
+            minScore = 501;
             maxScore = 1000;
             break;
         case 11:
             /* Impossible Tier */
-            minScore = 1000;
+            minScore = 1001;
             maxScore = 1500;
             break;
         default:
