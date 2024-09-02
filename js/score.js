@@ -1,10 +1,7 @@
 import { localize } from './util.js';
 import { fetchList } from './content.js';
 
-/**
- * Numbers of decimal digits to round to
- */
-const scale = 1;
+const scale = 1; // amount of decimal digits the site will globally round to, unrelated to point values
 const list = await fetchList();
 export function score(rank, difficulty, percent, minPercent) {
 
@@ -13,7 +10,7 @@ export function score(rank, difficulty, percent, minPercent) {
 
     const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
     const scoreDivider = 150 // the highest score calculated using the linear function, used to offset the exponential function
-    const exponent = 0.7 // the exponent of the exponential function (level rank ^ exponent)
+    const exponent = 0.7 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
     const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
 
 
@@ -32,7 +29,8 @@ export function score(rank, difficulty, percent, minPercent) {
     
     // mythical and below
     if (difficulty < 6) {
-        
+        // LINEAR FUNCTION CONFIG
+        // you can change the minimum and maximum values for each tier here!
         switch (difficulty) {
         case 0:
             /* Beginner Tier */
@@ -79,7 +77,7 @@ export function score(rank, difficulty, percent, minPercent) {
         
         const minExpScore = scoreDivider + 1;
 
-        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, exponent + curveBuff);
+        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, (exponent + curveBuff));
 
     }
         
