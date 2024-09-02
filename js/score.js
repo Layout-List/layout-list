@@ -19,6 +19,7 @@ export function score(rank, difficulty, percent, minPercent) {
     let minScore = 0;
     let maxScore = 0;
 
+    const exponent = 0.7 // the exponent of the exponential function (level rank ^ exponent)
     const tierLength = fetchTierLength(difficulty);
     const tierMin = fetchTierMinimum(difficulty);
     const rankInTier = rank - tierMin + tierLength;
@@ -80,14 +81,10 @@ export function score(rank, difficulty, percent, minPercent) {
 
     } else { // extremes and above, exponential
         
-        // Set min and max scores for the exponential range
         const minExpScore = scoreDivider + 1;
 
-        // Calculate the score using an exponential function
-        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, 2);
+        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, exponent);
 
-        // Ensure the score is within the defined min and max bounds
-        // score = Math.max(minExpScore, Math.min(score, maxExpScore));
     }
         
     
