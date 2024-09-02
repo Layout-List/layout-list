@@ -13,7 +13,7 @@
     "records": [
         {
             "user": "sn0w",
-            "link": "https://youtu.be/KhST8i2DoRw?si=aD6BDWyKOwu7M9zx",
+            "link": "https://youtu.be/KhST8i2DoRw?si=aD6BDWyKOwu7M9zx,
             "percent": 100,
             "hz": 240,
             "mobile": false,
@@ -26,7 +26,6 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 9
-        }
         
     ]
 }
