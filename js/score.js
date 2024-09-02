@@ -23,9 +23,6 @@ export function score(rank, difficulty, percent, minPercent) {
     if (difficulty < 4) {
         minPercent = 100;
     }
-    if (difficulty < 4) {
-        minPercent = 100;
-    }
 
     switch (difficulty) {
         case 0:
