@@ -19,6 +19,7 @@ export function score(rank, difficulty, percent, minPercent) {
     let minScore = 0;
     let maxScore = 0;
     let tierLength = fetchTierLength(difficulty);
+    let tierMin = fetchTierMinimum(difficulty);
 
     if (difficulty < 4) {
         minPercent = 100;
@@ -91,15 +92,18 @@ export function score(rank, difficulty, percent, minPercent) {
             break;
     }
 
-    score = 10; // placeholder
     
-    
-    let decreaseAmount = (maxScore - minScore) / tierLength;
-    
-    // decrease points by decreaseAmount the greater the "rank" variable
 
-    
-    
+    const rankInTier = rank - tierMin + tierLength;
+
+    let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
+
+    score = maxScore - decreaseAmount * (rankInTier - 1);
+
+    if (tierLength === 1) {
+        score = maxScore;
+    }
+
     score = score * (percent / 100);
     
     score = round(score);
@@ -262,4 +266,25 @@ export function fetchTierLength(difficulty) {
     });
 
     return tierLength;
+}
+
+export function fetchTierMinimum(difficulty) {
+    let tierMin = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierMin = Math.max(rank, tierMin);
+        }
+    });
+        
+    console.log("tierMin: " + tierMin);
+    return tierMin;
 }
