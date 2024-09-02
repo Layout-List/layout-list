@@ -21,11 +21,17 @@ export function score(rank, difficulty, percent, minPercent) {
     let tierLength = fetchTierLength(difficulty);
     let tierMin = fetchTierMinimum(difficulty);
 
+    let scoreDivider = 150 // the highest score calculated using the linear function, 
+    //                        used to offset the exponential function
+
     if (difficulty < 4) {
         minPercent = 100;
     }
-
-    switch (difficulty) {
+    
+    // mythical and below
+    if (difficulty < 6) {
+        
+        switch (difficulty) {
         case 0:
             /* Beginner Tier */
             minScore = 5;
@@ -56,53 +62,31 @@ export function score(rank, difficulty, percent, minPercent) {
             minScore = 101;
             maxScore = 150;
             break;
-        case 6:
-            /* Extreme Tier */
-            minScore = 151;
-            maxScore = 200;
-            break;
-        case 7:
-            /* Supreme Tier */
-            minScore = 201;
-            maxScore = 250;
-            break;
-        case 8:
-            /* Ethereal Tier */
-            minScore = 251;
-            maxScore = 350;
-            break;
-        case 9:
-            /* Legendary Tier */
-            minScore = 351;
-            maxScore = 500;
-            break;
-        case 10:
-            /* Silent Tier */
-            minScore = 501;
-            maxScore = 1000;
-            break;
-        case 11:
-            /* Impossible Tier */
-            minScore = 1001;
-            maxScore = 1500;
-            break;
-        default:
-            minScore = 0;
-            maxScore = 0;
-            break;
-    }
+        }
 
     
+        let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
 
-    const rankInTier = rank - tierMin + tierLength;
+        const rankInTier = rank - tierMin + tierLength;
 
-    let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
+        score = maxScore - decreaseAmount * (rankInTier - 1);
 
-    score = maxScore - decreaseAmount * (rankInTier - 1);
+        if (tierLength === 1) {
+            score = maxScore;
+        }
 
-    if (tierLength === 1) {
-        score = maxScore;
+    } else { // extremes and above, exponential
+        
+        // code should go here
+
     }
+
+
+
+
+
+
+
 
     score = score * (percent / 100);
     
