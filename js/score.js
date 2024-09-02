@@ -18,7 +18,7 @@ export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
-    let tierLength = fetchTierLength(difficulty); // This function is confirmed to work properly
+    let tierLength = fetchTierLength(difficulty);
 
     if (difficulty < 4) {
         minPercent = 100;
@@ -94,30 +94,16 @@ export function score(rank, difficulty, percent, minPercent) {
             break;
     }
 
-    // Calculate the starting rank for the current tier
-    let tierStartRank = 1;
-    for (let i = 0; i < difficulty; i++) {
-
-        tierStartRank += fetchTierLength(i);
-    }
-
-    // Calculate the level's position within the current tier
-    let rankPositionInTier = rank - tierStartRank + 1; // Correctly adjust rank position
-
-    // Debugging output
-    console.log(`Rank: ${rank}, Difficulty: ${difficulty}, Tier Start Rank: ${tierStartRank}, Rank Position in Tier: ${rankPositionInTier}, Tier Length: ${tierLength}`);
-
-    if (rankPositionInTier < 1 || rankPositionInTier > tierLength) {
-
-        console.error(`Rank ${rank} is not valid within the current tier. This should not happen.`);
-        return 0;
-    }
-
-    let scoreRange = maxScore - minScore;
-    let scoreDecreasePerRank = tierLength > 1 ? scoreRange / (tierLength - 1) : 0;
-
-    score = maxScore - (rankPositionInTier - 1) * scoreDecreasePerRank;
+    score = 10; // placeholder
+    
+    
+    let decreaseAmount = (maxScore - minScore) / tierLength;
+    
+    // decrease points by decreaseAmount the greater the "rank" variable
+    
     score = score * (percent / 100);
+    
+    score = round(score);
 
     if (percent != 100) {
         
@@ -126,6 +112,10 @@ export function score(rank, difficulty, percent, minPercent) {
 
     return score;
 }
+
+
+
+
 
 export function challengeScore(difficulty) {
     let score = 0;
