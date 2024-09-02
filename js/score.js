@@ -18,12 +18,17 @@ export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
-    let tierLength = fetchTierLength(difficulty);
-    let tierMin = fetchTierMinimum(difficulty);
 
-    let scoreDivider = 150 // the highest score calculated using the linear function, 
+    const tierLength = fetchTierLength(difficulty);
+    const tierMin = fetchTierMinimum(difficulty);
+    const rankInTier = rank - tierMin + tierLength;
+    const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
+    const scoreDivider = 150 // the highest score calculated using the linear function, 
     //                        used to offset the exponential function
+    
 
+
+    
     if (difficulty < 4) {
         minPercent = 100;
     }
@@ -60,14 +65,12 @@ export function score(rank, difficulty, percent, minPercent) {
         case 5:
             /* Mythical Tier */
             minScore = 101;
-            maxScore = 150;
+            maxScore = scoreDivider;
             break;
         }
 
     
         let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
-
-        const rankInTier = rank - tierMin + tierLength;
 
         score = maxScore - decreaseAmount * (rankInTier - 1);
 
@@ -77,9 +80,17 @@ export function score(rank, difficulty, percent, minPercent) {
 
     } else { // extremes and above, exponential
         
-        // code should go here
+        // Set min and max scores for the exponential range
+        const minExpScore = scoreDivider + 1;
 
+        // Calculate the score using an exponential function
+        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, 2);
+
+        // Ensure the score is within the defined min and max bounds
+        // score = Math.max(minExpScore, Math.min(score, maxExpScore));
     }
+        
+    
 
 
 
