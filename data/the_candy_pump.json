@@ -11,21 +11,6 @@
     "songLink": "https://drive.google.com/file/d/1oWuu_UCXx-EU3Emp-hlvN2XKCdSX8Jaz/view?usp=sharing",
     "difficulty": 2,
     "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Dangadash",
-            "link": "https://www.youtube.com/watch?v=x3K3tAieN5E",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 10
-        }
         
     ]
 }

@@ -28,20 +28,20 @@
             "enjoyment": 8
         },
         {
+            "user": "hayden",
+            "link": "https://youtu.be/VgZZIEefVCY",
+            "percent": 91,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
             "user": "Syrcx",
             "link": "https://www.youtube.com/watch?v=duNmrPA8gX8",
             "percent": 100,
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
-        },
-        {
-            "user": "hayden",
-            "link": "https://www.youtube.com/watch?v=xf8g7-ypTGs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
         },
         {
             "user": "hjog",
