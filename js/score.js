@@ -6,29 +6,25 @@ import { fetchList } from './content.js';
  */
 const scale = 1;
 const list = await fetchList();
-
-/**
- * Calculate the score awarded when having a certain percentage on a list level
- * @param {Number} rank Position on the list
- * @param {Number} percent Percentage of completion
- * @param {Number} minPercent Minimum percentage required
- * @returns {Number}
- */
 export function score(rank, difficulty, percent, minPercent) {
+
+    // EXPONENTIAL FUNCTION CONFIG
+    // change these values to edit the exponential function!
+
+    const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
+    const scoreDivider = 150 // the highest score calculated using the linear function, used to offset the exponential function
+    const exponent = 0.7 // the exponent of the exponential function (level rank ^ exponent)
+    const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
+
+
+
+
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
-
-    const exponent = 0.7 // the exponent of the exponential function (level rank ^ exponent)
     const tierLength = fetchTierLength(difficulty);
     const tierMin = fetchTierMinimum(difficulty);
     const rankInTier = rank - tierMin + tierLength;
-    const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
-    const scoreDivider = 150 // the highest score calculated using the linear function, 
-    //                        used to offset the exponential function
-    
-
-
     
     if (difficulty < 4) {
         minPercent = 100;
@@ -83,7 +79,7 @@ export function score(rank, difficulty, percent, minPercent) {
         
         const minExpScore = scoreDivider + 1;
 
-        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, exponent);
+        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, exponent + curveBuff);
 
     }
         
