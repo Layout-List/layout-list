@@ -53,7 +53,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(selected - (8 - level.difficulty), level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(getRankExcludingDividers(selected + 1), level.difficulty, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -249,8 +249,19 @@ export default {
     },
     
     methods: {
-        embed,
-        score,
-        averageEnjoyment,
+    embed,
+    score,
+    averageEnjoyment,
+
+    getRankExcludingDividers(index) {
+        let rank = 0;
+        for (let i = 0; i < index; i++) {
+            if (this.list[i][1] !== null) { // Check if it's not a divider
+                rank++;
+            }
+        }
+        return rank;
     },
+},
+
 };
