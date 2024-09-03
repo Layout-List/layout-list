@@ -12,6 +12,7 @@ export function score(rank, difficulty, percent, minPercent) {
     const scoreDivider = 150 // the highest score calculated using the linear function, used to offset the exponential function
     const exponent = 0.7 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
     const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
+    const expOffset = 100 //increase this value to offset entire exponential function scores. cannot be negative.
 
 
 
@@ -77,17 +78,11 @@ export function score(rank, difficulty, percent, minPercent) {
         
         const minExpScore = scoreDivider + 1;
 
-        score = minExpScore + (maxExpScore - minExpScore) / Math.pow(rank, (exponent + curveBuff));
+        score = Math.min(maxExpScore, (expOffset + // offset and cap score
+        (minExpScore + (maxExpScore - minExpScore)
+        / Math.pow(rank, (exponent + curveBuff)))));
 
     }
-        
-    
-
-
-
-
-
-
 
 
     score = score * (percent / 100);
