@@ -12,7 +12,7 @@ export function score(rank, difficulty, percent, minPercent) {
     const scoreDivider = 150 // the highest score calculated using the linear function, used to offset the exponential function
     const exponent = 0.7 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
     const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
-    const expOffset = 100 //increase this value to offset entire exponential function scores. cannot be negative.
+    const expOffset = 0 // increase this value to offset entire exponential function scores. cannot be negative.
 
 
 
