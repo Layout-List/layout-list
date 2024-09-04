@@ -1,4 +1,4 @@
-import { round, score, challengeScore } from './score.js';
+import { round, score, averageEnjoyment, challengeScore } from './score.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
@@ -130,6 +130,23 @@ export async function fetchLeaderboard() {
         
         possibleMax += score(level.difficulty, 100, level.percentToQualify);
 
+        // Creation
+        const creator = Object.keys(scoreMap).find(
+            (u) => u.toLowerCase() === level.author.toLowerCase(),
+        ) || level.author;
+        scoreMap[creator] ??= {
+            created: [],
+            verified: [],
+            completed: [],
+            progressed: [],
+        };
+        const { created } = scoreMap[creator];
+        created.push({
+            rank,
+            level: level.name,
+            enjoyment: averageEnjoyment(level.records),
+            link: level.verification,
+        });
         // Verification
         const verifier = Object.keys(scoreMap).find(
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
@@ -182,7 +199,7 @@ export async function fetchLeaderboard() {
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { verified, completed, progressed } = scores;
+        const { created, verified, completed, progressed } = scores;
         const total = [verified, completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
