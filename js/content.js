@@ -152,6 +152,7 @@ export async function fetchLeaderboard() {
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
         ) || level.verifier;
         scoreMap[verifier] ??= {
+            created: [],
             verified: [],
             completed: [],
             progressed: [],
@@ -170,6 +171,7 @@ export async function fetchLeaderboard() {
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
             ) || record.user;
             scoreMap[user] ??= {
+                created: [],
                 verified: [],
                 completed: [],
                 progressed: [],
