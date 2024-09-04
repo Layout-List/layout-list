@@ -52,6 +52,21 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
+                        <h2 v-if="entry.created.length > 0">Created</h2>
+                        <table class="table">
+                            <tr v-for="score in entry.created">
+                                <td class="rank">
+                                    <p v-if="score.rank === null">&mdash;</p>
+                                    <p v-else>#{{ score.rank }}</p>
+                                </td>
+                                <td class="level">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                </td>
+                                <td class="score">
+                                    <p>+{{ localize(score.enjoyment) }}</p>
+                                </td>
+                            </tr>
+                        </table>
                         <h2 v-if="entry.verified.length > 0">Verified</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
