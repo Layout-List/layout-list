@@ -33,6 +33,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Kind1e",
+            "link": "https://www.youtube.com/watch?v=zhx7xELuQ84",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 10
         }
         
     ]
