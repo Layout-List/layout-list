@@ -54,7 +54,7 @@ export default {
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <h2 v-if="entry.authored.length > 0 || entry.created.length > 0">Created ({{ entry.authored.length + entry.created.length }})</h2>
-                        <table class="table" v-if="entry.authored.length > 0 || entry.created.length > 0"">
+                        <table class="table" v-if="entry.authored.length > 0 || entry.created.length > 0">
                             <tr v-for="score in entry.authored">
                                 <td class="rank">
                                     <p v-if="score.rank === null">&mdash;</p>
