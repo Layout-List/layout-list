@@ -99,7 +99,8 @@
             "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "RaynoXx",
