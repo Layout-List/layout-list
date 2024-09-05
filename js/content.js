@@ -146,6 +146,7 @@ export async function fetchLeaderboard() {
             level: level.name,
             link: level.verification,
         });
+        
         // Verification
         const verifier = Object.keys(scoreMap).find(
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
