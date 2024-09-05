@@ -282,7 +282,8 @@
             "link": "https://youtu.be/8D3p3DxH-VM",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 3
         },
         {
             "user": "Blueberry",
