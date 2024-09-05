@@ -92,6 +92,7 @@ export default {
                                 </td>
                                 <td class="score">
                                     <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
+                                    <p v-if="score.rating == undefined || score.rating == '?'" class="type-label-lg">{{ "?" }}/10</p>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
@@ -110,6 +111,7 @@ export default {
                                 </td>
                                 <td class="score">
                                     <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
+                                    <p v-if="score.rating == undefined || score.rating == '?'" class="type-label-lg">{{ "?" }}/10</p>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
