@@ -40,7 +40,7 @@ export default {
                             <td class="total">
                                 <p class="type-label-lg" v-if="ientry.total > 0">{{ localize(ientry.total) }}</p> 
                             </td>
-                            <td class="user" :class="{ 'active': selected == i }">
+                            <td class="user" v-if="ientry.total > 0" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
