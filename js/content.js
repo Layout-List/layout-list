@@ -142,7 +142,7 @@ export async function fetchLeaderboard() {
             progressed: [],
         };
         const { authored } = scoreMap[author];
-        created.push({
+        authored.push({
             rank,
             level: level.name,
             link: level.verification,
