@@ -53,7 +53,7 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
-                        <h2 v-if="entry.created.length > 0">Created</h2>
+                        <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
                         <table class="table" v-if="entry.created.length > 0">
                             <tr v-for="score in entry.created">
                                 <td class="rank">
@@ -65,7 +65,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.verified.length > 0">Verified</h2>
+                        <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length }})</h2>
                         <table class="table" v-if="entry.verified.length > 0">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
@@ -80,7 +80,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">Completed</h2>
+                        <h2 v-if="entry.completed.length > 0">Completed ({{ entry.completed.length }})</h2>
                         <table class="table" v-if="entry.completed.length > 0">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
@@ -98,7 +98,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.progressed.length > 0">Progressed</h2>
+                        <h2 v-if="entry.progressed.length > 0">Progressed ({{ entry.progressed.length }})</h2>
                         <table class="table" v-if="entry.progressed.length > 0">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
