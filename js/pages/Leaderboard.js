@@ -35,10 +35,9 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p class="type-label-lg" v-if="ientry.total > 0">#{{ i + 1 }}</p>
                             </td>
                             <td class="total">
-                                <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p>
                                 <p class="type-label-lg" v-if="ientry.total > 0">{{ localize(ientry.total) }}</p> 
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
