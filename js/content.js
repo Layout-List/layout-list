@@ -144,7 +144,6 @@ export async function fetchLeaderboard() {
         created.push({
             rank,
             level: level.name,
-            enjoyment: averageEnjoyment(level.records),
             link: level.verification,
         });
         // Verification
