@@ -149,10 +149,10 @@ export async function fetchLeaderboard() {
         });
 
         // Creators
-        level.creators.forEach((person) => {
+        level.creators.forEach((creator) => {
             const creator = Object.keys(scoreMap).find(
-                (u) => u.toLowerCase() === person.toLowerCase(),
-            ) || person;
+                (u) => u.toLowerCase() === creator.toLowerCase(),
+            ) || creator;
             scoreMap[creator] ??= {
                 authored: [],
                 created: [],
