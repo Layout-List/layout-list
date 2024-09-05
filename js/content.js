@@ -131,21 +131,38 @@ export async function fetchLeaderboard() {
         possibleMax += score(level.difficulty, 100, level.percentToQualify);
 
         // Creation
-        const creator = Object.keys(scoreMap).find(
+        const author = Object.keys(scoreMap).find(
             (u) => u.toLowerCase() === level.author.toLowerCase(),
         ) || level.author;
-        scoreMap[creator] ??= {
+        scoreMap[author] ??= {
             created: [],
             verified: [],
             completed: [],
             progressed: [],
         };
-        const { created } = scoreMap[creator];
+        const { created } = scoreMap[author];
         created.push({
             rank,
             level: level.name,
             link: level.verification,
         });
+        level.creators.forEach((creator) => {
+            const creator = Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === creator.toLowerCase(),
+            ) || creator;
+            scoreMap[creator] ??= {
+                created: [],
+                verified: [],
+                completed: [],
+                progressed: [],
+            };
+            const { created } = scoreMap[creator];
+            created.push({
+            rank,
+            level: level.name,
+            link: level.verification,
+            });
+        };
         
         // Verification
         const verifier = Object.keys(scoreMap).find(
