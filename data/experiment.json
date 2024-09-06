@@ -23,7 +23,8 @@
             "link": "https://youtu.be/s7DKpTXNgyY?si=yDBTUSgMx67ZZBqb",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "mrperson",
