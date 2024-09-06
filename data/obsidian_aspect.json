@@ -84,12 +84,36 @@
             "enjoyment": 10
         },
         {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=qzqjaTLfLSQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
             "user": "Riley",
             "link": "https://www.youtube.com/watch?v=ohINdNjCIWY",
             "percent": 100,
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/q4ZqvUopxSc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

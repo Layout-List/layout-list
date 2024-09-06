@@ -14,7 +14,8 @@
             "link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 7
         },
         {
             "user": "DeleteNine",
@@ -60,6 +61,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/EXLUxsPZ2rg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

@@ -30,7 +30,7 @@ export default {
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
                             <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                             </button>
                         </td>
                     </tr>
@@ -75,7 +75,7 @@ export default {
                             <p><a target="_blank" :href="(level.songLink===undefined)?'#':level.songLink" :style="{'text-decoration':(level.songLink===undefined)?'none':'underline'}">{{ level.song || 'insert here' }}</a></p>
                         </li>
                     </ul>
-                    <h2>Records</h2>
+                    <h2>Records ({{ level.records.length }})</h2>
                     <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -86,10 +86,12 @@ export default {
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
                             <td class="enjoyment">
-                                <p>{{ record.enjoyment }}/10</p>
+                                <p v-if="record.enjoyment === undefined">?/10</p>
+                                <p v-else>{{ record.enjoyment }}/10</p>
                             </td>
                             <td class="mobile">
-                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}FPS</p>
@@ -117,7 +119,7 @@ export default {
                         <h3>LIST EDITORS</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
-                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
+                                <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
                             </li>

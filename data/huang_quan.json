@@ -1,6 +1,6 @@
 {
     "id": 107691282,
-    "name": "huang quan",
+    "name": "HuangQuan",
     "author": "Snips",
     "creators": [],
     "verifier": "hayden",
@@ -10,7 +10,6 @@
     "song": "Influx - \u9ec4\u6cc9",
     "songLink": "https://www.mediafire.com/file/txa5j1p30qr6nur/581117.mp3/file",
     "difficulty": 8,
-    "enjoyment": "6.69/10",
     "records": [
         {
             "user": "Mystikl",
@@ -58,7 +57,39 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 7.5
+            "enjoyment": 7
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=wG8ytTBK8mQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=Ur3mUpBz0cI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=TLLYCuupY8Y",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=M1DuQ3wdoXo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

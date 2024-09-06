@@ -1,0 +1,55 @@
+
+{
+    "id": 107574477,
+    "name": "THE CANDY PUMPPPPPPP",
+    "author": "ThisGuyKreas",
+    "creators": [],
+    "verifier": "ThisGuyKreas",
+    "verification": "https://youtu.be/iKrorxcy_nM",
+    "percentToQualify": 100,
+    "song": "Renard - THE CANDY PUMP",
+    "songLink": "https://drive.google.com/file/d/1oWuu_UCXx-EU3Emp-hlvN2XKCdSX8Jaz/view?usp=sharing",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=x3K3tAieN5E",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/38xEA5bjP3g?si=Cswaiotgd7zaSVbK",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Kind1e",
+            "link": "https://www.youtube.com/watch?v=zhx7xELuQ84",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/zupR3tzTcT0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
+        }
+        
+    ]
+}

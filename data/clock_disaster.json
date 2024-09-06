@@ -57,6 +57,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=pxPjcdX4h58",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/O3xPwv2yGZU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }

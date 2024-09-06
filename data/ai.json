@@ -11,7 +11,7 @@
     "percentToQualify": 61,
     "song": "THE BINARY - EgoもIdも単純に",
     "songLink": "https://drive.google.com/file/d/1uq6-MFGDQEZW_Ws3hnqu_CYzL6ZJdqpl/view?usp=drive_link",
-    "difficulty": 7,
+    "difficulty": 8,
     "records": [
       {
         "user": "CaioMD",
@@ -46,6 +46,7 @@
         "link": "https://youtu.be/dkGqEzDGvyM",
         "percent": 100,
         "hz": 360,
+        "enjoyment": 5,
         "mobile": false
       },
       {

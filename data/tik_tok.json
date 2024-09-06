@@ -1,7 +1,7 @@
 {
     "id": 99546799,
     "name": "TiK ToK",
-    "author": "Huskiegaming",
+    "author": "Huskie",
     "creators": [],
     "verifier": "Asteria.",
     "verification": "https://www.youtube.com/watch?v=aC5pxIs3Bqc",
@@ -118,6 +118,22 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/TsdOT_HaTpU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "4"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "author": "BLOEM",
     "creators": [],
     "verifier": "BLOEM",
-    "verification": "https://www.youtube.com/watch?v=Ov0rXLY72MI",
+    "verification": "https://youtu.be/w16YlbVHS4U",
     "percentToQualify": 100,
     "password": "2000",
     "song": "zanelittle - Synesthesia",
@@ -37,7 +37,8 @@
             "link": "https://youtu.be/6VvT4DwNEyI?si=Q9Qz6eX1mMdSi-iG",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "Xeronius",
@@ -228,6 +229,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://youtu.be/ljMl4PS6sao?si=_UcZUrbPwx565zvS",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
         }
     ]
 }
