@@ -22,6 +22,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
-        }
+        },
+        {
+            "user": "hayden",
+            "link": "https://youtu.be/lFUJN4hCj24?si=kSq_ED7UetkSpfX3",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+            "enjoyment": 10
+        },
     ]
 }
