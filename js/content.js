@@ -130,11 +130,48 @@ export async function fetchLeaderboard() {
         
         possibleMax += score(rank + 1, level.difficulty, 100, level.percentToQualify);
 
+        // Author
+        const author = Object.keys(scoreMap).find(
+            (u) => u.toLowerCase() === level.author.toLowerCase(),
+        ) || level.author;
+        scoreMap[author] ??= {
+            created: [],
+            verified: [],
+            completed: [],
+            progressed: [],
+        };
+        const { created } = scoreMap[author];
+        created.push({
+            rank,
+            level: level.name,
+            link: level.verification,
+        });
+
+        // Creators
+        level.creators.forEach((person) => {
+            const creator = Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === person.toLowerCase(),
+            ) || person;
+            scoreMap[creator] ??= {
+                created: [],
+                verified: [],
+                completed: [],
+                progressed: [],
+            };
+            const { created } = scoreMap[creator];
+            created.push({
+            rank,
+            level: level.name,
+            link: level.verification,
+            });
+        });
+        
         // Verification
         const verifier = Object.keys(scoreMap).find(
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
         ) || level.verifier;
         scoreMap[verifier] ??= {
+            created: [],
             verified: [],
             completed: [],
             progressed: [],
@@ -153,6 +190,7 @@ export async function fetchLeaderboard() {
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
             ) || record.user;
             scoreMap[user] ??= {
+                created: [],
                 verified: [],
                 completed: [],
                 progressed: [],
@@ -182,7 +220,7 @@ export async function fetchLeaderboard() {
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { verified, completed, progressed } = scores;
+        const { created, verified, completed, progressed } = scores;
         const total = [verified, completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
