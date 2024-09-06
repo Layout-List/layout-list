@@ -10,6 +10,13 @@
     "songLink": "https://www.mediafire.com/file/q5qgicsmmdt6177/564322.mp3/file",
     "difficulty": 7,
     "records": [
-        
+         {
+            "user": "Syrcx",
+            "link": "https://youtu.be/0cnXRQbdTwk?si=Wk_6LwU0CE_Otnfh",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        }
     ]
 }
