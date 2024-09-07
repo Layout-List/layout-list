@@ -79,10 +79,12 @@ export function score(rank, difficulty, percent, minPercent) {
         
         
 
-        score = Math.min(maxExpScore, (expOffset + // offset and cap score
-        (minExpScore + (maxExpScore - minExpScore)
-        / Math.pow(rank, (exponent + curveBuff)))));
-
+        score = Math.min(maxExpScore, 
+            expOffset + (
+            minExpScore + (maxExpScore - minExpScore) * 
+            Math.pow((tierLength - rankInTier) / (tierLength - 1), (exponent + curveBuff))
+    )
+);
     }
 
 
