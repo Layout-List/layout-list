@@ -11,12 +11,13 @@ export function score(rank, difficulty, percent, minPercent) {
     const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
     const scoreDivider = 113 // the highest score calculated using the linear function.
     const exponent = 0.05; // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
-    const curveBuff = 0; // increase this value to increase the curve of the exponential function i think maybe
+    const curveBuff = 1.0; // increase this value to increase the curve of the exponential function i think maybe
     const expOffset = 0; // increase this value to offset entire exponential function scores. cannot be negative.
     const diffDivider = 6; // the difficulty (exclusive) at which to stop using a linear point system and start using the exponential one.
                             // remember, if you increase this value without adding cases for the new difficulty, all scores not covered will be 0!
     
     const minExpScore = 114; // min score cap for exponential function, the level with a rank equal to the value of the expLength variable should get this score
+
  
 
 
@@ -75,25 +76,27 @@ export function score(rank, difficulty, percent, minPercent) {
 
         score = maxScore - decreaseAmount * (rankInTier - 1);
 
-        if (tierLength === 1) {
-            score = maxScore;
-        }
-
     } else { // extremes and above, exponential
         
         let expLength = fetchTierMinimum(diffDivider);
-
-        // smooth Tranisitoon (like tik tok edit! ! !)
         
-        const rankRange = expLength - 1; // The range of ranks (rank 1 to expLength)
-        const scaleFactor = Math.log(minExpScore / maxExpScore); // Determines how quickly the score decays
+        // smooth transition
+        const rankRange = expLength - 1; // calc range
+        const scaleFactor = Math.log(minExpScore / maxExpScore);
         
-        let expScore = maxExpScore * Math.exp(scaleFactor * ((rank - 1) / rankRange));
+        // exponential decay
+        let expScore = maxExpScore * Math.exp(scaleFactor * Math.pow((rank - 1) / rankRange, curveBuff));
         
+        // offset
+        expScore += expOffset;
         
         // check bounds
         score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
-
+    }
+    
+    if (tierLength === 1) {
+        
+        score = maxScore;
     }
     
     score = score * (percent / 100);
