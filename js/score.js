@@ -83,12 +83,15 @@ export function score(rank, difficulty, percent, minPercent) {
         
         let expLength = fetchTierMinimum(diffDivider);
         
-        const normalizedRank = (rank - 1) / (expLength - 1);
-        let expScore = minExpScore + (maxExpScore - minExpScore) * Math.pow(normalizedRank, exponent + curveBuff);
+        // pray
+        const normalizedRank = (rank - 1) / (expLength - 1); // normalized to [0, 1]
+        let expScore = minExpScore + (maxExpScore - minExpScore) * Math.pow(1 - normalizedRank, exponent + curveBuff);
 
-        // expScore += expOffset;
+        // no one is ever using this 
+        expScore += expOffset;
 
-        score = expScore; // Math.max(minExpScore, Math.min(expScore, maxExpScore));
+        // check bounds
+        score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
         // TODO: exponential score, ensure bounds minExpScore and maxExpScore are satisfied 
 
     }
