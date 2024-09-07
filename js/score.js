@@ -10,10 +10,10 @@ export function score(rank, difficulty, percent, minPercent) {
     
     const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
     const scoreDivider = 113 // the highest score calculated using the linear function.
-    const exponent = 0.05 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
-    const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
-    const expOffset = 0 // increase this value to offset entire exponential function scores. cannot be negative.
-    const diffDivider = 6 // the difficulty (exclusive) at which to stop using a linear point system and start using the exponential one.
+    const exponent = 0.05; // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
+    const curveBuff = 0; // increase this value to increase the curve of the exponential function i think maybe
+    const expOffset = 0; // increase this value to offset entire exponential function scores. cannot be negative.
+    const diffDivider = 6; // the difficulty (exclusive) at which to stop using a linear point system and start using the exponential one.
                             // remember, if you increase this value without adding cases for the new difficulty, all scores not covered will be 0!
     
     const minExpScore = 114; // min score cap for exponential function, the level with a rank equal to the value of the expLength variable should get this score
@@ -97,8 +97,8 @@ export function score(rank, difficulty, percent, minPercent) {
     }
 
     return score;
+    }
 }
-
 
 
 
@@ -227,21 +227,3 @@ export function fetchTierMinimum(difficulty) {
     console.log("tierMin: " + tierMin);
     return tierMin;
 }
-
-export function fetchExpLength(diffDivider) {
-    let expLength = 0;
-        list.forEach(([err, rank, level]) => {
-            if (err) {
-                errs.push(err);
-                return;
-            }
-    
-            if (rank === null) {
-                return;
-            }
-    
-            if (level.difficulty >= diffDivider) {
-                expLength += 1;
-            }
-        });
-} 
