@@ -98,7 +98,7 @@ export function score(rank, difficulty, percent, minPercent) {
         return score - score / 3;
     }
 
-    return score;
+    return expLength;
 }
 
 
