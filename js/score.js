@@ -7,7 +7,8 @@ export function score(rank, difficulty, percent, minPercent) {
 
     // EXPONENTIAL FUNCTION CONFIG
     // change these values to edit the exponential function!
-
+    
+    const expLength;
     const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
     const scoreDivider = 113 // the highest score calculated using the linear function.
     const exponent = 0.05 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
