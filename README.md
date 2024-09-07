@@ -86,7 +86,6 @@ Can I submit multiple levels in one video?
 
 ## List Helpers:
 
-* skip
 * Poke Zach
 * hydranic
 * nixantyreal
@@ -97,5 +96,3 @@ Can I submit multiple levels in one video?
 ## List Developers:
 
 * sphericle
-
-
