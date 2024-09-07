@@ -82,7 +82,7 @@ export function score(rank, difficulty, percent, minPercent) {
     } else { // extremes and above, exponential
         
         
-        const expLength = fetchTierMinimum(diffDivider);
+        let expLength = fetchTierMinimum(diffDivider);
         
         score = expLength;
         // TODO: exponential score, ensure bounds minExpScore and maxExpScore are satisfied 
