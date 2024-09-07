@@ -9,7 +9,7 @@ export function score(rank, difficulty, percent, minPercent) {
     // change these values to edit the exponential function!
 
     const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
-    const scoreDivider = 150 // the highest score calculated using the linear function, used to offset the exponential function
+    const scoreDivider = 113 // the highest score calculated using the linear function, used to offset the exponential function
     const exponent = 0.7 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
     const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
     const expOffset = 0 // increase this value to offset entire exponential function scores. cannot be negative.
@@ -41,26 +41,26 @@ export function score(rank, difficulty, percent, minPercent) {
         case 1:
             /* Easy Tier */
             minScore = 7.1;
-            maxScore = 25;
+            maxScore = 13;
             break;
         case 2:
             /* Medium Tier */
-            minScore = 26;
-            maxScore = 50;
+            minScore = 13.1;
+            maxScore = 37;
             break;
         case 3:
             /* Hard Tier */
-            minScore = 51;
-            maxScore = 75;
+            minScore = 37.1;
+            maxScore = 63;
             break;
         case 4:
             /* Insane Tier */
-            minScore = 76;
-            maxScore = 100;
+            minScore = 63.1;
+            maxScore = 87;
             break;
         case 5:
             /* Mythical Tier */
-            minScore = 101;
+            minScore = 87.1;
             maxScore = scoreDivider;
             break;
         }
