@@ -11,8 +11,11 @@ const benchmarker = '_';
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
+    const packResult = await fetch(`${dir}/_packs.json`);
+
     try {
         const list = await listResult.json();
+        const packs = await packResult.json();
 
         // Create a lookup dictionary for ranks
         const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
@@ -29,11 +32,17 @@ export async function fetchList() {
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
+
+                    const pack = packs.find(p =>
+                        p.levels.map(l => l.toLowerCase()).includes(level.name.toLowerCase())
+                    );
                     return [
                         null,
                         rank,
                         {
                             ...level,
+                            pack: pack?.name || null,
+                            packColor: pack?.color || null,
                             rank,
                             path,
                             records: level.records.sort(
@@ -52,6 +61,7 @@ export async function fetchList() {
         return null;
     }
 }
+
 
 export async function fetchChallengeList() {
     const challengeListResult = await fetch(`${dir}/_challengeList.json`);
