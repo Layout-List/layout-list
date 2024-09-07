@@ -94,9 +94,9 @@ export function score(rank, difficulty, percent, minPercent) {
         score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
     }
     
-    if (tierLength === 1) {
+    if (rank === 1) {
         
-        score = maxScore;
+        score = maxExpScore;
     }
     
     score = score * (percent / 100);
