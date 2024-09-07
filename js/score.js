@@ -13,9 +13,11 @@ export function score(rank, difficulty, percent, minPercent) {
     const exponent = 0.05 // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
     const curveBuff = 0 // increase this value to increase the curve of the exponential function i think maybe
     const expOffset = 0 // increase this value to offset entire exponential function scores. cannot be negative.
-    const minExpScore = 114; // hello achelous!
     const diffDivider = 6 // the difficulty (exclusive) at which to stop using a linear point system and start using the exponential one.
-                            // remember, if you increase this value without adding cases for the new difficulty, all scores not covered will be 0! 
+                            // remember, if you increase this value without adding cases for the new difficulty, all scores not covered will be 0!
+    const expLength = fetchTierMinimum(diffDivider);
+    const minExpScore = 114; // min score cap for exponential function, the level with a rank equal to the value of the expLength variable should get this score
+ 
 
 
 
@@ -81,7 +83,7 @@ export function score(rank, difficulty, percent, minPercent) {
         
         
 
-        const normalizedRank = (rankInTier - 1) / (tierLength - 1);
+        const normalizedRank = (rank - 1) / (expLength - 1);
 
         score = minExpScore + (maxExpScore - minExpScore) * Math.pow((1 - normalizedRank), (exponent + curveBuff));
     }
