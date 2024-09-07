@@ -84,7 +84,7 @@ export function score(rank, difficulty, percent, minPercent) {
         
         const expLength = fetchTierMinimum(diffDivider);
         
-        score = expLength
+        score = expLength;
         // TODO: exponential score, ensure bounds minExpScore and maxExpScore are satisfied 
 
     score = score * (percent / 100);
@@ -93,10 +93,10 @@ export function score(rank, difficulty, percent, minPercent) {
     
     if (percent != 100) {
         
-        return score - score / 3;
+        score = score - score / 3;
     }
 
-    return "pending"; // obv return score 
+    return score;
 }
 
 
