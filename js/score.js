@@ -82,17 +82,18 @@ export function score(rank, difficulty, percent, minPercent) {
     } else { // extremes and above, exponential
         
         let expLength = fetchTierMinimum(diffDivider);
+
+        // i mean 
+        const logRank = Math.log(rank);
+        const logExpLength = Math.log(expLength);
         
-        // pray
-        const normalizedRank = (rank - 1) / (expLength - 1); // normalized to [0, 1]
-        let expScore = minExpScore + (maxExpScore - minExpScore) * Math.pow(1 - normalizedRank, exponent + curveBuff);
-
-        // no one is ever using this 
-        expScore += expOffset;
-
+        const normalizedLogRank = (logRank - Math.log(1)) / (logExpLength - Math.log(1));
+        
+        // """""exponential""""""""
+        let expScore = minExpScore + (maxExpScore - minExpScore) * Math.pow(1 - normalizedLogRank, exponent + curveBuff);
+        
         // check bounds
         score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
-        // TODO: exponential score, ensure bounds minExpScore and maxExpScore are satisfied 
 
     }
     
