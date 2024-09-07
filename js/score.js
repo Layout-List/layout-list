@@ -83,14 +83,13 @@ export function score(rank, difficulty, percent, minPercent) {
         
         let expLength = fetchTierMinimum(diffDivider);
 
-        // i mean 
-        const logRank = Math.log(rank);
-        const logExpLength = Math.log(expLength);
+        // smooth Tranisitoon (like tik tok edit! ! !)
         
-        const normalizedLogRank = (logRank - Math.log(1)) / (logExpLength - Math.log(1));
+        const rankRange = expLength - 1; // The range of ranks (rank 1 to expLength)
+        const scaleFactor = Math.log(minExpScore / maxExpScore); // Determines how quickly the score decays
         
-        // """""exponential""""""""
-        let expScore = minExpScore + (maxExpScore - minExpScore) * Math.pow(1 - normalizedLogRank, exponent + curveBuff);
+        let expScore = maxExpScore * Math.exp(scaleFactor * ((rank - 1) / rankRange));
+        
         
         // check bounds
         score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
