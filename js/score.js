@@ -88,7 +88,7 @@ export function score(rank, difficulty, percent, minPercent) {
 
         // expScore += expOffset;
 
-        score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
+        score = expScore; // Math.max(minExpScore, Math.min(expScore, maxExpScore));
         // TODO: exponential score, ensure bounds minExpScore and maxExpScore are satisfied 
 
     }
