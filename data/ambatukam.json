@@ -66,6 +66,13 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
