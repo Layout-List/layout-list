@@ -386,7 +386,8 @@
             "link": "https://youtu.be/crbjYSo-CZk?si=FcbIQegriD2mOtPc",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 7
         },
         {
             "user": "Sanctum",
