@@ -92,12 +92,12 @@ export function score(rank, difficulty, percent, minPercent) {
         // check bounds
         score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
     }
-    
+    /*
     if (rank === 1) {
         
         score = maxExpScore;
     }
-    
+    */
     
     score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     
