@@ -9,14 +9,14 @@ export function score(rank, difficulty, percent, minPercent) {
     // change these values to edit the exponential function!
     
     const maxExpScore = 1000; // max score cap, should be the score for the #1 ranked level
-    const scoreDivider = 113 // the highest score calculated using the linear function.
+    const scoreDivider = 125 // the highest score calculated using the linear function.
     const exponent = 0.6; // the exponent of the exponential function ( level rank ^ (exponent + curveBuff) )
     const curveBuff = 0.5; // increase this value to increase the curve of the exponential function i think maybe, shoukd be greater than 0
     const expOffset = 0; // increase this value to offset entire exponential function scores. cannot be negative.
     const diffDivider = 6; // the difficulty (exclusive) at which to stop using a linear point system and start using the exponential one.
                             // remember, if you increase this value without adding cases for the new difficulty, all scores not covered will be 0!
     
-    const minExpScore = 114; // min score cap for exponential function, the level with a rank equal to the value of the expLength variable should get this score
+    const minExpScore = 126; // min score cap for exponential function, the level with a rank equal to the value of the expLength variable should get this score
 
  
 
