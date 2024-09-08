@@ -221,6 +221,10 @@ export default {
         this.list = await fetchList();            
         this.editors = await fetchEditors();
         this.packs = this.getPacks(this.list);
+
+        /* console.log("new packs log: ", JSON.parse(JSON.stringify(this.packs)));
+
+        console.log("Packs:", this.packs); */
         
         // Error handling
         if (!this.list) {
@@ -251,6 +255,7 @@ export default {
         averageEnjoyment,
         getPacks(list) {
             // Collect packs and their respective levels
+            // console.log('list:', list);
             const packsMap = {};
         
             list.forEach(([level]) => {
@@ -267,7 +272,7 @@ export default {
         
             // did it work Lets find out
             if (Object.keys(packsMap).length === 0) {
-                console.error("no packs created");
+                // console.error("no packs created");
             }
         
             return Object.values(packsMap);
