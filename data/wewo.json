@@ -226,7 +226,8 @@
             "link": "https://youtu.be/GKDf77bwFAw",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 4
         },
         {
             "user": "nolli",
