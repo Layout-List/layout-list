@@ -99,13 +99,13 @@ export function score(rank, difficulty, percent, minPercent) {
         score = maxExpScore;
     }
     
-    score = score * (percent / 100);
+    
     
     score = round(score);
     
     if (percent != 100) {
         
-        score = score - score / 3;
+        score = (score - score / 3;)
     }
 
     return score;
