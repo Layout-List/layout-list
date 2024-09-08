@@ -75,6 +75,11 @@ export function score(rank, difficulty, percent, minPercent) {
 
         score = maxScore - decreaseAmount * (rankInTier - 1);
 
+        if (tierLength === 1) {
+                     
+            score = maxScore;
+        }
+
     } else { // extremes and above, exponential
         
         let expLength = fetchTierMinimum(diffDivider);
@@ -92,12 +97,7 @@ export function score(rank, difficulty, percent, minPercent) {
         // check bounds
         score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
     }
-    /*
-    if (rank === 1) {
-        
-        score = maxExpScore;
-    }
-    */
+    
     
     score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     
