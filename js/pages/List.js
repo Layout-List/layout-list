@@ -224,45 +224,45 @@ export default {
         },
     },
     async mounted() {
-    // Hide loading spinner
-    this.list = await fetchList();            
-    this.editors = await fetchEditors();
+        // Hide loading spinner
+        this.list = await fetchList();            
+        this.editors = await fetchEditors();
 
-    // Error handling
-    if (!this.list) {
-        this.errors = [
-            'Failed to load list. Retry in a few minutes or notify list staff.',
-        ];
-    } else {
-        this.errors.push(
-            ...this.list
-                .filter(([err, _, __]) => err)
-                .map(([err, _, __]) => {
-                    return `Failed to load level. (${err}.json)`;
-                }),
-        );
-        if (!this.editors) {
-            this.errors.push('Failed to load list editors.');
+        // Error handling
+        if (!this.list) {
+            this.errors = [
+                'Failed to load list. Retry in a few minutes or notify list staff.',
+            ];
+        } else {
+            this.errors.push(
+                ...this.list
+                    .filter(([err, _, __]) => err)
+                    .map(([err, _, __]) => {
+                        return `Failed to load level. (${err}.json)`;
+                    }),
+            );
+            if (!this.editors) {
+                this.errors.push('Failed to load list editors.');
+            }
         }
-    }
-        
-        this.loading = false;
+            
+            this.loading = false;
     },
     
     methods: {
-    embed,
-    score,
-    averageEnjoyment,
+        embed,
+        score,
+        averageEnjoyment,
 
-    getRankExcludingDividers(index) {
-        let rank = 0;
-        for (let i = 0; i < index; i++) {
-            if (this.list[i][1] !== null) { // Check if it's not a divider
-                rank++;
+        getRankExcludingDividers(index) {
+            let rank = 0;
+            for (let i = 0; i < index; i++) {
+                if (this.list[i][1] !== null) { // Check if it's not a divider
+                    rank++;
+                }
             }
-        }
-        return rank;
-    },
+            return rank;
+        },
 },
 
 };
