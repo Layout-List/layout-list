@@ -1,0 +1,38 @@
+{
+    "id": 109697903,
+    "name": "Wipe Me Down",
+    "author": "Snips",
+    "creators": [],
+    "verifier": "Snips",
+    "verification": "https://www.youtube.com/watch?v=U4JpovXWrAU",
+    "percentToQualify": 100,
+    "song": "Trill Family, Boosie Badazz, Webbie, Foxx - Wipe Me Down",
+    "songLink": "IF NO NONG, DELETE THIS TAB",
+    "difficulty": 8,
+    "records": [
+        {
+          "user": "Mystikl",
+          "link": "https://youtu.be/MF5o8k7NEbs",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false,
+          "enjoyment": 9
+        },
+        {
+          "user": "hayden",
+          "link": "https://youtu.be/GDHLAOZG4CE",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false,
+          "enjoyment": 9
+        },
+        {
+          "user": "Syrcx",
+          "link": "https://www.youtube.com/watch?v=UUw5Mz5puBY",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 10
+        }
+    ]
+}
