@@ -235,7 +235,6 @@ export function fetchTierMinimum(difficulty) {
             tierMin = Math.max(rank, tierMin);
         }
     });
-        
-    console.log("tierMin: " + tierMin);
+    
     return tierMin;
 }
