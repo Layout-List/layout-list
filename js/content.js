@@ -199,7 +199,7 @@ export async function fetchLeaderboard() {
             level: level.name,
             score: score(level.difficulty, 100, level.percentToQualify),
             link: level.verification,
-            rating: "N/A",
+            rating: level.enjoyment,
         });
 
         // Records
