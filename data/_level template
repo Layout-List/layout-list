@@ -11,6 +11,7 @@
     "song": "artist - song name",
     "songLink": "IF NO NONG, DELETE THIS TAB",
     "difficulty": 0-11,
+    "enjoyment": 0-10 ("Verifier's enjoyment rating; IF NO ENJOYMENT, DELETE THIS TAB"),
     "records": [
         
     ]
