@@ -11,6 +11,21 @@
     "songLink": "https://drive.google.com/file/d/14DitiQhoeXKm40X7SSeuDY4mQ9mAG4TV/view?usp=drive_link",
     "difficulty": 8,
     "records": [
-        
+      {
+        "user": "hayden",
+        "link": "https://www.youtube.com/watch?v=2DnEhvIspdo",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false,
+        "enjoyment": "?"
+      },
+        {
+        "user": "attrixia",
+        "link": "https://www.youtube.com/watch?v=pW3KFra5u1Q",
+        "percent": 100,
+        "hz": 240,
+        "mobile": false,
+        "enjoyment": 9
+      },
     ]
 }
