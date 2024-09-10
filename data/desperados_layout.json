@@ -8,7 +8,6 @@
     "percentToQualify": 100,
     "song": "OfficialNovacore - Desperado",
     "difficulty": 2,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Blysteryx",
@@ -23,6 +22,14 @@
             "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
             "percent": 100,
             "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/xYgquCHlbZA",
+            "percent": 100,
+            "hz": 360,
             "mobile": false,
             "enjoyment": 10
         }

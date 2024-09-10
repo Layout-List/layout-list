@@ -8,7 +8,6 @@
     "percentToQualify": 100,
     "song": "somanylynx - You & I",
     "difficulty": 2,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Poke Zach",
@@ -57,6 +56,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/ypMIrlYpAV0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

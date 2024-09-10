@@ -9,7 +9,6 @@
     "percentToQualify": 100,
     "song": "xKore - Showdown",
     "difficulty": 3,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Hyperbeat",
@@ -33,6 +32,14 @@
             "percent": 100,
             "hz": 240,
             "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/VivsCaE0DsA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

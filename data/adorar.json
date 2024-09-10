@@ -1,0 +1,38 @@
+
+{
+    "id": 109863767,
+    "name": "Adorar",
+    "author": "Salukis",
+    "creators": [],
+    "verifier": "Salukis",
+    "verification": "https://youtu.be/KT7gB-To9DM?si=AeO-fuwri1a6tqhl",
+    "percentToQualify": 100,
+    "song": "tv room - Love You Less",
+    "difficulty": 0,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/9LJnkiaHhb8?si=P5vV8LBbBGJKMdVa",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://youtu.be/bYJIiPY0JRI?si=rxdpOlZoBwpfmeit ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=QnDSHgLv8j0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        }
+    ]
+}

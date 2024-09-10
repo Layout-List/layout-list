@@ -9,6 +9,7 @@
     "song": "Trill Family, Boosie Badazz, Webbie, Foxx - Wipe Me Down",
     "songLink": "IF NO NONG, DELETE THIS TAB",
     "difficulty": 8,
+    "enjoyment": 7,
     "records": [
         {
           "user": "Mystikl",
@@ -33,6 +34,22 @@
           "hz": 240,
           "mobile": false,
           "enjoyment": 10
+        },
+        {
+          "user": "Riley",
+          "link": "https://www.youtube.com/watch?v=H_wlhaNTWM0",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 6
+        },
+        {
+          "user": "attrixia",
+          "link": "https://www.youtube.com/watch?v=DMq9k2Y0Je8",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 3
         }
     ]
 }
