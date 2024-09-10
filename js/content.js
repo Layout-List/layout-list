@@ -197,7 +197,7 @@ export async function fetchLeaderboard() {
         completed.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: score(rank, level.difficulty, 100, level.percentToQualify),
             link: level.verification,
             rating: level.enjoyment,
         });
