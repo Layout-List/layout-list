@@ -190,7 +190,7 @@ export async function fetchLeaderboard() {
         verified.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: score( level.difficulty, 100, level.percentToQualify),
             link: level.verification,
         });
         const { completed } = scoreMap[verifier];
