@@ -15,7 +15,7 @@
             "link": "https://youtu.be/9LJnkiaHhb8?si=P5vV8LBbBGJKMdVa",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
             "enjoyment": 8
         },
         {
@@ -23,7 +23,7 @@
             "link": "https://youtu.be/bYJIiPY0JRI?si=rxdpOlZoBwpfmeit ",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
             "enjoyment": 10
         }
     ]
