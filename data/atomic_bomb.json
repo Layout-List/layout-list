@@ -12,6 +12,14 @@
     "enjoyment": 10,
     "records": [
         {
+            "user": "Mystikl",
+            "link": "https://youtu.be/9FCOWLzcZpc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
             "user": "Syrcx",
             "link": "https://youtu.be/nrjqtWUXE_M",
             "percent": 100,
