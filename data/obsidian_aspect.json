@@ -9,7 +9,6 @@
     "song": "Christian Monsutto - Leaves",
     "songLink": "https://www.mediafire.com/file/zjw48iylpr851t7/421244.mp3/file",
     "difficulty": 7,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "xanyx",
@@ -114,6 +113,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/Drg8Sg-GtNQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

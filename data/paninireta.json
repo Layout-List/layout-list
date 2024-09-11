@@ -9,7 +9,6 @@
     "song": "Himiwari - Fragile",
     "songLink": "https://www.mediafire.com/file/z8s4wxq12c7anrz/758448.mp3/file",
     "difficulty": 6,
-    "enjoyment": "9/10",
     "records": [
         {
             "user": "sn0w",
@@ -42,6 +41,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/l8BFgxwYgWE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

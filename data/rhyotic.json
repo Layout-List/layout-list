@@ -9,7 +9,7 @@
     "song": "BeutNoise - Embrace",
     "songLink": "https://drive.google.com/file/d/1K-_FoOdrd4uoSSDfOvv0twkNjdIvlgP-/view?usp=drive_link",
     "difficulty": 8,
-    "enjoyment": "?/10",
+    "enjoyment": 9,
     "records": [
         {
             "user": "Syrcx",
@@ -66,6 +66,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=-LbHsIxk9u8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

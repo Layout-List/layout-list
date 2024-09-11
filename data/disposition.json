@@ -21,7 +21,8 @@
             "link": "https://youtu.be/904I4OhgHIM?si=MPRzS_JyOPCExBpz",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 7
         },
         {
             "user": "hayden",
@@ -299,6 +300,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Salukis",
+            "link": "https://youtu.be/vaeAZythdc0?si=GcA-gLt-ovs8Kwd8",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

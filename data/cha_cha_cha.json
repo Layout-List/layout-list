@@ -9,7 +9,6 @@
     "song": "Käärijä - Cha Cha Cha",
     "songLink": "https://drive.google.com/file/d/1R4EFPcMaKcAtdfbdFtd6WzbATsWWPOq2/view?usp=drive_link",
     "difficulty": 2,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Poke Zach",
@@ -34,6 +33,21 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 6
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/zce6wkJTsNQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

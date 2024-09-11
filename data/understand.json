@@ -9,7 +9,6 @@
     "song": "twikipedia - understand",
     "songLink": "https://www.mediafire.com/file/qigccfuy25ea200/45675.mp3/file",
     "difficulty": 4,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Blueberry",
@@ -42,6 +41,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/orbhhQSn2Qo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }

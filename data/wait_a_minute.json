@@ -9,7 +9,6 @@
     "song": "Willow Smith - Wait a Minute (Sped Up)",
     "songLink": "https://www.mediafire.com/file/xchx9mlimszwb1h/10007195.mp3/file",
     "difficulty": 3,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Hydraniac",
@@ -57,6 +56,7 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+            
         }
     ]
 }

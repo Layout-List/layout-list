@@ -9,8 +9,16 @@
     "percentToQualify": 58,
     "song": "DJ Nate - Intercept 2",
     "difficulty": 7,
-    "enjoyment": "?/10",
+    "enjoyment": 10,
     "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/9FCOWLzcZpc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
         {
             "user": "Syrcx",
             "link": "https://youtu.be/nrjqtWUXE_M",

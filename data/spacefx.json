@@ -8,7 +8,6 @@
     "percentToQualify": 100,
     "song": "Bossfight - Milky Ways",
     "difficulty": 1,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Poke Zach",
@@ -57,6 +56,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/9LJnkiaHhb8?si=P5vV8LBbBGJKMdVa",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
         }
     ]
 }

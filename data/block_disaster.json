@@ -9,7 +9,7 @@
     "percentToQualify": 36,
     "song": "Llaappssee - Being Alive is Fucking Weird",
     "difficulty": 8,
-    "enjoyment": "6.8/10",
+    "enjoyment": 8,
     "records": [
       {
         "user": "Akuriserv",
@@ -77,8 +77,8 @@
         },
         {
             "user": "Poke Zach",
-            "link": "https://youtu.be/NhT_oFCLrzQ?si=mPTsiSz2sdirIgIz",
-            "percent": 73,
+            "link": "https://www.youtube.com/watch?v=lZw2U1fO9uU",
+            "percent": 75,
             "hz": 60,
             "mobile": true,
             "enjoyment": 10

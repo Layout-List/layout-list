@@ -9,7 +9,7 @@
     "song": "Dyatic - Afterimage (",
     "songLink": "https://drive.google.com/file/d/1ctPE0nh2fwasFk80nmrPjE69pRW_qKWv/view?usp=sharing",
     "difficulty": 7,
-    "enjoyment": "?/10",
+    "enjoyment": 10,
     "records": [
         {
             "user": "Riley",
@@ -18,6 +18,22 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=1t-CME4qQ2Q",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "hayden",
+            "link": "https://www.youtube.com/watch?v=7kO3g-OnswY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

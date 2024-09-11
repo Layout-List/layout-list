@@ -9,7 +9,6 @@
     "song": "AURORA - Cure For Me",
     "songLink": "https://drive.google.com/file/d/1hTz5z_EDbZEh9FETUe7WqWHlAwLx_bkU/view?usp=drive_link",
     "difficulty": 6,
-    "enjoyment": "9/10",
     "records": [
         {
             "user": "Tupi",
@@ -22,6 +21,14 @@
         {
             "user": "Hyperbeat",
             "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yC_X_JbKh7w",
             "percent": 100,
             "hz": 240,
             "mobile": false,

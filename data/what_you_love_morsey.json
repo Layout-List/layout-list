@@ -8,7 +8,6 @@
     "percentToQualify": 100,
     "song": "What You Love - Gargalan",
     "difficulty": 2,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Poke Zach",
@@ -47,6 +46,21 @@
             "link": "https://youtu.be/2pNDvibHIsM?si=EyF2GHv7Ti8hPvY0",
             "percent": 100,
             "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/glE5G_GP3xA",
+            "percent": 100,
+            "hz": 360,
             "mobile": false,
             "enjoyment": 9
         }

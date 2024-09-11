@@ -8,7 +8,6 @@
     "percentToQualify": 100,
     "song": "Blast Processing - Waterflame",
     "difficulty": 2,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "Hyperbeat",
@@ -33,6 +32,13 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }

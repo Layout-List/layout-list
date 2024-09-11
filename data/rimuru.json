@@ -8,7 +8,6 @@
     "percentToQualify": 100,
     "song": "DanJohansen - Synergetic Enigma",
     "difficulty": 4,
-    "enjoyment": "?/10",
     "records": [
         {
             "user": "rastuyas",
@@ -40,7 +39,7 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "?"
+            "enjoyment": 9
         }
     ]
 }

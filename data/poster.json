@@ -11,7 +11,6 @@
     "song": "Twikipedia - poster",
     "songLink": "https://www.mediafire.com/file/lo1bhj7skhnemzt/1181047.mp3/file",
     "difficulty": 5,
-    "enjoyment": "6.9/10",
     "records": [
         {
             "user": "Dom_Luca",
@@ -51,7 +50,7 @@
             "percent": 100,
             "hz": 360,
             "mobile": false,
-            "enjoyment": 7.5
+            "enjoyment": 8
         },
         {
             "user": "Bibox",
