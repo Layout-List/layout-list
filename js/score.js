@@ -105,7 +105,7 @@ export function score(rank, difficulty, percent, minPercent) {
     
     if (percent != 100) {
         
-        score = (score - score / 1.5);
+        score = (score - score / 6);
         
     }
     
