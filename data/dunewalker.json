@@ -52,7 +52,8 @@
             "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "rastuyas",
