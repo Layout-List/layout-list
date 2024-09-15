@@ -100,14 +100,18 @@ export function score(rank, difficulty, percent, minPercent) {
     
     
     score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    
+
+    // wtf
     // score = score * (100 - percent)
-    
-    if (percent != 100) {
+
+
+    // LMAO
+    /*if (percent != 100) {
         
         score = (score - score / 6);
         
     }
+    */
     
     score = round(score);
 
