@@ -94,7 +94,8 @@
             "link": "https://www.youtube.com/watch?v=LKU0wsQkFK4",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Blysteryx",
