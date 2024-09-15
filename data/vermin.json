@@ -50,7 +50,8 @@
             "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 5
         },
         {
             "user": "portal 3",
