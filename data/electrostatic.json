@@ -226,14 +226,16 @@
             "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+             "enjoyment": 3
         },
         {
             "user": "Blysteryx",
             "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
             "percent": 100,
             "hz": 120,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 3
         },
         {
             "user": "nolli",

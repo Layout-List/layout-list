@@ -431,14 +431,16 @@
             "link": " https://youtu.be/TFhlyqoAj2Y",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 9
         },
         {
             "user": "rastuyas",
             "link": "https://youtu.be/7AvsC06Gr64",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 7
         },
         {
             "user": "Gybyy",

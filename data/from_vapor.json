@@ -133,7 +133,8 @@
             "link": " https://youtu.be/6etBt5MubPc",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 2
         },
         {
             "user": "TurtleER",

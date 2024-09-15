@@ -146,7 +146,8 @@
             "link": "https://youtu.be/QjN1fPSTpwQ",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "evil",

@@ -52,14 +52,16 @@
             "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "rastuyas",
             "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 7
         },
         {
             "user": "DJJDK",

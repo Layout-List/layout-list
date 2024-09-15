@@ -38,7 +38,8 @@
             "link": "https://www.youtube.com/watch?v=_huqAMyC1Ug&ab_channel=rastuyas",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Syrcx",

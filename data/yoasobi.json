@@ -410,7 +410,8 @@
             "link": "https://youtu.be/wFwYdVDk514",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6
         },
         {
             "user": "Tradeskill",

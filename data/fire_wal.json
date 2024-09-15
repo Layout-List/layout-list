@@ -192,7 +192,8 @@
             "link": "https://youtu.be/HiiUePAtL2M",
             "percent": 100,
             "hz": 120,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "Tupi",
@@ -220,7 +221,8 @@
             "link": "https://youtu.be/BjGItxO0RP4",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+              "enjoyment": 7
         },
         {
             "user": "Popples",
