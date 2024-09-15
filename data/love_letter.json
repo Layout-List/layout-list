@@ -59,7 +59,8 @@
             "link": "https://www.youtube.com/watch?v=wthr1uw8qMk",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "evil",
@@ -74,7 +75,8 @@
             "link": "https://youtu.be/1hP4hDkjvk0",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
          {
             "user": "Alvaneder",

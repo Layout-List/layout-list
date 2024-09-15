@@ -68,14 +68,16 @@
             "link": "https://youtu.be/1Er-I8gEr2M?si=g67zNf3JVCo1Y2Bp",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "rastuyas",
             "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "evil",

@@ -94,14 +94,16 @@
             "link": "https://www.youtube.com/watch?v=LKU0wsQkFK4",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Blysteryx",
             "link": "https://youtu.be/2SZ04xkiesY",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "Alvaneder",

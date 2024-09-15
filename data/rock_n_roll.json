@@ -150,7 +150,8 @@
             "link": "https://youtu.be/i4eTQwEAd3M",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 10
         },
         {
             "user": "nolli",

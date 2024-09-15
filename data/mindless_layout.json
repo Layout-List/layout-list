@@ -58,7 +58,8 @@
             "link": "https://www.youtube.com/watch?v=JkhpyHz18b4",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "zakonp",

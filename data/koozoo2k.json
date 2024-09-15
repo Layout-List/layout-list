@@ -54,7 +54,8 @@
             "link": "https://youtu.be/HiiUePAtL2M",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 9
         },
         {
             "user": "hayden",
