@@ -340,6 +340,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "skyerflume",
+            "link": "https://www.youtube.com/watch?v=1eO7LYhw8tQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
