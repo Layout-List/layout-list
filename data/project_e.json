@@ -1,0 +1,32 @@
+{
+    "id": 110101194,
+    "name": "PROJECT E",
+    "author": "Tanginess",
+    "creators": [
+      "hjog"
+    ],
+    "verifier": "Riley",
+    "verification": "https://youtu.be/8ZWurIInmo4",
+    "percentToQualify": 60,
+    "song": "Waterflame - Control: Mind",
+    "difficulty": 9,
+    "enjoyment": 6,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/bxoJKoCuN9Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iGgnWLpe6Zx7aZQzh/d1337JjFoAAU?invite=cr-MSxEWlYsMTg1OTcxMTAwLA",
+            "percent": 88,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
+}
