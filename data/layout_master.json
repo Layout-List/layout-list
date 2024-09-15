@@ -161,7 +161,8 @@
             "link": "https://youtu.be/Ywm5emPVCyE?si=DhEVrVGp3dNHu1ar",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "portal 3",
