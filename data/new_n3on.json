@@ -11,6 +11,14 @@
     "difficulty": 5,
     "enjoyment": 8,
     "records": [
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/mtNAsdFkP-s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
         
     ]
 }
