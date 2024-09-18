@@ -11,18 +11,18 @@
     "difficulty": 0,
     "records": [
         {
-            "user": "DJJDK",
-            "link": "https://youtu.be/UIFSaXhNOyg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
             "user": "Poke Zach",
             "link": "https://youtu.be/5FP-ms8UI80?si=TyaIMQJm3AbT8N4y",
             "percent": 100,
             "hz": 16,
             "mobile": true
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/UIFSaXhNOyg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
         },
         {
             "user": "Asteria.",
