@@ -1,9 +1,7 @@
-import { localize } from './util.js';
-import { fetchList } from './content.js';
+import { fetchTierLength, fetchTierMinimum } from "./content.js";
 
 const scale = 1; // amount of decimal digits the site will globally round to, unrelated to point values
-const list = await fetchList();
-export function score(rank, difficulty, percent, minPercent) {
+export function score(rank, difficulty, percent, minPercent, list) {
 
     // EXPONENTIAL FUNCTION CONFIG
     // change these values to edit the exponential function!
@@ -25,8 +23,8 @@ export function score(rank, difficulty, percent, minPercent) {
     let score = 0;
     let minScore = 0;
     let maxScore = 0;
-    const tierLength = fetchTierLength(difficulty);
-    const tierMin = fetchTierMinimum(difficulty);
+    const tierLength = fetchTierLength(list, difficulty);
+    const tierMin = fetchTierMinimum(list, difficulty);
     const rankInTier = rank - tierMin + tierLength;
     
     if (difficulty < 4) {
@@ -82,7 +80,7 @@ export function score(rank, difficulty, percent, minPercent) {
 
     } else { // extremes and above, exponential
         
-        let expLength = fetchTierMinimum(diffDivider);
+        let expLength = fetchTierMinimum(list, diffDivider);
         
         // smooth transition
         const rankRange = expLength - 1; // calc range
@@ -204,44 +202,4 @@ export function round(num) {
             scale
         );
     }
-}
-
-export function fetchTierLength(difficulty) {
-    let tierLength = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierLength += 1;
-        }
-    });
-
-    return tierLength;
-}
-
-export function fetchTierMinimum(difficulty) {
-    let tierMin = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
-
-        if (rank === null) {
-            return;
-        }
-
-        if (level.difficulty === difficulty) {
-            tierMin = Math.max(rank, tierMin);
-        }
-    });
-    
-    return tierMin;
 }
