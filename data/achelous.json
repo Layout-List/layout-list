@@ -44,14 +44,6 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=vEfSh4vL628",
-            "percent": 100000,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
         }
     ]
 }
