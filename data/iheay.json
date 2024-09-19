@@ -12,6 +12,13 @@
     "difficulty": 5,
     "enjoyment": 9,
     "records": [
-        
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
     ]
 }
