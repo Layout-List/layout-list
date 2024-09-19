@@ -128,7 +128,7 @@ export async function fetchLeaderboard() {
             return;
         }
         
-        possibleMax += score(rank, level.difficulty, 100, level.percentToQualify);
+        possibleMax += score(rank, level.difficulty, 100, level.percentToQualify, list);
 
         // Author
         const author = Object.keys(scoreMap).find(
@@ -180,14 +180,14 @@ export async function fetchLeaderboard() {
         verified.push({
             rank,
             level: level.name,
-            score: score(rank, level.difficulty, 100, level.percentToQualify),
+            score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
         });
         const { completed } = scoreMap[verifier];
         completed.push({
             rank,
             level: level.name,
-            score: score(rank, level.difficulty, 100, level.percentToQualify),
+            score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
             rating: level.enjoyment,
         });
@@ -208,7 +208,7 @@ export async function fetchLeaderboard() {
                 completed.push({
                     rank,
                     level: level.name,
-                    score: score(rank, level.difficulty, 100, level.percentToQualify),
+                    score: score(rank, level.difficulty, 100, level.percentToQualify, list),
                     link: record.link,
                     rating: record.enjoyment,
                 });
@@ -219,7 +219,7 @@ export async function fetchLeaderboard() {
                 rank,
                 level: level.name,
                 percent: record.percent,
-                score: score(rank, level.difficulty, record.percent, level.percentToQualify),
+                score: score(rank, level.difficulty, record.percent, level.percentToQualify, list),
                 link: record.link,
                 rating: record.enjoyment,
             });
@@ -333,4 +333,45 @@ export async function fetchChallengeLeaderboard() {
 
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
+}
+
+
+export function fetchTierLength(list, difficulty) {
+    let tierLength = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierLength += 1;
+        }
+    });
+
+    return tierLength;
+}
+
+export function fetchTierMinimum(list, difficulty) {
+    let tierMin = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierMin = Math.max(rank, tierMin);
+        }
+    });
+    
+    return tierMin;
 }

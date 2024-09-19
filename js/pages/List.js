@@ -53,7 +53,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(getRankExcludingDividers(selected + 1), level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(getRankExcludingDividers(selected + 1), level.difficulty, 100, level.percentToQualify, list) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -253,7 +253,6 @@ export default {
         embed,
         score,
         averageEnjoyment,
-
         getRankExcludingDividers(index) {
             let rank = 0;
             for (let i = 0; i < index; i++) {
