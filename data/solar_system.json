@@ -522,6 +522,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/l8jEqfIHY_k?si=MDWwl-TIq50ER0F1",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
