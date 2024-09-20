@@ -11,6 +11,13 @@
     "songLink": "https://drive.google.com/file/d/1Y9FgYd-cRkLsFvU5AB5paDWlQU_6uT1I/view?usp=drive_link",
     "difficulty": 1,
     "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/JdJ3TqZ7Ygc?si=vZ4LcmYQ2rlzgj_M",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         
     ]
 }
