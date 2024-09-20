@@ -11,11 +11,8 @@ const benchmarker = '_';
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
-    const packResult = await fetch(`${dir}/_packs.json`);
-
     try {
         const list = await listResult.json();
-        const packs = await packResult.json();
 
         // Create a lookup dictionary for ranks
         const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
@@ -32,17 +29,11 @@ export async function fetchList() {
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
-
-                    const pack = packs.find(p =>
-                        p.levels.map(l => l.toLowerCase()).includes(level.name.toLowerCase())
-                    );
                     return [
                         null,
                         rank,
                         {
                             ...level,
-                            pack: pack?.name || null,
-                            packColor: pack?.color || null,
                             rank,
                             path,
                             records: level.records.sort(
@@ -61,7 +52,6 @@ export async function fetchList() {
         return null;
     }
 }
-
 
 export async function fetchChallengeList() {
     const challengeListResult = await fetch(`${dir}/_challengeList.json`);
@@ -138,7 +128,7 @@ export async function fetchLeaderboard() {
             return;
         }
         
-        possibleMax += score(level.difficulty, 100, level.percentToQualify);
+        possibleMax += score(rank, level.difficulty, 100, level.percentToQualify, list);
 
         // Author
         const author = Object.keys(scoreMap).find(
@@ -190,14 +180,14 @@ export async function fetchLeaderboard() {
         verified.push({
             rank,
             level: level.name,
-            score: score( level.difficulty, 100, level.percentToQualify),
+            score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
         });
         const { completed } = scoreMap[verifier];
         completed.push({
             rank,
             level: level.name,
-            score: score(level.difficulty, 100, level.percentToQualify),
+            score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
             rating: level.enjoyment,
         });
@@ -218,7 +208,7 @@ export async function fetchLeaderboard() {
                 completed.push({
                     rank,
                     level: level.name,
-                    score: score(level.difficulty, 100, level.percentToQualify),
+                    score: score(rank, level.difficulty, 100, level.percentToQualify, list),
                     link: record.link,
                     rating: record.enjoyment,
                 });
@@ -229,7 +219,7 @@ export async function fetchLeaderboard() {
                 rank,
                 level: level.name,
                 percent: record.percent,
-                score: score(level.difficulty, record.percent, level.percentToQualify),
+                score: score(rank, level.difficulty, record.percent, level.percentToQualify, list),
                 link: record.link,
                 rating: record.enjoyment,
             });
@@ -343,4 +333,45 @@ export async function fetchChallengeLeaderboard() {
 
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
+}
+
+
+export function fetchTierLength(list, difficulty) {
+    let tierLength = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierLength += 1;
+        }
+    });
+
+    return tierLength;
+}
+
+export function fetchTierMinimum(list, difficulty) {
+    let tierMin = 0;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            errs.push(err);
+            return;
+        }
+
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            tierMin = Math.max(rank, tierMin);
+        }
+    });
+    
+    return tierMin;
 }

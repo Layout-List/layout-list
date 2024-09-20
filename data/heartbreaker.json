@@ -89,7 +89,8 @@
             "link": "https://youtu.be/Ywm5emPVCyE?si=DhEVrVGp3dNHu1ar",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 9
         },
         {
             "user": "Mystikl",
@@ -113,6 +114,14 @@
             "hz": 360,
             "mobile": true,
             "enjoyment": 9
+        },
+        {
+            "user": "Akuriserv",
+            "link": "https://www.youtube.com/watch?v=BqzvRUNnlFE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

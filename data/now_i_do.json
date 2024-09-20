@@ -135,7 +135,8 @@
             "link": "https://youtu.be/BjGItxO0RP4",
             "percent": 100,
             "hz": 120,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "LimeDub",

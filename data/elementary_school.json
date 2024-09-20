@@ -107,7 +107,8 @@
         "link": "https://youtu.be/ZUK4IOAa5Ng",
         "percent": 100,
         "hz": 240,
-        "mobile": false
+        "mobile": false,
+        "enjoyment": 5
       },
       {
         "user": "Khronos",

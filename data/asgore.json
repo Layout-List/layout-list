@@ -58,7 +58,8 @@
             "link": "https://youtu.be/6rOI3s2yZI4",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 7
         },
         {
             "user": "monthmai",
@@ -191,6 +192,14 @@
             "percent": 100,
             "hz": 60,
             "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/g2jUCDwbdZU?si=Az-ZnkZkCwBI9Wmh",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
             "enjoyment": 7
         }
     ]

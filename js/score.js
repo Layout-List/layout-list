@@ -1,83 +1,124 @@
-import { localize } from './util.js';
-/**
- * Numbers of decimal digits to round to
- */
-const scale = 1;
+import { fetchTierLength, fetchTierMinimum } from "./content.js";
 
-/**
- * Calculate the score awarded when having a certain percentage on a list level
- * @param {Number} rank Position on the list
- * @param {Number} percent Percentage of completion
- * @param {Number} minPercent Minimum percentage required
- * @returns {Number}
- */
-export function score(difficulty, percent, minPercent) {
-    let score = 0;
+const scale = 1; // amount of decimal digits the site will globally round to, unrelated to point values
+export function score(rank, difficulty, percent, minPercent, list) {
+
+    // EXPONENTIAL FUNCTION CONFIG
+    // change these values to edit the exponential function!
     
-    if (difficulty<4){
+    const maxExpScore = 750; // max score cap, should be the score for the #1 ranked level
+    const scoreDivider = 130 // the highest score calculated using the linear function.
+    const curveBuff = 0.4; // increase this value to increase the curve of the exponential function i think maybe, shoukd be greater than 0
+    const expOffset = 0; // increase this value to offset entire exponential function scores. cannot be negative.
+    const diffDivider = 6; // the difficulty (exclusive) at which to stop using a linear point system and start using the exponential one.
+                            // remember, if you increase this value without adding cases for the new difficulty, all scores not covered will be 0!
+    
+    const minExpScore = 131; // min score cap for exponential function, the level with a rank equal to the value of the expLength variable should get this score
+
+ 
+
+
+
+
+    let score = 0;
+    let minScore = 0;
+    let maxScore = 0;
+    const tierLength = fetchTierLength(list, difficulty);
+    const tierMin = fetchTierMinimum(list, difficulty);
+    const rankInTier = rank - tierMin + tierLength;
+    
+    if (difficulty < 4) {
         minPercent = 100;
     }
-    switch (difficulty) {
+    
+    // mythical and below
+    if (difficulty < diffDivider) {
+        // LINEAR FUNCTION CONFIG
+        // you can change the minimum and maximum values for each tier here!
+        switch (difficulty) {
         case 0:
             /* Beginner Tier */
-            score = 5;
+            minScore = 3;
+            maxScore = 7;
             break;
         case 1:
             /* Easy Tier */
-            score = 10;
+            minScore = 7.1;
+            maxScore = 13;
             break;
         case 2:
             /* Medium Tier */
-            score = 25;
+            minScore = 13.1;
+            maxScore = 37;
             break;
         case 3:
             /* Hard Tier */
-            score = 50;
+            minScore = 37.1;
+            maxScore = 63;
             break;
         case 4:
             /* Insane Tier */
-            score = 75;
+            minScore = 63.1;
+            maxScore = 87;
             break;
         case 5:
             /* Mythical Tier */
-            score = 100;
+            minScore = 87.1;
+            maxScore = scoreDivider;
             break;
-        case 6:
-            /* Extreme Tier */
-            score = 150;
-            break;
-        case 7:
-            /* Supreme Tier */
-            score = 200;
-            break;
-        case 8:
-            /* Ethereal Tier */
-            score = 250;
-            break;
-        case 9:
-            /* Legendary Tier */
-            score = 350;
-            break;
-        case 10:
-            /* Silent Tier */
-            score = 500;
-            break;
-        case 11:
-            /* Impossible Tier */
-            score = 1000;
-            break;
-        default:
-            score = 0;
-            break;
-    }
-    score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    score = Math.max(0, score);
-    if (percent != 100) {
-        return round(score - score / 3);
-    }
+        }
 
-    return round(score);
+    
+        let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
+
+        score = maxScore - decreaseAmount * (rankInTier - 1);
+
+        if (tierLength === 1) {
+                     
+            score = maxScore;
+        }
+
+    } else { // extremes and above, exponential
+        
+        let expLength = fetchTierMinimum(list, diffDivider);
+        
+        // smooth transition
+        const rankRange = expLength - 1; // calc range
+        const scaleFactor = Math.log(minExpScore / maxExpScore);
+        
+        // exponential decay
+        let expScore = maxExpScore * Math.exp(scaleFactor * Math.pow((rank - 1) / rankRange, curveBuff));
+        
+        // offset
+        expScore += expOffset;
+        
+        // check bounds
+        score = Math.max(minExpScore, Math.min(expScore, maxExpScore));
+    }
+    
+    
+    score*=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+
+    // wtf
+    // score = score * (100 - percent)
+
+
+    // LMAO
+    /*if (percent != 100) {
+        
+        score = (score - score / 6);
+        
+    }
+    */
+    
+    score = round(score);
+
+    return score;
 }
+
+
+
+
 
 export function challengeScore(difficulty) {
     let score = 0;

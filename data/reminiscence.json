@@ -1,0 +1,22 @@
+{
+    "id": 110110879,
+    "name": "Reminiscence",
+    "author": "Popples",
+    "creators": [],
+    "verifier": "Popples",
+    "verification": "https://youtu.be/CqO87zKGyk4",
+    "percentToQualify": 100,
+    "song": "Super Melon-Creations: Portable Happiness",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+        
+    ]
+}

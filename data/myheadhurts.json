@@ -22,7 +22,8 @@
             "link": "https://www.youtube.com/watch?v=AxyT5WSHWWk&ab_channel=rastuyas",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6
         },
         {
             "user": "Syrcx",
@@ -43,6 +44,14 @@
         {
             "user": "attrixia",
             "link": "https://www.youtube.com/watch?v=arcv6foeEC0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/1po0RPq10ok",
             "percent": 100,
             "hz": 240,
             "mobile": false,

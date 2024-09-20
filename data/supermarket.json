@@ -1,0 +1,22 @@
+{
+    "id": 109682338,
+    "name": "Supermarket",
+    "author": "Blysteryx",
+    "creators": [],
+    "verifier": "Blysteryx",
+    "verification": "https://youtu.be/OKsajaj35SQ?si=CbpBXXfgg_8O9pZK",
+    "percentToQualify": 100,
+    "song": "underscores & Knapsack - SPIT",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        }
+        
+    ]
+}

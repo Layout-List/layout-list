@@ -338,7 +338,8 @@
             "link": "https://youtu.be/7AvsC06Gr64",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 6
         },
         {
             "user": "TheCatAstronaut",
@@ -545,6 +546,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/Td4Z6yX8Ulc?feature=shared",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }

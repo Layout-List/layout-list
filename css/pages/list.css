@@ -30,6 +30,7 @@
     word-break: normal;
     overflow-wrap: anywhere;
     cursor: pointer;
+    transition: background-color 150ms ease-out;
 }
 .page-list .list .level.error button {
     color: var(--color-error);
@@ -135,15 +136,4 @@
     box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
     margin:5px;
     text-align:center;
-}
-
-.pack {
-    border-radius: 25px;
-    border: 2px solid rgb(109, 109, 109);
-    padding: 3px 10px; 
-    text-align: center;
-    display: inline-block;
-    font-family: "Lexend Deca", sans-serif;
-    width: fit-content;
-    background: rgba(89, 89, 89, 0.2)  
 }

@@ -54,7 +54,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(level.difficulty, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(getRankExcludingDividers(selected + 1), level.difficulty, 100, level.percentToQualify, list) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -144,7 +144,7 @@ export default {
                         You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
                     </p>
                     <p>
-                        The recording must have either source audio or clicks (visual tap indication if on mobile) for the record to be validated. Edited audio does not count.
+                        Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). Edited audio does not count.
                     </p>
                     <p>
                         Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
@@ -207,6 +207,7 @@ export default {
         store,
         toggledShowcase: false,
     }),
+  
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -227,6 +228,7 @@ export default {
         // Hide loading spinner
         this.list = await fetchList();            
         this.editors = await fetchEditors();
+
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -244,12 +246,23 @@ export default {
                 this.errors.push('Failed to load list editors.');
             }
         }
-        
+            
         this.loading = false;
     },
+    
     methods: {
         embed,
         score,
-        averageEnjoyment
-    },
+        averageEnjoyment,
+        getRankExcludingDividers(index) {
+            let rank = 0;
+            for (let i = 0; i < index; i++) {
+                if (this.list[i][1] !== null) { // Check if it's not a divider
+                    rank++;
+                }
+            }
+            return rank;
+        },
+},
+
 };

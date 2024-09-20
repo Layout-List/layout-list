@@ -40,6 +40,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment" : 10
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/l8jEqfIHY_k?si=MDWwl-TIq50ER0F1",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

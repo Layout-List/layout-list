@@ -1,0 +1,40 @@
+{
+    "id": 109979279,
+    "name": "New N3on",
+    "author": "SarcasticMuch",
+    "creators": [],
+    "verifier": "Mystikl",
+    "verification": "https://youtu.be/4Zr7k-yuXQg",
+    "percentToQualify": 56,
+    "song": "Playboi Carti - New N3on",
+    "songLink": "https://drive.google.com/file/d/1voUwEt9w-mM_piTOxinonOdoBQq0zzI-/view?usp=drive_link",
+    "difficulty": 5,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/mtNAsdFkP-s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/sDhX1vYnF4U?si=jBrfw4M0DxHxGSKg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+        
+    ]
+}

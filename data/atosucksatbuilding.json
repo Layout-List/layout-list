@@ -8,7 +8,6 @@
     "verification": "https://youtu.be/bT-dvVDyRBw",
     "percentToQualify": 100,
     "song": "ParagonX9 - Infiltration",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
     "difficulty": 2,
     "records": [
         {
@@ -34,6 +33,30 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/Z28avHvuZ1k",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
         
     ]
