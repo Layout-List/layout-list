@@ -11,8 +11,10 @@ const benchmarker = '_';
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
+    const packResult = await fetch(`${dir}/_packs.json`);
     try {
         const list = await listResult.json();
+        const packs = await packResult.json();
 
         // Create a lookup dictionary for ranks
         const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
@@ -29,6 +31,15 @@ export async function fetchList() {
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
+                        
+                    // load pack
+                    const pack = [path, packs.find((p) => p.levels.includes(path))]; // checks if the packs contains the level's path (json file name)
+
+                    if (pack[1]) {
+                        console.log(pack);
+                    }
+
+
                     return [
                         null,
                         rank,
@@ -36,6 +47,7 @@ export async function fetchList() {
                             ...level,
                             rank,
                             path,
+                            pack,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
                             ),
