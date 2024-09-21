@@ -238,6 +238,19 @@ export async function fetchLeaderboard() {
                 rating: record.enjoyment,
             });
         });
+
+        /*
+
+        let userPacks;
+
+        Object.entries(level.packs).forEach((pack) => {
+            if ([completed, verified, created].includes(pack.name)) {
+                userPacks.append(pack.name)
+            }
+        })
+
+        console.log(userPacks)
+        */
     });
 
     // Wrap in extra Object containing the user and total score
