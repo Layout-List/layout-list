@@ -1,11 +1,22 @@
 [
     {
         "name": "Test Pack",
+        "light": "#03fcf0",
+        "dark": "#756d24",
         "levels": [
-            "achelous",
-            ""
-        ],
-        "colour": "#756d24"
+            "achelous"
+        ]
+        
+    },
+    {
+        "name": "Test Pack 2",
+        "light": "#fc0303",
+        "dark": "#7b03fc",
+        "levels": [
+            "hydrogen_bomb"
+        ]
+        
     }
+    
 
 ]

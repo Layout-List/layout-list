@@ -39,7 +39,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack" :style="{ 'background': levelPack.colour }" v-if="levelPack !== undefined">{{ levelPack.name }}</div>
+                    <div class="pack" :style="{ 'background': store.dark ? levelPack.dark : levelPack.light }" v-if="levelPack !== undefined">{{ levelPack.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
