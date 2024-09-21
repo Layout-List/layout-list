@@ -16,7 +16,8 @@
             "link": "https://youtu.be/sipkoLhvc_I",
             "percent": 100,
             "hz": 240,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Hyperbeat",
