@@ -226,6 +226,23 @@ export async function fetchLeaderboard() {
                     link: record.link,
                     rating: record.enjoyment,
                 });
+                
+                // Check if level.packs exists and is an array
+                if (level.packs && Array.isArray(level.packs)) {
+                    level.packs.forEach(pack => {
+                        // Ensure that pack.levels is an array before checking for level name
+                        if (Array.isArray(pack.levels) && pack.levels.includes(level.name)) {
+                            completedPacks.push(pack.name);  // Push the pack name where the level was found
+                        }
+                    });
+                } else {
+                    console.error("level.packs is not defined or is not an array");
+                }
+        
+        return;
+    }
+
+                
                 return;
             }
 
@@ -241,6 +258,20 @@ export async function fetchLeaderboard() {
 
         
 
+
+
+
+        // Check if the user has completed the level by matching with paths in level.packs.levels
+        const hasCompletedLevel = level.packs.some(pack =>
+            pack.levels.some(path => path === level.name)
+        );
+
+        if (hasCompletedLevel) {
+            console.log(`User has completed the level: ${level.name}`);
+        } else {
+            console.log(`User has not completed the level: ${level.name}`);
+        }
+        
         let userPacks;
 
 
