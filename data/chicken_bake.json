@@ -12,6 +12,14 @@
     "difficulty": 3,
     "records": [
         {
+            "user": "evil",
+            "link": "https://youtu.be/sipkoLhvc_I",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
             "user": "Hyperbeat",
             "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
             "percent": 100,
