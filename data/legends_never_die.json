@@ -26,6 +26,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=W8onPZ50xaE",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 10
         }
         
     ]
