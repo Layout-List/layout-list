@@ -38,9 +38,17 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
-                    <h1>{{ level.name }}</h1>
-                    <div class="pack" :style="{ 'background': store.dark ? level.packs.dark : level.packs.light }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
-                    <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <h1>{{ level.name }}</h1
+                    
+                    ><div class="pack" 
+                        :style="{ 
+                        'background': 
+                            store.dark ? rgba(level.packs.dark) 
+                            : rgba(level.packs.light)
+                        }" v-if="level.packs !== undefined"
+                    >{{ level.packs.name }}<
+                    /div
+                    ><LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
