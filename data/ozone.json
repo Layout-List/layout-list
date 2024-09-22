@@ -1,7 +1,7 @@
 {
     "id": 101128632,
     "name": "Ozone",
-    "author": "AngryFace",
+    "author": "Angryface",
     "creators": [],
     "verifier": "zakonp",
     "verification": "https://www.youtube.com/watch?v=L-5mc4Pj5U0",
@@ -54,6 +54,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/zq7obD-stDk?si=t2gB2TrV6f1bp-yS",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
