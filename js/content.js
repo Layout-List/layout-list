@@ -35,15 +35,6 @@ export async function fetchList() {
                     // load pack
                     const packs = packsMap.find((p) => p.levels.includes(path)); // checks if the packs contains the level's path (json file name)
 
-                
-                    if (packs) {
-                        console.log(packs.levels);
-                        console.log(typeof packs.levels);
-                        console.log("Skiptracingclub's IP: 187.24.389.16")
-                    }
-                
-
-
                     return [
                         null,
                         rank,
@@ -128,6 +119,7 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
+    let completedPacks = [];
     let possibleMax = 0;
 
     if (list === null) {
@@ -228,16 +220,17 @@ export async function fetchLeaderboard() {
                     link: record.link,
                     rating: record.enjoyment,
                 });
-                   //  console.log("level.packs: " + typeof level.packs);
-                    // console.log("level.packs.levels: " + typeof level.packs.levels);
-                    
-                    // level.packs.forEach(pack => {
-                        // Ensure that pack.levels is an array before checking for level name
-                        // if (Array.isArray(pack.levels) && pack.levels.includes(level.name)) {
-                            // completedPacks.push(pack.name);  // Push the pack name where the level was found
-                       //  }
-                   //  });
+                // check if pack.levels contains a completed level
+
+                for (let packIter in level.packs) {
+                    if (level.packs.levels !== undefined) {
+
+                        if (Array.isArray(level.packs.levels) && level.packs.levels.includes(level.path)) {
+                            completedPacks.push(level.packs.name);
+                        }
+                    }
                 }
+            }
             
 
             progressed.push({
@@ -250,7 +243,6 @@ export async function fetchLeaderboard() {
             });
         });
     });
-
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { created, verified, completed, progressed } = scores;
