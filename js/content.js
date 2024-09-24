@@ -37,7 +37,9 @@ export async function fetchList() {
 
                 
                     if (packs) {
-                        console.log(packs);
+                        console.log(packs.levels);
+                        console.log(typeof packs.levels);
+                        console.log("Skiptracingclub's IP: 187.24.389.16")
                     }
                 
 
@@ -226,15 +228,15 @@ export async function fetchLeaderboard() {
                     link: record.link,
                     rating: record.enjoyment,
                 });
-                    console.log("level.packs: " + typeof level.packs);
-                    console.log("level.packs.levels: " + typeof level.packs.levels);
+                   //  console.log("level.packs: " + typeof level.packs);
+                    // console.log("level.packs.levels: " + typeof level.packs.levels);
                     
-                    level.packs.forEach(pack => {
+                    // level.packs.forEach(pack => {
                         // Ensure that pack.levels is an array before checking for level name
-                        if (Array.isArray(pack.levels) && pack.levels.includes(level.name)) {
-                            completedPacks.push(pack.name);  // Push the pack name where the level was found
-                        }
-                    });
+                        // if (Array.isArray(pack.levels) && pack.levels.includes(level.name)) {
+                            // completedPacks.push(pack.name);  // Push the pack name where the level was found
+                       //  }
+                   //  });
                 }
             
 
