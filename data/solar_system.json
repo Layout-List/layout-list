@@ -530,6 +530,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/zNZacFqTBtk?si=ApHYB6nzGAgLekZ-",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "9"
         }
     ]
 }
