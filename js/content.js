@@ -266,8 +266,6 @@ export async function fetchLeaderboard() {
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
 
-        console.log(userPacks)
-
         return {
             user,
             total: round(total),
