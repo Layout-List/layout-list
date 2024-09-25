@@ -239,7 +239,7 @@ export async function fetchLeaderboard() {
                         if (allCompleted) {
                             if (Array.isArray(userPacks)) {
                                 if (!userPacks.includes(pack.name)) {
-                                    userPacks.push(pack.name);
+                                    userPacks.push(pack);
                                     console.log(`${user} has completed ${pack.name}`)
                                 }
                             }
