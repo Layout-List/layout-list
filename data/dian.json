@@ -104,6 +104,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
