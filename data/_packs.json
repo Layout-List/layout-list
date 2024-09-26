@@ -1,14 +1,110 @@
 [
     {
-        "name": "Test Pack",
+        "name": "Rated Pack 1",
 
-        "light": [3, 252, 240, 1],
-        "dark": [235, 64, 52, 0.3],
+        "light": [52, 107, 235, 0.8],
+        "dark": [52, 107, 235, 0.5],
 
         "levels": [
-            "go_beyond_nerf"
+            "fun_dance",
+            "gravity_out",
+            "adapation",
+            "time_shell"
         ]
-        
+    },
+
+    {
+        "name": "Salukis Pack",
+
+        "light": [52, 107, 235, 0.8],
+        "dark": [52, 107, 235, 0.5],
+
+        "levels": [
+            "sunrise",
+            "cornfield",
+            "debit",
+            "caliber",
+            "uppercut"
+        ]
+    },
+
+    {
+        "name": "Chill Pack",
+
+        "light": [52, 107, 235, 0.8],
+        "dark": [52, 107, 235, 0.5],
+
+        "levels": [
+            "zzz",
+            "foggy_bridge",
+            "wewo",
+            "florescent"
+        ]
+    },
+    
+    {
+        "name": "Quacker Pack",
+
+        "light": [26, 194, 219, 0.8],
+        "dark": [26, 194, 219, 0.8],    
+
+        "levels": [
+            "druggered_duck",
+            "drugged_duck",
+            "fearful_duckling"
+        ]
+    },
+    {
+        "name": "Rated Pack 2",
+
+        "light": [26, 194, 219, 0.8],
+        "dark": [26, 194, 219, 0.8],    
+
+        "levels": [
+            "marenol",
+            "walk_through",
+            "outlay",
+            "dancing_moonman",
+            "havoc"
+        ]
+    },
+    {
+        "name": "Detailed Pack 1",
+
+        "light": [26, 194, 219, 0.8],
+        "dark": [26, 194, 219, 0.8],    
+
+        "levels": [
+            "go_with_the_flow",
+            "fire_wal",
+            "bufu"
+        ]
+    },
+    {
+        "name": "Sqrtpie Pack",
+
+        "light": [26, 194, 219, 0.8],
+        "dark": [26, 194, 219, 0.8],    
+
+        "levels": [
+            "because_we_miss",
+            "layout_master",
+            "vulture"
+        ]
+    },
+    {
+        "name": "Xeronius Pack",
+
+        "light": [26, 194, 219, 0.8],
+        "dark": [26, 194, 219, 0.8],    
+
+        "levels": [
+            "invincible",
+            "toxic_sewers",
+            "cove",
+            "get_funked",
+            "dramatic"
+        ]
     }
     
 

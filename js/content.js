@@ -119,7 +119,6 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    let userPacks = [];
     let possibleMax = 0;
 
     if (list === null) {
@@ -250,19 +249,15 @@ export async function fetchLeaderboard() {
             // check if player has completed all levels in a pack
             if (level.packs) {  // ensure level.packs is defined
                 const pack = level.packs;
-                if (Array.isArray(pack.levels)) {  // idk anymore
                     const allCompleted = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
                             lvl.path === packLevel &&
                             lvl.records.some((r) => r.user === record.user && r.percent === 100)
                         )
                     );
-                    if (allCompleted) {
-                        if (Array.isArray(userPacks)) {
-                            if (!userPacks.includes(pack.name)) {
-                                userPacks.push(pack);
-                            }
-                        }
+                if (allCompleted) {
+                    if (!userPacks.includes(pack.name)) {
+                        userPacks.push(pack);
                     }
                 }
             }
