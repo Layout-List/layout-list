@@ -55,7 +55,7 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
-                        <div class="pack-container">
+                        <div class="pack-container" v-if="entry.userPacks">
                             <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(pack.dark) : rgbaBind(pack.light) }">{{ pack.name }}</div>
                         </div>
                         <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
