@@ -147,6 +147,7 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
+            userPacks: [],
         };
         const { created } = scoreMap[author];
         created.push({
@@ -165,6 +166,7 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
+                userPacks: [],
             };
             const { created } = scoreMap[creator];
             created.push({
