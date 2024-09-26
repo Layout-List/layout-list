@@ -233,7 +233,7 @@ export async function fetchLeaderboard() {
                 progressed: [],
                 userPacks: [] 
             };
-            let { completed, progressed, userPacks } = scoreMap[user];
+            const { completed, progressed, userPacks } = scoreMap[user];
 
             if (record.percent === 100) {
                 completed.push({
@@ -244,29 +244,29 @@ export async function fetchLeaderboard() {
                     rating: record.enjoyment,
                 });
 
-                // check if player has completed all levels in a pack
-                if (level.packs) {  // ensure level.packs is defined
-                    const pack = level.packs;
-                    if (Array.isArray(pack.levels)) {  // idk anymore
-                        const allCompleted = pack.levels.every((packLevel) =>
-                            list.some(([_, __, lvl]) =>
-                                lvl.path === packLevel &&
-                                lvl.records.some((r) => r.user === record.user && r.percent === 100)
-                            )
-                        );
-
-
-                        
-                        if (allCompleted) {
-                            if (Array.isArray(userPacks)) {
-                                if (!userPacks.includes(pack.name)) {
-                                    userPacks.push(pack);
-                                }
+            
+            // check if player has completed all levels in a pack
+            if (level.packs) {  // ensure level.packs is defined
+                const pack = level.packs;
+                if (Array.isArray(pack.levels)) {  // idk anymore
+                    const allCompleted = pack.levels.every((packLevel) =>
+                        list.some(([_, __, lvl]) =>
+                            lvl.path === packLevel &&
+                            lvl.records.some((r) => r.user === record.user && r.percent === 100)
+                        )
+                    );
+                    if (allCompleted) {
+                        if (Array.isArray(userPacks)) {
+                            if (!userPacks.includes(pack.name)) {
+                                userPacks.push(pack);
                             }
                         }
                     }
                 }
             }
+            return
+        }
+            
 
             progressed.push({
                 rank,
