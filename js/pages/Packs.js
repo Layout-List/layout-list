@@ -23,14 +23,13 @@ export default {
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="([err, rank, level], i) in list">
+                    <tr v-for="([err, pack], i) in list.level.packs">
                         <td class="rank">
-                            <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                            <p v-else class="type-label-lg">#{{ rank }}</p>
+                            <p class="type-label-lg">&mdash;</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                            <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
+                            <button>
+                                <span class="type-label-lg">{{ pack?.name || 'Error (' + err + '.json)' }}</span>
                             </button>
                         </td>
                     </tr>
