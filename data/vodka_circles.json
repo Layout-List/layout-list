@@ -78,13 +78,6 @@
             "mobile": false
         },
         {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/URBveo_f_Mg?si=jPscnbNgMvGPC2E6",
-            "percent": 81,
-            "hz": 360,
-            "mobile": false
-        },
-        {
             "user": "Syrcx",
             "link": "https://youtu.be/yycvsR7DIKU",
             "percent": 100,
@@ -115,6 +108,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/0alvXQmXi_U?si=dBzrn_4CSYWP4tjp",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

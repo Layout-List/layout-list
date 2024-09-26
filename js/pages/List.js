@@ -134,6 +134,7 @@ export default {
                         (🟢 To be Moved Up )
                         (🔴 To be Moved Down )
                         (💫 Accepted Under Old Standards )
+                        (🎖️ Creator Contest Winner)
                     </p>
                     
                     <h3>Record Submission Requirements</h3>

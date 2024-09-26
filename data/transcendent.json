@@ -19,11 +19,19 @@
             "enjoyment": 2
         },
         {
-            "user": "Hyperbeat",
+            "user": "Poke Zach",
             "link": "https://youtu.be/sDhX1vYnF4U?si=jBrfw4M0DxHxGSKg",
             "percent": 100,
             "hz": 60,
             "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
             "enjoyment": 6
         }
     ]

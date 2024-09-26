@@ -12,11 +12,35 @@
     "difficulty": 3,
     "records": [
         {
+            "user": "evil",
+            "link": "https://youtu.be/sipkoLhvc_I",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
             "user": "Hyperbeat",
             "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
             "percent": 100,
             "hz": 240,
             "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Madzl-SZGn4?si=jNlyYNmbdFe6gd0V",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
             "enjoyment": 10
         }
         

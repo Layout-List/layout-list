@@ -1,0 +1,23 @@
+
+{
+    "id": 98433023,
+    "name": "Spacious",
+    "author": "Shums",
+    "creators": [],
+    "verifier": "Shums",
+    "verification": "https://youtu.be/lip8ElzaBVo?si=BiwnBtooOqScFQPC ",
+    "percentToQualify": 100,
+    "song": "Creo - Endless",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/DuDVc24SeN0?si=VdZlUjIKmCwXCbPD",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+        
+    ]
+}
