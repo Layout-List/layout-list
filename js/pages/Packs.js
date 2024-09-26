@@ -1,5 +1,5 @@
 import { store } from '../main.js';
-import { embed } from '../util.js';
+import { embed, rgbaBind } from '../util.js';
 import { score, round, averageEnjoyment } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
 
@@ -39,7 +39,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack">placeholder</div>
+                    <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
@@ -125,73 +125,6 @@ export default {
                             </li>
                         </ol>
                     </template>
-
-                    <h3>Tags</h3>
-                    <p>
-                        (⭐ Rated )
-                        (❌ Pending Removal )
-                        (✨ Subject to Exemptions )
-                        (🟢 To be Moved Up )
-                        (🔴 To be Moved Down )
-                        (💫 Accepted Under Old Standards )
-                    </p>
-                    
-                    <h3>Record Submission Requirements</h3>
-                    <p>
-                        You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, however, "Click Between Frames" is allowed).
-                    </p>
-                    <p>
-                        You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
-                    </p>
-                    <p>
-                        Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). Edited audio does not count.
-                    </p>
-                    <p>
-                        Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
-                    </p>
-                    <p>
-                        The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
-                    </p>
-                    <p>
-                        The recording must show the player hit the end-wall as well as present your end stats, or the completion will be invalidated.
-                    </p>
-                    <p>
-                        Do not use secret routes, skips, or bug routes!
-                    </p>
-                    <p>
-                        Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
-                    </p>
-                    
-                    
-                    <h4></h4>
-                    <h4>DIFFICULTY RANKINGS</h4>
-                    <p>
-                        Impossible Layout = Top Extreme Demons (401 to 750 Points)
-                    </p>
-                    <p>
-                        Legendary Layout = Mid Extreme Demons (201 to 400 Points)
-                    </p>
-                    <p>
-                        Extreme Layout = Beginner Extreme Demons (101 to 200 Points)
-                    </p>
-                    <p>
-                        Mythical Layout = High Insane Demons (71 to 100 Points)
-                    </p>
-                    <p>
-                        Insane Layout = Insane Demons (41 to 70 Points)
-                    </p>
-                    <p>
-                        Hard Layout = Hard Demons (21 to 40 Points)
-                    </p>
-                    <p>
-                        Medium Layout = Medium Demons (11 to 20 Points)
-                    </p>
-                    <p>
-                        Easy Layout = Easy Demons (6 to 10 Points)
-                    </p>
-                    <p>
-                        Beginner Layout = Non Demons (1 to 5 Points)
-                    </p>
                 </div>
             </div>
         </main>
@@ -216,18 +149,20 @@ export default {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
             }
-
+    
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
                     : this.level.verification
             );
         },
-    },
+},
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();            
         this.editors = await fetchEditors();
+        
+        
 
         // Error handling
         if (!this.list) {
@@ -254,6 +189,7 @@ export default {
         embed,
         score,
         averageEnjoyment,
+        rgbaBind,
         getRankExcludingDividers(index) {
             let rank = 0;
             for (let i = 0; i < index; i++) {
