@@ -193,20 +193,19 @@ export async function fetchLeaderboard() {
             link: level.verification,
         });
 
-        // Check if the verifier has verified all levels in each pack
-        if (level.packs) {  // Ensure level.packs is defined
-            const pack = level.packs;  // Since level.packs is an object, not an array
-            if (Array.isArray(pack.levels)) {  // Check if the pack contains levels array
+        // check if user has verified all levels in pack
+        if (level.packs) {
+            const pack = level.packs;
+            if (Array.isArray(pack.levels)) {
                 const allVerified = pack.levels.every((packLevel) =>
                     list.some(([_, __, lvl]) =>
                         lvl.path === packLevel &&
-                        lvl.verifier.toLowerCase() === verifier.toLowerCase() // Check if the verifier is the same for each level
+                        lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                     )
                 );
                 if (allVerified) {
                     if (!userPacks.includes(pack)) {
-                        userPacks.push(pack); // Add the pack name to the verifier's completed packs
-                        console.log(`Verifier ${verifier} has verified all levels in pack ${pack.name}`);
+                        userPacks.push(pack);
                     }
                 }
             }
