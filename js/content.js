@@ -183,14 +183,36 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
+            userPacks: [],
         };
-        const { verified } = scoreMap[verifier];
+        const { verified, userPacks } = scoreMap[verifier];
         verified.push({
             rank,
             level: level.name,
             score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
         });
+
+        // Check if the verifier has verified all levels in each pack
+        if (level.packs) {  // Ensure level.packs is defined
+            const pack = level.packs;  // Since level.packs is an object, not an array
+            if (Array.isArray(pack.levels)) {  // Check if the pack contains levels array
+                const allVerified = pack.levels.every((packLevel) =>
+                    list.some(([_, __, lvl]) =>
+                        lvl.path === packLevel &&
+                        lvl.verifier.toLowerCase() === verifier.toLowerCase() // Check if the verifier is the same for each level
+                    )
+                );
+                if (allVerified) {
+                    if (!userPacks.includes(pack)) {
+                        userPacks.push(pack); // Add the pack name to the verifier's completed packs
+                        console.log(`Verifier ${verifier} has verified all levels in pack ${pack.name}`);
+                    }
+                }
+            }
+        }
+
+
         const { completed } = scoreMap[verifier];
         completed.push({
             rank,
@@ -240,7 +262,6 @@ export async function fetchLeaderboard() {
                             if (Array.isArray(userPacks)) {
                                 if (!userPacks.includes(pack.name)) {
                                     userPacks.push(pack);
-                                    console.log(`${user} has completed ${pack.name}`)
                                 }
                             }
                         }
