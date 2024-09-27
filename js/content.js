@@ -147,7 +147,6 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
-            userPacks: [],
         };
         const { created } = scoreMap[author];
         created.push({
@@ -166,7 +165,6 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
-                userPacks: [],
             };
             const { created } = scoreMap[creator];
             created.push({
@@ -185,7 +183,6 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
-            userPacks: [],
         };
         const { verified, userPacks } = scoreMap[verifier];
         verified.push({
@@ -235,7 +232,6 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
-                userPacks: [] 
             };
             const { completed, progressed, userPacks } = scoreMap[user];
 
@@ -285,7 +281,7 @@ export async function fetchLeaderboard() {
     
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { created, verified, completed, progressed, userPacks } = scores;
+        const { created, verified, completed, progressed } = scores;
         const total = [completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
