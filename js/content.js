@@ -200,14 +200,16 @@ export async function fetchLeaderboard() {
             const pack = level.packs;
             if (Array.isArray(pack.levels)) {
                 const allVerified = pack.levels.every((packLevel) =>
-                    list.every(([_, __, lvl]) =>
+                    list.some(([_, __, lvl]) =>
                         lvl.path === packLevel &&
                         lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                     )
                 );
                 if (allVerified) {
+                    if (Array.isArray(userPacks)) {
                     if (!userPacks.includes(pack)) {
                         userPacks.push(pack);
+                    }
                     }
                 }
             }
@@ -250,16 +252,20 @@ export async function fetchLeaderboard() {
             // check if player has completed all levels in a pack
             if (level.packs) {  // ensure level.packs is defined
                 const pack = level.packs;
+                if (Array.isArray(pack.levels)) {
                     const allCompleted = pack.levels.every((packLevel) =>
-                        list.every(([_, __, lvl]) =>
+                        list.some(([_, __, lvl]) =>
                             lvl.path === packLevel &&
                             lvl.records.some((r) => r.user === record.user && r.percent === 100)
                         )
                     );
                 if (allCompleted) {
+                    if (Array.isArray(userPacks)) {
                     if (!userPacks.includes(pack.name)) {
                         userPacks.push(pack);
                     }
+                    }
+                }
                 }
             }
             return
