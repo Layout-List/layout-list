@@ -120,6 +120,7 @@ export async function fetchLeaderboard() {
     const scoreMap = {};
     const errs = [];
     let possibleMax = 0;
+    let userPacks = [];
 
     if (list === null) {
         return [null, ['Failed to load list.']];
