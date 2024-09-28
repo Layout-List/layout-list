@@ -49,6 +49,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "IIRafII",
+            "link": "https://www.youtube.com/watch?v=j7h_1Dn40RY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
