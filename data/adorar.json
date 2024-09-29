@@ -73,6 +73,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Tanginess",
+            "link": "https://www.youtube.com/watch?v=R40aV_DAwbY",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
