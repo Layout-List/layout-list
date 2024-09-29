@@ -151,6 +151,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/tXCRr8x7AvY?si=hCI2ghFJ-5Tc2fcv&t=222",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
