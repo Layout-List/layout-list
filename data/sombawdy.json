@@ -11,6 +11,21 @@
     "songLink": "https://drive.google.com/file/d/12UHvQkNGX6siPKG-1QFYDmZ2u3Kp_GpQ/view?usp=drive_link",
     "difficulty": 6,
     "records": [
-        
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=-29CoP30HHg",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/MTQce2Etub4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
     ]
 }
