@@ -380,6 +380,7 @@ export async function fetchChallengeLeaderboard() {
         return {
             user,
             total: round(total),
+            userPacks,
             possibleMax,
             ...scores,
         };
