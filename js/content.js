@@ -338,11 +338,7 @@ export async function fetchChallengeLeaderboard() {
 
 export function fetchTierLength(list, difficulty) {
     let tierLength = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
+    list.forEach(([rank, level]) => {
 
         if (rank === null) {
             return;
@@ -358,11 +354,8 @@ export function fetchTierLength(list, difficulty) {
 
 export function fetchTierMinimum(list, difficulty) {
     let tierMin = 0;
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
-        }
+    list.forEach(([rank, level]) => {
+       
 
         if (rank === null) {
             return;
