@@ -333,6 +333,14 @@
             "hz": 144,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/wn_UWyjNgCc",
+            "percent": 53,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
