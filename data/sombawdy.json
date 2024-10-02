@@ -20,6 +20,14 @@
             "enjoyment": 10
         },
         {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
             "user": "attrixia",
             "link": "https://youtu.be/MTQce2Etub4",
             "percent": 100,
