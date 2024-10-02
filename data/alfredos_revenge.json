@@ -12,6 +12,14 @@
     "difficulty": 6,
     "records": [
         {
+            "user": "hayden",
+            "link": "https://youtu.be/CNK3IcGqmqs?si=MyIAZuQBBE_HFOrf",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
             "user": "Hyperbeat",
             "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
             "percent": 100,
