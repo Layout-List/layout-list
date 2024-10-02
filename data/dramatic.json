@@ -91,6 +91,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "[FAUCET]Hardhat900",
+            "link": "https://www.youtube.com/watch?v=MPktZiUhAv8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
