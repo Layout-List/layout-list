@@ -11,6 +11,7 @@ const benchmarker = '_';
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
+    const packResult = await fetch(`${dir}/_packs.json`);
     try {
         const list = await listResult.json();
 
@@ -29,6 +30,10 @@ export async function fetchList() {
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
                     const level = await levelResult.json();
+
+                    // load pack
+                    const packs = packsMap.find((p) => p.levels.includes(path)); // checks if the packs contains the level's path (json file name)
+
                     return [
                         null,
                         rank,
@@ -36,6 +41,7 @@ export async function fetchList() {
                             ...level,
                             rank,
                             path,
+                            packs,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
                             ),
@@ -112,6 +118,7 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
+    let userpacks = [];
     let possibleMax = 0;
 
     if (list === null) {
@@ -176,13 +183,34 @@ export async function fetchLeaderboard() {
             completed: [],
             progressed: [],
         };
-        const { verified } = scoreMap[verifier];
+        const { verified, userPacks } = scoreMap[verifier];
         verified.push({
             rank,
             level: level.name,
             score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
         });
+
+        // check if user has verified all levels in pack
+        if (level.packs) {
+            const pack = level.packs;
+            if (Array.isArray(pack.levels)) {
+                const allVerified = pack.levels.every((packLevel) =>
+                    list.some(([_, __, lvl]) =>
+                        lvl.path === packLevel &&
+                        lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
+                    )
+                );
+                if (allVerified) {
+                    if (Array.isArray(userPacks)) {
+                    if (!userPacks.includes(pack)) {
+                        userPacks.push(pack);
+                    }
+                    }
+                }
+            }
+        }
+
         const { completed } = scoreMap[verifier];
         completed.push({
             rank,
@@ -203,7 +231,7 @@ export async function fetchLeaderboard() {
                 completed: [],
                 progressed: [],
             };
-            const { completed, progressed } = scoreMap[user];
+            const { completed, progressed, userPacks } = scoreMap[user];
             if (record.percent === 100) {
                 completed.push({
                     rank,
@@ -212,8 +240,28 @@ export async function fetchLeaderboard() {
                     link: record.link,
                     rating: record.enjoyment,
                 });
-                return;
+
+                // check if player has completed all levels in a pack
+            if (level.packs) {  // ensure level.packs is defined
+                const pack = level.packs;
+                if (Array.isArray(pack.levels)) {
+                    const allCompleted = pack.levels.every((packLevel) =>
+                        list.some(([_, __, lvl]) =>
+                            lvl.path === packLevel &&
+                            lvl.records.some((r) => r.user === record.user && r.percent === 100)
+                        )
+                    );
+                if (allCompleted) {
+                    if (Array.isArray(userPacks)) {
+                    if (!userPacks.includes(pack.name)) {
+                        userPacks.push(pack);
+                    }
+                    }
+                }
+                }  
             }
+            return;
+        }
 
             progressed.push({
                 rank,
@@ -237,6 +285,7 @@ export async function fetchLeaderboard() {
             user,
             total: round(total),
             possibleMax,
+            userpacks,
             ...scores,
         };
     });

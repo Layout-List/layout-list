@@ -36,3 +36,15 @@ export function shuffle(array) {
 
     return array;
 }
+
+export function rgbaBind(color) {
+    // bind rgb values to rgba
+    // why do i have to do it like this
+    let [r, g, b, a] = color;
+    // handle case where alpha isn't defined
+    if (!a) {
+        a = 1;
+    }
+    
+    return `rgba(${r},${g},${b},${a})`;
+}
