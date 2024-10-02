@@ -92,3 +92,9 @@
 .page-leaderboard .player .table a:hover {
     text-decoration: underline;
 }
+
+.pack-container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap-reverse;
+}
