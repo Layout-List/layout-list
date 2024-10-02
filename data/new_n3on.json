@@ -29,11 +29,27 @@
         },
         {
             "user": "Hyperbeat",
-            "link": "https://youtu.be/sDhX1vYnF4U?si=jBrfw4M0DxHxGSKg",
+            "link": "https://youtu.be/BZeEpqWK210?feature=shared",
             "percent": 100,
             "hz": 60,
             "mobile": true,
             "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=9cX3WYlM0WA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
         }
         
     ]

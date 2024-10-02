@@ -1,0 +1,24 @@
+
+{
+    "id": 110661041,
+    "name": "Core",
+    "author": "Xeronius",
+    "creators": [
+      "Riley"
+    ],
+    "verifier": "Riley",
+    "verification": "https://www.youtube.com/watch?v=xWz76fXfBHs",
+    "percentToQualify": 100,
+    "song": "dj-Nate - Center of Existence",
+    "difficulty": 2,
+    "records": [
+      {
+        "user": "evil",
+        "link": "https://youtu.be/31N8MjSgjCU",
+        "percent": 100,
+        "hz": 240,
+        "mobile": false,
+        "enjoyment": 10
+      }
+    ]
+}

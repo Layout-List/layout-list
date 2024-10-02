@@ -1,7 +1,7 @@
 import { store } from '../main.js';
-import { embed, rgbaBind } from '../util.js';
+import { embed } from '../util.js';
 import { score, round, averageEnjoyment } from '../score.js';
-import { fetchEditors, fetchList } from '../content.js';
+import { fetchEditors, fetchList, } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -39,7 +39,6 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
@@ -54,7 +53,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(getRankExcludingDividers(selected + 1), level.difficulty, 100, level.percentToQualify, list) }}</p>
+                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -217,20 +216,18 @@ export default {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
             }
-    
+
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
                     : this.level.verification
             );
         },
-},
+    },
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();            
         this.editors = await fetchEditors();
-        
-        
 
         // Error handling
         if (!this.list) {
@@ -256,17 +253,7 @@ export default {
     methods: {
         embed,
         score,
-        averageEnjoyment,
-        rgbaBind,
-        getRankExcludingDividers(index) {
-            let rank = 0;
-            for (let i = 0; i < index; i++) {
-                if (this.list[i][1] !== null) { // Check if it's not a divider
-                    rank++;
-                }
-            }
-            return rank;
-        },
+        averageEnjoyment
 },
 
 };
