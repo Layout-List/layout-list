@@ -11,6 +11,13 @@
     "songLink": "https://drive.google.com/file/d/1OAcpMMa6rf-NOkewAaon9Ab4PfJ4DUjh/view?usp=sharing",
     "difficulty": 1,
     "records": [
-        
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iLTRFSLoJ5uc1F58B?invite=cr-MSw0RkksMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
     ]
 }
