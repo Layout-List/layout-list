@@ -254,7 +254,8 @@ export default {
     methods: {
         embed,
         score,
-        averageEnjoyment
+        averageEnjoyment,
+        rgbaBind
 },
 
 };

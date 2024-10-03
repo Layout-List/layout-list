@@ -14,6 +14,7 @@ export async function fetchList() {
     const packResult = await fetch(`${dir}/_packs.json`);
     try {
         const list = await listResult.json();
+        const packsMap = await packResult.json();
 
         // Create a lookup dictionary for ranks
         const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
@@ -118,7 +119,6 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    let userpacks = [];
     let possibleMax = 0;
 
     if (list === null) {
@@ -182,8 +182,9 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
+            verifiedPacks: [],
         };
-        const { verified, userPacks } = scoreMap[verifier];
+        const { verified, verifiedPacks } = scoreMap[verifier];
         verified.push({
             rank,
             level: level.name,
@@ -202,9 +203,9 @@ export async function fetchLeaderboard() {
                     )
                 );
                 if (allVerified) {
-                    if (Array.isArray(userPacks)) {
-                    if (!userPacks.includes(pack)) {
-                        userPacks.push(pack);
+                    if (Array.isArray(verifiedPacks)) {
+                    if (!verifiedPacks.includes(pack)) {
+                        verifiedPacks.push(pack);
                     }
                     }
                 }
@@ -230,8 +231,9 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
+                recordPacks: [],
             };
-            const { completed, progressed, userPacks } = scoreMap[user];
+            const { completed, progressed, recordPacks } = scoreMap[user];
             if (record.percent === 100) {
                 completed.push({
                     rank,
@@ -252,9 +254,9 @@ export async function fetchLeaderboard() {
                         )
                     );
                 if (allCompleted) {
-                    if (Array.isArray(userPacks)) {
-                    if (!userPacks.includes(pack.name)) {
-                        userPacks.push(pack);
+                    if (Array.isArray(recordPacks)) {
+                    if (!recordPacks.includes(pack.name)) {
+                        recordPacks.push(pack);
                     }
                     }
                 }
@@ -276,16 +278,18 @@ export async function fetchLeaderboard() {
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { created, verified, completed, progressed } = scores;
+        const { created, verified, completed, progressed, recordPacks, verifiedPacks } = scores;
         const total = [completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
+
+        const userPacks = [recordPacks, verifiedPacks]
 
         return {
             user,
             total: round(total),
             possibleMax,
-            userpacks,
+            userPacks,
             ...scores,
         };
     });

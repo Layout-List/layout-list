@@ -2,8 +2,10 @@ import { store } from '../main.js';
 import { embed, rgbaBind } from '../util.js';
 import { score, round, averageEnjoyment } from '../score.js';
 import { fetchEditors, fetchList } from '../content.js';
+
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
+
 const roleIconMap = {
     owner: 'crown',
     admin: 'user-gear',
@@ -11,6 +13,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
+
 export default {
     components: { Spinner, LevelAuthors },
     template: `
@@ -127,15 +130,7 @@ export default {
         embed,
         score,
         averageEnjoyment,
-        rgbaBind,
-        getRankExcludingDividers(index) {
-            let rank = 0;
-            for (let i = 0; i < index; i++) {
-                if (this.list[i][1] !== null) { // Check if it's not a divider
-                    rank++;
-                }
-            }
-            return rank;
-        },
+        rgbaBind
 },
+
 };

@@ -1,5 +1,6 @@
 import { fetchLeaderboard } from '../content.js';
 import { localize, rgbaBind } from '../util.js';
+import { store } from '../main.js';
 
 import Spinner from '../components/Spinner.js';
 
@@ -141,5 +142,6 @@ export default {
     },
     methods: {
         localize,
+        rgbaBind,
     },
 };
