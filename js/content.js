@@ -122,6 +122,8 @@ export async function fetchLeaderboard() {
     let userPacks = [];
     let possibleMax = 0;
 
+    const completedPacksMap = {};
+
     if (list === null) {
         return [null, ['Failed to load list.']];
     }
@@ -149,6 +151,9 @@ export async function fetchLeaderboard() {
             progressed: [],
             userPacks: [],
         };
+
+        completedPacksMap[author] ??= new Set();
+
         const { created } = scoreMap[author];
         created.push({
             rank,
@@ -187,6 +192,8 @@ export async function fetchLeaderboard() {
             progressed: [],
             userPacks: [],
         };
+        completedPacksMap[verifier] ??= new Set();
+
         const { verified, userPacks } = scoreMap[verifier];
         verified.push({
             rank,
@@ -206,9 +213,7 @@ export async function fetchLeaderboard() {
                     )
                 );
                 if (allVerified) {
-                    if (!userPacks.includes(pack)) {
-                        userPacks.push(pack);
-                    }
+                    completedPacksMap[verifier].add(pack); // why
                 }
             }
         }
@@ -235,6 +240,9 @@ export async function fetchLeaderboard() {
                 progressed: [],
                 userPacks: [] 
             };
+            
+            completedPacksMap[user] ??= new Set();
+
             const { completed, progressed, userPacks } = scoreMap[user];
 
             if (record.percent === 100) {
@@ -258,11 +266,7 @@ export async function fetchLeaderboard() {
                         )
                     );
                     if (allCompleted) {
-                        if (Array.isArray(userPacks)) {
-                            if (!userPacks.includes(pack.name)) {
-                                userPacks.push(pack);
-                            }
-                        }
+                        completedPacksMap[user].add(pack);
                     }
                 }
             }
@@ -280,10 +284,15 @@ export async function fetchLeaderboard() {
             });
         });
     });
+
+    Object.entries(completedPacksMap).forEach(([user, packs]) => {
+        const uniquePacks = Array.from(packs);
+        scoreMap[user].userPacks.push(...uniquePacks);
+    });
     
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { created, verified, completed, progressed, userPacks } = scores;
+        const { created, verified, completed, progressed} = scores;
         const total = [completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
@@ -292,7 +301,7 @@ export async function fetchLeaderboard() {
             user,
             total: round(total),
             possibleMax,
-            userPacks,
+            userPacks: scores.userPacks,
             ...scores,
         };
     });
