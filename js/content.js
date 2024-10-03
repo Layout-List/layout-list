@@ -119,6 +119,7 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
+    let userPacks = [];
     let possibleMax = 0;
 
     if (list === null) {
@@ -146,6 +147,7 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
+            userPacks: [],
         };
         const { created } = scoreMap[author];
         created.push({
@@ -164,6 +166,7 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
+                userPacks: [],
             };
             const { created } = scoreMap[creator];
             created.push({
@@ -182,9 +185,9 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
-            verifiedPacks: [],
+            userPacks: [],
         };
-        const { verified, verifiedPacks } = scoreMap[verifier];
+        const { verified, userPacks } = scoreMap[verifier];
         verified.push({
             rank,
             level: level.name,
@@ -203,14 +206,13 @@ export async function fetchLeaderboard() {
                     )
                 );
                 if (allVerified) {
-                    if (Array.isArray(verifiedPacks)) {
-                    if (!verifiedPacks.includes(pack)) {
-                        verifiedPacks.push(pack);
-                    }
+                    if (!userPacks.includes(pack)) {
+                        userPacks.push(pack);
                     }
                 }
             }
         }
+
 
         const { completed } = scoreMap[verifier];
         completed.push({
@@ -231,9 +233,10 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
-                recordPacks: [],
+                userPacks: [] 
             };
-            const { completed, progressed, recordPacks } = scoreMap[user];
+            const { completed, progressed, userPacks } = scoreMap[user];
+
             if (record.percent === 100) {
                 completed.push({
                     rank,
@@ -243,27 +246,29 @@ export async function fetchLeaderboard() {
                     rating: record.enjoyment,
                 });
 
-                // check if player has completed all levels in a pack
+            
+            // check if player has completed all levels in a pack
             if (level.packs) {  // ensure level.packs is defined
                 const pack = level.packs;
-                if (Array.isArray(pack.levels)) {
+                if (Array.isArray(pack.levels)) {  // idk anymore
                     const allCompleted = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
                             lvl.path === packLevel &&
                             lvl.records.some((r) => r.user === record.user && r.percent === 100)
                         )
                     );
-                if (allCompleted) {
-                    if (Array.isArray(recordPacks)) {
-                    if (!recordPacks.includes(pack.name)) {
-                        recordPacks.push(pack);
-                    }
+                    if (allCompleted) {
+                        if (Array.isArray(userPacks)) {
+                            if (!userPacks.includes(pack.name)) {
+                                userPacks.push(pack);
+                            }
+                        }
                     }
                 }
-                }  
             }
-            return;
+            return
         }
+            
 
             progressed.push({
                 rank,
@@ -275,15 +280,13 @@ export async function fetchLeaderboard() {
             });
         });
     });
-
+    
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { created, verified, completed, progressed, recordPacks, verifiedPacks } = scores;
+        const { created, verified, completed, progressed, userPacks } = scores;
         const total = [completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
-
-        const userPacks = [recordPacks, verifiedPacks]
 
         return {
             user,
