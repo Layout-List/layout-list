@@ -87,5 +87,15 @@
             "get_funked",
             "dramatic"
         ]
+    },
+    {
+        "name": "Asteria Pack",
+        "light": [26, 194, 219, 0.8],
+        "dark": [26, 194, 219, 0.8],    
+        "levels": [
+            "sky_castle",
+            "the_shredder",
+            "land_of_fire"
+        ]
     }
 ]
