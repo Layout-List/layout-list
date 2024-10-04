@@ -9,6 +9,13 @@
     "song": "TheColdSpirit - Sparkler",
     "difficulty": 6,
     "records": [
-        
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/fFpBmmWo9MQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
     ]
 }
