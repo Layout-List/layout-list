@@ -14,6 +14,13 @@
     "difficulty": 7,
     "enjoyment": 9,
     "records": [
-        
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/09NDkVePnSc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        }
     ]
 }
