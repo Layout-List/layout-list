@@ -98,6 +98,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Dominez28",
+            "link": "https://youtu.be/BlKHYRNa0A8",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
