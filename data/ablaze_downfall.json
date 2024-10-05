@@ -21,6 +21,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "zWren",
+            "link": "https://www.youtube.com/watch?v=VkFf-bBe9dM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
