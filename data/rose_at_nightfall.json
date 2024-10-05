@@ -86,6 +86,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/uialwcoujpE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
