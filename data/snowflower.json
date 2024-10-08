@@ -200,6 +200,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": "9"
+        },
+        {
+            "user": "josikp",
+            "link": "https://www.youtube.com/watch?v=2kmFC3WQDOU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
