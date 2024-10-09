@@ -14,6 +14,13 @@
     "difficulty": 7,
     "enjoyment": 10,
     "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/IVoXTosVJEY?si=mVWSuUsWB5-p7fBc",
+            "percent": 100,
+            "hz": "240",
+            "mobile": false
+        }
         
     ]
 }
