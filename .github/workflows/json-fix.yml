@@ -32,7 +32,7 @@ jobs:
         run: |
           while IFS= read -r file; do
             echo "Processing $file"
-            jsonrepair /data/$file --overwrite
+            jsonrepair $file --overwrite
           done < changed_files.txt
           rm -rf changed_files.txt 
         # hi 
