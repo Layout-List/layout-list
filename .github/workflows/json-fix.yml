@@ -33,19 +33,22 @@ jobs:
           git fetch --unshallow
           git diff HEAD~10 --name-only > changed_files.txt 
         # fatal: ambiguous argument 'HEAD~10': unknown revision or path not in the working tree.
-
-      - name: Debug - Show changed files
-        run: cat changed_files.txt # nothing
-
-        # jsonrepair will check each file in changed_files.txt for any json errors
+        
+      - name: Filter changed files for /data directory
+        run: |
+          grep '^/data/.*\.json$' changed_files.txt > filtered_files.txt
+      
+      - name: Debug - Show filtered files
+        run: cat filtered_files.txt
+      
       - name: Run command for each changed file
         run: |
           while IFS= read -r file || [[ -n "$file" ]]; do
-            echo "Loop entered with file: $file"
             echo "Processing $file"
             jsonrepair "$file" --overwrite
-          done < changed_files.txt
-          rm -f changed_files.txt
+          done < filtered_files.txt
+          rm -f filtered_files.txt
+      
       
         # Scary!
 
