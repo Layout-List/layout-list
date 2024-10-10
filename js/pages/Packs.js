@@ -24,10 +24,16 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
-                        <td class="level" :class="{ 'active': selectedIndex == index, 'error': !pack }">
-                            <button @click="selectedPackLevel(index)">
+                        <td class="level">
+                            <button @click="selectedPackLevel(index)" :class="{ 'active': selectedIndex == index, 'error': !pack }">
                                 <span class="type-label-lg">{{ pack.name }}</span>
                             </button>
+                            <td class="pack-level" v-for="packLevel in pack.levels">
+                                <button class="type-label-lg">
+                                    {{ packLevel }}
+                                </button>
+                            </td>
+                            <hr class="pack-divider">
                         </td>
                     </tr>
                 </table>
@@ -35,6 +41,68 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="selectedPack">
                     <h1>{{ selectedIndex }}</h1>
+                </div>
+                <div class="level" v-else-if="level">
+                    <h1>{{ level.name }}</h1>
+                    <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
+                    <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
+                    <div v-if="level.showcase" class="tabs">
+                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
+                            <span class="type-label-lg">Verification</span>
+                        </button>
+                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
+                            <span class="type-label-lg">Showcase</span>
+                        </button>
+                    </div>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <ul class="stats">
+                        <li>
+                            <div class="type-title-sm">Points</div>
+                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">ID</div>
+                            <p>{{ level.id }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Password</div>
+                            <p>{{ level.password || 'Free to Copy' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Enjoyment</div>
+                            <p>{{ averageEnjoyment(level.records) }}/10</p>
+                        </li>
+                    </ul>
+                    <ul class="stats">
+                        <li>
+                            <div class="type-title-sm">Song</div>
+                            <p><a target="_blank" :href="(level.songLink===undefined)?'#':level.songLink" :style="{'text-decoration':(level.songLink===undefined)?'none':'underline'}">{{ level.song || 'insert here' }}</a></p>
+                        </li>
+                    </ul>
+                    <h2>Records ({{ level.records.length }})</h2>
+                    <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
+                    <table class="records">
+                        <tr v-for="record in level.records" class="record">
+                            <td class="percent">
+                                <p>{{ record.percent }}%</p>
+                            </td>
+                            <td class="user">
+                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                            </td>
+                            <td class="enjoyment">
+                                <p v-if="record.enjoyment === undefined">?/10</p>
+                                <p v-else>{{ record.enjoyment }}/10</p>
+                            </td>
+                            <td class="mobile">
+                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+
+                            </td>
+                            <td class="hz">
+                                <p>{{ record.hz }}FPS</p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>

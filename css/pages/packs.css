@@ -1,0 +1,11 @@
+.pack-divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-primary);
+    opacity: 0.5;
+}
+
+.pack-level {
+    margin-left: 3rem;
+    width: 100%;
+}
