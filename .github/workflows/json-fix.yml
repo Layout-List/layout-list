@@ -30,11 +30,10 @@ jobs:
       - name: Get changed files from the last 10 commits
         id: changed-files
         run: |
-          git fetch --depth=2
-          git diff --name-only > changed_files.txt
+          git diff HEAD~10 --name-only > changed_files.txt
 
       - name: Debug - Show changed files
-        run: cat changed_files.txt
+        run: cat changed_files.txt # nothing
 
         # jsonrepair will check each file in changed_files.txt for any json errors
       - name: Run command for each changed file
