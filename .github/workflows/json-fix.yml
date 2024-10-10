@@ -34,3 +34,15 @@ jobs:
             echo "Processing $file"
             jsonrepair /data/$file --overwrite
           done < changed_files.txt
+
+      - name: Commit files # only runs if something actually changed
+        run: |
+          if [[ -n "$(git status -s)" ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "CI: Automatic Rustfmt" -a
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: ${{ secrets.GIT_TOKEN }}
