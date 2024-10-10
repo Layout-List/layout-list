@@ -40,7 +40,7 @@ jobs:
         # jsonrepair will check each file in changed_files.txt for any json errors
       - name: Run command for each changed file
         run: |
-            while IFS= read -r file || [[ -n "$file" ]]; do
+            while IFS= read -r ../../changed_files.txt || [[ -n "$file" ]]; do
                 echo "Loop entered with file: $file"
                 echo "Processing $file"
                 jsonrepair "$file" --overwrite
