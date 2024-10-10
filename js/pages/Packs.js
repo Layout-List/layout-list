@@ -142,9 +142,8 @@ export default {
                 let level = object[2]; // why
 
                 if (level.packs) { // if the level is in a pack
-
-                    if (!packs[level.packs]) {
-
+                    const packExists = packs.some((pack) => pack.name === level.packs.name);
+                    if (!packExists) {
                         packsMap[level.packs] = {
                             name: level.packs.name,
                             light: level.packs.light,
@@ -153,8 +152,8 @@ export default {
                         };
 
                         packs.push(packsMap[level.packs]);
+                    }
                 }
-            }
             });
             console.log(packs)
 
