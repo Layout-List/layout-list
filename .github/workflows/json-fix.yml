@@ -1,0 +1,36 @@
+name: Run Command for Changed Files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  process-changed-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.18.0'
+      - name: install json-repair
+        id: json-repair-install
+        run: |
+            npm install -g json-repair
+
+      - name: Get changed files from the last 10 commits
+        id: changed-files
+        run: |
+          git fetch --depth=10
+          git diff --name-only $(git rev-parse HEAD~10) $(git rev-parse HEAD) > changed_files.txt
+
+      - name: Run command for each changed file
+        run: |
+          while IFS= read -r file; do
+            echo "Processing $file"
+            jsonrepair /data/$file --overwrite
+          done < changed_files.txt
