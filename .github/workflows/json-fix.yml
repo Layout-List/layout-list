@@ -30,7 +30,9 @@ jobs:
       - name: Get changed files from the last 10 commits
         id: changed-files
         run: |
-          git diff HEAD~10 --name-only > changed_files.txt
+          git fetch --unshallow
+          git diff HEAD~10 --name-only > changed_files.txt 
+        # fatal: ambiguous argument 'HEAD~10': unknown revision or path not in the working tree.
 
       - name: Debug - Show changed files
         run: cat changed_files.txt # nothing
