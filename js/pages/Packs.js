@@ -149,7 +149,7 @@ export default {
                             name: level.packs.name,
                             light: level.packs.light,
                             dark: level.packs.dark,
-                            levels: [level.packs.levels],
+                            levels: level.packs.levels,
                         };
 
                         packs.push(packsMap[level.packs]);
