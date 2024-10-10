@@ -33,25 +33,16 @@ jobs:
           git fetch --unshallow
           git diff HEAD~10 --name-only > changed_files.txt 
         
-      - name: Filter changed files for /data directory
-        working-directory: ./
-        run: |
-            set -e
-            set -x
-            grep '^/data/.*\.json$' changed_files.txt > filtered_files.txt || true
-        
       - name: Debug - Show filtered files
-        run: cat filtered_files.txt
+        run: cat changed_files.txt
     
       - name: Read and process changed files
         run: |
           while IFS= read -r file; do
             echo "File: $file"
             jsonrepair "$file" --overwrite
-          done < ../changed_files.txt
-        
-      
-      
+          done < ../../changed_files.txt
+          rm -rf changed_files.txt
         # Scary!
 
         # save
