@@ -46,8 +46,8 @@ jobs:
         run: |
             set -e
             set -x
-            while IFS= read -r file || [[ -n "$file" ]]; do
-                echo "Processing $file"
+            while IFS= read -r data/4am.json || [[ -n data/4am.json ]]; do
+                echo "DEBUG"
                 jsonrepair data/4am.json --overwrite
             done < filtered_files.txt
             rm -f filtered_files.txt
