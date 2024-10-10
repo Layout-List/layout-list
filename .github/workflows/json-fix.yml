@@ -48,7 +48,7 @@ jobs:
           while IFS= read -r file; do
             echo "File: $file"
             jsonrepair "$file" --overwrite
-          done < changed_files.txt
+          done < ../changed_files.txt
         
       
       
