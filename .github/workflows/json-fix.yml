@@ -10,39 +10,50 @@ jobs:
   process-changed-files:
     runs-on: ubuntu-latest
     steps:
+        # download the files
       - name: Checkout code
         uses: actions/checkout@v3
 
+        # jsonrepair runs on node
       - name: Install node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20.18.0'
+
+        # install library that fixes json errors
       - name: install jsonrepair
         id: jsonrepair-install
         run: |
             npm install -g jsonrepair
 
+        # read the name lmao what do u want
       - name: Get changed files from the last 10 commits
         id: changed-files
         run: |
           git fetch --depth=2
           git diff --name-only > changed_files.txt
 
+      - name: Debug - Show changed files
+        run: cat changed_files.txt
+
+        # jsonrepair will check each file in changed_files.txt for any json errors
       - name: Run command for each changed file
         run: |
-          while IFS= read -r file; do
-            echo "Processing $file"
-            jsonrepair $file --overwrite
-          done < changed_files.txt
-          rm -rf changed_files.txt 
-        # hi 
+            while IFS= read -r file || [[ -n "$file" ]]; do
+                echo "Loop entered with file: $file"
+                echo "Processing $file"
+                jsonrepair "$file" --overwrite
+            done < changed_files.txt
+            rm -rf changed_files.txt
+        # Scary!
 
+        # save
       - name: Commit files # only runs if something actually changed
         run: |
           if [[ -n "$(git status -s)" ]]; then
             git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git commit -m "CI: Automatic Rustfmt" -a
+            git config --local user.name "GitHub Actions"
+            git commit -m "CI: fix json errors" -a
           fi
       - name: Push changes
         uses: ad-m/github-push-action@master
