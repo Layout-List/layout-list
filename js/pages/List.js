@@ -21,21 +21,29 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
-            <div class="list-container">
-                <table class="list" v-if="list">
-                    <tr v-for="([err, rank, level], i) in list">
-                        <td class="rank">
-                            <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                            <p v-else class="type-label-lg">#{{ rank }}</p>
-                        </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                            <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+        <div class="list-container">
+            <input
+            type="text"
+            class="search"
+            id="search-bar"
+            placeholder="Search..."
+            v-model="searchQuery"
+            />
+            <table class="list" v-if="filteredLevels.length > 0">
+            <tr v-for="([err, rank, level], i) in filteredLevels" :key="i">
+                <td class="rank" style="width:59.19px">
+                <p v-if="rank === null" class="type-label-lg">&mdash;</p>
+                <p v-else class="type-label-lg">#{{ rank }}</p>
+                </td>
+                <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
+                <button @click="selected = rank">  
+                    <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
+                </button>
+                </td>
+            </tr>
+            </table>
+            <p v-else>No levels found.</p>
+        </div>
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
@@ -206,6 +214,7 @@ export default {
         roleIconMap,
         store,
         toggledShowcase: false,
+        searchQuery: '',
     }),
   
     computed: {
@@ -222,6 +231,17 @@ export default {
                     ? this.level.showcase
                     : this.level.verification
             );
+        },
+
+        filteredLevels() {
+            if (!this.searchQuery.trim()) {
+            return this.list;
+            }
+            const query = (this.searchQuery.toLowerCase()).replace(/\s/g, '');
+            
+            return this.list.filter(([err, rank, level]) =>
+            (level?.name.toLowerCase()).replace(/\s/g, '').includes(query)
+            )
         },
     },
     async mounted() {
