@@ -24,8 +24,8 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
-                        <td class="level" :class="{ 'active': selected == index, 'error': !pack }">
-                            <button @click="selected = index">
+                        <td class="level" :class="{ 'active': selectedIndex == index, 'error': !pack }">
+                            <button @click="selectedPackLevel(index)">
                                 <span class="type-label-lg">{{ pack.name }}</span>
                             </button>
                         </td>
@@ -34,10 +34,7 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="selectedPack">
-                    <h1>{{ selectedPack.name }}</h1>
-                    <ul>
-                        <h3 v-for="level in selectedPack.levels" :key="level">{{ level }}</h3>
-                    </ul>
+                    <h1>{{ selectedIndex }}</h1>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -93,16 +90,21 @@ export default {
     data: () => ({
         list: [],
         packs: [],
+        availableLevels: [],
         editors: [],
         loading: true,
-        selected: 0,
+        selected: null,
+        selectedIndex: 0,
         errors: [],
         roleIconMap,
         store
     }),
     computed: {
         selectedPack() {
-            return this.packs[this.selected] || null;
+            return this.packs[this.selectedIndex] || null;
+        },
+        level() {
+            return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
     },
     async mounted() {
@@ -134,13 +136,17 @@ export default {
     methods: {
         embed,
         score,
+        selectedPackLevel(index) {
+            this.selectedIndex = index
+            console.log(this.level)
+            this.availableLevels = this.level.packs.levels
+            console.log(this.selectedIndex)
+        },
         async getPacks(list) {
-            // Collect packs and their respective levels
             const packsMap = {};
             let packs = [];
             list.forEach((object) => { // list is an array > array with length of 3 > usually null (probably errors if any), level rank, level object
                 let level = object[2]; // why
-
                 if (level.packs) { // if the level is in a pack
                     const packExists = packs.some((pack) => pack.name === level.packs.name);
                     if (!packExists) {
@@ -155,8 +161,6 @@ export default {
                     }
                 }
             });
-            console.log(packs)
-
             return packs;
         },
     },
