@@ -10,6 +10,14 @@
     "songLink": "https://drive.google.com/file/d/1eC2MS4YWM6hVqJ-Y3OubNwa0pVSlgorE/view?usp=drive_link",
     "difficulty": 9,
     "records": [
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/y-vjLHgza1c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
         
     ]
 }

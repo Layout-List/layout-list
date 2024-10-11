@@ -1198,6 +1198,14 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "XxSirgaxX",
+            "link": "https://www.youtube.com/watch?v=LSclQrFSqyw",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
