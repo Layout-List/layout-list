@@ -9,6 +9,14 @@
     "song": "Creo - Aura",
     "difficulty": 2,
     "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
         
     ]
 }
