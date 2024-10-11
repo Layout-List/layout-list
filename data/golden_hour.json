@@ -10,6 +10,14 @@
     "songLink": "https://drive.google.com/file/d/1GZANA_bbtEDiJg6D0DTzDJxsZ0aggOWD/view?usp=drive_link",
     "difficulty": 0,
     "records": [
+        {
+            "user": "Paladean",
+            "link": "https://youtu.be/rS93s64gtBs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
+        }
         
     ]
 }
