@@ -33,7 +33,7 @@ export default {
                             <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
                                 <td class="pack-level level" :class="{ 'active': availableIndex == selected, 'error': !packLevel }"> <!-- active when level is selected -->
                                     <button class="type-label-lg" @click="selectedLevel(availableIndex)">
-                                        {{ packLevel }}
+                                        {{ packLevel.name }}
                                     </button>
                                 </td>
                             </tr>
@@ -205,6 +205,7 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();
+        console.log(this.list)
         this.editors = await fetchEditors();
         this.packs = await this.fetchPacks(this.list);
 
@@ -239,6 +240,7 @@ export default {
             
             // retrieve the available levels based on the pack index
             this.availableLevels = pack.levels;
+            console.log(this.availableLevels);
         },
         selectedLevel(index) {
             this.selected = index;

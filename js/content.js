@@ -32,18 +32,31 @@ export async function fetchList() {
                     );
                     const level = await levelResult.json();
 
+
                     // load pack
                     let packs = packsMap.find((p) => p.levels.includes(path));
                     // checks if the packs contains the level's path (json file name)
 
-                    
-
                     if (packs !== undefined) {
-                        for (let packlevel in packs.levels) {
-                            packs.levels[packlevel] = level;
+                        
+                        for (let packlevel in packs.levels) { 
+                            if (packs.levels[packlevel] === path) {
+
+                                // iterate through every level in the pack,
+                                // and overwrite the level path in the levels array
+                                // with the object it resolves to
+
+                                packs.levels[packlevel] = level;
+                                packs.levels[packlevel].path = path;
+
+
+                            }
                         }
                     }
-
+                        
+                    
+                    
+                    
                     return [
                         null,
                         rank,
@@ -239,7 +252,7 @@ export async function fetchLeaderboard() {
             if (Array.isArray(pack.levels)) {
                 const allVerified = pack.levels.every((packLevel) =>
                     list.some(([_, __, lvl]) =>
-                        lvl.path === packLevel &&
+                        list[rank][2].path === packLevel.path &&
                         lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                     )
                 );
@@ -285,14 +298,13 @@ export async function fetchLeaderboard() {
                     rating: record.enjoyment,
                 });
 
-            
             // check if player has completed all levels in a pack
             if (level.packs) {  // ensure level.packs is defined
                 const pack = level.packs;
-                if (Array.isArray(pack.levels)) {  // idk anymore
+                if (Array.isArray(pack.levels)) {
                     const allCompleted = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
-                            lvl.path === packLevel &&
+                            list[rank][2].path === packLevel.path &&
                             lvl.records.some((r) => r.user === record.user && r.percent === 100)
                         )
                     );
