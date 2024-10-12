@@ -45,7 +45,7 @@ export default {
                 <div class="level" v-if="selectPack">
                     <h1>{{ selectedPackIndex }}</h1>
                 </div>
-                <div class="level" v-else-if="level">
+                <div class="level" v-else-if="selected">
                     <h1>{{ level.name }}</h1>
                     <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -219,14 +219,17 @@ export default {
         fetchPacks,
         // selection stuff because it's weird
         selectedPackLevel(index, pack) {
-            this.selectedPackIndex = index
+            this.selected = null;
+            this.selectedPackIndex = index;
+            
             // retrieve the available levels based on the pack index
-            console.log(pack)
-            this.availableLevels = pack.levels
+            console.log(pack);
+            this.availableLevels = pack.levels;
         },
         selectedLevel(index) {
             // this.selected should be the available level index
-            this.selected = index
+            this.selected = index;
+            console.log(this.selected)
         }
     },
 };
