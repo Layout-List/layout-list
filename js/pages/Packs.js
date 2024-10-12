@@ -1,6 +1,6 @@
 import { store } from "../main.js";
-import { embed } from "../util.js";
-import { score } from "../score.js";
+import { embed, rgbaBind } from "../util.js";
+import { score, averageEnjoyment } from "../score.js";
 import { fetchEditors, fetchList, fetchPacks } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
@@ -42,7 +42,13 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div class="level" v-if="selected !== null && selectedPackIndex !== null">
+                <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
+                    <p>there needs to be nothing selected when the page loads,</p>
+                    <p>otherwise the available levels will not display</p>
+                    <p>i can attempt to fix this i think</p>
+                </div>
+
+                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null">
                     <h1>{{ level.name }}</h1>
                     <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -104,16 +110,13 @@ export default {
                         </tr>
                     </table>
                 </div>
+
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                     <h1>{{ selectedPack.name }}</h1>
                     <h3>level: {{ selected === null ? "none" : selected }}</h3>
                 </div>
                 
-                <div v-else-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
-                    <p>there needs to be nothing selected when the page loads,</p>
-                    <p>otherwise the available levels will not display</p>
-                    <p>i can attempt to fix this i think</p>
-                </div>
+                
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
@@ -233,6 +236,8 @@ export default {
         embed,
         score,
         fetchPacks,
+        rgbaBind,
+        averageEnjoyment,
         // selection stuff because it's weird
         selectPack(index, levels) {
             this.selected = null;
