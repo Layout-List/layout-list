@@ -106,7 +106,6 @@ export default {
 
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                     <h1>{{ selectedPack.name }}</h1>
-                    <h3>level: {{ selected === null ? "none" : selected }}</h3>
                 </div>
                 
                 
@@ -237,8 +236,5 @@ export default {
             // retrieve the available levels based on the pack index
             this.availableLevels = levels;
         },
-        selectedLevel(index) {
-            this.selected = index; // refactor this to just use inline js
-        }
-    },
+}
 };
