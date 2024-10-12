@@ -110,6 +110,7 @@ export default {
                 <div v-else-if="selectedPackIndex === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>there needs to be nothing selected when the page loads,</p>
                     <p>otherwise the available levels will not display</p>
+                    <p>i can attempt to fix this i think</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
