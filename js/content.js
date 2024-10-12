@@ -30,8 +30,9 @@ export async function fetchList() {
                     const levelResult = await fetch(
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
-                    const level = await levelResult.json();
+                    let level = await levelResult.json(); // no longer a constant so we can wrap in the path
 
+                    level[path] = path;
 
                     // load pack
                     let packs = packsMap.find((p) => p.levels.includes(path));
