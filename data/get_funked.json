@@ -98,6 +98,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Shums",
+            "link": "https://www.youtube.com/watch?v=odEE5_cemik",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

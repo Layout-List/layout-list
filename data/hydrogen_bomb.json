@@ -10,6 +10,7 @@
     "percentToQualify": 51,
     "song": "DJ Nate - Treat the Oscillators",
     "difficulty": 9,
+    "enjoyment": 8,
     "records": [
         {
             "user": "Riley",
@@ -36,7 +37,7 @@
             "enjoyment": 6
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=xf8g7-ypTGs",
             "percent": 100,
             "hz": 360,

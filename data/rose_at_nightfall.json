@@ -17,7 +17,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=hCRI5VUcDFk&ab_channel=zDark",
             "percent": 100,
             "hz": 360,
@@ -86,6 +86,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/uialwcoujpE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
