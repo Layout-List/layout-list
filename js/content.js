@@ -40,10 +40,8 @@ export async function fetchList() {
 
                     if (packs !== undefined) {
                         for (let packlevel in packs.levels) {
-                            console.log(level)
                             packs.levels[packlevel] = level;
                         }
-                        console.log(packs);
                     }
 
                     return [
