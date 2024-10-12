@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level" :class="{ 'active': selectedIndex == index, 'error': !pack }">
-                            <button @click="selectedPackLevel(index)">
+                            <button @click="selectedPackLevel(index)" class="pack-name">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
