@@ -236,5 +236,5 @@ export default {
             // retrieve the available levels based on the pack index
             this.availableLevels = levels;
         },
-}
+    }
 };
