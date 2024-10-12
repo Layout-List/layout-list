@@ -42,10 +42,7 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div class="level" v-if="selectPack">
-                    <h1>{{ selectedPackIndex }}</h1>
-                </div>
-                <div class="level" v-else-if="selected">
+                <div class="level" v-if="selected">
                     <h1>{{ level.name }}</h1>
                     <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -107,6 +104,11 @@ export default {
                         </tr>
                     </table>
                 </div>
+                <div class="level" v-else-if="selectPack && selected === null">
+                    <h1>{{ selectPack.name }}</h1>
+                    <h3>level: {{ selected === null ? "none" : selected }}</h3>
+                </div>
+                
                 <div v-else-if="selectedPackIndex === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>there needs to be nothing selected when the page loads,</p>
                     <p>otherwise the available levels will not display</p>
@@ -185,7 +187,19 @@ export default {
         },
 
         level() {
-            return this.list && this.list[this.selected] && this.list[this.selected][2];
+            return this.packs[this.selectedPackIndex]?.levels[this.selected] || null;
+        },
+        
+        video() {
+            if (!this.level.showcase) {
+                return embed(this.level.verification);
+            }
+
+            return embed(
+                this.toggledShowcase
+                    ? this.level.showcase
+                    : this.level.verification
+            );
         },
     },
     async mounted() {
@@ -224,13 +238,10 @@ export default {
             this.selectedPackIndex = index;
             
             // retrieve the available levels based on the pack index
-            console.log(pack);
             this.availableLevels = pack.levels;
         },
         selectedLevel(index) {
-            // this.selected should be the available level index
             this.selected = index;
-            console.log(this.selected)
         }
     },
 };

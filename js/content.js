@@ -33,7 +33,18 @@ export async function fetchList() {
                     const level = await levelResult.json();
 
                     // load pack
-                    const packs = packsMap.find((p) => p.levels.includes(path)); // checks if the packs contains the level's path (json file name)
+                    let packs = packsMap.find((p) => p.levels.includes(path));
+                    // checks if the packs contains the level's path (json file name)
+
+                    
+
+                    if (packs !== undefined) {
+                        console.log(packs);
+                        for (let packlevel in packs.levels) {
+                            packlevel = level;
+                        }
+                        console.log(packs);
+                    }
 
                     return [
                         null,
