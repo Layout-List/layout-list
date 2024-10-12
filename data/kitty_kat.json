@@ -167,7 +167,8 @@
             "link": "https://youtu.be/cF2ImIvhsA0?si=u63ppg8shbX_kgkS",
             "percent": 100,
             "hz": 144,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 0
         },
         {
             "user": "Alvaneder",
