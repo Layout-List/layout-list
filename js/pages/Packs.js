@@ -200,7 +200,6 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();
-        console.log(this.list)
         this.editors = await fetchEditors();
         this.packs = await this.fetchPacks(this.list);
 
