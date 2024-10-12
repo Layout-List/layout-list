@@ -32,7 +32,7 @@ export default {
                             </button>
                             <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
                                 <td class="pack-level level" :class="{ 'active': availableIndex == selected, 'error': !packLevel }"> <!-- active when level is selected -->
-                                    <button class="type-label-lg" @click="selectedLevel(availableIndex)">
+                                    <button class="type-label-lg" @click="selected = availableIndex">
                                         {{ packLevel.name }}
                                     </button>
                                 </td>
