@@ -183,11 +183,11 @@ export default {
         // the handling for selecting these is below
 
         selectPack() {
-            return this.packs[this.selectedPackIndex] || null;
+            return this.packs[this.selected] || null;
         },
 
         level() {
-            return this.packs[this.selectedPackIndex]?.levels[this.selected] || null;
+            return this.packs.levels[this.selectedPackIndex]?.levels[this.selected] || null;
         },
         
         video() {
