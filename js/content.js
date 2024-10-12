@@ -49,6 +49,7 @@ export async function fetchList() {
 
                                 packs.levels[packlevel] = level;
                                 packs.levels[packlevel].path = path;
+                                packs.levels[packlevel].rank = rank; // do the same for rank (why)
 
 
                             }
