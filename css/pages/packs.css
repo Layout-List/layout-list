@@ -7,6 +7,7 @@
 
 .pack-level {
     padding-left: 3rem;
+    transition: background-color 75ms ease-in;
 }
 
 .pack-name {

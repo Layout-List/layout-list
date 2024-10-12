@@ -24,27 +24,27 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
-                        <td class="level" :class="{ 'active': selectedIndex == index, 'error': !pack }">
-                            <button @click="selectedPackLevel(index)" class="pack-name">
+                        <td class="level" :class="{ 'active': selectedPackIndex == index, 'error': !pack }">
+                            <button @click="selectedPackLevel(index, pack)" class="pack-name">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
                             </button>
-                            <tr v-for="(packLevel, index) in pack.levels" :key="index">
+                            <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index">
                                 <td class="pack-level level" > <!-- :class="{ 'active': selectedIndex == index, 'error': !pack }" --- modify this to use a different variable (not selectedIndex) for determining active -->
-                                    <button class="type-label-lg" @click="selectedPackLevel(index)">
+                                    <button class="type-label-lg" @click="selectedLevel(availableIndex)">
                                         {{ packLevel }}
                                     </button>
                                 </td>
                             </tr>
-                            <hr class="pack-divider">
+                            <hr style="display:none" class="pack-divider">
                         </td>
                     </tr>
                 </table>
             </div>
             <div class="level-container">
-                <div class="level" v-if="selectedPack">
-                    <h1>{{ selectedIndex }}</h1>
+                <div class="level" v-if="selectPack">
+                    <h1>{{ selectedPackIndex }}</h1>
                 </div>
                 <div class="level" v-else-if="level">
                     <h1>{{ level.name }}</h1>
@@ -166,16 +166,20 @@ export default {
         editors: [],
         loading: true,
         selected: null,
-        selectedIndex: 0,
+        selectedPackIndex: 0,
         errors: [],
         roleIconMap,
         store
     }),
     computed: {
-        selectedPack() {
-            selected
-            return this.packs[this.selectedIndex] || null;
+
+        // these functions return the info for either packs or levels
+        // the handling for selecting these is below
+
+        selectPack() {
+            return this.packs[this.selectedPackIndex] || null;
         },
+
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
@@ -211,11 +215,14 @@ export default {
         score,
         fetchPacks,
         // selection stuff because it's weird
-        selectedPackLevel(index) {
-            this.selectedIndex = index
-            console.log(this.level)
-            this.availableLevels = this.level.packs.levels
-            console.log(this.selectedIndex)
+        selectedPackLevel(index, pack) {
+            this.selectedPackIndex = index
+            // retrieve the available levels based on the pack index
+            console.log(pack)
+            this.availableLevels = pack.levels
         },
+        selectedLevel(index) {
+            // idk
+        }
     },
 };
