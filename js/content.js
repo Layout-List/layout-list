@@ -114,6 +114,28 @@ export async function fetchEditors() {
     }
 }
 
+export async function fetchPacks(list) {
+    const packsMap = {};
+    let packs = [];
+    list.forEach((object) => { // list is an array > array with length of 3 > usually null (probably errors if any), level rank, level object
+        let level = object[2]; // why
+        if (level.packs) { // if the level is in a pack
+            const packExists = packs.some((pack) => pack.name === level.packs.name);
+            if (!packExists) {
+                packsMap[level.packs] = {
+                    name: level.packs.name,
+                    light: level.packs.light,
+                    dark: level.packs.dark,
+                    levels: level.packs.levels,
+                };
+
+                packs.push(packsMap[level.packs]);
+            }
+        }
+    });
+    return packs;
+}
+
 export async function fetchLeaderboard() {
     const list = await fetchList();
 

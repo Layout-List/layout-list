@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { fetchEditors, fetchList, fetchPacks } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -30,9 +30,9 @@ export default {
                                     {{ pack.name }}
                                 </span>
                             </button>
-                            <tr v-for="packLevel in pack.levels">
+                            <tr v-for="(packLevel, index) in pack.levels" :key="index">
                                 <td class="pack-level level" > <!-- :class="{ 'active': selectedIndex == index, 'error': !pack }" --- modify this to use a different variable (not selectedIndex) for determining active -->
-                                    <button class="type-label-lg">
+                                    <button class="type-label-lg" @click="selectedPackLevel(index)">
                                         {{ packLevel }}
                                     </button>
                                 </td>
@@ -173,6 +173,7 @@ export default {
     }),
     computed: {
         selectedPack() {
+            selected
             return this.packs[this.selectedIndex] || null;
         },
         level() {
@@ -183,7 +184,7 @@ export default {
         // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
-        this.packs = await this.getPacks(this.list);
+        this.packs = await this.fetchPacks(this.list);
 
         // Error handling
         if (!this.list) {
@@ -208,32 +209,13 @@ export default {
     methods: {
         embed,
         score,
+        fetchPacks,
+        // selection stuff because it's weird
         selectedPackLevel(index) {
             this.selectedIndex = index
             console.log(this.level)
             this.availableLevels = this.level.packs.levels
             console.log(this.selectedIndex)
-        },
-        async getPacks(list) {
-            const packsMap = {};
-            let packs = [];
-            list.forEach((object) => { // list is an array > array with length of 3 > usually null (probably errors if any), level rank, level object
-                let level = object[2]; // why
-                if (level.packs) { // if the level is in a pack
-                    const packExists = packs.some((pack) => pack.name === level.packs.name);
-                    if (!packExists) {
-                        packsMap[level.packs] = {
-                            name: level.packs.name,
-                            light: level.packs.light,
-                            dark: level.packs.dark,
-                            levels: level.packs.levels,
-                        };
-
-                        packs.push(packsMap[level.packs]);
-                    }
-                }
-            });
-            return packs;
         },
     },
 };
