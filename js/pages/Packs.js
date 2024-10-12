@@ -26,15 +26,17 @@ export default {
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level" :class="{ 'active': selectedIndex == index, 'error': !pack }">
                             <button @click="selectedPackLevel(index)">
-                                <span class="type-label-lg">HI!!!!!! PERSON
-                                !!!!! HARDAHA!@#!!hasthat!!!!11HARd!hat</span>
+                                <span class="type-label-lg">
+                                    {{ pack.name }}
+                                </span>
                             </button>
-                            <td style="display:none;" class="pack-level" v-for="packLevel in pack.levels"> <!-- :class="{ 'active': selectedIndex == index, 'error': !pack }" --- modify this to use a different variable (not selectedIndex) for determining active -->
-                                <button class="type-label-lg">
-                                    HI!!!!!! PERSON
-                                    !!!!! HARDAHA!@#!!hasthat!!!!11HARd!hat
-                                </button>
-                            </td>
+                            <tr v-for="packLevel in pack.levels">
+                                <td class="pack-level level" > <!-- :class="{ 'active': selectedIndex == index, 'error': !pack }" --- modify this to use a different variable (not selectedIndex) for determining active -->
+                                    <button class="type-label-lg">
+                                        {{ packLevel }}
+                                    </button>
+                                </td>
+                            </tr>
                             <hr class="pack-divider">
                         </td>
                     </tr>
