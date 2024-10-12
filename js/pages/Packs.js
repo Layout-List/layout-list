@@ -24,20 +24,19 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
-                        <td class="level" :class="{ 'active': selectedPackIndex == index, 'error': !pack }">
-                            <button @click="selectedPackLevel(index, pack)" class="pack-name">
+                        <td class="level" >
+                            <button @click="selectedPackLevel(index, pack)" class="pack-name" :class="{ 'active': selectedPackIndex == index, 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
                             </button>
-                            <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index">
-                                <td class="pack-level level" > <!-- :class="{ 'active': selectedIndex == index, 'error': !pack }" --- modify this to use a different variable (not selectedIndex) for determining active -->
+                            <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
+                                <td class="pack-level level" :class="{ 'active': availableIndex == selected, 'error': !packLevel }"> <!-- active when level is selected -->
                                     <button class="type-label-lg" @click="selectedLevel(availableIndex)">
                                         {{ packLevel }}
                                     </button>
                                 </td>
                             </tr>
-                            <hr style="display:none" class="pack-divider">
                         </td>
                     </tr>
                 </table>
@@ -108,6 +107,10 @@ export default {
                         </tr>
                     </table>
                 </div>
+                <div v-else-if="selectedPackIndex === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
+                    <p>there needs to be nothing selected when the page loads,</p>
+                    <p>otherwise the available levels will not display</p>
+                </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
@@ -166,7 +169,7 @@ export default {
         editors: [],
         loading: true,
         selected: null,
-        selectedPackIndex: 0,
+        selectedPackIndex: null,
         errors: [],
         roleIconMap,
         store
@@ -222,7 +225,8 @@ export default {
             this.availableLevels = pack.levels
         },
         selectedLevel(index) {
-            // idk
+            // this.selected should be the available level index
+            this.selected = index
         }
     },
 };

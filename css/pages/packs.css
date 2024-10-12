@@ -13,3 +13,8 @@
 .pack-name {
     margin-bottom: 0.7rem;
 }
+
+.pack-name.active {
+    background-color: var(--color-primary) !important;
+    color: var(--color-on-primary) !important;
+}
