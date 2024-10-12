@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level" >
-                            <button @click="selectedPackLevel(index, pack)" class="pack-name" :class="{ 'active': selectedPackIndex == index, 'error': !pack }">
+                            <button @click="selectPack(index, pack.levels)" class="pack-name" :class="{ 'active': selectedPackIndex == index, 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
@@ -42,7 +42,7 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div class="level" v-if="selected">
+                <div class="level" v-if="selected !== null && selectedPackIndex !== null">
                     <h1>{{ level.name }}</h1>
                     <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -104,12 +104,12 @@ export default {
                         </tr>
                     </table>
                 </div>
-                <div class="level" v-else-if="selectPack && selected === null">
-                    <h1>{{ selectPack.name }}</h1>
+                <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
+                    <h1>{{ selectedPack.name }}</h1>
                     <h3>level: {{ selected === null ? "none" : selected }}</h3>
                 </div>
                 
-                <div v-else-if="selectedPackIndex === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
+                <div v-else-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>there needs to be nothing selected when the page loads,</p>
                     <p>otherwise the available levels will not display</p>
                     <p>i can attempt to fix this i think</p>
@@ -182,7 +182,7 @@ export default {
         // these functions return the info for either packs or levels
         // the handling for selecting these is below
 
-        selectPack() {
+        selectedPack() {
             return this.packs[this.selectedPackIndex] || null;
         },
 
@@ -234,16 +234,15 @@ export default {
         score,
         fetchPacks,
         // selection stuff because it's weird
-        selectedPackLevel(index, pack) {
+        selectPack(index, levels) {
             this.selected = null;
             this.selectedPackIndex = index;
             
             // retrieve the available levels based on the pack index
-            this.availableLevels = pack.levels;
-            console.log(this.availableLevels);
+            this.availableLevels = levels;
         },
         selectedLevel(index) {
-            this.selected = index;
+            this.selected = index; // refactor this to just use inline js
         }
     },
 };
