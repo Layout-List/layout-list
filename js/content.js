@@ -32,7 +32,7 @@ export async function fetchList() {
                     );
                     let level = await levelResult.json(); // no longer a constant so we can wrap in the path
 
-                    level[path] = path;
+                    level["path"] = path;
 
                     // load pack
                     let packs = packsMap.find((p) => p.levels.includes(path));
