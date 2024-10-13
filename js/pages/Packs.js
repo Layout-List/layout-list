@@ -230,11 +230,17 @@ export default {
         averageEnjoyment,
         // selection stuff because it's weird
         selectPack(index, levels) {
+            if (this.selectedPackIndex === index) {
+                this.selected = null;
+                this.selectedPackIndex = null;
+                return;
+            }
             this.selected = null;
             this.selectedPackIndex = index;
             
             // retrieve the available levels based on the pack index
             this.availableLevels = levels;
+            return;
         },
     }
 };
