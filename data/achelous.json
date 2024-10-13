@@ -21,7 +21,7 @@
             "percent": 80,
             "hz": 240,
             "mobile": false,
-            "enjoyment": "kys"
+            "enjoyment": 0
         },
         {
             "user": "Robotic",
@@ -40,11 +40,11 @@
         },
         {
             "user": "attrixia",
-            "link": "https://youtu.be/eoKs3hVTU94?si=XdrZPfcZaCmHUnCx",
-            "percent": 71,
+            "link": "https://www.youtube.com/watch?v=8cbRPyXN3bg",
+            "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 7
+            "enjoyment": 8
         }
     ]
 }
