@@ -295,6 +295,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Shums",
+            "link": "https://www.youtube.com/watch?v=-jErv67IG3A",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
