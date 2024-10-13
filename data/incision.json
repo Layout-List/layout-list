@@ -3,7 +3,7 @@
     "name": "Incision",
     "author": "DJJDK",
     "creators": [],
-    "verifier": "hayden",
+    "verifier": "zDark",
     "verification": "https://www.youtube.com/watch?v=jvkIbUembPw",
     "showcase": "https://www.youtube.com/watch?v=vM7KjCy54uc",
     "percentToQualify": 52,
@@ -111,6 +111,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/PzD10nUWzts",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }

@@ -1,0 +1,22 @@
+{
+    "id": 110840530,
+    "name": "Translucent",
+    "author": "IIRafII",
+    "creators": [],
+    "verifier": "IIRafII",
+    "verification": "https://youtu.be/h4LJ8aKgcmU",
+    "percentToQualify": 100,
+    "song": "Creo - Aura",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        }
+        
+    ]
+}

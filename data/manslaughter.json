@@ -1,7 +1,7 @@
 {
     "id": 109169301,
     "name": "manslaughter",
-    "author": "hayden",
+    "author": "zDark",
     "creators": [
       "fathom",
       "flare",
@@ -24,7 +24,7 @@
             "enjoyment": 9
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/lFUJN4hCj24?si=kSq_ED7UetkSpfX3",
             "percent": 100,
             "hz": 360,
@@ -46,6 +46,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
         }
     ]
 }

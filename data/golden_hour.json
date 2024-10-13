@@ -1,0 +1,31 @@
+{
+    "id": 110839027,
+    "name": "Golden Hour",
+    "author": "Shums",
+    "creators": [],
+    "verifier": "Shums",
+    "verification": "https://www.youtube.com/watch?v=g4g5qRfZrWw",
+    "percentToQualify": 100,
+    "song": "JVKE - Golden Hour",
+    "songLink": "https://drive.google.com/file/d/1GZANA_bbtEDiJg6D0DTzDJxsZ0aggOWD/view?usp=drive_link",
+    "difficulty": 0,
+    "records": [
+        {
+            "user": "Paladean",
+            "link": "https://youtu.be/rS93s64gtBs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+        
+    ]
+}
