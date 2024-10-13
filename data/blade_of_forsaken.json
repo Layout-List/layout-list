@@ -83,6 +83,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "XxSirgaxX",
+            "link": "https://www.youtube.com/watch?v=g74dlY72rwM",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
