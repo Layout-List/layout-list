@@ -51,6 +51,14 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/qHS9I7K1e5s?si=XEvUUzKF3n_6MFOu",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
