@@ -97,5 +97,16 @@
             "the_shredder",
             "land_of_fire"
         ]
+    },
+    {
+        "name": "Effect Pack",
+        "light": [26, 97, 19],
+        "dark": [26, 97, 19],    
+        "levels": [
+            "desolation",
+            "i_got_no_time",
+            "the_end",
+            "michito"
+        ]
     }
 ]

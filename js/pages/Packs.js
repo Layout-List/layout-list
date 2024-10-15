@@ -246,6 +246,7 @@ export default {
             
             // retrieve the available levels based on the pack index
             this.availableLevels = levels;
+            this.selected = 0
             return;
         },
 
