@@ -36,7 +36,7 @@
     
     {
         "name": "Quacker Pack",
-        "light": [26, 194, 219, 0.8],
+       "light": [19, 204, 232],
         "dark": [26, 194, 219, 0.8],    
         "levels": [
             "druggered_duck",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Rated Pack 2",
-        "light": [26, 194, 219, 0.8],
+       "light": [19, 204, 232],
         "dark": [26, 194, 219, 0.8],    
         "levels": [
             "marenol",
@@ -58,7 +58,7 @@
     },
     {
         "name": "Detailed Pack 1",
-        "light": [26, 194, 219, 0.8],
+       "light": [19, 204, 232],
         "dark": [26, 194, 219, 0.8],    
         "levels": [
             "go_with_the_flow",
@@ -68,7 +68,7 @@
     },
     {
         "name": "Sqrtpie Pack",
-        "light": [26, 194, 219, 0.8],
+       "light": [19, 204, 232],
         "dark": [26, 194, 219, 0.8],    
         "levels": [
             "because_we_miss",
@@ -78,7 +78,7 @@
     },
     {
         "name": "Xeronius Pack",
-        "light": [26, 194, 219, 0.8],
+       "light": [19, 204, 232],
         "dark": [26, 194, 219, 0.8],    
         "levels": [
             "invincible",
@@ -90,7 +90,7 @@
     },
     {
         "name": "Asteria Pack",
-        "light": [26, 194, 219, 0.8],
+       "light": [19, 204, 232],
         "dark": [26, 194, 219, 0.8],    
         "levels": [
             "sky_castle",
@@ -100,13 +100,44 @@
     },
     {
         "name": "Effect Pack",
-        "light": [26, 97, 19],
+        "light": [52, 150, 82],
         "dark": [26, 97, 19],    
         "levels": [
             "desolation",
             "i_got_no_time",
             "the_end",
             "michito"
+        ]
+    },
+    {
+        "name": "Long Pack 1",
+        "light": [52, 150, 82],
+        "dark": [26, 97, 19],    
+        "levels": [
+            "heartache",
+            "ruler_of_everything",
+            "dancing_in_the_dark"
+        ]
+    },
+    {
+        "name": "Sal Pack",
+        "light": [52, 150, 82],
+        "dark": [209, 209, 36],    
+        "levels": [
+            "endless",
+            "atmosphere",
+            "aura",
+            "aurora_sal"
+        ]
+    },
+    {
+        "name": "Blathers Pack",
+        "light": [52, 150, 82],
+        "dark": [209, 209, 36],    
+        "levels": [
+            "kitty_kat",
+            "lightmare",
+            "alpha_b"
         ]
     }
 ]
