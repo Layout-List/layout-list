@@ -42,7 +42,7 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center; text-wrap: nowrap;">
+                <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: nowrap;">
                     <p>Click on a pack to display its levels!</p>
                     <p>You can request a role in the Discord server if you complete all levels in a pack.</p>
                 </div>
