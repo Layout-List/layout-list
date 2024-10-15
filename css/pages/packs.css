@@ -10,8 +10,10 @@
     transition: background-color 75ms ease-in;
 }
 
+
 .pack-name {
     margin-bottom: 0.7rem;
+    margin-top:0.5rem
 }
 
 .pack-name.active {
