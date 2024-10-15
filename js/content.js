@@ -262,9 +262,10 @@ export async function fetchLeaderboard() {
         if (level.packs) {
             const pack = level.packs;
             if (Array.isArray(pack.levels)) {
+
                 const allVerified = pack.levels.every((packLevel) =>
                     list.some(([_, __, lvl]) =>
-                        list[rank][2].path === packLevel.path &&
+                        lvl.path == packLevel.path &&
                         lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                     )
                 );
@@ -316,7 +317,7 @@ export async function fetchLeaderboard() {
                 if (Array.isArray(pack.levels)) {
                     const allCompleted = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
-                            list[rank][2].path === packLevel.path &&
+                            lvl.path == packLevel.path &&
                             lvl.records.some((r) => r.user === record.user && r.percent === 100)
                         )
                     );

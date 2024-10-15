@@ -1,5 +1,5 @@
 import { store } from "../main.js";
-import { embed, rgbaBind } from "../util.js";
+import { embed, rgbaBind, opaque } from "../util.js";
 import { score, averageEnjoyment } from "../score.js";
 import { fetchEditors, fetchList, fetchPacks } from "../content.js";
 
@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level" >
-                            <button @click="selectPack(index, pack.levels)" class="pack-name" :class="{ 'active': selectedPackIndex == index, 'error': !pack }">
+                            <button @click="selectPack(index, pack.levels)" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index),  }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
@@ -225,15 +225,21 @@ export default {
     methods: {
         embed,
         score,
-        fetchPacks,
+        opaque,
         rgbaBind,
+        fetchPacks,
         averageEnjoyment,
-        // selection stuff because it's weird
+
+        // initialize the selected pack
+        // the levels shown to the user is based on the availableLevels array, it isn't
+        // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, levels) {
             if (this.selectedPackIndex === index) {
                 this.selected = null;
                 this.selectedPackIndex = null;
+                this.availableLevels = [];
                 return;
+
             }
             this.selected = null;
             this.selectedPackIndex = index;
@@ -242,5 +248,20 @@ export default {
             this.availableLevels = levels;
             return;
         },
+
+        reactiveOpaque(color, index) {
+            console.log(color)
+            try {
+                if (this.selectedPackIndex === index) {
+                    return rgbaBind(color)
+                } else {
+                    return opaque(color);
+                }
+
+            } catch (e) {
+                console.error("Failed to color pack: " + e);
+                return `rgba(110, 110, 110, 0.7)`;
+            }
     }
+}
 };

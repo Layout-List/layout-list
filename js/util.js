@@ -38,6 +38,7 @@ export function shuffle(array) {
 }
 
 export function rgbaBind(color) {
+    try {
     // bind rgb values to rgba
     // why do i have to do it like this
     let [r, g, b, a] = color;
@@ -47,4 +48,23 @@ export function rgbaBind(color) {
     }
     
     return `rgba(${r},${g},${b},${a})`;
+    } catch (e) {
+        console.error("Failed to color pack: " + e);
+        return `rgba(110, 110, 110, 0.7)`
+    }
 }
+
+export function opaque(color) {
+    try {
+        let [r, g, b, a] = color;
+        // handle case where alpha isn't defined
+
+        a = 0.15;
+        
+        return `rgba(${r},${g},${b},${a})`;
+    } catch (e) {
+        console.error("Failed to color pack: " + e);
+        return `rgba(110, 110, 110, 0.3)`
+    }
+}
+
