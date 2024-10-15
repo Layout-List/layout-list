@@ -42,10 +42,9 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center;">
-                    <p>there needs to be nothing selected when the page loads,</p>
-                    <p>otherwise the available levels will not display</p>
-                    <p>i can attempt to fix this i think</p>
+                <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center; text-wrap: nowrap;">
+                    <p>Click on a pack to display its levels!</p>
+                    <p>You can request a role in the Discord server if you complete all levels in a pack.</p>
                 </div>
 
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null">
