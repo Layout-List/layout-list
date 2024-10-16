@@ -262,6 +262,8 @@ export default {
                 console.error("Failed to color pack: " + e);
                 return `rgba(110, 110, 110, 0.7)`;
             }
+        },
+        
+        
     }
-}
 };
