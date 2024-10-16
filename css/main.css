@@ -52,6 +52,7 @@ header {
     height: 4rem;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
+    justify-content: center;
 }
 @media screen and (min-width: 1366px) {
     header {
