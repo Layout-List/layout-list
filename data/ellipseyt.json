@@ -29,7 +29,8 @@
             "link": "https://youtu.be/GRhbv_hhIEg",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "mrperson",
