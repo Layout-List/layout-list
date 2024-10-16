@@ -36,12 +36,12 @@ export async function fetchList() {
 
                     // load pack
                     let packs = packsMap.find((p) => p.levels.includes(path)); // this is mounted on top of levels, used to access packs within the level scope. in hindsight this should have been done outside the level scope but oh well. see fetchPacks() below for that
-                    
-                    
 
                     // checks if the packs contains the level's path (json file name)
 
                     if (packs !== undefined) {
+
+                        
                         
                         for (let packlevel in packs.levels) { 
                             if (packs.levels[packlevel] === path) {
@@ -162,12 +162,19 @@ export async function fetchPacks(list) {
                     light: level.packs.light,
                     dark: level.packs.dark,
                     levels: level.packs.levels,
+                    difficulty: level.packs.difficulty
                 };
 
                 packs.push(packsMap[level.packs]);
             }
         }
     });
+
+    console.log(packs)
+    
+    packs.sort(
+        (a, b) => b.difficulty - a.difficulty,
+    );
     
     return packs;
 }

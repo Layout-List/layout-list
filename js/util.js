@@ -69,7 +69,6 @@ export function opaque(color) {
             a = 0.15
         }
         
-        console.log(r, g, b, a)
         return `rgba(${r},${g},${b},${a})`;
     } catch (e) {
         console.error("Failed to color pack: " + e);

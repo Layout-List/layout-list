@@ -250,7 +250,6 @@ export default {
         },
 
         reactiveOpaque(color, index) {
-            console.log(color)
             try {
                 if (this.selectedPackIndex === index) {
                     return rgbaBind(color)
