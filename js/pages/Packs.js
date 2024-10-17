@@ -24,7 +24,7 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
-                        <td class="rank">
+                        <td class="rank" style="display: none;">
                             <p class="type-label-lg">&mdash;</p>
                         </td>
                         <td class="level">
