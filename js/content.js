@@ -175,8 +175,34 @@ export async function fetchPacks(list) {
     packs.sort(
         (a, b) => b.difficulty - a.difficulty,
     );
+
+
     
     return packs;
+}
+
+export async function fetchPackRecords(packs) {
+    let records = [];
+
+    packs.levels.records.forEach((record) => {  
+        //something
+
+    })
+
+ /*
+    packs.forEach((pack) => {
+
+        pack.levels.forEach((level) =>  {
+
+            level.records.forEach((record) => {
+
+            })
+
+        })
+
+
+    })
+ */
 }
 
 export async function fetchLeaderboard() {
