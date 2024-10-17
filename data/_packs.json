@@ -5,11 +5,7 @@
         "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
         "levels": [
-            "sunrise",
-            "cornfield",
-            "debit",
-            "caliber",
-            "uppercut"
+            "gravity_out"
         ]
     },
     {
