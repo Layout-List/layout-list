@@ -189,9 +189,11 @@ export async function fetchPackRecords(packs) {
 
     packs.forEach((pack) => {
         pack.levels.forEach((level) =>  {
-            level.records.forEach((record) => {
-                users.push(record.user)
-            })
+            if (level.records) {
+                level.records.forEach((record) => {
+                    users.push(record.user)
+                })
+            }
         })
     })
 
@@ -202,6 +204,8 @@ export async function fetchPackRecords(packs) {
 
         packs.forEach((pack) => {
             const allCompleted = pack.levels.every((packLevel) => {
+
+                if (!packLevel.records) return;
                 
                 return packLevel.records.some((record) => record.user === user);
             });
