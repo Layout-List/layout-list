@@ -183,22 +183,36 @@ export async function fetchPacks(list) {
 export async function fetchPackRecords(packs) {
     let records = [];
     let users = []
+    let completedPacksMap = {}
+
+    
 
     packs.forEach((pack) => {
         pack.levels.forEach((level) =>  {
-            console.log(level)
             level.records.forEach((record) => {
-    
                 users.push(record.user)
             })
         })
     })
+
+    
     
     users.forEach((user) => {
+        completedPacksMap[user] ??= new Set();
 
-        
-
+        packs.forEach((pack) => {
+            const allCompleted = pack.levels.every((packLevel) => {
+                
+                return packLevel.records.some((record) => record.user === user);
+            });
+            if (allCompleted) {
+                completedPacksMap[user].add(pack);
+            }
+        })
     })
+
+    
+
 
     return records
 
