@@ -302,16 +302,5 @@
             "huang_quan",
             "experiment"
         ]
-    },
-    {
-        "name": "Easy Packs",
-        "light": [52, 107, 235, 0.9],
-        "dark": [52, 107, 235, 0.9],
-        "difficulty": 1,
-        "levels": [
-            "brutal_calamity",
-            "huang_quan",
-            "experiment"
-        ]
     }
 ]
