@@ -220,6 +220,11 @@ export default {
                 this.errors.push('Failed to load list editors.');
             }
         }
+        
+        this.selectPack(0, this.packs[0].levels); 
+        // its easier to initialize the site like this because
+        // the levels are sent to the availableLevels array when this function is called
+        // ie when the pack button is clicked
 
         this.loading = false;
     },
