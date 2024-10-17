@@ -166,17 +166,6 @@
         ]
     },
     {
-        "name": "Mystikl Pack",
-        "light": [184, 199, 13],
-        "dark": [209, 209, 36],   
-        "difficulty": 4, 
-        "levels": [
-            "dabox",
-            "bajox",
-            "jabox"
-        ]
-    },
-    {
         "name": "Box Pack",
         "light": [184, 199, 13],
         "dark": [209, 209, 36],   
