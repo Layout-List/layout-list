@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed, rgbaBind, opaque } from "../util.js";
 import { score, averageEnjoyment } from "../score.js";
-import { fetchEditors, fetchList, fetchPacks } from "../content.js";
+import { fetchEditors, fetchList, fetchPacks, fetchPackRecords } from "../content.js"; // haha pull up to the Export Function () be like LMAO! those who know:
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -185,13 +185,13 @@ export default {
         },
         
         video() {
-            
 
             return embed(
                 this.level.showcase
                     ? this.level.showcase
                     : this.level.verification
             );
+
         },
     },
 
@@ -199,7 +199,9 @@ export default {
         // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
-        this.packs = await this.fetchPacks(this.list);
+        this.packs = await fetchPacks(this.list);
+        this.records = await fetchPackRecords(this.packs)
+        console.log(this.records)
 
         // Error handling
         if (!this.list) {
@@ -227,6 +229,7 @@ export default {
         opaque,
         rgbaBind,
         fetchPacks,
+        fetchPackRecords,
         averageEnjoyment,
 
         // initialize the selected pack

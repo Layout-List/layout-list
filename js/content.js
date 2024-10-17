@@ -170,7 +170,6 @@ export async function fetchPacks(list) {
         }
     });
 
-    console.log(packs)
     
     packs.sort(
         (a, b) => b.difficulty - a.difficulty,
@@ -183,26 +182,26 @@ export async function fetchPacks(list) {
 
 export async function fetchPackRecords(packs) {
     let records = [];
+    let users = []
 
-    packs.levels.records.forEach((record) => {  
-        //something
-
-    })
-
- /*
     packs.forEach((pack) => {
-
         pack.levels.forEach((level) =>  {
-
+            console.log(level)
             level.records.forEach((record) => {
-
+    
+                users.push(record.user)
             })
-
         })
+    })
+    
+    users.forEach((user) => {
 
+        
 
     })
- */
+
+    return records
+
 }
 
 export async function fetchLeaderboard() {
