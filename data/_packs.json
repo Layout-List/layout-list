@@ -309,7 +309,9 @@
         "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
         "levels": [
-            "easylayouts"
+            "brutal_calamity",
+            "huang_quan",
+            "experiment"
         ]
     }
 ]
