@@ -24,6 +24,9 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
+                        <td class="rank">
+                            <p class="type-label-lg">&mdash;</p>
+                        </td>
                         <td class="level">
                             <button @click="selectPack(index, pack.levels)" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index),  }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
