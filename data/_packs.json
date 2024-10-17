@@ -182,9 +182,9 @@
         "dark": [209, 209, 36],   
         "difficulty": 4, 
         "levels": [
-            "level_0",
-            "depths",
-            "dabox"
+            "dabox",
+            "bajox",
+            "jabox"
         ]
     },
     {
