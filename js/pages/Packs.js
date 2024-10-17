@@ -1,5 +1,5 @@
 import { store } from "../main.js";
-import { embed, rgbaBind, opaque } from "../util.js";
+import { embed, rgbaBind } from "../util.js";
 import { score, averageEnjoyment } from "../score.js";
 import { fetchEditors, fetchList, fetchPacks, fetchPackRecords } from "../content.js"; // haha pull up to the Export Function () be like LMAO! those who know:
 
@@ -28,7 +28,7 @@ export default {
                             <p class="type-label-lg">&mdash;</p>
                         </td>
                         <td class="level">
-                            <button @click="selectPack(index, pack.levels)" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index),  }" :class="{ 'error': !pack }">
+                            <button @click="selectPack(index, pack.levels)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index) }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
@@ -52,7 +52,7 @@ export default {
 
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark) : rgbaBind(level.packs.light) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
+                    <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark, 0) : rgbaBind(level.packs.light, 0) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     
@@ -170,6 +170,7 @@ export default {
         loading: true,
         selected: null,
         selectedPackIndex: null,
+        hoverIndex: null, // don't ask
         errors: [],
         roleIconMap,
         store
@@ -234,7 +235,6 @@ export default {
     methods: {
         embed,
         score,
-        opaque,
         rgbaBind,
         fetchPacks,
         fetchPackRecords,
@@ -263,9 +263,12 @@ export default {
         reactiveOpaque(color, index) {
             try {
                 if (this.selectedPackIndex === index) {
-                    return rgbaBind(color)
+                    return rgbaBind(color, 0)
+
+                } else if (this.hoverIndex === index) {
+                    return rgbaBind(color, 0.35);
                 } else {
-                    return opaque(color);
+                    return rgbaBind(color, 0.6);
                 }
 
             } catch (e) {

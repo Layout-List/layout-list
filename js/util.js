@@ -37,24 +37,9 @@ export function shuffle(array) {
     return array;
 }
 
-export function rgbaBind(color) {
-    try {
-    // bind rgb values to rgba
-    // why do i have to do it like this
-    let [r, g, b, a] = color;
-    // handle case where alpha isn't defined
-    if (!a) {
-        a = 1;
-    }
-    
-    return `rgba(${r},${g},${b},${a})`;
-    } catch (e) {
-        console.error("Failed to color pack: " + e);
-        return `rgba(110, 110, 110, 0.7)`
-    }
-}
 
-export function opaque(color) {
+// these functions exist because css doesn't allow us to add or remove from the color's alpha
+export function rgbaBind(color, decrease) {
     try {
         let [r, g, b, a] = color;
         // handle case where alpha isn't defined
@@ -63,7 +48,7 @@ export function opaque(color) {
             a = 1;
         }
 
-        a -= 0.6;
+        a -= decrease;
 
         if (a <= 0.15) {
             a = 0.15
@@ -75,4 +60,3 @@ export function opaque(color) {
         return `rgba(110, 110, 110, 0.3)`
     }
 }
-
