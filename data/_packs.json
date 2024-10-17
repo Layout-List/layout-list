@@ -1,8 +1,8 @@
 [
     {
         "name": "Rated Pack 1",
-        "light": [52, 107, 235, 0.8],
-        "dark": [52, 107, 235, 0.5],
+        "light": [52, 107, 235, 0.9],
+        "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
         "levels": [
             "fun_dance",
@@ -13,8 +13,8 @@
     },
     {
         "name": "Salukis Pack",
-        "light": [52, 107, 235, 0.8],
-        "dark": [52, 107, 235, 0.5],
+        "light": [52, 107, 235, 0.9],
+        "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
         "levels": [
             "sunrise",
@@ -26,8 +26,8 @@
     },
     {
         "name": "Chill Pack",
-        "light": [52, 107, 235, 0.8],
-        "dark": [52, 107, 235, 0.5],
+        "light": [52, 107, 235, 0.9],
+        "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
         "levels": [
             "zzz",
@@ -132,7 +132,7 @@
     },
     {
         "name": "Sal Pack",
-        "light": [52, 150, 82],
+        "light": [184, 199, 13],
         "dark": [209, 209, 36],    
         "difficulty": 4,
         "levels": [
@@ -144,13 +144,163 @@
     },
     {
         "name": "Blathers Pack",
-        "light": [52, 150, 82],
+        "light": [184, 199, 13],
         "dark": [209, 209, 36],   
         "difficulty": 4, 
         "levels": [
             "kitty_kat",
             "lightmare",
             "alpha_b"
+        ]
+    },
+    {
+        "name": "Rated Pack 3",
+        "light": [184, 199, 13],
+        "dark": [209, 209, 36],   
+        "difficulty": 4, 
+        "levels": [
+            "bliss",
+            "rgb",
+            "aleph_0",
+            "i_dont_wanna_go"
+        ]
+    },
+    {
+        "name": "Box Pack",
+        "light": [184, 199, 13],
+        "dark": [209, 209, 36],   
+        "difficulty": 4, 
+        "levels": [
+            "dabox",
+            "bajox",
+            "jabox"
+        ]
+    },
+    {
+        "name": "Morsey Pack",
+        "light": [184, 199, 13],
+        "dark": [209, 209, 36],   
+        "difficulty": 4, 
+        "levels": [
+            "twink_braindead",
+            "dunewalker",
+            "virtual",
+            "nautilus",
+            "lies_layout"
+        ]
+    },
+    {
+        "name": "Detailed Pack 2",
+        "light": [184, 199, 13],
+        "dark": [209, 209, 36],   
+        "difficulty": 4, 
+        "levels": [
+            "soggy_swamp",
+            "to_the_moon",
+            "heartbreaker",
+            "freeze_flame"
+        ]
+    },
+    {
+        "name": "Adventure Pack",
+        "light": [13, 0, 255, 0.8],
+        "dark": [81, 61, 204],   
+        "difficulty": 5, 
+        "levels": [
+            "distant_stars",
+            "next_adventure",
+            "sudden_departure"
+        ]
+    },
+    {
+        "name": "Detailed Pack 3",
+        "light": [13, 0, 255, 0.8],
+        "dark": [81, 61, 204],   
+        "difficulty": 5, 
+        "levels": [
+            "bomb_the_rave",
+            "last_chapter",
+            "heat_stroke",
+            "tormenta"
+        ]
+    },
+    {
+        "name": "Long Pack 2",
+        "light": [130, 62, 206, 0.7],
+        "dark": [130, 62, 206],   
+        "difficulty": 6, 
+        "levels": [
+            "overtime",
+            "nana",
+            "underlying_grief",
+            "escaping_limbo"
+        ]
+    },
+    {
+        "name": "Short Pack",
+        "light": [130, 62, 206, 0.7],
+        "dark": [130, 62, 206],   
+        "difficulty": 6, 
+        "levels": [
+            "big_brain_time",
+            "yoasobi",
+            "delirium",
+            "vile_vanquish"
+        ]
+    },
+    {
+        "name": "Flare Pack",
+        "light": [130, 62, 206, 0.7],
+        "dark": [130, 62, 206],   
+        "difficulty": 6, 
+        "levels": [
+            "rubber",
+            "murder_flare",
+            "phase"
+        ]
+    },
+    {
+        "name": "Long Pack 3",
+        "light": [255, 0, 0],
+        "dark": [167, 37, 37],   
+        "difficulty": 7, 
+        "levels": [
+            "light_it_up",
+            "cruelty_of_hope",
+            "karma"
+        ]
+    },
+    {
+        "name": "Hayden Verification Pack",
+        "light": [255, 0, 0],
+        "dark": [167, 37, 37],   
+        "difficulty": 7, 
+        "levels": [
+            "lost",
+            "tails_doll_007",
+            "so_based"
+        ]
+    },
+    {
+        "name": "Former Top 1s Pack",
+        "light": [255, 0, 0],
+        "dark": [167, 37, 37],   
+        "difficulty": 7, 
+        "levels": [
+            "brutal_calamity",
+            "huang_quan",
+            "experiment"
+        ]
+    },
+    {
+        "name": "Former Top 1s Pack",
+        "light": [255, 0, 0],
+        "dark": [167, 37, 37],   
+        "difficulty": 7, 
+        "levels": [
+            "brutal_calamity",
+            "huang_quan",
+            "experiment"
         ]
     }
 ]
