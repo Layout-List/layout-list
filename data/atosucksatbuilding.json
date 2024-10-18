@@ -65,6 +65,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 1
+        },
+        {
+            "user": "monthmai",
+            "link": "https://youtu.be/zQG0Lrl1QDQ?si=jzpk09ZT8kILSkWm",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 8
         }
         
     ]
