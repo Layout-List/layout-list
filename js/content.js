@@ -40,29 +40,35 @@ export async function fetchList() {
                     // see fetchPacks() below for that ig.
 
                     // this is also really not cool but .filter() is buggy and stupid
-                    packsMap.forEach((pack) => {
-                        if (pack.levels.includes(path)) {
-                            packs.push(pack);
-                            
-                        }
-                    })
+                    try {
+                        packsMap.forEach((pack) => {
 
-                    // checks if the packs contains the level's path (json file name)
-                    if (packs !== undefined) {
-                        packs.forEach((pack) => {
-                            for (let packlevel in pack.levels) { 
-                                if (pack.levels[packlevel] === path) {
-                                    // iterate through every level in the pack,
-                                    // and overwrite the level path in the levels array
-                                    // with the object it resolves to
-                                    pack.levels[packlevel] = level;
-                                    pack.levels[packlevel].path = path;
-                                    pack.levels[packlevel].rank = rank; // do the same for rank (why)
-
+                            if (pack.levels) { 
+                                if (pack.levels.includes(path)) {
+                                    packs.push(pack);
+                                    
                                 }
+
+                                // checks if the packs contains the level's path (json file name)
+                                for (let packlevel in pack.levels) { 
+                                    if (pack.levels[packlevel] === path) {
+                                        // iterate through every level in the pack,
+                                        // and overwrite the level path in the levels array
+                                        // with the object it resolves to
+                                        pack.levels[packlevel] = level;
+                                        pack.levels[packlevel].path = path;
+                                        pack.levels[packlevel].rank = rank; // do the same for path and rank (why)
+
+                                    }
+                                }
+                            } else {
+                                // threshold pack code idk what tto do man,,, 
                             }
                         })
+                    } catch {
+                        console.error("failed to fetch packs")
                     }
+                    
                     
                     return [
                         null,

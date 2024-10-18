@@ -204,8 +204,8 @@ export default {
         this.list = await fetchList();
         this.editors = await fetchEditors();
         this.packs = await fetchPacks(this.list);
-        this.records = await fetchPackRecords(this.packs)
-        console.log(this.records)
+        // this.records = await fetchPackRecords(this.packs)
+        // console.log(this.records)
 
         // Error handling
         if (!this.list) {
