@@ -1,22 +1,9 @@
-.pack-divider {
-    width: 100%;
-    height: 1px;
-    background-color: var(--color-primary);
-    opacity: 0.5;
-}
-
 .pack-rank {
     padding-left: 2.5rem;
     transition: background-color 75ms ease-in;
 }
 
-
 .pack-name {
     margin-bottom: 0.7rem;
     margin-top:0.5rem
-}
-
-.pack-name.active {
-    background-color: var(--color-primary) !important;
-    color: var(--color-on-primary) !important;
 }
