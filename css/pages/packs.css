@@ -5,8 +5,8 @@
     opacity: 0.5;
 }
 
-.pack-level {
-    padding-left: 3rem;
+.pack-rank {
+    padding-left: 2.5rem;
     transition: background-color 75ms ease-in;
 }
 

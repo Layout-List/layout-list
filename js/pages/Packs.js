@@ -24,9 +24,6 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
-                        <td class="rank" style="display: none;">
-                            <p class="type-label-lg">&mdash;</p>
-                        </td>
                         <td class="level">
                             <button @click="selectPack(index, pack.levels)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index) }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
@@ -34,6 +31,10 @@ export default {
                                 </span>
                             </button>
                             <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
+                                <td class="rank pack-rank">
+                                    <p v-if="packLevel.rank === null" class="type-label-lg">&mdash;</p>
+                                    <p v-else class="type-label-lg">#{{ packLevel.rank }}</p>
+                                </td>
                                 <td class="pack-level level" :class="{ 'active': availableIndex == selected, 'error': !packLevel }"> <!-- active when level is selected -->
                                     <button class="type-label-lg" @click="selected = availableIndex">
                                         {{ packLevel.name }}
