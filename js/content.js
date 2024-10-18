@@ -25,6 +25,7 @@ export async function fetchList() {
 
         return await Promise.all(
             list.map(async (path) => {
+                let packs = []
                 const rank = ranks[path] || null;
                 try {
                     const levelResult = await fetch(
@@ -33,23 +34,34 @@ export async function fetchList() {
                     let level = await levelResult.json(); // no longer a constant so we can wrap in the path
 
                     level["path"] = path;
-                    
-                    let packs = packsMap.find((p) => p.levels.includes(path)); // this is mounted on top of levels, used to access packs within the level scope. in hindsight this should have been done outside the level scope but oh well. see fetchPacks() below for that
+
+                    // this is mounted on top of levels, used to access packs within the level scope. 
+                    // in hindsight this should have been done outside the level scope but oh well. 
+                    // see fetchPacks() below for that ig.
+
+                    // this is also really not cool but .filter() is buggy and stupid
+                    packsMap.forEach((pack) => {
+                        if (pack.levels.includes(path)) {
+                            packs.push(pack);
+                            
+                        }
+                    })
 
                     // checks if the packs contains the level's path (json file name)
                     if (packs !== undefined) {
-                        
-                        for (let packlevel in packs.levels) { 
-                            if (packs.levels[packlevel] === path) {
-                                // iterate through every level in the pack,
-                                // and overwrite the level path in the levels array
-                                // with the object it resolves to
-                                packs.levels[packlevel] = level;
-                                packs.levels[packlevel].path = path;
-                                packs.levels[packlevel].rank = rank; // do the same for rank (why)
+                        packs.forEach((pack) => {
+                            for (let packlevel in pack.levels) { 
+                                if (pack.levels[packlevel] === path) {
+                                    // iterate through every level in the pack,
+                                    // and overwrite the level path in the levels array
+                                    // with the object it resolves to
+                                    pack.levels[packlevel] = level;
+                                    pack.levels[packlevel].path = path;
+                                    pack.levels[packlevel].rank = rank; // do the same for rank (why)
 
+                                }
                             }
-                        }
+                        })
                     }
                     
                     return [
@@ -308,20 +320,22 @@ export async function fetchLeaderboard() {
         });
 
         // check if user has verified all levels in pack
-        if (level.packs) {
-            const pack = level.packs;
-            if (Array.isArray(pack.levels)) {
+        if (level.packs.length > 0) {
+            level.packs.forEach((pack) => {
+            
+                if (Array.isArray(pack.levels)) {
 
-                const allVerified = pack.levels.every((packLevel) =>
-                    list.some(([_, __, lvl]) =>
-                        lvl.path == packLevel.path &&
-                        lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
-                    )
-                );
-                if (allVerified) {
-                    completedPacksMap[verifier].add(pack); // why
+                    const allVerified = pack.levels.every((packLevel) =>
+                        list.some(([_, __, lvl]) =>
+                            lvl.path == packLevel.path &&
+                            lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
+                        )
+                    );
+                    if (allVerified) {
+                        completedPacksMap[verifier].add(pack); // why
+                    }
                 }
-            }
+            })
         }
 
 
@@ -360,20 +374,22 @@ export async function fetchLeaderboard() {
                     rating: record.enjoyment,
                 });
 
+
             // check if player has completed all levels in a pack
-            if (level.packs) {  // ensure level.packs is defined
-                const pack = level.packs;
-                if (Array.isArray(pack.levels)) {
-                    const allCompleted = pack.levels.every((packLevel) =>
-                        list.some(([_, __, lvl]) =>
-                            lvl.path == packLevel.path &&
-                            lvl.records.some((r) => r.user === record.user && r.percent === 100)
-                        )
-                    );
-                    if (allCompleted) {
-                        completedPacksMap[user].add(pack);
+            if (level.packs.length > 0) {  // ensure level.packs is defined
+                level.packs.forEach((pack) => {
+                    if (Array.isArray(pack.levels)) {
+                        const allCompleted = pack.levels.every((packLevel) =>
+                            list.some(([_, __, lvl]) =>
+                                lvl.path == packLevel.path &&
+                                lvl.records.some((r) => r.user === record.user && r.percent === 100)
+                            )
+                        );
+                        if (allCompleted) {
+                            completedPacksMap[user].add(pack);
+                        }
                     }
-                }
+                })
             }
             return
         }

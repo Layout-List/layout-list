@@ -1,17 +1,5 @@
 [
     {
-        "name": "Test Pack",
-        "light": [52, 107, 235, 0.9],
-        "dark": [52, 107, 235, 0.9],
-        "difficulty": 1,
-        "levels": [
-            "achelous",
-            "uppercut",
-            "fun_dance",
-            "time_shell"
-        ]
-    },
-    {
         "name": "Rated Pack 1",
         "light": [52, 107, 235, 0.9],
         "dark": [52, 107, 235, 0.9],
@@ -291,17 +279,6 @@
             "lost",
             "tails_doll_007",
             "so_based"
-        ]
-    },
-    {
-        "name": "Former Top 1s Pack",
-        "light": [255, 0, 0],
-        "dark": [167, 37, 37],   
-        "difficulty": 7, 
-        "levels": [
-            "brutal_calamity",
-            "huang_quan",
-            "experiment"
         ]
     },
     {

@@ -39,7 +39,9 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack" :style="{ 'background': store.dark ? rgbaBind(level.packs.dark, 0) : rgbaBind(level.packs.light, 0) }" v-if="level.packs !== undefined">{{ level.packs.name }}</div>
+                    <div class="pack-container" v-if="level.packs.length > 0">
+                    <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(pack.dark, 0) : rgbaBind(pack.light, 0) }">{{ pack.name }}</div>
+                    </div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
