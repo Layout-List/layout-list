@@ -70,6 +70,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "RedNazFM",
+            "link": "https://www.youtube.com/watch?v=_BHC9zKS1Vw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }
