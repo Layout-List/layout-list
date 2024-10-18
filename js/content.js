@@ -39,6 +39,8 @@ export async function fetchList() {
 
                     // checks if the packs contains the level's path (json file name)
 
+                    console.log(rank)
+
                     if (packs !== undefined) {
 
                         
@@ -141,34 +143,40 @@ export async function fetchEditors() {
 }
 
 export async function fetchPacks(list) {
+    const packResult = await fetch(`${dir}/_packs.json`);
 
-    const packsMap = {};
-    let packs = [];
+    const packs = await packResult.json();
 
+
+    
     list.forEach((object) => {
 
         // list is an array > array with length of 3 > usually null (probably errors if any), level rank, level object
 
         let level = object[2]; // why
 
-        if (level.packs) { // if the level is in a pack
-
-            const packExists = packs.some((pack) => pack.name === level.packs.name);
-
-            if (!packExists) {
-
-                packsMap[level.packs] = {
-                    name: level.packs.name,
-                    light: level.packs.light,
-                    dark: level.packs.dark,
-                    levels: level.packs.levels,
-                    difficulty: level.packs.difficulty
-                };
-
-                packs.push(packsMap[level.packs]);
+         
+        packs.forEach(async (pack) => {
+            if (pack.levels) {
+                for (let packlevel in pack.levels) {
+                    if (pack.levels[packlevel] === level.path) {
+        
+                        // iterate through every level in the pack,
+                        // and overwrite the level path in the levels array
+                        // with the object it resolves to
+        
+                        pack.levels[packlevel] = level;
+                        pack.levels[packlevel].path = level.path;
+                        pack.levels[packlevel].rank = object[1]; // do the same for rank (why)
+        
+                    }
+                }
+            } else {
+                // threshold code
             }
-        }
+        })
     });
+    
 
     
     packs.sort(
