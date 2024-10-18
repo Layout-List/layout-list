@@ -33,25 +33,17 @@ export async function fetchList() {
                     let level = await levelResult.json(); // no longer a constant so we can wrap in the path
 
                     level["path"] = path;
-
-                    // load pack
+                    
                     let packs = packsMap.find((p) => p.levels.includes(path)); // this is mounted on top of levels, used to access packs within the level scope. in hindsight this should have been done outside the level scope but oh well. see fetchPacks() below for that
 
                     // checks if the packs contains the level's path (json file name)
-
-                    console.log(rank)
-
                     if (packs !== undefined) {
-
-                        
                         
                         for (let packlevel in packs.levels) { 
                             if (packs.levels[packlevel] === path) {
-
                                 // iterate through every level in the pack,
                                 // and overwrite the level path in the levels array
                                 // with the object it resolves to
-
                                 packs.levels[packlevel] = level;
                                 packs.levels[packlevel].path = path;
                                 packs.levels[packlevel].rank = rank; // do the same for rank (why)
@@ -59,9 +51,6 @@ export async function fetchList() {
                             }
                         }
                     }
-                        
-                    
-                    
                     
                     return [
                         null,
