@@ -10,6 +10,13 @@
     "difficulty": 2,
     "enjoyment": 7,
     "records": [
-        
+         {
+            "user": "Iza",
+            "link": "https://youtu.be/1Y_IH7jLFT0?si=lWPEd-3NryvLQXkW",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 7
+        }
     ]
 }

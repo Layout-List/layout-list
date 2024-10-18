@@ -34,6 +34,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "monthmai",
+            "link": "https://youtu.be/ur5TyL-yjAw?si=b9ZTZkr8LAJ89Vag",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iTlLkchdUIqqKTAPV?invite=cr-MSxiNmwsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
