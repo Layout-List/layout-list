@@ -46,9 +46,10 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-                <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
+                <div v-if="errored !== null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
                     <h2>Error occurred, loser!</h2>
-                    <p>Please let a list mod know that one of the packs you clicked on might be broken.</p>
+                    <p>Please let a list mod know that one of the packs you clicked on might be broken, and show them this message:</p>
+                    <p>{{ errored }}</p>
                 </div>
 
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null">
@@ -172,6 +173,7 @@ export default {
         selectedPackIndex: null,
         hoverIndex: null, // don't ask
         errors: [],
+        errored: null,
         roleIconMap,
         store
     }),
@@ -244,19 +246,24 @@ export default {
         // the levels shown to the user is based on the availableLevels array, it isn't
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, levels) {
-            this.selected = null;
-            this.selectedPackIndex = index;
-            
-            // retrieve the available levels based on the pack index
-            this.availableLevels = levels;
-            this.selected = 0
-            return;
+            try {
+                this.selected = null;
+                this.selectedPackIndex = index;
+                
+                // retrieve the available levels based on the pack index
+                this.availableLevels = levels;
+                this.selected = 0;
+                return;
+            } catch (e) {
+                this.errored = e;
+                return;
+            }
         },
 
         reactiveOpaque(color, index) {
             try {
                 if (this.selectedPackIndex === index) {
-                    return rgbaBind(color, 0)
+                    return rgbaBind(color, 0);
 
                 } else if (this.hoverIndex === index) {
                     return rgbaBind(color, 0.35);
