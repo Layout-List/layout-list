@@ -61,7 +61,9 @@ export async function fetchList() {
 
                                     }
                                 }
-                            } else {
+                            } else if (pack.targetdiff === level.difficulty) {
+                                console.log(pack);
+                                packs.push(pack);
                                 // threshold pack code idk what tto do man,,, 
                             }
                         })
