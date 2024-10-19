@@ -330,19 +330,19 @@ export async function fetchLeaderboard() {
         // check if user has verified all levels in pack
         if (level.packs.length > 0) {
             level.packs.forEach((pack) => {
-            
                 if (Array.isArray(pack.levels)) {
-
                     const allVerified = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
                             lvl.path == packLevel.path &&
-                            lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
+                           lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                         )
                     );
-                    if (allVerified) {
-                        completedPacksMap[verifier].add(pack); // why
-                    }
+                } 
+                
+                if (allVerified) {
+                    completedPacksMap[verifier].add(pack); // why
                 }
+                
             })
         }
 
@@ -386,7 +386,7 @@ export async function fetchLeaderboard() {
             // check if user has completed all levels in a pack
             if (level.packs.length > 0) { 
                 level.packs.forEach((pack) => {
-                    //if (Array.isArray(pack.levels)) {
+                    if (Array.isArray(pack.levels)) {
                         const allCompleted = pack.levels.every((packLevel) =>
                             list.some(([_, __, lvl]) =>
                                 lvl.path == packLevel.path &&
@@ -396,7 +396,7 @@ export async function fetchLeaderboard() {
                         if (allCompleted) {
                             completedPacksMap[user].add(pack);
                         }
-                   // }
+                    }
                 })
             }
             return
