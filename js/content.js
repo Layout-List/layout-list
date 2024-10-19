@@ -331,7 +331,7 @@ export async function fetchLeaderboard() {
         if (level.packs.length > 0) {
             level.packs.forEach((pack) => {
             
-                //if (Array.isArray(pack.levels)) {
+                if (Array.isArray(pack.levels)) {
 
                     const allVerified = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
@@ -342,7 +342,7 @@ export async function fetchLeaderboard() {
                     if (allVerified) {
                         completedPacksMap[verifier].add(pack); // why
                     }
-              //  }
+                }
             })
         }
 
