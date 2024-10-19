@@ -47,8 +47,8 @@ export default {
             </div>
             <div class="level-container">
                 <div v-if="selectedPackIndex === null && selected === null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
-                    <p>Click on a pack to display its levels!</p>
-                    <p>You can request a role in the Discord server if you complete all levels in a pack.</p>
+                    <h2>Error occurred, loser!</h2>
+                    <p>Please let a list mod know that one of the packs you clicked on might be broken.</p>
                 </div>
 
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null">
@@ -244,13 +244,6 @@ export default {
         // the levels shown to the user is based on the availableLevels array, it isn't
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, levels) {
-            if (this.selectedPackIndex === index) {
-                this.selected = null;
-                this.selectedPackIndex = null;
-                this.availableLevels = [];
-                return;
-
-            }
             this.selected = null;
             this.selectedPackIndex = index;
             
