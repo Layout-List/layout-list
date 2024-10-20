@@ -10,6 +10,13 @@
     "song": "<song> - xorberax",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "Poke Zach",
+            "link": "https://truthsocial.com/@PokeZach/posts/113341911743882562",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
     ]
 }
