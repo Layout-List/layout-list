@@ -347,6 +347,7 @@ export async function fetchLeaderboard() {
 
                     // Check if the user has completed as many levels as the pack's threshold
                     if (completedInDifficulty >= pack.threshold) {
+                        console.log("verifier " + verifier + completedInDifficulty)
                         completedPacksMap[verifier].add(pack);
                     }
                 }
@@ -392,7 +393,6 @@ export async function fetchLeaderboard() {
 
             // check if user has completed all levels in a pack
             if (level.packs.length > 0) {
-                let completedCount = 0;
                 level.packs.forEach((pack) => {
                     if (Array.isArray(pack.levels)) {
                         const allCompleted = pack.levels.every((packLevel) =>
@@ -408,14 +408,12 @@ export async function fetchLeaderboard() {
                         // Count levels completed by the user in the current difficulty
                         const completedInDifficulty = list.filter(([_, __, lvl]) =>
                             lvl.difficulty === level.difficulty && 
-                            lvl.records.some((r) => r.user === record.user && r.percent === 100) || lvl.verifier.toLowerCase() === verifier.toLowerCase()
+                            lvl.records.some((r) => r.user === record.user && r.percent === 100) || lvl.verifier.toLowerCase() === user.toLowerCase()
                         )
                         .length;
 
                         // Check if the user has completed as many levels as the pack's threshold
-                        if (completedInDifficulty >= pack.threshold) {
-                            completedPacksMap[user].add(pack);
-                        }
+                        if (completedInDifficulty >= pack.threshold) completedPacksMap[user].add(pack);
                     }
                 });
             }
