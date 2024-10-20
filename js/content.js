@@ -337,12 +337,10 @@ export async function fetchLeaderboard() {
                            lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                         )
                     );
-                } 
-                
-                if (allVerified) {
-                    completedPacksMap[verifier].add(pack); // why
+                    if (allVerified) {
+                        completedPacksMap[verifier].add(pack); // why
+                    }
                 }
-                
             })
         }
 
@@ -384,7 +382,8 @@ export async function fetchLeaderboard() {
 
 
             // check if user has completed all levels in a pack
-            if (level.packs.length > 0) { 
+            if (level.packs.length > 0) {
+                let completedCount = 0;
                 level.packs.forEach((pack) => {
                     if (Array.isArray(pack.levels)) {
                         const allCompleted = pack.levels.every((packLevel) =>
@@ -396,8 +395,20 @@ export async function fetchLeaderboard() {
                         if (allCompleted) {
                             completedPacksMap[user].add(pack);
                         }
+                    } else if (pack.targetdiff === level.difficulty) {
+                        // Count levels completed by the user in the current difficulty
+                        const completedInDifficulty = list.filter(([_, __, lvl]) =>
+                            lvl.difficulty === level.difficulty && 
+                            lvl.records.some((r) => r.user === record.user && r.percent === 100) || lvl.verifier.toLowerCase() === verifier.toLowerCase()
+                        )
+                        .length;
+
+                        // Check if the user has completed as many levels as the pack's threshold
+                        if (completedInDifficulty >= pack.threshold) {
+                            completedPacksMap[user].add(pack);
+                        }
                     }
-                })
+                });
             }
             return
         }
