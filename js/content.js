@@ -390,7 +390,6 @@ export async function fetchLeaderboard() {
                     rating: record.enjoyment,
                 });
 
-
             // check if user has completed all levels in a pack
             if (level.packs.length > 0) {
                 level.packs.forEach((pack) => {
@@ -414,6 +413,7 @@ export async function fetchLeaderboard() {
 
                         // Check if the user has completed as many levels as the pack's threshold
                         if (completedInDifficulty >= pack.threshold) completedPacksMap[user].add(pack);
+                        else console.log(user + completedInDifficulty)
                     }
                 });
             }

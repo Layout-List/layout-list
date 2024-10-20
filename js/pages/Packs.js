@@ -47,8 +47,9 @@ export default {
             </div>
             <div class="level-container">
                 <div v-if="errored !== null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
-                    <h2>Error occurred, loser!</h2>
-                    <p>Please let a list mod know that one of the packs you clicked on might be broken, and show them this message:</p>
+                    <img src="https://uploads.dailydot.com/2023/10/Shocked-Meme.jpg?auto=compress&fm=pjpg" style=height:13rem;margin-bottom:3rem;>
+                    <h2>Error detected, loser!</h2>
+                    <p>Please let a list mod know that the pack you just clicked on might be broken, and show them this message:</p>
                     <p>{{ errored }}</p>
                 </div>
 
@@ -183,11 +184,19 @@ export default {
         // the handling for selecting these is below
 
         selectedPack() {
-            return this.packs[this.selectedPackIndex] || null;
+            try {
+                return this.packs[this.selectedPackIndex] || null;
+            } catch (e) {
+                this.errored = e; return;
+            }
         },
 
         level() {
-            return this.packs[this.selectedPackIndex].levels[this.selected] || null;
+            try {
+                return this.packs[this.selectedPackIndex].levels[this.selected] || null;
+            } catch (e) {
+                this.errored = e; return;
+            }
         },
         
         video() {
@@ -246,6 +255,7 @@ export default {
         // the levels shown to the user is based on the availableLevels array, it isn't
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, levels) {
+            this.errored = null;
             try {
                 this.selected = null;
                 this.selectedPackIndex = index;
@@ -272,7 +282,7 @@ export default {
                 }
 
             } catch (e) {
-                console.error("Failed to color pack: " + e);
+                console.error(`Failed to color pack: ${e}`);
                 return `rgba(110, 110, 110, 0.7)`;
             }
         },
