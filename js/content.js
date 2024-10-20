@@ -62,9 +62,7 @@ export async function fetchList() {
                                     }
                                 }
                             } else if (pack.targetdiff === level.difficulty) {
-                                console.log(pack);
                                 packs.push(pack);
-                                // threshold pack code idk what tto do man,,, 
                             }
                         })
                     } catch {
@@ -244,7 +242,6 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    let userPacks = [];
     let possibleMax = 0;
 
     const completedPacksMap = {};
@@ -319,7 +316,7 @@ export async function fetchLeaderboard() {
         };
         completedPacksMap[verifier] ??= new Set();
 
-        const { verified, userPacks } = scoreMap[verifier];
+        const { verified } = scoreMap[verifier];
         verified.push({
             rank,
             level: level.name,
@@ -339,6 +336,18 @@ export async function fetchLeaderboard() {
                     );
                     if (allVerified) {
                         completedPacksMap[verifier].add(pack); // why
+                    }
+                } else if (pack.targetdiff === level.difficulty) {
+                    // Count levels completed by the user in the current difficulty
+                    const completedInDifficulty = list.filter(([_, __, lvl]) =>
+                        lvl.difficulty === level.difficulty && 
+                        lvl.verifier.toLowerCase() === verifier.toLowerCase()
+                    )
+                    .length;
+
+                    // Check if the user has completed as many levels as the pack's threshold
+                    if (completedInDifficulty >= pack.threshold) {
+                        completedPacksMap[verifier].add(pack);
                     }
                 }
             })
@@ -369,7 +378,7 @@ export async function fetchLeaderboard() {
             
             completedPacksMap[user] ??= new Set();
 
-            const { completed, progressed, userPacks } = scoreMap[user];
+            const { completed, progressed } = scoreMap[user];
 
             if (record.percent === 100) {
                 completed.push({
