@@ -4,7 +4,7 @@
         "light": [52, 107, 235, 0.9],
         "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
-        "targetdiff": 0,
+        "targetdiff": 10,
         "threshold": 2
     },
     {
@@ -44,7 +44,6 @@
             "florescent"
         ]
     },
-    
     {
         "name": "Quacker Pack",
         "light": [19, 204, 232],

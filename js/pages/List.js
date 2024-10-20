@@ -39,7 +39,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack-container" v-if="level.packs.length > 0">
+                    <div class="pack-container" v-if="level.packs.length > 1 || level.packs[0]?.threshold"> <!-- im the goat holy fuck -->
                         <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(pack.dark, 0) : rgbaBind(pack.light, 0) }">{{ pack.name }}</div>
                     </div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
