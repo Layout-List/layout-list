@@ -133,41 +133,15 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
                     </div>
-                    <template v-if="editors">
-                        <h3>List Editors</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors" :key="editor.name">
-                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
-                                <p v-else>{{ editor.name }}</p>
-                            </li>
-                        </ol>
-                    </template>
-                    <h3>Submission Requirements</h3>
-                    <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
-                    </p>
-                    <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
-                    </p>
-                    <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
-                    </p>
-                    <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
-                    </p>
-                    <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
-                    </p>
-                    <p>
-                        Do not use secret routes or bug routes
-                    </p>
-                    <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
-                    </p>
+                    <h3>About the packs</h3>
+                    <p>These are sets of levels on the Layout List chosen by the Layout List staff team that share distinct commonalities and are within a close difficulty range (generally +- 1 difficulty tier).</p>
+                    <p>If you have a suggestion for a new pack, feel free to share it with us in #list-discussion in our Discord server!</p>
+                    <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the role for completing the pack!</p>
+
+How can I get these packs?
+You get packs by beating all levels that are under them.
+
+Thanks to KrisGra for helping to make the packs functionality.
                 </div>
             </div>
         </main>
