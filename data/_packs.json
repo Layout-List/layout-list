@@ -4,8 +4,7 @@
         "light": [52, 107, 235, 0.9],
         "dark": [52, 107, 235, 0.9],
         "difficulty": 1,
-        "levels": [
-        ]
+        "levels": []
     },
     {
         "name": "Rated Pack 1",
