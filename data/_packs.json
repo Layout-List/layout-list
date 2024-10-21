@@ -1,13 +1,5 @@
 [
     {
-        "name": "Silent Pack",
-        "light": [52, 107, 235, 0.9],
-        "dark": [52, 107, 235, 0.9],
-        "difficulty": 1,
-        "targetdiff": 10,
-        "threshold": 5
-    },
-    {
         "name": "Rated Pack 1",
         "light": [52, 107, 235, 0.9],
         "dark": [52, 107, 235, 0.9],
