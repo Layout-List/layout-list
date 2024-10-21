@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level">
-                            <button @click="selectPack(index, pack.levels)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index) }" :class="{ 'error': !pack }">
+                            <button @click="selectPack(index, pack)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(pack.light, index) }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
@@ -53,7 +53,12 @@ export default {
                     <p>{{ errored }}</p>
                 </div>
 
-                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null">
+                <div v-else-if="selectedThreshold !== undefined" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
+                    <h1>{{ selectedThreshold.name }}</h1>
+                    <h3>Beat {{ selectedThreshold.threshold }} levels in the {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][selectedThreshold.targetdiff]}} difficulty to complete this pack!</h3>
+                </div>
+
+                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedThreshold === undefined">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
@@ -172,6 +177,7 @@ export default {
         loading: true,
         selected: null,
         selectedPackIndex: null,
+        selectedThreshold: undefined,
         hoverIndex: null, // don't ask
         errors: [],
         errored: null,
@@ -185,6 +191,7 @@ export default {
 
         selectedPack() {
             try {
+                this.errored = undefined;
                 return this.packs[this.selectedPackIndex] || null;
             } catch (e) {
                 this.errored = e; return;
@@ -193,6 +200,7 @@ export default {
 
         level() {
             try {
+                
                 return this.packs[this.selectedPackIndex].levels[this.selected] || null;
             } catch (e) {
                 this.errored = e; return;
@@ -236,7 +244,7 @@ export default {
             }
         }
         
-        this.selectPack(0, this.packs[0].levels); 
+        this.selectPack(0, this.packs[0]); 
         // its easier to initialize the site like this because
         // the levels are sent to the availableLevels array when this function is called
         // ie when the pack button is clicked
@@ -254,14 +262,24 @@ export default {
         // initialize the selected pack
         // the levels shown to the user is based on the availableLevels array, it isn't
         // directly based on the pack selected but is set here after a pack is selected
-        selectPack(index, levels) {
+        selectPack(index, pack) {
             this.errored = null;
+            const levels = pack.levels ? pack.levels : null;
+            console.log(levels);
+
             try {
                 this.selected = null;
                 this.selectedPackIndex = index;
                 
                 // retrieve the available levels based on the pack index
-                this.availableLevels = levels;
+                if (levels !== null) {
+                    this.availableLevels = levels;
+                    this.selectedThreshold = undefined;
+                } else {
+                    this.availableLevels = [];
+                    this.selectedThreshold = pack;
+                }
+
                 this.selected = 0;
                 return;
             } catch (e) {
