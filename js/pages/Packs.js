@@ -117,13 +117,6 @@ export default {
                     <h1>{{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][selectedPackIndex] Pack}}</h1>
                     <h3>Beat any 5 layouts in the {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} tier that are not in any other packs</h3>
                     <h2>Records ({{ selectedRecords.length }})</h2>
-                    <table class="records">
-                        <tr v-for="record in selectedRecords" class="record">
-                            <td class="user">
-                                <a>{{ record }}</a>
-                            </td>
-                        </tr>
-                    </table>
                     <h1>hi</h1>
                     
                     <p v-for="record in selectedRecords">{{ record }}</p>
