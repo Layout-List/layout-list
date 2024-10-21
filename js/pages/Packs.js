@@ -115,7 +115,7 @@ export default {
 
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
-                    <h3 v-if="selectedPack.levels === null">Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty - 1] }} tier that are not in any other packs</h3>
+                    <h3 v-if="selectedPack.levels.length === 0">Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty - 1] }} tier that are not in any other packs</h3>
                     <h2>Records ({{ selectedRecords.length }})</h2>
                     <p v-for="record in selectedRecords">{{ record }}</p>
                 </div>
