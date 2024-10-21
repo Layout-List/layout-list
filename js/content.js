@@ -583,7 +583,35 @@ export function fetchTierMinimum(list, difficulty) {
 }
 
 export function lightPackColor(difficulty) {
-    let r = 0;
+     switch (difficulty) {
+        case 1:
+            const rgba = [52, 107, 235, 0.9];
+            break;
+        case 2:
+            const rgba = [19, 204, 232];
+            break;
+        case 3:
+            const rgba = [52, 150, 82];
+            break;
+        case 4:
+            const rgba = [184, 199, 13];
+            break;
+        case 5:
+            const rgba = [13, 0, 255, 0.8];
+            break;
+        case 6:
+            const rgba = [130, 62, 206, 0.7];
+            break;
+        case 7:
+            const rgba = [255, 0, 0];
+            break;
+        default:
+            const rgba = [];
+            break;
+     }
+    return rgba;
+}
+    /*let r = 0;
     let g = 0;
     let b = 0;
     let a = 1;
@@ -628,7 +656,7 @@ export function lightPackColor(difficulty) {
             break;
     }
     return [r, g, b, a];
-}
+}*/
 
 export function darkPackColor(difficulty) {
     return [26, 194, 219, 0.8];
