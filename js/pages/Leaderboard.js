@@ -1,4 +1,4 @@
-import { fetchLeaderboard } from '../content.js';
+import { fetchLeaderboard, lightPackColor, darkPackColor } from '../content.js';
 import { localize, rgbaBind } from '../util.js';
 import { store } from '../main.js';
 
@@ -56,7 +56,7 @@ export default {
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <div class="pack-container" v-if="entry.userPacks.length > 0">
-                            <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(pack.dark, 0.2) : rgbaBind(pack.light, 0.3) }">{{ pack.name }}</div>
+                            <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }">{{ pack.name }}</div>
                         </div>
                         <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
                         <table class="table" v-if="entry.created.length > 0">
@@ -143,5 +143,7 @@ export default {
     methods: {
         localize,
         rgbaBind,
+        lightPackColor,
+        darkPackColor,
     },
 };
