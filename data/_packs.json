@@ -1,40 +1,5 @@
 [
     {
-        "name": "Beginner Pack",
-        "difficulty": 1,
-        "levels": []
-    },
-    {
-        "name": "Easy Pack",
-        "difficulty": 2,
-        "levels": []
-    },
-    {
-        "name": "Medium Pack",
-        "difficulty": 3,
-        "levels": []
-    },
-    {
-        "name": "Hard Pack",
-        "difficulty": 4,
-        "levels": []
-    },
-    {
-        "name": "Insane Pack",
-        "difficulty": 5,
-        "levels": []
-    },
-    {
-        "name": "Mythical Pack",
-        "difficulty": 6,
-        "levels": []
-    },
-    {
-        "name": "Extreme Pack",
-        "difficulty": 7,
-        "levels": []
-    },
-    {
         "name": "Rated Pack 1",
         "difficulty": 1,
         "levels": [
@@ -275,5 +240,40 @@
             "huang_quan",
             "experiment"
         ]
+    },
+    {
+        "name": "Beginner Pack",
+        "difficulty": 1,
+        "levels": []
+    },
+    {
+        "name": "Easy Pack",
+        "difficulty": 2,
+        "levels": []
+    },
+    {
+        "name": "Medium Pack",
+        "difficulty": 3,
+        "levels": []
+    },
+    {
+        "name": "Hard Pack",
+        "difficulty": 4,
+        "levels": []
+    },
+    {
+        "name": "Insane Pack",
+        "difficulty": 5,
+        "levels": []
+    },
+    {
+        "name": "Mythical Pack",
+        "difficulty": 6,
+        "levels": []
+    },
+    {
+        "name": "Extreme Pack",
+        "difficulty": 7,
+        "levels": []
     }
 ]
