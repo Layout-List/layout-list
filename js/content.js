@@ -607,6 +607,7 @@ export function lightPackColor(difficulty) {
             break;
         default:
             const rgba = [];
+            break;
     return rgba;
 }
 
