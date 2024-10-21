@@ -113,8 +113,8 @@ export default {
                     </table>
                 </div>
 
-                <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
-                    <h1>{{ selectedPack.name }}</h1>
+                <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
+                    <h1>hi</h1>
                 </div>
                 
                 
@@ -179,6 +179,7 @@ export default {
         selectedPackIndex: null,
         selectedThreshold: undefined,
         hoverIndex: null, // don't ask
+        selectedRecords: null,
         errors: [],
         errored: null,
         roleIconMap,
@@ -200,7 +201,6 @@ export default {
 
         level() {
             try {
-                
                 return this.packs[this.selectedPackIndex].levels[this.selected] || null;
             } catch (e) {
                 this.errored = e; return;
@@ -279,7 +279,10 @@ export default {
                     this.availableLevels = [];
                     this.selectedThreshold = pack;
                 }
+                
+                this.selectedRecords = this.records[pack.name];
                 return;
+                
             } catch (e) {
                 this.errored = e;
                 return;
