@@ -265,7 +265,6 @@ export default {
         selectPack(index, pack) {
             this.errored = null;
             const levels = pack.levels ? pack.levels : null;
-            console.log(levels);
 
             try {
                 this.selected = null;

@@ -347,7 +347,6 @@ export async function fetchLeaderboard() {
 
                     // Check if the user has completed as many levels as the pack's threshold
                     if (completedInDifficulty >= pack.threshold) {
-                        console.log("verifier " + verifier + completedInDifficulty)
                         completedPacksMap[verifier].add(pack);
                     }
                 }
@@ -413,7 +412,6 @@ export async function fetchLeaderboard() {
 
                         // Check if the user has completed as many levels as the pack's threshold
                         if (completedInDifficulty >= pack.threshold) completedPacksMap[user].add(pack);
-                        else console.log(user + completedInDifficulty)
                     }
                 });
             }

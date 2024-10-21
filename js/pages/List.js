@@ -213,7 +213,6 @@ export default {
   
     computed: {
         level() {
-            console.log(this.list[this.selected][2].packs)
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
