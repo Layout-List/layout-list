@@ -45,6 +45,8 @@ export default {
                     </tr>
                 </table>
             </div>
+
+            <!-- level page :shocked: -->
             <div class="level-container">
                 <div v-if="errored !== null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
                     <img src="https://uploads.dailydot.com/2023/10/Shocked-Meme.jpg?auto=compress&fm=pjpg" style=height:13rem;margin-bottom:3rem;>
@@ -113,10 +115,11 @@ export default {
                     </table>
                 </div>
 
+                <!-- pack info page, including  -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
-                    <h3 v-if="selectedPack.levels.length === 0">Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty - 1] }} tier that are not in any other packs</h3>
-                    <h2>Records ({{ selectedRecords.length }})</h2>
+                    <h3 v-if="selectedPack.targetdiff" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty - 1] }} tier that are not in any other packs</h3>
+                    <h2>Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
                     <p v-for="record in selectedRecords">{{ record }}</p>
                 </div>
                 
@@ -135,7 +138,7 @@ export default {
                     </div>
                     <h3>About the packs</h3>
                     <p>These are sets of levels on the Layout List chosen by the Layout List staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
-                    <p>If you have a suggestion for a new pack, feel free to share it with us in #list-discussion in our Discord server!</p>
+                    <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
                     <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the role for completing the pack!</p>
                 </div>
             </div>
@@ -200,6 +203,7 @@ export default {
 
         console.log(this.records);
 
+
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -240,7 +244,7 @@ export default {
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, pack) {
             this.errored = null;
-            const levels = pack.levels ? pack.levels : null;
+            const levels = pack.levels || null
 
             try {
                 this.selected = null;
@@ -257,6 +261,8 @@ export default {
                 }
                 
                 this.selectedRecords = this.records[pack.name];
+                console.log(this.selectedRecords)
+                console.log(this.selectedRecords.size)
                 return;
                 
             } catch (e) {
