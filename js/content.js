@@ -237,6 +237,8 @@ export async function fetchPackRecords(packs) {
 
 export async function fetchLeaderboard() {
     const list = await fetchList();
+    const packs = await fetchPacks(list);
+    const packRecords = await fetchPackRecords(packs);
 
     const scoreMap = {};
     const errs = [];
