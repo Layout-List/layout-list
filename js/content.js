@@ -582,11 +582,10 @@ export function fetchTierMinimum(list, difficulty) {
     return tierMin;
 }
 
-export function packColor(difficulty, mode) {
-    switch (difficulty) {
-        case 1:
-            return [52, 107, 235, 0.9];
-        default:
-            return [19, 204, 232];
-    }
+export function lightPackColor(difficulty) {
+    return [52, 107, 235, 0.9];
+}
+
+export function darkPackColor(difficulty) {
+    return [26, 194, 219, 0.8];
 }
