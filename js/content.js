@@ -626,7 +626,7 @@ export function lightPackColor(difficulty) {
             break;
         default:
             break;
-    return [r, g, b, a];
+    return [167, 37, 37];
 }
 
 export function darkPackColor(difficulty) {
