@@ -583,32 +583,50 @@ export function fetchTierMinimum(list, difficulty) {
 }
 
 export function lightPackColor(difficulty) {
+    let r = 0;
+    let g = 0;
+    let b = 0;
+    let a = 1;
+    
     switch (difficulty) {
         case 1:
-            const rgba = [52, 107, 235, 0.9];
+            r = 52;
+            g = 107;
+            b = 235;
+            a = 0.9;
             break;
         case 2:
-            const rgba = [19, 204, 232];
+            r = 19;
+            g = 204;
+            b = 232;
             break;
         case 3:
-            const rgba = [52, 150, 82];
+            r = 52;
+            g = 150;
+            b = 82;
             break;
         case 4:
-            const rgba = [184, 199, 13];
+            r = 184;
+            g = 199;
+            b = 13;
             break;
         case 5:
-            const rgba = [13, 0, 255, 0.8];
+            r = 13;
+            b = 255;
+            a = 0.8;
             break;
         case 6:
-            const rgba = [130, 62, 206, 0.7];
+            r = 130;
+            g = 62;
+            b = 206;
+            a = 0.7;
             break;
         case 7:
-            const rgba = [255, 0, 0];
+            r = 255;
             break;
         default:
-            const rgba = [];
             break;
-    return rgba;
+    return [r, g, b, a];
 }
 
 export function darkPackColor(difficulty) {
