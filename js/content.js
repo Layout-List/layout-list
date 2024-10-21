@@ -583,7 +583,7 @@ export function fetchTierMinimum(list, difficulty) {
 }
 
 export function lightPackColor(difficulty) {
-    const rgba = [52, 107, 235, 0.9];
+    const rgba = [19, 204, 232];
     return rgba;
 }
 
