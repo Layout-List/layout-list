@@ -131,7 +131,7 @@ export default {
                         <p class="error" v-for="error of errors" :key="error">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
+                        <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, list originally created by DJ JDK & Blathers.</p>
                     </div>
                     <h3>About the packs</h3>
                     <p>These are sets of levels on the Layout List chosen by the Layout List staff team that share distinct commonalities and are within a close difficulty range (generally +- 1 difficulty tier).</p>
