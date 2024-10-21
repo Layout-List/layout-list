@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
 import { score, averageEnjoyment } from "../score.js";
-import { fetchEditors, fetchList, fetchPacks, fetchPackRecords, packColor } from "../content.js"; // haha pull up to the Export Function () be like LMAO! those who know:
+import { fetchEditors, fetchList, fetchPacks, fetchPackRecords, lightPackColor, darkPackColor } from "../content.js"; // haha pull up to the Export Function () be like LMAO! those who know:
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="packs">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level">
-                            <button @click="selectPack(index, pack)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(packColor(pack.difficulty, "light"), index) }" :class="{ 'error': !pack }">
+                            <button @click="selectPack(index, pack)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(pack.dark, index) : reactiveOpaque(lightPackColor(pack.difficulty), index) }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
@@ -263,7 +263,8 @@ export default {
         fetchPacks,
         fetchPackRecords,
         averageEnjoyment,
-        packColor,
+        lightPackColor,
+        darkPackColor,
 
         // initialize the selected pack
         // the levels shown to the user is based on the availableLevels array, it isn't
@@ -311,7 +312,5 @@ export default {
                 return `rgba(110, 110, 110, 0.7)`;
             }
         },
-        
-        
     }
 };
