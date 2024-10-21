@@ -167,6 +167,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "GMD YIBWATERSCUSSY",
+            "link": "https://youtu.be/ldUPtWpH6tA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
