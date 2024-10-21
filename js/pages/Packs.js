@@ -179,6 +179,7 @@ export default {
         editors: [],
         loading: true,
         selected: null,
+        selectedPack: this.packs[0],
         selectedPackIndex: null,
         selectedThreshold: undefined,
         hoverIndex: null, // don't ask
