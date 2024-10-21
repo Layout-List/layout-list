@@ -59,6 +59,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/oREP7dwI37M?si=MOd6J2W18EJvR4GJ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }
