@@ -231,7 +231,7 @@ export async function fetchPackRecords(packs) {
         })
     })
 
-    return completedPacksMap
+    return completedPacksMap.sort()
 
 }
 
