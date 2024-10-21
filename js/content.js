@@ -631,5 +631,51 @@ export function lightPackColor(difficulty) {
 }
 
 export function darkPackColor(difficulty) {
-    return [26, 194, 219, 0.8];
+    let r = 0;
+    let g = 0;
+    let b = 0;
+    let a = 1;
+    
+    switch (difficulty) {
+        case 1:
+            r = 52;
+            g = 107;
+            b = 235;
+            a = 0.9;
+            break;
+        case 2:
+            r = 26;
+            g = 194;
+            b = 219;
+            a = 0.8;
+            break;
+        case 3:
+            r = 26;
+            g = 97;
+            b = 19;
+            break;
+        case 4:
+            r = 209;
+            g = 209;
+            b = 36;
+            break;
+        case 5:
+            r = 81;
+            g = 61;
+            b = 204;
+            break;
+        case 6:
+            r = 130;
+            g = 62;
+            b = 206;
+            break;
+        case 7:
+            r = 167;
+            g = 37;
+            b = 37;
+            break;
+        default:
+            break;
+    }
+    return [r, g, b, a];
 }
