@@ -115,6 +115,8 @@ export default {
 
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                     <h1>hi</h1>
+                    
+                    <p v-for="record in selectedRecords">{{ record }}</p>
                 </div>
                 
                 
@@ -179,7 +181,7 @@ export default {
         selectedPackIndex: null,
         selectedThreshold: undefined,
         hoverIndex: null, // don't ask
-        selectedRecords: null,
+        selectedRecords: [],
         errors: [],
         errored: null,
         roleIconMap,
