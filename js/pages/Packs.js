@@ -279,8 +279,6 @@ export default {
                     this.availableLevels = [];
                     this.selectedThreshold = pack;
                 }
-
-                this.selected = 0;
                 return;
             } catch (e) {
                 this.errored = e;
