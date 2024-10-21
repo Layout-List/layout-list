@@ -178,6 +178,7 @@ export async function fetchPacks(list) {
         
                     }
                 }
+                pack.levels.sort((b, a) => b.rank - a.rank);
             } else {
                 // threshold code
             }
