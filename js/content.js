@@ -215,25 +215,22 @@ export async function fetchPackRecords(packs) {
     
     
     users.forEach((user) => {
-        completedPacksMap[user] ??= new Set();
 
         packs.forEach((pack) => {
+            completedPacksMap[pack.name] ??= new Set();
             const allCompleted = pack.levels.every((packLevel) => {
-
                 if (!packLevel.records) return;
-                
-                return packLevel.records.some((record) => record.user === user);
+                return packLevel.records.some((record) => 
+                    record.user.toLowerCase() === user.toLowerCase() || 
+                    packLevel.verifier.toLowerCase() === user.toLowerCase());
             });
             if (allCompleted) {
-                completedPacksMap[user].add(pack);
+                completedPacksMap[pack.name].add(user);
             }
         })
     })
 
-    
-
-
-    return records
+    return completedPacksMap
 
 }
 
