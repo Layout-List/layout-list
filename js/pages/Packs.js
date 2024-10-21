@@ -179,7 +179,7 @@ export default {
         editors: [],
         loading: true,
         selected: null,
-        selectedPack: this.packs[0],
+        selectedPack: null,
         selectedPackIndex: null,
         selectedThreshold: undefined,
         hoverIndex: null, // don't ask
@@ -273,6 +273,7 @@ export default {
 
             try {
                 this.selected = null;
+                this.selectedPack = pack;
                 this.selectedPackIndex = index;
                 
                 // retrieve the available levels based on the pack index
