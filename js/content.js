@@ -179,8 +179,6 @@ export async function fetchPacks(list) {
                     }
                 }
                 pack.levels.sort((b, a) => b.rank - a.rank);
-            } else {
-                // threshold code
             }
         })
     });
@@ -207,7 +205,9 @@ export async function fetchPackRecords(packs) {
         pack.levels.forEach((level) =>  {
             if (level.records) {
                 level.records.forEach((record) => {
-                    users.push(record.user)
+                    const exists = users.find((user) => record.user.toLowerCase() === user.toLowerCase())
+                    console.log(exists)
+                    if (!exists) users.push(record.user)
                 })
             }
         })
