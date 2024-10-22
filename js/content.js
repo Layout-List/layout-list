@@ -41,7 +41,7 @@ export async function fetchList() {
 
                     // this is also really not cool but .filter() is buggy and stupid
                     try {
-                        packsMap.forEach(async (pack) => {
+                        packsMap.forEach((pack) => {
 
                             if (pack.levels) { 
                                 if (pack.levels.includes(path)) {
@@ -156,7 +156,7 @@ export async function fetchPacks(list) {
 
 
     
-    list.forEach(async (object) => {
+    list.forEach((object) => {
 
         // list is an array > array with length of 3 > usually null (probably errors if any), level rank, level object
 
@@ -180,7 +180,7 @@ export async function fetchPacks(list) {
                 }
                 pack.levels.sort((b, a) => b.rank - a.rank);
             } else {
-                
+                // threshold code
             }
         })
     });
@@ -203,10 +203,10 @@ export async function fetchPackRecords(packs) {
 
     
 
-    packs.forEach(async (pack) => {
-        pack.levels.forEach(async (level) =>  {
+    packs.forEach((pack) => {
+        pack.levels.forEach((level) =>  {
             if (level.records) {
-                level.records.forEach(async (record) => {
+                level.records.forEach((record) => {
                     users.push(record.user)
                 })
             }
@@ -215,9 +215,9 @@ export async function fetchPackRecords(packs) {
 
     
     
-    users.forEach(async (user) => {
+    users.forEach((user) => {
 
-        packs.forEach(async (pack) => {
+        packs.forEach((pack) => {
             completedPacksMap[pack.name] ??= new Set();
             const allCompleted = pack.levels.every((packLevel) => {
                 if (!packLevel.records) return;
@@ -324,7 +324,7 @@ export async function fetchLeaderboard() {
 
         // check if user has verified all levels in pack
         if (level.packs.length > 0) {
-            level.packs.forEach(async (pack) => {
+            level.packs.forEach((pack) => {
                 if (Array.isArray(pack.levels)) {
                     const allVerified = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
@@ -389,7 +389,7 @@ export async function fetchLeaderboard() {
 
             // check if user has completed all levels in a pack
             if (level.packs.length > 0) {
-                level.packs.forEach(async (pack) => {
+                level.packs.forEach((pack) => {
                     if (Array.isArray(pack.levels)) {
                         const allCompleted = pack.levels.every((packLevel) =>
                             list.some(([_, __, lvl]) =>
@@ -431,10 +431,7 @@ export async function fetchLeaderboard() {
     Object.entries(completedPacksMap).forEach(([user, packs]) => {
         const uniquePacks = Array.from(packs);
         scoreMap[user].userPacks.push(...uniquePacks);
-        
-        if (uniquePacks.length > 0) console.log(user, uniquePacks.length)
     });
-    
     
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {

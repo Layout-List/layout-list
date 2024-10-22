@@ -202,6 +202,8 @@ export default {
         this.packs = await fetchPacks(this.list);
         this.records = await fetchPackRecords(this.packs);
 
+        console.log(this.records);
+
 
         // Error handling
         if (!this.list) {
@@ -260,6 +262,8 @@ export default {
                 }
                 
                 this.selectedRecords = this.records[pack.name];
+                console.log(this.selectedRecords)
+                console.log(this.selectedRecords.size)
                 return;
                 
             } catch (e) {
