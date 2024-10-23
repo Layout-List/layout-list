@@ -87,7 +87,7 @@ Can I submit multiple levels in one video?
 ## List Helpers:
 
 * Asteria.
-* hydraniac
+* Hydraniac
 * Poke Zach
 * zDark
 
