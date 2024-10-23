@@ -1,6 +1,11 @@
 [
     {
         "role": "owner",
+        "name": "Evil",
+        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+    },
+    {
+        "role": "owner",
         "name": "Mystikl",
         "link": "https://www.youtube.com/@lMystikl"
     },
@@ -10,29 +15,24 @@
         "link": "https://www.youtube.com/channel/UCMtN24VDa4x5OfENd6zMxXQ"
     },
     {
-        "role": "owner",
-        "name": "evil",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+        "role": "helper",
+        "name": "Asteria.",
+        "link": "https://www.youtube.com/@Asteriiiaa"
     },
     {
-        "role": "helper",
-        "name": "Poke Zach",
-        "link": "https://youtube.com/@LookAtThisHumongousStick?si=QWtWuTdiLrwwqDOm"
-    },
-     {
         "role": "helper",
         "name": "Hydraniac",
         "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
     },
     {
         "role": "helper",
-        "name": "NiXaNTy",
-        "link": "https://youtube.com/@nixantyreal"
+        "name": "Poke Zach",
+        "link": "https://youtube.com/@LookAtThisHumongousStick?si=QWtWuTdiLrwwqDOm"
     },
     {
         "role": "helper",
-        "name": "Asteria.",
-        "link": "https://www.youtube.com/@Asteriiiaa"
+        "name": "zDark",
+        "link": "https://m.youtube.com/@zDarkHTRR"
     },
     {
         "role": "dev",

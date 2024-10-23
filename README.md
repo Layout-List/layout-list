@@ -78,17 +78,18 @@ Can I submit multiple levels in one video?
 ## List Admins:
 
 * Evil
-* Tanginess
 * Mystikl
+* Tanginess
 
 
 ---
 
 ## List Helpers:
 
+* Asteria.
+* Hydraniac
 * Poke Zach
-* hydranic
-* nixantyreal
+* zDark
 
 
 ---
