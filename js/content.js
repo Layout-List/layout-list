@@ -195,59 +195,61 @@ export async function fetchPacks(list) {
 }
 
 export async function fetchPackRecords(packs, list) {
-    let records = [];
-    let users = []
-    let completedPacksMap = {}
-
-    packs.forEach((pack) => {
-        if (pack.levels) pack.levels.forEach((level) =>  {
-            if (level.records) {
-                level.records.forEach((record) => {
-                    records.push(record);
-                    const exists = users.find((user) => record.user.toLowerCase() === user.toLowerCase())
-                    if (!exists) users.push(record.user)
-                })
-            }
-        })
-    })
     
-    users.forEach((user) => {
+    // list is needed for threshold packs because we need to access the level objects
+    let users = []
+    let completedPacksMap = {};
 
+    // Collect records and users
+    list.forEach(([_, __, level]) =>  {
+        if (level.records) {
+            level.records.forEach((record) => {
+                const exists = users.find((user) => record.user.toLowerCase() === user.toLowerCase() || level.verifier.toLowerCase() === user.toLowerCase())
+                if (!exists) users.push(record.user)
+            })
+        }
+    })
+
+    // Process each user and pack
+    users.forEach((user) => { 
+        let userLower = user.toLowerCase();
+        
         packs.forEach((pack) => {
             completedPacksMap[pack.name] ??= new Set();
 
             if (pack.levels) {
+                // Check if user has completed all levels in the pack
                 const allCompleted = pack.levels.every((packLevel) => {
-                    if (!packLevel.records) return;
-                    return packLevel.records.some((record) => 
-                        record.user.toLowerCase() === user.toLowerCase() || 
-                        packLevel.verifier.toLowerCase() === user.toLowerCase());
+                    return packLevel.records?.some((record) => 
+                        record.user.toLowerCase() === userLower || 
+                        packLevel.verifier?.toLowerCase() === userLower
+                    );
                 });
+
                 if (allCompleted) {
                     completedPacksMap[pack.name].add(user);
                 }
             } else {
-                let levelsInDifficulty = list.filter(([_, __, lvl]) => lvl.difficulty == pack.targetdiff && lvl.id !== 0);
+                // Check levels by difficulty
+                let levelsInDifficulty = list.filter(([_, __, lvl]) => lvl.difficulty === pack.targetdiff && lvl.id !== 0);
 
-                const allCompleted = levelsInDifficulty.filter(
-                    ([_, __, level]) => 
-                        level.records.filter(
-                            (record) => record.user === user)
-                    );
-                
-                    console.log(allCompleted)
+                const completedLevels = levelsInDifficulty.filter(([_, __, level]) => 
+                    level.records.some((record) => 
+                        record.user.toLowerCase() === userLower && 
+                        record.percent === 100
+                    )
+                );
 
-                
-
-                if (allCompleted.length >= 5) {
+                // If user has completed at least 5 levels in this difficulty
+                if (completedLevels.length >= 5) {
                     completedPacksMap[pack.name].add(user);
                 }
             }
-        })
-    })
-    console.log(completedPacksMap);
-    
-    return completedPacksMap
+        });
+    });
+
+    return completedPacksMap;
+
 
 }
 
