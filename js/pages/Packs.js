@@ -51,13 +51,8 @@ export default {
                 <div v-if="errored !== null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
                     <img src="https://uploads.dailydot.com/2023/10/Shocked-Meme.jpg?auto=compress&fm=pjpg" style=height:13rem;margin-bottom:3rem;>
                     <h2>Error detected, loser!</h2>
-                    <p>Please let a list mod know that the pack you just clicked on might be broken, and show them this message:</p>
+                    <p>Please let a list mod know that the pack you just clicked on might be broken, and show them this message (if there is one):</p>
                     <p>{{ errored }}</p>
-                </div>
-
-                <div v-else-if="selectedThreshold !== undefined" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
-                    <h1>{{ selectedThreshold.name }}</h1>
-                    <h3>Beat {{ selectedThreshold.threshold }} levels in the {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][selectedThreshold.targetdiff]}} difficulty to complete this pack!</h3>
                 </div>
 
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedThreshold === undefined">
@@ -115,7 +110,7 @@ export default {
                     </table>
                 </div>
 
-                <!-- pack info page, including  -->
+                <!-- pack info page, including threshold pack records -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
                     <h3 v-if="selectedPack.targetdiff" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty - 1] }} tier that are not in any other packs</h3>
@@ -164,18 +159,6 @@ export default {
     }),
     computed: {
 
-        // these functions return the info for either packs or levels
-        // the handling for selecting these is below
-
-        selectedPack() {
-            try {
-                this.errored = undefined;
-                return this.packs[this.selectedPackIndex] || null;
-            } catch (e) {
-                this.errored = e; return;
-            }
-        },
-
         level() {
             try {
                 return this.packs[this.selectedPackIndex].levels[this.selected] || null;
@@ -185,14 +168,13 @@ export default {
         },
         
         video() {
-
             return embed(
                 this.level.showcase
                     ? this.level.showcase
                     : this.level.verification
             );
-
         },
+
     },
 
     async mounted() {
@@ -200,10 +182,7 @@ export default {
         this.list = await fetchList();
         this.editors = await fetchEditors();
         this.packs = await fetchPacks(this.list);
-        this.records = await fetchPackRecords(this.packs);
-
-        console.log(this.records);
-
+        this.records = await fetchPackRecords(this.packs, this.list);
 
         // Error handling
         if (!this.list) {
@@ -228,6 +207,7 @@ export default {
         // the levels are sent to the availableLevels array when this function is called
         // ie when the pack button is clicked
 
+        
         this.loading = false;
     },
     methods: {
@@ -262,8 +242,6 @@ export default {
                 }
                 
                 this.selectedRecords = this.records[pack.name];
-                console.log(this.selectedRecords)
-                console.log(this.selectedRecords.size)
                 return;
                 
             } catch (e) {

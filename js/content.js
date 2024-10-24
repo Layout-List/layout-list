@@ -194,43 +194,59 @@ export async function fetchPacks(list) {
     return packs;
 }
 
-export async function fetchPackRecords(packs) {
+export async function fetchPackRecords(packs, list) {
     let records = [];
     let users = []
     let completedPacksMap = {}
 
-    
-
     packs.forEach((pack) => {
-        pack.levels.forEach((level) =>  {
+        if (pack.levels) pack.levels.forEach((level) =>  {
             if (level.records) {
                 level.records.forEach((record) => {
+                    records.push(record);
                     const exists = users.find((user) => record.user.toLowerCase() === user.toLowerCase())
-                    console.log(exists)
                     if (!exists) users.push(record.user)
                 })
             }
         })
     })
-
-    
     
     users.forEach((user) => {
 
         packs.forEach((pack) => {
             completedPacksMap[pack.name] ??= new Set();
-            const allCompleted = pack.levels.every((packLevel) => {
-                if (!packLevel.records) return;
-                return packLevel.records.some((record) => 
-                    record.user.toLowerCase() === user.toLowerCase() || 
-                    packLevel.verifier.toLowerCase() === user.toLowerCase());
-            });
-            if (allCompleted) {
-                completedPacksMap[pack.name].add(user);
+
+            if (pack.levels) {
+                const allCompleted = pack.levels.every((packLevel) => {
+                    if (!packLevel.records) return;
+                    return packLevel.records.some((record) => 
+                        record.user.toLowerCase() === user.toLowerCase() || 
+                        packLevel.verifier.toLowerCase() === user.toLowerCase());
+                });
+                if (allCompleted) {
+                    completedPacksMap[pack.name].add(user);
+                }
+            } else {
+                let levelsInDifficulty = list.filter(([_, __, lvl]) => lvl.difficulty == pack.targetdiff && lvl.id !== 0);
+
+                const allCompleted = levelsInDifficulty.filter(
+                    ([_, __, level]) => 
+                        level.records.filter(
+                            (record) => record.user === user)
+                    );
+                
+                    console.log(allCompleted)
+
+                
+
+                if (allCompleted.length >= 5) {
+                    completedPacksMap[pack.name].add(user);
+                }
             }
         })
     })
-
+    console.log(completedPacksMap);
+    
     return completedPacksMap
 
 }
@@ -344,7 +360,7 @@ export async function fetchLeaderboard() {
                     .length;
 
                     // Check if the user has completed as many levels as the pack's threshold
-                    if (completedInDifficulty >= pack.threshold) {
+                    if (completedInDifficulty >= 5) {
                         completedPacksMap[verifier].add(pack);
                     }
                 }
@@ -409,7 +425,7 @@ export async function fetchLeaderboard() {
                         .length;
 
                         // Check if the user has completed as many levels as the pack's threshold
-                        if (completedInDifficulty >= pack.threshold) completedPacksMap[user].add(pack);
+                        if (completedInDifficulty >= 5) completedPacksMap[user].add(pack);
                     }
                 });
             }
