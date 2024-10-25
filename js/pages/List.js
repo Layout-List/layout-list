@@ -260,6 +260,5 @@ export default {
         rgbaBind,
         lightPackColor,
         darkPackColor,
-},
-
+    },
 };
