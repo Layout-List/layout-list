@@ -1,8 +1,51 @@
 import routes from './routes.js';
 import { fetchList, fetchLeaderboard } from './content.js';
 
-const list = await fetchList()
-const leaderboard = await fetchLeaderboard(list)
+// if the site finds a "listdata" object in cookies, convert it to an object and use it for list
+// if not, 
+
+
+
+function compressObject(obj) {
+    const jsonString = JSON.stringify(obj);  // Convert object to JSON string
+    const utf8Encoded = new TextEncoder().encode(jsonString);  // Convert to UTF-8 bytes
+    const compressed = pako.gzip(utf8Encoded);  // Compress using Gzip
+    return compressed;
+}
+
+
+
+
+
+  function decompressObject(compressedData) {
+    const decompressed = pako.ungzip(compressedData, { to: 'string' });  // Decompress Gzip
+    const obj = JSON.parse(decompressed);  // Convert back to object
+    return obj;
+}
+
+
+
+
+
+if (!localStorage.getItem('listdata')) {
+    let cookieList = await fetchList()
+
+    console.log(cookieList)
+
+    localStorage.setItem('listdata', JSON.stringify(cookieList))
+}
+
+
+
+
+
+if (!localStorage.getItem('leaderboarddata')) {
+    let cookieList = await fetchList()
+    let cookieLeaderboard = await fetchLeaderboard(cookieList)
+
+
+    localStorage.setItem('leaderboarddata', JSON.stringify(cookieLeaderboard))
+}
 
 export const store = Vue.reactive({
     dark: JSON.parse(localStorage.getItem('dark')) || false,
@@ -11,13 +54,34 @@ export const store = Vue.reactive({
         localStorage.setItem('dark', JSON.stringify(this.dark));
     },
 
-    list,
-    leaderboard,
+    list: JSON.parse(localStorage.getItem('listdata')),
+    leaderboard: JSON.parse(localStorage.getItem('leaderboarddata')),
 });
 
 const app = Vue.createApp({
     data: () => ({ store }),
+
+    mounted() {
+        this.runAfterMount();
+    },
+
+    methods: {
+        async runAfterMount() {
+            try {
+                const updatedList = await fetchList();
+                const updatedLeaderboard = await fetchLeaderboard(updatedList);
+
+                localStorage.setItem('listdata', JSON.stringify(updatedList));
+                localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
+
+                console.log('Data fetched and stored');
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+    }
 });
+
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
     routes,
