@@ -8,6 +8,7 @@
     "percentToQualify": 100,
     "song": "Blackhole12 - Snowflower",
     "difficulty": 0,
+    "enjoyment": 8,
     "records": [
         {
             "user": "RaynoXx",
@@ -49,7 +50,8 @@
             "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "Asteria.",
@@ -191,6 +193,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/i2CZzeU2zZo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "josikp",
+            "link": "https://www.youtube.com/watch?v=2kmFC3WQDOU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

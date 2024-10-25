@@ -27,7 +27,7 @@
             "enjoyment": 7
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/QN3jTKwxozk",
             "percent": 100,
             "hz": 360,
@@ -41,6 +41,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/QBG5VAKnEzY?si=h7Fj1XSqK9-vCw8C",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }

@@ -39,7 +39,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/duzmdGbHpws",
             "percent": 100,
             "hz": 360,
@@ -94,6 +94,22 @@
             "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
             "percent": 100,
             "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/d5QqwC8jllE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iU8yZGvfewTvK16c5?invite=cr-MSxTYmcsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
             "mobile": false,
             "enjoyment": 7
         }

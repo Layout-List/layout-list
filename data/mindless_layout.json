@@ -12,7 +12,7 @@
     "difficulty": 4,
     "records": [
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/MLnVKuWlaQ0",
             "percent": 100,
             "hz": 360,
@@ -216,6 +216,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iU9pTT41wyOwWXqNa?invite=cr-MSxvSlIsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

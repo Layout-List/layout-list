@@ -1,9 +1,9 @@
 {
     "id": 74786109,
     "name": "virtual layout",
-    "author": "Morsey",
+    "author": "morsey",
     "creators": [],
-    "verifier": "Morsey",
+    "verifier": "morsey",
     "verification": "https://youtu.be/91xiogJwB6I",
     "percentToQualify": 61,
     "song": "Geoxor - Virtual",
@@ -101,7 +101,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/pZQ4Ebw-1wU",
             "percent": 100,
             "hz": 360,
@@ -213,6 +213,22 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "realkeailucas",
+            "link": "https://youtu.be/NqyRdvDGqdM",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

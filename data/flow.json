@@ -217,6 +217,22 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/EltUhJXDbzI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "monthmai",
+            "link": "https://youtu.be/lfsGtB6zbwg?si=N1I48mwBShjOa1Xp",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

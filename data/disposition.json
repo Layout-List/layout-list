@@ -8,6 +8,7 @@
     "percentToQualify": 100,
     "song": "garlagan - Form",
     "difficulty": 0,
+    "enjoyment": 7,
     "records": [
         {
             "user": "DJJDK",
@@ -25,7 +26,7 @@
             "enjoyment": 7
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/Lq6nvMXkjTI",
             "percent": 100,
             "hz": 360,
@@ -58,7 +59,8 @@
             "link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 6
         },
         {
             "user": "nykolol",
@@ -308,6 +310,14 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/IEMyZqmqKO0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "6"
         }
     ]
 }

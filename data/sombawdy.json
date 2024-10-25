@@ -1,0 +1,55 @@
+
+{
+    "id": 110387556,
+    "name": "sombawdy",
+    "author": "[RFD]Fribble",
+    "creators": [],
+    "verifier": "Dom_Luca",
+    "verification": "https://www.youtube.com/watch?v=ePn0MiMpYzI",
+    "percentToQualify": 60,
+    "song": "ericdoa - dancinwithsombawdy",
+    "songLink": "https://drive.google.com/file/d/12UHvQkNGX6siPKG-1QFYDmZ2u3Kp_GpQ/view?usp=drive_link",
+    "difficulty": 6,
+    "records": [
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=-29CoP30HHg",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/MTQce2Etub4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=QBpidz9gvsw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
+}

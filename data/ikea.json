@@ -5,7 +5,7 @@
     "creators": [
         "Solelak"
     ],
-    "verifier": "sn0w",
+    "verifier": "Solelak",
     "verification": "https://youtu.be/n_uBr8HX3bI",
     "percentToQualify": 100,
     "song": "FaunSound - Figurehead (GRTSU RMX)",
@@ -37,12 +37,20 @@
             "enjoyment": 9
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/MOsqIscVoSE",
             "percent": 100,
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/OmbmtoXC86g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 5
         }
     ]
 }

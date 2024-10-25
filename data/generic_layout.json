@@ -15,7 +15,8 @@
             "link": "https://youtu.be/6ZWsXo5oV_s",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 7
         },
         {
             "user": "Poke Zach",
@@ -48,6 +49,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }

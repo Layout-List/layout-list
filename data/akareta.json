@@ -13,7 +13,7 @@
     "enjoyment": 10,
     "records": [
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=2DnEhvIspdo",
             "percent": 100,
             "hz": 360,
@@ -51,6 +51,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=YtG5K3iNrJI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

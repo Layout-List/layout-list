@@ -20,12 +20,20 @@
             "enjoyment": 9
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/ZGGjuVD2_hE?si=mSPqSnKcDa1L-WCv",
             "percent": 100,
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

@@ -3,7 +3,7 @@
     "name": "poster",
     "author": "hab",
     "creators": [],
-    "verifier": "hayden",
+    "verifier": "zDark",
     "verification": "https://youtu.be/zZONt-VkBpc",
     "showcase": "https://youtu.be/l2EVi215atI",
     "percentToQualify": 50,
@@ -354,6 +354,30 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Fallen",
+            "link": "https://youtu.be/iX3wr-yUDtA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/cHPqd_JJRt0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

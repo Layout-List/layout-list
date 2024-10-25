@@ -8,6 +8,7 @@
     "percentToQualify": 100,
     "song": "Rukkus - Problematic",
     "difficulty": 0,
+    "enjoyment": 9,
     "records": [
         {
             "user": "evil",
@@ -29,7 +30,8 @@
             "link": "https://youtu.be/VV7qLTss4CY?si=YlgjpDEFo94bQRb1",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 8
         },
         {
             "user": "Zyxo",
@@ -53,7 +55,7 @@
             "mobile": true
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/4n7RhWLJuMI",
             "percent": 100,
             "hz": 360,

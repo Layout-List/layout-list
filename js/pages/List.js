@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
 import { score, round, averageEnjoyment } from '../score.js';
-import { fetchEditors, fetchList } from '../content.js';
+import { fetchEditors, fetchList, } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -61,7 +61,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
-                            <p>{{ score(getRankExcludingDividers(selected + 1), level.difficulty, 100, level.percentToQualify, list) }}</p>
+                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -273,16 +273,7 @@ export default {
     methods: {
         embed,
         score,
-        averageEnjoyment,
-        getRankExcludingDividers(index) {
-            let rank = 0;
-            for (let i = 0; i < index; i++) {
-                if (this.list[i][1] !== null) { // Check if it's not a divider
-                    rank++;
-                }
-            }
-            return rank;
-        },
+        averageEnjoyment
 },
 
 };

@@ -8,6 +8,7 @@
     "percentToQualify": 100,
     "song": "The Living Tombstone - Grim Grinning Ghosts",
     "difficulty": 1,
+    "enjoyment": 7,
     "records": [
         {
             "user": "Blueberry",
@@ -127,6 +128,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

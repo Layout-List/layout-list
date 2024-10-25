@@ -8,13 +8,15 @@
     "percentToQualify": 100,
     "song": "Creo - Ballistic Funk",
     "difficulty": 1,
+    "enjoyment": 8,
     "records": [
         {
             "user": "briskrain",
             "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
             "percent": 100,
             "hz": 144,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Mystikl",
@@ -98,6 +100,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Shums",
+            "link": "https://www.youtube.com/watch?v=odEE5_cemik",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

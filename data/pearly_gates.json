@@ -174,6 +174,30 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/BbTbWjs-t3Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "josikp",
+            "link": "https://www.youtube.com/watch?v=jVgpkIvWZcQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

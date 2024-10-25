@@ -3,7 +3,7 @@
     "name": "hollywood baby",
     "author": "monthmai",
     "creators": [
-        "hayden"
+        "zDark"
     ],
     "verifier": "monthmai",
     "verification": "https://youtu.be/b21VpqBTnPk?si=pm1P-uVkwjnZtC62",
@@ -21,7 +21,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/Kahj5ss_eKA",
             "percent": 100,
             "hz": 360,
@@ -56,6 +56,22 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "[BUDDY] peanutcoolguy",
+            "link": "https://youtu.be/_7H_kOcIs7g",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

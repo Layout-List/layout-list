@@ -6,8 +6,9 @@
     "verifier": "Xeronius",
     "verification": "https://www.youtube.com/watch?v=DZc1gDnTOYc",
     "percentToQualify": 100,
-    "song": "1nf1n1ty - Calm Craggy Area (1f1n1ty Remix)",
+    "song": "1f1n1ty - Calm Craggy Area (1f1n1ty Remix)",
     "difficulty": 0,
+    "enjoyment": 8,
     "records": [
         {
             "user": "evil",
@@ -179,6 +180,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 7
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/x37dsbvE-yw?si=USmT7Th_eQ6k-rFQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
         }
     ]
 }

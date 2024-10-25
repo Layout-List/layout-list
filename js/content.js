@@ -336,14 +336,14 @@ export async function fetchChallengeLeaderboard() {
 }
 
 
+
+// no idea why we need to take in err for this but it breaks if we don't so thats cool!
 export function fetchTierLength(list, difficulty) {
     let tierLength = 0;
     list.forEach(([err, rank, level]) => {
         if (err) {
-            errs.push(err);
             return;
         }
-
         if (rank === null) {
             return;
         }
@@ -360,10 +360,8 @@ export function fetchTierMinimum(list, difficulty) {
     let tierMin = 0;
     list.forEach(([err, rank, level]) => {
         if (err) {
-            errs.push(err);
             return;
         }
-
         if (rank === null) {
             return;
         }

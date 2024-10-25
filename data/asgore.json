@@ -8,13 +8,14 @@
     "percentToQualify": 100,
     "song": "MidiGuyDP - Asgore {Undertale}",
     "difficulty": 0,
+    "enjoyment": 7,
     "records": [
         {
             "user": "Xeronius",
             "link": "https://www.youtube.com/watch?v=z-9V4d-nw9k",
             "percent": 100,
             "hz": 60,
-            "mobile": false
+            "enjoyment": 7
         },
         {
             "user": "evil",

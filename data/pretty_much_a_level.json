@@ -155,6 +155,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 4
+        },
+        {
+            "user": "josikp",
+            "link": "https://www.youtube.com/watch?v=rj4JUKGbeFA&ab_channel=pom",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

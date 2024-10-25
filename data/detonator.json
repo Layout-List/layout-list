@@ -8,6 +8,7 @@
     "percentToQualify": 47,
     "song": "Creo - Rock Thing",
     "difficulty": 5,
+    "enjoyment": 4,
     "records": [
         {
             "user": "Hyperbeat",
@@ -16,6 +17,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

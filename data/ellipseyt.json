@@ -3,7 +3,7 @@
     "name": "EllipseYT Layout",
     "author": "Xeronius",
     "creators": [],
-    "verifier": "hayden",
+    "verifier": "zDark",
     "verification": "https://www.youtube.com/watch?v=C3YdyfYIwMA",
     "percentToQualify": 100,
     "song": "Dumbsville2Official - Groomer Nae Nae",
@@ -29,7 +29,8 @@
             "link": "https://youtu.be/GRhbv_hhIEg",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "mrperson",
@@ -74,6 +75,14 @@
         {
             "user": "sn0w",
             "link": "https://youtu.be/vaGnza5uDO0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/opb14WP_wd0",
             "percent": 100,
             "hz": 240,
             "mobile": false,

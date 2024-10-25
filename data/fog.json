@@ -5,7 +5,7 @@
     "creators": [
         "Flare"
     ],
-    "verifier": "hayden",
+    "verifier": "zDark",
     "verification": "https://youtu.be/_VH1nuHm6QA",
     "showcase": "https://youtu.be/2O9YaNrWOfs",
     "percentToQualify": 53,
@@ -95,6 +95,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=DM-HrWYYt1U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

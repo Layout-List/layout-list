@@ -22,10 +22,11 @@
             "link": "https://www.youtube.com/watch?v=3l1yiE2I6vE",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 7
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/FeSzAEXoKMk",
             "percent": 100,
             "hz": 360,

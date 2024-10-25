@@ -15,7 +15,7 @@
             "link": "https://youtu.be/8bjMmw-d1DM",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "enjoyment": 8
         },
         {
             "user": "Mystikl",
@@ -89,6 +89,22 @@
             "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
             "percent": 100,
             "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "[FAUCET]Hardhat900",
+            "link": "https://www.youtube.com/watch?v=MPktZiUhAv8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "IIRafII",
+            "link": "https://www.youtube.com/watch?v=j0Zd16yT3W0",
+            "percent": 100,
+            "hz": 240,
             "mobile": false,
             "enjoyment": 9
         }

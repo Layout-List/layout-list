@@ -37,7 +37,7 @@
             "link": "https://youtu.be/DZeImlYzcXo",
             "percent": 100,
             "hz": 75,
-            "mobile": false
+            "enjoyment": 7
         },
         {
             "user": "Flipperglint",
@@ -134,6 +134,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 7
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

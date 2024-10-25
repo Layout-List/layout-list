@@ -25,10 +25,10 @@
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 2
+            "enjoyment": 9
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=7kO3g-OnswY",
             "percent": 100,
             "hz": 360,
@@ -42,6 +42,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/OSZOC8l7S7o",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }

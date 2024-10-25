@@ -143,7 +143,7 @@
             "mobile": true
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=peJV8t1c8Ww",
             "percent": 100,
             "hz": 60,
@@ -287,7 +287,8 @@
             "link": "https://youtu.be/Edz-VMozLoU",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 5
         },
         {
             "user": "Xeronius",
@@ -469,6 +470,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 4
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/LBs8cJvDO0Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

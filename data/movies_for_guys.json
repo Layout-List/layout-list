@@ -12,7 +12,7 @@
     "difficulty": 6,
     "records": [
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/Uj0GhlwEiJc",
             "percent": 100,
             "hz": 360,
@@ -135,6 +135,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=GJMxgntvJpA",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }

@@ -19,7 +19,7 @@
             "enjoyment": 9
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=Xgc7BrSkl2w",
             "percent": 100,
             "hz": 360,
@@ -77,6 +77,14 @@
         {
             "user": "attrixia",
             "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/g79VLS21TRQ?si=gyu4WqHmUFB8zuSA",
             "percent": 100,
             "hz": 240,
             "mobile": false,

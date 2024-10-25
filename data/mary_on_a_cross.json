@@ -3,13 +3,21 @@
     "name": "Mary On A Cross",
     "author": "rSnoozy",
     "creators": [],
-    "verifier": "Acacia",
-    "verification": "https://youtu.be/etR8Bbjwy7c?si=9BW_KsLoz4XJbCeA",
+    "verifier": "Fawami",
+    "verification": "https://youtu.be/O6158mOtrQo?feature=shared",
     "percentToQualify": 55,
     "song": "Ghost - Mary On A Cross",
     "songLink": "https://drive.google.com/file/d/1qvrK9e1ZYUOqCb5sz7GyGQy5OPaVTjNM/view?usp=drive_link",
     "difficulty": 6,
     "records": [
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/etR8Bbjwy7c?si=9BW_KsLoz4XJbCeA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" : 9
+        },
         {
             "user": "Tupi",
             "link": "https://www.youtube.com/watch?v=iIcSbVR3m6Q&ab_channel=Tup1%5BGD%5D",
@@ -25,6 +33,54 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iLTKkAaFIm-vDhx70?invite=cr-MSxMSlosMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/MqOLscUuA50",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "whitmp4",
+            "link": "https://youtu.be/uCK2_lIHw_c?si=_jIwqtyQNpsIdRzv",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/wyKhJeiTHY8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=BXp9d-C6EtY",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "id": 91678911,
     "name": "shrimp x2",
-    "author": "hayden",
+    "author": "zDark",
     "creators": [
         "sqrtpie",
         "hab",
@@ -47,7 +47,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/E6qV4bbm4FU",
             "percent": 100,
             "hz": 360,
@@ -68,6 +68,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

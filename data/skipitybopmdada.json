@@ -111,7 +111,7 @@
             "hz": 360
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/vM-2jz4x2xg",
             "percent": 100,
             "hz": 360
@@ -165,7 +165,8 @@
             "link": "https://youtu.be/8D3p3DxH-VM",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 7
         },
         {
             "user": "Sanctum",

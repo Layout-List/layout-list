@@ -1,7 +1,7 @@
 {
     "id": 93357334,
     "name": "radiclaw layout",
-    "author": "Morsey",
+    "author": "morsey",
     "creators": [],
     "verifier": "mrperson",
     "verification": "https://youtu.be/hfBb_ooe4Jo",
@@ -10,7 +10,7 @@
     "difficulty": 5,
     "records": [
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/nTBio0Acxf4",
             "percent": 100,
             "hz": 360,
@@ -62,6 +62,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }

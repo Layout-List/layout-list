@@ -35,7 +35,7 @@
             "enjoyment": 8
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/HWxVFYE541w?si=xn2SBCXG8epYa0tE",
             "percent": 100,
             "hz": 360,
@@ -152,6 +152,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=nRgROy_aumc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }

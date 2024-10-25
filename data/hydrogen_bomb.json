@@ -10,6 +10,7 @@
     "percentToQualify": 51,
     "song": "DJ Nate - Treat the Oscillators",
     "difficulty": 9,
+    "enjoyment": 8,
     "records": [
         {
             "user": "Riley",
@@ -36,7 +37,7 @@
             "enjoyment": 6
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://www.youtube.com/watch?v=xf8g7-ypTGs",
             "percent": 100,
             "hz": 360,
@@ -50,6 +51,22 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 1
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/qHS9I7K1e5s?si=XEvUUzKF3n_6MFOu",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/oREP7dwI37M?si=MOd6J2W18EJvR4GJ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }

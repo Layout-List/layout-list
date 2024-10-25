@@ -41,7 +41,7 @@
             "hz": 144
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/vFuut-LdK64",
             "percent": 100,
             "hz": 360
@@ -64,6 +64,14 @@
         {
             "user": "Hyperbeat",
             "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
             "percent": 100,
             "hz": 240,
             "mobile": false,

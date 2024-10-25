@@ -20,7 +20,7 @@
         "enjoyment": 8
       },
       {
-        "user": "hayden",
+        "user": "zDark",
         "link": "https://youtu.be/-5UAUYFx-CY",
         "percent": 100,
         "hz": 360,
@@ -33,7 +33,7 @@
           "percent": 100,
           "hz": 240,
           "mobile": false,
-          "enjoyment": 6
+          "enjoyment": 9
         },
         {
           "user": "Mystikl",
@@ -74,14 +74,6 @@
           "hz": 360,
           "mobile": false,
           "enjoyment": "?"
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=lZw2U1fO9uU",
-            "percent": 75,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
         },
         {
             "user": "Robotic",
@@ -130,6 +122,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/xjtn7wIEexk?si=IkDBpj2wiTTj-od6",
+            "percent": 77,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }

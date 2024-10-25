@@ -9,6 +9,7 @@
     "song": "soclb - Infertehno 2  ",
     "songLink": "https://www.mediafire.com/file/gh1n0pfc35cfaby/343707.mp3/file",
     "difficulty": 2,
+    "enjoyment": 9,
     "records": [
         {
             "user": "Blysteryx",
@@ -34,7 +35,7 @@
             "mobile": false
         },
         {
-          "user": "hayden",
+          "user": "zDark",
           "link": "https://youtu.be/YGVydirX9dU",
           "percent": 100,
           "hz": 360,
@@ -69,6 +70,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "RedNazFM",
+            "link": "https://www.youtube.com/watch?v=_BHC9zKS1Vw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

@@ -85,7 +85,7 @@
             "hz": 144
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/XXcKbFk4KXo",
             "percent": 100,
             "hz": 360
@@ -105,6 +105,22 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "sfonchik",
+            "link": "https://www.youtube.com/watch?v=fA3WGjdqxdY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }

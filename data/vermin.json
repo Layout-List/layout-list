@@ -1,9 +1,9 @@
 {
     "id": 89887020,
     "name": "vermin layout",
-    "author": "Morsey",
+    "author": "morsey",
     "creators": [],
-    "verifier": "Morsey",
+    "verifier": "morsey",
     "verification": "https://www.youtube.com/watch?v=KPr5cTsnrs8",
     "showcase": "https://youtu.be/0FjGIb8XiQA?si=TITAxWlxV_Z0jay_",
     "percentToQualify": 100,
@@ -32,7 +32,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/MQrQ9PqAcrE",
             "percent": 100,
             "hz": 360,
@@ -90,6 +90,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }

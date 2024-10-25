@@ -8,6 +8,7 @@
     "percentToQualify": 51,
     "song": "Diivi - Glaive - Astrid (Remix)",
     "difficulty": 5,
+    "enjoyment": 9,
     "records": [
         {
             "user": "idiotdash",
@@ -17,7 +18,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/yF8kh9pIbZE?si=Ui9j1PeiEW_kuJFl",
             "percent": 100,
             "hz": 360,
@@ -58,6 +59,14 @@
         {
             "user": "attrixia",
             "link": "https://www.youtube.com/watch?v=pxPjcdX4h58",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
             "percent": 100,
             "hz": 240,
             "mobile": false,

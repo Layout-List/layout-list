@@ -94,7 +94,7 @@
             "mobile": false
         },
         {
-            "user": "hayden",
+            "user": "zDark",
             "link": "https://youtu.be/nXBZM2Cpt58",
             "percent": 100,
             "hz": 360,
@@ -337,6 +337,14 @@
             "hz": 144,
             "mobile": false,
             "enjoyment" : "?"
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/szDg3L7u_DE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
