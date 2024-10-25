@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind } from '../util.js';
-import { score, round, averageEnjoyment } from '../score.js';
-import { fetchEditors, fetchList, lightPackColor, darkPackColor } from '../content.js';
+import { score, round, lightPackColor, darkPackColor } from '../config.js';
+import { fetchEditors, fetchList, averageEnjoyment } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';

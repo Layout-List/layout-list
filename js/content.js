@@ -1,4 +1,4 @@
-import { round, score, challengeScore } from './score.js';
+import { round, score, challengeScore } from './config.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
@@ -618,100 +618,21 @@ export function fetchTierMinimum(list, difficulty) {
     return tierMin;
 }
 
-export function lightPackColor(difficulty) {
-    let r = 0;
-    let g = 0;
-    let b = 0;
-    let a = 1;
-    
-    switch (difficulty) {
-        case 0:
-            r = 52;
-            g = 107;
-            b = 235;
-            a = 0.9;
-            break;
-        case 1:
-            r = 19;
-            g = 204;
-            b = 232;
-            break;
-        case 2:
-            r = 52;
-            g = 150;
-            b = 82;
-            break;
-        case 3:
-            r = 184;
-            g = 199;
-            b = 13;
-            break;
-        case 4:
-            r = 13;
-            b = 255;
-            a = 0.8;
-            break;
-        case 5:
-            r = 130;
-            g = 62;
-            b = 206;
-            a = 0.7;
-            break;
-        case 6:
-            r = 255;
-            break;
-        default:
-            break;
-    }
-    return [r, g, b, a];
-}
+export function averageEnjoyment(records) {
+    if (!records || records.length === 0) return '?'; // handle empty records
 
-export function darkPackColor(difficulty) {
-    let r = 0;
-    let g = 0;
-    let b = 0;
-    let a = 1;
-    
-    switch (difficulty) {
-        case 0:
-            r = 52;
-            g = 107;
-            b = 235;
-            a = 0.9;
-            break;
-        case 1:
-            r = 26;
-            g = 194;
-            b = 219;
-            a = 0.8;
-            break;
-        case 2:
-            r = 26;
-            g = 97;
-            b = 19;
-            break;
-        case 3:
-            r = 209;
-            g = 209;
-            b = 36;
-            break;
-        case 4:
-            r = 81;
-            g = 61;
-            b = 204;
-            break;
-        case 5:
-            r = 130;
-            g = 62;
-            b = 206;
-            break;
-        case 6:
-            r = 167;
-            g = 37;
-            b = 37;
-            break;
-        default:
-            break;
-    }
-    return [r, g, b, a];
+    let validRecordsCount = 0;
+    const total = records.reduce((sum, record) => {
+        
+        if (!isNaN(record.enjoyment) && record.percent === 100) {
+            validRecordsCount++;
+            return sum + parseFloat(record.enjoyment);
+        }
+        return sum;
+    }, 0);
+
+    if (validRecordsCount === 0) return '?'; // handle case with no valid enjoyment values
+
+    const average = total / validRecordsCount;
+    return round(average, 3);
 }
