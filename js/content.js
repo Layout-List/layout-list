@@ -35,11 +35,6 @@ export async function fetchList() {
 
                     level["path"] = path;
 
-                    // this is mounted on top of levels, used to access packs within the level scope. 
-                    // in hindsight this should have been done outside the level scope but oh well. 
-                    // see fetchPacks() below for that ig.
-
-                    // this is also really not cool but .filter() is buggy and stupid
                     try {
                         packsMap.forEach((pack) => {
 
@@ -49,7 +44,7 @@ export async function fetchList() {
                                     
                                 }
 
-                                // checks if the packs contains the level's path (json file name)
+                                // checks if the pack contains the level's path
                                 for (let packlevel in pack.levels) { 
                                     if (pack.levels[packlevel] === path) {
                                         // iterate through every level in the pack,
@@ -190,7 +185,7 @@ export async function fetchPacks(list) {
     );
 
 
-    
+    console.log(packs)
     return packs;
 }
 
@@ -448,8 +443,6 @@ export async function fetchLeaderboard() {
 
                 return;
             }
-
-        console.log(score(rank, level.difficulty, record.percent, level.percentToQualify, list))
         progressedScore += score(rank, level.difficulty, record.percent, level.percentToQualify, list)
         // console.log(`progressed score: ${progressedScore}`)
 
