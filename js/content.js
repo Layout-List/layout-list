@@ -65,8 +65,8 @@ export async function fetchList() {
                                 packs.push(pack);
                             }
                         })
-                    } catch {
-                        console.error("failed to fetch packs")
+                    } catch (e) {
+                        console.error(`failed to fetch packs: ${e}`)
                     }
                     
                     
