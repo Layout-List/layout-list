@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
 import { score, averageEnjoyment } from "../score.js";
-import { fetchEditors, fetchList, fetchPacks, fetchPackRecords, lightPackColor, darkPackColor } from "../content.js";
+import { fetchList, fetchPacks, fetchPackRecords, lightPackColor, darkPackColor } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -145,7 +145,6 @@ export default {
         list: [],
         packs: [],
         availableLevels: [],
-        editors: [],
         loading: true,
         selected: null,
         selectedPack: null,
@@ -181,7 +180,6 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();
-        this.editors = await fetchEditors();
         this.packs = await fetchPacks(this.list);
         this.records = await fetchPackRecords(this.packs, this.list);
 
@@ -198,9 +196,6 @@ export default {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
-            }
         }
         
         this.selectPack(0, this.packs[0]); 
@@ -213,11 +208,11 @@ export default {
     },
     methods: {
         embed,
-        score,
         rgbaBind,
+        score,
+        averageEnjoyment,
         fetchPacks,
         fetchPackRecords,
-        averageEnjoyment,
         lightPackColor,
         darkPackColor,
 
