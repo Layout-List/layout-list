@@ -168,6 +168,39 @@ export function challengeScore(difficulty) {
     return score;
 }
 
+export function packScore(difficulty) {
+    let score = 0;
+    
+    switch (difficulty) {
+        case 1:
+            score = 5;
+            break;
+        case 2:
+            score = 15;
+            break;
+        case 3:
+            score = 30;
+            break;
+        case 4:
+            score = 50;
+            break;
+        case 5:
+            score = 70;
+            break;
+        case 6:
+            score = 100;
+            break;
+        case 7:
+            score = 150;
+            break;
+        default:
+            score = 0;
+            break;
+    }
+
+    return score;
+}
+
 export function averageEnjoyment(records) {
     if (!records || records.length === 0) return '?'; // handle empty records
 
