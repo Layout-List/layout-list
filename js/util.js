@@ -1,3 +1,5 @@
+import { scale } from './config.js';
+
 // https://stackoverflow.com/questions/3452546/how-do-i-get-the-youtube-video-id-from-a-url
 export function getYoutubeIdFromUrl(url) {
     return url.match(
@@ -53,4 +55,21 @@ export function rgbaBind(color, decrease) {
     }
     
     return `rgba(${r},${g},${b},${a})`;
+}
+
+export function round(num) { // the code used to round decimals, you can pretty much ignore this
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        var arr = ('' + num).split('e');
+        var sig = '';
+        if (+arr[1] + scale > 0) {
+            sig = '+';
+        }
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
+    }
 }

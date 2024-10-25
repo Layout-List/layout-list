@@ -1,3 +1,5 @@
+import { round } from './util.js';
+
 
 // ------------------------------------------------------------------
 // welcome to the site's configuration!
@@ -13,7 +15,7 @@
 // ------------------------------------------------------------------
 
 
-const scale = 1; // amount of decimals the site will globally round to
+export const scale = 1; // amount of decimals the site will globally round to
 
 // ---------------
 // Score function:
@@ -317,22 +319,7 @@ export function darkPackColor(difficulty) { // colors the packs will display as,
 
 
 
-export function round(num) { // the code used to round decimals, you can pretty much ignore this
-    if (!('' + num).includes('e')) {
-        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
-    } else {
-        var arr = ('' + num).split('e');
-        var sig = '';
-        if (+arr[1] + scale > 0) {
-            sig = '+';
-        }
-        return +(
-            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
-            'e-' +
-            scale
-        );
-    }
-}
+
 
 export function challengeScore(difficulty) {
     let score = 0;

@@ -1,4 +1,5 @@
-import { round, score, challengeScore } from './config.js';
+import { score, challengeScore } from './config.js';
+import { round } from './util.js';
 
 /**
  * Path to directory containing `_list.json` and all levels

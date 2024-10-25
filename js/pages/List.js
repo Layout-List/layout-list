@@ -1,6 +1,6 @@
 import { store } from '../main.js';
-import { embed, rgbaBind } from '../util.js';
-import { score, round, lightPackColor, darkPackColor } from '../config.js';
+import { embed, round, rgbaBind } from '../util.js';
+import { score, lightPackColor, darkPackColor } from '../config.js';
 import { fetchEditors, fetchList, averageEnjoyment } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
