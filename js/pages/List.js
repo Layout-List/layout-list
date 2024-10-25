@@ -213,7 +213,6 @@ export default {
   
     computed: {
         level() {
-            if (this.list[this.selected][2].name === "Brutal Calamity") console.log(this.list[this.selected][2])
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
