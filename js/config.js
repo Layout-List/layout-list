@@ -5,6 +5,7 @@
 //      - the function used anytime the site needs to display a score
 //      - the colors a pack is displayed as
 //      - the amount of decimals the site will display globally
+//      - legacy challenge list functions
 
 // additionally, notes have been provided to explain exactly what
 // everything does, especially to non programmers.
@@ -131,55 +132,6 @@ export function score(rank, difficulty, percent, minPercent, list) {
 
 
 
-
-
-export function challengeScore(difficulty) {
-    let score = 0;
-    
-    switch (difficulty) {
-        case 0:
-            score = 5;
-            break;
-        case 1:
-            score = 10;
-            break;
-        case 2:
-            score = 25;
-            break;
-        case 3:
-            score = 50;
-            break;
-        case 4:
-            score = 75;
-            break;
-        case 5:
-            score = 100;
-            break;
-        case 6:
-            score = 150;
-            break;
-        case 7:
-            score = 200;
-            break;
-        case 8:
-            score = 250;
-            break;
-        case 9:
-            score = 350;
-            break;
-        case 10:
-            score = 500;
-            break;
-        case 11:
-            score = 1000;
-            break;
-        default:
-            score = 0;
-            break;
-    }
-
-    return score;
-}
 
 
 // ----------------------------------
@@ -380,4 +332,52 @@ export function round(num) { // the code used to round decimals, you can pretty 
             scale
         );
     }
+}
+
+export function challengeScore(difficulty) {
+    let score = 0;
+    
+    switch (difficulty) {
+        case 0:
+            score = 5;
+            break;
+        case 1:
+            score = 10;
+            break;
+        case 2:
+            score = 25;
+            break;
+        case 3:
+            score = 50;
+            break;
+        case 4:
+            score = 75;
+            break;
+        case 5:
+            score = 100;
+            break;
+        case 6:
+            score = 150;
+            break;
+        case 7:
+            score = 200;
+            break;
+        case 8:
+            score = 250;
+            break;
+        case 9:
+            score = 350;
+            break;
+        case 10:
+            score = 500;
+            break;
+        case 11:
+            score = 1000;
+            break;
+        default:
+            score = 0;
+            break;
+    }
+
+    return score;
 }
