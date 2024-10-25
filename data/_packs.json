@@ -243,30 +243,37 @@
     },
     {
         "name": "Beginner Pack",
-        "difficulty": 0
+        "difficulty": 0,
+        "levels": []
     },
     {
         "name": "Easy Pack",
-        "difficulty": 1
+        "difficulty": 1,
+        "levels": []
     },
     {
         "name": "Medium Pack",
-        "difficulty": 2
+        "difficulty": 2,
+        "levels": []
     },
     {
         "name": "Hard Pack",
-        "difficulty": 3
+        "difficulty": 3,
+        "levels": []
     },
     {
         "name": "Insane Pack",
-        "difficulty": 4
+        "difficulty": 4,
+        "levels": []
     },
     {
         "name": "Mythical Pack",
-        "difficulty": 5
+        "difficulty": 5,
+        "levels": []
     },
     {
         "name": "Extreme Pack",
-        "difficulty": 6
+        "difficulty": 6,
+        "levels": []
     }
 ]
