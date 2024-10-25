@@ -113,7 +113,7 @@ export default {
                 <!-- pack info page, including threshold pack records -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
-                    <h3 v-if="selectedPack.levels === null" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
+                    <h3 v-if="selectedPack.levels.length === 0" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
                     <h2>Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
                     <p v-for="record in selectedRecords">{{ record }}</p>
                 </div>
