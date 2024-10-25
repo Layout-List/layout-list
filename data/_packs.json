@@ -1,7 +1,7 @@
 [
     {
         "name": "Rated Pack 1",
-        "difficulty": 1,
+        "difficulty": 0,
         "levels": [
             "fun_dance",
             "gravity_out",
@@ -11,7 +11,7 @@
     },
     {
         "name": "Salukis Pack",
-        "difficulty": 1,
+        "difficulty": 0,
         "levels": [
             "sunrise",
             "cornfield",
@@ -22,7 +22,7 @@
     },
     {
         "name": "Chill Pack",
-        "difficulty": 1,
+        "difficulty": 0,
         "levels": [
             "zzz",
             "foggy_bridge",
@@ -32,7 +32,7 @@
     },
     {
         "name": "Quacker Pack",   
-        "difficulty": 2,
+        "difficulty": 1,
         "levels": [
             "druggered_duck",
             "drugged_duck",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Rated Pack 2",
-        "difficulty": 2, 
+        "difficulty": 1, 
         "levels": [
             "marenol",
             "walk_through",
@@ -52,7 +52,7 @@
     },
     {
         "name": "Detailed Pack 1", 
-        "difficulty": 2,
+        "difficulty": 1,
         "levels": [
             "go_with_the_flow",
             "fire_wal",
@@ -61,7 +61,7 @@
     },
     {
         "name": "Sqrtpie Pack",
-        "difficulty": 2,
+        "difficulty": 1,
         "levels": [
             "because_we_miss",
             "layout_master",
@@ -70,7 +70,7 @@
     },
     {
         "name": "Xeronius Pack",  
-        "difficulty": 2,
+        "difficulty": 1,
         "levels": [
             "invincible",
             "toxic_sewers",
@@ -81,7 +81,7 @@
     },
     {
         "name": "Asteria Pack",
-        "difficulty": 2,
+        "difficulty": 1,
         "levels": [
             "sky_castle",
             "the_shredder",
@@ -90,7 +90,7 @@
     },
     {
         "name": "Effect Pack",
-        "difficulty": 3,
+        "difficulty": 2,
         "levels": [
             "desolation",
             "i_got_no_time",
@@ -100,7 +100,7 @@
     },
     {
         "name": "Long Pack 1",
-        "difficulty": 3, 
+        "difficulty": 2, 
         "levels": [
             "heartache",
             "ruler_of_everything",
@@ -109,7 +109,7 @@
     },
     {
         "name": "Sal Pack",
-        "difficulty": 4,
+        "difficulty": 3,
         "levels": [
             "endless",
             "atmosphere",
@@ -119,7 +119,7 @@
     },
     {
         "name": "Blathers Pack", 
-        "difficulty": 4, 
+        "difficulty": 3, 
         "levels": [
             "kitty_kat",
             "lightmare",
@@ -128,7 +128,7 @@
     },
     {
         "name": "Rated Pack 3",
-        "difficulty": 4, 
+        "difficulty": 3, 
         "levels": [
             "bliss",
             "rgb",
@@ -138,7 +138,7 @@
     },
     {
         "name": "Box Pack",
-        "difficulty": 4, 
+        "difficulty": 3, 
         "levels": [
             "dabox",
             "bajox",
@@ -147,7 +147,7 @@
     },
     {
         "name": "Morsey Pack", 
-        "difficulty": 4, 
+        "difficulty": 3, 
         "levels": [
             "twink_braindead",
             "dunewalker",
@@ -158,7 +158,7 @@
     },
     {
         "name": "Detailed Pack 2", 
-        "difficulty": 4, 
+        "difficulty": 3, 
         "levels": [
             "soggy_swamp",
             "to_the_moon",
@@ -168,7 +168,7 @@
     },
     {
         "name": "Adventure Pack",
-        "difficulty": 5, 
+        "difficulty": 4, 
         "levels": [
             "distant_stars",
             "next_adventure",
@@ -177,7 +177,7 @@
     },
     {
         "name": "Detailed Pack 3",
-        "difficulty": 5, 
+        "difficulty": 4, 
         "levels": [
             "bomb_the_rave",
             "last_chapter",
@@ -187,7 +187,7 @@
     },
     {
         "name": "Long Pack 2", 
-        "difficulty": 6, 
+        "difficulty": 5, 
         "levels": [
             "overtime",
             "nana",
@@ -197,7 +197,7 @@
     },
     {
         "name": "Short Pack",
-        "difficulty": 6, 
+        "difficulty": 5, 
         "levels": [
             "big_brain_time",
             "yoasobi",
@@ -207,7 +207,7 @@
     },
     {
         "name": "Flare Pack", 
-        "difficulty": 6, 
+        "difficulty": 5, 
         "levels": [
             "rubber",
             "murder_flare",
@@ -216,7 +216,7 @@
     },
     {
         "name": "Long Pack 3", 
-        "difficulty": 7, 
+        "difficulty": 6, 
         "levels": [
             "light_it_up",
             "cruelty_of_hope",
@@ -225,7 +225,7 @@
     },
     {
         "name": "Hayden Verification Pack",
-        "difficulty": 7, 
+        "difficulty": 6, 
         "levels": [
             "lost",
             "tails_doll_007",
@@ -234,7 +234,7 @@
     },
     {
         "name": "Former Top 1s Pack",
-        "difficulty": 7, 
+        "difficulty": 6, 
         "levels": [
             "brutal_calamity",
             "huang_quan",
@@ -243,37 +243,37 @@
     },
     {
         "name": "Beginner Pack",
-        "difficulty": 1,
+        "difficulty": 0,
         "targetdiff": 0
     },
     {
         "name": "Easy Pack",
-        "difficulty": 2,
+        "difficulty": 1,
         "targetdiff": 1
     },
     {
         "name": "Medium Pack",
-        "difficulty": 3,
+        "difficulty": 2,
         "targetdiff": 2
     },
     {
         "name": "Hard Pack",
-        "difficulty": 4,
+        "difficulty": 3,
         "targetdiff": 3
     },
     {
         "name": "Insane Pack",
-        "difficulty": 5,
+        "difficulty": 4,
         "targetdiff": 4
     },
     {
         "name": "Mythical Pack",
-        "difficulty": 6,
+        "difficulty": 5,
         "targetdiff": 5
     },
     {
         "name": "Extreme Pack",
-        "difficulty": 7,
+        "difficulty": 6,
         "targetdiff": 6
     }
 ]
