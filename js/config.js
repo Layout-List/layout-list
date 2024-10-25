@@ -197,8 +197,8 @@ export function lightPackColor(difficulty) { // colors the packs will display as
     let b = 0;
     let a = 1; // the site assumes the opacity is 1, unless specified below
     
-    switch (difficulty) {
-        case 0:
+    switch (difficulty) { // check the pack's difficulty
+        case 0: // if it is 0, set the rgba values to these:
             r = 52;
             g = 107;
             b = 235;

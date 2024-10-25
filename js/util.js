@@ -38,7 +38,6 @@ export function shuffle(array) {
 }
 
 
-// these functions exist because css doesn't allow us to add or remove from the color's alpha
 export function rgbaBind(color, decrease) {
     let [r, g, b, a] = color;
     // handle case where alpha isn't defined
