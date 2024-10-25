@@ -47,7 +47,7 @@ if (!localStorage.getItem('leaderboarddata')) {
     localStorage.setItem('leaderboarddata', JSON.stringify(cookieLeaderboard))
 }
 
-export const store = Vue.reactive({
+export let store = Vue.reactive({
     dark: JSON.parse(localStorage.getItem('dark')) || false,
     toggleDark() {
         this.dark = !this.dark;
@@ -58,7 +58,7 @@ export const store = Vue.reactive({
     leaderboard: JSON.parse(localStorage.getItem('leaderboarddata')),
 });
 
-const app = Vue.createApp({
+let app = Vue.createApp({
     data: () => ({ store }),
 
     mounted() {
@@ -71,10 +71,13 @@ const app = Vue.createApp({
                 const updatedList = await fetchList();
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
 
-                localStorage.setItem('listdata', JSON.stringify(updatedList));
-                localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
+                if (updatedList !== store.list || updatedLeaderboard !== store.leaderboard) {
+                    localStorage.setItem('listdata', JSON.stringify(updatedList));
+                    localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
+                    store.list = JSON.parse(localStorage.getItem('listdata'))
+                    store.leaderboard = JSON.parse(localStorage.getItem('leaderboarddata'))
+                }
 
-                console.log('Data fetched and stored');
             } catch (error) {
                 console.error('Error fetching data:', error);
             }

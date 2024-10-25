@@ -127,6 +127,7 @@ export default {
     `,
     computed: {
         entry() {
+            this.leaderboard = this.store.leaderboard[0];
             return this.leaderboard[this.selected];
         },
     },
