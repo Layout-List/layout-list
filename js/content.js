@@ -61,7 +61,7 @@ export async function fetchList() {
 
                                     }
                                 }
-                            } else if (pack.targetdiff === level.difficulty) {
+                            } else if (pack.difficulty === level.difficulty) {
                                 packs.push(pack);
                             }
                         })
@@ -231,7 +231,7 @@ export async function fetchPackRecords(packs, list) {
                 }
             } else {
                 // Check levels by difficulty
-                let levelsInDifficulty = list.filter(([_, __, lvl]) => lvl.difficulty === pack.targetdiff && lvl.id !== 0);
+                let levelsInDifficulty = list.filter(([_, __, lvl]) => lvl.difficulty === pack.difficulty && lvl.id !== 0);
 
                 const completedLevels = levelsInDifficulty.filter(([_, __, level]) => 
                     level.records.some((record) => 
@@ -353,7 +353,7 @@ export async function fetchLeaderboard() {
                     if (allVerified) {
                         completedPacksMap[verifier].add(pack); // why
                     }
-                } else if (pack.targetdiff === level.difficulty) {
+                } else if (pack.difficulty === level.difficulty) {
                     // Count levels completed by the user in the current difficulty
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
                         lvl.difficulty === level.difficulty && 
@@ -418,7 +418,7 @@ export async function fetchLeaderboard() {
                         if (allCompleted) {
                             completedPacksMap[user].add(pack);
                         }
-                    } else if (pack.targetdiff === level.difficulty) {
+                    } else if (pack.difficulty === level.difficulty) {
                         // Count levels completed by the user in the current difficulty
                         const completedInDifficulty = list.filter(([_, __, lvl]) =>
                             lvl.difficulty === level.difficulty && 
