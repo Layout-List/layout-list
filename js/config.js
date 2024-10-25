@@ -182,9 +182,9 @@ export function challengeScore(difficulty) {
 }
 
 
-// -----------------------
-// Score function (packs):
-// -----------------------
+// ----------------------------------
+// Score function (difficulty packs):
+// ----------------------------------
 
 export function packScore(difficulty) { // the score assigned to difficulty packs.
     let score = 0;
