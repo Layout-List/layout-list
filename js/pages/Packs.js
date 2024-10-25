@@ -46,7 +46,7 @@ export default {
                 </table>
             </div>
 
-            <!-- level page :shocked: -->
+            <!-- super secret error handling! -->
             <div class="level-container">
                 <div v-if="errored !== null" class="level" style="height: 100%; justify-content: center; align-items: center; text-align: center; text-wrap: pretty;">
                     <img src="https://uploads.dailydot.com/2023/10/Shocked-Meme.jpg?auto=compress&fm=pjpg" style=height:13rem;margin-bottom:3rem;>
@@ -54,7 +54,8 @@ export default {
                     <p>Please let a list mod know that the pack you just clicked on might be broken, and show them this message (if there is one):</p>
                     <p>{{ errored }}</p>
                 </div>
-
+                    
+                <!-- level page :shocked: -->
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedThreshold === undefined">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -113,12 +114,12 @@ export default {
                 <!-- pack info page, including threshold pack records -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
-                    <h3 v-if="selectedPack.levels === null" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
+                    <h3 v-if="!selectedPack.levels" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
                     <h2>Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
                     <p v-for="record in selectedRecords">{{ record }}</p>
                 </div>
                 
-                
+                <!-- whatever this is -->
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
@@ -225,7 +226,6 @@ export default {
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, pack) {
             this.errored = null;
-            const levels = pack.levels || null
 
             try {
                 this.selected = null;
@@ -233,8 +233,8 @@ export default {
                 this.selectedPackIndex = index;
                 
                 // retrieve the available levels based on the pack index
-                if (levels !== null) {
-                    this.availableLevels = levels;
+                if (pack.levels) {
+                    this.availableLevels = pack.levels;
                     this.selectedThreshold = undefined;
                 } else {
                     this.availableLevels = [];

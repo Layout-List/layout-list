@@ -40,23 +40,18 @@ export function shuffle(array) {
 
 // these functions exist because css doesn't allow us to add or remove from the color's alpha
 export function rgbaBind(color, decrease) {
-    try {
-        let [r, g, b, a] = color;
-        // handle case where alpha isn't defined
+    let [r, g, b, a] = color;
+    // handle case where alpha isn't defined
 
-        if (!a) {
-            a = 1;
-        }
-
-        a -= decrease;
-
-        if (a <= 0.15) {
-            a = 0.15
-        }
-        
-        return `rgba(${r},${g},${b},${a})`;
-    } catch (e) {
-        console.error("Failed to color pack: " + e);
-        return `rgba(110, 110, 110, 0.3)`
+    if (!a) {
+        a = 1;
     }
+
+    a -= decrease;
+
+    if (a <= 0.15) {
+        a = 0.15
+    }
+    
+    return `rgba(${r},${g},${b},${a})`;
 }
