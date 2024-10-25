@@ -107,8 +107,7 @@ export async function fetchEditors() {
     }
 }
 
-export async function fetchLeaderboard() {
-    const list = await fetchList();
+export async function fetchLeaderboard(list) {
 
     const scoreMap = {};
     const errs = [];
