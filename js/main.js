@@ -4,8 +4,6 @@ import { fetchList, fetchLeaderboard } from './content.js';
 if (!localStorage.getItem('listdata')) {
     let cookieList = await fetchList()
 
-    console.log(cookieList)
-
     localStorage.setItem('listdata', JSON.stringify(cookieList))
 }
 
@@ -13,7 +11,7 @@ if (!localStorage.getItem('leaderboarddata')) {
     let cookieList = await fetchList()
     let cookieLeaderboard = await fetchLeaderboard(cookieList)
 
-
+    localStorage.setItem('listdata', JSON.stringify(cookieList))
     localStorage.setItem('leaderboarddata', JSON.stringify(cookieLeaderboard))
 }
 
@@ -27,6 +25,7 @@ export let store = Vue.reactive({
 
     list: JSON.parse(localStorage.getItem('listdata')),
     leaderboard: JSON.parse(localStorage.getItem('leaderboarddata')),
+    errors: []
 });
 
 let app = Vue.createApp({
@@ -38,17 +37,24 @@ let app = Vue.createApp({
 
     methods: {
         async runAfterMount() {
+            console.clear();
             store.loaded = true
             try {
                 const updatedList = await fetchList();
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
 
-                if (updatedList !== store.list || updatedLeaderboard !== store.leaderboard) {
+                if (updatedList !== store.list || 
+                    updatedLeaderboard !== store.leaderboard && 
+                    updatedLeaderboard[1].length === 0) { // if there's no errors
                     localStorage.setItem('listdata', JSON.stringify(updatedList));
                     localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
+                } else {
+
                 }
                 store.list = updatedList;
                 store.leaderboard = updatedLeaderboard;
+                store.errors = updatedLeaderboard[1]
+                console.log(store.errors)
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
