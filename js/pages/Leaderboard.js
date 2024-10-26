@@ -1,4 +1,5 @@
 import { fetchLeaderboard } from '../content.js';
+import { store } from '../main.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -8,6 +9,7 @@ export default {
         Spinner,
     },
     data: () => ({
+        store,
         leaderboard: [],
         loading: true,
         selected: 0,
@@ -125,11 +127,12 @@ export default {
     `,
     computed: {
         entry() {
+            this.leaderboard = this.store.leaderboard[0];
             return this.leaderboard[this.selected];
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
+        const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
         // Hide loading spinner

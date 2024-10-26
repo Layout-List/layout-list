@@ -210,6 +210,7 @@ export default {
   
     computed: {
         level() {
+            this.list = this.store.list
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -226,7 +227,7 @@ export default {
     },
     async mounted() {
         // Hide loading spinner
-        this.list = await fetchList();            
+        this.list = this.store.list;
         this.editors = await fetchEditors();
 
         // Error handling
@@ -254,5 +255,6 @@ export default {
         embed,
         score,
         averageEnjoyment
-    },
+},
+
 };
