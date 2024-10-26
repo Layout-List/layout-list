@@ -1,4 +1,4 @@
-import { score, challengeScore } from './config.js';
+import { score, challengeScore, packScore } from './config.js';
 import { round } from './util.js';
 
 /**
@@ -159,21 +159,23 @@ export async function fetchPacks(list) {
         let level = object[2];
          
         packs.forEach(async (pack) => {
-            if (pack.levels) {
-                for (let packlevel in pack.levels) {
-                    if (pack.levels[packlevel] === level.path) {
-        
-                        // iterate through every level in the pack,
-                        // and overwrite the level path in the levels array
-                        // with the object it resolves to
-        
-                        pack.levels[packlevel] = level;
-                        pack.levels[packlevel].path = level.path;
-                        pack.levels[packlevel].rank = object[1]; // do the same for rank (why)
-        
+            try {
+                if (pack.levels) { 
+                    // checks if the pack contains the level's path
+                    for (let packlevel in pack.levels) { 
+                        if (pack.levels[packlevel] === level.path) {
+                            // iterate through every level in the pack,
+                            // and overwrite the level path in the levels array
+                            // with the object it resolves to
+                            pack.levels[packlevel] = level;
+                            pack.levels[packlevel].path = level.path;
+                            pack.levels[packlevel].rank = level.rank;
+                            
+                        }
                     }
                 }
-                pack.levels.sort((b, a) => b.rank - a.rank);
+            } catch (e) {
+                console.error(`failed to fetch pack ${pack.name}:  ${e}`)
             }
         })
     });
@@ -247,6 +249,7 @@ export async function fetchPackRecords(packs, list) {
 }
 
 export async function fetchLeaderboard(list) {
+    const packs = await fetchPacks(list);
 
     const scoreMap = {};
     const errs = [];
@@ -331,7 +334,7 @@ export async function fetchLeaderboard(list) {
                     const allVerified = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
                             lvl.path == packLevel.path &&
-                           lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
+                            lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
                         )
                     );
                     if (allVerified) {
@@ -357,7 +360,7 @@ export async function fetchLeaderboard(list) {
         verified.push({
             rank,
             level: level.name,
-            score: verifiedScore,
+            score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
         });
 
@@ -369,7 +372,7 @@ export async function fetchLeaderboard(list) {
         completed.push({
             rank,
             level: level.name,
-            score: verifiedScore,
+            score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
             rating: level.enjoyment,
         });
@@ -424,9 +427,11 @@ export async function fetchLeaderboard(list) {
                             // Check if the user has completed as many levels as the pack's threshold
                             if (completedInDifficulty >= 5) {
                                 completedPacksMap[user].add(pack);
+                                
 
                             } 
                         }
+                        // completedScore += packScore(pack, list);
                     });
                 }
                 completed.push({
@@ -436,41 +441,55 @@ export async function fetchLeaderboard(list) {
                     link: record.link,
                     rating: record.enjoyment,
                 });
+                
 
                 return;
             }
-        progressedScore += score(rank, level.difficulty, record.percent, level.percentToQualify, list)
-        // console.log(`progressed score: ${progressedScore}`)
+            
+            progressedScore += score(rank, level.difficulty, record.percent, level.percentToQualify, list)
+            progressed.push({
 
-        progressed.push({
+                rank,
+                level: level.name,
+                percent: record.percent,
+                score: progressedScore,
+                link: record.link,
+                rating: record.enjoyment,
+            });
 
-            rank,
-            level: level.name,
-            percent: record.percent,
-            score: progressedScore,
-            link: record.link,
-            rating: record.enjoyment,
+            
+
+            
         });
-    });
 
         possibleMax += score(rank, level.difficulty, 100, level.percentToQualify, list);
+    })
+
+
+    packs.forEach((pack) => {
+        console.log(pack)
+        possibleMax += packScore(pack, list); 
     });
 
     Object.entries(completedPacksMap).forEach(([user, packs]) => {
         const uniquePacks = Array.from(packs);
         scoreMap[user].userPacks.push(...uniquePacks);
     });
-
-
-    // packs.forEach((pack) => possibleMax += pack.score) something like this, when packs have a score attached to them
-    
     
     // Wrap in extra Object containing the user and total score
+
     const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { created, verified, completed, progressed} = scores;
-        const total = [completed, progressed]
+
+        
+
+        console.log(completed);
+
+        let total = [completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
+
+        scores.userPacks.forEach((pack) => total += packScore(pack, list)) 
 
         return {
             user,
@@ -483,7 +502,9 @@ export async function fetchLeaderboard(list) {
 
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
+    
 }
+
 
 export async function fetchChallengeLeaderboard() {
     const list = await fetchChallengeList();
