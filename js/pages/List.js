@@ -274,6 +274,5 @@ export default {
         embed,
         score,
         averageEnjoyment
-},
-
+    },
 };
