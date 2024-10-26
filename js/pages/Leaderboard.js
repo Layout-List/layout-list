@@ -1,5 +1,7 @@
 import { fetchLeaderboard } from '../content.js';
-import { localize } from '../util.js';
+import { lightPackColor, darkPackColor } from '../config.js';
+import { localize, rgbaBind } from '../util.js';
+import { store } from '../main.js';
 
 import Spinner from '../components/Spinner.js';
 
@@ -12,6 +14,7 @@ export default {
         loading: true,
         selected: 0,
         err: [],
+        store,
     }),
     template: `
         <main v-if="loading">
@@ -53,6 +56,9 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
+                        <div class="pack-container" v-if="entry.userPacks.length > 0">
+                            <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }">{{ pack.name }}</div>
+                        </div>
                         <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
                         <table class="table" v-if="entry.created.length > 0">
                             <tr v-for="score in entry.created">
@@ -137,5 +143,8 @@ export default {
     },
     methods: {
         localize,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
     },
 };
