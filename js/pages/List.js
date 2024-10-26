@@ -1,7 +1,7 @@
 import { store } from '../main.js';
-import { embed, round, rgbaBind } from '../util.js';
-import { score, lightPackColor, darkPackColor } from '../config.js';
-import { fetchEditors, fetchList, averageEnjoyment } from '../content.js';
+import { embed } from '../util.js';
+import { score, round, averageEnjoyment } from '../score.js';
+import { fetchEditors, fetchList, } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -39,9 +39,6 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
-                        <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }">{{ pack.name }}</div>
-                    </div>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
@@ -115,7 +112,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
+                        <p class="type-label-md">Website layout on <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>, made by DJ JDK & Blathers.</p>
                     </div>
                     <template v-if="editors">
                         <h3>LIST EDITORS</h3>
@@ -256,9 +253,6 @@ export default {
     methods: {
         embed,
         score,
-        averageEnjoyment,
-        rgbaBind,
-        lightPackColor,
-        darkPackColor,
+        averageEnjoyment
     },
 };

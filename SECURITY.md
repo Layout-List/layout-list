@@ -9,7 +9,8 @@
 ## Reporting a Vulnerability
 
 You can report vulnerabilities through the
-[discord server](https://discord.gg/layoutlist) or by DMing Mystikl
-(Mystikl#0) or sphericle (zsphericle#0). Responses to vulnerability reports usually take
+[discord server](https://discord.gg/shittylist) or by DMing Raily
+(iRaily#1230), BlueStone (Bluestone.#1449), Electro (Electro#0457) or
+Prometheus(Prometheus#9463). Responses to vulnerability reports usually take
 from 3 hours to more than a day, depending on how difficult fixing a
 vulnerability is.
