@@ -76,10 +76,9 @@ let app = Vue.createApp({
                 if (updatedList !== store.list || updatedLeaderboard !== store.leaderboard) {
                     localStorage.setItem('listdata', JSON.stringify(updatedList));
                     localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
-                    store.list = JSON.parse(localStorage.getItem('listdata'))
-                    store.leaderboard = JSON.parse(localStorage.getItem('leaderboarddata'))
-                    
                 }
+                store.list = updatedList;
+                store.leaderboard = updatedLeaderboard;
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
