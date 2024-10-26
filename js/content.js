@@ -466,10 +466,7 @@ export async function fetchLeaderboard(list) {
     })
 
 
-    packs.forEach((pack) => {
-        console.log(pack)
-        possibleMax += packScore(pack, list); 
-    });
+    packs.forEach((pack) => possibleMax += packScore(pack, list));
 
     Object.entries(completedPacksMap).forEach(([user, packs]) => {
         const uniquePacks = Array.from(packs);
@@ -481,9 +478,6 @@ export async function fetchLeaderboard(list) {
     const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { created, verified, completed, progressed} = scores;
 
-        
-
-        console.log(completed);
 
         let total = [completed, progressed]
             .flat()
