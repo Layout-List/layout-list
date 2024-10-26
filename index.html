@@ -74,7 +74,7 @@
         </header>
         <router-view :class="{ dark: store.dark }"></router-view>
         <div class="loading-cache" :class="{ dark: store.dark }" v-if="!store.list || !store.loaded">
-            <p class="spinner">Loading...</p>
+            <p class="otherspinner">Loading...</p>
         </div>
     </body>
 </html>
