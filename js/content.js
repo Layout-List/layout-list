@@ -36,9 +36,9 @@ export async function fetchList() {
 
                     level["path"] = path;
 
-                    try {
-                        packsMap.forEach((pack) => {
-
+                    
+                    packsMap.forEach((pack) => {
+                        try {
                             if (pack.levels) { 
                                 if (pack.levels.includes(path)) {
                                     packs.push(pack);
@@ -53,17 +53,18 @@ export async function fetchList() {
                                         // with the object it resolves to
                                         pack.levels[packlevel] = level;
                                         pack.levels[packlevel].path = path;
-                                        pack.levels[packlevel].rank = rank; // do the same for path and rank (why)
-
+                                        pack.levels[packlevel].rank = rank;
+                                        
                                     }
                                 }
                             } else if (pack.difficulty === level.difficulty) {
                                 packs.push(pack);
                             }
-                        })
-                    } catch (e) {
-                        console.error(`failed to fetch packs: ${e}`)
-                    }
+                        } catch (e) {
+                            console.error(`failed to fetch pack ${pack.name}:  ${e}`)
+                        }
+                    })
+                    
                     
                     
                     return [
@@ -154,10 +155,8 @@ export async function fetchPacks(list) {
     
     list.forEach((object) => {
 
-        // list is an array > array with length of 3 > usually null (probably errors if any), level rank, level object
-
-        let level = object[2]; // why
-
+        // list is an array > array with length of 3 > null unless something is broken, level rank, level object
+        let level = object[2];
          
         packs.forEach(async (pack) => {
             if (pack.levels) {
@@ -185,8 +184,6 @@ export async function fetchPacks(list) {
         (a, b) => b.difficulty - a.difficulty,
     );
 
-
-    console.log(packs)
     return packs;
 }
 
@@ -249,9 +246,7 @@ export async function fetchPackRecords(packs, list) {
 
 }
 
-export async function fetchLeaderboard() {
-    const list = await fetchList();
-    const packs = await fetchPacks(list);
+export async function fetchLeaderboard(list) {
 
     const scoreMap = {};
     const errs = [];

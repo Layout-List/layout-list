@@ -1,4 +1,4 @@
-import { fetchLeaderboard } from '../content.js';
+import { fetchLeaderboard, fetchList } from '../content.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import { localize, rgbaBind } from '../util.js';
 import { store } from '../main.js';
@@ -135,7 +135,8 @@ export default {
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
+        const list = await fetchList()
+        const [leaderboard, err] = await fetchLeaderboard(list);
         this.leaderboard = leaderboard;
         this.err = err;
         // Hide loading spinner

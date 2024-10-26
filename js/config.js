@@ -4,7 +4,7 @@ import { round } from './util.js';
 // ------------------------------------------------------------------
 // welcome to the site's configuration!
 // this file allows us to change: 
-//      - the function used anytime the site needs to display a score
+//      - the formula used anytime the site needs to display a score
 //      - the colors a pack is displayed as
 //      - the amount of decimals the site will display globally
 //      - legacy challenge list functions
@@ -17,11 +17,19 @@ import { round } from './util.js';
 
 export const scale = 1; // amount of decimals the site will globally round to
 
+
+// fetchTierLength() takes in the list data and a specific difficulty, then
+// outputs the amount of levels in that difficulty
+
+// fetchTierMinimum takes in the list data and a specific difficulty, then
+// outputs the level in that difficulty with the GREATEST rank 
+
+
 // ---------------
 // Score function:
 // ---------------
-
 import { fetchTierLength, fetchTierMinimum } from "./content.js";
+
 export function score(rank, difficulty, percent, minPercent, list) {
 
     // there are two formulas used to calculate a level's score: linear and exponential.

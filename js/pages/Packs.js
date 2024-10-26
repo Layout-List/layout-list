@@ -111,12 +111,12 @@ export default {
                     </table>
                 </div>
 
-                <!-- pack info page, including threshold pack records -->
+                <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
                     <h3 v-if="!selectedPack.levels" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
-                    <h2>Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
-                    <p v-for="record in selectedRecords">{{ record }}</p>
+                    <h2 style="margin-bottom:1rem">Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
+                    <p v-for="record in selectedRecords" style="margin-left:2rem">{{ record }} </p>
                 </div>
                 
                 <!-- whatever this is -->
@@ -132,10 +132,10 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <h3>About the packs</h3>
-                    <p>These are sets of levels on the Layout List chosen by the Layout List staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
+                    <h3>About packs</h3>
+                    <p>Packs are sets of levels on the Layout List chosen by the staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
                     <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
-                    <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the role for completing the pack!</p>
+                    <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the roles for the packs you've completed!</p>
                     <h3>Points</h3>
                 </div>
             </div>
