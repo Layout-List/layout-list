@@ -68,6 +68,7 @@ let app = Vue.createApp({
 
     methods: {
         async runAfterMount() {
+            store.loaded = true
             try {
                 const updatedList = await fetchList();
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
@@ -77,9 +78,8 @@ let app = Vue.createApp({
                     localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
                     store.list = JSON.parse(localStorage.getItem('listdata'))
                     store.leaderboard = JSON.parse(localStorage.getItem('leaderboarddata'))
-                    store.loaded = true;
+                    
                 }
-
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
