@@ -137,3 +137,13 @@
     margin:5px;
     text-align:center;
 }
+.pack {
+    border-radius: 25px;
+    padding: 3px 10px; 
+    text-align: center;
+    display: inline-block;
+    font-family: "Lexend Deca", sans-serif;
+    width: fit-content;
+    text-wrap: nowrap;
+    background: rgba(89, 89, 89, 0.2);
+}
