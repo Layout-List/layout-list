@@ -1,32 +1,6 @@
 import routes from './routes.js';
 import { fetchList, fetchLeaderboard } from './content.js';
 
-// if the site finds a "listdata" object in cookies, convert it to an object and use it for list
-// if not, 
-
-
-
-function compressObject(obj) {
-    const jsonString = JSON.stringify(obj);  // Convert object to JSON string
-    const utf8Encoded = new TextEncoder().encode(jsonString);  // Convert to UTF-8 bytes
-    const compressed = pako.gzip(utf8Encoded);  // Compress using Gzip
-    return compressed;
-}
-
-
-
-
-
-  function decompressObject(compressedData) {
-    const decompressed = pako.ungzip(compressedData, { to: 'string' });  // Decompress Gzip
-    const obj = JSON.parse(decompressed);  // Convert back to object
-    return obj;
-}
-
-
-
-
-
 if (!localStorage.getItem('listdata')) {
     let cookieList = await fetchList()
 
@@ -34,10 +8,6 @@ if (!localStorage.getItem('listdata')) {
 
     localStorage.setItem('listdata', JSON.stringify(cookieList))
 }
-
-
-
-
 
 if (!localStorage.getItem('leaderboarddata')) {
     let cookieList = await fetchList()
