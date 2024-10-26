@@ -3,7 +3,6 @@ import ChallengeList from './pages/ChallengeList.js';
 import Leaderboard from './pages/Leaderboard.js';
 import ChallengeLeaderboard from './pages/ChallengeLeaderboard.js';
 import Roulette from './pages/Roulette.js';
-import Packs from './pages/Packs.js';
 
 export default [
     { path: '/', component: List },
@@ -11,5 +10,4 @@ export default [
     { path: '/leaderboard', component: Leaderboard },
     { path: '/challengeleaderboard', component: ChallengeLeaderboard },
     { path: '/roulette', component: Roulette },
-    { path: '/packs', component: Packs },
 ];

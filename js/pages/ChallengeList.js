@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { challengeScore } from '../config.js';
+import { challengeScore } from '../score.js';
 import { fetchEditors, fetchChallengeList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
