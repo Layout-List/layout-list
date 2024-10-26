@@ -151,15 +151,10 @@ export function packScore(pack, list) { // the score assigned to difficulty pack
     if (pack.levels) {
         let totalScore = 0
         pack.levels.forEach((lvl) => {
-            console.log(score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list))
-            console.log(lvl.name)
             totalScore += score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list)
-            
-            packscore = totalScore / pack.levels.length
-            
         })
+        packscore = totalScore / pack.levels.length
     } else {
-    
         switch (pack.difficulty) { 
             case 0: // if the difficulty is 1, set the score to this:
                 packscore = 5;
@@ -186,7 +181,6 @@ export function packScore(pack, list) { // the score assigned to difficulty pack
                 packscore = 0;
                 break;
         }
-        
     }
     return packscore;
 }
