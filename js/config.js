@@ -1,5 +1,5 @@
 import { round } from './util.js';
-
+import { fetchList } from './content.js'
 
 // ------------------------------------------------------------------
 // welcome to the site's configuration!
@@ -28,6 +28,7 @@ export const scale = 1; // amount of decimals the site will globally round to
 // ---------------
 // Score function:
 // ---------------
+
 import { fetchTierLength, fetchTierMinimum } from "./content.js";
 
 export function score(rank, difficulty, percent, minPercent, list) {
@@ -140,45 +141,54 @@ export function score(rank, difficulty, percent, minPercent, list) {
     return score;
 }
 
-
-
-
-
 // ----------------------------------
 // Score function (difficulty packs):
 // ----------------------------------
 
-export function packScore(difficulty) { // the score assigned to difficulty packs.
-    let score = 0;
-    
-    switch (difficulty) { 
-        case 1: // if the difficulty is 1, set the score to this:
-            score = 5;
-            break;
-        case 2:
-            score = 15;
-            break;
-        case 3:
-            score = 30;
-            break;
-        case 4:
-            score = 50;
-            break;
-        case 5:
-            score = 70;
-            break;
-        case 6:
-            score = 100;
-            break;
-        case 7:
-            score = 150;
-            break;
-        default:
-            score = 0;
-            break;
-    }
+export function packScore(pack, list) { // the score assigned to difficulty packs.
+    let packscore = 0;
 
-    return score;
+    if (pack.levels) {
+        let totalScore = 0
+        pack.levels.forEach((lvl) => {
+            console.log(score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list))
+            console.log(lvl.name)
+            totalScore += score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list)
+            
+            packscore = totalScore / pack.levels.length
+            
+        })
+    } else {
+    
+        switch (pack.difficulty) { 
+            case 0: // if the difficulty is 1, set the score to this:
+                packscore = 5;
+                break;
+            case 1:
+                packscore = 15;
+                break;
+            case 2:
+                packscore = 30;
+                break;
+            case 3:
+                packscore = 50;
+                break;
+            case 4:
+                packscore = 70;
+                break;
+            case 5:
+                packscore = 100;
+                break;
+            case 6:
+                packscore = 150;
+                break;
+            default:
+                packscore = 0;
+                break;
+        }
+        
+    }
+    return packscore;
 }
 
 
