@@ -90,12 +90,6 @@ main > div {
     grid-column: span 3;
 }
 
-.otherspinner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 input[type="checkbox"] {
     height: 1.25rem;
     width: 1.25rem;
