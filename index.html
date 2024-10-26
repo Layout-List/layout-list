@@ -73,5 +73,8 @@
             </nav>
         </header>
         <router-view :class="{ dark: store.dark }"></router-view>
+        <div class="loading-cache" :class="{ dark: store.dark }" v-if="!store.list || !store.loaded">
+            <h3 class="spinner cache-text" :class="{ dark: store.dark }">Loading...</h3>
+        </div>
     </body>
 </html>

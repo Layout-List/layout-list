@@ -48,6 +48,7 @@ if (!localStorage.getItem('leaderboarddata')) {
 }
 
 export let store = Vue.reactive({
+    loaded: false,
     dark: JSON.parse(localStorage.getItem('dark')) || false,
     toggleDark() {
         this.dark = !this.dark;
@@ -76,6 +77,7 @@ let app = Vue.createApp({
                     localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
                     store.list = JSON.parse(localStorage.getItem('listdata'))
                     store.leaderboard = JSON.parse(localStorage.getItem('leaderboarddata'))
+                    store.loaded = true;
                 }
 
             } catch (error) {
