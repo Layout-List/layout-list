@@ -44,8 +44,7 @@ let app = Vue.createApp({
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
 
                 if (updatedList !== store.list || 
-                    updatedLeaderboard !== store.leaderboard && 
-                    updatedLeaderboard[1].length === 0) { // if there's no errors
+                    updatedLeaderboard !== store.leaderboard) {
                     localStorage.setItem('listdata', JSON.stringify(updatedList));
                     localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
                 } else {
@@ -54,7 +53,6 @@ let app = Vue.createApp({
                 store.list = updatedList;
                 store.leaderboard = updatedLeaderboard;
                 store.errors = updatedLeaderboard[1]
-                console.log(store.errors)
             } catch (error) {
                 console.error('Error fetching data:', error);
             }

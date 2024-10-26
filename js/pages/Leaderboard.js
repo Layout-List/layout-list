@@ -141,4 +141,9 @@ export default {
     methods: {
         localize,
     },
+    watch: {
+        'store.errors'(errors) {
+            this.err = errors;
+        }
+    },
 };

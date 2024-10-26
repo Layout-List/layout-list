@@ -236,6 +236,9 @@ export default {
                 'Failed to load list. Retry in a few minutes or notify list staff.',
             ];
         } else {
+            this.store.errors.forEach((err) => 
+                this.errors.push(`Failed to load level. (${err}.json)`))
+
             if (!this.editors) {
                 this.errors.push('Failed to load list editors.');
             }
@@ -247,7 +250,6 @@ export default {
     watch: {
         'store.errors'(errors) {
             errors.forEach(err => {
-                console.log('changed')
                 this.errors.push(`Failed to load level. (${err}.json)`);
             });
         }
