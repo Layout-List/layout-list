@@ -159,6 +159,12 @@ export async function fetchPacks(list) {
 
         // list is an array > array with length of 3 > null unless something is broken, level rank, level object
         let level = object[2];
+
+        if (level.records) {
+                                
+            const newUsers = level.records.find((record) =>!users.includes(record.user))
+            newUsers ? users.push(...newUsers) : newUsers == newUsers
+        }
          
         packs.forEach(async (pack) => { // initially build the packs
             try {
@@ -177,13 +183,7 @@ export async function fetchPacks(list) {
                             if (!users.includes(pack.levels[packlevel].verifier))
                                 users.push(pack.levels[packlevel].verifier)
 
-                            if (pack.levels[packlevel].records) {
-                                
-                                const newUsers = pack.levels[packlevel].records.find(
-                                    (record) => users.includes(record.user)
-                                )
-                                users.push(...newUsers)
-                            }
+                            
 
                             
                             

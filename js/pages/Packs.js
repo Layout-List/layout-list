@@ -124,8 +124,8 @@ export default {
                         </template>
                     </p>
                     <p v-if="!selectedPack.levels"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</p>
-                    <h2>Records ({{ selectedRecords.size }})</h2>
-                    <p class="packrecords" v-for="record in selectedRecords">{{ record }}</p>
+                    <h2>Records ({{ selectedPack.records.length }})</h2>
+                    <p class="packrecords" v-for="record in selectedPack.records">{{ record }}</p>
                 </div>
                 
                 <!-- whatever this is -->
@@ -160,7 +160,6 @@ export default {
         selectedPackIndex: null,
         selectedThreshold: undefined,
         hoverIndex: null, // don't ask
-        selectedRecords: [],
         errors: [],
         errored: null,
         roleIconMap,
@@ -191,7 +190,6 @@ export default {
         // Hide loading spinner
         this.list = this.store.list;
         this.packs = this.store.packs;
-        this.records = this.store.packRecords;
 
         // Error handling
         if (!this.list || !this.packs) {
@@ -227,8 +225,6 @@ export default {
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, pack) {
             this.errored = null;
-            
-            let records = this.store.packRecords
 
             try {
                 this.selected = null;
@@ -244,8 +240,6 @@ export default {
                     this.availableLevels = [];
                     this.selectedThreshold = pack;
                 }
-                console.log('retreiving specific records from store')
-                this.selectedRecords = records[pack.name];
                 return;
                 
             } catch (e) {
