@@ -1,12 +1,12 @@
 [
     {
-        "name": "Rated Pack 1",
+        "name": "Chill Pack",
         "difficulty": 0,
         "levels": [
-            "fun_dance",
-            "gravity_out",
-            "adapation",
-            "time_shell"
+            "zzz",
+            "foggy_bridge",
+            "wewo",
+            "florescent"
         ]
     },
     {
@@ -21,22 +21,33 @@
         ]
     },
     {
-        "name": "Chill Pack",
+        "name": "Rated Pack 1",
         "difficulty": 0,
         "levels": [
-            "zzz",
-            "foggy_bridge",
-            "wewo",
-            "florescent"
+            "fun_dance",
+            "gravity_out",
+            "adapation",
+            "time_shell"
         ]
     },
     {
-        "name": "Quacker Pack",   
+        "name": "Asteria Pack",
         "difficulty": 1,
         "levels": [
-            "druggered_duck",
-            "drugged_duck",
-            "fearful_duckling"
+            "sky_castle",
+            "the_shredder",
+            "land_of_fire"
+        ]
+    },
+    {
+        "name": "Xeronius Pack",  
+        "difficulty": 1,
+        "levels": [
+            "invincible",
+            "toxic_sewers",
+            "cove",
+            "get_funked",
+            "dramatic"
         ]
     },
     {
@@ -48,6 +59,15 @@
             "outlay",
             "dancing_moonman",
             "havoc"
+        ]
+    },
+    {
+        "name": "Quacker Pack",   
+        "difficulty": 1,
+        "levels": [
+            "druggered_duck",
+            "drugged_duck",
+            "fearful_duckling"
         ]
     },
     {
@@ -66,26 +86,6 @@
             "because_we_miss",
             "layout_master",
             "vulture"
-        ]
-    },
-    {
-        "name": "Xeronius Pack",  
-        "difficulty": 1,
-        "levels": [
-            "invincible",
-            "toxic_sewers",
-            "cove",
-            "get_funked",
-            "dramatic"
-        ]
-    },
-    {
-        "name": "Asteria Pack",
-        "difficulty": 1,
-        "levels": [
-            "sky_castle",
-            "the_shredder",
-            "land_of_fire"
         ]
     },
     {
@@ -108,22 +108,13 @@
         ]
     },
     {
-        "name": "Sal Pack",
-        "difficulty": 3,
-        "levels": [
-            "endless",
-            "atmosphere",
-            "aura",
-            "aurora_sal"
-        ]
-    },
-    {
-        "name": "Blathers Pack", 
+        "name": "Detailed Pack 2", 
         "difficulty": 3, 
         "levels": [
-            "kitty_kat",
-            "lightmare",
-            "alpha_b"
+            "soggy_swamp",
+            "to_the_moon",
+            "heartbreaker",
+            "freeze_flame"
         ]
     },
     {
@@ -134,15 +125,6 @@
             "rgb",
             "aleph_0",
             "i_dont_wanna_go"
-        ]
-    },
-    {
-        "name": "Box Pack",
-        "difficulty": 3, 
-        "levels": [
-            "dabox",
-            "bajox",
-            "jabox"
         ]
     },
     {
@@ -157,22 +139,31 @@
         ]
     },
     {
-        "name": "Detailed Pack 2", 
-        "difficulty": 3, 
+        "name": "Sal Pack",
+        "difficulty": 3,
         "levels": [
-            "soggy_swamp",
-            "to_the_moon",
-            "heartbreaker",
-            "freeze_flame"
+            "endless",
+            "atmosphere",
+            "aura",
+            "aurora_sal"
         ]
     },
     {
-        "name": "Adventure Pack",
-        "difficulty": 4, 
+        "name": "Box Pack",
+        "difficulty": 3, 
         "levels": [
-            "distant_stars",
-            "next_adventure",
-            "sudden_departure"
+            "dabox",
+            "bajox",
+            "jabox"
+        ]
+    },
+    {
+        "name": "Blathers Pack", 
+        "difficulty": 3, 
+        "levels": [
+            "kitty_kat",
+            "lightmare",
+            "alpha_b"
         ]
     },
     {
@@ -183,6 +174,15 @@
             "last_chapter",
             "heat_stroke",
             "tormenta"
+        ]
+    },
+    {
+        "name": "Adventure Pack",
+        "difficulty": 4, 
+        "levels": [
+            "distant_stars",
+            "next_adventure",
+            "sudden_departure"
         ]
     },
     {
@@ -215,16 +215,16 @@
         ]
     },
     {
-        "name": "Long Pack 3", 
+        "name": "Former Top 1s Pack",
         "difficulty": 6, 
         "levels": [
-            "light_it_up",
-            "cruelty_of_hope",
-            "karma"
+            "brutal_calamity",
+            "huang_quan",
+            "experiment"
         ]
     },
     {
-        "name": "Hayden Verification Pack",
+        "name": "zDark Verification Pack",
         "difficulty": 6, 
         "levels": [
             "lost",
@@ -233,12 +233,12 @@
         ]
     },
     {
-        "name": "Former Top 1s Pack",
+        "name": "Long Pack 3", 
         "difficulty": 6, 
         "levels": [
-            "brutal_calamity",
-            "huang_quan",
-            "experiment"
+            "light_it_up",
+            "cruelty_of_hope",
+            "karma"
         ]
     },
     {

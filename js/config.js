@@ -148,13 +148,13 @@ export function score(rank, difficulty, percent, minPercent, list) {
 export function packScore(pack, list) { // the score assigned to difficulty packs.
     let packscore = 0;
 
-    if (pack.levels) {
+    /*if (pack.levels) {
         let totalScore = 0
         pack.levels.forEach((lvl) => {
             totalScore += score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list)
         })
         packscore = totalScore / pack.levels.length
-    } else {
+    } else {*/
         switch (pack.difficulty) { 
             case 0: // if the difficulty is 1, set the score to this:
                 packscore = 5;
@@ -181,7 +181,7 @@ export function packScore(pack, list) { // the score assigned to difficulty pack
                 packscore = 0;
                 break;
         }
-    }
+    //}
     return round(packscore);
 }
 
