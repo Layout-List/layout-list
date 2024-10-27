@@ -113,11 +113,18 @@ export default {
 
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
-                <h1>{{ selectedPack.name }}</h1>
-                <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
-                    <h3 v-if="!selectedPack.levels" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
-                    <h2 style="margin-bottom:1rem">Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
-                    <p v-for="record in selectedRecords" style="margin-left:2rem">{{ record }} </p>
+                    <h1>{{ selectedPack.name }}</h1>
+                    <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
+                    <h2>Levels:</h2>
+                    <p v-if="selectedPack.levels" class=type-body">
+                        <template v-for="(level, index) in selectedPack.levels">
+                            <span>{{ level.name }}</span>
+                            <span v-if="index < selectedPack.levels.length - 1">, </span>
+                        </template>
+                    </p>
+                    <p v-if="!selectedPack.levels" class="stuff"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</p>
+                    <h2>Records ({{ selectedRecords.size }}):</h2>
+                    <p class="packrecords" v-for="record in selectedRecords">{{ record }}</p>
                 </div>
                 
                 <!-- whatever this is -->

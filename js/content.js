@@ -181,7 +181,6 @@ export async function fetchPacks(list) {
     });
     
 
-    
     packs.sort(
         (a, b) => b.difficulty - a.difficulty,
     );
