@@ -190,7 +190,7 @@ export default {
         // Hide loading spinner
         this.list = this.store.list;
         this.packs = this.store.packs;
-        this.records = await fetchPackRecords(this.packs, this.list);
+        this.records = this.store.packRecords;
 
         // Error handling
         if (!this.list || !this.packs) {
@@ -226,6 +226,8 @@ export default {
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, pack) {
             this.errored = null;
+            
+            let records = this.store.packRecords
 
             try {
                 this.selected = null;
@@ -241,8 +243,8 @@ export default {
                     this.availableLevels = [];
                     this.selectedThreshold = pack;
                 }
-                
-                this.selectedRecords = this.records[pack.name];
+                console.log('retreiving specific records from store')
+                this.selectedRecords = records[pack.name];
                 return;
                 
             } catch (e) {
@@ -273,6 +275,12 @@ export default {
             errors.forEach(err => {
                 this.errors.push(`Failed to load level. (${err}.json)`);
             });
+        },
+        'store.packRecords'() {
+            // reselect pack 
+            console.log('reselecting')
+            this.selectPack(this.selectedPackIndex, this.packs[this.selectedPackIndex])
+
         }
     },
 };

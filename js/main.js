@@ -1,6 +1,8 @@
 import routes from './routes.js';
 import { fetchList, fetchLeaderboard, fetchPacks, fetchPackRecords } from './content.js';
 
+console.clear();
+
 // Helper functions to compress and decompress data using Gzip
 function compressData(data) {
     const jsonData = JSON.stringify(data);
@@ -20,6 +22,7 @@ function decompressData(compressedData) {
     const decompressed = pako.ungzip(charData, { to: 'string' });
     return JSON.parse(decompressed);
 }
+
 
 // Store compressed data if it doesn't exist
 
@@ -53,11 +56,13 @@ if (!localStorage.getItem('packrecorddata')) {
     let cookieList = localStorage.getItem('listdata') ? decompressData(localStorage.getItem('listdata')) : await fetchList();
     let cookiePacks = localStorage.getItem('packsdata') ? decompressData(localStorage.getItem('packsdata')) : await fetchPacks(cookieList);
     let cookiePackRecords = await fetchPackRecords(cookiePacks, cookieList);
+    console.log(cookiePackRecords); // data is intact
+    
     
 
     localStorage.setItem('listdata', compressData(cookieList));
     localStorage.setItem('packsdata', compressData(cookiePacks));
-    localStorage.setItem('packrecorddata', compressData(cookiePackRecords));
+    localStorage.setItem('packrecorddata', cookiePackRecords);
 }
 
 // Decompress data when loading it from storage
@@ -72,7 +77,7 @@ export let store = Vue.reactive({
     list: localStorage.getItem('listdata') ? decompressData(localStorage.getItem('listdata')) : null,
     leaderboard: localStorage.getItem('leaderboarddata') ? decompressData(localStorage.getItem('leaderboarddata')) : null,
     packs: localStorage.getItem('packsdata') ? decompressData(localStorage.getItem('packsdata')) : null,
-    packRecords: localStorage.getItem('packrecorddata') ? decompressData(localStorage.getItem('packrecorddata')) : null,
+    packRecords: localStorage.getItem('packrecorddata') ? localStorage.getItem('packrecorddata') : null,
     errors: []
 });
 
@@ -85,7 +90,7 @@ let app = Vue.createApp({
 
     methods: {
         async runAfterMount() {
-            console.log('running!')
+            console.log('updating...')
             store.loaded = true;
             try {
                 // list
@@ -109,11 +114,13 @@ let app = Vue.createApp({
 
                 // packs
                 const updatedPackRecords = await fetchPackRecords(updatedPacks, updatedList);
+
+                
                 if (JSON.stringify(updatedPackRecords) !== JSON.stringify(store.packRecords)) {
                     localStorage.setItem('listdata', compressData(updatedList));
                     localStorage.setItem('packsdata', compressData(updatedPacks));
-                    localStorage.setItem('packrecorddata', compressData(updatedPackRecords));
-                }
+                    localStorage.setItem('packrecorddata', updatedPackRecords);
+                } 
 
 
 
@@ -122,6 +129,7 @@ let app = Vue.createApp({
                 store.packs = updatedPacks;
                 store.packRecords = updatedPackRecords;
                 store.errors = updatedLeaderboard[1]; // levels with errors are stored here
+                console.log('updated!')
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
