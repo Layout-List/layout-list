@@ -151,6 +151,8 @@ export async function fetchPacks(list) {
 
     const packs = await packResult.json();
 
+    let users = [];
+
 
     
     list.forEach((object) => {
@@ -158,7 +160,7 @@ export async function fetchPacks(list) {
         // list is an array > array with length of 3 > null unless something is broken, level rank, level object
         let level = object[2];
          
-        packs.forEach(async (pack) => {
+        packs.forEach(async (pack) => { // initially build the packs
             try {
                 if (pack.levels) { 
                     // checks if the pack contains the level's path
@@ -168,6 +170,23 @@ export async function fetchPacks(list) {
                             // and overwrite the level path in the levels array
                             // with the object it resolves to
                             pack.levels[packlevel] = level;
+                            
+
+                            // while we're here, make a list of all the users connected
+                            // to packs (records, verifier)
+                            if (!users.includes(pack.levels[packlevel].verifier))
+                                users.push(pack.levels[packlevel].verifier)
+
+                            if (pack.levels[packlevel].records) {
+                                
+                                const newUsers = pack.levels[packlevel].records.find(
+                                    (record) => users.includes(record.user)
+                                )
+                                users.push(...newUsers)
+                            }
+
+                            
+                            
                             pack.levels[packlevel].path = level.path;
                             pack.levels[packlevel].rank = level.rank;
                             
@@ -178,13 +197,54 @@ export async function fetchPacks(list) {
                 console.error(`failed to fetch pack ${pack.name}:  ${e}`)
             }
         })
-    });
+    })
+        console.log(users);
+        users.forEach((user) => {
+
+            console.log(user);
+            // now that we have a full list of users,
+            // add them to the pack's records
+            let userLower = user.toLowerCase();
+            
+            packs.forEach(async (pack) => {
+    
+                if (pack.levels) {
+                    // Check if user has completed all levels in the pack
+                    const allCompleted = pack.levels.every((packLevel) => {
+                        return packLevel.records?.some((record) => 
+                            record.user.toLowerCase() === userLower || 
+                            packLevel.verifier?.toLowerCase() === userLower
+                        );
+                    });
+    
+                    if (allCompleted) {
+                        pack['records'].add(user);
+                    }
+                } else {
+                    // Check levels by difficulty
+                    let levelsInDifficulty = list.filter(([_, __, lvl]) => lvl.difficulty === pack.difficulty && lvl.id !== 0);
+    
+                    const completedLevels = levelsInDifficulty.filter(([_, __, level]) => 
+                        level.records.some((record) => 
+                            record.user.toLowerCase() === userLower && 
+                            record.percent === 100
+                        )
+                    );
+    
+                    // If user has completed at least 5 levels in this difficulty
+                    if (completedLevels.length >= 5) {
+                        pack['records']?.push(user);
+                    }
+                }
+            });
+        });
     
 
     packs.sort(
         (a, b) => b.difficulty - a.difficulty,
     );
 
+    console.log(packs);
     return packs;
 }
 
@@ -193,16 +253,6 @@ export async function fetchPackRecords(packs, list) {
     // list is needed for threshold packs because we need to access the level objects
     let users = []
     let completedPacksMap = {};
-
-    // Collect records and users
-    list.forEach(([_, __, level]) =>  {
-        if (level.records) {
-            level.records.forEach((record) => {
-                const exists = users.find((user) => record.user.toLowerCase() === user.toLowerCase() || level.verifier.toLowerCase() === user.toLowerCase())
-                if (!exists) users.push(record.user)
-            })
-        }
-    })
 
     // Process each user and pack
     users.forEach((user) => { 
@@ -241,7 +291,6 @@ export async function fetchPackRecords(packs, list) {
             }
         });
     });
-
     return completedPacksMap;
 
 
