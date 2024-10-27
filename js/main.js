@@ -28,12 +28,14 @@ function decompressData(compressedData) {
 
 // list
 if (!localStorage.getItem('listdata')) {
+    console.warn('List not found in cache, refreshing...')
     let cookieList = await fetchList();
     localStorage.setItem('listdata', compressData(cookieList));
 }
 
 // leaderboard (deps: list)
 if (!localStorage.getItem('leaderboarddata')) {
+    console.warn('Leaderboard not found in cache, refreshing...')
     let cookieList = localStorage.getItem('listdata') ? decompressData(localStorage.getItem('listdata')) : await fetchList();
     let cookieLeaderboard = await fetchLeaderboard(cookieList);
 
@@ -43,6 +45,7 @@ if (!localStorage.getItem('leaderboarddata')) {
 
 // packs (deps: list)
 if (!localStorage.getItem('packsdata')) {
+    console.warn('Packs not found in cache, refreshing...')
     let cookieList = localStorage.getItem('listdata') ? decompressData(localStorage.getItem('listdata')) : await fetchList();
     let cookiePacks = await fetchPacks(cookieList);
 
@@ -90,17 +93,19 @@ let app = Vue.createApp({
 
     methods: {
         async runAfterMount() {
-            console.log('updating...')
+            console.log('Pre-load completed, checking for new data...')
             store.loaded = true;
             try {
                 // list
                 const updatedList = await fetchList();
-                if (JSON.stringify(updatedList) !== JSON.stringify(store.list))
+                if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
+                    console.log('Found new data in list! Overwriting...')
                     localStorage.setItem('listdata', compressData(updatedList));
-
+                }
                 // leaderboard
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
                 if (JSON.stringify(updatedLeaderboard) !== JSON.stringify(store.leaderboard)) {
+                    console.log('Found new data in leaderboard! Overwriting...')
                     localStorage.setItem('listdata', compressData(updatedList));
                     localStorage.setItem('leaderboarddata', compressData(updatedLeaderboard));
                 }
@@ -108,14 +113,13 @@ let app = Vue.createApp({
                 // packs
                 const updatedPacks = await fetchPacks(updatedList);
                 if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
+                    console.log('Found new data in packs! Overwriting...')
                     localStorage.setItem('listdata', compressData(updatedList));
                     localStorage.setItem('packsdata', compressData(updatedPacks));
                 }
 
-                // packs
-                const updatedPackRecords = await fetchPackRecords(updatedPacks, updatedList);
 
-                
+                const updatedPackRecords = await fetchPackRecords(updatedPacks, updatedList);
                 if (JSON.stringify(updatedPackRecords) !== JSON.stringify(store.packRecords)) {
                     localStorage.setItem('listdata', compressData(updatedList));
                     localStorage.setItem('packsdata', compressData(updatedPacks));
@@ -129,7 +133,7 @@ let app = Vue.createApp({
                 store.packs = updatedPacks;
                 store.packRecords = updatedPackRecords;
                 store.errors = updatedLeaderboard[1]; // levels with errors are stored here
-                console.log('updated!')
+                console.log('Up to date!')
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
