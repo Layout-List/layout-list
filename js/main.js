@@ -1,36 +1,20 @@
 import routes from './routes.js';
 import { fetchList, fetchLeaderboard } from './content.js';
-import pako from 'pako';
 
-// Helper functions to compress and decompress data using Gzip
-function compressData(data) {
-    const jsonData = JSON.stringify(data);
-    const compressed = pako.gzip(jsonData);
-    return btoa(String.fromCharCode.apply(null, new Uint8Array(compressed))); // Convert binary to base64 for storage
-}
-
-function decompressData(compressedData) {
-    const binaryString = atob(compressedData); // Decode base64
-    const charData = binaryString.split('').map(char => char.charCodeAt(0));
-    const decompressed = pako.ungzip(new Uint8Array(charData), { to: 'string' });
-    return JSON.parse(decompressed);
-}
-
-// Store compressed data if it doesn't exist
 if (!localStorage.getItem('listdata')) {
-    let cookieList = await fetchList();
-    localStorage.setItem('listdata', compressData(cookieList));
+    let cookieList = await fetchList()
+
+    localStorage.setItem('listdata', JSON.stringify(cookieList))
 }
 
 if (!localStorage.getItem('leaderboarddata')) {
-    let cookieList = await fetchList();
-    let cookieLeaderboard = await fetchLeaderboard(cookieList);
+    let cookieList = await fetchList()
+    let cookieLeaderboard = await fetchLeaderboard(cookieList)
 
-    localStorage.setItem('listdata', compressData(cookieList));
-    localStorage.setItem('leaderboarddata', compressData(cookieLeaderboard));
+    localStorage.setItem('listdata', JSON.stringify(cookieList))
+    localStorage.setItem('leaderboarddata', JSON.stringify(cookieLeaderboard))
 }
 
-// Decompress data when loading it from storage
 export let store = Vue.reactive({
     loaded: false,
     dark: JSON.parse(localStorage.getItem('dark')) || false,
@@ -39,8 +23,8 @@ export let store = Vue.reactive({
         localStorage.setItem('dark', JSON.stringify(this.dark));
     },
 
-    list: localStorage.getItem('listdata') ? decompressData(localStorage.getItem('listdata')) : null,
-    leaderboard: localStorage.getItem('leaderboarddata') ? decompressData(localStorage.getItem('leaderboarddata')) : null,
+    list: JSON.parse(localStorage.getItem('listdata')),
+    leaderboard: JSON.parse(localStorage.getItem('leaderboarddata')),
     errors: []
 });
 
@@ -54,20 +38,21 @@ let app = Vue.createApp({
     methods: {
         async runAfterMount() {
             console.clear();
-            store.loaded = true;
+            store.loaded = true
             try {
                 const updatedList = await fetchList();
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
 
-                if (JSON.stringify(updatedList) !== JSON.stringify(store.list) || 
-                    JSON.stringify(updatedLeaderboard) !== JSON.stringify(store.leaderboard)) {
-                    localStorage.setItem('listdata', compressData(updatedList));
-                    localStorage.setItem('leaderboarddata', compressData(updatedLeaderboard));
-                }
+                if (updatedList !== store.list || 
+                    updatedLeaderboard !== store.leaderboard) {
+                    localStorage.setItem('listdata', JSON.stringify(updatedList));
+                    localStorage.setItem('leaderboarddata', JSON.stringify(updatedLeaderboard));
+                } else {
 
+                }
                 store.list = updatedList;
                 store.leaderboard = updatedLeaderboard;
-                store.errors = updatedLeaderboard[1];
+                store.errors = updatedLeaderboard[1]
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -81,4 +66,5 @@ const router = VueRouter.createRouter({
 });
 
 app.use(router);
+
 app.mount('#app');
