@@ -325,8 +325,6 @@ export async function fetchLeaderboard(list) {
         };
         completedPacksMap[verifier] ??= new Set();
 
-        let verifiedScore = score(rank, level.difficulty, 100, level.percentToQualify, list)
-
         // check if user has verified all levels in pack
         if (level.packs.length > 0) {
             level.packs.forEach((pack) => {
@@ -483,7 +481,10 @@ export async function fetchLeaderboard(list) {
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
 
-        scores.userPacks.forEach((pack) => total += packScore(pack, list)) 
+        scores.userPacks.forEach((pack) => { 
+            total += packScore(pack, list)
+            pack['score'] = packScore(pack, list)
+        }) 
 
         return {
             user,

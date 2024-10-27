@@ -182,7 +182,7 @@ export function packScore(pack, list) { // the score assigned to difficulty pack
                 break;
         }
     }
-    return packscore;
+    return round(packscore);
 }
 
 

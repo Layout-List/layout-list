@@ -1,6 +1,6 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
-import { score, lightPackColor, darkPackColor } from "../config.js";
+import { score, lightPackColor, darkPackColor, packScore } from "../config.js";
 import { fetchList, fetchPacks, fetchPackRecords, averageEnjoyment } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
@@ -114,6 +114,7 @@ export default {
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                 <h1>{{ selectedPack.name }}</h1>
+                <h4>{{ selectedPack.score }}</h4>
                     <h3 v-if="!selectedPack.levels" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
                     <h2 style="margin-bottom:1rem">Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
                     <p v-for="record in selectedRecords" style="margin-left:2rem">{{ record }} </p>
@@ -215,6 +216,7 @@ export default {
         fetchPackRecords,
         lightPackColor,
         darkPackColor,
+        packScore,
 
         // initialize the selected pack
         // the levels shown to the user is based on the availableLevels array, it isn't
@@ -225,6 +227,7 @@ export default {
             try {
                 this.selected = null;
                 this.selectedPack = pack;
+                this.selectedPack['score'] = packScore(pack, this.list)
                 this.selectedPackIndex = index;
                 
                 // retrieve the available levels based on the pack index
