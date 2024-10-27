@@ -115,15 +115,16 @@ export default {
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
                     <h1>{{ selectedPack.name }}</h1>
                     <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
-                    <h2>Levels:</h2>
+                    <h2 v-if="selectedPack.levels">Levels ({{ selectedPack.levels.length }})</h2>
+                    <h2 v-if="!selectedPack.levels">Levels (5)</h2>
                     <p v-if="selectedPack.levels" class=type-body">
                         <template v-for="(level, index) in selectedPack.levels">
                             <span>{{ level.name }}</span>
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
                         </template>
                     </p>
-                    <p v-if="!selectedPack.levels" class="stuff"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</p>
-                    <h2>Records ({{ selectedRecords.size }}):</h2>
+                    <p v-if="!selectedPack.levels"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</p>
+                    <h2>Records ({{ selectedRecords.size }})</h2>
                     <p class="packrecords" v-for="record in selectedRecords">{{ record }}</p>
                 </div>
                 
