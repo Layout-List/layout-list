@@ -116,7 +116,7 @@ export default {
                 <h1>{{ selectedPack.name }}</h1>
                 <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
                     <h3 v-if="!selectedPack.levels" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
-                    <h2 style="margin-bottom:1rem">Records ({{ selectedRecords.size }})</h2> <!-- im gonna kms -->
+                    <h2 style="margin-bottom:1rem">Records ({{ selectedRecords.size }})</h2>
                     <p v-for="record in selectedRecords" style="margin-left:2rem">{{ record }} </p>
                 </div>
                 
@@ -183,7 +183,9 @@ export default {
         // Hide loading spinner
         this.list = this.store.list;
         this.packs = this.store.packs;
-        this.records = await fetchPackRecords(this.packs, this.list);
+        this.records = this.store.packRecords;
+
+        console.log(this.records[this.packs[0]]);
 
         // Error handling
         if (!this.list || !this.packs) {
@@ -219,6 +221,8 @@ export default {
         // directly based on the pack selected but is set here after a pack is selected
         selectPack(index, pack) {
             this.errored = null;
+            
+            let records = this.store.packRecords
 
             try {
                 this.selected = null;
@@ -235,7 +239,7 @@ export default {
                     this.selectedThreshold = pack;
                 }
                 
-                this.selectedRecords = this.records[pack.name];
+                this.selectedRecords = records[pack.name];
                 return;
                 
             } catch (e) {
@@ -266,6 +270,11 @@ export default {
             errors.forEach(err => {
                 this.errors.push(`Failed to load level. (${err}.json)`);
             });
+        },
+        'store.packRecords'() {
+            // reselect pack 
+            this.selectPack(this.selectedPackIndex, this.packs[this.selectedPackIndex])
+
         }
     },
 };
