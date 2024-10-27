@@ -62,7 +62,7 @@ if (!localStorage.getItem('packrecorddata')) {
 
     localStorage.setItem('listdata', compressData(cookieList));
     localStorage.setItem('packsdata', compressData(cookiePacks));
-    localStorage.setItem('packrecorddata', compressData(cookiePackRecords)); // data is compressed
+    localStorage.setItem('packrecorddata', cookiePackRecords);
 }
 
 // Decompress data when loading it from storage
@@ -77,12 +77,9 @@ export let store = Vue.reactive({
     list: localStorage.getItem('listdata') ? decompressData(localStorage.getItem('listdata')) : null,
     leaderboard: localStorage.getItem('leaderboarddata') ? decompressData(localStorage.getItem('leaderboarddata')) : null,
     packs: localStorage.getItem('packsdata') ? decompressData(localStorage.getItem('packsdata')) : null,
-    packRecords: localStorage.getItem('packrecorddata') ? decompressData(localStorage.getItem('packrecorddata')) : null,
+    packRecords: localStorage.getItem('packrecorddata') ? localStorage.getItem('packrecorddata') : null,
     errors: []
 });
- // at this point the data in the store is decompressed from cookies
-
-console.log(store.packRecords) // data is gone ???!?!?!?!?!!?!?!
 
 let app = Vue.createApp({
     data: () => ({ store }),
@@ -93,7 +90,7 @@ let app = Vue.createApp({
 
     methods: {
         async runAfterMount() {
-            console.log('running!')
+            console.log('updating...')
             store.loaded = true;
             try {
                 // list
@@ -122,7 +119,7 @@ let app = Vue.createApp({
                 if (JSON.stringify(updatedPackRecords) !== JSON.stringify(store.packRecords)) {
                     localStorage.setItem('listdata', compressData(updatedList));
                     localStorage.setItem('packsdata', compressData(updatedPacks));
-                    localStorage.setItem('packrecorddata', compressData(updatedPackRecords));
+                    localStorage.setItem('packrecorddata', updatedPackRecords);
                 } 
 
 
@@ -132,6 +129,7 @@ let app = Vue.createApp({
                 store.packs = updatedPacks;
                 store.packRecords = updatedPackRecords;
                 store.errors = updatedLeaderboard[1]; // levels with errors are stored here
+                console.log('updated!')
             } catch (error) {
                 console.error('Error fetching data:', error);
             }

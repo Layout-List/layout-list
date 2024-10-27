@@ -116,7 +116,7 @@ export default {
                 <h1>{{ selectedPack.name }}</h1>
                 <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
                     <h3 v-if="!selectedPack.levels" class="threshold-message"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</h3>
-                    <h2 style="margin-bottom:1rem">Records ({{ selectedRecords.size }})</h2>
+                    <h2 style="margin-bottom:1rem">Records ({{ selectedRecords ? selectedRecords.size : 'loading'  }})</h2>
                     <p v-for="record in selectedRecords" style="margin-left:2rem">{{ record }} </p>
                 </div>
                 
@@ -185,8 +185,6 @@ export default {
         this.packs = this.store.packs;
         this.records = this.store.packRecords;
 
-        console.log(this.records[this.packs[0]]);
-
         // Error handling
         if (!this.list || !this.packs) {
             this.errors = [
@@ -238,7 +236,7 @@ export default {
                     this.availableLevels = [];
                     this.selectedThreshold = pack;
                 }
-                
+                console.log('retreiving specific records from store')
                 this.selectedRecords = records[pack.name];
                 return;
                 
@@ -273,6 +271,7 @@ export default {
         },
         'store.packRecords'() {
             // reselect pack 
+            console.log('reselecting')
             this.selectPack(this.selectedPackIndex, this.packs[this.selectedPackIndex])
 
         }
