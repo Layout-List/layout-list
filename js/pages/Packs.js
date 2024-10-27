@@ -161,6 +161,7 @@ export default {
     computed: {
 
         level() {
+            this.packs = this.store.packs;
             try {
                 return this.packs[this.selectedPackIndex].levels[this.selected] || null;
             } catch (e) {
@@ -180,23 +181,18 @@ export default {
 
     async mounted() {
         // Hide loading spinner
-        this.list = await fetchList();
-        this.packs = await fetchPacks(this.list);
+        this.list = this.store.list;
+        this.packs = this.store.packs;
         this.records = await fetchPackRecords(this.packs, this.list);
 
         // Error handling
-        if (!this.list) {
+        if (!this.list || !this.packs) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
             ];
         } else {
-            this.errors.push(
-                ...this.list
-                    .filter(([err, _, __]) => err)
-                    .map(([err, _, __]) => {
-                        return `Failed to load level. (${err}.json)`;
-                    }),
-            );
+            this.store.errors.forEach((err) => 
+                this.errors.push(`Failed to load level. (${err}.json)`))
         }
         
         this.selectPack(0, this.packs[0]); 
@@ -264,5 +260,12 @@ export default {
                 return `rgba(110, 110, 110, 0.7)`;
             }
         },
-    }
+    },
+    watch: {
+        'store.errors'(errors) {
+            errors.forEach(err => {
+                this.errors.push(`Failed to load level. (${err}.json)`);
+            });
+        }
+    },
 };
