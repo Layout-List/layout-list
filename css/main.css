@@ -96,3 +96,12 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
+
+.loading-cache.dark {
+    background-color: #1c1b1f;
+}
+
+.cache-text.dark {
+    color: white;
+    opacity: 0.3;
+}

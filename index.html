@@ -37,7 +37,7 @@
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>The LL</h2>
-                <p>v2.1.1</p>
+                <p>v3.1</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -64,7 +64,7 @@
                     </a>
                     <a
                         class="nav__cta type-label-lg"
-                        href="https://forms.gle/DeKbKy9TvPxRddkE8"
+                        href="https://forms.gle/kmesxiUQUEWC5ZuW9"
                         target="_blank"
                         >Submit Record</a
                     >
@@ -72,5 +72,8 @@
             </nav>
         </header>
         <router-view :class="{ dark: store.dark }"></router-view>
+        <main class="{ dark: store.dark }" v-if="!store.list || !store.loaded">
+            <p class="spinner">Loading...</p>
+        </main>
     </body>
 </html>
