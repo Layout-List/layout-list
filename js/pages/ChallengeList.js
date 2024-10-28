@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
 import { challengeScore } from '../config.js';
-import { fetchEditors, fetchChallengeList } from '../content.js';
+import { fetchStaff, fetchChallengeList } from '../content.js';
 
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -125,10 +125,10 @@ export default {
                     <div class="notice type-label-sm" style="margin-top:-10">
                         <p>The challenge list has been archived, effective 8/19/24.  Records will no longer be accepted.</p>
                     </div>
-                    <template v-if="editors">
-                        <h3>LIST EDITORS</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors">
+                    <template v-if="staff">
+                        <h3>LIST STAFF</h3>
+                        <ol class="staff">
+                            <li v-for="editor in staff">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
@@ -216,7 +216,7 @@ export default {
     `,
     data: () => ({
         list: [],
-        editors: [],
+        staff: [],
         loading: true,
         selected: 0,
         errors: [],
@@ -244,7 +244,7 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = await fetchChallengeList();
-        this.editors = await fetchEditors();
+        this.staff = await fetchStaff();
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -258,8 +258,8 @@ export default {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
+            if (!this.staff) {
+                this.errors.push('Failed to load list staff.');
             }
         }
 
