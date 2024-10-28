@@ -1,7 +1,8 @@
 import { store } from '../main.js';
-import { embed, rgbaBind } from '../util.js';
+import { embed, round, rgbaBind } from '../util.js';
 import { score, lightPackColor, darkPackColor } from '../config.js';
-import { fetchStaff, averageEnjoyment } from '../content.js';
+import { fetchEditors, fetchList, averageEnjoyment } from '../content.js';
+
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -12,7 +13,6 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
-
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -117,13 +117,13 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <template v-if="staff">
-                        <h3>LIST Staff</h3>
-                        <ol class="staff">
-                            <li v-for="member in staff">
-                                <img :src="'/assets/' + roleIconMap[member.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="member.role">
-                                <a v-if="member.link" class="type-label-lg link" target="_blank" :href="member.link">{{ member.name }}</a>
-                                <p v-else>{{ member.name }}</p>
+                    <template v-if="editors">
+                        <h3>LIST EDITORS</h3>
+                        <ol class="editors">
+                            <li v-for="editor in editors">
+                                <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
+                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <p v-else>{{ editor.name }}</p>
                             </li>
                         </ol>
                     </template>
@@ -201,7 +201,7 @@ export default {
     `,
     data: () => ({
         list: [],
-        staff: [],
+        editors: [],
         loading: true,
         selected: 1,
         errors: [],
@@ -230,7 +230,7 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = this.store.list;
-        this.staff = await fetchStaff();
+        this.editors = await fetchEditors();
 
         // Error handling
         if (!this.list) {
@@ -241,8 +241,8 @@ export default {
             this.store.errors.forEach((err) => 
                 this.errors.push(`Failed to load level. (${err}.json)`))
 
-            if (!this.staff) {
-                this.errors.push('Failed to load list staff.');
+            if (!this.editors) {
+                this.errors.push('Failed to load list editors.');
             }
         }
             
