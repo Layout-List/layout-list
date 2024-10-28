@@ -154,7 +154,6 @@ export default {
         hoverIndex: null, // don't ask
         errors: [],
         errored: null,
-        roleIconMap,
         store,
     }),
     computed: {
@@ -255,14 +254,16 @@ export default {
         },
     },
     watch: {
-        "store"(updated) {
-            this.list = updated.list
-            this.packs = updated.packs
+        store(updated) {
+            this.list = updated.list;
+            this.packs = updated.packs;
             this.selectPack(
                 this.selectedPackIndex,
                 this.packs[this.selectedPackIndex]
             );
-            updated.errors.forEach(err => this.errors.push(`Failed to load level. (${err}.json)`))
+            updated.errors.forEach((err) =>
+                this.errors.push(`Failed to load level. (${err}.json)`)
+            );
         },
     },
 };
