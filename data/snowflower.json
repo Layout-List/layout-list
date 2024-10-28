@@ -209,6 +209,22 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "RedNazFM",
+            "link": "https://www.youtube.com/watch?v=R8aN47E1N8c",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Muha",
+            "link": "https://youtu.be/Gm2oSZ-LBzc",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
