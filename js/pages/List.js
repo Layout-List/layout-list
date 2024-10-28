@@ -230,7 +230,7 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = this.store.list;
-        this.staff = await fetchEditors();
+        this.staff = await fetchStaff();
 
         // Error handling
         if (!this.list) {
