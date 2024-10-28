@@ -1,18 +1,10 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
 import { score, lightPackColor, darkPackColor, packScore } from "../config.js";
-import { fetchList, fetchPacks, averageEnjoyment } from "../content.js";
-
+import { averageEnjoyment } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
-const roleIconMap = {
-    owner: "crown",
-    admin: "user-gear",
-    helper: "user-shield",
-    dev: "code",
-    trial: "user-lock",
-};
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -151,10 +143,10 @@ export default {
         </main>
     `,
     data: () => ({
+        loading: true,
         list: [],
         packs: [],
         availableLevels: [],
-        loading: true,
         selected: null,
         selectedPack: null,
         selectedPackIndex: null,
@@ -162,61 +154,14 @@ export default {
         hoverIndex: null, // don't ask
         errors: [],
         errored: null,
-        roleIconMap,
         store,
     }),
-    computed: {
-        level() {
-            this.packs = this.store.packs;
-            try {
-                return (
-                    this.packs[this.selectedPackIndex].levels[this.selected] ||
-                    null
-                );
-            } catch (e) {
-                this.errored = e;
-                return;
-            }
-        },
 
-        video() {
-            return embed(
-                this.level.showcase
-                    ? this.level.showcase
-                    : this.level.verification
-            );
-        },
-    },
-
-    async mounted() {
-        // Hide loading spinner
-        this.list = this.store.list;
-        this.packs = this.store.packs;
-
-        // Error handling
-        if (!this.list || !this.packs) {
-            this.errors = [
-                "Failed to load list. Retry in a few minutes or notify list staff.",
-            ];
-        } else {
-            this.store.errors.forEach((err) =>
-                this.errors.push(`Failed to load level. (${err}.json)`)
-            );
-        }
-
-        this.selectPack(0, this.packs[0]);
-        // its easier to initialize the site like this because
-        // the levels are sent to the availableLevels array when this function is called
-        // ie when the pack button is clicked
-
-        this.loading = false;
-    },
     methods: {
         embed,
         rgbaBind,
         score,
         averageEnjoyment,
-        fetchPacks,
         lightPackColor,
         darkPackColor,
         packScore,
@@ -263,6 +208,54 @@ export default {
             }
         },
     },
+
+    computed: {
+        level() {
+            this.packs = this.store.packs;
+            try {
+                return (
+                    this.packs[this.selectedPackIndex].levels[this.selected] ||
+                    null
+                );
+            } catch (e) {
+                this.errored = e;
+                return;
+            }
+        },
+
+        video() {
+            return embed(
+                this.level.showcase
+                    ? this.level.showcase
+                    : this.level.verification
+            );
+        },
+    },
+
+    async mounted() {
+        // Hide loading spinner
+        this.list = this.store.list;
+        this.packs = this.store.packs;
+
+        // Error handling
+        if (!this.list || !this.packs) {
+            this.errors = [
+                "Failed to load list. Retry in a few minutes or notify list staff.",
+            ];
+        } else {
+            this.store.errors.forEach((err) =>
+                this.errors.push(`Failed to load level. (${err}.json)`)
+            );
+        }
+
+        this.selectPack(0, this.packs[0]);
+        // its easier to initialize the site like this because
+        // the levels are sent to the availableLevels array when this function is called
+        // ie when the pack button is clicked
+
+        this.loading = false;
+    },
+
     watch: {
         "store"(updated) {
             this.list = updated.list
