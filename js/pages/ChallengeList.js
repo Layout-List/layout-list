@@ -1,9 +1,10 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
 import { challengeScore } from '../config.js';
-import { fetchStaff, fetchChallengeList } from '../content.js';
-import { Spinner } from '../components/Spinner.js';
-import { LevelAuthors } from '../components/List/LevelAuthors.js';
+import { fetchEditors, fetchChallengeList } from '../content.js';
+
+import Spinner from '../components/Spinner.js';
+import LevelAuthors from '../components/List/LevelAuthors.js';
 
 const roleIconMap = {
     owner: 'crown',
@@ -12,7 +13,6 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
-
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -125,13 +125,13 @@ export default {
                     <div class="notice type-label-sm" style="margin-top:-10">
                         <p>The challenge list has been archived, effective 8/19/24.  Records will no longer be accepted.</p>
                     </div>
-                    <template v-if="staff">
-                        <h3>LIST Staff</h3>
-                        <ol class="staff">
-                            <li v-for="member in staff">
-                                <img :src="'/assets/' + roleIconMap[member.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="member.role">
-                                <a v-if="member.link" class="type-label-lg link" target="_blank" :href="member.link">{{ member.name }}</a>
-                                <p v-else>{{ member.name }}</p>
+                    <template v-if="editors">
+                        <h3>LIST EDITORS</h3>
+                        <ol class="editors">
+                            <li v-for="editor in editors">
+                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
+                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <p v-else>{{ editor.name }}</p>
                             </li>
                         </ol>
                     </template>
@@ -214,24 +214,17 @@ export default {
             </div>
         </main>
     `,
-
     data: () => ({
-        loading: true,
         list: [],
-        listlevels: 0,
-        staff: [],
-        errors: [],
+        editors: [],
+        loading: true,
         selected: 0,
-        toggledShowcase: false,
+        errors: [],
+        listlevels: 0,
         roleIconMap,
         store,
+        toggledShowcase: false,
     }),
-
-    methods: {
-        embed,
-        challengeScore
-    },
-
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -248,11 +241,10 @@ export default {
             );
         },
     },
-
     async mounted() {
         // Hide loading spinner
         this.list = await fetchChallengeList();
-        this.staff = await fetchStaff();
+        this.editors = await fetchEditors();
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -266,11 +258,15 @@ export default {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
-            if (!this.staff) {
-                this.errors.push('Failed to load list staff.');
+            if (!this.editors) {
+                this.errors.push('Failed to load list editors.');
             }
         }
 
         this.loading = false;
+    },
+    methods: {
+        embed,
+        challengeScore
     },
 };
