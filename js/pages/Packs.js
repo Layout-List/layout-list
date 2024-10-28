@@ -254,7 +254,7 @@ export default {
         },
     },
     watch: {
-        store(updated) {
+        'store'(updated) {
             this.list = updated.list;
             this.packs = updated.packs;
             this.selectPack(
