@@ -12,6 +12,13 @@
     "difficulty": 6,
     "enjoyment": 7,
     "records": [
-        
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=XKG_YS9izMg",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": 9
+        }
     ]
 }
