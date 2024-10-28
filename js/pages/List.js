@@ -117,13 +117,13 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <template v-if="editors">
-                        <h3>LIST EDITORS</h3>
+                    <template v-if="staff">
+                        <h3>LIST STAFF</h3>
                         <ol class="editors">
-                            <li v-for="editor in editors">
-                                <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
-                                <p v-else>{{ editor.name }}</p>
+                            <li v-for="member in staff">
+                                <img :src="'/assets/' + roleIconMap[member.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="member.role">
+                                <a v-if="member.link" class="type-label-lg link" target="_blank" :href="member.link">{{ member.name }}</a>
+                                <p v-else>{{ member.name }}</p>
                             </li>
                         </ol>
                     </template>
@@ -201,7 +201,7 @@ export default {
     `,
     data: () => ({
         list: [],
-        editors: [],
+        staff: [],
         loading: true,
         selected: 1,
         errors: [],
@@ -230,7 +230,7 @@ export default {
     async mounted() {
         // Hide loading spinner
         this.list = this.store.list;
-        this.editors = await fetchEditors();
+        this.staff = await fetchEditors();
 
         // Error handling
         if (!this.list) {
@@ -241,8 +241,8 @@ export default {
             this.store.errors.forEach((err) => 
                 this.errors.push(`Failed to load level. (${err}.json)`))
 
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
+            if (!this.staff) {
+                this.errors.push('Failed to load list staff.');
             }
         }
             
