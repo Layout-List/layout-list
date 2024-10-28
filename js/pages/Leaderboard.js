@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import { localize, rgbaBind } from '../util.js';
-import Spinner from '../components/Spinner.js';
+import { Spinner } from '../components/Spinner.js';
 
 
 export default {
@@ -119,6 +119,7 @@ export default {
             </div>
         </main>
     `,
+
     data: () => ({
         loading: true,
         leaderboard: [],
