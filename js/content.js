@@ -136,7 +136,7 @@ export async function fetchChallengeList() {
     }
 }
 
-export async function fetchEditors() {
+export async function fetchStaff() {
     try {
         const staffResults = await fetch(`${dir}/_staff.json`);
         const staff = await staffResults.json();
