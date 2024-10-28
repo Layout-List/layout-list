@@ -1,9 +1,10 @@
 import { store } from '../main.js';
-import { embed, rgbaBind } from '../util.js';
+import { embed, round, rgbaBind } from '../util.js';
 import { score, lightPackColor, darkPackColor } from '../config.js';
-import { fetchEditors, averageEnjoyment } from '../content.js';
-import { Spinner } from '../components/Spinner.js';
-import { LevelAuthors } from '../components/List/LevelAuthors.js';
+import { fetchEditors, fetchList, averageEnjoyment } from '../content.js';
+
+import Spinner from '../components/Spinner.js';
+import LevelAuthors from '../components/List/LevelAuthors.js';
 
 const roleIconMap = {
     owner: 'crown',
@@ -12,7 +13,6 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
-
 
 export default {
     components: { Spinner, LevelAuthors },
