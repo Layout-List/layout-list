@@ -138,9 +138,9 @@ export async function fetchChallengeList() {
 
 export async function fetchEditors() {
     try {
-        const editorsResults = await fetch(`${dir}/_editors.json`);
-        const editors = await editorsResults.json();
-        return editors;
+        const staffResults = await fetch(`${dir}/_staff.json`);
+        const staff = await staffResults.json();
+        return staff;
     } catch {
         return null;
     }
