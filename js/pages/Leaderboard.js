@@ -1,9 +1,8 @@
-import { fetchLeaderboard, fetchList } from '../content.js';
+import { store } from '../main.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import { localize, rgbaBind } from '../util.js';
-import { store } from '../main.js';
-
 import Spinner from '../components/Spinner.js';
+
 
 export default {
     components: {
