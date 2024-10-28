@@ -153,7 +153,7 @@ export default {
     watch: {
         'store'(updated) {
             this.list = updated.list;
-            this.leaderboard = updated.leaderboard
+            this.leaderboard = updated.leaderboard[0]
             this.err = updated.errors
         }
     },
