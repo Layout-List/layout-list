@@ -1,18 +1,10 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
 import { score, lightPackColor, darkPackColor, packScore } from "../config.js";
-import { fetchList, fetchPacks, averageEnjoyment } from "../content.js";
+import { averageEnjoyment } from "../content.js";
+import { Spinner } from "../components/Spinner.js";
+import { LevelAuthors } from "../components/List/LevelAuthors.js";
 
-import Spinner from "../components/Spinner.js";
-import LevelAuthors from "../components/List/LevelAuthors.js";
-
-const roleIconMap = {
-    owner: "crown",
-    admin: "user-gear",
-    helper: "user-shield",
-    dev: "code",
-    trial: "user-lock",
-};
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -162,7 +154,6 @@ export default {
         hoverIndex: null, // don't ask
         errors: [],
         errored: null,
-        roleIconMap,
         store,
     }),
     computed: {
@@ -216,7 +207,6 @@ export default {
         rgbaBind,
         score,
         averageEnjoyment,
-        fetchPacks,
         lightPackColor,
         darkPackColor,
         packScore,
