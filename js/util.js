@@ -51,24 +51,25 @@ export function rgbaBind(color, decrease) {
     a -= decrease;
 
     if (a <= 0.15) {
-        a = 0.15
+        a = 0.15;
     }
-    
+
     return `rgba(${r},${g},${b},${a})`;
 }
 
-export function round(num) { // the code used to round decimals, you can pretty much ignore this
-    if (!('' + num).includes('e')) {
-        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+export function round(num) {
+    // the code used to round decimals, you can pretty much ignore this
+    if (!("" + num).includes("e")) {
+        return +(Math.round(num + "e+" + scale) + "e-" + scale);
     } else {
-        var arr = ('' + num).split('e');
-        var sig = '';
+        var arr = ("" + num).split("e");
+        var sig = "";
         if (+arr[1] + scale > 0) {
-            sig = '+';
+            sig = "+";
         }
         return +(
-            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
-            'e-' +
+            Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) +
+            "e-" +
             scale
         );
     }

@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
 import { score, lightPackColor, darkPackColor, packScore } from "../config.js";
-import { fetchList, fetchPacks, fetchPackRecords, averageEnjoyment } from "../content.js";
+import { fetchList, fetchPacks, averageEnjoyment } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -88,7 +88,7 @@ export default {
                     </ul>
                     <h2>Records ({{ level.records.length }})</h2>
                     <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
-                    <table class="records">
+                    <table class="pack-records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
@@ -112,12 +112,12 @@ export default {
                 </div>
 
                 <!-- pack info page -->
-                <div class="level" v-else-if="selectedPackIndex !== null && selected === null && selectedRecords !== null">
+                <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                     <h1>{{ selectedPack.name }}</h1>
                     <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
                     <h2 v-if="selectedPack.levels">Levels ({{ selectedPack.levels.length }})</h2>
                     <h2 v-if="!selectedPack.levels">Levels (5)</h2>
-                    <p v-if="selectedPack.levels" class=type-body">
+                    <p v-if="selectedPack.levels" class="type-body">
                         <template v-for="(level, index) in selectedPack.levels">
                             <span>{{ level.name }}</span>
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
@@ -163,19 +163,22 @@ export default {
         errors: [],
         errored: null,
         roleIconMap,
-        store
+        store,
     }),
     computed: {
-
         level() {
             this.packs = this.store.packs;
             try {
-                return this.packs[this.selectedPackIndex].levels[this.selected] || null;
+                return (
+                    this.packs[this.selectedPackIndex].levels[this.selected] ||
+                    null
+                );
             } catch (e) {
-                this.errored = e; return;
+                this.errored = e;
+                return;
             }
         },
-        
+
         video() {
             return embed(
                 this.level.showcase
@@ -183,7 +186,6 @@ export default {
                     : this.level.verification
             );
         },
-
     },
 
     async mounted() {
@@ -197,16 +199,16 @@ export default {
                 "Failed to load list. Retry in a few minutes or notify list staff.",
             ];
         } else {
-            this.store.errors.forEach((err) => 
-                this.errors.push(`Failed to load level. (${err}.json)`))
+            this.store.errors.forEach((err) =>
+                this.errors.push(`Failed to load level. (${err}.json)`)
+            );
         }
-        
-        this.selectPack(0, this.packs[0]); 
+
+        this.selectPack(0, this.packs[0]);
         // its easier to initialize the site like this because
         // the levels are sent to the availableLevels array when this function is called
         // ie when the pack button is clicked
 
-        
         this.loading = false;
     },
     methods: {
@@ -215,7 +217,6 @@ export default {
         score,
         averageEnjoyment,
         fetchPacks,
-        fetchPackRecords,
         lightPackColor,
         darkPackColor,
         packScore,
@@ -229,9 +230,9 @@ export default {
             try {
                 this.selected = null;
                 this.selectedPack = pack;
-                this.selectedPack['score'] = packScore(pack, this.list)
+                this.selectedPack["score"] = packScore(pack, this.list);
                 this.selectedPackIndex = index;
-                
+
                 // retrieve the available levels based on the pack index
                 if (pack.levels) {
                     this.availableLevels = pack.levels;
@@ -241,7 +242,6 @@ export default {
                     this.selectedThreshold = pack;
                 }
                 return;
-                
             } catch (e) {
                 this.errored = e;
                 return;
@@ -252,13 +252,11 @@ export default {
             try {
                 if (this.selectedPackIndex === index) {
                     return rgbaBind(color, 0);
-
                 } else if (this.hoverIndex === index) {
                     return rgbaBind(color, 0.35);
                 } else {
                     return rgbaBind(color, 0.6);
                 }
-
             } catch (e) {
                 console.error(`Failed to color pack: ${e}`);
                 return `rgba(110, 110, 110, 0.7)`;
@@ -266,16 +264,14 @@ export default {
         },
     },
     watch: {
-        'store.errors'(errors) {
-            errors.forEach(err => {
-                this.errors.push(`Failed to load level. (${err}.json)`);
-            });
+        "store"(updated) {
+            this.list = updated.list
+            this.packs = updated.packs
+            this.selectPack(
+                this.selectedPackIndex,
+                this.packs[this.selectedPackIndex]
+            );
+            updated.errors.forEach(err => this.errors.push(`Failed to load level. (${err}.json)`))
         },
-        'store.packRecords'() {
-            // reselect pack 
-            console.log('reselecting')
-            this.selectPack(this.selectedPackIndex, this.packs[this.selectedPackIndex])
-
-        }
     },
 };

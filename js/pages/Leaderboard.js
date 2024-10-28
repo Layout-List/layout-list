@@ -151,13 +151,10 @@ export default {
         darkPackColor,
     },
     watch: {
-        'store.errors'(errors) {
-            this.err = errors;
-        }
-    },
-    watch: {
-        'store.errors'(errors) {
-            this.err = errors;
+        'store'(updated) {
+            this.list = updated.list;
+            this.leaderboard = updated.leaderboard
+            this.err = updated.errors
         }
     },
 };

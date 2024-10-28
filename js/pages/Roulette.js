@@ -1,5 +1,6 @@
 import { fetchList } from '../content.js';
 import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from '../util.js';
+import { store } from '../main.js';
 
 import Spinner from '../components/Spinner.js';
 import Btn from '../components/Btn.js';
@@ -110,6 +111,7 @@ export default {
         useExtendedList: true,
         toasts: [],
         fileInput: undefined,
+        store,
     }),
     mounted() {
         // Create File Input
@@ -153,6 +155,12 @@ export default {
             );
         },
     },
+    watch: {
+        "store"(updated) {
+            this.list = updated.list
+            updated.errors.forEach(err => this.errors.push(`Failed to load level. (${err}.json)`))
+        },
+    },
     methods: {
         shuffle,
         getThumbnailFromId,
@@ -169,7 +177,7 @@ export default {
 
             this.loading = true;
 
-            const fullList = (await fetchList()).filter(([_, pos, __]) => pos !== null);
+            const fullList = (this.store.list).filter(([_, pos, __]) => pos !== null);
 
 
             if (fullList.filter(([err, _]) => err).length > 0) {

@@ -213,7 +213,6 @@ export default {
   
     computed: {
         level() {
-            this.list = this.store.list
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -250,11 +249,12 @@ export default {
         this.loading = false;
     },
 
-    watch: {
-        'store.errors'(errors) {
-            errors.forEach(err => {
+    watch: {        
+        'store'(updated) {
+            this.list = updated.list
+            updated.errors.forEach(err => {
                 this.errors.push(`Failed to load level. (${err}.json)`);
-            });
+            })
         }
     },
     
