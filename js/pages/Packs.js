@@ -1,10 +1,18 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
 import { score, lightPackColor, darkPackColor, packScore } from "../config.js";
-import { averageEnjoyment } from "../content.js";
+import { fetchList, fetchPacks, averageEnjoyment } from "../content.js";
+
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
+const roleIconMap = {
+    owner: "crown",
+    admin: "user-gear",
+    helper: "user-shield",
+    dev: "code",
+    trial: "user-lock",
+};
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -143,10 +151,10 @@ export default {
         </main>
     `,
     data: () => ({
-        loading: true,
         list: [],
         packs: [],
         availableLevels: [],
+        loading: true,
         selected: null,
         selectedPack: null,
         selectedPackIndex: null,
@@ -154,61 +162,9 @@ export default {
         hoverIndex: null, // don't ask
         errors: [],
         errored: null,
+        roleIconMap,
         store,
     }),
-
-    methods: {
-        embed,
-        rgbaBind,
-        score,
-        averageEnjoyment,
-        lightPackColor,
-        darkPackColor,
-        packScore,
-
-        // initialize the selected pack
-        // the levels shown to the user is based on the availableLevels array, it isn't
-        // directly based on the pack selected but is set here after a pack is selected
-        selectPack(index, pack) {
-            this.errored = null;
-
-            try {
-                this.selected = null;
-                this.selectedPack = pack;
-                this.selectedPack["score"] = packScore(pack, this.list);
-                this.selectedPackIndex = index;
-
-                // retrieve the available levels based on the pack index
-                if (pack.levels) {
-                    this.availableLevels = pack.levels;
-                    this.selectedThreshold = undefined;
-                } else {
-                    this.availableLevels = [];
-                    this.selectedThreshold = pack;
-                }
-                return;
-            } catch (e) {
-                this.errored = e;
-                return;
-            }
-        },
-
-        reactiveOpaque(color, index) {
-            try {
-                if (this.selectedPackIndex === index) {
-                    return rgbaBind(color, 0);
-                } else if (this.hoverIndex === index) {
-                    return rgbaBind(color, 0.35);
-                } else {
-                    return rgbaBind(color, 0.6);
-                }
-            } catch (e) {
-                console.error(`Failed to color pack: ${e}`);
-                return `rgba(110, 110, 110, 0.7)`;
-            }
-        },
-    },
-
     computed: {
         level() {
             this.packs = this.store.packs;
@@ -255,7 +211,58 @@ export default {
 
         this.loading = false;
     },
+    methods: {
+        embed,
+        rgbaBind,
+        score,
+        averageEnjoyment,
+        fetchPacks,
+        lightPackColor,
+        darkPackColor,
+        packScore,
 
+        // initialize the selected pack
+        // the levels shown to the user is based on the availableLevels array, it isn't
+        // directly based on the pack selected but is set here after a pack is selected
+        selectPack(index, pack) {
+            this.errored = null;
+
+            try {
+                this.selected = null;
+                this.selectedPack = pack;
+                this.selectedPack["score"] = packScore(pack, this.list);
+                this.selectedPackIndex = index;
+
+                // retrieve the available levels based on the pack index
+                if (pack.levels) {
+                    this.availableLevels = pack.levels;
+                    this.selectedThreshold = undefined;
+                } else {
+                    this.availableLevels = [];
+                    this.selectedThreshold = pack;
+                }
+                return;
+            } catch (e) {
+                this.errored = e;
+                return;
+            }
+        },
+
+        reactiveOpaque(color, index) {
+            try {
+                if (this.selectedPackIndex === index) {
+                    return rgbaBind(color, 0);
+                } else if (this.hoverIndex === index) {
+                    return rgbaBind(color, 0.35);
+                } else {
+                    return rgbaBind(color, 0.6);
+                }
+            } catch (e) {
+                console.error(`Failed to color pack: ${e}`);
+                return `rgba(110, 110, 110, 0.7)`;
+            }
+        },
+    },
     watch: {
         "store"(updated) {
             this.list = updated.list
