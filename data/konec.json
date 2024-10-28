@@ -302,6 +302,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 10
+        },
+        {
+            "user": "Muha",
+            "link": "https://youtu.be/CKVDjtOhy2k",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
