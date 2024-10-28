@@ -4,15 +4,7 @@ import { localize } from '../util.js';
 import Spinner from '../components/Spinner.js';
 
 export default {
-    components: {
-        Spinner,
-    },
-    data: () => ({
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-    }),
+    components: { Spinner },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -100,19 +92,29 @@ export default {
             </div>
         </main>
     `,
+
+    data: () => ({
+        loading: true,
+        leaderboard: [],
+        err: [],
+        selected: 0,
+    }),
+
+    methods: {
+        localize,
+    },
+
     computed: {
         entry() {
             return this.leaderboard[this.selected];
         },
     },
+
     async mounted() {
         const [leaderboard, err] = await fetchChallengeLeaderboard();
         this.leaderboard = leaderboard;
         this.err = err;
         // Hide loading spinner
         this.loading = false;
-    },
-    methods: {
-        localize,
     },
 };
