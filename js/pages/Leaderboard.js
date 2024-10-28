@@ -1,22 +1,11 @@
-import { fetchLeaderboard, fetchList } from '../content.js';
+import { store } from '../main.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import { localize, rgbaBind } from '../util.js';
-import { store } from '../main.js';
-
 import Spinner from '../components/Spinner.js';
 
+
 export default {
-    components: {
-        Spinner,
-    },
-    data: () => ({
-        store,
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-        store,
-    }),
+    components: { Spinner },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -130,12 +119,28 @@ export default {
             </div>
         </main>
     `,
+    data: () => ({
+        loading: true,
+        leaderboard: [],
+        err: [],
+        selected: 0,
+        store,
+    }),
+
+    methods: {
+        localize,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+    },
+
     computed: {
         entry() {
             this.leaderboard = this.store.leaderboard[0];
             return this.leaderboard[this.selected];
         },
     },
+
     async mounted() {
         const list = this.store.list;
         const [leaderboard, err] = this.store.leaderboard;
@@ -144,12 +149,7 @@ export default {
         // Hide loading spinner
         this.loading = false;
     },
-    methods: {
-        localize,
-        rgbaBind,
-        lightPackColor,
-        darkPackColor,
-    },
+
     watch: {
         'store'(updated) {
             this.list = updated.list;

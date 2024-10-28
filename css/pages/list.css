@@ -111,20 +111,20 @@
     color: var(--color-on-error);
     border-radius: 0.5rem;
 }
-.page-list .meta .editors {
+.page-list .meta .staff {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
 }
-.page-list .meta .editors li {
+.page-list .meta .staff li {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
-.page-list .meta .editors li img {
+.page-list .meta .staff li img {
     height: 1.25rem;
 }
-.page-list .meta .editors li a:hover {
+.page-list .meta .staff li a:hover {
     text-decoration: underline;
 }
 .notice {
