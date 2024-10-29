@@ -1,8 +1,8 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { challengeScore } from '../config.js';
-import { fetchEditors, fetchChallengeList } from '../content.js';
-
+import { challengeScore } from './archivedcontent.js';
+import { fetchEditors } from '../content.js';
+import { fetchChallengeList } from './archivedcontent.js'
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -13,6 +13,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
+
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -214,17 +215,24 @@ export default {
             </div>
         </main>
     `,
+
     data: () => ({
-        list: [],
-        editors: [],
         loading: true,
-        selected: 0,
-        errors: [],
+        list: [],
         listlevels: 0,
+        editors: [],
+        errors: [],
+        selected: 0,
+        toggledShowcase: false,
         roleIconMap,
         store,
-        toggledShowcase: false,
     }),
+
+    methods: {
+        embed,
+        challengeScore
+    },
+
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -241,10 +249,12 @@ export default {
             );
         },
     },
+
     async mounted() {
-        // Hide loading spinner
+        // Fetch list
         this.list = await fetchChallengeList();
         this.editors = await fetchEditors();
+
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -263,10 +273,7 @@ export default {
             }
         }
 
+        // Hide loading spinner
         this.loading = false;
-    },
-    methods: {
-        embed,
-        challengeScore
     },
 };

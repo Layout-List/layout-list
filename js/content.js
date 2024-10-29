@@ -92,176 +92,6 @@ export async function fetchList() {
     }
 }
 
-export async function fetchChallengeList() {
-    const challengeListResult = await fetch(`${dir}/_challengeList.json`);
-    try {
-        const challengeList = await challengeListResult.json();
-
-        // Create a lookup dictionary for ranks
-        const ranksEntries = challengeList.filter((path) => !path.startsWith(benchmarker)).map((
-            path,
-            index,
-        ) => [path, index + 1]);
-        const ranks = Object.fromEntries(ranksEntries);
-
-        return await Promise.all(
-            challengeList.map(async (path) => {
-                const rank = ranks[path] || null;
-                try {
-                    const levelResult = await fetch(
-                        `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
-                    );
-                    const level = await levelResult.json();
-                    return [
-                        null,
-                        rank,
-                        {
-                            ...level,
-                            rank,
-                            path,
-                            records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
-                            ),
-                        },
-                    ];
-                } catch {
-                    console.error(`Failed to load level #${rank} ${path}.`);
-                    return [path, rank, null];
-                }
-            }),
-        );
-    } catch {
-        console.error(`Failed to load challenge list.`);
-        return null;
-    }
-}
-
-export async function fetchEditors() {
-    try {
-        const editorsResults = await fetch(`${dir}/_editors.json`);
-        const editors = await editorsResults.json();
-        return editors;
-    } catch {
-        return null;
-    }
-}
-
-export async function fetchPacks(list) {
-    const packResult = await fetch(`${dir}/_packs.json`);
-    const packs = await packResult.json();
-    let users = [];
-
-    list.forEach((object) => {
-        // list is an array > array with length of 3 > null unless something is broken, level rank, level object
-        let level = object[2];
-
-        if (level.records) {
-            const newUsers = level.records.find(
-                (record) => !users.includes(record.user)
-            );
-            if (newUsers) users.push(newUsers);
-        }
-
-        packs.forEach(async (pack) => {
-            // initially build the packs
-            try {
-                pack["records"] = [];
-                if (pack.levels) {
-                    // checks if the pack contains the level's path
-                    for (let packlevel in pack.levels) {
-                        if (pack.levels[packlevel] === level.path) {
-                            // iterate through every level in the pack,
-                            // and overwrite the level path in the levels array
-                            // with the object it resolves to
-                            pack.levels[packlevel] = level;
-
-                            // while we're here, make a list of all the users connected
-                            // to packs (records, verifier)
-                            if (
-                                !users.includes(pack.levels[packlevel].verifier)
-                            )
-                                users.push(pack.levels[packlevel].verifier);
-
-                            pack.levels[packlevel].path = level.path;
-                            pack.levels[packlevel].rank = level.rank;
-                        }
-                    }
-                }
-            } catch (e) {
-                console.error(`failed to fetch pack ${pack.name}:  ${e}`);
-            }
-        });
-    });
-
-    let tempRecords = {};
-
-    users.forEach((user) => {
-        let userLower = user.user
-            ? user.user.toLowerCase()
-            : user.toLowerCase(); // normalized user for comparison
-        packs.forEach(async (pack) => {
-            // Initialize tempRecords[pack.name] as a Set if not already done
-            if (!tempRecords[pack.name]) tempRecords[pack.name] = new Set();
-
-            if (pack.levels) {
-                // Check if user has completed all levels in the pack
-                const allCompleted = pack.levels.every((packLevel) => {
-                    return packLevel.records?.some(
-                        (record) =>
-                            record.user.toLowerCase() === userLower ||
-                            packLevel.verifier?.toLowerCase() === userLower
-                    );
-                });
-
-                if (allCompleted && !tempRecords[pack.name].has(userLower)) {
-                    tempRecords[pack.name].add(userLower);
-                }
-            } else {
-                // Check levels by difficulty
-                let levelsInDifficulty = list.filter(
-                    ([_, __, lvl]) =>
-                        lvl.difficulty === pack.difficulty && lvl.id !== 0
-                );
-                const completedLevels = levelsInDifficulty.filter(
-                    ([_, __, level]) =>
-                        level.records.some(
-                            (record) =>
-                                record.user.toLowerCase() === userLower &&
-                                record.percent === 100
-                        )
-                );
-
-                if (
-                    completedLevels.length >= 5 &&
-                    !tempRecords[pack.name].has(userLower)
-                ) {
-                    tempRecords[pack.name].add(userLower);
-                }
-            }
-
-            tempRecords[pack.name].forEach((uniqueUser) => {
-                // Find the original user object from `users` array
-                const originalUser = users.find(
-                    (u) => (u.user || u).toLowerCase() === uniqueUser
-                );
-
-                // Determine the correct value to push: either user.user or user itself
-                const userToPush = originalUser.user
-                    ? originalUser.user
-                    : originalUser;
-
-                if (!pack.records.includes(userToPush)) {
-                    pack.records.push(userToPush);
-                }
-            });
-        });
-    });
-
-    packs.sort((a, b) => b.difficulty - a.difficulty);
-    return packs;
-}
-
-
 export async function fetchLeaderboard(list) {
     const packs = await fetchPacks(list);
 
@@ -514,98 +344,148 @@ export async function fetchLeaderboard(list) {
     
 }
 
+export async function fetchPacks(list) {
+    const packResult = await fetch(`${dir}/_packs.json`);
+    const packs = await packResult.json();
+    let users = [];
 
-export async function fetchChallengeLeaderboard() {
-    const list = await fetchChallengeList();
+    list.forEach((object) => {
+        // list is an array > array with length of 3 > null unless something is broken, level rank, level object
+        let level = object[2];
 
-    const scoreMap = {};
-    const errs = [];
-    let possibleMax = 0;
-
-    if (list === null) {
-        return [null, ['Failed to load list.']];
-    }
-
-    list.forEach(([err, rank, level]) => {
-        if (err) {
-            errs.push(err);
-            return;
+        if (level.records) {
+            const newUsers = level.records.find(
+                (record) => !users.includes(record.user)
+            );
+            if (newUsers) users.push(newUsers);
         }
 
-        if (rank === null) {
-            return;
-        }
+        packs.forEach(async (pack) => {
+            // initially build the packs
+            try {
+                pack["records"] = [];
+                if (pack.levels) {
+                    // checks if the pack contains the level's path
+                    for (let packlevel in pack.levels) {
+                        if (pack.levels[packlevel] === level.path) {
+                            // iterate through every level in the pack,
+                            // and overwrite the level path in the levels array
+                            // with the object it resolves to
+                            pack.levels[packlevel] = level;
 
-        possibleMax += challengeScore(level.difficulty);
+                            // while we're here, make a list of all the users connected
+                            // to packs (records, verifier)
+                            if (
+                                !users.includes(pack.levels[packlevel].verifier)
+                            )
+                                users.push(pack.levels[packlevel].verifier);
 
-        // Verification
-        const verifier = Object.keys(scoreMap).find(
-            (u) => u.toLowerCase() === level.verifier.toLowerCase(),
-        ) || level.verifier;
-        scoreMap[verifier] ??= {
-            verified: [],
-            completed: [],
-            progressed: [],
-        };
-        const { verified } = scoreMap[verifier];
-        verified.push({
-            rank,
-            level: level.name,
-            score: challengeScore(level.difficulty),
-            link: level.verification,
+                            pack.levels[packlevel].path = level.path;
+                            pack.levels[packlevel].rank = level.rank;
+                        }
+                    }
+                }
+            } catch (e) {
+                console.error(`failed to fetch pack ${pack.name}:  ${e}`);
+            }
         });
+    });
 
-        // Records
-        level.records.forEach((record) => {
-            const user = Object.keys(scoreMap).find(
-                (u) => u.toLowerCase() === record.user.toLowerCase(),
-            ) || record.user;
-            scoreMap[user] ??= {
-                verified: [],
-                completed: [],
-                progressed: [],
-            };
-            const { completed, progressed } = scoreMap[user];
-            if (record.percent === 100) {
-                completed.push({
-                    rank,
-                    level: level.name,
-                    score: challengeScore(level.difficulty),
-                    link: record.link,
+    let tempRecords = {};
+
+    users.forEach((user) => {
+        let userLower = user.user
+            ? user.user.toLowerCase()
+            : user.toLowerCase(); // normalized user for comparison
+        packs.forEach(async (pack) => {
+            // Initialize tempRecords[pack.name] as a Set if not already done
+            if (!tempRecords[pack.name]) tempRecords[pack.name] = new Set();
+
+            if (pack.levels) {
+                // Check if user has completed all levels in the pack
+                const allCompleted = pack.levels.every((packLevel) => {
+                    return packLevel.records?.some(
+                        (record) =>
+                            record.user.toLowerCase() === userLower ||
+                            packLevel.verifier?.toLowerCase() === userLower
+                    );
                 });
-                return;
+
+                if (allCompleted && !tempRecords[pack.name].has(userLower)) {
+                    tempRecords[pack.name].add(userLower);
+                }
+            } else {
+                // Check levels by difficulty
+                let levelsInDifficulty = list.filter(
+                    ([_, __, lvl]) =>
+                        lvl.difficulty === pack.difficulty && lvl.id !== 0
+                );
+                const completedLevels = levelsInDifficulty.filter(
+                    ([_, __, level]) =>
+                        level.records.some(
+                            (record) =>
+                                record.user.toLowerCase() === userLower &&
+                                record.percent === 100
+                        )
+                );
+
+                if (
+                    completedLevels.length >= 5 &&
+                    !tempRecords[pack.name].has(userLower)
+                ) {
+                    tempRecords[pack.name].add(userLower);
+                }
             }
 
-            progressed.push({
-                rank,
-                level: level.name,
-                percent: record.percent,
-                score: challengeScore(level.difficulty),
-                link: record.link,
+            tempRecords[pack.name].forEach((uniqueUser) => {
+                // Find the original user object from `users` array
+                const originalUser = users.find(
+                    (u) => (u.user || u).toLowerCase() === uniqueUser
+                );
+
+                // Determine the correct value to push: either user.user or user itself
+                const userToPush = originalUser.user
+                    ? originalUser.user
+                    : originalUser;
+
+                if (!pack.records.includes(userToPush)) {
+                    pack.records.push(userToPush);
+                }
             });
         });
     });
 
-    // Wrap in extra Object containing the user and total score
-    const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { verified, completed, progressed } = scores;
-        const total = [verified, completed, progressed]
-            .flat()
-            .reduce((prev, cur) => prev + cur.score, 0);
-
-        return {
-            user,
-            total: round(total),
-            possibleMax,
-            ...scores,
-        };
-    });
-
-    // Sort by total score
-    return [res.sort((a, b) => b.total - a.total), errs];
+    packs.sort((a, b) => b.difficulty - a.difficulty);
+    return packs;
 }
 
+export async function fetchEditors() {
+    try {
+        const editorsResults = await fetch(`${dir}/_editors.json`);
+        const editors = await editorsResults.json();
+        return editors;
+    } catch {
+        return null;
+    }
+}
 
+export function averageEnjoyment(records) {
+    if (!records || records.length === 0) return "?"; // handle empty records
+
+    let validRecordsCount = 0;
+    const total = records.reduce((sum, record) => {
+        if (!isNaN(record.enjoyment) && record.percent === 100) {
+            validRecordsCount++;
+            return sum + parseFloat(record.enjoyment);
+        }
+        return sum;
+    }, 0);
+
+    if (validRecordsCount === 0) return "?"; // handle case with no valid enjoyment values
+
+    const average = total / validRecordsCount;
+    return round(average, 3);
+}
 
 export function fetchTierLength(list, difficulty) {
     let tierLength = 0;
@@ -641,22 +521,4 @@ export function fetchTierMinimum(list, difficulty) {
     });
 
     return tierMin;
-}
-
-export function averageEnjoyment(records) {
-    if (!records || records.length === 0) return "?"; // handle empty records
-
-    let validRecordsCount = 0;
-    const total = records.reduce((sum, record) => {
-        if (!isNaN(record.enjoyment) && record.percent === 100) {
-            validRecordsCount++;
-            return sum + parseFloat(record.enjoyment);
-        }
-        return sum;
-    }, 0);
-
-    if (validRecordsCount === 0) return "?"; // handle case with no valid enjoyment values
-
-    const average = total / validRecordsCount;
-    return round(average, 3);
 }

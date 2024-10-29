@@ -1,6 +1,6 @@
 import { store } from "../main.js";
 import { embed, rgbaBind } from "../util.js";
-import { score, lightPackColor, darkPackColor, packScore } from "../config.js";
+import { score, packScore, lightPackColor, darkPackColor } from "../config.js";
 import { averageEnjoyment } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -22,7 +22,7 @@ export default {
                                     {{ pack.name }}
                                 </span>
                             </button>
-                            <tr v-for="(packLevel, availableIndex) in availableLevels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
+                            <tr v-if="selectedPack" v-for="(packLevel, availableIndex) in selectedPack.levels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
                                 <td class="rank pack-rank">
                                     <p v-if="packLevel.rank === null" class="type-label-lg">&mdash;</p>
                                     <p v-else class="type-label-lg">#{{ packLevel.rank }}</p>
@@ -48,7 +48,7 @@ export default {
                 </div>
                     
                 <!-- level page :shocked: -->
-                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedThreshold === undefined">
+                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
@@ -142,21 +142,61 @@ export default {
             </div>
         </main>
     `,
+
     data: () => ({
+        loading: true,
         list: [],
         packs: [],
-        availableLevels: [],
-        loading: true,
-        selected: null,
-        selectedPack: null,
-        selectedPackIndex: null,
-        selectedThreshold: undefined,
-        hoverIndex: null, // don't ask
         errors: [],
         errored: null,
-        roleIconMap,
+        hoverIndex: null,
+        selectedPackIndex: null,
+        selectedPack: null,
+        selected: null,
         store,
     }),
+
+    methods: {
+        embed,
+        score,
+        packScore,
+        averageEnjoyment,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+
+        // initialize the selected pack
+        selectPack(index, pack) {
+            this.errored = null;
+
+            try {
+                this.selected = null;
+                this.selectedPack = pack;
+                this.selectedPack["score"] = packScore(pack);
+                this.selectedPackIndex = index;
+                return;
+            } catch (e) {
+                this.errored = e;
+                return;
+            }
+        },
+
+        reactiveOpaque(color, index) {
+            try {
+                if (this.selectedPackIndex === index) {
+                    return rgbaBind(color, 0);
+                } else if (this.hoverIndex === index) {
+                    return rgbaBind(color, 0.35);
+                } else {
+                    return rgbaBind(color, 0.6);
+                }
+            } catch (e) {
+                console.error(`Failed to color pack: ${e}`);
+                return `rgba(110, 110, 110, 0.7)`;
+            }
+        },
+    },
+
     computed: {
         level() {
             this.packs = this.store.packs;
@@ -181,14 +221,14 @@ export default {
     },
 
     async mounted() {
-        // Hide loading spinner
+        // Fetch list and packs from store
         this.list = this.store.list;
         this.packs = this.store.packs;
 
         // Error handling
         if (!this.list || !this.packs) {
             this.errors = [
-                "Failed to load list. Retry in a few minutes or notify list staff.",
+                "Failed to load list or packs. Retry in a few minutes or notify list staff.",
             ];
         } else {
             this.store.errors.forEach((err) =>
@@ -196,64 +236,13 @@ export default {
             );
         }
 
+        // It's easier to initialize the site like this
         this.selectPack(0, this.packs[0]);
-        // its easier to initialize the site like this because
-        // the levels are sent to the availableLevels array when this function is called
-        // ie when the pack button is clicked
 
+        // Hide loading spinner
         this.loading = false;
     },
-    methods: {
-        embed,
-        rgbaBind,
-        score,
-        averageEnjoyment,
-        lightPackColor,
-        darkPackColor,
-        packScore,
 
-        // initialize the selected pack
-        // the levels shown to the user is based on the availableLevels array, it isn't
-        // directly based on the pack selected but is set here after a pack is selected
-        selectPack(index, pack) {
-            this.errored = null;
-
-            try {
-                this.selected = null;
-                this.selectedPack = pack;
-                this.selectedPack["score"] = packScore(pack, this.list);
-                this.selectedPackIndex = index;
-
-                // retrieve the available levels based on the pack index
-                if (pack.levels) {
-                    this.availableLevels = pack.levels;
-                    this.selectedThreshold = undefined;
-                } else {
-                    this.availableLevels = [];
-                    this.selectedThreshold = pack;
-                }
-                return;
-            } catch (e) {
-                this.errored = e;
-                return;
-            }
-        },
-
-        reactiveOpaque(color, index) {
-            try {
-                if (this.selectedPackIndex === index) {
-                    return rgbaBind(color, 0);
-                } else if (this.hoverIndex === index) {
-                    return rgbaBind(color, 0.35);
-                } else {
-                    return rgbaBind(color, 0.6);
-                }
-            } catch (e) {
-                console.error(`Failed to color pack: ${e}`);
-                return `rgba(110, 110, 110, 0.7)`;
-            }
-        },
-    },
     watch: {
         "store"(updated) {
             this.list = updated.list

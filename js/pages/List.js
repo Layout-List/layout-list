@@ -199,18 +199,28 @@ export default {
             </div>
         </main>
     `,
+
     data: () => ({
-        list: [],
-        editors: [],
         loading: true,
-        selected: 1,
-        errors: [],
+        list: [],
         listlevels: 0,
+        editors: [],
+        errors: [],
+        selected: 1,
+        toggledShowcase: false,
         roleIconMap,
         store,
-        toggledShowcase: false,
     }),
-  
+
+    methods: {
+        embed,
+        score,
+        averageEnjoyment,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+    },
+
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -227,8 +237,9 @@ export default {
             );
         },
     },
+
     async mounted() {
-        // Hide loading spinner
+        // Fetch list from store
         this.list = this.store.list;
         this.editors = await fetchEditors();
 
@@ -245,7 +256,8 @@ export default {
                 this.errors.push('Failed to load list editors.');
             }
         }
-            
+
+        // Hide loading spinner
         this.loading = false;
     },
 
@@ -256,14 +268,5 @@ export default {
                 this.errors.push(`Failed to load level. (${err}.json)`);
             })
         }
-    },
-    
-    methods: {
-        embed,
-        score,
-        averageEnjoyment,
-        rgbaBind,
-        lightPackColor,
-        darkPackColor,
     },
 };

@@ -1,21 +1,11 @@
 import { store } from '../main.js';
-import { lightPackColor, darkPackColor } from '../config.js';
 import { localize, rgbaBind } from '../util.js';
+import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
 
 
 export default {
-    components: {
-        Spinner,
-    },
-    data: () => ({
-        store,
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-        store,
-    }),
+    components: { Spinner },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -129,31 +119,42 @@ export default {
             </div>
         </main>
     `,
-    computed: {
-        entry() {
-            this.leaderboard = this.store.leaderboard[0];
-            return this.leaderboard[this.selected];
-        },
-    },
-    async mounted() {
-        const list = this.store.list;
-        const [leaderboard, err] = this.store.leaderboard;
-        this.leaderboard = leaderboard;
-        this.err = err;
-        // Hide loading spinner
-        this.loading = false;
-    },
+
+    data: () => ({
+        loading: true,
+        leaderboard: [],
+        err: [],
+        selected: 0,
+        store,
+    }),
+
     methods: {
         localize,
         rgbaBind,
         lightPackColor,
         darkPackColor,
     },
+
+    computed: {
+        entry() {
+            return this.leaderboard[this.selected];
+        },
+    },
+
+    async mounted() {
+        // Fetch leaderboard and errors from store
+        const [leaderboard, err] = this.store.leaderboard;
+        this.leaderboard = leaderboard;
+        this.err = err;
+
+        // Hide loading spinner
+        this.loading = false;
+    },
+
     watch: {
         'store'(updated) {
-            this.list = updated.list;
             this.leaderboard = updated.leaderboard[0]
-            this.err = updated.errors
+            this.err = updated.errors   
         }
     },
 };

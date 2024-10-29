@@ -3,7 +3,7 @@ import { fetchList, fetchLeaderboard, fetchPacks } from "./content.js";
 
 console.clear();
 
-// Helper functions to compress and decompress data using Gzip
+// Compresses data passed to the function using Gzip
 function compressData(data) {
     const jsonData = JSON.stringify(data);
     const compressed = pako.gzip(jsonData);
@@ -16,6 +16,7 @@ function compressData(data) {
     return btoa(binaryString); // Convert binary to base64 for storage
 }
 
+// Decompressed data pased to the function using Gzip
 function decompressData(compressedData) {
     const binaryString = atob(compressedData); // Decode base64
     const charData = Uint8Array.from(binaryString, (char) =>
@@ -25,16 +26,14 @@ function decompressData(compressedData) {
     return JSON.parse(decompressed);
 }
 
-// Store compressed data if it doesn't exist
-
-// list
+// Compress and store list locally if it doesn't exist
 if (!localStorage.getItem("listdata")) {
     console.warn("List not found in cache, refreshing...");
     let cookieList = await fetchList();
     localStorage.setItem("listdata", compressData(cookieList));
 }
 
-// leaderboard (deps: list)
+// Compress and store leaderboard locally if it doesn't exist
 if (!localStorage.getItem("leaderboarddata")) {
     console.warn("Leaderboard not found in cache, refreshing...");
     let cookieList = localStorage.getItem("listdata")
@@ -46,7 +45,7 @@ if (!localStorage.getItem("leaderboarddata")) {
     localStorage.setItem("leaderboarddata", compressData(cookieLeaderboard));
 }
 
-// packs (deps: list)
+// Compress and store packs locally if it doesn't exist
 if (!localStorage.getItem("packsdata")) {
     console.warn("Packs not found in cache, refreshing...");
     let cookieList = localStorage.getItem("listdata")
@@ -76,9 +75,6 @@ export let store = Vue.reactive({
     packs: localStorage.getItem("packsdata")
         ? decompressData(localStorage.getItem("packsdata"))
         : null,
-    packRecords: localStorage.getItem("packrecorddata")
-        ? localStorage.getItem("packrecorddata")
-        : null,
     errors: [],
 });
 
@@ -94,47 +90,32 @@ let app = Vue.createApp({
             console.log("Pre-load completed, checking for new data...");
             store.loaded = true;
             try {
-                // list
+                // Update list if it's different than what's stored locally
                 const updatedList = await fetchList();
-                if (
-                    JSON.stringify(updatedList) !== JSON.stringify(store.list)
-                ) {
+                if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
                     console.log("Found new data in list! Overwriting...");
                     localStorage.setItem("listdata", compressData(updatedList));
                 }
-                // leaderboard
+                // Update leaderboard if it's different than what's stored locally
                 const updatedLeaderboard = await fetchLeaderboard(updatedList);
-                if (
-                    JSON.stringify(updatedLeaderboard) !==
-                    JSON.stringify(store.leaderboard)
-                ) {
-                    console.log(
-                        "Found new data in leaderboard! Overwriting..."
-                    );
+                if (JSON.stringify(updatedLeaderboard) !==JSON.stringify(store.leaderboard)) {
+                    console.log("Found new data in leaderboard! Overwriting...");
                     localStorage.setItem("listdata", compressData(updatedList));
-                    localStorage.setItem(
-                        "leaderboarddata",
-                        compressData(updatedLeaderboard)
-                    );
+                    localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
                 }
 
-                // packs
+                // Update packs if it's different than what's stored locally
                 const updatedPacks = await fetchPacks(updatedList);
-                if (
-                    JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)
-                ) {
+                if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
                     console.log("Found new data in packs! Overwriting...");
                     localStorage.setItem("listdata", compressData(updatedList));
-                    localStorage.setItem(
-                        "packsdata",
-                        compressData(updatedPacks)
-                    );
+                    localStorage.setItem("packsdata", compressData(updatedPacks));
                 }
 
                 store.list = updatedList;
                 store.leaderboard = updatedLeaderboard;
                 store.packs = updatedPacks;
-                store.errors = updatedLeaderboard[1]; // levels with errors are stored here
+                store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
                 console.log("Up to date!");
             } catch (error) {
                 console.error("Error fetching data:", error);
@@ -143,10 +124,7 @@ let app = Vue.createApp({
     },
 });
 
-const router = VueRouter.createRouter({
-    history: VueRouter.createWebHashHistory(),
-    routes,
-});
+const router = VueRouter.createRouter({history: VueRouter.createWebHashHistory(), routes});
 
 app.use(router);
 app.mount("#app");
