@@ -117,8 +117,9 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
+                    <p>----------------------------------------</p>
                     <template v-if="staff">
-                        <h3>LIST STAFF</h3>
+                        <h3>List Staff</h3>
                         <ol class="staff">
                             <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
@@ -127,18 +128,16 @@ export default {
                             </li>
                         </ol>
                     </template>
-
+                    <p>----------------------------------------</p>
                     <h3>Tags</h3>
                     <p>
                         (⭐ Rated )
-                        (❌ Pending Removal )
                         (✨ Subject to Exemptions )
-                        (🟢 To be Moved Up )
-                        (🔴 To be Moved Down )
                         (💫 Accepted Under Old Standards )
                         (🎖️ Creator Contest Winner)
+                        (❌ Pending Removal )
                     </p>
-                    
+                    <p>----------------------------------------</p>
                     <h3>Record Submission Requirements</h3>
                     <p>
                         You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, however, "Click Between Frames" is allowed).
@@ -164,10 +163,8 @@ export default {
                     <p>
                         Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
                     </p>
-                    
-                    
-                    <h4></h4>
-                    <h4>DIFFICULTY RANKINGS</h4>
+                    <p>----------------------------------------</p>
+                    <h3>Difficulty Rankings</h3>
                     <p>
                         Impossible Layout = Top Extreme Demons (401 to 750 Points)
                     </p>

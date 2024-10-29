@@ -207,6 +207,11 @@ export function packScore(pack) {
                 /* Extreme Packs */
                 packscore = 150;
                 break;
+            case 7:
+
+                /* Legendary Packs */
+                packscore = 200;
+                break;
             default:
 
                 /* If there's a mistake */
@@ -297,6 +302,12 @@ export function lightPackColor(difficulty) {
             /* Extreme Packs */
             r = 255;
             break;
+        case 7:
+
+            /* Legendary Packs */
+            r = 25;
+            b = 25;
+            break;
         default:
             
             /* If there's a mistake */
@@ -386,6 +397,12 @@ export function darkPackColor(difficulty) {
             r = 167;
             g = 37;
             b = 37;
+            break;
+        case 7:
+
+            /* Legendary Packs */
+            r = 25;
+            b = 25;
             break;
         default:
 

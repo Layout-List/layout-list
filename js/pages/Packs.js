@@ -106,7 +106,10 @@ export default {
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                     <h1>{{ selectedPack.name }}</h1>
-                    <h2 class="pack-score">Points: {{ selectedPack.score }}</h2>
+                    <h2>Difficulty: {{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary"][selectedPack.difficulty] }} Pack</h2>
+                    <div class="pack-score">
+                        <h3>Points: {{ selectedPack.score }}</h3>
+                    </div>
                     <h2 v-if="selectedPack.levels">Levels ({{ selectedPack.levels.length }})</h2>
                     <h2 v-if="!selectedPack.levels">Levels (5)</h2>
                     <p v-if="selectedPack.levels" class="type-body">
@@ -115,11 +118,13 @@ export default {
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
                         </template>
                     </p>
-                    <p v-if="!selectedPack.levels"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "Supreme", "ethereal", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier that are not in any other packs</p>
+                    <p v-if="!selectedPack.levels && selectedPack.difficulty < 7"> Beat any 5 layouts in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme"][selectedPack.difficulty] }} tier that are not in any other packs</p>
+                    <p v-if="!selectedPack.levels && selectedPack.difficulty >= 7"> Beat any 5 layouts in the supreme tier or above that are not in any other packs</p>
                     <h2>Records ({{ selectedPack.records.length }})</h2>
-                    <p class="packrecords" v-for="record in selectedPack.records">{{ record }}</p>
+                    <div class="pack-records">
+                        <p v-for="record in selectedPack.records">{{ record }}</p>
+                    </div>
                 </div>
-                
                 <!-- whatever this is -->
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -133,11 +138,37 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
+                    <p>----------------------------------------</p>
                     <h3>About Packs</h3>
                     <p>Packs are sets of levels on the Layout List chosen by the staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
                     <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
                     <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the roles for the packs you've completed!</p>
-                    <h3>Points</h3>
+                    <p>----------------------------------------</p>
+                    <h3>Difficulty Rankings</h3>
+                    <p>
+                        Legendary Packs = Packs with levels from the supreme tier and above (200 points)
+                    </p>
+                    <p>
+                        Extreme Packs = Packs with levels from the extreme tier and above (150 points)
+                    </p>
+                    <p>
+                        Mythical Packs = Packs with levels from the mythical tier (100 points)
+                    </p>
+                    <p>
+                        Insane Packs = Packs with levels from the insane tier (70 points)
+                    </p>
+                    <p>
+                        Hard Packs = Packs with levels from the hard tier (50 points)
+                    </p>
+                    <p>
+                        Medium Packs = Packs with levels from the medium tier (30 points)
+                    </p>
+                    <p>
+                        Easy Packs = Packs with levels from the easy tier (15 points)
+                    </p>
+                    <p>
+                        Beginner Packs = Packs with levels from the beginner tier (5 points)
+                    </p>
                 </div>
             </div>
         </main>

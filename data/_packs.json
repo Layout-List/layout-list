@@ -215,15 +215,6 @@
         ]
     },
     {
-        "name": "Former Top 1s Pack",
-        "difficulty": 6, 
-        "levels": [
-            "brutal_calamity",
-            "huang_quan",
-            "experiment"
-        ]
-    },
-    {
         "name": "zDark Verification Pack",
         "difficulty": 6, 
         "levels": [
@@ -239,6 +230,15 @@
             "light_it_up",
             "cruelty_of_hope",
             "karma"
+        ]
+    },
+    {
+        "name": "Former Top 1s Pack",
+        "difficulty": 7, 
+        "levels": [
+            "brutal_calamity",
+            "huang_quan",
+            "experiment"
         ]
     },
     {
@@ -268,5 +268,9 @@
     {
         "name": "Extreme Pack",
         "difficulty": 6
+    },
+    {
+        "name": "Legendary Pack",
+        "difficulty": 7
     }
 ]

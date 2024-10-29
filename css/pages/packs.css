@@ -7,22 +7,16 @@
     margin-bottom: 0.7rem;
     margin-top: 0.5rem;
 }
-.stuff {
+.pack-score {
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-auto-rows: max-content;
     gap: 1rem;
 }
-.threshold-message {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
-.pack-score {
-    margin-bottom:1rem;
-    margin-top:1rem;
-}
 .pack-records {
-    table-layout: fixed;
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
 }
