@@ -459,11 +459,11 @@ export async function fetchPacks(list) {
     return packs;
 }
 
-export async function fetchEditors() {
+export async function fetchStaff() {
     try {
-        const editorsResults = await fetch(`${dir}/_editors.json`);
-        const editors = await editorsResults.json();
-        return editors;
+        const staffResults = await fetch(`${dir}/_staff.json`);
+        const staff = await staffResults.json();
+        return staff;
     } catch {
         return null;
     }

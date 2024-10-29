@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind } from '../util.js';
 import { score, lightPackColor, darkPackColor } from '../config.js';
-import { fetchEditors, averageEnjoyment } from '../content.js';
+import { fetchStaff, averageEnjoyment } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -117,10 +117,10 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <template v-if="editors">
-                        <h3>LIST EDITORS</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors">
+                    <template v-if="staff">
+                        <h3>LIST STAFF</h3>
+                        <ol class="staff">
+                            <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
@@ -204,7 +204,7 @@ export default {
         loading: true,
         list: [],
         listlevels: 0,
-        editors: [],
+        staff: [],
         errors: [],
         selected: 1,
         toggledShowcase: false,
@@ -241,7 +241,7 @@ export default {
     async mounted() {
         // Fetch list from store
         this.list = this.store.list;
-        this.editors = await fetchEditors();
+        this.staff = await fetchStaff();
 
         // Error handling
         if (!this.list) {
@@ -252,8 +252,8 @@ export default {
             this.store.errors.forEach((err) => 
                 this.errors.push(`Failed to load level. (${err}.json)`))
 
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
+            if (!this.staff) {
+                this.errors.push('Failed to load list staff.');
             }
         }
 
