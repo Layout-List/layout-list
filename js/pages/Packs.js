@@ -275,16 +275,19 @@ export default {
     },
 
     watch: {
-        'store'(updated) {
-            this.list = updated.list;
-            this.packs = updated.packs;
-            this.selectPack(
-                this.selectedPackIndex,
-                this.packs[this.selectedPackIndex]
-            );
-            updated.errors.forEach((err) =>
-                this.errors.push(`Failed to load level. (${err}.json)`)
-            );
-        },
+        store: {
+            handler(updated) {
+                this.list = updated.list;
+                this.packs = updated.packs;
+                this.selectPack(
+                    this.selectedPackIndex,
+                    this.packs[this.selectedPackIndex]
+                );
+                updated.errors.forEach((err) =>
+                    this.errors.push(`Failed to load level. (${err}.json)`)
+                );
+            }, 
+            deep: true
+        }
     },
 };

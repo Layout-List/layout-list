@@ -259,11 +259,14 @@ export default {
     },
 
     watch: {        
-        'store'(updated) {
-            this.list = updated.list
-            updated.errors.forEach(err => {
-                this.errors.push(`Failed to load level. (${err}.json)`);
-            })
+        store: {
+            handler(updated) {
+                this.list = updated.list
+                updated.errors.forEach(err => {
+                    this.errors.push(`Failed to load level. (${err}.json)`);
+                })
+            }, 
+            deep: true
         }
     },
 };

@@ -152,9 +152,12 @@ export default {
     },
 
     watch: {
-        'store'(updated) {
-            this.leaderboard = updated.leaderboard[0]
-            this.err = updated.errors   
+        store: {
+            handler(updated) {
+                this.leaderboard = updated.leaderboard[0]
+                this.err = updated.errors   
+            }, 
+            deep: true
         }
     },
 };
