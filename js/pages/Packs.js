@@ -50,7 +50,7 @@ export default {
                 <!-- level page :shocked: -->
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>

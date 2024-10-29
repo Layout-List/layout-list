@@ -4,10 +4,6 @@ export default {
             type: String,
             required: true,
         },
-        hosts: {
-            type: Array,
-            required: true,
-        },
         creators: {
             type: Array,
             required: true,

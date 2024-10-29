@@ -1,4 +1,4 @@
-import { score, challengeScore, packScore } from './config.js';
+import { score, packScore } from './config.js';
 import { round } from './util.js';
 
 /**
