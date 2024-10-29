@@ -130,6 +130,10 @@ export default {
                         <h3>LIST STAFF</h3>
                         <ol class="staff">
                             <li v-for="editor in staff">
+                    <template v-if="staff">
+                        <h3>LIST STAFF</h3>
+                        <ol class="staff">
+                            <li v-for="editor in staff">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
@@ -268,6 +272,8 @@ export default {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
+            if (!this.staff) {
+                this.errors.push('Failed to load list staff.');
             if (!this.staff) {
                 this.errors.push('Failed to load list staff.');
             }
