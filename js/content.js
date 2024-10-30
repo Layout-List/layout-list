@@ -269,7 +269,7 @@ export async function fetchLeaderboard(list) {
                             )
 
                             // Check if the user has completed as many levels as the pack's threshold
-                            if (completedInDifficulty.length >= 5) {
+                            if (completedInDifficulty >= 5) {
                                 completedPacksMap[user].add(pack);
                             } 
                         }
