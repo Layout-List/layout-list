@@ -186,7 +186,9 @@ export async function fetchLeaderboard(list) {
                     // Count levels completed by the user in the current difficulty
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
                         lvl.difficulty === level.difficulty && 
-                        lvl.verifier.toLowerCase() === verifier.toLowerCase()
+                        lvl.verifier.toLowerCase() === verifier.toLowerCase() &&
+                        lvl.packs.some((p) => p.levels?.includes(level))
+                        
                     )
                     .length;
 
@@ -262,15 +264,13 @@ export async function fetchLeaderboard(list) {
                             // Count levels completed by the user in the current difficulty
                             const completedInDifficulty = list.filter(([_, __, lvl]) =>
                                 lvl.difficulty === level.difficulty && 
-                                lvl.records.some((r) => r.user === record.user && r.percent === 100) || lvl.verifier.toLowerCase() === user.toLowerCase()
+                                lvl.records.some((r) => r.user === record.user && r.percent === 100 || lvl.verifier.toLowerCase() === user.toLowerCase()) && 
+                                level.packs.some((p) => p.levels?.includes(lvl))
                             )
-                            .length;
 
                             // Check if the user has completed as many levels as the pack's threshold
-                            if (completedInDifficulty >= 5) {
+                            if (completedInDifficulty.length >= 5) {
                                 completedPacksMap[user].add(pack);
-                                
-
                             } 
                         }
                         // completedScore += packScore(pack, list);
