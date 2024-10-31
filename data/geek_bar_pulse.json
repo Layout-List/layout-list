@@ -9,6 +9,13 @@
     "song": "xKore - Showdown",
     "difficulty": 5,
     "records": [
+        {
+            "user": sn0w",
+            "link": "https://www.twitch.tv/videos/2289473261",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         
     ]
 }
