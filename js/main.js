@@ -65,6 +65,7 @@ const router = VueRouter.createRouter({
     routes,
 });
 
+
 app.use(router);
 
 app.mount('#app');
