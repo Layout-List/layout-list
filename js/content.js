@@ -383,6 +383,7 @@ export async function fetchPacks(list) {
                             pack.levels[packlevel].path = level.path;
                             pack.levels[packlevel].rank = level.rank;
                         }
+                        pack.levels.sort((a, b) => a.rank - b.rank)
                     }
                 }
             } catch (e) {
