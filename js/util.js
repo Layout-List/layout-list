@@ -76,3 +76,24 @@ export function shuffle(array) {
 
     return array;
 }
+
+export function sortPacks(packs) {
+    // packs with higher difficulty will display above lower
+    packs.sort(
+        (a, b) =>
+            b.difficulty - a.difficulty);
+
+        // push diff packs after the other packs in that tier
+        packs.sort(
+            (a, b) => {
+                // First, check if both packs are of the same difficulty
+                if (a.difficulty === b.difficulty) {
+                    // If they are of the same difficulty, sort packs without levels before those with levels
+                    if (!a.levels && b.levels) return 1;
+                    if (a.levels && !b.levels) return -1;
+                }
+                // If difficulties are different, maintain their original order
+                return 0;
+            }
+        );
+}

@@ -1,5 +1,5 @@
 import { score, packScore } from './config.js';
-import { round } from './util.js';
+import { round, sortPacks } from './util.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
@@ -330,22 +330,9 @@ export async function fetchLeaderboard(list) {
     packs.forEach((pack) => possibleMax += packScore(pack, list));
 
     Object.entries(completedPacksMap).forEach(([user, packs]) => {
-        // ----- My attempted solution to the packs not displaying properly. ----- //
-        // --- Ended up displaying the same exact way as the current method :( --- //
-        /* let temp = [];
-        let i = 0;
-        completedPacksMap[user].forEach((pack) => {
-            temp[i] = pack;
-            i++;
-        });
-        temp.sort(
-        (a, b) => 
-            b.difficulty - a.difficulty); // sort packs by difficulty!
-        scoreMap[user].userPacks.push(...temp); */
         const uniquePacks = Array.from(packs);
-        uniquePacks.sort(
-        (a, b) =>
-            b.difficulty - a.difficulty);
+        sortPacks(uniquePacks)
+        
         scoreMap[user].userPacks.push(...uniquePacks);
     });
     
@@ -490,9 +477,7 @@ export async function fetchPacks(list) {
         });
     });
 
-    packs.sort(
-        (a, b) => 
-            b.difficulty - a.difficulty); // sort packs by difficulty!
+    sortPacks(packs);
     
     return packs;
 }
