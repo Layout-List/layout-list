@@ -310,17 +310,6 @@ export async function fetchLeaderboard(list) {
 
     packs.forEach((pack) => possibleMax += packScore(pack, list));
 
-    
-    packs.sort(
-        (x, y) => 
-            x.difficulty == 7 && // if the pack has difficulty 7 and is a difficulty pack
-            !x.levels ? 
-                -1 : // move the pack to the front of packs[]
-
-            y.difficulty == 7 ? // other packs in diff 7 are set below the diff pack
-                1 : 0
-            );
-
     packs.sort(
         (a, b) => 
             b.difficulty - a.difficulty); // sort packs by difficulty!
@@ -471,21 +460,6 @@ export async function fetchPacks(list) {
             });
         });
     });
-
-
-
-    // manually override the order of the legendary packs
-    // https://stackoverflow.com/a/23921775
-
-    packs.sort(
-        (x, y) => 
-            x.difficulty == 7 && // if the pack has difficulty 7 and is a difficulty pack
-            !x.levels ? 
-                -1 : // move the pack to the front of packs[]
-
-            y.difficulty == 7 ? // other packs in diff 7 are set below the diff pack
-                1 : 0
-            );
 
     packs.sort(
         (a, b) => 
