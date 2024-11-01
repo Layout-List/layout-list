@@ -211,7 +211,6 @@ export default {
         // initialize the selected pack
         selectPack(index, pack) {
             this.errored = null;
-            console.log(pack)
 
             if (!Array.isArray(pack) && pack[0] !== 422) {
                 try {
