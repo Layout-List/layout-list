@@ -186,7 +186,8 @@ export async function fetchLeaderboard(list) {
                     // Count levels completed by the user in the current difficulty
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
                         lvl.difficulty === level.difficulty && 
-                        lvl.verifier.toLowerCase() === verifier.toLowerCase()
+                        lvl.verifier.toLowerCase() === verifier.toLowerCase() &&
+                        !lvl.packs.every((p) => p.levels?.includes(level))
                     )
                     .length;
 
@@ -262,7 +263,12 @@ export async function fetchLeaderboard(list) {
                             // Count levels completed by the user in the current difficulty
                             const completedInDifficulty = list.filter(([_, __, lvl]) =>
                                 lvl.difficulty === level.difficulty && 
-                                lvl.records.some((r) => r.user === record.user && r.percent === 100 || lvl.verifier.toLowerCase() === user.toLowerCase())
+                                lvl.records.some((r) => r.user === record.user && r.percent === 100 || lvl.verifier.toLowerCase() === user.toLowerCase()) &&
+                                packs.some(
+                                    (otherPack) =>
+                                        otherPack.levels && 
+                                        otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path)
+                                )
                             )
                             .length;
 
