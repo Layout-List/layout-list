@@ -310,13 +310,12 @@ export async function fetchLeaderboard(list) {
 
     packs.forEach((pack) => possibleMax += packScore(pack, list));
 
-    packs.sort(
-        (a, b) => 
-            b.difficulty - a.difficulty); // sort packs by difficulty!
-
 
     Object.entries(completedPacksMap).forEach(([user, packs]) => {
         const uniquePacks = Array.from(packs);
+        uniquePacks.sort(
+        (a, b) => 
+            b.difficulty - a.difficulty); // sort packs by difficulty!
         scoreMap[user].userPacks.push(...uniquePacks);
     });
     
