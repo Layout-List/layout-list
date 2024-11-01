@@ -106,7 +106,7 @@ export default {
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                     <h1>{{ selectedPack.name }}</h1>
-                    <h2>Difficulty: {{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary"][selectedPack.difficulty] }} Pack</h2>
+                    <h2>Difficulty: {{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary"][selectedPack.difficulty] }}</h2>
                     <div class="pack-score">
                         <h3>Points: {{ selectedPack.score }}</h3>
                     </div>
