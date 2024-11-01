@@ -22,7 +22,7 @@ export default {
                                     {{ pack.name }}
                                 </span>
                             </button>
-                            <tr v-if="selectedPack" v-for="(packLevel, availableIndex) in selectedPack.levels" :key="availableIndex" v-if="selectedPackIndex == index" class="pack-level-list">
+                            <tr v-if="selectedPack && selectedPackIndex == index" v-for="(packLevel, availableIndex) in selectedPack.levels" :key="availableIndex" class="pack-level-list">
                                 <td class="rank pack-rank">
                                     <p v-if="packLevel.rank === null" class="type-label-lg">&mdash;</p>
                                     <p v-else class="type-label-lg">#{{ packLevel.rank }}</p>

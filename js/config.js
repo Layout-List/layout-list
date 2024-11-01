@@ -2,7 +2,7 @@ import { round } from './util.js';
 import { fetchTierLength, fetchTierMinimum } from "./content.js";
 
 // ------------------------------------------------------------------------------------------
-// welcome to the site's configuration! This file allows us to change: 
+// Welcome to the site's configuration! This file allows us to change: 
 //      - The formula used anytime the site needs to calculate a score (level, record, and
           // pack scores)
 //      - The colors a pack is displayed as
@@ -154,7 +154,8 @@ export function score(rank, difficulty, percent, minPercent, list) {
 export function packScore(pack) {
     let packscore = 0; // Initialize packscore
 
-    // Ignore the code between the '/*' and '*/' symbols.
+    // Code between the '/*' and '*/' symbols is ignored / disabled.
+    // This code used to score packs based on the levels they contain, if any.
 
     /* if (pack.levels) { // Checks if the pack has definitive levels associated with it
 
