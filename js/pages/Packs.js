@@ -80,7 +80,7 @@ export default {
                     </ul>
                     <h2>Records ({{ level.records.length }})</h2>
                     <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
-                    <table class="pack-records">
+                    <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
