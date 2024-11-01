@@ -138,12 +138,12 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <p>----------------------------------------</p>
+                    <p class="right-divider">----------------------------------------</p>
                     <h3>About Packs</h3>
                     <p>Packs are sets of levels on the Layout List chosen by the staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
                     <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
                     <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the roles for the packs you've completed!</p>
-                    <p>----------------------------------------</p>
+                    <p class="right-divider">----------------------------------------</p>
                     <h3>Difficulty Rankings</h3>
                     <p>
                         Legendary Packs = Packs with levels from the supreme tier and above (200 points)
@@ -169,7 +169,7 @@ export default {
                     <p>
                         Beginner Packs = Packs with levels from the beginner tier (5 points)
                     </p>
-                    <p>----------------------------------------</p> <!-- why not -->
+                    <p class="right-divider">----------------------------------------</p> <!-- why not -->
                     <p>
                         For your convenience, the Layout List caches the data for the list in your browser.
                     </p>
