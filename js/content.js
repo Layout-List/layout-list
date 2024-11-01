@@ -127,8 +127,6 @@ export async function fetchLeaderboard(list) {
             userPacks: [],
         };
 
-        completedPacksMap[author] ??= new Set();
-
         const { created } = scoreMap[author];
         created.push({
             rank,
@@ -169,31 +167,38 @@ export async function fetchLeaderboard(list) {
         };
         completedPacksMap[verifier] ??= new Set();
 
-        // check if user has verified all levels in pack
+        // check if user has verified/completed all levels in a pack (prevents case of pack not being awarded if a player verified the first level in a pack but completed one of the other levels)
         if (level.packs.length > 0) {
             level.packs.forEach((pack) => {
                 if (Array.isArray(pack.levels)) {
                     const allVerified = pack.levels.every((packLevel) =>
                         list.some(([_, __, lvl]) =>
-                            lvl.path == packLevel.path &&
-                            lvl.verifier.toLowerCase() === verifier.toLowerCase() // check if same verifier for each lvl
+                            (lvl.path == packLevel.path) &&
+                            (lvl.records.some((r) => r.user.toLowerCase() === verifier.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === verifier.toLowerCase()))
                         )
                     );
                     if (allVerified) {
                         completedPacksMap[verifier].add(pack);
                     }
-                } else if (pack.difficulty === level.difficulty) {
-                    // Count levels completed by the user in the current difficulty
+                } else if (level.difficulty >= 7) {
+                    // Count levels completed by the user for the legendary pack
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
-                        lvl.difficulty === level.difficulty && 
-                        lvl.verifier.toLowerCase() === verifier.toLowerCase() &&
-                        packs.some(
-                            (otherPack) =>
-                                otherPack.levels && 
-                                !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path)
-                        )
-                    )
-                    .length;
+                        (lvl.difficulty >= 7) && 
+                        (lvl.records.some((r) => r.user.toLowerCase() === verifier.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === verifier.toLowerCase())) &&
+                        packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                    ).length;
+
+                    // Check if the user has completed as many levels as the pack's threshold
+                    if (completedInDifficulty >= 5) {
+                        completedPacksMap[verifier].add(pack);
+                    }
+                } else if (pack.difficulty === level.difficulty) {
+                    // Count levels completed by the user for the other difficulty packs
+                    const completedInDifficulty = list.filter(([_, __, lvl]) =>
+                        (lvl.difficulty === level.difficulty) && 
+                        (lvl.records.some((r) => r.user.toLowerCase() === verifier.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === verifier.toLowerCase())) &&
+                        packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                    ).length;
 
                     // Check if the user has completed as many levels as the pack's threshold
                     if (completedInDifficulty >= 5) {
@@ -249,41 +254,45 @@ export async function fetchLeaderboard(list) {
                 completedScore += score(rank, level.difficulty, 100, level.percentToQualify, list);
                 
 
-                // check if user has completed all levels in a pack
+                // check if user has completed/verified all levels in a pack (prevents case of pack not being awarded if a player completed the first level in a pack but verified one of the other levels)
                 if (level.packs.length > 0) {
                     level.packs.forEach((pack) => {
                         if (Array.isArray(pack.levels)) {
                             
                             const allCompleted = pack.levels.every((packLevel) =>
                                 list.some(([_, __, lvl]) =>
-                                    lvl.path == packLevel.path &&
-                                    lvl.records.some((r) => r.user === record.user && r.percent === 100)
+                                    (lvl.path == packLevel.path) &&
+                                    (lvl.records.some((r) => r.user.toLowerCase() === user.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === user.toLowerCase()))
                                 )
                             );
                             if (allCompleted) {
                                 completedPacksMap[user].add(pack);
                             }
-                        } else if (pack.difficulty === level.difficulty) {
-                            // Count levels completed by the user in the current difficulty
+                        } else if (level.difficulty >= 7) {
+                            // Count levels completed by the user for the legendary pack
                             const completedInDifficulty = list.filter(([_, __, lvl]) =>
-                                lvl.difficulty === level.difficulty && 
-                               lvl.records.some((r) => r.user === record.user && r.percent === 100 || lvl.verifier.toLowerCase() === user.toLowerCase()) &&
-                                packs.some(
-                                    (otherPack) =>
-                                        otherPack.levels && 
-                                        !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path)
-                                )
-                            )
-                            .length;
+                                (lvl.difficulty >= 7) && 
+                                (lvl.records.some((r) => r.user.toLowerCase() === user.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === user.toLowerCase())) &&
+                                packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                            ).length;
 
                             // Check if the user has completed as many levels as the pack's threshold
                             if (completedInDifficulty >= 5) {
                                 completedPacksMap[user].add(pack);
-                                
-
                             } 
+                        } else if (pack.difficulty === level.difficulty) {
+                            // Count levels completed by the user for the other difficulty packs
+                            const completedInDifficulty = list.filter(([_, __, lvl]) =>
+                                (lvl.difficulty === level.difficulty) && 
+                                (lvl.records.some((r) => r.user.toLowerCase() === user.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === user.toLowerCase())) &&
+                                packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                            ).length;
+
+                            // Check if the user has completed as many levels as the pack's threshold
+                            if (completedInDifficulty >= 5) {
+                                completedPacksMap[user].add(pack);
+                            }
                         }
-                        // completedScore += packScore(pack, list);
                     });
                 }
                 completed.push({
@@ -320,12 +329,23 @@ export async function fetchLeaderboard(list) {
 
     packs.forEach((pack) => possibleMax += packScore(pack, list));
 
-
     Object.entries(completedPacksMap).forEach(([user, packs]) => {
-        const uniquePacks = Array.from(packs);
-        uniquePacks.sort(
+        // ----- My attempted solution to the packs not displaying properly. ----- //
+        // --- Ended up displaying the same exact way as the current method :( --- //
+        /* let temp = [];
+        let i = 0;
+        completedPacksMap[user].forEach((pack) => {
+            temp[i] = pack;
+            i++;
+        });
+        temp.sort(
         (a, b) => 
             b.difficulty - a.difficulty); // sort packs by difficulty!
+        scoreMap[user].userPacks.push(...temp); */
+        const uniquePacks = Array.from(packs);
+        uniquePacks.sort(
+        (a, b) =>
+            b.difficulty - a.difficulty);
         scoreMap[user].userPacks.push(...uniquePacks);
     });
     
