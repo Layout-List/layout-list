@@ -308,6 +308,7 @@ export function lightPackColor(difficulty) {
             /* Legendary Packs */
             r = 25;
             b = 25;
+            a = 0.7
             break;
         default:
             
@@ -400,10 +401,9 @@ export function darkPackColor(difficulty) {
             b = 37;
             break;
         case 7:
-
-            /* Legendary Packs */
-            r = 25;
-            b = 25;
+            // this pack is black, so the initialized values
+            // already work
+            
             break;
         default:
 
