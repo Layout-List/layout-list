@@ -211,15 +211,21 @@ export default {
         // initialize the selected pack
         selectPack(index, pack) {
             this.errored = null;
+            console.log(pack)
 
-            try {
-                this.selected = null;
-                this.selectedPack = pack;
-                this.selectedPack["score"] = packScore(pack);
-                this.selectedPackIndex = index;
-                return;
-            } catch (e) {
-                this.errored = e;
+            if (!Array.isArray(pack) && pack[0] !== 422) {
+                try {
+                    this.selected = null;
+                    this.selectedPack = pack;
+                    this.selectedPack["score"] = packScore(pack);
+                    this.selectedPackIndex = index;
+                    return;
+                } catch (e) {
+                    this.errored = e;
+                    return;
+                }
+            } else {
+                this.errored = pack[1];
                 return;
             }
         },

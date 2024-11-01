@@ -10,12 +10,22 @@ const dir = '/data';
  */
 const benchmarker = '_';
 
+
+
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     const packResult = await fetch(`${dir}/_packs.json`);
     try {
         const list = await listResult.json();
-        const packsMap = await packResult.json();
+        let packsMap = []
+        try {
+            packsMap = await packResult.json();
+        } catch (e) {
+            // pack error object [0] will always be 422
+            // [1] is the error message
+            // (optional) [2] is the level name being processed while the error is thrown
+            packsMap = [422, e] 
+        }
 
         // Create a lookup dictionary for ranks
         const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
@@ -35,36 +45,44 @@ export async function fetchList() {
                     let level = await levelResult.json(); // no longer a constant so we can wrap in the path
 
                     level["path"] = path;
-
                     
-                    packsMap.forEach((pack) => {
-                        try {
-                            if (pack.levels) { 
-                                if (pack.levels.includes(path)) {
-                                    packs.push(pack);
-                                    
-                                }
+                    try {
+                        if (packsMap[0] !== 422) {
+                            packsMap.forEach((pack) => {
+                                try {
+                                    if (pack.levels) { 
+                                        if (pack.levels.includes(path)) {
+                                            packs.push(pack);
+                                            
+                                        }
 
-                                // checks if the pack contains the level's path
-                                for (let packlevel in pack.levels) { 
-                                    if (pack.levels[packlevel] === path) {
-                                        // iterate through every level in the pack,
-                                        // and overwrite the level path in the levels array
-                                        // with the object it resolves to
-                                        pack.levels[packlevel] = level;
-                                        pack.levels[packlevel].path = path;
-                                        pack.levels[packlevel].rank = rank;
-                                        
+                                        // checks if the pack contains the level's path
+                                        for (let packlevel in pack.levels) { 
+                                            if (pack.levels[packlevel] === path) {
+                                                // iterate through every level in the pack,
+                                                // and overwrite the level path in the levels array
+                                                // with the object it resolves to
+                                                pack.levels[packlevel] = level;
+                                                pack.levels[packlevel].path = path;
+                                                pack.levels[packlevel].rank = rank;
+                                                
+                                            }
+                                        }
+                                    } else if (pack.difficulty === level.difficulty) {
+                                        packs.push(pack);
                                     }
+                                } catch (e) {
+                                    console.error(`failed to fetch pack ${pack.name}:  ${e}`)
+                                    packs.push([422, e, pack.name])
                                 }
-                            } else if (pack.difficulty === level.difficulty) {
-                                packs.push(pack);
-                            }
-                        } catch (e) {
-                            console.error(`failed to fetch pack ${pack.name}:  ${e}`)
+                            })
+                        } else {
+                            console.error(`failed to process packs: ${packsMap[1]}`)
                         }
-                    })
-                    
+                    } catch (e) {
+                        console.error(`failed to fetch packs: ${e}`)
+                        packs.push([422, e])
+                    }
                     
                     
                     return [
@@ -366,120 +384,131 @@ export async function fetchLeaderboard(list) {
 }
 
 export async function fetchPacks(list) {
-    const packResult = await fetch(`${dir}/_packs.json`);
-    const packs = await packResult.json();
-    let users = [];
-
-    list.forEach((object) => {
-        // list is an array > array with length of 3 > null unless something is broken, level rank, level object
-        let level = object[2];
-
-        if (level.records) {
-            const newUsers = level.records.find(
-                (record) => !users.includes(record.user)
-            );
-            if (newUsers) users.push(newUsers);
+    try {
+        const packResult = await fetch(`${dir}/_packs.json`);
+        let packs = []
+        try {
+            packs = await packResult.json();
+        } catch (e) {
+            console.error(`failed to process packs: ${e}`)
+            packs = [422, e]
         }
+        let users = [];
 
-        packs.forEach(async (pack) => {
-            // initially build the packs
-            try {
-                pack["records"] = [];
-                if (pack.levels) {
-                    // checks if the pack contains the level's path
-                    for (let packlevel in pack.levels) {
-                        if (pack.levels[packlevel] === level.path) {
-                            // iterate through every level in the pack,
-                            // and overwrite the level path in the levels array
-                            // with the object it resolves to
-                            pack.levels[packlevel] = level;
+        list.forEach((object) => {
+            // list is an array > array with length of 3 > null unless something is broken, level rank, level object
+            let level = object[2];
 
-                            // while we're here, make a list of all the users connected
-                            // to packs (records, verifier)
-                            if (
-                                !users.includes(pack.levels[packlevel].verifier)
-                            )
-                                users.push(pack.levels[packlevel].verifier);
+            if (level.records) {
+                const newUsers = level.records.find(
+                    (record) => !users.includes(record.user)
+                );
+                if (newUsers) users.push(newUsers);
+            }
 
-                            pack.levels[packlevel].path = level.path;
-                            pack.levels[packlevel].rank = level.rank;
+            packs.forEach(async (pack) => {
+                // initially build the packs
+                try {
+                    pack["records"] = [];
+                    if (pack.levels) {
+                        // checks if the pack contains the level's path
+                        for (let packlevel in pack.levels) {
+                            if (pack.levels[packlevel] === level.path) {
+                                // iterate through every level in the pack,
+                                // and overwrite the level path in the levels array
+                                // with the object it resolves to
+                                pack.levels[packlevel] = level;
+
+                                // while we're here, make a list of all the users connected
+                                // to packs (records, verifier)
+                                if (
+                                    !users.includes(pack.levels[packlevel].verifier)
+                                )
+                                    users.push(pack.levels[packlevel].verifier);
+
+                                pack.levels[packlevel].path = level.path;
+                                pack.levels[packlevel].rank = level.rank;
+                            }
+                            pack.levels.sort((a, b) => a.rank - b.rank)
                         }
-                        pack.levels.sort((a, b) => a.rank - b.rank)
                     }
-                }
-            } catch (e) {
-                console.error(`failed to fetch pack ${pack.name}:  ${e}`);
-            }
-        });
-    });
-
-    let tempRecords = {};
-
-    users.forEach((user) => {
-        let userLower = user.user
-            ? user.user.toLowerCase()
-            : user.toLowerCase(); // normalized user for comparison
-        packs.forEach(async (pack) => {
-            // Initialize tempRecords[pack.name] as a Set if not already done
-            if (!tempRecords[pack.name]) tempRecords[pack.name] = new Set();
-
-            if (pack.levels) {
-                // Check if user has completed all levels in the pack
-                const allCompleted = pack.levels.every((packLevel) => {
-                    return packLevel.records?.some(
-                        (record) =>
-                            record.user.toLowerCase() === userLower ||
-                            packLevel.verifier?.toLowerCase() === userLower
-                    );
-                });
-
-                if (allCompleted && !tempRecords[pack.name].has(userLower)) {
-                    tempRecords[pack.name].add(userLower);
-                }
-            } else {
-                // Check levels by difficulty
-                let levelsInDifficulty = list.filter(
-                    ([_, __, lvl]) =>
-                        lvl.difficulty === pack.difficulty && lvl.id !== 0
-                );
-                const completedLevels = levelsInDifficulty.filter(
-                    ([_, __, level]) =>
-                        level.records.some(
-                            (record) =>
-                                record.user.toLowerCase() === userLower &&
-                                record.percent === 100
-                        )
-                );
-
-                if (
-                    completedLevels.length >= 5 &&
-                    !tempRecords[pack.name].has(userLower)
-                ) {
-                    tempRecords[pack.name].add(userLower);
-                }
-            }
-
-            tempRecords[pack.name].forEach((uniqueUser) => {
-                // Find the original user object from `users` array
-                const originalUser = users.find(
-                    (u) => (u.user || u).toLowerCase() === uniqueUser
-                );
-
-                // Determine the correct value to push: either user.user or user itself
-                const userToPush = originalUser.user
-                    ? originalUser.user
-                    : originalUser;
-
-                if (!pack.records.includes(userToPush)) {
-                    pack.records.push(userToPush);
+                } catch (e) {
+                    console.error(`failed to fetch pack ${pack.name}:  ${e}`);
                 }
             });
         });
-    });
 
-    sortPacks(packs);
-    
-    return packs;
+        let tempRecords = {};
+
+        users.forEach((user) => {
+            let userLower = user.user
+                ? user.user.toLowerCase()
+                : user.toLowerCase(); // normalized user for comparison
+            packs.forEach(async (pack) => {
+                // Initialize tempRecords[pack.name] as a Set if not already done
+                if (!tempRecords[pack.name]) tempRecords[pack.name] = new Set();
+
+                if (pack.levels) {
+                    // Check if user has completed all levels in the pack
+                    const allCompleted = pack.levels.every((packLevel) => {
+                        return packLevel.records?.some(
+                            (record) =>
+                                record.user.toLowerCase() === userLower ||
+                                packLevel.verifier?.toLowerCase() === userLower
+                        );
+                    });
+
+                    if (allCompleted && !tempRecords[pack.name].has(userLower)) {
+                        tempRecords[pack.name].add(userLower);
+                    }
+                } else {
+                    // Check levels by difficulty
+                    let levelsInDifficulty = list.filter(
+                        ([_, __, lvl]) =>
+                            lvl.difficulty === pack.difficulty && lvl.id !== 0
+                    );
+                    const completedLevels = levelsInDifficulty.filter(
+                        ([_, __, level]) =>
+                            level.records.some(
+                                (record) =>
+                                    record.user.toLowerCase() === userLower &&
+                                    record.percent === 100
+                            )
+                    );
+
+                    if (
+                        completedLevels.length >= 5 &&
+                        !tempRecords[pack.name].has(userLower)
+                    ) {
+                        tempRecords[pack.name].add(userLower);
+                    }
+                }
+
+                tempRecords[pack.name].forEach((uniqueUser) => {
+                    // Find the original user object from `users` array
+                    const originalUser = users.find(
+                        (u) => (u.user || u).toLowerCase() === uniqueUser
+                    );
+
+                    // Determine the correct value to push: either user.user or user itself
+                    const userToPush = originalUser.user
+                        ? originalUser.user
+                        : originalUser;
+
+                    if (!pack.records.includes(userToPush)) {
+                        pack.records.push(userToPush);
+                    }
+                });
+            });
+        });
+
+        sortPacks(packs);
+        
+        return packs;
+    } catch (e) {
+        console.error(`failed to fetch packs: ${e}`)
+        return [422, e]
+    }
 }
 
 export async function fetchStaff() {
