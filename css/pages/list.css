@@ -98,7 +98,7 @@
 .page-list .meta {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 .page-list .meta .errors {
     display: flex;

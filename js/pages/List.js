@@ -117,7 +117,7 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <hr width="100%" color = black size="5" border="dotted">
+                    <hr width="100%" color = black size="5">
                     <template v-if="staff">
                         <h3>List Staff</h3>
                         <ol class="staff">
