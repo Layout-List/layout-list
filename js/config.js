@@ -257,38 +257,38 @@ export function lightPackColor(difficulty) {
         case 0:
 
             /* Beginner Packs */
-            r = 52;
-            g = 107;
-            b = 235;
+            r = 255;
+            g = 23;
+            b = 139;
+            a = 0.9;
             break;
         case 1:
 
             /* Easy Packs */
             r = 52;
-            g = 150;
-            b = 82;
+            g = 107;
+            b = 235;
             break;
         case 2:
 
             /* Medium Packs */
-            r = 213;
-            g = 239;
-            b = 16;
-            a = 0.9;
+            r = 52;
+            g = 150;
+            b = 82;
             break;
         case 3:
 
             /* Hard Packs */
-            r = 255;
-            g = 120;
+            r = 213;
+            g = 239;
+            b = 16;
             a = 0.9;
             break;
         case 4:
 
             /* Insane Packs */
             r = 255;
-            g = 23;
-            b = 139;
+            g = 120;
             a = 0.9;
             break;
         case 5:
@@ -355,38 +355,38 @@ export function darkPackColor(difficulty) {
         case 0:
 
             /* Beginner Packs */
-            r = 0;
-            g = 53;
-            b = 177;
+            r = 225;
+            b = 113;
             a = 0.9;
             break;
         case 1:
 
             /* Easy Packs */
+            r = 0;
+            g = 53;
+            b = 177;
+            a = 0.9;
+            break;
+        case 2:
+
+            /* Medium Packs */
             r = 17;
             g = 137;
             b = 54;
             a = 0.8;
             break;
-        case 2:
+        case 3:
 
-            /* Medium Packs */
+            /* Hard Packs */
             r = 204;
             g = 209;
             a = 0.8;
             break;
-        case 3:
-
-            /* Hard Packs */
-            r = 211;
-            g = 99;
-            a = 0.9;
-            break;
         case 4:
 
             /* Insane Packs */
-            r = 225;
-            b = 113;
+            r = 211;
+            g = 99;
             a = 0.9;
             break;
         case 5:
