@@ -229,7 +229,7 @@ export async function fetchLeaderboard(list) {
         const { verified } = scoreMap[verifier];
         verified.push({
             rank,
-            level: `${level.name}: ${level.difficulty}`,
+            level: level.name,
             score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
         });
@@ -241,7 +241,7 @@ export async function fetchLeaderboard(list) {
         const { completed } = scoreMap[verifier];
         completed.push({
             rank,
-            level: `${level.name}: ${level.difficulty}`,
+            level: level.name,
             score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
             rating: level.enjoyment,
@@ -315,7 +315,7 @@ export async function fetchLeaderboard(list) {
                 }
                 completed.push({
                     rank,
-                    level: `${level.name}: ${level.difficulty}`,
+                    level: level.name,
                     score: completedScore,
                     link: record.link,
                     rating: record.enjoyment,
