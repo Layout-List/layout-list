@@ -10,20 +10,21 @@
     "difficulty": 5,
     "records": [
         {
-            "user": "sn0w",
-            "link": "https://www.twitch.tv/videos/2289473261",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
             "user": "IIRafII",
             "link": "https://youtu.be/irjBMbgW10k",
             "percent": 100,
             "hz": 240,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.twitch.tv/videos/2289473261",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+            
         }
     ]
 }
