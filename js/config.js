@@ -215,12 +215,15 @@ export function packScore(pack) {
                 break;
             default:
 
-                /* If there's a mistake */
-                packscore = 0;
+                /* if the pack's difficulty does not correspond to a "case" above */
+                packscore = null;
                 break;
         }
  // } Ignore this bracket, it is part of the commented out code above.
-    return round(packscore);
+
+    // if the packscore is not "null" (i.e. if the difficulty is not in 
+    // the above switch statement), round before returning it.
+    return packscore === null ? packscore : round(packscore);
 }
 
 // ------------------------

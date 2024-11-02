@@ -1,7 +1,7 @@
 import { store } from '../main.js';
-import { embed, rgbaBind } from '../util.js';
+import { embed, rgbaBind, localize } from '../util.js';
 import { score, lightPackColor, darkPackColor } from '../config.js';
-import { fetchStaff, averageEnjoyment } from '../content.js';
+import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -103,7 +103,11 @@ export default {
                 </div>
                 <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <h1>{{ level.name }}</h1>
-                    <p>The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
+                    <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>
+                    <h3>Highest enjoyment: {{ fetchHighestEnjoyment(list, level.difficulty) }}</h3>
+                    <h3>Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3>
+                    <h3>Length: {{ fetchTierLength(list, level.difficulty) }}</h3>
+                    <p style="padding-top:2.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -228,6 +232,11 @@ export default {
         rgbaBind,
         lightPackColor,
         darkPackColor,
+        fetchHighestEnjoyment,
+        fetchLowestEnjoyment,
+        fetchTotalScore,
+        fetchTierLength,
+        localize,
     },
 
     computed: {

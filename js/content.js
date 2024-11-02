@@ -586,3 +586,73 @@ export function fetchTierMinimum(list, difficulty) {
 
     return tierMin;
 }
+
+export function fetchHighestEnjoyment(list, difficulty) {
+    let endEnjoyment = 0 
+    let maxLevel;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            return;
+        }
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            const enjoyment = averageEnjoyment(level.records);
+            if (enjoyment > endEnjoyment) {
+                endEnjoyment = enjoyment;
+                maxLevel = level;
+            }
+        }
+    });
+
+    return `${endEnjoyment}/10 (${maxLevel.name})`;
+
+}
+
+export function fetchLowestEnjoyment(list, difficulty) {
+    let endEnjoyment = 100
+    let minLevel;
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            return;
+        }
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            const enjoyment = averageEnjoyment(level.records);
+            if (enjoyment < endEnjoyment) {
+                minLevel = level;
+                endEnjoyment = enjoyment;
+            }
+        }
+    });
+
+    return `${endEnjoyment}/10 (${minLevel.name})`;
+
+}
+
+export function fetchTotalScore(list, difficulty) {
+
+    let totalScore = 0
+    
+    list.forEach(([err, rank, level]) => {
+        if (err) {
+            return;
+        }
+        if (rank === null) {
+            return;
+        }
+
+        if (level.difficulty === difficulty) {
+            totalScore += score(level.rank, difficulty, 100, 100, list)
+        }
+
+    })
+
+    return round(totalScore);
+
+}
