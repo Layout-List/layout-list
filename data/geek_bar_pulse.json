@@ -1,0 +1,21 @@
+{
+    "id": 111309990,
+    "name": "Geek Bar Pulse",
+    "author": "Tinkle",
+    "creators": [],
+    "verifier": "Tinkle",
+    "verification": "https://youtu.be/bkMywnl9e4c?si=an8F4U8ldv0M8PpP",
+    "percentToQualify": 57,
+    "song": "xKore - Showdown",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "sn0w",
+            "link": "https://www.twitch.tv/videos/2289473261",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
+}

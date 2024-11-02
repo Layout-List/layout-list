@@ -3,6 +3,11 @@ import { fetchList, fetchLeaderboard, fetchPacks } from "./content.js";
 
 console.clear();
 
+// used for cache versioning, the idea is we can use this to refresh
+// the cached data if we push changes that would conflict with the old data. 
+// to prevent showing error messages.
+export const version = 3.2
+
 // Compresses data passed to the function using Gzip
 function compressData(data) {
     const jsonData = JSON.stringify(data);
@@ -24,6 +29,21 @@ function decompressData(compressedData) {
     );
     const decompressed = pako.ungzip(charData, { to: "string" });
     return JSON.parse(decompressed);
+}
+
+// Compare cache version
+if (localStorage.getItem("version") !== version.toString()) {
+    console.warn("Cache is out of date, reloading ALL data!");
+    let cookieList = await fetchList();
+    localStorage.setItem("listdata", compressData(cookieList));
+    
+    let cookieLeaderboard = await fetchLeaderboard(cookieList);
+    localStorage.setItem("leaderboarddata", compressData(cookieLeaderboard));
+    
+    let cookiePacks = await fetchPacks(cookieList);
+    localStorage.setItem("packsdata", compressData(cookiePacks));
+
+    localStorage.setItem('version', version.toString())
 }
 
 // Compress and store list locally if it doesn't exist
@@ -76,6 +96,7 @@ export let store = Vue.reactive({
         ? decompressData(localStorage.getItem("packsdata"))
         : null,
     errors: [],
+    version
 });
 
 let app = Vue.createApp({
@@ -125,6 +146,7 @@ let app = Vue.createApp({
 });
 
 const router = VueRouter.createRouter({history: VueRouter.createWebHashHistory(), routes});
+
 
 app.use(router);
 app.mount("#app");
