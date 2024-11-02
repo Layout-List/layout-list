@@ -355,8 +355,9 @@ export function darkPackColor(difficulty) {
         case 0:
 
             /* Beginner Packs */
-            r = 225;
-            b = 113;
+            r = 197;
+            g = 12;
+            b = 105;
             a = 0.9;
             break;
         case 1:
