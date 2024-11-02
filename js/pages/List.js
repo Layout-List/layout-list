@@ -1,8 +1,7 @@
 import { store } from '../main.js';
-import { embed } from '../util.js';
-import { score, round, averageEnjoyment } from '../score.js';
-import { fetchEditors, fetchList, } from '../content.js';
-
+import { embed, rgbaBind } from '../util.js';
+import { score, lightPackColor, darkPackColor } from '../config.js';
+import { fetchStaff, averageEnjoyment } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -13,6 +12,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
+
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -39,7 +39,10 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
+                        <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }">{{ pack.name }}</div>
+                    </div>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -112,30 +115,29 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Website layout on <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a>, made by DJ JDK & Blathers.</p>
+                        <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <template v-if="editors">
-                        <h3>LIST EDITORS</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors">
+                    <hr width="100%" color = black size="4">
+                    <template v-if="staff">
+                        <h3>List Staff</h3>
+                        <ol class="staff">
+                            <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
                             </li>
                         </ol>
                     </template>
-
+                    <hr width="100%" color = black size="4">
                     <h3>Tags</h3>
                     <p>
                         (⭐ Rated )
-                        (❌ Pending Removal )
                         (✨ Subject to Exemptions )
-                        (🟢 To be Moved Up )
-                        (🔴 To be Moved Down )
                         (💫 Accepted Under Old Standards )
                         (🎖️ Creator Contest Winner)
+                        (❌ Pending Removal )
                     </p>
-                    
+                    <hr width="100%" color = black size="4">
                     <h3>Record Submission Requirements</h3>
                     <p>
                         You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, however, "Click Between Frames" is allowed).
@@ -161,10 +163,8 @@ export default {
                     <p>
                         Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
                     </p>
-                    
-                    
-                    <h4></h4>
-                    <h4>DIFFICULTY RANKINGS</h4>
+                    <hr width="100%" color = black size="4">
+                    <h3>Difficulty Rankings</h3>
                     <p>
                         Impossible Layout = Top Extreme Demons (401 to 750 Points)
                     </p>
@@ -192,25 +192,46 @@ export default {
                     <p>
                         Beginner Layout = Non Demons (1 to 5 Points)
                     </p>
+                    <hr width="100%" color = black size="4">
+                    <p>
+                        For your convenience, the Layout List caches the data for the list in your browser.
+                    </p>
+                    <p>
+                        By using the site, you agree to the storage of this data in your browser. 
+                        You can disable this in your browser's settings (turn off local storage), however this will cause 
+                        the site to load very slowly and is not recommended.
+                    </p>
+                    <p>
+                        No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
+                    </p>
                 </div>
             </div>
         </main>
     `,
+
     data: () => ({
-        list: [],
-        editors: [],
         loading: true,
-        selected: 1,
-        errors: [],
+        list: [],
         listlevels: 0,
+        staff: [],
+        errors: [],
+        selected: 1,
+        toggledShowcase: false,
         roleIconMap,
         store,
-        toggledShowcase: false,
     }),
-  
+
+    methods: {
+        embed,
+        score,
+        averageEnjoyment,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+    },
+
     computed: {
         level() {
-            this.list = this.store.list
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -225,10 +246,11 @@ export default {
             );
         },
     },
+
     async mounted() {
-        // Hide loading spinner
+        // Fetch list from store
         this.list = this.store.list;
-        this.editors = await fetchEditors();
+        this.staff = await fetchStaff();
 
         // Error handling
         if (!this.list) {
@@ -239,25 +261,24 @@ export default {
             this.store.errors.forEach((err) => 
                 this.errors.push(`Failed to load level. (${err}.json)`))
 
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
+            if (!this.staff) {
+                this.errors.push('Failed to load list staff.');
             }
         }
-            
+
+        // Hide loading spinner
         this.loading = false;
     },
 
-    watch: {
-        'store.errors'(errors) {
-            errors.forEach(err => {
-                this.errors.push(`Failed to load level. (${err}.json)`);
-            });
+    watch: {        
+        store: {
+            handler(updated) {
+                this.list = updated.list
+                updated.errors.forEach(err => {
+                    this.errors.push(`Failed to load level. (${err}.json)`);
+                })
+            }, 
+            deep: true
         }
-    },
-    
-    methods: {
-        embed,
-        score,
-        averageEnjoyment
     },
 };

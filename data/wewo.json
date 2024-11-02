@@ -10,6 +10,12 @@
     "difficulty": 0,
     "records": [
         {
+            "user": "testuser",
+            "link": "https://www.youtube.com/watch?v=LD53hk7JEyk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "ZBosGaming",
             "link": "https://youtu.be/DudLKbPxM54",
             "percent": 100,

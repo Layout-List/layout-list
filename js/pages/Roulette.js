@@ -1,8 +1,8 @@
-import { fetchList } from '../content.js';
+import { store } from '../main.js';
 import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from '../util.js';
-
 import Spinner from '../components/Spinner.js';
 import Btn from '../components/Btn.js';
+
 
 export default {
     components: { Spinner, Btn },
@@ -99,60 +99,21 @@ export default {
             </div>
         </main>
     `,
+
     data: () => ({
         loading: false,
         levels: [],
-        progression: [], // list of percentages completed
+        progression: [],
+        toasts: [],
+        fileInput: undefined,
+        useMainList: true,
+        useExtendedList: true,
         percentage: undefined,
         givenUp: false,
         showRemaining: false,
-        useMainList: true,
-        useExtendedList: true,
-        toasts: [],
-        fileInput: undefined,
+        store,
     }),
-    mounted() {
-        // Create File Input
-        this.fileInput = document.createElement('input');
-        this.fileInput.type = 'file';
-        this.fileInput.multiple = false;
-        this.fileInput.accept = '.json';
-        this.fileInput.addEventListener('change', this.onImportUpload);
 
-        // Load progress from local storage
-        const roulette = JSON.parse(localStorage.getItem('roulette'));
-
-        if (!roulette) {
-            return;
-        }
-
-        this.levels = roulette.levels;
-        this.progression = roulette.progression;
-    },
-    computed: {
-        currentLevel() {
-            return this.levels[this.progression.length];
-        },
-        currentPercentage() {
-            return this.progression[this.progression.length - 1] || 0;
-        },
-        placeholder() {
-            return `At least ${this.currentPercentage + 1}%`;
-        },
-        hasCompleted() {
-            return (
-                this.progression[this.progression.length - 1] >= 100 ||
-                this.progression.length === this.levels.length
-            );
-        },
-        isActive() {
-            return (
-                this.progression.length > 0 &&
-                !this.givenUp &&
-                !this.hasCompleted
-            );
-        },
-    },
     methods: {
         shuffle,
         getThumbnailFromId,
@@ -169,7 +130,7 @@ export default {
 
             this.loading = true;
 
-            const fullList = (await fetchList()).filter(([_, pos, __]) => pos !== null);
+            const fullList = (this.store.list).filter(([_, pos, __]) => pos !== null);
 
 
             if (fullList.filter(([err, _]) => err).length > 0) {
@@ -194,7 +155,7 @@ export default {
                 list.push(...fullListMapped.slice(100));
             }
 
-            // random 100 levels
+            // Random 100 levels
             this.levels = shuffle(list).slice(0, 100);
             this.showRemaining = false;
             this.givenUp = false;
@@ -295,5 +256,59 @@ export default {
                 this.toasts.shift();
             }, 3000);
         },
+    },
+
+    computed: {
+        currentLevel() {
+            return this.levels[this.progression.length];
+        },
+        currentPercentage() {
+            return this.progression[this.progression.length - 1] || 0;
+        },
+        placeholder() {
+            return `At least ${this.currentPercentage + 1}%`;
+        },
+        hasCompleted() {
+            return (
+                this.progression[this.progression.length - 1] >= 100 ||
+                this.progression.length === this.levels.length
+            );
+        },
+        isActive() {
+            return (
+                this.progression.length > 0 &&
+                !this.givenUp &&
+                !this.hasCompleted
+            );
+        },
+    },
+
+    mounted() {
+        // Create file input
+        this.fileInput = document.createElement('input');
+        this.fileInput.type = 'file';
+        this.fileInput.multiple = false;
+        this.fileInput.accept = '.json';
+        this.fileInput.addEventListener('change', this.onImportUpload);
+
+        // Load progress from local storage
+        const roulette = JSON.parse(localStorage.getItem('roulette'));
+
+        if (!roulette) {
+            return;
+        }
+
+        this.levels = roulette.levels;
+        this.progression = roulette.progression;
+    },
+
+    watch: {
+        store: {
+            handler(updated) {
+                this.list = updated.list
+                updated.errors.forEach(err => this.errors.push(`Failed to load level. (${err}.json)`))
+            }, 
+            deep: true
+        }
     },
 };

@@ -1,20 +1,11 @@
-import { fetchLeaderboard } from '../content.js';
 import { store } from '../main.js';
-import { localize } from '../util.js';
-
+import { localize, rgbaBind } from '../util.js';
+import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
 
+
 export default {
-    components: {
-        Spinner,
-    },
-    data: () => ({
-        store,
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-    }),
+    components: { Spinner },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -55,6 +46,9 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
+                        <div class="pack-container" v-if="entry.userPacks.length > 0">
+                            <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }">{{ pack.name }} (+{{ pack.score }})</div>
+                        </div>
                         <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
                         <table class="table" v-if="entry.created.length > 0">
                             <tr v-for="score in entry.created">
@@ -125,25 +119,45 @@ export default {
             </div>
         </main>
     `,
+
+    data: () => ({
+        loading: true,
+        leaderboard: [],
+        err: [],
+        selected: 0,
+        store,
+    }),
+
+    methods: {
+        localize,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+    },
+
     computed: {
         entry() {
-            this.leaderboard = this.store.leaderboard[0];
             return this.leaderboard[this.selected];
         },
     },
+
     async mounted() {
+        // Fetch leaderboard and errors from store
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
+
         // Hide loading spinner
         this.loading = false;
     },
-    methods: {
-        localize,
-    },
+
     watch: {
-        'store.errors'(errors) {
-            this.err = errors;
+        store: {
+            handler(updated) {
+                this.leaderboard = updated.leaderboard[0]
+                this.err = updated.errors   
+            }, 
+            deep: true
         }
     },
 };
