@@ -450,34 +450,40 @@ export async function fetchPacks(list) {
 
                 if (pack.levels) {
                     // Check if user has completed all levels in the pack
-                    const allCompleted = pack.levels.every((packLevel) => {
-                        return packLevel.records?.some(
-                            (record) =>
-                                record.user.toLowerCase() === userLower ||
-                                packLevel.verifier?.toLowerCase() === userLower
-                        );
-                    });
+                    const allCompleted = pack.levels.every((packLevel) =>
+                        list.some(([_, __, lvl]) =>
+                            (lvl.path == packLevel.path) &&
+                            (lvl.records.some((r) => r.user.toLowerCase() === userLower && r.percent === 100) || (lvl.verifier.toLowerCase() === userLower))
+                        )
+                    );
 
                     if (allCompleted && !tempRecords[pack.name].has(userLower)) {
                         tempRecords[pack.name].add(userLower);
                     }
-                } else {
-                    // Check levels by difficulty
-                    let levelsInDifficulty = list.filter(
-                        ([_, __, lvl]) =>
-                            lvl.difficulty === pack.difficulty && lvl.id !== 0
-                    );
-                    const completedLevels = levelsInDifficulty.filter(
-                        ([_, __, level]) =>
-                            level.records.some(
-                                (record) =>
-                                    record.user.toLowerCase() === userLower &&
-                                    record.percent === 100
-                            )
-                    );
+
+                } else if (pack.difficulty >= 7) {
+                    if (userLower === 'morsey') console.log(pack)
+                    // Count levels completed by the user for the legendary pack
+                    const completedInDifficulty = list.filter(([_, __, lvl]) =>
+                        (lvl.difficulty >= 7) && 
+                        (lvl.records.some((r) => r.user.toLowerCase() === userLower && r.percent === 100) || (lvl.verifier.toLowerCase() === userLower)) &&
+                        packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                    ).length;
+
+                    // Check if the user has completed as many levels as the pack's threshold
+                    if (completedInDifficulty >= 5 && !tempRecords[pack.name].has(userLower)) {
+                        tempRecords[pack.name].add(userLower);
+                    }
+                } else if (pack.difficulty === level.difficulty) {
+                    // Count levels completed by the user for the other difficulty packs
+                    const completedInDifficulty = list.filter(([_, __, lvl]) =>
+                        (lvl.difficulty === level.difficulty) && 
+                        (lvl.records.some((r) => r.user.toLowerCase() === userLower && r.percent === 100) || (lvl.verifier.toLowerCase() === userLower)) &&
+                        packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                    ).length;
 
                     if (
-                        completedLevels.length >= 5 &&
+                        completedInDifficulty >= 5 &&
                         !tempRecords[pack.name].has(userLower)
                     ) {
                         tempRecords[pack.name].add(userLower);
