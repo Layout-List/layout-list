@@ -232,9 +232,9 @@ export default {
         reactiveOpaque(color, index) {
             try {
                 if (this.selectedPackIndex === index) {
-                    return rgbaBind(color, 0);
+                    return rgbaBind(color, 0.2);
                 } else if (this.hoverIndex === index) {
-                    return rgbaBind(color, 0.35);
+                    return rgbaBind(color, 0.45);
                 } else {
                     return rgbaBind(color, 0.6);
                 }

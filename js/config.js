@@ -260,55 +260,58 @@ export function lightPackColor(difficulty) {
             r = 52;
             g = 107;
             b = 235;
-            a = 0.9;
             break;
         case 1:
 
             /* Easy Packs */
-            r = 19;
-            g = 204;
-            b = 232;
-            break;
-        case 2:
-
-            /* Medium Packs */
             r = 52;
             g = 150;
             b = 82;
             break;
+        case 2:
+
+            /* Medium Packs */
+            r = 213;
+            g = 239;
+            b = 16;
+            a = 0.9;
+            break;
         case 3:
 
             /* Hard Packs */
-            r = 184;
-            g = 199;
-            b = 13;
+            r = 255;
+            g = 120;
+            a = 0.9;
             break;
         case 4:
 
             /* Insane Packs */
-            r = 13;
-            b = 255;
-            a = 0.8;
+            r = 255;
+            g = 23;
+            b = 139;
+            a = 0.9;
             break;
         case 5:
 
             /* Mythical Packs */
-            r = 130;
-            g = 62;
-            b = 206;
-            a = 0.7;
+            r = 147;
+            g = 24;
+            b = 255;
+            a = 0.9;
             break;
         case 6:
 
             /* Extreme Packs */
             r = 255;
+            a = 0.9;
             break;
         case 7:
 
             /* Legendary Packs */
             r = 25;
+            g = 25;
             b = 25;
-            a = 0.7
+            a = 0.8;
             break;
         default:
             
@@ -352,58 +355,63 @@ export function darkPackColor(difficulty) {
         case 0:
 
             /* Beginner Packs */
-            r = 52;
-            g = 107;
-            b = 235;
+            r = 0;
+            g = 53;
+            b = 177;
             a = 0.9;
             break;
         case 1:
 
             /* Easy Packs */
-            r = 26;
-            g = 194;
-            b = 219;
+            r = 17;
+            g = 137;
+            b = 54;
             a = 0.8;
             break;
         case 2:
 
             /* Medium Packs */
-            r = 26;
-            g = 97;
-            b = 19;
+            r = 204;
+            g = 209;
+            a = 0.8;
             break;
         case 3:
 
             /* Hard Packs */
-            r = 209;
-            g = 209;
-            b = 36;
+            r = 211;
+            g = 99;
+            a = 0.9;
             break;
         case 4:
 
             /* Insane Packs */
-            r = 81;
-            g = 61;
-            b = 204;
+            r = 225;
+            b = 113;
+            a = 0.9;
             break;
         case 5:
 
             /* Mythical Packs */
-            r = 130;
-            g = 62;
-            b = 206;
+            r = 117;
+            g = 13;
+            b = 209;
+            a = 0.9;
             break;
         case 6:
 
             /* Extreme Packs */
-            r = 167;
-            g = 37;
-            b = 37;
+            r = 217;
+            g = 6;
+            b = 6;
+            a = 0.9;
             break;
         case 7:
-            // this pack is black, so the initialized values
-            // already work
-            
+
+            /* Legendary Packs */
+            r = 200;
+            g = 200;
+            b = 200;
+            a = 0.8;
             break;
         default:
 
