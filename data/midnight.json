@@ -9,6 +9,14 @@
     "song": "Cero - In Circles",
     "difficulty": 3,
     "records": [
+        {
+            "user": "RedNazFM",
+            "link": "https://youtu.be/uvWiMKoIA1o",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 2
+        }
         
     ]
 }
