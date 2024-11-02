@@ -103,10 +103,17 @@ export default {
                 </div>
                 <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <h1>{{ level.name }}</h1>
-                    <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>
-                    <h3>Highest enjoyment: {{ fetchHighestEnjoyment(list, level.difficulty) }}</h3>
-                    <h3>Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3>
-                    <h3>Length: {{ fetchTierLength(list, level.difficulty) }}</h3>
+                    <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2> 
+                    <table class="records">
+                        <tr class="record">
+                            <td><h3 style="padding-bottom:1em">Highest enjoyment: </h3></td>
+                            <td><h3 style="padding-bottom:1em">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
+                        </tr> 
+                        <tr class="record">
+                            <td><h3 style="padding-bottom:1em">Lowest enjoyment: </h3></td>
+                            <td><h3 style="padding-bottom:1em">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
+                        </tr>
+                    </table>
                     <p style="padding-top:2.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
@@ -219,7 +226,7 @@ export default {
         listlevels: 0,
         staff: [],
         errors: [],
-        selected: 1,
+        selected: 0,
         toggledShowcase: false,
         roleIconMap,
         store,

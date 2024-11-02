@@ -607,7 +607,7 @@ export function fetchHighestEnjoyment(list, difficulty) {
         }
     });
 
-    return `${endEnjoyment}/10 (${maxLevel.name})`;
+    return ` ${endEnjoyment}/10 (${maxLevel.name})`;
 
 }
 
@@ -631,7 +631,7 @@ export function fetchLowestEnjoyment(list, difficulty) {
         }
     });
 
-    return `${endEnjoyment}/10 (${minLevel.name})`;
+    return ` ${endEnjoyment}/10 (${minLevel.name})`;
 
 }
 
