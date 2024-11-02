@@ -462,7 +462,6 @@ export async function fetchPacks(list) {
                     }
 
                 } else if (pack.difficulty >= 7) {
-                    if (userLower === 'morsey') console.log(pack)
                     // Count levels completed by the user for the legendary pack
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
                         (lvl.difficulty >= 7) && 
