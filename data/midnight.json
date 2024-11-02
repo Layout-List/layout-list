@@ -16,6 +16,14 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 2
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.twitch.tv/videos/2291010730",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
         
     ]
