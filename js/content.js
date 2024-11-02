@@ -474,16 +474,23 @@ export async function fetchPacks(list) {
                     if (completedInDifficulty >= 5 && !tempRecords[pack.name].has(userLower)) {
                         tempRecords[pack.name].add(userLower);
                     }
-                } else if (pack.difficulty === level.difficulty) {
-                    // Count levels completed by the user for the other difficulty packs
-                    const completedInDifficulty = list.filter(([_, __, lvl]) =>
-                        (lvl.difficulty === level.difficulty) && 
-                        (lvl.records.some((r) => r.user.toLowerCase() === userLower && r.percent === 100) || (lvl.verifier.toLowerCase() === userLower)) &&
-                        packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
-                    ).length;
+                } else {
+                    // Check levels by difficulty
+                    let levelsInDifficulty = list.filter(
+                        ([_, __, lvl]) =>
+                            lvl.difficulty === pack.difficulty && lvl.id !== 0
+                    );
+                    const completedLevels = levelsInDifficulty.filter(
+                        ([_, __, level]) =>
+                            level.records.some(
+                                (record) =>
+                                    record.user.toLowerCase() === userLower &&
+                                    record.percent === 100
+                            )
+                    );
 
                     if (
-                        completedInDifficulty >= 5 &&
+                        completedLevels.length >= 5 &&
                         !tempRecords[pack.name].has(userLower)
                     ) {
                         tempRecords[pack.name].add(userLower);
