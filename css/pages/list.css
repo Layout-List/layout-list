@@ -147,3 +147,7 @@
     text-wrap: nowrap;
     background: rgba(89, 89, 89, 0.2);
 }
+
+.tier-info {
+    padding-bottom:1em;
+}

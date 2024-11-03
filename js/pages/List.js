@@ -106,12 +106,12 @@ export default {
                     <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2> 
                     <table class="records">
                         <tr class="record">
-                            <td><h3 style="padding-bottom:1em">Highest enjoyment: </h3></td>
-                            <td><h3 style="padding-bottom:1em">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
+                            <td><h3 class="tier-info">Highest enjoyment: </h3></td>
+                            <td><h3 class="tier-info">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
                         </tr> 
                         <tr class="record">
-                            <td><h3 style="padding-bottom:1em">Lowest enjoyment: </h3></td>
-                            <td><h3 style="padding-bottom:1em">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
+                            <td><h3 class="tier-info">Lowest enjoyment: </h3></td>
+                            <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
                         </tr>
                     </table>
                     <p style="padding-top:2.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
@@ -226,7 +226,7 @@ export default {
         listlevels: 0,
         staff: [],
         errors: [],
-        selected: 1,
+        selected: 0,
         toggledShowcase: false,
         roleIconMap,
         store,
