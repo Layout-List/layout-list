@@ -35,7 +35,7 @@ export default {
                 <p v-if="rank === null" class="type-label-lg">&mdash;</p>
                 <p v-else class="type-label-lg">#{{ rank }}</p>
                 </td>
-                <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
+                <td class="level" :class="{ 'active': selected == rank, 'error': err !== null }">
                 <button @click="selectLevel(rank)">  
                     <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                 </button>
