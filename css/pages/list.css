@@ -158,3 +158,19 @@
     align-self: flex-end;
     text-wrap: nowrap;
 }
+
+.record-guidelines > p:not(:last-child)  {
+    padding-bottom:2em
+}
+
+.record-guidelines > p:first-child  {
+    padding-top:1em
+}
+
+.difficulty-rankings > p:not(:last-child)  {
+    padding-bottom:2em
+}
+
+.difficulty-rankings:first-child  {
+    padding-bottom:4em
+}
