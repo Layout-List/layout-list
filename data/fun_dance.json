@@ -1151,6 +1151,14 @@
             "hz": 165,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Neo",
+            "link": "https://www.youtube.com/watch?v=MFjJGfcCMgc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }
