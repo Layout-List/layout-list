@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize } from '../util.js';
-import { score, lightPackColor, darkPackColor } from '../config.js';
+import { score, lightPackColor, darkPackColor, maxDiff } from '../config.js';
 import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -36,7 +36,7 @@ export default {
                 <p v-else class="type-label-lg">#{{ rank }}</p>
                 </td>
                 <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                <button @click="selected = rank">  
+                <button @click="selectLevel(rank)">  
                     <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                 </button>
                 </td>
@@ -255,6 +255,17 @@ export default {
         fetchTotalScore,
         fetchTierLength,
         localize,
+        selectLevel(i) {
+
+            console.log(i)
+            
+            const selectedLevel = (this.list[i][2]);
+            console.log(`diff: ${selectedLevel.difficulty}`)
+            const boost = maxDiff - selectedLevel.difficulty
+            console.log(`boost: ${boost}`)
+            this.selected = i + boost
+            return;
+        }
     },
 
     computed: {
@@ -275,12 +286,15 @@ export default {
 
         filteredLevels() {
             if (!this.searchQuery.trim()) {
-            return this.list;
+                return this.list;
             }
+
             const query = (this.searchQuery.toLowerCase()).replace(/\s/g, '');
             
             return this.list.filter(([err, rank, level]) =>
-            (level?.name.toLowerCase()).replace(/\s/g, '').includes(query)
+                (level?.name.toLowerCase())
+                    .replace(/\s/g, '')
+                    .includes(query)
             )
         },
     },
