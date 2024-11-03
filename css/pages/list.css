@@ -156,4 +156,5 @@
     text-align: end;
     justify-content: end;
     align-self: flex-end;
+    text-wrap: nowrap;
 }
