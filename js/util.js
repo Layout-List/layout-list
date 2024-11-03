@@ -1,6 +1,7 @@
 import { scale } from './config.js';
 
-// Displays n decimals after num, where n is the value of scale
+// Adds comma to a number,
+// for example 1000 becomes 1,000
 export function localize(num) {
     return num.toLocaleString(undefined, { minimumFractionDigits: scale });
 }
@@ -40,6 +41,8 @@ export function rgbaBind(color, decrease) {
 }
 
 // Gets the YouTube video's ID from the URL
+// this is used to request a video's thumbnail from youtube's servers
+// and embed a youtube video onto the site (verifications)
 export function getYoutubeIdFromUrl(url) {
     // For more info, visit https://stackoverflow.com/questions/3452546/how-do-i-get-the-youtube-video-id-from-a-url.
     return url.match(
@@ -77,6 +80,8 @@ export function shuffle(array) {
     return array;
 }
 
+// Sort function for packs, sorts by difficulty and moves
+// difficulty packs after other packs with the same difficulty
 export function sortPacks(packs) {
     // packs with higher difficulty will display above lower
     packs.sort(
