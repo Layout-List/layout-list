@@ -151,3 +151,9 @@
 .tier-info {
     padding-bottom:1em;
 }
+
+.tier-info-header {
+    text-align: end;
+    justify-content: end;
+    align-self: flex-end;
+}

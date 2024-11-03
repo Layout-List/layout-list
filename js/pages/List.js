@@ -106,15 +106,15 @@ export default {
                     <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2> 
                     <table class="records">
                         <tr class="record">
-                            <td><h3 class="tier-info">Highest enjoyment: </h3></td>
+                            <td><h3 class="tier-info tier-info-header">Highest enjoyment: </h3></td>
                             <td><h3 class="tier-info">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
                         </tr> 
                         <tr class="record">
-                            <td><h3 class="tier-info">Lowest enjoyment: </h3></td>
+                            <td><h3 class="tier-info tier-info-header">Lowest enjoyment: </h3></td>
                             <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
                         </tr>
                     </table>
-                    <p style="padding-top:2.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
+                    <p style="padding-top:1.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
