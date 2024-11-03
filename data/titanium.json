@@ -10,16 +10,24 @@
     "difficulty": 6,
     "records": [
         {
-            "user": "Syrcx",
-            "link": "https://youtu.be/fFpBmmWo9MQ",
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=pYWmmUbSJV0",
             "percent": 100,
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
         },
         {
-            "user": "Robotic",
-            "link": "https://www.youtube.com/watch?v=pYWmmUbSJV0",
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=rX3mwC2DpmI&t=1s",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 10
+        }
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/fFpBmmWo9MQ",
             "percent": 100,
             "hz": 240,
             "mobile": false,
