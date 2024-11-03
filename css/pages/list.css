@@ -98,7 +98,7 @@
 .page-list .meta {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .page-list .meta .errors {
     display: flex;
@@ -111,20 +111,20 @@
     color: var(--color-on-error);
     border-radius: 0.5rem;
 }
-.page-list .meta .editors {
+.page-list .meta .staff {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
 }
-.page-list .meta .editors li {
+.page-list .meta .staff li {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
-.page-list .meta .editors li img {
+.page-list .meta .staff li img {
     height: 1.25rem;
 }
-.page-list .meta .editors li a:hover {
+.page-list .meta .staff li a:hover {
     text-decoration: underline;
 }
 .notice {
@@ -136,6 +136,43 @@
     box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
     margin:5px;
     text-align:center;
+}
+.pack {
+    border-radius: 25px;
+    padding: 3px 10px; 
+    text-align: center;
+    display: inline-block;
+    font-family: "Lexend Deca", sans-serif;
+    width: fit-content;
+    text-wrap: nowrap;
+    background: rgba(89, 89, 89, 0.2);
+}
+
+.tier-info {
+    padding-bottom:1em;
+}
+
+.tier-info-header {
+    text-align: end;
+    justify-content: end;
+    align-self: flex-end;
+    text-wrap: nowrap;
+}
+
+.record-guidelines > p:not(:last-child)  {
+    padding-bottom:2em
+}
+
+.record-guidelines > p:first-child  {
+    padding-top:1em
+}
+
+.difficulty-rankings > p:not(:last-child)  {
+    padding-bottom:2em
+}
+
+.difficulty-rankings:first-child  {
+    padding-bottom:4em
 }
 
 input[type=text] {

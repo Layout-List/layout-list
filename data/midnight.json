@@ -1,0 +1,38 @@
+{
+    "id": 111207660,
+    "name": "Midnight",
+    "author": "IIRafII",
+    "creators": [],
+    "verifier": "IIRafII",
+    "verification": "https://youtu.be/4vxgwROkSNQ",
+    "percentToQualify": 100,
+    "song": "Cero - In Circles",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "RedNazFM",
+            "link": "https://youtu.be/uvWiMKoIA1o",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.twitch.tv/videos/2291010730",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/yMvwkOYvSOY?si=0DPFOddsp5LtT0SQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 2
+        }
+        
+    ]
+}

@@ -1,8 +1,8 @@
 import { store } from '../main.js';
 import { embed } from '../util.js';
-import { challengeScore } from '../score.js';
-import { fetchEditors, fetchChallengeList } from '../content.js';
-
+import { challengeScore } from './archivedcontent.js';
+import { fetchStaff } from '../content.js';
+import { fetchChallengeList } from './archivedcontent.js'
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -13,6 +13,7 @@ const roleIconMap = {
     dev: 'code',
     trial: 'user-lock',
 };
+
 
 export default {
     components: { Spinner, LevelAuthors },
@@ -49,7 +50,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :hosts="level.hosts" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} challenge</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -125,10 +126,10 @@ export default {
                     <div class="notice type-label-sm" style="margin-top:-10">
                         <p>The challenge list has been archived, effective 8/19/24.  Records will no longer be accepted.</p>
                     </div>
-                    <template v-if="editors">
-                        <h3>LIST EDITORS</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors">
+                    <template v-if="staff">
+                        <h3>LIST STAFF</h3>
+                        <ol class="staff">
+                            <li v-for="editor in staff">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
@@ -214,17 +215,24 @@ export default {
             </div>
         </main>
     `,
+
     data: () => ({
-        list: [],
-        editors: [],
         loading: true,
-        selected: 0,
-        errors: [],
+        list: [],
         listlevels: 0,
+        staff: [],
+        errors: [],
+        selected: 0,
+        toggledShowcase: false,
         roleIconMap,
         store,
-        toggledShowcase: false,
     }),
+
+    methods: {
+        embed,
+        challengeScore
+    },
+
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -241,10 +249,12 @@ export default {
             );
         },
     },
+
     async mounted() {
-        // Hide loading spinner
+        // Fetch list
         this.list = await fetchChallengeList();
-        this.editors = await fetchEditors();
+        this.staff = await fetchStaff();
+
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -258,15 +268,12 @@ export default {
                         return `Failed to load level. (${err}.json)`;
                     }),
             );
-            if (!this.editors) {
-                this.errors.push('Failed to load list editors.');
+            if (!this.staff) {
+                this.errors.push('Failed to load list staff.');
             }
         }
 
+        // Hide loading spinner
         this.loading = false;
-    },
-    methods: {
-        embed,
-        challengeScore
     },
 };

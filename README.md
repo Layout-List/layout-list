@@ -18,6 +18,11 @@ The website isnt loading!  What can I do?
   website is back online or do some behind the scene stuff and run it
   locally.
 
+How can I request a feature?
+
+* [Join our discord](https://discord.gg/K48VRsHsPE) and create a thread in #server-and-list-suggestions, or create an issue on this repo.
+
+
 
 ---
 
@@ -90,7 +95,6 @@ Can I submit multiple levels in one video?
 * Hydraniac
 * Poke Zach
 * Xeronius
-* zDark
 
 
 ---

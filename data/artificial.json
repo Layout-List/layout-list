@@ -1037,6 +1037,14 @@
             "hz": 165,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "waves",
+            "link": "https://www.youtube.com/watch?v=YgUlFEIT1_0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
