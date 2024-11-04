@@ -30,16 +30,18 @@ export default {
             v-model="searchQuery"
             />
             <table class="list" v-if="filteredLevels.length > 0">
-            <tr v-for="([err, rank, level], i) in filteredLevels" :key="i">
-                <td class="rank" style="width:59.19px">
-                <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                <p v-else class="type-label-lg">#{{ rank }}</p>
-                </td>
-                <td class="level" :class="{ 'active': searchQuery === '' ? selected == i : selected == rank, 'error': err !== null }">
-                <button @click="searchQuery === '' ? selected = i : selectLevel(rank)">  
-                    <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
-                </button>
-                </td>
+            <tr v-for="([err, rank, level], i) in list" :key="i">
+                <div v-if="filteredLevels.includes(level)">
+                    <td class="rank" style="width:59.19px">
+                    <p v-if="rank === null" class="type-label-lg">&mdash;</p>
+                    <p v-else class="type-label-lg">#{{ rank }}</p>
+                    </td>
+                    <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
+                    <button @click="selected = i">  
+                        <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
+                    </button>
+                    </td>
+                </div>
             </tr>
             </table>
             <p v-else>No levels found.</p>
@@ -256,26 +258,46 @@ export default {
         fetchTierLength,
         localize,
         selectLevel(rank, i) {
-            if (rank !== null) {
-                const selectedLevel = (this.list[rank][2]);
-                console.log(selectedLevel);
-                const boost = maxDiff - selectedLevel.difficulty
-                this.selected = rank + boost
-            } else {
-                if (i === 0) {
-                    this.selected = 0
-                    return;
+            console.clear()
+            console.log(`rank: ${rank}`)
+            console.log(`index: ${i}`)
+            if (i !== null) {
+                if (rank !== null) {
+                    i += 1
+                    const selectedLevel = (this.list[rank][2]);
+                    const boost = maxDiff - selectedLevel.difficulty
+                    console.log(`subtracting 10 from the max difficulty of ${selectedLevel.difficulty}, got ${boost}`)
+                    console.log(`selecing the rank plus the boost: ${rank + boost}`)
+                    this.selected = rank + boost
+                } else {
+                    if (i === 0) {
+                        this.selected = 0
+                        return false;
+                    }
+                    const selectedLevel = (this.list[i][2]);
+                    const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
+                    const length = fetchTierLength(this.list, selectedLevel.difficulty);
+                    console.log(`diff: ${selectedLevel.difficulty}`)
+                    const boost = maxDiff - selectedLevel.difficulty
+                    console.log(`boost: ${boost}`)
+                    this.selected = (minimum - length) + boost;
+                    
                 }
-                const selectedLevel = (this.list[i][2]);
-                console.log(selectedLevel);
-                const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
-                const length = fetchTierLength(this.list, selectedLevel.difficulty);
-                const boost = maxDiff - selectedLevel.difficulty
-                console.log(`${minimum}   ${length}  `)
-                this.selected = (minimum - length) + boost;
-                
+
+
+                // return false just in case this function misunderstands how we're accessing it,
+                // to avoid it adding the active class to a button that isn't selected
+                return false; 
+            } else { // if we're accessing this function from the class binding
+                // check if the level with given rank is selected
+                console.log(rank)
+                console.log(this.selected)
+                if (
+                    this.selected === rank
+                ) return true
+
+                return false
             }
-            return;
         }
     },
 

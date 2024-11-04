@@ -48,7 +48,7 @@ export function score(rank, difficulty, percent, minPercent, list) {
     const diffDivider = 6; // The difficulty (exclusive) at which the site will stop using
                            // the linear point system and start using the exponential one.
     // NOTE: If you change the value of diffDivider without adding/removing cases in the
-    // switch function below, it'll mess stuff up.
+    // switch statement below, it'll mess stuff up.
 
     // Initializes variables used in the function
     let score = 0;
@@ -62,7 +62,7 @@ export function score(rank, difficulty, percent, minPercent, list) {
         // LINEAR FUNCTION CONFIGURATION
         // You can change the minimum and maximum point values given for each tier here.
 
-        // A switch function basically just tests a bunch of values against the value of
+        // A switch statement basically just tests a bunch of values against the value of
         // the case (in this case, the value of difficulty). Read the comments in the
         // function below for more clarification.
         switch (difficulty) { // Set the values of minScore and maxScore based on the difficulty.
@@ -71,7 +71,7 @@ export function score(rank, difficulty, percent, minPercent, list) {
                 /* Beginner Tier */
                 minScore = 3;
                 maxScore = 7;
-                break; // Leave the switch function without checking any other cases.
+                break; // Leave the switch statement without checking any other cases.
             case 1: // If the value of difficulty is 1, do the following:
 
                 /* Easy Tier */
@@ -172,8 +172,8 @@ export function packScore(pack) {
     else { // If the pack does not have definitive levels associated with it (if it is
            // a difficulty pack) */
 
-        // For help figuring out how this switch function works, look at the comments on
-        // the switch function in the score function above.
+        // For help figuring out how this switch statement works, look at the comments on
+        // the switch statement in the score function above.
         switch (pack.difficulty) { // Set the pack's score based on its difficulty.
             case 0:
 
@@ -244,7 +244,7 @@ export function lightPackColor(difficulty) {
     // inspect element, click on a pack's button, and find something that looks like this:
     // https://imgur.com/a/6q2MsTj. From there, you're able to change the color in real
     // time (on your device only). When you're done, copy the values from above the color
-    // picker and fill them into the switch function below.
+    // picker and fill them into the switch statement below.
 
     // Also, keep in mind that these are the values used *while the pack is selected*.
     // If a pack is deselected or the user is only hovering over it, the opacity will
@@ -256,8 +256,8 @@ export function lightPackColor(difficulty) {
     let b = 0;
     let a = 1; // The site assumes the opacity is 1, unless specified below.
     
-    // For help figuring out how this switch function works, look at the comments on
-    // the switch function in the score function above.
+    // For help figuring out how this switch statement works, look at the comments on
+    // the switch statement in the score function above.
     switch (difficulty) { // Set the pack's color based on its difficulty.
         case 0:
 
@@ -342,7 +342,7 @@ export function darkPackColor(difficulty) {
     // inspect element, click on a pack's button, and find something that looks like this:
     // https://imgur.com/a/6q2MsTj. From there, you're able to change the color in real
     // time (on your device only). When you're done, copy the values from above the color
-    // picker and fill them into the switch function below.
+    // picker and fill them into the switch statement below.
 
     // Also, keep in mind that these are the values used *while the pack is selected*.
     // If a pack is deselected or the user is only hovering over it, the opacity will
@@ -354,8 +354,8 @@ export function darkPackColor(difficulty) {
     let b = 0;
     let a = 1; // The site assumes the opacity is 1, unless specified below.
     
-    // For help figuring out how this switch function works, look at the comments on
-    // the switch function in the score function above.
+    // For help figuring out how this switch statement works, look at the comments on
+    // the switch statement in the score function above.
     switch (difficulty) { // Set the pack's color based on its difficulty.
         case 0:
 
