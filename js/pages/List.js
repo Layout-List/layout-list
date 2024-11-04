@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize } from '../util.js';
 import { score, lightPackColor, darkPackColor, maxDiff } from '../config.js';
-import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
+import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -35,7 +35,7 @@ export default {
                 <p v-if="rank === null" class="type-label-lg">&mdash;</p>
                 <p v-else class="type-label-lg">#{{ rank }}</p>
                 </td>
-                <td class="level" :class="{ 'active': selected == rank, 'error': err !== null }">
+                <td class="level" :class="{ 'active': searchQuery === '' ? selected = i : selected = rank, 'error': err !== null }">
                 <button @click="searchQuery === '' ? selected = i : selectLevel(rank)">  
                     <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                 </button>
@@ -255,15 +255,26 @@ export default {
         fetchTotalScore,
         fetchTierLength,
         localize,
-        selectLevel(i) {
-
-            console.log(i)
-            
-            const selectedLevel = (this.list[i][2]);
-            console.log(`diff: ${selectedLevel.difficulty}`)
-            const boost = maxDiff - selectedLevel.difficulty
-            console.log(`boost: ${boost}`)
-            this.selected = i + boost
+        selectLevel(rank, i) {
+            if (rank !== null) {
+                const selectedLevel = (this.list[rank][2]);
+                console.log(selectedLevel);
+                const boost = maxDiff - selectedLevel.difficulty
+                this.selected = rank + boost
+            } else {
+                if (i === 0) {
+                    this.selected = 0
+                    return;
+                }
+                const selectedLevel = (this.list[i][2]);
+                console.log(selectedLevel);
+                const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
+                const length = fetchTierLength(this.list, selectedLevel.difficulty);
+                const boost = maxDiff - selectedLevel.difficulty
+                console.log(`${minimum}   ${length}  `)
+                this.selected = (minimum - length) + boost;
+                
+            }
             return;
         }
     },
