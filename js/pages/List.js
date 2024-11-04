@@ -331,6 +331,24 @@ export default {
 
         // Hide loading spinner
         this.loading = false;
+
+        // tests for incorrect difficulties
+        let max = fetchTierMinimum(this.list, 0)
+        let i = 0
+        let currentdiff, newdiff;
+        while (i < max) {
+            if (this.list[i][2]) {
+                let templevel = this.list[i][2]
+
+                newdiff = templevel.difficulty 
+                if (templevel.id === 0) {
+                    currentdiff = templevel.difficulty
+                }
+                
+                if (newdiff !== currentdiff) console.warn(`Found incorrect difficulty! ${templevel.name} (${templevel.path}.json) is set to ${newdiff}, please set it to ${currentdiff}.`)
+            }
+            i++
+        }
     },
 
     watch: {        
