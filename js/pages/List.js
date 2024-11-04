@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize } from '../util.js';
 import { score, lightPackColor, darkPackColor } from '../config.js';
-import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
+import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
@@ -228,7 +228,7 @@ export default {
         listlevels: 0,
         staff: [],
         errors: [],
-        selected: 1,
+        selected: 0,
         toggledShowcase: false,
         roleIconMap,
         store,
@@ -286,6 +286,24 @@ export default {
 
         // Hide loading spinner
         this.loading = false;
+
+        // tests for incorrect difficulties
+        let max = fetchTierMinimum(this.list, 0)
+        let i = 0
+        let currentdiff, newdiff;
+        while (i < max) {
+            if (this.list[i][2]) {
+                let templevel = this.list[i][2]
+
+                newdiff = templevel.difficulty 
+                if (templevel.id === 0) {
+                    currentdiff = templevel.difficulty
+                }
+                
+                if (newdiff !== currentdiff) console.warn(`Found incorrect difficulty! ${templevel.name} is set to ${newdiff}, please set it to 7.`)
+            }
+            i++
+        }
     },
 
     watch: {        
