@@ -228,7 +228,7 @@ export default {
         listlevels: 0,
         staff: [],
         errors: [],
-        selected: 0,
+        selected: 1,
         toggledShowcase: false,
         roleIconMap,
         store,
