@@ -300,7 +300,7 @@ export default {
                     currentdiff = templevel.difficulty
                 }
                 
-                if (newdiff !== currentdiff) console.warn(`Found incorrect difficulty! ${templevel.name} is set to ${newdiff}, please set it to 7.`)
+                if (newdiff !== currentdiff) console.warn(`Found incorrect difficulty! ${templevel.name} (${templevel.path}.json) is set to ${newdiff}, please set it to 7.`)
             }
             i++
         }
