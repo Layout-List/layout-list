@@ -256,40 +256,34 @@ export default {
         fetchTierLength,
         localize,
         selectLevel(rank, i) {
-            console.clear()
-            console.log(`rank: ${rank}`)
-            console.log(`index: ${i}`)
-            if (i !== null) {
-                if (i === 0) {
-                    this.selected = 0
-                    return false;
-                }
-                const selectedLevel = (this.list[i][2]);
-                console.log(selectedLevel)
-                const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
-                const length = fetchTierLength(this.list, selectedLevel.difficulty);
-                console.log(`diff: ${selectedLevel.difficulty}`)
-                const boost = (maxDiff - selectedLevel.difficulty)
-                console.log(`boost: ${boost}`)
-                if (rank === null) {
-                    this.selected = (minimum - length) + boost;
-                } else {
-                    this.selected = rank + boost
-                }
+        // since a level's index (i) changes when we search, we need 
+        // to select the level without using i.
+        console.log(`rank: ${rank}`)
+        console.log(`index: ${i}`)
+        
+            if (i === 0 && rank === null) {
+                console.log('bye')
+                this.selected = 0
+                return;
+            } 
 
-                // return false just in case this function misunderstands how we're accessing it,
-                // to avoid it adding the active class to a button that isn't selected
-                return false; 
-            } else { // if we're accessing this function from the class binding
-                // check if the level with given rank is selected
-                console.log(rank)
-                console.log(this.selected)
-                if (
-                    this.selected === rank
-                ) return true
+            // if we get here, we did not select a *divider* with index of 0
+            const selectedLevel = this.list[rank !== null ? rank : i][2];
 
-                return false
-            }
+            console.log(`diff: ${selectedLevel.difficulty}`)
+            const boost = (maxDiff - selectedLevel.difficulty)
+            console.log(`boost: ${boost}`)
+            if (rank !== null) {
+                this.selected = rank + boost;
+                return;
+            } 
+
+            // if we get here, we selected a divider
+            const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
+            const length = fetchTierLength(this.list, selectedLevel.difficulty);
+            
+            this.selected = (minimum - length) + boost;
+            return;
         }
     },
 
