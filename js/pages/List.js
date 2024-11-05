@@ -30,21 +30,19 @@ export default {
             v-model="searchQuery"
             />
             <table class="list" v-if="filteredLevels.length > 0">
-            <tr v-for="([err, rank, level], i) in list" :key="i">
-                <div v-if="filteredLevels.includes(level)">
+            <tr v-for="([err, rank, level], i) in filteredLevels" :key="i">
                     <td class="rank" style="width:59.19px">
                     <p v-if="rank === null" class="type-label-lg">&mdash;</p>
                     <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
-                    <td class="level" :class="{ 'active': selected == i, 'error': err !== null }">
-                    <button @click="selected = i">  
+                    <td class="level" :class="{ 'active': selected == rank, 'error': err !== null }">
+                    <button @click="selectLevel(rank, i)">
                         <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                     </button>
                     </td>
-                </div>
             </tr>
             </table>
-            <p v-else>No levels found.</p>
+            <p class="level" v-else>No levels found.</p>
         </div>
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
@@ -258,12 +256,11 @@ export default {
         fetchTierLength,
         localize,
         selectLevel(rank, i) {
-            console.clear()
+            // console.clear()
             console.log(`rank: ${rank}`)
             console.log(`index: ${i}`)
             if (i !== null) {
                 if (rank !== null) {
-                    i += 1
                     const selectedLevel = (this.list[rank][2]);
                     const boost = maxDiff - selectedLevel.difficulty
                     console.log(`subtracting 10 from the max difficulty of ${selectedLevel.difficulty}, got ${boost}`)
@@ -323,12 +320,16 @@ export default {
             }
 
             const query = (this.searchQuery.toLowerCase()).replace(/\s/g, '');
-            
-            return this.list.filter(([err, rank, level]) =>
+
+            const filtered = this.list.filter(([err, rank, level]) =>
                 (level?.name.toLowerCase())
                     .replace(/\s/g, '')
-                    .includes(query)
+                    .includes(query) &&
+                level?.id !== 0
             )
+            
+            return filtered
+            
         },
     },
 
