@@ -256,32 +256,26 @@ export default {
         fetchTierLength,
         localize,
         selectLevel(rank, i) {
-            // console.clear()
+            console.clear()
             console.log(`rank: ${rank}`)
             console.log(`index: ${i}`)
             if (i !== null) {
-                if (rank !== null) {
-                    const selectedLevel = (this.list[rank][2]);
-                    const boost = (maxDiff - selectedLevel.difficulty)
-                    console.log(`subtracting 10 from the max difficulty of ${selectedLevel.difficulty}, got ${boost}`)
-                    console.log(`selecing the rank plus the boost: ${rank + boost}`)
-                    this.selected = rank + boost
-                } else {
-                    if (i === 0) {
-                        this.selected = 0
-                        return false;
-                    }
-                    const selectedLevel = (this.list[i][2]);
-                    console.log(selectedLevel)
-                    const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
-                    const length = fetchTierLength(this.list, selectedLevel.difficulty);
-                    console.log(`diff: ${selectedLevel.difficulty}`)
-                    const boost = (maxDiff - selectedLevel.difficulty)
-                    console.log(`boost: ${boost}`)
-                    this.selected = (minimum - length) + boost;
-                    
+                if (i === 0) {
+                    this.selected = 0
+                    return false;
                 }
-
+                const selectedLevel = (this.list[i][2]);
+                console.log(selectedLevel)
+                const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
+                const length = fetchTierLength(this.list, selectedLevel.difficulty);
+                console.log(`diff: ${selectedLevel.difficulty}`)
+                const boost = (maxDiff - selectedLevel.difficulty)
+                console.log(`boost: ${boost}`)
+                if (rank === null) {
+                    this.selected = (minimum - length) + boost;
+                } else {
+                    this.selected = rank + boost
+                }
 
                 // return false just in case this function misunderstands how we're accessing it,
                 // to avoid it adding the active class to a button that isn't selected
