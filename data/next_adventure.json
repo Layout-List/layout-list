@@ -110,6 +110,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "RadianHun",
+            "link": "https://www.youtube.com/watch?v=kVWAJtp6mew",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 2
         }
     ]
 }
