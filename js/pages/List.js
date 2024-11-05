@@ -35,7 +35,7 @@ export default {
                     <p v-if="rank === null" class="type-label-lg">&mdash;</p>
                     <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
-                    <td class="level" :class="{ 'active': selected == rank, 'error': err !== null }">
+                    <td class="level" :class="{ 'active': searchQuery === '' ? selected == i : selected == rank, 'error': err !== null }">
                     <button @click="selectLevel(rank, i)">
                         <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                     </button>
@@ -262,7 +262,7 @@ export default {
             if (i !== null) {
                 if (rank !== null) {
                     const selectedLevel = (this.list[rank][2]);
-                    const boost = maxDiff - selectedLevel.difficulty
+                    const boost = (maxDiff - selectedLevel.difficulty)
                     console.log(`subtracting 10 from the max difficulty of ${selectedLevel.difficulty}, got ${boost}`)
                     console.log(`selecing the rank plus the boost: ${rank + boost}`)
                     this.selected = rank + boost
@@ -272,10 +272,11 @@ export default {
                         return false;
                     }
                     const selectedLevel = (this.list[i][2]);
+                    console.log(selectedLevel)
                     const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
                     const length = fetchTierLength(this.list, selectedLevel.difficulty);
                     console.log(`diff: ${selectedLevel.difficulty}`)
-                    const boost = maxDiff - selectedLevel.difficulty
+                    const boost = (maxDiff - selectedLevel.difficulty)
                     console.log(`boost: ${boost}`)
                     this.selected = (minimum - length) + boost;
                     
