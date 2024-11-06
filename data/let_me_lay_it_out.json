@@ -12,6 +12,14 @@
     "song": "TOMBOYY - Think About It ????",
     "difficulty": 2,
     "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/sCaOcX5kDXk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
         
     ]
 }
