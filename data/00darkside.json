@@ -10,6 +10,14 @@
     "difficulty": 3,
     "enjoyment": 10,
     "records": [
+        {
+            "user": "RedNazFM",
+            "link": "https://youtu.be/lxDI84HMA1E?si=JCVO3NwYeb-tMdbc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
         
     ]
 }
