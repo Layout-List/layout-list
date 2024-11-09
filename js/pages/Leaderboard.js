@@ -1,11 +1,12 @@
 import { store } from '../main.js';
-import { localize, rgbaBind } from '../util.js';
+import { localize, rgbaBind, copyURL } from '../util.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
-
+import Copy from '../components/Copy.js'
+import Copied from '../components/Copied.js'
 
 export default {
-    components: { Spinner },
+    components: { Spinner, Copy, Copied },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -23,18 +24,11 @@ export default {
                     <p class="error" v-if="err.length > 0">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
+                    <p class="error" v-if="notFound !== undefined">
+                        User {{ notFound }} not found.
+                    </p>
                 </div>
                 <div class="board-container">
-                    <input
-                        type="text"
-                        class="search" 
-                        id="search-bar"
-                        placeholder="Search..."
-                        v-model="searchQuery"
-                        @focus="searching = true"
-                        @blur="searching = false"
-                        :class="{ 'searching': searching }"
-                    />
                     <table class="board">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
@@ -45,7 +39,7 @@ export default {
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
                             <td class="user" :class="{ 'active': selected == index }">
-                                <button @click="selected = index">
+                                <button @click="selected = index; copied = false;">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
@@ -55,7 +49,13 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <div class="copy-container">
+                            <h1 class="copy-name">  
+                                #{{ selected + 1 }} {{ entry.user }}
+                            </h1>
+                            <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
+                            <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
+                        </div>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <div class="pack-container" v-if="entry.userPacks.length > 0">
                             <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }">{{ pack.name }} (+{{ pack.score }})</div>
@@ -135,10 +135,12 @@ export default {
         loading: true,
         leaderboard: [],
         err: [],
+        notFound: undefined,
         selected: 0,
         store,
         searchQuery: '',
-        searching: false
+        searching: false,
+        copied: false,
     }),
 
     methods: {
@@ -146,6 +148,7 @@ export default {
         rgbaBind,
         lightPackColor,
         darkPackColor,
+        copyURL
     },
 
     computed: {
@@ -175,6 +178,18 @@ export default {
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
+
+        if (this.$route.params.user) {
+            const returnedIndex = this.leaderboard.findIndex(
+                (entry) => 
+                    entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user.toLowerCase()
+            );
+            if (returnedIndex !== -1) this.selected = returnedIndex;
+            else {
+                this.notFound = this.$route.params.user;
+                console.log(this.notFound)
+            }
+        }
 
         // Hide loading spinner
         this.loading = false;

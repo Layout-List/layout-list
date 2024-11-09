@@ -1,8 +1,10 @@
 import { store } from '../main.js';
-import { embed, rgbaBind, localize } from '../util.js';
+import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor} from '../config.js';
 import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
+import Copy from '../components/Copy.js'
+import Copied from '../components/Copied.js'
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
 const roleIconMap = {
@@ -15,23 +17,13 @@ const roleIconMap = {
 
 
 export default {
-    components: { Spinner, LevelAuthors },
+    components: { Spinner, LevelAuthors, Copy, Copied },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
         <div class="list-container">
-            <input
-            type="text"
-            class="search"
-            id="search-bar"
-            placeholder="Search..."
-            v-model="searchQuery"
-            @focus="searching = true"
-            @blur="searching = false"
-            :class="{ 'searching': searching }"
-            />
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank" style="width:59.19px">
@@ -39,7 +31,7 @@ export default {
                         <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }">
-                        <button @click="selected = index">
+                        <button @click="selected = index; copied = false">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -49,7 +41,13 @@ export default {
         </div>
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
-                    <h1>{{ level.name }}</h1>
+                    <div class="copy-container">
+                            <h1 class="copy-name">  
+                                {{ level.name }}
+                            </h1>
+                            <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
+                            <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
+                        </div>
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }">{{ pack.name }}</div>
                     </div>
@@ -112,20 +110,17 @@ export default {
                         </tr>
                     </table>
                 </div>
-                <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
+                <div v-else-if="level.id==0" class="tier" style="height: 100%; justify-content: center; align-items: center;">
                     <h1>{{ level.name }}</h1>
-                    <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2> 
-                    <table class="records">
-                        <tr class="record">
-                            <td><h3 class="tier-info tier-info-header">Highest enjoyment: </h3></td>
-                            <td><h3 class="tier-info">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
-                        </tr> 
-                        <tr class="record">
-                            <td><h3 class="tier-info tier-info-header">Lowest enjoyment: </h3></td>
-                            <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
-                        </tr>
-                    </table>
-                    <p style="padding-top:1.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
+                    <h2 style="padding-top:1rem"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
+                    <h2 style="padding-bottom:1rem">Points in tier: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>
+                    <tr style="justify-content: center; align-items: center;">
+                        <td><h3 class="tier-info">Highest enjoyment: {{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
+                    </tr>
+                    <tr style="justify-content: center; align-items: center;">
+                        <td><h3 class="tier-info" style="padding-bottom:0.5rem">Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
+                    </tr>
+                    <p style="padding-top:1.5rem">The levels below are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -244,6 +239,7 @@ export default {
         roleIconMap,
         store,
         searchQuery: '',
+        copied: false,
         searching: false // sigh
     }),
 
@@ -258,11 +254,13 @@ export default {
         fetchLowestEnjoyment,
         fetchTotalScore,
         fetchTierLength,
-        localize
+        localize,
+        copyURL
     },
 
     computed: {
         level() {
+
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -300,6 +298,16 @@ export default {
         // Fetch list from store
         this.list = this.store.list;
         this.staff = await fetchStaff();
+
+        if (this.$route.params.level) {
+            const returnedIndex = this.list.findIndex( // change this to return the index, instead of the lvl object
+                ([err, rank, lvl]) => 
+                    lvl.path === this.$route.params.level 
+            );
+            
+            if (returnedIndex === -1) this.errors.push(`The level ${this.$route.params.level} does not exist, please double check the URL.`);
+            else this.selected = returnedIndex;
+        }
 
         // Error handling
         if (!this.list) {

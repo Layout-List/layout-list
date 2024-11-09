@@ -237,6 +237,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "RadiantHun",
+            "link": "https://www.youtube.com/watch?v=eJIzQGn8qgw",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
