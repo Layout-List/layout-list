@@ -3,12 +3,10 @@ import { localize, rgbaBind, copyURL } from '../util.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
-
-
-const delay = ms => new Promise(res => setTimeout(res, ms));
+import Copied from '../components/Copied.js'
 
 export default {
-    components: { Spinner, Copy },
+    components: { Spinner, Copy, Copied },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -51,7 +49,7 @@ export default {
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
                             <td class="user" :class="{ 'active': selected == index }">
-                                <button @click="selected = index">
+                                <button @click="selected = index; copied = false;">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
@@ -65,7 +63,8 @@ export default {
                             <h1 class="copy-name">  
                                 #{{ selected + 1 }} {{ entry.user }}
                             </h1>
-                            <Copy @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_'))"></Copy>
+                            <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
+                            <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
                         </div>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <div class="pack-container" v-if="entry.userPacks.length > 0">
@@ -150,7 +149,8 @@ export default {
         selected: 0,
         store,
         searchQuery: '',
-        searching: false
+        searching: false,
+        copied: false,
     }),
 
     methods: {

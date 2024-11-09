@@ -4,6 +4,7 @@ import { score, lightPackColor, darkPackColor} from '../config.js';
 import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
+import Copied from '../components/Copied.js'
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
 const roleIconMap = {
@@ -16,7 +17,7 @@ const roleIconMap = {
 
 
 export default {
-    components: { Spinner, LevelAuthors, Copy },
+    components: { Spinner, LevelAuthors, Copy, Copied },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -40,7 +41,7 @@ export default {
                         <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }">
-                        <button @click="selected = index">
+                        <button @click="selected = index; copied = false">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -54,7 +55,8 @@ export default {
                             <h1 class="copy-name">  
                                 {{ level.name }}
                             </h1>
-                            <Copy @click="copyURL('https://laylist.pages.dev/#/level/' + level.path)"></Copy>
+                            <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
+                            <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
                         </div>
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }">{{ pack.name }}</div>
@@ -250,6 +252,7 @@ export default {
         roleIconMap,
         store,
         searchQuery: '',
+        copied: false,
         searching: false // sigh
     }),
 
