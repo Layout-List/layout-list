@@ -103,7 +103,7 @@ export default {
                 </div>
                 <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <h1>{{ level.name }}</h1>
-                    <h2 style="padding:0.5rem"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
+                    <h2 style="padding-top:0.5rem"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
                     <h2 style="padding-bottom:1rem">Points in tier: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>
                     <table class="records">
                         <tr class="record">
