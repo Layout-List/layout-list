@@ -301,6 +301,16 @@ export default {
         this.list = this.store.list;
         this.staff = await fetchStaff();
 
+        if (this.$route.params.level) {
+            console.log(this.$route.params.level);
+            const returnedIndex = this.list.findIndex( // change this to return the index, instead of the lvl object
+                ([err, rank, lvl]) => 
+                    lvl.path === this.$route.params.level 
+            );
+            this.selected = returnedIndex === -1 ? 1 : returnedIndex;
+            console.log(returnedIndex);
+        }
+
         // Error handling
         if (!this.list) {
             this.errors = [

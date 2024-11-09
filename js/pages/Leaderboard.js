@@ -55,7 +55,10 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <h1> 
+                            <img src="../../assets/clipboard.svg" class="copy" @click="navigator.clipboard.writeText('https://laylist.pages.dev/leaderboard/user/' /* + entry.user.replaceAll(' ', '_') */)"> 
+                            #{{ selected + 1 }} {{ entry.user }}
+                        </h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <div class="pack-container" v-if="entry.userPacks.length > 0">
                             <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }">{{ pack.name }} (+{{ pack.score }})</div>
@@ -174,7 +177,17 @@ export default {
         // Fetch leaderboard and errors from store
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
+        console.log(leaderboard);
         this.err = err;
+
+        if (this.$route.params.user) {
+            const returnedIndex = this.leaderboard.findIndex(
+                (entry) => 
+                    entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user 
+            );
+            this.selected = returnedIndex === -1 ? 1 : returnedIndex;
+            console.log(returnedIndex);
+        }
 
         // Hide loading spinner
         this.loading = false;

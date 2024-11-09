@@ -126,3 +126,8 @@ input[type="checkbox"] {
 .searching {
     background-color: var(--color-primary);
 }
+
+.copy {
+    height: 3.5rem;
+    cursor: pointer;
+}
