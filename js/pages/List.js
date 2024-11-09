@@ -1,5 +1,5 @@
 import { store } from '../main.js';
-import { embed, rgbaBind, localize, searchFilter } from '../util.js';
+import { embed, rgbaBind, localize } from '../util.js';
 import { score, lightPackColor, darkPackColor} from '../config.js';
 import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
@@ -274,7 +274,21 @@ export default {
         },
 
         filteredLevels() {
-            return searchFilter(this.list, this.searchQuery)
+            if (!this.searchQuery.trim()) {
+                // Return the list with original indexes
+                return this.list.map((item, index) => ({ index, item }));
+            }
+    
+            const query = this.searchQuery.toLowerCase();
+    
+            // Map each item with its original index and filter by the level name
+            return this.list
+                .map((item, index) => ({ index, item }))
+                .filter(({ item: [err, rank, level] }) =>
+                    (level?.name.toLowerCase())
+                        .includes(query) &&
+                    level?.id !== 0
+                );
         },
     },
 
