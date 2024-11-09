@@ -103,3 +103,22 @@ export function sortPacks(packs) {
             }
         );
 }
+
+export function searchFilter(list, query) {
+    
+    // logic for filtering objects with the search bar 
+    if (!query.trim()) {
+        return list.map((item, index) => ({ index, item }));
+    }
+
+    query = query.toLowerCase();
+
+    // Map each item with its original index and filter by the level name
+    return list
+        .map((item, index) => ({ index, item }))
+        .filter(({ item: [err, rank, level] }) =>
+            (level?.name.toLowerCase())
+                .includes(query) &&
+            level?.id !== 0
+        );
+}
