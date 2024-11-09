@@ -30,13 +30,13 @@ export default {
             v-model="searchQuery"
             />
             <table class="list" v-if="filteredLevels.length > 0">
-                <tr v-for="([err, rank, level], i) in filteredLevels" :key="i">
+                <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank" style="width:59.19px">
                         <p v-if="rank === null" class="type-label-lg">&mdash;</p>
                         <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
-                    <td class="level" :class="{ 'active': searchQuery === '' ? selected == i : selected == rank, 'error': err !== null }">
-                        <button @click="selected = i">
+                    <td class="level" :class="{ 'active': selected == index, 'error': err !== null }">
+                        <button @click="selected = index">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -275,20 +275,21 @@ export default {
 
         filteredLevels() {
             if (!this.searchQuery.trim()) {
-                return this.list;
+                // Return the list with original indexes
+                return this.list.map((item, index) => ({ index, item }));
             }
-
-            const query = (this.searchQuery.toLowerCase()).replace(/\s/g, '');
-
-            const filtered = this.list.filter(([err, rank, level]) =>
-                (level?.name.toLowerCase())
-                    .replace(/\s/g, '')
-                    .includes(query) &&
-                level?.id !== 0
-            )
-            
-            return filtered
-            
+    
+            const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
+    
+            // Map each item with its original index and filter by the level name
+            return this.list
+                .map((item, index) => ({ index, item }))
+                .filter(({ item: [err, rank, level] }) =>
+                    (level?.name.toLowerCase())
+                        .replace(/\s/g, '')
+                        .includes(query) &&
+                    level?.id !== 0
+                );
         },
     },
 
