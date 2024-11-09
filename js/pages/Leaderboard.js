@@ -5,6 +5,8 @@ import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 
 
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
 export default {
     components: { Spinner, Copy },
     template: `
@@ -23,6 +25,9 @@ export default {
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                    </p>
+                    <p class="error" v-if="notFound !== undefined">
+                        User {{ notFound }} not found.
                     </p>
                 </div>
                 <div class="board-container">
@@ -141,6 +146,7 @@ export default {
         loading: true,
         leaderboard: [],
         err: [],
+        notFound: undefined,
         selected: 0,
         store,
         searchQuery: '',
@@ -188,7 +194,11 @@ export default {
                 (entry) => 
                     entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user.toLowerCase()
             );
-            this.selected = returnedIndex === -1 ? 0 : returnedIndex;
+            if (returnedIndex !== -1) this.selected = returnedIndex;
+            else {
+                this.notFound = this.$route.params.user;
+                console.log(this.notFound)
+            }
         }
 
         // Hide loading spinner

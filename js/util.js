@@ -111,3 +111,5 @@ export async function copyURL(text) {
         console.log(`error copying to clipboard: ${e}`);
     }
 }
+
+export const delay = ms => new Promise(res => setTimeout(res, ms));

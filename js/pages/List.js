@@ -270,6 +270,7 @@ export default {
 
     computed: {
         level() {
+
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -309,13 +310,13 @@ export default {
         this.staff = await fetchStaff();
 
         if (this.$route.params.level) {
-            console.log(this.$route.params.level);
             const returnedIndex = this.list.findIndex( // change this to return the index, instead of the lvl object
                 ([err, rank, lvl]) => 
                     lvl.path === this.$route.params.level 
             );
-            this.selected = returnedIndex === -1 ? 1 : returnedIndex;
-            console.log(returnedIndex);
+            
+            if (returnedIndex === -1) this.errors.push(`The level ${this.$route.params.level} does not exist, please double check the URL.`);
+            else this.selected = returnedIndex;
         }
 
         // Error handling
