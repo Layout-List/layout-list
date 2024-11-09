@@ -102,8 +102,9 @@ export default {
                     </table>
                 </div>
                 <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
-                    <h1>{{ level.name }}</h1>
-                    <h2 style="padding:1rem;">Total Score: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2> 
+                    <h1>{{ level.name.replace("(", "").replace(")", "") }}</h1>
+                    <h2 style="padding:1rem;"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
+                    <h2 style="padding:1rem;">Points in tier: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2> 
                     <table class="records">
                         <tr class="record">
                             <td><h3 class="tier-info tier-info-header">Highest enjoyment: </h3></td>
@@ -114,7 +115,7 @@ export default {
                             <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
                         </tr>
                     </table>
-                    <p style="padding-top:1.5rem">The levels below are {{ level.name.replace("(", "").replace(")", "") }}.</p>
+                    <p style="padding-top:1.5rem">The levels below are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
