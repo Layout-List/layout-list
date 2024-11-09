@@ -1,6 +1,6 @@
 import { store } from '../main.js';
-import { embed, rgbaBind, localize, selectLevel } from '../util.js';
-import { score, lightPackColor, darkPackColor, maxDiff } from '../config.js';
+import { embed, rgbaBind, localize } from '../util.js';
+import { score, lightPackColor, darkPackColor} from '../config.js';
 import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import LevelAuthors from '../components/List/LevelAuthors.js';
@@ -36,7 +36,7 @@ export default {
                     <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': searchQuery === '' ? selected == i : selected == rank, 'error': err !== null }">
-                    <button @click="selected = selectLevel(rank, i, list)">
+                    <button @click="selected = i">
                         <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                     </button>
                     </td>
@@ -254,8 +254,7 @@ export default {
         fetchLowestEnjoyment,
         fetchTotalScore,
         fetchTierLength,
-        localize,
-        selectLevel
+        localize
     },
 
     computed: {

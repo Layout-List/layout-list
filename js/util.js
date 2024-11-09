@@ -103,31 +103,3 @@ export function sortPacks(packs) {
             }
         );
 }
-
-export function selectLevel(rank, i, list) {
-    // since a level's index (i) changes when we search, we need 
-    // to select the level without using i.
-    console.log(`rank: ${rank}`)
-    console.log(`index: ${i}`)
-    
-        if (i === 0 && rank === null) {
-            console.log('bye')
-            return 0;
-        } 
-
-        // if we get here, we did not select a *divider* with index of 0
-        const selectedLevel = list[rank !== null ? rank : i][2];
-
-        console.log(`diff: ${selectedLevel.difficulty}`)
-        const boost = (maxDiff - selectedLevel.difficulty)
-        console.log(`boost: ${boost}`)
-        if (rank !== null) {
-            return rank + boost;
-        } 
-
-        // if we get here, we selected a divider
-        const minimum = fetchTierMinimum(this.list, selectedLevel.difficulty);
-        const length = fetchTierLength(this.list, selectedLevel.difficulty);
-        
-        return (minimum - length) + boost;
-    }
