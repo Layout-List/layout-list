@@ -30,17 +30,17 @@ export default {
             v-model="searchQuery"
             />
             <table class="list" v-if="filteredLevels.length > 0">
-            <tr v-for="([err, rank, level], i) in filteredLevels" :key="i">
+                <tr v-for="([err, rank, level], i) in filteredLevels" :key="i">
                     <td class="rank" style="width:59.19px">
-                    <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                    <p v-else class="type-label-lg">#{{ rank }}</p>
+                        <p v-if="rank === null" class="type-label-lg">&mdash;</p>
+                        <p v-else class="type-label-lg">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': searchQuery === '' ? selected == i : selected == rank, 'error': err !== null }">
-                    <button @click="selected = i">
-                        <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
-                    </button>
+                        <button @click="selected = i">
+                            <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
+                        </button>
                     </td>
-            </tr>
+                </tr>
             </table>
             <p class="level" v-else>No levels found.</p>
         </div>
