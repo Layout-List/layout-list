@@ -279,14 +279,13 @@ export default {
                 return this.list.map((item, index) => ({ index, item }));
             }
     
-            const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
+            const query = this.searchQuery.toLowerCase();
     
             // Map each item with its original index and filter by the level name
             return this.list
                 .map((item, index) => ({ index, item }))
                 .filter(({ item: [err, rank, level] }) =>
                     (level?.name.toLowerCase())
-                        .replace(/\s/g, '')
                         .includes(query) &&
                     level?.id !== 0
                 );
