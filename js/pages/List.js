@@ -28,6 +28,9 @@ export default {
             id="search-bar"
             placeholder="Search..."
             v-model="searchQuery"
+            @focus="searching = true"
+            @blur="searching = false"
+            :class="{ 'searching': searching }"
             />
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
@@ -241,6 +244,7 @@ export default {
         roleIconMap,
         store,
         searchQuery: '',
+        searching: false // sigh
     }),
 
     methods: {

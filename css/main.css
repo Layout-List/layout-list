@@ -115,10 +115,13 @@ input[type="checkbox"] {
     padding-left: 10px;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    background-color: var(--color-background)
+    background-color: var(--color-background);
+    transition: background-color 120ms ease-out;
 }
 
-.search:hover {
+.search:hover:not(.searching) {
     background-color: var(--color-background-hover);
-    transition: background-color 120ms ease-out;
+}
+.searching {
+    background-color: var(--color-primary);
 }
