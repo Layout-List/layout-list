@@ -24,16 +24,6 @@ export default {
         </main>
         <main v-else class="page-list">
         <div class="list-container">
-            <input
-            type="text"
-            class="search"
-            id="search-bar"
-            placeholder="Search..."
-            v-model="searchQuery"
-            @focus="searching = true"
-            @blur="searching = false"
-            :class="{ 'searching': searching }"
-            />
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank" style="width:59.19px">

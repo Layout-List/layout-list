@@ -29,16 +29,6 @@ export default {
                     </p>
                 </div>
                 <div class="board-container">
-                    <input
-                        type="text"
-                        class="search" 
-                        id="search-bar"
-                        placeholder="Search..."
-                        v-model="searchQuery"
-                        @focus="searching = true"
-                        @blur="searching = false"
-                        :class="{ 'searching': searching }"
-                    />
                     <table class="board">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
