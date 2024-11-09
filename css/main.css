@@ -105,3 +105,16 @@ input[type="checkbox"] {
     color: white;
     opacity: 0.3;
 }
+
+
+input[type=text].search {
+    border-radius: 14px;
+    border: 3px solid var(--color-primary);
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background-color: var(--color-background-hover);
+  }
+  

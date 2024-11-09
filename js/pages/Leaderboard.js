@@ -28,6 +28,7 @@ export default {
                     <input
                         type="text"
                         class="search"
+                        :class="{ 'active': searchQuery !== '' }"
                         id="search-bar"
                         placeholder="Search..."
                         v-model="searchQuery"
