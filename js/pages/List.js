@@ -1,8 +1,9 @@
 import { store } from '../main.js';
-import { embed, rgbaBind, localize } from '../util.js';
+import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor} from '../config.js';
 import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
 import Spinner from '../components/Spinner.js';
+import Copy from '../components/Copy.js'
 import LevelAuthors from '../components/List/LevelAuthors.js';
 
 const roleIconMap = {
@@ -15,7 +16,7 @@ const roleIconMap = {
 
 
 export default {
-    components: { Spinner, LevelAuthors },
+    components: { Spinner, LevelAuthors, Copy },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -49,7 +50,12 @@ export default {
         </div>
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
-                    <h1>{{ level.name }}</h1>
+                    <div class="copy-container">
+                            <h1 class="copy-name">  
+                                {{ level.name }}
+                            </h1>
+                            <Copy @click="copyURL('https://laylist.pages.dev/#/level/' + level.path)"></Copy>
+                        </div>
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <div class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }">{{ pack.name }}</div>
                     </div>
@@ -258,7 +264,8 @@ export default {
         fetchLowestEnjoyment,
         fetchTotalScore,
         fetchTierLength,
-        localize
+        localize,
+        copyURL
     },
 
     computed: {

@@ -127,7 +127,27 @@ input[type="checkbox"] {
     background-color: var(--color-primary);
 }
 
+.copy-container {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copy-name {
+    float: left;
+    padding-right: 1rem;
+}
+
 .copy {
-    height: 3.5rem;
+    float: left;
+    padding-top:0.5rem;
+    height: 2rem;
     cursor: pointer;
+    fill: var(--color-on-background-hover); /* Replace with your desired color */
+    opacity: 0.6;
+    transition: opacity 120ms ease-out;
+}
+
+.copy:hover {
+    opacity: 1;
 }

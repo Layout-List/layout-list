@@ -8,7 +8,6 @@ import ChallengeLeaderboard from './Archived/ChallengeLeaderboard.js';
 export default [
     // Sets the browser link to access each page
     { path: "/", component: List },
-    { path: '/rank/:rank', component: List },
     { path: '/level/:level', component: List },
     
     

@@ -103,3 +103,11 @@ export function sortPacks(packs) {
             }
         );
 }
+
+export async function copyURL(text) {
+    try {
+        await navigator.clipboard.writeText(text);
+    } catch (e) {
+        console.log(`error copying to clipboard: ${e}`);
+    }
+}

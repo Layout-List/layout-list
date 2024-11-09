@@ -1,11 +1,12 @@
 import { store } from '../main.js';
-import { localize, rgbaBind } from '../util.js';
+import { localize, rgbaBind, copyURL } from '../util.js';
 import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
+import Copy from '../components/Copy.js'
 
 
 export default {
-    components: { Spinner },
+    components: { Spinner, Copy },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -55,10 +56,12 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1> 
-                            <img src="../../assets/clipboard.svg" class="copy" @click="navigator.clipboard.writeText('hi')"> 
-                            #{{ selected + 1 }} {{ entry.user }}
-                        </h1>
+                        <div class="copy-container">
+                            <h1 class="copy-name">  
+                                #{{ selected + 1 }} {{ entry.user }}
+                            </h1>
+                            <Copy @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_'))"></Copy>
+                        </div>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <div class="pack-container" v-if="entry.userPacks.length > 0">
                             <div v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }">{{ pack.name }} (+{{ pack.score }})</div>
@@ -149,6 +152,7 @@ export default {
         rgbaBind,
         lightPackColor,
         darkPackColor,
+        copyURL
     },
 
     computed: {
@@ -177,16 +181,14 @@ export default {
         // Fetch leaderboard and errors from store
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
-        console.log(leaderboard);
         this.err = err;
 
         if (this.$route.params.user) {
             const returnedIndex = this.leaderboard.findIndex(
                 (entry) => 
-                    entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user 
+                    entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user.toLowerCase()
             );
-            this.selected = returnedIndex === -1 ? 1 : returnedIndex;
-            console.log(returnedIndex);
+            this.selected = returnedIndex === -1 ? 0 : returnedIndex;
         }
 
         // Hide loading spinner
