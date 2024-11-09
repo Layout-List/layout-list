@@ -1,5 +1,5 @@
 export default {
     template: `
-        <svg class="copy" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m6 19v2c0 .621.52 1 1 1h2v-1.5h-1.5v-1.5zm7.5 3h-3.5v-1.5h3.5zm4.5 0h-3.5v-1.5h3.5zm4-3h-1.5v1.5h-1.5v1.5h2c.478 0 1-.379 1-1zm-1.5-1v-3.363h1.5v3.363zm0-4.363v-3.637h1.5v3.637zm-13-3.637v3.637h-1.5v-3.637zm11.5-4v1.5h1.5v1.5h1.5v-2c0-.478-.379-1-1-1zm-10 0h-2c-.62 0-1 .519-1 1v2h1.5v-1.5h1.5zm4.5 1.5h-3.5v-1.5h3.5zm3-1.5v-2.5h-13v13h2.5v-1.863h1.5v3.363h-4.5c-.48 0-1-.379-1-1v-14c0-.481.38-1 1-1h14c.621 0 1 .522 1 1v4.5h-3.5v-1.5z" fill-rule="nonzero"/></svg>
+    <svg class="copy" style="vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M800 128h-160c0-70.58-57.42-128-128-128s-128 57.42-128 128H224C170.98 128 128 170.98 128 224v704c0 53.02 42.98 96 96 96h576c53.02 0 96-42.98 96-96V224c0-53.02-42.98-96-96-96z m-12 800H236a12 12 0 0 1-12-12V236a12 12 0 0 1 12-12h84v72c0 13.254 10.746 24 24 24h336c13.254 0 24-10.746 24-24v-72h84a12 12 0 0 1 12 12v680a12 12 0 0 1-12 12zM512 80c26.51 0 48 21.49 48 48s-21.49 48-48 48-48-21.49-48-48 21.49-48 48-48" fill="" /></svg>
     `
 };

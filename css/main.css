@@ -144,7 +144,7 @@ input[type="checkbox"] {
     height: 2rem;
     cursor: pointer;
     fill: var(--color-on-background-hover); /* Replace with your desired color */
-    opacity: 0.6;
+    opacity: 0.4;
     transition: opacity 120ms ease-out;
 }
 
