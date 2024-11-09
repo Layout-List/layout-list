@@ -1,4 +1,5 @@
-import { scale } from './config.js';
+import { scale, maxDiff } from './config.js';
+import { fetchTierMinimum, fetchTierLength } from './content.js';
 
 // Adds comma to a number,
 // for example 1000 becomes 1,000
@@ -101,4 +102,12 @@ export function sortPacks(packs) {
                 return 0;
             }
         );
+}
+
+export async function copyURL(text) {
+    try {
+        await navigator.clipboard.writeText(text);
+    } catch (e) {
+        console.log(`error copying to clipboard: ${e}`);
+    }
 }
