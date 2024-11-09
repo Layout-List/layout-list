@@ -105,16 +105,14 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <h2 style="padding-top:1rem"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
                     <h2 style="padding-bottom:1rem">Points in tier: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>
-                    <table class="records">
-                        <tr class="record">
-                            <td><h3 class="tier-info tier-info-header">Highest enjoyment: </h3></td>
-                            <td><h3 class="tier-info">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
-                        </tr> 
-                        <tr class="record">
-                            <td><h3 class="tier-info tier-info-header">Lowest enjoyment: </h3></td>
-                            <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
-                        </tr>
-                    </table>
+                    <tr style="height: 100%; justify-content: center; align-items: center;">
+                        <td><h3 class="tier-info tier-info-header">Highest enjoyment: </h3></td>
+                        <td><h3 class="tier-info">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
+                    </tr> 
+                    <tr style="height: 100%; justify-content: center; align-items: center;">
+                        <td><h3 class="tier-info tier-info-header">Lowest enjoyment: </h3></td>
+                        <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
+                    </tr>
                     <p style="padding-top:1.5rem">The levels below are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
