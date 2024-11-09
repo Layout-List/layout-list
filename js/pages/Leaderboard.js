@@ -27,8 +27,8 @@ export default {
                 <div class="board-container">
                     <input
                         type="text"
-                        class="search"
-                        :class="{ 'active': searchQuery !== '' }"
+                        class="search" 
+                        :class="{ 'active': true }"
                         id="search-bar"
                         placeholder="Search..."
                         v-model="searchQuery"
