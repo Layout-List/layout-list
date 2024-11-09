@@ -110,14 +110,15 @@ input[type="checkbox"] {
 .search {
     border-radius: 14px;
     border: 3px solid var(--color-primary);
-    width: 90%;
+    width: 22em;
     height: 40px;
     padding-left: 10px;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    
+    background-color: var(--color-background)
 }
-  
-.search.active {
-    background-color: var(--color-background-hover)
+
+.search:hover {
+    background-color: var(--color-background-hover);
+    transition: background-color 120ms ease-out;
 }
