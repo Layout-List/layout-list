@@ -101,17 +101,15 @@ export default {
                         </tr>
                     </table>
                 </div>
-                <div v-else-if="level.id==0" class="level" style="height: 100%; justify-content: center; align-items: center;">
+                <div v-else-if="level.id==0" class="tier" style="height: 100%; justify-content: center; align-items: center;">
                     <h1>{{ level.name }}</h1>
                     <h2 style="padding-top:1rem"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
                     <h2 style="padding-bottom:1rem">Points in tier: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>
-                    <tr style="height: 100%; justify-content: center; align-items: center;">
-                        <td><h3 class="tier-info tier-info-header">Highest enjoyment: </h3></td>
-                        <td><h3 class="tier-info">{{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
-                    </tr> 
-                    <tr style="height: 100%; justify-content: center; align-items: center;">
-                        <td><h3 class="tier-info tier-info-header">Lowest enjoyment: </h3></td>
-                        <td><h3 class="tier-info">{{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
+                    <tr style="justify-content: center; align-items: center;">
+                        <td><h3 class="tier-info">Highest enjoyment: {{ fetchHighestEnjoyment(list, level.difficulty) }}</h3></td>
+                    </tr>
+                    <tr style="justify-content: center; align-items: center;">
+                        <td><h3 class="tier-info" style="padding-bottom:0.5rem">Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
                     </tr>
                     <p style="padding-top:1.5rem">The levels below are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
                 </div>
