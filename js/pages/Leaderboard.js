@@ -56,7 +56,7 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1> 
-                            <img src="../../assets/clipboard.svg" class="copy" @click="navigator.clipboard.writeText('https://laylist.pages.dev/leaderboard/user/' /* + entry.user.replaceAll(' ', '_') */)"> 
+                            <img src="../../assets/clipboard.svg" class="copy" @click="navigator.clipboard.writeText('hi')"> 
                             #{{ selected + 1 }} {{ entry.user }}
                         </h1>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
