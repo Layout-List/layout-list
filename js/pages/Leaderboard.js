@@ -25,21 +25,29 @@ export default {
                     </p>
                 </div>
                 <div class="board-container">
+                    <input
+                        type="text"
+                        class="search"
+                        id="search-bar"
+                        placeholder="Search..."
+                        v-model="searchQuery"
+                    />
                     <table class="board">
-                        <tr v-for="(ientry, i) in leaderboard">
+                        <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p class="type-label-lg">#{{ index + 1 }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg" v-if="ientry.total > 0">{{ localize(ientry.total) }}</p>
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
-                            <td class="user" :class="{ 'active': selected == i }">
-                                <button @click="selected = i">
+                            <td class="user" :class="{ 'active': selected == index }">
+                                <button @click="selected = index">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
                         </tr>
+                
                     </table>
                 </div>
                 <div class="player-container">
@@ -126,6 +134,7 @@ export default {
         err: [],
         selected: 0,
         store,
+        searchQuery: ''
     }),
 
     methods: {
@@ -138,6 +147,22 @@ export default {
     computed: {
         entry() {
             return this.leaderboard[this.selected];
+        },
+
+        filteredLeaderboard() {
+            if (!this.searchQuery.trim()) {
+                // Return leaderboard with original indexes if there's no search query
+                return this.leaderboard.map((entry, index) => ({ index, entry }));
+            }
+    
+            const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
+    
+            // Map each entry with its original index and filter based on the user name
+            return this.leaderboard
+                .map((entry, index) => ({ index, entry }))
+                .filter(({ entry }) =>
+                    entry.user.toLowerCase().includes(query)
+                );
         },
     },
 
