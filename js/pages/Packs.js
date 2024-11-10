@@ -287,6 +287,17 @@ export default {
         // It's easier to initialize the site like this
         this.selectPack(0, this.packs[0]);
 
+        console.log(this.packs)
+        if (this.$route.params.pack) {
+            const returnedIndex = this.packs.findIndex(
+                (pack) => 
+                    pack.name.toLowerCase().replaceAll(' ', '_') === this.$route.params.pack 
+            );
+            
+            if (returnedIndex === -1) this.errors.push(`The pack ${this.$route.params.pack} does not exist, please double check the URL.`);
+            else this.selectPack(returnedIndex, this.packs[returnedIndex]);
+        }
+
         // Hide loading spinner
         this.loading = false;
     },

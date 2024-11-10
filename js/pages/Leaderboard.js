@@ -158,7 +158,6 @@ export default {
 
         filteredLeaderboard() {
             if (!this.searchQuery.trim()) {
-                // Return leaderboard with original indexes if there's no search query
                 return this.leaderboard.map((entry, index) => ({ index, entry }));
             }
     

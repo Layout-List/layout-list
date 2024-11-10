@@ -300,7 +300,7 @@ export default {
         this.staff = await fetchStaff();
 
         if (this.$route.params.level) {
-            const returnedIndex = this.list.findIndex( // change this to return the index, instead of the lvl object
+            const returnedIndex = this.list.findIndex(
                 ([err, rank, lvl]) => 
                     lvl.path === this.$route.params.level 
             );
