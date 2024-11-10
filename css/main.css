@@ -109,22 +109,19 @@ input[type="checkbox"] {
 
 .search {
     border-radius: 14px;
-    border: 3px solid var(--color-primary);
+    border: 5px solid var(--color-background-hover);
     width: 90%;
     max-width: 22em;
     height: 40px;
     padding-left: 10px;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    background-color: var(--color-background);
-    transition: background-color 120ms ease-out;
+    background-color: var(--color-background-hover);
+    transition: all, border 120ms ease-out;
 }
 
-.search:hover:not(.searching) {
-    background-color: var(--color-background-hover);
-}
-.searching {
-    background-color: var(--color-primary);
+.search:hover {
+    background-color: var(--color-background);
 }
 
 .copy-container {
