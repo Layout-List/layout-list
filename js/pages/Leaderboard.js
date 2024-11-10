@@ -36,7 +36,7 @@ export default {
                         placeholder="Search..."
                         v-model="searchQuery"
                     />
-                    <table class="board">
+                    <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ index + 1 }}</p>
@@ -51,8 +51,8 @@ export default {
                                 </button>
                             </td>
                         </tr>
-                
                     </table>
+                    <p class="user" v-else>No users found.</p>
                 </div>
                 <div class="player-container">
                     <div class="player">

@@ -83,7 +83,8 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Song</div>
-                            <p><a target="_blank" :href="(level.songLink===undefined)?'#':level.songLink" :style="{'text-decoration':(level.songLink===undefined)?'none':'underline'}">{{ level.song || 'insert here' }}</a></p>
+                            <p v-if="level.songLink"><a target="_blank" :href="level.songLink" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                         </li>
                     </ul>
                     <h2>Records ({{ level.records.length }})</h2>
