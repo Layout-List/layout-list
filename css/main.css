@@ -160,7 +160,3 @@ input[type="checkbox"] {
     opacity: 1;
     transition: opacity 120ms ease-out;
 }
-
-a:hover .link  {
-    text-decoration: underline;
-}
