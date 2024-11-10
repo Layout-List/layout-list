@@ -35,9 +35,6 @@ export default {
                         id="search-bar"
                         placeholder="Search..."
                         v-model="searchQuery"
-                        @focus="searching = true"
-                        @blur="searching = false"
-                        :class="{ 'searching': searching }"
                     />
                     <table class="board">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
@@ -149,7 +146,6 @@ export default {
         selected: 0,
         store,
         searchQuery: '',
-        searching: false,
         copied: false,
     }),
 
