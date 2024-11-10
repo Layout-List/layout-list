@@ -1,13 +1,15 @@
 import { store } from "../main.js";
-import { embed, rgbaBind } from "../util.js";
+import { embed, rgbaBind, copyURL } from "../util.js";
 import { score, packScore, lightPackColor, darkPackColor } from "../config.js";
 import { averageEnjoyment } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
+import Copy from "../components/Copy.js";
+import Copied from "../components/Copied.js";
 
 
 export default {
-    components: { Spinner, LevelAuthors },
+    components: { Spinner, LevelAuthors, Copy, Copied },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -49,7 +51,13 @@ export default {
                     
                 <!-- level page :shocked: -->
                 <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels">
-                    <h1>{{ level.name }}</h1>
+                <div class="copy-container">
+                    <h1 class="copy-name">  
+                        {{ level.name }}
+                    </h1>
+                    <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
+                    <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
+                </div>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     
@@ -105,7 +113,13 @@ export default {
 
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
-                    <h1>{{ selectedPack.name }}</h1>
+                <div class="copy-container">
+                    <h1 class="copy-name">  
+                        {{ selectedPack.name }}
+                    </h1>
+                    <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
+                    <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
+                </div>
                     <h2>Difficulty: {{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary"][selectedPack.difficulty] }}</h2>
                     <div class="pack-score">
                         <h3>Points: {{ selectedPack.score }}</h3>
@@ -197,6 +211,7 @@ export default {
         selectedPack: null,
         selected: null,
         store,
+        copied: false,
     }),
 
     methods: {
@@ -207,6 +222,7 @@ export default {
         rgbaBind,
         lightPackColor,
         darkPackColor,
+        copyURL,
 
         // initialize the selected pack
         selectPack(index, pack) {
