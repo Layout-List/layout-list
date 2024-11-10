@@ -7,6 +7,8 @@
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    --color-hover: rgb(168, 168, 168);
+    --color-on-hover: rgb(15, 15, 15);
 }
 
 main.dark,
@@ -109,7 +111,7 @@ input[type="checkbox"] {
 
 .search {
     border-radius: 14px;
-    border: 5px solid var(--color-background-hover);
+    border: 2px solid var(--color-background-hover);
     width: 90%;
     max-width: 22em;
     height: 40px;
@@ -121,7 +123,8 @@ input[type="checkbox"] {
 }
 
 .search:hover {
-    background-color: var(--color-background);
+    border: 2px solid var(--color-hover);
+    transition: all, border 120ms ease-out;
 }
 
 .copy-container {
