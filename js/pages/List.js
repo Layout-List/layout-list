@@ -55,7 +55,7 @@ export default {
                             <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
                             <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
                         </div>
-                    <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels" :>
+                    <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <a class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                     </div>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
@@ -92,7 +92,7 @@ export default {
                             <div class="type-title-sm">Song</div>
 
                             <p v-if="level.songLink"><a target="_blank" :href="level.songLink" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
-                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
                     <h2>Records ({{ level.records.length }})</h2>
@@ -119,7 +119,7 @@ export default {
                         </tr>
                     </table>
                 </div>
-                <div v-else-if="level.id==0" class="tier" style="height: 100%; justify-content: center; align-items: center;">
+                <div v-else-if="level?.id==0" class="tier" style="height: 100%; justify-content: center; align-items: center;">
                     <h1>{{ level.name }}</h1>
                     <h2 style="padding-top:1rem"># of levels in tier: {{ fetchTierLength(list, level.difficulty) }}</h2>
                     <h2 style="padding-bottom:1rem">Points in tier: {{ localize(fetchTotalScore(list, level.difficulty)) }}</h2>

@@ -84,7 +84,7 @@ export default {
                         <li>
                             <div class="type-title-sm">Song</div>
                             <p v-if="level.songLink"><a target="_blank" :href="level.songLink" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
-                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
                     <h2>Records ({{ level.records.length }})</h2>
@@ -129,7 +129,7 @@ export default {
                     <h2 v-if="!selectedPack.levels">Levels (5)</h2>
                     <p v-if="selectedPack.levels" class="type-body">
                         <template v-for="(level, index) in selectedPack.levels">
-                            <span>{{ level.name }}</span>
+                            <a :href="'https://laylist.pages.dev/#/level/' + level.path">{{ level.name }}</a>
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
                         </template>
                     </p>
@@ -137,7 +137,7 @@ export default {
                     <p v-if="!selectedPack.levels && selectedPack.difficulty >= 7"> Beat any 5 layouts in the supreme tier or above that are not in any other packs</p>
                     <h2>Records ({{ selectedPack.records.length }})</h2>
                     <div class="pack-records">
-                        <p v-for="record in selectedPack.records">{{ record }}</p>
+                        <p v-for="record in selectedPack.records"><a  :href="'https://laylist.pages.dev/#/leaderboard/user/' + record.toLowerCase().replaceAll(' ', '_')">{{ record }}</a></p>
                     </div>
                 </div>
                 <!-- whatever this is -->
