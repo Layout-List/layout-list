@@ -15,7 +15,7 @@
             "link": "https://www.youtube.com/watch?v=z-9V4d-nw9k",
             "percent": 100,
             "hz": 60,
-            "mobile": false
+            "enjoyment": 7
         },
         {
             "user": "evil",
@@ -202,6 +202,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "josikp",
+            "link": "https://www.youtube.com/watch?v=aGrw4S_E9JE&ab_channel=pom",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

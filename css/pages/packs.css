@@ -1,0 +1,22 @@
+.pack-rank {
+    padding-left: 2.5rem;
+    transition: background-color 75ms ease-out;
+}
+
+.pack-name {
+    margin-bottom: 0.7rem;
+    margin-top: 0.5rem;
+}
+.pack-score {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-auto-rows: max-content;
+    gap: 1rem;
+}
+
+.pack-records {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+}

@@ -198,6 +198,39 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "RedNazFM",
+            "link": "https://www.youtube.com/watch?v=R8aN47E1N8c",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Muha",
+            "link": "https://youtu.be/OCvYHqNhtao",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "waves",
+            "link": "https://www.youtube.com/watch?v=YgUlFEIT1_0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/EbhytIMTq6I?si=zhfFaiVynd6j21d7",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
+
     ]
 }

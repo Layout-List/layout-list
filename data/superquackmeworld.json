@@ -65,6 +65,30 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "GMD YIBWATERSCUSSY",
+            "link": "https://youtu.be/dnkVw3qJ0uw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Lacley",
+            "link": "https://www.youtube.com/watch?v=DOGm3v_bv2Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "waves",
+            "link": "https://youtu.be/Te5TPeoWbTg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }

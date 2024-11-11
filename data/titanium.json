@@ -1,14 +1,30 @@
 {
     "id": 110391794,
     "name": "Titanium",
-    "author": "TinkleBerryGD",
+    "author": "Tinkle",
     "creators": [],
-    "verifier": "TinkleBerryGD",
+    "verifier": "Tinkle",
     "verification": "https://www.youtube.com/watch?v=x6rpXfeimuA",
     "percentToQualify": 60,
     "song": "TheColdSpirit - Sparkler",
-    "difficulty": 6,
+    "difficulty": 7,
     "records": [
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=pYWmmUbSJV0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=rX3mwC2DpmI&t=1s",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 10
+        },
         {
             "user": "Syrcx",
             "link": "https://youtu.be/fFpBmmWo9MQ",
@@ -18,12 +34,12 @@
             "enjoyment": 9
         },
         {
-            "user": "Robotic",
-            "link": "https://www.youtube.com/watch?v=pYWmmUbSJV0",
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=p7C-IZYenMI",
             "percent": 100,
             "hz": 240,
             "mobile": false,
-            "enjoyment": 9
+            "enjoyment": 7
         }
     ]
 }

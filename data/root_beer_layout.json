@@ -732,6 +732,30 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Muha",
+            "link": "https://www.youtube.com/watch?v=kljQZtk8Y_E",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "waves",
+            "link": "https://www.youtube.com/watch?v=YgUlFEIT1_0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/J5GqLcg_aS8?si=NnMQXKEBL0oluEFr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
         }
     ]
 }

@@ -11,6 +11,12 @@
     "difficulty": 0,
     "records": [
         {
+            "user": "testuser",
+            "link": "https://www.youtube.com/watch?v=LD53hk7JEyk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "Sara",
             "link": "https://www.youtube.com/watch?v=LD53hk7JEyk",
             "percent": 100,
@@ -747,7 +753,8 @@
             "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
             "percent": 100,
             "hz": 360,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 10
         },
         {
             "user": "Blysteryx",
@@ -1198,6 +1205,30 @@
             "hz": 60,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "XxSirgaxX",
+            "link": "https://www.youtube.com/watch?v=LSclQrFSqyw",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/JyEPtNgOStY?si=qH_2vQHuROV9I45K",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "waves",
+            "link": "https://www.youtube.com/watch?v=YgUlFEIT1_0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
         }
     ]
 }

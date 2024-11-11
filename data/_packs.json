@@ -1,0 +1,276 @@
+[
+    {
+        "name": "Chill Pack",
+        "difficulty": 0,
+        "levels": [
+            "zzz",
+            "foggy_bridge",
+            "wewo",
+            "florescent"
+        ]
+    },
+    {
+        "name": "Salukis Pack",
+        "difficulty": 0,
+        "levels": [
+            "sunrise",
+            "cornfield",
+            "debit",
+            "caliber",
+            "uppercut"
+        ]
+    },
+    {
+        "name": "Rated Pack 1",
+        "difficulty": 0,
+        "levels": [
+            "fun_dance",
+            "gravity_out",
+            "adapation",
+            "time_shell"
+        ]
+    },
+    {
+        "name": "Asteria Pack",
+        "difficulty": 1,
+        "levels": [
+            "sky_castle",
+            "the_shredder",
+            "land_of_fire_ato"
+        ]
+    },
+    {
+        "name": "Xeronius Pack",  
+        "difficulty": 1,
+        "levels": [
+            "invincible",
+            "toxic_sewers",
+            "cove",
+            "get_funked",
+            "dramatic"
+        ]
+    },
+    {
+        "name": "Rated Pack 2",
+        "difficulty": 1, 
+        "levels": [
+            "marenol",
+            "walk_through",
+            "outlay",
+            "dancing_moonman",
+            "havoc"
+        ]
+    },
+    {
+        "name": "Quacker Pack",   
+        "difficulty": 1,
+        "levels": [
+            "druggered_duck",
+            "drugged_duck",
+            "fearful_duckling"
+        ]
+    },
+    {
+        "name": "Detailed Pack 1", 
+        "difficulty": 1,
+        "levels": [
+            "go_with_the_flow",
+            "fire_wal",
+            "bufu"
+        ]
+    },
+    {
+        "name": "Sqrtpie Pack",
+        "difficulty": 1,
+        "levels": [
+            "because_we_miss",
+            "layout_master",
+            "vulture"
+        ]
+    },
+    {
+        "name": "Effect Pack",
+        "difficulty": 2,
+        "levels": [
+            "desolation",
+            "i_got_no_time",
+            "the_end",
+            "michito"
+        ]
+    },
+    {
+        "name": "Long Pack 1",
+        "difficulty": 2, 
+        "levels": [
+            "heartache",
+            "ruler_of_everything",
+            "dancing_in_the_dark"
+        ]
+    },
+    {
+        "name": "Detailed Pack 2", 
+        "difficulty": 3, 
+        "levels": [
+            "soggy_swamp",
+            "to_the_moon",
+            "heartbreaker",
+            "freeze_flame"
+        ]
+    },
+    {
+        "name": "Rated Pack 3",
+        "difficulty": 3, 
+        "levels": [
+            "bliss",
+            "rgb",
+            "aleph_0",
+            "i_dont_wanna_go"
+        ]
+    },
+    {
+        "name": "Morsey Pack", 
+        "difficulty": 3, 
+        "levels": [
+            "twink_braindead",
+            "dunewalker",
+            "virtual",
+            "nautilus",
+            "lies_layout"
+        ]
+    },
+    {
+        "name": "Sal Pack",
+        "difficulty": 3,
+        "levels": [
+            "endless",
+            "atmosphere",
+            "aura",
+            "aurora_sal"
+        ]
+    },
+    {
+        "name": "Box Pack",
+        "difficulty": 3, 
+        "levels": [
+            "dabox",
+            "bajox",
+            "jabox"
+        ]
+    },
+    {
+        "name": "Blathers Pack", 
+        "difficulty": 3, 
+        "levels": [
+            "kitty_kat",
+            "lightmare",
+            "alpha_b"
+        ]
+    },
+    {
+        "name": "Detailed Pack 3",
+        "difficulty": 4, 
+        "levels": [
+            "bomb_the_rave",
+            "last_chapter",
+            "heat_stroke",
+            "tormenta"
+        ]
+    },
+    {
+        "name": "Adventure Pack",
+        "difficulty": 4, 
+        "levels": [
+            "distant_stars",
+            "next_adventure",
+            "sudden_departure"
+        ]
+    },
+    {
+        "name": "Long Pack 2", 
+        "difficulty": 5, 
+        "levels": [
+            "overtime",
+            "nana",
+            "underlying_grief",
+            "escaping_limbo"
+        ]
+    },
+    {
+        "name": "Short Pack",
+        "difficulty": 5, 
+        "levels": [
+            "big_brain_time",
+            "yoasobi",
+            "delirium",
+            "vile_vanquish"
+        ]
+    },
+    {
+        "name": "Flare Pack", 
+        "difficulty": 5, 
+        "levels": [
+            "rubber",
+            "murder_flare",
+            "phase"
+        ]
+    },
+    {
+        "name": "zDark Verification Pack",
+        "difficulty": 6, 
+        "levels": [
+            "lost",
+            "tails_doll_007",
+            "so_based"
+        ]
+    },
+    {
+        "name": "Long Pack 3", 
+        "difficulty": 6, 
+        "levels": [
+            "light_it_up",
+            "cruelty_of_hope",
+            "karma"
+        ]
+    },
+    {
+        "name": "Former Top 1s Pack",
+        "difficulty": 7, 
+        "levels": [
+            "brutal_calamity",
+            "huang_quan",
+            "experiment"
+        ]
+    },
+    {
+        "name": "Beginner Pack",
+        "difficulty": 0
+    },
+    {
+        "name": "Easy Pack",
+        "difficulty": 1
+    },
+    {
+        "name": "Medium Pack",
+        "difficulty": 2
+    },
+    {
+        "name": "Hard Pack",
+        "difficulty": 3
+    },
+    {
+        "name": "Insane Pack",
+        "difficulty": 4
+    },
+    {
+        "name": "Mythical Pack",
+        "difficulty": 5
+    },
+    {
+        "name": "Extreme Pack",
+        "difficulty": 6
+    },
+    {
+        "name": "Legendary Pack",
+        "difficulty": 7
+    }
+]

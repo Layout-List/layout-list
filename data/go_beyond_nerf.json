@@ -128,6 +128,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "cinderrblock",
+            "link": "https://www.youtube.com/watch?v=Ufhn8Jn8ivw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

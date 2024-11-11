@@ -7,6 +7,8 @@
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    --color-hover: rgb(168, 168, 168);
+    --color-on-hover: rgb(15, 15, 15);
 }
 
 main.dark,
@@ -52,6 +54,7 @@ header {
     height: 4rem;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
+    justify-content: center;
 }
 @media screen and (min-width: 1366px) {
     header {
@@ -94,4 +97,66 @@ input[type="checkbox"] {
     width: 1.25rem;
     cursor: pointer;
     margin: 0;
+}
+
+.loading-cache.dark {
+    background-color: #1c1b1f;
+}
+
+.cache-text.dark {
+    color: white;
+    opacity: 0.3;
+}
+
+
+.search {
+    border-radius: 14px;
+    border: 2px solid var(--color-background-hover);
+    width: 90%;
+    max-width: 22em;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background-color: var(--color-background-hover);
+    transition: all, border 120ms ease-out;
+}
+
+.search:hover {
+    border: 2px solid var(--color-hover);
+    transition: all, border 120ms ease-out;
+}
+
+.copy-container {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copy-name {
+    float: left;
+    padding-right: 1rem;
+}
+
+.copy {
+    float: left;
+    padding-top:0.5rem;
+    height: 2rem;
+    cursor: pointer;
+    fill: var(--color-on-background-hover);
+    opacity: 0.4;
+    transition: opacity 120ms ease-out;
+}
+
+.copy:hover {
+    opacity: 1;
+}
+
+.copied {
+    float: left;
+    padding-top:0.5rem;
+    height: 2rem;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 120ms ease-out;
 }

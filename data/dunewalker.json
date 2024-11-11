@@ -1,9 +1,9 @@
 {
     "id": 78098394,
     "name": "dunewalker",
-    "author": "Morsey",
+    "author": "morsey",
     "creators": [],
-    "verifier": "Morsey",
+    "verifier": "morsey",
     "verification": "https://www.youtube.com/watch?v=tGwSAD4Jf9I",
     "password": "150108",
     "percentToQualify": 56,
@@ -97,7 +97,8 @@
             "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
             "percent": 100,
             "hz": 144,
-            "mobile": false
+            "mobile": false,
+            "enjoyment": 8
         },
         {
             "user": "DeleteNine",

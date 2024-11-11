@@ -9,7 +9,7 @@
     "percentToQualify": 53,
     "song": "DM DOKURO - Stained, Brutal Calamity",
     "songLink": "https://www.mediafire.com/file/z0p4vqoafut9kby/565826.mp3/file",
-    "difficulty": 8,
+    "difficulty": 9,
     "records": [
         {
             "user": "sqrtpie",
@@ -102,8 +102,8 @@
         },
         {
             "user": "attrixia",
-            "link": "https://youtu.be/FUSUib6iJLA",
-            "percent": 90,
+            "link": "https://youtu.be/OPqQnlK5j6s",
+            "percent": 100,
             "hz": 240,
             "mobile": false,
             "enjoyment": 0

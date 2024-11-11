@@ -1,18 +1,12 @@
-import { fetchLeaderboard } from '../content.js';
-import { localize } from '../util.js';
-
+import { store } from '../main.js';
+import { localize, rgbaBind, copyURL } from '../util.js';
+import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
+import Copy from '../components/Copy.js'
+import Copied from '../components/Copied.js'
 
 export default {
-    components: {
-        Spinner,
-    },
-    data: () => ({
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-    }),
+    components: { Spinner, Copy, Copied },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -30,29 +24,49 @@ export default {
                     <p class="error" v-if="err.length > 0">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
+                    <p class="error" v-if="notFound !== undefined">
+                        User {{ notFound }} not found.
+                    </p>
                 </div>
                 <div class="board-container">
-                    <table class="board">
-                        <tr v-for="(ientry, i) in leaderboard">
+                    <input
+                        type="text"
+                        class="search" 
+                        id="search-bar"
+                        placeholder="Search..."
+                        v-model="searchQuery"
+                    />
+                    <table class="board" v-if="filteredLeaderboard.length > 0">
+                        <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p class="type-label-lg">#{{ index + 1 }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg" v-if="ientry.total > 0">{{ localize(ientry.total) }}</p>
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
-                            <td class="user" :class="{ 'active': selected == i }">
-                                <button @click="selected = i">
+                            <td class="user" :class="{ 'active': selected == index }">
+                                <button @click="selected = index; copied = false;">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
                         </tr>
                     </table>
+                    <p class="user" v-else>No users found.</p>
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <div class="copy-container">
+                            <h1 class="copy-name">  
+                                #{{ selected + 1 }} {{ entry.user }}
+                            </h1>
+                            <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
+                            <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
+                        </div>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
+                        <div class="pack-container" v-if="entry.userPacks.length > 0">
+                            <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }} (+{{ pack.score }})</a>
+                        </div>
                         <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
                         <table class="table" v-if="entry.created.length > 0">
                             <tr v-for="score in entry.created">
@@ -123,19 +137,76 @@ export default {
             </div>
         </main>
     `,
+
+    data: () => ({
+        loading: true,
+        leaderboard: [],
+        err: [],
+        notFound: undefined,
+        selected: 0,
+        store,
+        searchQuery: '',
+        copied: false,
+    }),
+
+    methods: {
+        localize,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+        copyURL
+    },
+
     computed: {
         entry() {
             return this.leaderboard[this.selected];
         },
+
+        filteredLeaderboard() {
+            if (!this.searchQuery.trim()) {
+                return this.leaderboard.map((entry, index) => ({ index, entry }));
+            }
+    
+            const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
+    
+            // Map each entry with its original index and filter based on the user name
+            return this.leaderboard
+                .map((entry, index) => ({ index, entry }))
+                .filter(({ entry }) =>
+                    entry.user.toLowerCase().includes(query)
+                );
+        },
     },
+
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
+        // Fetch leaderboard and errors from store
+        const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
+
+        if (this.$route.params.user) {
+            const returnedIndex = this.leaderboard.findIndex(
+                (entry) => 
+                    entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user.toLowerCase()
+            );
+            if (returnedIndex !== -1) this.selected = returnedIndex;
+            else {
+                this.notFound = this.$route.params.user;
+                console.log(this.notFound)
+            }
+        }
+
         // Hide loading spinner
         this.loading = false;
     },
-    methods: {
-        localize,
+
+    watch: {
+        store: {
+            handler(updated) {
+                this.leaderboard = updated.leaderboard[0]
+                this.err = updated.errors   
+            }, 
+            deep: true
+        }
     },
 };

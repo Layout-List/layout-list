@@ -58,6 +58,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Tinkle",
+            "link": "https://www.youtube.com/watch?v=8pUe1Fjekn4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
         }
         
     ]

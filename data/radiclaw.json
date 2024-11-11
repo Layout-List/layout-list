@@ -1,7 +1,7 @@
 {
     "id": 93357334,
     "name": "radiclaw layout",
-    "author": "Morsey",
+    "author": "morsey",
     "creators": [],
     "verifier": "mrperson",
     "verification": "https://youtu.be/hfBb_ooe4Jo",
@@ -70,6 +70,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 4
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }

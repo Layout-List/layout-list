@@ -7,7 +7,7 @@
     "verification": "https://youtu.be/Mn86-gLH_4U",
     "percentToQualify": 53,
     "song": "Rukkus - ~NK~ Blacklight FULL",
-    "difficulty": 9,
+    "difficulty": 10,
     "records": [
         {
             "user": "Riley",
@@ -16,6 +16,22 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/w15-cUBecCM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=FJEhcIlfQ_I",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }
