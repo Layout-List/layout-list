@@ -22,20 +22,15 @@ jobs:
         id: jsonrepair-install
         run: |
             npm install -g jsonrepair
-
-        # read the name lmao what do u want
+        
       - name: Get changed files from the last  commits
         id: changed-files
         run: |
           git fetch --unshallow
           git diff HEAD~5 --name-only > changed_files.txt 
-        
-      - name: Debug - Show filtered files
-        run: cat changed_files.txt
     
       - name: Read and process changed files
         run: |
-          echo {{ $GITHUB_WORKSPACE }}
           while IFS= read -r file; do
             echo "File: $file"
             if [[ "$file" == *".json" ]];then
