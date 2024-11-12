@@ -51,6 +51,8 @@ jobs:
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Actions"
             git commit -m "CI: fix json errors" -a
+          else
+            echo "No changes made!"
           fi
       - name: Push changes
         uses: ad-m/github-push-action@master
