@@ -48,11 +48,6 @@ jobs:
           jsonrepair data/_staff.json
         # Scary!
 
-      - name: Read and process misc files
-        run: |
-            
-        # Scary!
-
         # save
       - name: Commit files # only runs if something actually changed
         run: |

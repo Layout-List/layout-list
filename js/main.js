@@ -6,7 +6,7 @@ console.clear();
 // used for cache versioning, the idea is we can use this to refresh
 // the cached data if we push changes that would conflict with the old data. 
 // to prevent showing error messages.
-export const version = 3.2
+export const version = 3.3
 
 // Compresses data passed to the function using Gzip
 function compressData(data) {
