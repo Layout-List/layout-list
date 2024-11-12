@@ -1,0 +1,57 @@
+name: Run Command for Changed Files
+
+on:
+  workflow_dispatch:
+
+jobs:
+  process-changed-files:
+    runs-on: ubuntu-latest
+    steps:
+        # download the files
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+        # jsonrepair runs on node
+      - name: Install node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.18.0'
+
+        # install library that fixes json errors
+      - name: install jsonrepair
+        id: jsonrepair-install
+        run: |
+            npm install -g jsonrepair
+        
+      - name: Get changed files from the last  commits
+        id: changed-files
+        run: |
+          git fetch --unshallow
+          git diff HEAD~5 --name-only > changed_files.txt 
+    
+      - name: Read and process changed files
+        run: |
+          while IFS= read -r file; do
+            echo "File: $file"
+            if [[ "$file" == *".json" ]];then
+              jsonrepair "$file" --overwrite
+            fi
+          done < changed_files.txt
+          rm -rf changed_files.txt
+          jsonrepair data/_list.json --overwrite
+          jsonrepair data/_packs.json --overwrite
+          jsonrepair data/_staff.json --overwrite
+        
+
+        # save
+      - name: Commit files # only runs if something actually changed
+        run: |
+          if [[ -n "$(git status -s)" ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Actions"
+            git commit -m "CI: fix json errors" -a
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: ${{ secrets.GIT_TOKEN }}
