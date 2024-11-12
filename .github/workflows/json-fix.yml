@@ -23,11 +23,11 @@ jobs:
         run: |
             npm install -g jsonrepair
         
-      - name: Get changed files from the last  commits
+      - name: Get changed files from the last 40 commits
         id: changed-files
         run: |
           git fetch --unshallow
-          git diff HEAD~10 --name-only > changed_files.txt
+          git diff HEAD~40 --name-only > changed_files.txt
           cat -n changed_files.txt
     
       - name: Read and process changed files
