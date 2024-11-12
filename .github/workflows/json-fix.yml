@@ -35,7 +35,7 @@ jobs:
           while IFS= read -r file; do
             if [[ "$file" == *".json" ]];then
               jsonrepair "$file" --overwrite
-              echo "Fixed file: $file"
+              echo "Processed file: $file"
             fi
           done < changed_files.txt
           rm -rf changed_files.txt
