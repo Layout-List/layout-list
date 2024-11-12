@@ -43,10 +43,10 @@ jobs:
             fi
           done < changed_files.txt
           rm -rf changed_files.txt
-          jsonrepair data/_list.json
-          jsonrepair data/_packs.json
-          jsonrepair data/_staff.json
-        # Scary!
+          jsonrepair data/_list.json --overwrite
+          jsonrepair data/_packs.json --overwrite
+          jsonrepair data/_staff.json --overwrite
+        
 
         # save
       - name: Commit files # only runs if something actually changed
