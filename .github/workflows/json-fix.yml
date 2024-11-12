@@ -32,9 +32,9 @@ jobs:
       - name: Read and process changed files
         run: |
           while IFS= read -r file; do
-            echo "File: $file"
             if [[ "$file" == *".json" ]];then
               jsonrepair "$file" --overwrite
+              echo "Fixed file: $file"
             fi
           done < changed_files.txt
           rm -rf changed_files.txt
