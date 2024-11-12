@@ -27,7 +27,8 @@ jobs:
         id: changed-files
         run: |
           git fetch --unshallow
-          git diff HEAD~5 --name-only > changed_files.txt 
+          git diff HEAD~5 --name-only > changed_files.txt
+          cat changed_files.txt
     
       - name: Read and process changed files
         run: |
