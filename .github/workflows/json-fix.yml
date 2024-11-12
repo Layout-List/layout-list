@@ -1,4 +1,4 @@
-name: Run Command for Changed Files
+name: Fix JSON files
 
 on:
   workflow_dispatch:
