@@ -1,9 +1,6 @@
 name: Run Command for Changed Files
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
