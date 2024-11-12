@@ -41,7 +41,9 @@ jobs:
           echo {{ $GITHUB_WORKSPACE }}
           while IFS= read -r file; do
             echo "File: $file"
-            jsonrepair "$file" --overwrite
+            if jq -e . < file.json > /dev/null 2>&1; then
+              jsonrepair "$file" --overwrite
+            fi
           done < changed_files.txt
           rm -rf changed_files.txt
         # Scary!
