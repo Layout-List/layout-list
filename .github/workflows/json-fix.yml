@@ -15,7 +15,7 @@ jobs:
       - name: Install node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.18.0'
+          node-version: 'latest'
 
         # install library that fixes json errors
       - name: install jsonrepair
