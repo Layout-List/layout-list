@@ -31,7 +31,7 @@ jobs:
         id: changed-files
         run: |
           git fetch --unshallow
-          git diff HEAD~10 --name-only > changed_files.txt 
+          git diff HEAD~2 --name-only > changed_files.txt 
         
       - name: Debug - Show filtered files
         run: cat changed_files.txt
