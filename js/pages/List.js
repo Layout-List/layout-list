@@ -156,13 +156,13 @@ export default {
                     </template>
                     <hr width="100%" color = black size="4">
                     <h3>Tags</h3>
-                    <p>
-                        (⭐ Rated )
-                        (✨ Subject to Exemptions )
-                        (💫 Accepted Under Old Standards )
-                        (🎖️ Creator Contest Winner)
-                        (❌ Pending Removal )
-                    </p>
+
+                    <p style="cursor:pointer;" @click="searchQuery = '⭐'">⭐ Rated</p>
+                    <p style="cursor:pointer;" @click="searchQuery = '✨'">✨ Subject to Exemptions</p>
+                    <p style="cursor:pointer;" @click="searchQuery = '💫'">💫 Accepted Under Old Standards</p>
+                    <p style="cursor:pointer;" @click="searchQuery = '🎖️'">🎖️ Creator Contest Winner</p>
+                    <p style="cursor:pointer;" @click="searchQuery = '❌'">❌ Pending Removal</p>
+
                     <hr width="100%" color = black size="4">
                     <h3>Record Submission Requirements</h3>
                     <div class="record-guidelines">
