@@ -1,5 +1,4 @@
-import { scale, maxDiff } from './config.js';
-import { fetchTierMinimum, fetchTierLength } from './content.js';
+import { scale } from './config.js';
 
 // Adds comma to a number,
 // for example 1000 becomes 1,000

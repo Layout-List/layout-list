@@ -13,8 +13,6 @@ import { fetchTierLength, fetchTierMinimum } from "./content.js";
 
 export const scale = 1; // Amount of decimals the site will globally round to and display.
 
-export const maxDiff = 10; // The highest difficulty number, used for some logic in the search bar.
-
 // ------------------------------------------------------------------------------------------
 // Information about imported functions:
 //      - round takes in a number and rounds it to the nearest nth decimal, where n is the
