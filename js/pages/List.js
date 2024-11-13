@@ -44,7 +44,7 @@ export default {
                     </td>
                 </tr>
             </table>
-            <p class="level" v-else>No levels found.</p>
+            <p class="level" style="padding:1.1rem" v-else>No levels found.</p>
         </div>
             <div class="level-container">
                 <div class="level" v-if="level && level.id!=0">
