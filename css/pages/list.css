@@ -204,6 +204,6 @@
     padding-bottom:2em
 }
 
-.difficulty-rankings:first-child  {
-    padding-bottom:4em
+.difficulty-rankings > p:first-child  {
+    padding-top:1em
 }
