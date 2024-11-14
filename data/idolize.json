@@ -11,6 +11,13 @@
     "difficulty": 3,
     "records": [
         {
+            "user": "DJJDK",
+            "link": "https://youtu.be/IEssDfnbwHQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
             "user": "mrperson",
             "link": "https://youtu.be/YdJ_yAdsN7U",
             "percent": 100,
