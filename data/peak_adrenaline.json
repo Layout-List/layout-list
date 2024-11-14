@@ -198,6 +198,13 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/g9dyCTJQJyg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
         }
     ]
 }
