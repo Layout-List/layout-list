@@ -155,44 +155,50 @@ export default {
                     </div>
                     <hr width="100%" color = black size="4">
                     <h3>About Packs</h3>
-                    <p>Packs are sets of levels on the Layout List chosen by the staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
-                    <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
-                    <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the roles for the packs you've completed!</p>
-                    <hr width="100%" color = black size="4">
+                    <div class="right-text">
+                        <p>Packs are sets of levels on the Layout List chosen by the staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
+                        <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
+                        <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the roles for the packs you've completed!</p>
+                        <hr width="100%" color = black size="4">
+                    </div>
                     <h3>Difficulty Rankings</h3>
-                    <p>
-                        Legendary Packs = Packs with levels from the supreme tier and above (200 points)
-                    </p>
-                    <p>
-                        Extreme Packs = Packs with levels from the extreme tier and above (150 points)
-                    </p>
-                    <p>
-                        Mythical Packs = Packs with levels from the mythical tier (100 points)
-                    </p>
-                    <p>
-                        Insane Packs = Packs with levels from the insane tier (70 points)
-                    </p>
-                    <p>
-                        Hard Packs = Packs with levels from the hard tier (50 points)
-                    </p>
-                    <p>
-                        Medium Packs = Packs with levels from the medium tier (30 points)
-                    </p>
-                    <p>
-                        Easy Packs = Packs with levels from the easy tier (15 points)
-                    </p>
-                    <p>
-                        Beginner Packs = Packs with levels from the beginner tier (5 points)
-                    </p>
+                    <div class="right-text">
+                        <p>
+                            Legendary Packs = Packs with levels from the supreme tier and above (200 points)
+                        </p>
+                        <p>
+                            Extreme Packs = Packs with levels from the extreme tier and above (150 points)
+                        </p>
+                        <p>
+                            Mythical Packs = Packs with levels from the mythical tier (100 points)
+                        </p>
+                        <p>
+                            Insane Packs = Packs with levels from the insane tier (70 points)
+                        </p>
+                        <p>
+                            Hard Packs = Packs with levels from the hard tier (50 points)
+                        </p>
+                        <p>
+                            Medium Packs = Packs with levels from the medium tier (30 points)
+                        </p>
+                        <p>
+                            Easy Packs = Packs with levels from the easy tier (15 points)
+                        </p>
+                        <p>
+                            Beginner Packs = Packs with levels from the beginner tier (5 points)
+                        </p>
+                    </div>
                     <hr width="100%" color = black size="4">
-                    <p>
-                        For your convenience, the Layout List caches the data for the list in your browser.
-                    </p>
-                    <p>
-                        By using the site, you agree to the storage of this data in your browser. 
-                        You can disable this in your browser's settings (turn off local storage), however this will cause 
-                        the site to load very slowly and is not recommended.
-                    </p>
+                    <div class="right-text">
+                        <p>
+                            For your convenience, the Layout List caches the data for the list in your browser.
+                        </p>
+                        <p>
+                            By using the site, you agree to the storage of this data in your browser. 
+                            You can disable this in your browser's settings (turn off local storage), however this will cause 
+                            the site to load very slowly and is not recommended.
+                        </p>
+                    </div>
                     <p>
                         No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
                     </p>
