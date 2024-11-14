@@ -74,6 +74,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 2
+        },
+        {
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=_ZfUN4n20xM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
