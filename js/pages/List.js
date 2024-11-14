@@ -165,7 +165,7 @@ export default {
 
                     <hr width="100%" color = black size="4">
                     <h3>Record Submission Requirements</h3>
-                    <div class="record-guidelines">
+                    <div class="right-text">
                         <p>
                             You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, however, "Click Between Frames" is allowed).
                         </p>
@@ -193,7 +193,7 @@ export default {
                     </div>
                     <hr width="100%" color = black size="4">
                     <h3>Difficulty Rankings</h3>
-                    <div class="difficulty-rankings">
+                    <div class="right-text">
                         <p>
                             Impossible Layout = Top Extreme Demons (401 to 750 Points)
                         </p>
@@ -223,17 +223,19 @@ export default {
                         </p>
                     </div>
                     <hr width="100%" color = black size="4">
-                    <p>
-                        For your convenience, the Layout List caches the data for the list in your browser.
-                    </p>
-                    <p>
-                        By using the site, you agree to the storage of this data in your browser. 
-                        You can disable this in your browser's settings (turn off local storage), however this will cause 
-                        the site to load very slowly and is not recommended.
-                    </p>
-                    <p>
-                        No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
-                    </p>
+                    <div class="right-text">
+                        <p>
+                            For your convenience, the Layout List caches the data for the list in your browser.
+                        </p>
+                        <p>
+                            By using the site, you agree to the storage of this data in your browser. 
+                            You can disable this in your browser's settings (turn off local storage), however this will cause 
+                            the site to load very slowly and is not recommended.
+                        </p>
+                        <p>
+                            No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </main>
