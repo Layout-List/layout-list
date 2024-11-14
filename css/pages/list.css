@@ -196,14 +196,6 @@
     padding-bottom:2em
 }
 
-.record-guidelines > p:first-child  {
-    padding-top:1em
-}
-
 .difficulty-rankings > p:not(:last-child)  {
     padding-bottom:2em
-}
-
-.difficulty-rankings > p:first-child  {
-    padding-top:1em
 }
