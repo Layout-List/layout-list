@@ -69,7 +69,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p @click="copyURL(level.id)>{{ level.id }}</p>
+                            <p>{{ level.id }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
