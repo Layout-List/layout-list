@@ -76,7 +76,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p class="link" @click="copyURL(level.id)">{{ level.id }}</p>
+                            <p style="cursor: pointer" @click="copyURL('askdfjaksdjfkasjdf')">{{ level.id }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
