@@ -191,7 +191,3 @@
     text-wrap: nowrap;
     padding: 0rem;
 }
-
-.right-text > p:not(:last-child)  {
-    padding-bottom:2em
-}
