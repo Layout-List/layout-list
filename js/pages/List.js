@@ -33,9 +33,9 @@ export default {
             />
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
-                    <td class="rank" style="width:59.19px">
-                        <p v-if="rank === null" class="type-label-lg">&mdash;</p>
-                        <p v-else class="type-label-lg">#{{ rank }}</p>
+                    <td class="rank">
+                        <p v-if="rank === null" class="type-label-lg" style="width:2.7rem">&mdash;</p>
+                        <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }">
                         <button @click="selected = index; copied = false">
