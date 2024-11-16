@@ -147,7 +147,7 @@
             "mobile": true,
             "enjoyment": 6
         },
-         {
+        {
             "user": "Alvaneder",
             "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
             "percent": 100,
@@ -159,13 +159,6 @@
             "link": "https://www.youtube.com/watch?v=o3iD9moLOY8",
             "percent": 100,
             "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "NotAquatic",
-            "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI&ab_channel=Aquatic",
-            "percent": 100,
-            "hz": 144,
             "mobile": false
         },
         {
