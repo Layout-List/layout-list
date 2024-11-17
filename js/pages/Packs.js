@@ -16,7 +16,7 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <table class="list" v-if="packs">
+                <table class="list" v-if="packs && errored !== 'The pack data is malformed, please alert staff!'">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level">
                             <button @click="selectPack(index, pack)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(darkPackColor(pack.difficulty), index) : reactiveOpaque(lightPackColor(pack.difficulty), index) }" :class="{ 'error': !pack }">
@@ -243,7 +243,7 @@ export default {
         selectPack(index, pack) {
             this.errored = null;
 
-            if (!Array.isArray(pack) && pack[0] !== 422) {
+            if (!Array.isArray(pack) && this.packs[0] !== "err") {
                 try {
                     this.selected = null;
                     this.selectedPack = pack;
@@ -255,7 +255,7 @@ export default {
                     return;
                 }
             } else {
-                this.errored = pack[1];
+                this.errored = "The pack data is malformed, please alert staff!";
                 return;
             }
         },
@@ -309,7 +309,7 @@ export default {
         this.packs = this.store.packs;
 
         // Error handling
-        if (!this.list || !this.packs) {
+        if (!this.list || !this.packs || this.packs[0] === "err") {
             this.errors = [
                 "Failed to load list or packs. Retry in a few minutes or notify list staff.",
             ];
