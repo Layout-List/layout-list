@@ -320,7 +320,8 @@
             "link": "https://m.youtube.com/watch?v=Edz-VMozLoU&feature=youtu.be",
             "percent": 100,
             "hz": 60,
-            "mobile": true
+            "mobile": true,
+            "enjoyment": 7
         },
         {
             "user": "xanyx",
