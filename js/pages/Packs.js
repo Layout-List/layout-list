@@ -249,8 +249,6 @@ export default {
                     this.selectedPack["score"] = packScore(pack);
                     this.selectedPackIndex = index;
 
-                    console.log(pack.levels);
-
                     if (pack.levels) {
                         let erroredIndex = pack.levels.findIndex(
                             (level) => typeof level === "string"
