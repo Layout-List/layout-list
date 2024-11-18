@@ -160,6 +160,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "miniwombat2",
+            "link": "https://www.youtube.com/watch?v=BUehfFPyy1w&ab_channel=miniwombat2",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
