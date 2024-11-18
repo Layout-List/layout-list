@@ -7,7 +7,6 @@ import LevelAuthors from "../components/List/LevelAuthors.js";
 import Copy from "../components/Copy.js";
 import Copied from "../components/Copied.js";
 
-
 export default {
     components: { Spinner, LevelAuthors, Copy, Copied },
     template: `
@@ -26,10 +25,10 @@ export default {
                             </button>
                             <tr v-if="selectedPack && selectedPackIndex == index" v-for="(packLevel, availableIndex) in selectedPack.levels" :key="availableIndex" class="pack-level-list">
                                 <td class="rank pack-rank">
-                                    <p v-if="packLevel.rank === null" class="type-label-lg">&mdash;</p>
+                                    <p v-if="packLevel.rank === null || packLevel.difficulty === -50" class="type-label-lg">&mdash;</p>
                                     <p v-else class="type-label-lg">#{{ packLevel.rank }}</p>
                                 </td>
-                                <td class="pack-level level" :class="{ 'active': availableIndex == selected, 'error': !packLevel }"> <!-- active when level is selected -->
+                                <td class="pack-level level" :class="{ 'active': availableIndex == selected, 'error': !packLevel || packLevel.difficulty === -50 }"> <!-- active when level is selected -->
                                     <button class="type-label-lg" @click="selected = availableIndex">
                                         {{ packLevel.name }}
                                     </button>
@@ -249,17 +248,35 @@ export default {
                     this.selectedPack = pack;
                     this.selectedPack["score"] = packScore(pack);
                     this.selectedPackIndex = index;
+
+                    console.log(pack.levels);
+
+                    if (pack.levels) {
+                        let erroredIndex = pack.levels.findIndex(
+                            (level) => typeof level === "string"
+                        );
+
+                        if (erroredIndex !== -1) {
+                            this.errors.push(
+                                `${pack.levels[erroredIndex]}.json not found`
+                            );
+                            pack.levels[erroredIndex] = {
+                                name: `Not found: ${pack.levels[erroredIndex]}.json`,
+                                difficulty: -50,
+                            };
+                        }
+                    }
                     return;
                 } catch (e) {
                     this.errored = e;
                     return;
                 }
             } else {
-                this.errored = "The pack data is malformed, please alert staff!";
+                this.errored =
+                    "The pack data is malformed, please alert staff!";
                 return;
             }
         },
-
         reactiveOpaque(color, index) {
             try {
                 if (this.selectedPackIndex === index) {
@@ -321,14 +338,18 @@ export default {
 
         // It's easier to initialize the site like this
         this.selectPack(0, this.packs[0]);
-        
+
         if (this.$route.params.pack) {
             const returnedIndex = this.packs.findIndex(
-                (pack) => 
-                    pack.name.toLowerCase().replaceAll(' ', '_') === this.$route.params.pack 
+                (pack) =>
+                    pack.name.toLowerCase().replaceAll(" ", "_") ===
+                    this.$route.params.pack
             );
-            
-            if (returnedIndex === -1) this.errors.push(`The pack ${this.$route.params.pack} does not exist, please double check the URL.`);
+
+            if (returnedIndex === -1)
+                this.errors.push(
+                    `The pack ${this.$route.params.pack} does not exist, please double check the URL.`
+                );
             else this.selectPack(returnedIndex, this.packs[returnedIndex]);
         }
 
@@ -348,8 +369,8 @@ export default {
                 updated.errors.forEach((err) =>
                     this.errors.push(`Failed to load level. (${err}.json)`)
                 );
-            }, 
-            deep: true
-        }
+            },
+            deep: true,
+        },
     },
 };
