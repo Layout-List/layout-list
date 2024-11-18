@@ -80,6 +80,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "sans_hanitizer",
+            "link": "https://youtu.be/s6TBVWr1L5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
