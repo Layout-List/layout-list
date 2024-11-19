@@ -121,7 +121,7 @@
             "hz": 60,
             "mobile": true
         },
-         {
+        {
             "user": "rastuyas",
             "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
             "percent": 100,
@@ -152,6 +152,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 0
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/Cc7-fIAXaAE",
+            "percent": 100,
+            "mobile": true,
+            "hz": 60,
+            "enjoyment": 7
         }
     ]
 }

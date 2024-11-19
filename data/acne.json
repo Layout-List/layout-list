@@ -53,7 +53,7 @@
             "hz": 240,
             "mobile": false
         },
-         {
+        {
             "user": "Seismic",
             "link": "https://youtu.be/iM6G38dmY_k",
             "percent": 100,
@@ -90,13 +90,13 @@
             "hz": 360,
             "mobile": false
         },
-         {
+        {
             "user": "Doggo136",
             "link": "https://youtu.be/X0KjHZS9Tc8?si=cJPRe022Yp5a3w_l",
             "percent": 100,
             "hz": 240,
             "mobile": false
-         },
+        },
         {
             "user": "Tradeskill",
             "link": "https://youtu.be/kI6fdWmq7q4",
@@ -120,6 +120,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 10
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/Cc7-fIAXaAE",
+            "percent": 100,
+            "mobile": true,
+            "hz": 60,
+            "enjoyment": 7
         }
     ]
 }
