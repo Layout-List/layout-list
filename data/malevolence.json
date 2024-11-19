@@ -10,6 +10,13 @@
     "difficulty": 4,
     "enjoyment": 8,
     "records": [
-        
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/j50hYT0BkvaTIukiB?invite=cr-MSwyR1gsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
     ]
 }
