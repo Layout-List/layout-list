@@ -10,6 +10,13 @@
     "song": "Solkrieg - Deimos",
     "difficulty": 3,
     "records": [
-        
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/j0pASCyzqkLVEtfXy?invite=cr-MSxxR00sMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
     ]
 }
