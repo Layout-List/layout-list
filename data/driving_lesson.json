@@ -152,6 +152,14 @@
             "percent": 100,
             "hz": 240,
             "enjoyment": 9
+        },
+        {
+            "user": "Wingz_GD",
+            "link": "https://youtu.be/fafCBjDjkYY?si=9gmf3R04JXrfsSJZ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
