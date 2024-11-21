@@ -11,6 +11,14 @@
     "difficulty": 1,
     "enjoyment": 8,
     "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
         
     ]
 }
