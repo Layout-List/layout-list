@@ -338,7 +338,7 @@ export default {
         // Hide loading spinner
         this.loading = false;
 
-        // tests for incorrect difficulties
+        // tests for incorrect difficulties and duplicate records
         let max = fetchTierMinimum(this.list, 0)
         let i = 0
         let currentdiff, newdiff;
@@ -352,6 +352,16 @@ export default {
                 }
                 
                 if (newdiff !== currentdiff) console.warn(`Found incorrect difficulty! ${templevel.name} (${templevel.path}.json) is set to ${newdiff}, please set it to ${currentdiff}.`)
+                
+                
+                const foundusers = []
+                for (const record of templevel.records) {
+                    if (foundusers.includes(record.user) || record.user === templevel.verifier) {
+                        console.warn(`Found duplicate record! ${record.user} has a duplicate record on ${templevel.name} (${templevel.path}.json).`)
+                    } else {
+                        foundusers.push(record.user)
+                    }
+                }
             }
             i++
         }

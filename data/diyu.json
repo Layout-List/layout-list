@@ -178,13 +178,6 @@
             "mobile": false
         },
         {
-            "user": "ImRathirX",
-            "link": "https://youtu.be/GGy6nbEMsx4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
             "user": "sqrtpie",
             "link": "https://youtu.be/Su3LuUskws4",
             "percent": 100,
@@ -417,14 +410,6 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
         },
         {
             "user": "attrixia",
