@@ -339,15 +339,17 @@ export default {
         this.loading = false;
 
         // tests for incorrect difficulties and duplicate records
-        let max = fetchTierMinimum(this.list, 0)
         let i = 0
         let currentdiff, newdiff;
-        while (i < max) {
+        while (i < this.list.length) {
             if (this.list[i][2]) {
                 let templevel = this.list[i][2]
 
                 newdiff = templevel.difficulty 
                 if (templevel.id === 0) {
+                    if (templevel.difficulty !== currentdiff - 1 && currentdiff !== undefined) {
+                        console.error(`Found incorrect divider difficulty! Please set ${templevel.path}'s difficulty to ${currentdiff - 1}.`)
+                    }
                     currentdiff = templevel.difficulty
                 }
                 
