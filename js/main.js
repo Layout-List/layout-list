@@ -110,37 +110,33 @@ let app = Vue.createApp({
         async runAfterMount() {
             console.log("Pre-load completed, checking for new data...");
             store.loaded = true;
-            try {
-                // Update list if it's different than what's stored locally
-                const updatedList = await fetchList();
-                if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
-                    console.log("Found new data in list! Overwriting...");
-                    localStorage.setItem("listdata", compressData(updatedList));
-                }
-                // Update leaderboard if it's different than what's stored locally
-                const updatedLeaderboard = await fetchLeaderboard(updatedList);
-                if (JSON.stringify(updatedLeaderboard) !==JSON.stringify(store.leaderboard)) {
-                    console.log("Found new data in leaderboard! Overwriting...");
-                    localStorage.setItem("listdata", compressData(updatedList));
-                    localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
-                }
-
-                // Update packs if it's different than what's stored locally
-                const updatedPacks = await fetchPacks(updatedList);
-                if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
-                    console.log("Found new data in packs! Overwriting...");
-                    localStorage.setItem("listdata", compressData(updatedList));
-                    localStorage.setItem("packsdata", compressData(updatedPacks));
-                }
-
-                store.list = updatedList;
-                store.leaderboard = updatedLeaderboard;
-                store.packs = updatedPacks;
-                store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
-                console.log("Up to date!");
-            } catch (error) {
-                console.error("Error fetching data:", error);
+            // Update list if it's different than what's stored locally
+            const updatedList = await fetchList();
+            if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
+                console.log("Found new data in list! Overwriting...");
+                localStorage.setItem("listdata", compressData(updatedList));
             }
+            // Update leaderboard if it's different than what's stored locally
+            const updatedLeaderboard = await fetchLeaderboard(updatedList);
+            if (JSON.stringify(updatedLeaderboard) !==JSON.stringify(store.leaderboard)) {
+                console.log("Found new data in leaderboard! Overwriting...");
+                localStorage.setItem("listdata", compressData(updatedList));
+                localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
+            }
+
+            // Update packs if it's different than what's stored locally
+            const updatedPacks = await fetchPacks(updatedList);
+            if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
+                console.log("Found new data in packs! Overwriting...");
+                localStorage.setItem("listdata", compressData(updatedList));
+                localStorage.setItem("packsdata", compressData(updatedPacks));
+            }
+
+            store.list = updatedList;
+            store.leaderboard = updatedLeaderboard;
+            store.packs = updatedPacks;
+            store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
+            console.log("Up to date!");
         },
     },
 });
