@@ -245,6 +245,14 @@
             "hz": 120,
             "mobile": false,
             "enjoyment": 6
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
         }
     ]
 }
