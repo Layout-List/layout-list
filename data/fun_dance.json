@@ -1167,6 +1167,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "para",
+            "link": "https://www.youtube.com/watch?v=tjoYwavopJo",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
