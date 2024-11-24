@@ -160,6 +160,14 @@
             "mobile": true,
             "hz": 60,
             "enjoyment": 7
+        },
+        {
+            "user": "Wingz_GD",
+            "link": "https://youtu.be/O__J2b5JSoo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
         }
     ]
 }
