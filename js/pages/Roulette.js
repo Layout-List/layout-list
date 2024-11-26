@@ -47,7 +47,7 @@ export default {
                             </a>
                             <div class="meta">
                                 <p>#{{ level.rank }}</p>
-                                <h2>{{ level.name }}</h2>
+                                <h2><a :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
                                 <p style="color: #00b54b; font-weight: 700">{{ progression[i] }}%</p>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default {
                             </a>
                             <div class="meta">
                                 <p>#{{ currentLevel.rank }}</p>
-                                <h2>{{ currentLevel.name }}</h2>
+                                <h2><a :href="'https://laylist.pages.dev/#/level/' + currentLevel.path" target="_blank">{{ currentLevel.name }}</a></h2>
                                 <p>{{ currentLevel.id }}</p>
                             </div>
                             <form class="actions" v-if="!givenUp">
@@ -82,7 +82,7 @@ export default {
                                 </a>
                                 <div class="meta">
                                     <p>#{{ level.rank }}</p>
-                                    <h2>{{ level.name }}</h2>
+                                    <h2><a :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
                                     <p style="color: #d50000; font-weight: 700">{{ currentPercentage + 2 + i }}%</p>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ export default {
             if (fullList.filter(([err, _]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    'List is currently broken. Wait until it\'s fixed to start a roulette.',
+                    'The list is currently broken. Wait until it\'s fixed to start a roulette.',
                 );
                 return;
             }
@@ -146,6 +146,7 @@ export default {
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
+                path: lvl.path
             }));
             const list = [];
             if (this.useMainList) {
@@ -163,6 +164,7 @@ export default {
             this.percentage = undefined;
 
             this.loading = false;
+            console.log(this.levels);
         },
         save() {
             localStorage.setItem(
