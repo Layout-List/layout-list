@@ -371,6 +371,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 6
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/Jq38ulmRjuQ?si=rYUM6n3Wx15DVfV4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }
