@@ -236,7 +236,7 @@ export async function fetchLeaderboard(list) {
 
         
         
-        // sneaky lil FAKEOUT completed object, 
+        // fake completed levels object, 
         // used to show verifications under the "completed" section
         const { completed } = scoreMap[verifier];
         completed.push({
