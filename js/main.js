@@ -4,8 +4,8 @@ import { fetchList, fetchLeaderboard, fetchPacks } from "./content.js";
 console.clear();
 
 // used for cache versioning, the idea is we can use this to refresh
-// the cached data if we push changes that would conflict with the old data. 
-// to prevent showing error messages.
+// the cached data if we push changes that would conflict with the old data, 
+// to prevent showing a billion error messages.
 export const version = 3.2
 
 // Compresses data passed to the function using Gzip
@@ -13,7 +13,6 @@ function compressData(data) {
     const jsonData = JSON.stringify(data);
     const compressed = pako.gzip(jsonData);
 
-    // Convert the Uint8Array to a binary string without exceeding the argument limit
     let binaryString = "";
     compressed.forEach((byte) => {
         binaryString += String.fromCharCode(byte);
@@ -21,7 +20,7 @@ function compressData(data) {
     return btoa(binaryString); // Convert binary to base64 for storage
 }
 
-// Decompressed data pased to the function using Gzip
+// Decompressed data passed to the function using Gzip
 function decompressData(compressedData) {
     const binaryString = atob(compressedData); // Decode base64
     const charData = Uint8Array.from(binaryString, (char) =>
@@ -108,18 +107,18 @@ let app = Vue.createApp({
 
     methods: {
         async runAfterMount() {
-            console.log("Pre-load completed, checking for new data...");
+            console.info("Pre-load completed, checking for new data...");
             store.loaded = true;
             // Update list if it's different than what's stored locally
             const updatedList = await fetchList();
             if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
-                console.log("Found new data in list! Overwriting...");
+                console.info("Found new data in list! Overwriting...");
                 localStorage.setItem("listdata", compressData(updatedList));
             }
             // Update leaderboard if it's different than what's stored locally
             const updatedLeaderboard = await fetchLeaderboard(updatedList);
             if (JSON.stringify(updatedLeaderboard) !==JSON.stringify(store.leaderboard)) {
-                console.log("Found new data in leaderboard! Overwriting...");
+                console.info("Found new data in leaderboard! Overwriting...");
                 localStorage.setItem("listdata", compressData(updatedList));
                 localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
             }
@@ -127,7 +126,7 @@ let app = Vue.createApp({
             // Update packs if it's different than what's stored locally
             const updatedPacks = await fetchPacks(updatedList);
             if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
-                console.log("Found new data in packs! Overwriting...");
+                console.info("Found new data in packs! Overwriting...");
                 localStorage.setItem("listdata", compressData(updatedList));
                 localStorage.setItem("packsdata", compressData(updatedPacks));
             }
@@ -136,7 +135,7 @@ let app = Vue.createApp({
             store.leaderboard = updatedLeaderboard;
             store.packs = updatedPacks;
             store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
-            console.log("Up to date!");
+            console.info("Up to date!");
         },
     },
 });

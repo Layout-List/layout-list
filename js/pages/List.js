@@ -157,11 +157,11 @@ export default {
                     <hr width="100%" color = black size="4">
                     <h3>Tags</h3>
 
-                    <p style="cursor:pointer;" @click="searchQuery = '⭐'">⭐ Rated</p>
-                    <p style="cursor:pointer;" @click="searchQuery = '✨'">✨ Subject to Exemptions</p>
-                    <p style="cursor:pointer;" @click="searchQuery = '💫'">💫 Accepted Under Old Standards</p>
-                    <p style="cursor:pointer;" @click="searchQuery = '🎖️'">🎖️ Creator Contest Winner</p>
-                    <p style="cursor:pointer;" @click="searchQuery = '❌'">❌ Pending Removal</p>
+                    <p style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
+                    <p style="cursor:pointer;" @click="search('✨')">✨ Subject to Exemptions</p>
+                    <p style="cursor:pointer;" @click="search('💫')">💫 Accepted Under Old Standards</p>
+                    <p style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
+                    <p style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
 
                     <hr width="100%" color = black size="4">
                     <h3>Record Submission Requirements</h3>
@@ -267,7 +267,16 @@ export default {
         fetchTotalScore,
         fetchTierLength,
         localize,
-        copyURL
+        copyURL,
+        
+        // used for the ability to deselect tag filters
+        search(query) {
+            if (this.searchQuery === query) {
+                this.searchQuery = '';
+            } else {
+                this.searchQuery = query;
+            }
+        }
     },
 
     computed: {
