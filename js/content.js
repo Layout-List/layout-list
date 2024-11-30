@@ -527,8 +527,16 @@ export async function fetchStaff() {
     try {
         const staffResults = await fetch(`${dir}/_staff.json`);
         const staff = await staffResults.json();
+
+        // add link to editor if there isn't one
+        for (const editor of staff) {
+            if (!editor.link)
+                editor.link = "https://laylist.pages.dev/#/leaderboard/user/" +
+                    editor.name.toLowerCase().replaceAll(" ", "_");
+        }
         return staff;
-    } catch {
+    } catch (e) {
+        console.error(`failed to fetch staff: ${e}`)
         return null;
     }
 }

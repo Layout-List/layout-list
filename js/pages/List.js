@@ -149,8 +149,7 @@ export default {
                         <ol class="staff">
                             <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
-                                <p v-else>{{ editor.name }}</p>
+                                <a class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                             </li>
                         </ol>
                     </template>
