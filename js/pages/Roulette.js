@@ -73,7 +73,7 @@ export default {
                                                 target="_blank"
                                                 >{{ currentLevel.songname }}
                                             </a>
-                                        <p>
+                                        </p>
                                     </div>
                                 </div>
                                 <h2><a :href="'https://laylist.pages.dev/#/level/' + currentLevel.path" target="_blank">{{ currentLevel.name }}</a></h2>
