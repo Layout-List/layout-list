@@ -57,7 +57,25 @@ export default {
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(currentLevel.video))" alt="">
                             </a>
                             <div class="meta">
-                                <p>#{{ currentLevel.rank }}</p>
+                                <div class="copy-container">
+                                    <p class="copy-name">
+                                        #{{ currentLevel.rank }}
+                                    </p>
+
+                                    <!-- nong tooltip -->
+                                    <div style="float: right;" class="tooltip" v-if"currentLevel.songlink">
+                                        <p>(NONG)</p>
+
+                                        <p style="text-decoration: underline;">
+                                            <a
+                                                class="tooltiptext"
+                                                :href="currentLevel.songlink"
+                                                target="_blank"
+                                                >{{ currentLevel.songname }}
+                                            </a>
+                                        <p>
+                                    </div>
+                                </div>
                                 <h2><a :href="'https://laylist.pages.dev/#/level/' + currentLevel.path" target="_blank">{{ currentLevel.name }}</a></h2>
                                 <p>{{ currentLevel.id }}</p>
                             </div>
@@ -146,8 +164,11 @@ export default {
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
-                path: lvl.path
+                path: lvl.path,
+                songname: lvl.song ? lvl.song : null,
+                songlink: lvl.songLink ? lvl.songLink : null,
             }));
+            
             const list = [];
             if (this.useMainList) {
                 list.push(...fullListMapped.slice(0, 100));
@@ -164,7 +185,6 @@ export default {
             this.percentage = undefined;
 
             this.loading = false;
-            console.log(this.levels);
         },
         save() {
             localStorage.setItem(
