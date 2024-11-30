@@ -23,7 +23,6 @@ How can I request a feature?
 * [Join our discord](https://discord.gg/K48VRsHsPE) and create a thread in #server-and-list-suggestions, or create an issue on this repo.
 
 
-
 ---
 
 ### List FAQ
@@ -82,19 +81,18 @@ Can I submit multiple levels in one video?
 
 ## List Admins:
 
-* Evil
 * Mystikl
-* Tanginess
+* Xeronius
+* Hydraniac
 
 
 ---
 
 ## List Helpers:
 
-* Asteria.
-* Hydraniac
 * Poke Zach
-* Xeronius
+* skip
+* Evil
 
 
 ---
@@ -102,3 +100,5 @@ Can I submit multiple levels in one video?
 ## List Developers:
 
 * sphericle
+
+

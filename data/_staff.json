@@ -1,28 +1,23 @@
 [
     {
         "role": "owner",
-        "name": "Evil",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
-    },
-    {
-        "role": "owner",
         "name": "Mystikl",
         "link": "https://www.youtube.com/@lMystikl"
     },
     {
         "role": "owner",
-        "name": "Tanginess",
-        "link": "https://www.youtube.com/channel/UCMtN24VDa4x5OfENd6zMxXQ"
-    },
-    {
-        "role": "helper",
-        "name": "Asteria.",
-        "link": "https://www.youtube.com/@Asteriiiaa"
-    },
-    {
-        "role": "helper",
         "name": "Hydraniac",
         "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
+    },
+    {
+        "role": "owner",
+        "name": "Xeronius",
+        "link": "https://www.youtube.com/@Xeronius_"
+    },
+    {
+        "role": "helper",
+        "name": "Evil",
+        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
     },
     {
         "role": "helper",
@@ -31,8 +26,8 @@
     },
     {
         "role": "helper",
-        "name": "Xeronius",
-        "link": "https://www.youtube.com/@Xeronius_"
+        "name": "skip",
+        "link": "https://www.youtube.com/channel/UCKikz8doJyt1OA_68Kareig"
     },
     {
         "role": "dev",
