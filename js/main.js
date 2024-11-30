@@ -1,5 +1,5 @@
 import routes from "./routes.js";
-import { fetchList, fetchLeaderboard, fetchPacks } from "./content.js";
+import { fetchList, fetchLeaderboard, fetchPacks, fetchStaff } from "./content.js";
 
 console.clear();
 
@@ -42,7 +42,17 @@ if (localStorage.getItem("version") !== version.toString()) {
     let cookiePacks = await fetchPacks(cookieList);
     localStorage.setItem("packsdata", compressData(cookiePacks));
 
+    let cookieStaff = await fetchStaff();
+    localStorage.setItem("staffdata", compressData(cookieStaff));
+
     localStorage.setItem('version', version.toString())
+}
+
+// Compress and store staff locally if it doesn't exist
+if (!localStorage.getItem("staffdata")) {
+    console.warn("Staff not found in cache, refreshing...");
+    let cookieStaff = await fetchStaff();
+    localStorage.setItem("staffdata", compressData(cookieStaff));
 }
 
 // Compress and store list locally if it doesn't exist
@@ -88,6 +98,9 @@ export let store = Vue.reactive({
     list: localStorage.getItem("listdata")
         ? decompressData(localStorage.getItem("listdata"))
         : null,
+    staff: localStorage.getItem("staffdata")
+        ? decompressData(localStorage.getItem("staffdata"))
+        : null,
     leaderboard: localStorage.getItem("leaderboarddata")
         ? decompressData(localStorage.getItem("leaderboarddata"))
         : null,
@@ -115,14 +128,19 @@ let app = Vue.createApp({
                 console.info("Found new data in list! Overwriting...");
                 localStorage.setItem("listdata", compressData(updatedList));
             }
+            // Update staff if it's different than what's stored locally
+            const updatedStaff = await fetchStaff();
+            if (JSON.stringify(updatedStaff) !== JSON.stringify(store.staff)) {
+                console.info("Found new staff! Overwriting...");
+                localStorage.setItem("staffdata", compressData(updatedStaff));
+            }
             // Update leaderboard if it's different than what's stored locally
             const updatedLeaderboard = await fetchLeaderboard(updatedList);
-            if (JSON.stringify(updatedLeaderboard) !==JSON.stringify(store.leaderboard)) {
+            if (JSON.stringify(updatedLeaderboard) !== JSON.stringify(store.leaderboard)) {
                 console.info("Found new data in leaderboard! Overwriting...");
                 localStorage.setItem("listdata", compressData(updatedList));
                 localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
             }
-
             // Update packs if it's different than what's stored locally
             const updatedPacks = await fetchPacks(updatedList);
             if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
@@ -132,6 +150,7 @@ let app = Vue.createApp({
             }
 
             store.list = updatedList;
+            store.staff = updatedStaff;
             store.leaderboard = updatedLeaderboard;
             store.packs = updatedPacks;
             store.errors = updatedLeaderboard[1]; // Levels with errors are stored here

@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor} from '../config.js';
-import { fetchStaff, averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchTierMinimum } from '../content.js';
+import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
@@ -317,7 +317,7 @@ export default {
     async mounted() {
         // Fetch list from store
         this.list = this.store.list;
-        this.staff = await fetchStaff();
+        this.staff = store.staff;
 
         if (this.$route.params.level) {
             const returnedIndex = this.list.findIndex(
@@ -380,7 +380,8 @@ export default {
     watch: {        
         store: {
             handler(updated) {
-                this.list = updated.list
+                this.list = updated.list;
+                this.staff = updated.staff;
                 updated.errors.forEach(err => {
                     this.errors.push(`Failed to load level. (${err}.json)`);
                 })
