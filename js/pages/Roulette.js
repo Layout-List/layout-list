@@ -63,7 +63,7 @@ export default {
                                     </p>
 
                                     <!-- nong tooltip -->
-                                    <div style="float: right;" class="tooltip" v-if"currentLevel.songlink">
+                                    <div style="float: right;" class="tooltip" v-if="currentLevel.songlink !== null">
                                         <p>(NONG)</p>
 
                                         <p style="text-decoration: underline;">
