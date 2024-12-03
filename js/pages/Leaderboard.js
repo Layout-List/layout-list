@@ -154,7 +154,20 @@ export default {
         rgbaBind,
         lightPackColor,
         darkPackColor,
-        copyURL
+        copyURL,
+        selectFromParam() {
+            if (this.$route.params.user) {
+                const returnedIndex = this.leaderboard.findIndex(
+                    (entry) => 
+                        entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user.toLowerCase()
+                );
+                if (returnedIndex !== -1) this.selected = returnedIndex;
+                else {
+                    this.notFound = this.$route.params.user;
+                    console.log(this.notFound)
+                }
+            }
+        }
     },
 
     computed: {
@@ -183,18 +196,8 @@ export default {
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
-
-        if (this.$route.params.user) {
-            const returnedIndex = this.leaderboard.findIndex(
-                (entry) => 
-                    entry.user.toLowerCase().replaceAll(" ", "_") === this.$route.params.user.toLowerCase()
-            );
-            if (returnedIndex !== -1) this.selected = returnedIndex;
-            else {
-                this.notFound = this.$route.params.user;
-                console.log(this.notFound)
-            }
-        }
+        
+        selectFromParam()
 
         // Hide loading spinner
         this.loading = false;
@@ -204,7 +207,8 @@ export default {
         store: {
             handler(updated) {
                 this.leaderboard = updated.leaderboard[0]
-                this.err = updated.errors   
+                this.err = updated.errors
+                selectFromParam()
             }, 
             deep: true
         }
