@@ -197,7 +197,7 @@ export default {
         this.leaderboard = leaderboard;
         this.err = err;
         
-        selectFromParam()
+        this.selectFromParam()
 
         // Hide loading spinner
         this.loading = false;
@@ -208,7 +208,7 @@ export default {
             handler(updated) {
                 this.leaderboard = updated.leaderboard[0]
                 this.err = updated.errors
-                selectFromParam()
+                this.selectFromParam()
             }, 
             deep: true
         }

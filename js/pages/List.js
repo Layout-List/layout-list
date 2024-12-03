@@ -329,7 +329,7 @@ export default {
         this.list = this.store.list;
         this.staff = store.staff;
         
-        selectFromParam()
+        this.selectFromParam()
 
         // Error handling
         if (!this.list) {
@@ -387,7 +387,7 @@ export default {
                 updated.errors.forEach(err => {
                     this.errors.push(`Failed to load level. (${err}.json)`);
                 })
-                selectFromParam()
+                this.selectFromParam()
             }, 
             deep: true
         }
