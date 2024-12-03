@@ -267,13 +267,23 @@ export default {
         fetchTierLength,
         localize,
         copyURL,
-        
         // used for the ability to deselect tag filters
         search(query) {
             if (this.searchQuery === query) {
                 this.searchQuery = '';
             } else {
                 this.searchQuery = query;
+            }
+        },
+        selectFromParam() {
+            if (this.$route.params.level) {
+                const returnedIndex = this.list.findIndex(
+                    ([err, rank, lvl]) => 
+                        lvl.path === this.$route.params.level 
+                );
+                
+                if (returnedIndex === -1) this.errors.push(`The level ${this.$route.params.level} does not exist, please double check the URL.`);
+                else this.selected = returnedIndex;
             }
         }
     },
@@ -318,16 +328,8 @@ export default {
         // Fetch list from store
         this.list = this.store.list;
         this.staff = store.staff;
-
-        if (this.$route.params.level) {
-            const returnedIndex = this.list.findIndex(
-                ([err, rank, lvl]) => 
-                    lvl.path === this.$route.params.level 
-            );
-            
-            if (returnedIndex === -1) this.errors.push(`The level ${this.$route.params.level} does not exist, please double check the URL.`);
-            else this.selected = returnedIndex;
-        }
+        
+        this.selectFromParam()
 
         // Error handling
         if (!this.list) {
@@ -385,6 +387,7 @@ export default {
                 updated.errors.forEach(err => {
                     this.errors.push(`Failed to load level. (${err}.json)`);
                 })
+                this.selectFromParam()
             }, 
             deep: true
         }

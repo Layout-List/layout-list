@@ -275,6 +275,21 @@ export default {
                 return;
             }
         },
+        selectFromParam() {
+            if (this.$route.params.pack) {
+                const returnedIndex = this.packs.findIndex(
+                    (pack) =>
+                        pack.name.toLowerCase().replaceAll(" ", "_") ===
+                        this.$route.params.pack
+                );
+
+                if (returnedIndex === -1)
+                    this.errors.push(
+                        `The pack ${this.$route.params.pack} does not exist, please double check the URL.`
+                    );
+                else this.selectPack(returnedIndex, this.packs[returnedIndex]);
+            }
+        },
         reactiveOpaque(color, index) {
             try {
                 if (this.selectedPackIndex === index) {
@@ -337,19 +352,7 @@ export default {
         // It's easier to initialize the site like this
         this.selectPack(0, this.packs[0]);
 
-        if (this.$route.params.pack) {
-            const returnedIndex = this.packs.findIndex(
-                (pack) =>
-                    pack.name.toLowerCase().replaceAll(" ", "_") ===
-                    this.$route.params.pack
-            );
-
-            if (returnedIndex === -1)
-                this.errors.push(
-                    `The pack ${this.$route.params.pack} does not exist, please double check the URL.`
-                );
-            else this.selectPack(returnedIndex, this.packs[returnedIndex]);
-        }
+        this.selectFromParam();
 
         // Hide loading spinner
         this.loading = false;
@@ -364,6 +367,7 @@ export default {
                     this.selectedPackIndex,
                     this.packs[this.selectedPackIndex]
                 );
+                this.selectFromParam();
                 updated.errors.forEach((err) =>
                     this.errors.push(`Failed to load level. (${err}.json)`)
                 );

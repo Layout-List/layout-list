@@ -214,21 +214,21 @@
         ]
     },
     {
+        "name": "Long Pack 3",
+        "difficulty": 6,
+        "levels": [
+            "light_it_up",
+            "cruelty_of_hope",
+            "karma"
+        ]
+    },
+    {
         "name": "zDark Verification Pack",
         "difficulty": 6, 
         "levels": [
             "lost",
             "tails_doll_007",
             "so_based"
-        ]
-    },
-    {
-        "name": "Long Pack 3", 
-        "difficulty": 6, 
-        "levels": [
-            "light_it_up",
-            "cruelty_of_hope",
-            "karma"
         ]
     },
     {
