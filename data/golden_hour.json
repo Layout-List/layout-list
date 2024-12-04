@@ -57,7 +57,13 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 3
+        },
+        {
+            "user": "azakl",
+            "link": "https://youtu.be/3EOXjd8Io7s",
+            "percent": 100,
+            "mobile": false,
+            "enjoyment": 2
         }
-        
     ]
 }

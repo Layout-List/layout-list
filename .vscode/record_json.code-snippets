@@ -6,7 +6,7 @@
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
 	// Placeholders with the same ids are connected.
 
-	"Print to console": {
+	"Record JSON template": {
 		"scope": "json",
 		"prefix": "recform",
 		"body": [
@@ -14,11 +14,11 @@
 			"{",
 			"\t\"user\": \"${1:username}\",",
 			"\t\"link\": \"${2:video}\",",
-			"\t\"percent\": \"$3\",",
+			"\t\"percent\": ${3:100},",
 			"\t\"mobile\": ${4:false},",
 			"\t\"enjoyment\": ${5:enjoyment}",
 			"}",
 		],
-		"description": "sdfsdfsdfe"
+		"description": "d"
 	}
 }
