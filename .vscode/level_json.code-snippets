@@ -11,7 +11,7 @@
 		"prefix": "lvlform",
 		"body": [
 			"{",
-			"\t\"id\": \"${1:Level ID}\",",
+			"\t\"id\": ${1:Level ID},",
 			"\t\"name\": \"${2:Level Name}\",",
 			"\t\"author\": \"${3:Uploader}\",",
 			"\t\"creators\": [",
