@@ -64,9 +64,12 @@ export default {
 
                                     <!-- nong tooltip -->
                                     <div style="float: right;" class="tooltip" v-if="currentLevel.songlink !== null">
-                                        <p style="cursor: pointer;">(NONG)</p>
+                                        <p
+                                            style="cursor: pointer;"
+                                            @click="nongClicked = !nongClicked"
 
-                                        <p style="text-decoration: underline;">
+                                        >(NONG)</p> <!-- this doesn't use css :hover so mobile users can click it -->
+                                        <p style="text-decoration: underline;" :style="{visibility: nongClicked ? 'visible' : 'initial'}">
                                             <a
                                                 class="tooltiptext"
                                                 :href="currentLevel.songlink"
@@ -130,6 +133,7 @@ export default {
         givenUp: false,
         showRemaining: false,
         store,
+        nongClicked: false,
     }),
 
     methods: {
