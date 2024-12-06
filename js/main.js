@@ -114,48 +114,42 @@ export let store = Vue.reactive({
 let app = Vue.createApp({
     data: () => ({ store }),
 
-    mounted() {
-        this.runAfterMount();
-    },
+    async mounted() {
+        console.info("Pre-load completed, checking for new data...");
+        store.loaded = true;
+        // Update list if it's different than what's stored locally
+        const updatedList = await fetchList();
+        if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
+            console.info("Found new data in list! Overwriting...");
+            localStorage.setItem("listdata", compressData(updatedList));
+        }
+        // Update staff if it's different than what's stored locally
+        const updatedStaff = await fetchStaff();
+        if (JSON.stringify(updatedStaff) !== JSON.stringify(store.staff)) {
+            console.info("Found new staff! Overwriting...");
+            localStorage.setItem("staffdata", compressData(updatedStaff));
+        }
+        // Update leaderboard if it's different than what's stored locally
+        const updatedLeaderboard = await fetchLeaderboard(updatedList);
+        if (JSON.stringify(updatedLeaderboard) !== JSON.stringify(store.leaderboard)) {
+            console.info("Found new data in leaderboard! Overwriting...");
+            localStorage.setItem("listdata", compressData(updatedList));
+            localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
+        }
+        // Update packs if it's different than what's stored locally
+        const updatedPacks = await fetchPacks(updatedList);
+        if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
+            console.info("Found new data in packs! Overwriting...");
+            localStorage.setItem("listdata", compressData(updatedList));
+            localStorage.setItem("packsdata", compressData(updatedPacks));
+        }
 
-    methods: {
-        async runAfterMount() {
-            console.info("Pre-load completed, checking for new data...");
-            store.loaded = true;
-            // Update list if it's different than what's stored locally
-            const updatedList = await fetchList();
-            if (JSON.stringify(updatedList) !== JSON.stringify(store.list)) {
-                console.info("Found new data in list! Overwriting...");
-                localStorage.setItem("listdata", compressData(updatedList));
-            }
-            // Update staff if it's different than what's stored locally
-            const updatedStaff = await fetchStaff();
-            if (JSON.stringify(updatedStaff) !== JSON.stringify(store.staff)) {
-                console.info("Found new staff! Overwriting...");
-                localStorage.setItem("staffdata", compressData(updatedStaff));
-            }
-            // Update leaderboard if it's different than what's stored locally
-            const updatedLeaderboard = await fetchLeaderboard(updatedList);
-            if (JSON.stringify(updatedLeaderboard) !== JSON.stringify(store.leaderboard)) {
-                console.info("Found new data in leaderboard! Overwriting...");
-                localStorage.setItem("listdata", compressData(updatedList));
-                localStorage.setItem("leaderboarddata", compressData(updatedLeaderboard));
-            }
-            // Update packs if it's different than what's stored locally
-            const updatedPacks = await fetchPacks(updatedList);
-            if (JSON.stringify(updatedPacks) !== JSON.stringify(store.packs)) {
-                console.info("Found new data in packs! Overwriting...");
-                localStorage.setItem("listdata", compressData(updatedList));
-                localStorage.setItem("packsdata", compressData(updatedPacks));
-            }
-
-            store.list = updatedList;
-            store.staff = updatedStaff;
-            store.leaderboard = updatedLeaderboard;
-            store.packs = updatedPacks;
-            store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
-            console.info("Up to date!");
-        },
+        store.list = updatedList;
+        store.staff = updatedStaff;
+        store.leaderboard = updatedLeaderboard;
+        store.packs = updatedPacks;
+        store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
+        console.info("Up to date!");
     },
 });
 

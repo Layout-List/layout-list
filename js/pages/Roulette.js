@@ -61,20 +61,13 @@ export default {
                                     <p class="copy-name">
                                         #{{ currentLevel.rank }}
                                     </p>
-
-                                    <!-- nong tooltip -->
+                                    
                                     <div style="float: right;" class="tooltip" v-if="currentLevel.songlink !== null">
-                                        <p
-                                            style="cursor: pointer;"
-                                            @click="nongClicked = !nongClicked"
-
-                                        >(NONG)</p> <!-- click binding used in combination with css :hover for mobile users -->
-                                        <p style="text-decoration: underline;" :style="{visibility: nongClicked ? 'visible' : 'initial'}">
+                                        <p style="text-decoration: underline; text-align: right; text-wrap: nowrap; max-width: 5in">
                                             <a
-                                                class="tooltiptext"
                                                 :href="currentLevel.songlink"
                                                 target="_blank"
-                                                >{{ currentLevel.songname }}
+                                            >Nong: {{ currentLevel.songname }}
                                             </a>
                                         </p>
                                     </div>
@@ -172,7 +165,7 @@ export default {
                 songname: lvl.song ? lvl.song : null,
                 songlink: lvl.songLink ? lvl.songLink : null,
             }));
-            
+
             const list = [];
             if (this.useMainList) {
                 list.push(...fullListMapped.slice(0, 100));
@@ -333,7 +326,7 @@ export default {
             handler(updated) {
                 this.list = updated.list
                 updated.errors.forEach(err => this.errors.push(`Failed to load level. (${err}.json)`))
-            }, 
+            },
             deep: true
         }
     },
