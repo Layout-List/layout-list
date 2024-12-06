@@ -1223,6 +1223,14 @@
             "hz": 165,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "xoron",
+            "link": "https://youtu.be/EO2aPl611rg",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 5
         }
     ]
 }
