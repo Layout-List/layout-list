@@ -68,7 +68,7 @@ export default {
                                             style="cursor: pointer;"
                                             @click="nongClicked = !nongClicked"
 
-                                        >(NONG)</p> <!-- this doesn't use css :hover so mobile users can click it -->
+                                        >(NONG)</p> <!-- click binding used in combination with css :hover for mobile users -->
                                         <p style="text-decoration: underline;" :style="{visibility: nongClicked ? 'visible' : 'initial'}">
                                             <a
                                                 class="tooltiptext"
