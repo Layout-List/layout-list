@@ -11,6 +11,14 @@
     "difficulty": 5,
     "enjoyment": 7,
     "records": [
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/M3ClkMTc_sw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
+        }
         
     ]
 }
