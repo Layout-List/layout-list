@@ -168,6 +168,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "Sarryz",
+            "link": "YouTube.com/watch?v=6W6M-17DseQ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }
