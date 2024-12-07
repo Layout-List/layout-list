@@ -81,6 +81,14 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "vit",
+            "link": "https://www.youtube.com/watch?v=_S2RXW9tlHw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
