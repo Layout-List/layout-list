@@ -174,7 +174,7 @@
             "link": "https://drive.google.com/file/d/1Omf1XPvPZlEGyuZUwFxcLw8GdhlbFfkg/view?usp=sharing",
             "percent": 100,
             "hz": 60,
-            "mobile": true,
+            "mobile": false,
             "enjoyment": 6
         }
     ]
