@@ -1231,6 +1231,14 @@
             "hz": 480,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "LuminGMD",
+            "link": "https://youtu.be/s2sMGVsHlJw?si=1GkX8J3NKc_FQzIE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": true,
+            "enjoyment": 10
         }
     ]
 }
