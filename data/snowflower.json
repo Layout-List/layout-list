@@ -249,6 +249,14 @@
             "hz": 165,
             "mobile": false,
             "enjoyment": 5
+        },
+        {
+            "user": "orang cat",
+            "link": "https://www.youtube.com/watch?v=7bt2OWQF7Rs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
         }
     ]
 }
