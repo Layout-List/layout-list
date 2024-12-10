@@ -418,6 +418,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": "?"
+        },
+        {
+            "user": "GreekSpy",
+            "link": "https://youtu.be/zVsac5Bcb1A",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
