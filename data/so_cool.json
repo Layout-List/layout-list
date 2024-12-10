@@ -1239,6 +1239,14 @@
             "hz": 240,
             "mobile": true,
             "enjoyment": 10
+        },
+        {
+            "user": "xXfinnXx",
+            "link": "https://youtu.be/fEpuFvhpBno",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
         }
     ]
 }
