@@ -719,6 +719,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 7
+        },
+        {
+            "user": "orang cat",
+            "link": "https://www.youtube.com/watch?v=7bt2OWQF7Rs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
