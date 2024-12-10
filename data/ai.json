@@ -117,6 +117,14 @@
             "hz": 240,
             "mobile": false,
             "enjoyment": 8
+        },
+        {
+            "user": "cartermon",
+            "link": "https://www.youtube.com/watch?v=RBRKBcYNqIc",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
