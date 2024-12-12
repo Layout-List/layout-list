@@ -1,23 +1,29 @@
 {
-    "id": 80341120,
-    "name": "Unnamed Layout",
-    "author": "Wingz_GD",
-    "creators": [],
-    "verifier": "Wingz_GD",
-    "verification": "https://youtu.be/nYpjjcc-K7E?si=tVs2IjNcAkvCsfth",
-    "percentToQualify": 100,
-    "song": "Creo - Dark Rides",
-    "difficulty": 0,
-    "enjoyment": 9,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/DpUzNBirtOs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        }
-        
-    ]
+	"id": 80341120,
+	"name": "Unnamed Layout",
+	"author": "Wingz_GD",
+	"creators": [],
+	"verifier": "Wingz_GD",
+	"verification": "https://youtu.be/nYpjjcc-K7E?si=tVs2IjNcAkvCsfth",
+	"percentToQualify": 100,
+	"song": "Creo - Dark Rides",
+	"difficulty": 0,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/DpUzNBirtOs",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
