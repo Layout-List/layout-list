@@ -24,6 +24,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/vAUt_aTBF-8?si=M1aH-VIvykkQJnaw",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": null
 		}
 	]
 }
