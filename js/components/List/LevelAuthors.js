@@ -22,7 +22,7 @@ export default {
                     <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
                 </p>
             </template>
-            <template v-else-if="creators.length === 0">
+            <template v-else-if="creators.length === 0 || creators.length === 1 && creators[0] === author">
                 <div class="type-title-sm">Creator</div>
                 <p class="type-body">
                     <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
