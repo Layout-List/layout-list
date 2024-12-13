@@ -76,15 +76,19 @@
     table-layout: fixed;
 }
 .page-leaderboard .player .table tr td:not(:last-child) {
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 .page-leaderboard .player .table p,
 .page-leaderboard .player .table a {
     padding-block: 1rem;
 }
-.page-leaderboard .player .table .rank p,
+.page-leaderboard .player .table .rank p {
+    text-align: end;
+    padding-right: 1rem;
+}
 .page-leaderboard .player .table .score p {
     text-align: end;
+    padding-left: 0.5rem;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
