@@ -128,8 +128,6 @@ export async function fetchLeaderboard(list) {
     const packs = await fetchPacks(list);
     const flagResult = await fetch(`${dir}/_flags.json`);
     const flags = flagResult.json()
-    
-    record.flag = flags[record.user];
 
     const scoreMap = {};
     const errs = [];
