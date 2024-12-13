@@ -339,6 +339,7 @@ export async function fetchLeaderboard(list) {
                     level: level.name,
                     score: completedScore,
                     link: record.link,
+                    mobile: record.mobile,
                     rating: record.enjoyment,
                 });
                 
