@@ -191,3 +191,20 @@
     text-wrap: nowrap;
     padding: 0rem;
 }
+
+.flag {
+    width: 2.2rem;
+    display: inline-block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

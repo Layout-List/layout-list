@@ -97,3 +97,18 @@
     gap: 0.5rem;
     flex-wrap: wrap;
 }
+
+.copy-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 0.5rem; /* Add spacing between the elements */
+}
+
+.copy-name {
+    margin: 0; /* Reset default margin */
+}
+
+.flag {
+    width: 20px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}

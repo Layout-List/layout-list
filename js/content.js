@@ -15,8 +15,10 @@ const benchmarker = '_';
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     const packResult = await fetch(`${dir}/_packs.json`);
+    const flagResult = await fetch(`${dir}/_flags.json`);
     try {
         const list = await listResult.json();
+        const flags = await flagResult.json();
         let packsMap = []
         try {
             packsMap = await packResult.json();
@@ -45,6 +47,19 @@ export async function fetchList() {
                     let level = await levelResult.json(); // no longer a constant so we can wrap in the path
 
                     level["path"] = path;
+
+                    try {
+                        if (level.records) {
+                            // for each record, look up "user" in the flag map and add flag property to their record
+                            level.records.forEach((record) => {
+                                record.flag = flags[record.user];
+                                console.log(record)
+                            });
+
+                        }
+                    } catch (e) {
+                        console.error(`failed to process flags: ${e}`)
+                    }
                     
                     try {
                         if (packsMap[0] !== "err") {
@@ -122,7 +137,6 @@ export async function fetchLeaderboard(list) {
     if (list === null) {
         return [null, ['Failed to load list.']];
     }
-
     list.forEach(([err, rank, level]) => {
         if (err) {
             errs.push(err);
@@ -234,6 +248,8 @@ export async function fetchLeaderboard(list) {
             link: level.verification,
         });
 
+
+
         
         
         // fake completed levels object, 
@@ -257,7 +273,8 @@ export async function fetchLeaderboard(list) {
                 verified: [],
                 completed: [],
                 progressed: [],
-                userPacks: [] 
+                userPacks: [],
+                flag: record.flag,
             };
             
             completedPacksMap[user] ??= new Set();
@@ -357,7 +374,7 @@ export async function fetchLeaderboard(list) {
     // Wrap in extra Object containing the user and total score
 
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { created, verified, completed, progressed} = scores;
+        const { created, verified, completed, progressed, flag} = scores;
 
 
         let total = [completed, progressed]
@@ -371,6 +388,7 @@ export async function fetchLeaderboard(list) {
 
         return {
             user,
+            flag, 
             total: round(total),
             possibleMax,
             userPacks: scores.userPacks,
