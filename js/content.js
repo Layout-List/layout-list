@@ -53,7 +53,6 @@ export async function fetchList() {
                             // for each record, look up "user" in the flag map and add flag property to their record
                             level.records.forEach((record) => {
                                 record.flag = flags[record.user];
-                                console.log(record)
                             });
 
                         }
@@ -127,6 +126,10 @@ export async function fetchList() {
 
 export async function fetchLeaderboard(list) {
     const packs = await fetchPacks(list);
+    const flagResult = await fetch(`${dir}/_flags.json`);
+    const flags = flagResult.json()
+    
+    record.flag = flags[record.user];
 
     const scoreMap = {};
     const errs = [];
@@ -157,6 +160,7 @@ export async function fetchLeaderboard(list) {
             completed: [],
             progressed: [],
             userPacks: [],
+            flag: flags[level.author]
         };
 
         const { created } = scoreMap[author];
@@ -177,6 +181,7 @@ export async function fetchLeaderboard(list) {
                 completed: [],
                 progressed: [],
                 userPacks: [],
+                flag: flags[person]
             };
             const { created } = scoreMap[creator];
             created.push({
@@ -196,6 +201,7 @@ export async function fetchLeaderboard(list) {
             completed: [],
             progressed: [],
             userPacks: [],
+            flag: flags[level.verifier]
         };
         completedPacksMap[verifier] ??= new Set();
 
