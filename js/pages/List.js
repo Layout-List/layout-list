@@ -104,8 +104,8 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                     <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                    <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
                             <td class="mobile">
