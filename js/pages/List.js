@@ -145,7 +145,7 @@ export default {
                     <div class="og">
                         <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
                     </div>
-                    <hr width="100%" color = black size="4">
+                    <hr class="divider">
                     <template v-if="staff">
                         <h3>List Staff</h3>
                         <ol class="staff">
@@ -155,7 +155,7 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <hr width="100%" color = black size="4">
+                    <hr class="divider">
                     <h3>Tags</h3>
 
                     <p style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
@@ -164,7 +164,7 @@ export default {
                     <p style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
                     <p style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
 
-                    <hr width="100%" color = black size="4">
+                    <hr class="divider">
                     <h3>Record Submission Requirements</h3>
                     <div class="right-text">
                         <p>
@@ -192,7 +192,7 @@ export default {
                             Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
                         </p>
                     </div>
-                    <hr width="100%" color = black size="4">
+                    <hr class="divider">
                     <h3>Difficulty Rankings</h3>
                     <div class="right-text">
                         <p>
@@ -223,7 +223,7 @@ export default {
                             Beginner Layout = Non Demons (1 to 5 Points)
                         </p>
                     </div>
-                    <hr width="100%" color = black size="4">
+                    <hr class="divider">
                     <div class="right-text">
                         <p>
                             For your convenience, the Layout List caches the data for the list in your browser.

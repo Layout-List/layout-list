@@ -108,6 +108,10 @@ input[type="checkbox"] {
     opacity: 0.3;
 }
 
+.divider {
+    width: 100%;
+    border: 1px solid var(--color-on-background);
+}
 
 .search {
     border-radius: 14px;
