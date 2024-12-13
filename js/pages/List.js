@@ -108,14 +108,12 @@ export default {
                                     <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                                 </div>
                             </td>
-
+                            <td class="mobile">
+                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+                            </td>
                             <td class="enjoyment">
                                 <p v-if="record.enjoyment === undefined">?/10</p>
                                 <p v-else>{{ record.enjoyment }}/10</p>
-                            </td>
-                            <td class="mobile">
-                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
-
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}FPS</p>
