@@ -104,7 +104,7 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <img class="flag" v-if="record.flag" :src="'/assets/flags/' + record.flag + '.svg'" alt="flag">
+                                    <img class="flag" v-if="record.flag" :src="'/js/flags/' + (record.flag) + '.svg'" alt="flag">
                                     <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                                 </div>
                             </td>
