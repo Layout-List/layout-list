@@ -355,6 +355,7 @@ export async function fetchLeaderboard(list) {
                 percent: record.percent,
                 score: progressedScore,
                 link: record.link,
+                mobile: record.mobile,
                 rating: record.enjoyment,
             });
 
