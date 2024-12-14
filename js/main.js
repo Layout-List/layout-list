@@ -7,6 +7,9 @@ console.clear();
 // the cached data if we push changes that would conflict with the old data, 
 // to prevent showing a billion error messages.
 export const version = 3.2
+const debug = false;
+
+export let store;
 
 // Compresses data passed to the function using Gzip
 function compressData(data) {
@@ -30,86 +33,108 @@ function decompressData(compressedData) {
     return JSON.parse(decompressed);
 }
 
-// Compare cache version
-if (localStorage.getItem("version") !== version.toString()) {
-    console.warn("Cache is out of date, reloading ALL data!");
-    let cookieList = await fetchList();
-    localStorage.setItem("listdata", compressData(cookieList));
+if (!debug) {
+    // Compare cache version
+    if (localStorage.getItem("version") !== version.toString()) {
+        console.warn("Cache is out of date, reloading ALL data!");
+        let cookieList = await fetchList();
+        localStorage.setItem("listdata", compressData(cookieList));
     
-    let cookieLeaderboard = await fetchLeaderboard(cookieList);
-    localStorage.setItem("leaderboarddata", compressData(cookieLeaderboard));
+        let cookieLeaderboard = await fetchLeaderboard(cookieList);
+        localStorage.setItem("leaderboarddata", compressData(cookieLeaderboard));
     
-    let cookiePacks = await fetchPacks(cookieList);
-    localStorage.setItem("packsdata", compressData(cookiePacks));
+        let cookiePacks = await fetchPacks(cookieList);
+        localStorage.setItem("packsdata", compressData(cookiePacks));
 
-    let cookieStaff = await fetchStaff();
-    localStorage.setItem("staffdata", compressData(cookieStaff));
+        let cookieStaff = await fetchStaff();
+        localStorage.setItem("staffdata", compressData(cookieStaff));
 
-    localStorage.setItem('version', version.toString())
+        localStorage.setItem('version', version.toString())
+    }
+
+    // Compress and store staff locally if it doesn't exist
+    if (!localStorage.getItem("staffdata")) {
+        console.warn("Staff not found in cache, refreshing...");
+        let cookieStaff = await fetchStaff();
+        localStorage.setItem("staffdata", compressData(cookieStaff));
+    }
+
+    // Compress and store list locally if it doesn't exist
+    if (!localStorage.getItem("listdata")) {
+        console.warn("List not found in cache, refreshing...");
+        let cookieList = await fetchList();
+        localStorage.setItem("listdata", compressData(cookieList));
+    }
+
+    // Compress and store leaderboard locally if it doesn't exist
+    if (!localStorage.getItem("leaderboarddata")) {
+        console.warn("Leaderboard not found in cache, refreshing...");
+        let cookieList = localStorage.getItem("listdata")
+            ? decompressData(localStorage.getItem("listdata"))
+            : await fetchList();
+        let cookieLeaderboard = await fetchLeaderboard(cookieList);
+
+        localStorage.setItem("listdata", compressData(cookieList));
+        localStorage.setItem("leaderboarddata", compressData(cookieLeaderboard));
+    }
+
+    // Compress and store packs locally if it doesn't exist
+    if (!localStorage.getItem("packsdata")) {
+        console.warn("Packs not found in cache, refreshing...");
+        let cookieList = localStorage.getItem("listdata")
+            ? decompressData(localStorage.getItem("listdata"))
+            : await fetchList();
+        let cookiePacks = await fetchPacks(cookieList);
+
+        localStorage.setItem("listdata", compressData(cookieList));
+        localStorage.setItem("packsdata", compressData(cookiePacks));
+    }
+
+    // Decompress data when loading it from storage
+    store = Vue.reactive({
+        loaded: false,
+        dark: JSON.parse(localStorage.getItem("dark")) || false,
+        toggleDark() {
+            this.dark = !this.dark;
+            localStorage.setItem("dark", JSON.stringify(this.dark));
+        },
+
+        list: localStorage.getItem("listdata")
+            ? decompressData(localStorage.getItem("listdata"))
+            : null,
+        staff: localStorage.getItem("staffdata")
+            ? decompressData(localStorage.getItem("staffdata"))
+            : null,
+        leaderboard: localStorage.getItem("leaderboarddata")
+            ? decompressData(localStorage.getItem("leaderboarddata"))
+            : null,
+        packs: localStorage.getItem("packsdata")
+            ? decompressData(localStorage.getItem("packsdata"))
+            : null,
+        errors: [],
+        version
+    });
+} else {
+    const list = await fetchList();
+    const leaderboard = await fetchLeaderboard(list);
+    const packs = await fetchPacks(list);
+    const staff = await fetchStaff();
+    store = Vue.reactive({
+        loaded: false,
+        dark: JSON.parse(localStorage.getItem("dark")) || false,
+        toggleDark() {
+            this.dark = !this.dark;
+            localStorage.setItem("dark", JSON.stringify(this.dark));
+        },
+
+        list,
+        staff,
+        packs,
+        leaderboard,
+        errors: [],
+        version
+    });
 }
-
-// Compress and store staff locally if it doesn't exist
-if (!localStorage.getItem("staffdata")) {
-    console.warn("Staff not found in cache, refreshing...");
-    let cookieStaff = await fetchStaff();
-    localStorage.setItem("staffdata", compressData(cookieStaff));
-}
-
-// Compress and store list locally if it doesn't exist
-if (!localStorage.getItem("listdata")) {
-    console.warn("List not found in cache, refreshing...");
-    let cookieList = await fetchList();
-    localStorage.setItem("listdata", compressData(cookieList));
-}
-
-// Compress and store leaderboard locally if it doesn't exist
-if (!localStorage.getItem("leaderboarddata")) {
-    console.warn("Leaderboard not found in cache, refreshing...");
-    let cookieList = localStorage.getItem("listdata")
-        ? decompressData(localStorage.getItem("listdata"))
-        : await fetchList();
-    let cookieLeaderboard = await fetchLeaderboard(cookieList);
-
-    localStorage.setItem("listdata", compressData(cookieList));
-    localStorage.setItem("leaderboarddata", compressData(cookieLeaderboard));
-}
-
-// Compress and store packs locally if it doesn't exist
-if (!localStorage.getItem("packsdata")) {
-    console.warn("Packs not found in cache, refreshing...");
-    let cookieList = localStorage.getItem("listdata")
-        ? decompressData(localStorage.getItem("listdata"))
-        : await fetchList();
-    let cookiePacks = await fetchPacks(cookieList);
-
-    localStorage.setItem("listdata", compressData(cookieList));
-    localStorage.setItem("packsdata", compressData(cookiePacks));
-}
-
-// Decompress data when loading it from storage
-export let store = Vue.reactive({
-    loaded: false,
-    dark: JSON.parse(localStorage.getItem("dark")) || false,
-    toggleDark() {
-        this.dark = !this.dark;
-        localStorage.setItem("dark", JSON.stringify(this.dark));
-    },
-
-    list: localStorage.getItem("listdata")
-        ? decompressData(localStorage.getItem("listdata"))
-        : null,
-    staff: localStorage.getItem("staffdata")
-        ? decompressData(localStorage.getItem("staffdata"))
-        : null,
-    leaderboard: localStorage.getItem("leaderboarddata")
-        ? decompressData(localStorage.getItem("leaderboarddata"))
-        : null,
-    packs: localStorage.getItem("packsdata")
-        ? decompressData(localStorage.getItem("packsdata"))
-        : null,
-    errors: [],
-    version
-});
 
 let app = Vue.createApp({
     data: () => ({ store }),
