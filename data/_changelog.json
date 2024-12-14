@@ -7,5 +7,14 @@
 		"from_rank": 10,
 		"above": "vulture",
 		"below": "sunday"
+	},
+	{
+		"date": 1734201543,
+		"action": "raised",
+		"name": "go_beyond_nerf",
+		"to_rank": 7,
+		"from_rank": 310,
+		"above": "ochi_moi",
+		"below": "incision"
 	}
 ]
