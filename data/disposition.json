@@ -319,7 +319,7 @@
 			"enjoyment": "6"
 		},
 		{
-			"user": "sphericle",
+			"user": "sphericle2",
 			"link": "https://youtu.be/N7bv3dF1GcQ",
 			"percent": 100,
 			"hz": 240,
@@ -333,21 +333,6 @@
 			"hz": 165,
 			"mobile": false,
 			"enjoyment": 5
-		},
-		{
-			"user": "bocopter",
-			"link": "https://www.youtube.com/watch?v=vsTKYTO4Qjw",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "orang cat",
-			"link": "https://www.youtube.com/shorts/YFAsHR5tPp4?feature=share",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 6
 		}
 	]
 }

@@ -1,160 +1,160 @@
 {
-    "id": 66902221,
-    "name": "just for the drop ✨",
-    "author": "sqrtpie",
-    "creators": [],
-    "verifier": "sqrtpie",
-    "verification": "https://youtu.be/_EPo3CmSoUc",
-    "percentToQualify": 55,
-    "song": "Fractal Dreamers - Fortuna Redux",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "ZBosGaming",
-            "link": "https://youtu.be/Jo41B-fasoE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/vgyL6ePhFF8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/h3r1qKJGqyU",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/60sF0hkylqc",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/HeMtqZhtDto",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/DNe8JHQGm68",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/KMM3s9iraps",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "mrutherford1106",
-            "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/tkCDoDdUdVY",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=7grwjoGzfYw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/Or3tP0lbOAA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "sphericle",
-            "link": "https://youtu.be/dsRD7FS5Cug",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/fr3fmie64b4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "1"
-        },
-          {
-            "user": "sn0w",
-            "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/XV68gN9EDYU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/fZ18r3Qk7jA",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 7
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/UfZ0p69pe5E",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+	"id": 66902221,
+	"name": "just for the drop ✨",
+	"author": "sqrtpie",
+	"creators": [],
+	"verifier": "sqrtpie",
+	"verification": "https://youtu.be/_EPo3CmSoUc",
+	"percentToQualify": 55,
+	"song": "Fractal Dreamers - Fortuna Redux",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "ZBosGaming",
+			"link": "https://youtu.be/Jo41B-fasoE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Jab",
+			"link": "https://youtu.be/vgyL6ePhFF8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/h3r1qKJGqyU",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Blathers",
+			"link": "https://youtu.be/60sF0hkylqc",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://youtu.be/HeMtqZhtDto",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/DNe8JHQGm68",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/KMM3s9iraps",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "mrutherford1106",
+			"link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/tkCDoDdUdVY",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=7grwjoGzfYw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/Or3tP0lbOAA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "sphericle2",
+			"link": "https://youtu.be/dsRD7FS5Cug",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/fr3fmie64b4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "1"
+		},
+		{
+			"user": "sn0w",
+			"link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://youtu.be/XV68gN9EDYU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/fZ18r3Qk7jA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": "8"
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/UfZ0p69pe5E",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
 }

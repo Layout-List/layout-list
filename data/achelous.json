@@ -45,6 +45,46 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "sphericle2",
+			"link": "https://youtube.com",
+			"percent": 100,
+			"enjoyment": -1,
+			"hz": 240
+		},
+		{
+			"user": "sphericle2",
+			"link": "https://testrecord.com",
+			"percent": 100,
+			"hz": 240
+		},
+		{
+			"user": "sphericle2",
+			"link": "https://finally.com",
+			"percent": 100,
+			"hz": 240
+		},
+		{
+			"user": "PoolGAMER",
+			"link": "https://youtube.com",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": null
+		},
+		{
+			"user": "Undead",
+			"link": "https://google.com",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "Redd",
+			"link": "https://youtube.com",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": null
 		}
 	]
 }

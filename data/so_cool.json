@@ -573,11 +573,12 @@
 			"mobile": false
 		},
 		{
-			"user": "sphericle",
-			"link": "https://youtu.be/2muwLrQSkgU",
+			"user": "sphericle2",
+			"link": "https://record.com",
 			"percent": 100,
 			"hz": 240,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": -1
 		},
 		{
 			"user": "SinSnrGD",
@@ -1233,27 +1234,10 @@
 			"enjoyment": 5
 		},
 		{
-			"user": "LuminGMD",
-			"link": "https://youtu.be/s2sMGVsHlJw?si=1GkX8J3NKc_FQzIE",
-			"percent": 100,
-			"hz": 240,
-			"mobile": true,
-			"enjoyment": 10
-		},
-		{
-			"user": "xXfinngdXx",
-			"link": "https://youtu.be/fEpuFvhpBno",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "orang cat",
-			"link": "https://youtu.be/XV9Rfm-Ng3A",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 8
+			"user": "sphericle2",
+			"link": "https://youtube.com",
+			"percent": 20,
+			"hz": 240
 		}
 	]
 }
