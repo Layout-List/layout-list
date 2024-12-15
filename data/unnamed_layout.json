@@ -30,6 +30,14 @@
 			"link": "https://youtu.be/vAUt_aTBF-8?si=M1aH-VIvykkQJnaw",
 			"percent": 100,
 			"hz": 144
+		},
+		{
+			"user": "VeraliGD",
+			"link": "https://youtu.be/NErzzGcuBAY?si=qne3Z-pm5MCnav-b",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
