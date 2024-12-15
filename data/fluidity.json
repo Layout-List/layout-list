@@ -57,6 +57,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 7
+        },
+        {
+            "user": "RadiantHun",
+            "link": "https://m.youtube.com/watch?v=zssHubT-hKs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
         }
     ]
 }
