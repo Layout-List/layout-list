@@ -254,7 +254,7 @@
 			"mobile": true
 		},
 		{
-			"user": "sphericle2",
+			"user": "sphericle",
 			"link": "https://youtu.be/2muwLrQSkgU",
 			"percent": 100,
 			"hz": 240,
@@ -764,6 +764,13 @@
 			"hz": 165,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "orang cat",
+			"link": "https://youtu.be/XV9Rfm-Ng3A",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 9
 		}
 	]
 }

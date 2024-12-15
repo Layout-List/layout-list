@@ -1,63 +1,63 @@
 {
-	"id": 107475648,
-	"name": "tw3rking seahorse X",
-	"author": "Hyperbeat",
-	"creators": [],
-	"verifier": "Hyperbeat",
-	"verification": "https://youtu.be/GWHi63uwCgI?si=L8wsR6ek50qZyrEV",
-	"percentToQualify": 100,
-	"song": "Punt - Rich Amiri",
-	"songLink": "https://drive.google.com/file/d/159LLpcwn6ISj2IvUCpIMLwXtrAXvrADK/view?usp=sharing",
-	"difficulty": 2,
-	"enjoyment": 9,
-	"records": [
-		{
-			"user": "sn0w",
-			"link": "https://www.youtube.com/watch?v=KgPqngZoHiw",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/83lKGZPfenE?si=yh-kTalNx215EGYy",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "sphericle2",
-			"link": "https://youtu.be/uJVhQDMfGAI",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Spaace",
-			"link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/OmbmtoXC86g",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 4
-		}
-	]
+    "id": 107475648,
+    "name": "tw3rking seahorse X",
+    "author": "Hyperbeat",
+    "creators": [],
+    "verifier": "Hyperbeat",
+    "verification": "https://youtu.be/GWHi63uwCgI?si=L8wsR6ek50qZyrEV",
+    "percentToQualify": 100,
+    "song": "Punt - Rich Amiri",
+    "songLink": "https://drive.google.com/file/d/159LLpcwn6ISj2IvUCpIMLwXtrAXvrADK/view?usp=sharing",
+    "difficulty": 2,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=KgPqngZoHiw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/83lKGZPfenE?si=yh-kTalNx215EGYy",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "sphericle",
+            "link": "https://youtu.be/uJVhQDMfGAI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/OmbmtoXC86g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        }
+    ]
 }

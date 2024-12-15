@@ -62,7 +62,7 @@
 			"mobile": false
 		},
 		{
-			"user": "sphericle2",
+			"user": "sphericle",
 			"link": "https://youtu.be/YHlC3F4HjxM",
 			"percent": 100,
 			"hz": 240,
@@ -199,6 +199,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": "?"
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/watch?v=xTc9qOo5v0Q&ab_channel=emberkz",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 6
 		}
 	]
 }
