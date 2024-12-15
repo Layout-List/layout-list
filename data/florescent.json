@@ -10,12 +10,6 @@
 	"difficulty": 0,
 	"records": [
 		{
-			"user": "testusernew",
-			"link": "https://www.youtube.com/watch?v=LD53hk7JEyk",
-			"percent": 100,
-			"hz": 60
-		},
-		{
 			"user": "evil",
 			"link": "https://youtu.be/xXhYd_j2j44?si=P-zoWyGSWO7sRMb_",
 			"percent": 100,
