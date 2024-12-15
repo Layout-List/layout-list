@@ -254,6 +254,14 @@
             "hz": 60,
             "mobile": true,
             "enjoyment": 0
+        },
+        {
+            "user": "waves",
+            "link": "https://youtu.be/zSR2sju1jFU",
+            "percent": 100,
+            "hz": 400,
+            "mobile": false,
+            "enjoyment": 4
         }
     ]
 }
