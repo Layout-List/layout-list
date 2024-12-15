@@ -771,6 +771,14 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 9
+		},
+		{
+			"user": "VeraliGD",
+			"link": "https://youtu.be/LtE3J_BuwYI?si=Sfb9Os1UPtFO5Cwr",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }
