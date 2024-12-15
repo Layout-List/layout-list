@@ -1,210 +1,210 @@
 {
-    "id": 72216956,
-    "name": "Peak Adrenaline lay",
-    "author": "ThePhoenix225",
-    "creators": [],
-    "verifier": "ThePhoenix225",
-    "verification": "https://www.youtube.com/watch?v=vLhJKkilJzU",
-    "password": "569590",
-    "percentToQualify": 100,
-    "song": "Creo - Drift",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "agentgiscool",
-            "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "zDark",
-            "link": "https://www.youtube.com/watch?v=fJFD7WLqMkM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Nooob07",
-            "link": "https://www.youtube.com/watch?v=D8fh80VaR6c",
-            "percent": 100,
-            "hz": "60",
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/Vt2zoJZiYAA",
-            "percent": 100,
-            "hz": "144",
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/RX1qRI99nMs",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/YURtYO9mznA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "sphericle",
-            "link": "https://youtu.be/CkFhMdJPRl4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "SinSnrGD",
-            "link": "https://youtu.be/ewh4NEtPwdE",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://www.youtube.com/watch?v=5V-jJ4NJKaM&ab_channel=Kreas",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/vgxVsUtxwOU",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "8"
-        },
-        {
-            "user": "edu",
-            "link": "https://www.youtube.com/watch?v=pQ217kaNan4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=_yb9Fx2o0J0",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": "6"
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/FMI8pWu0W7w",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Iza",
-            "link": "https://www.youtube.com/watch?v=O4tylMbU80A&ab_channel=Sakira",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Tradeskill",
-            "link": "https://youtu.be/vYHucg8xqU8?si=8KZ7MNtJmAi2p9ZJ",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "briskrain",
-            "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-         {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-          {
-            "user": "Asteria.",
-            "link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
-            "percent": 100,
-            "hz": 280,
-            "mobile": false
-        },
-         {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/WV9dvrM50M0?si=F98KbCXz6K2DfhNS",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "QwidziT",
-            "link": "https://www.youtube.com/watch?v=6xH7JmUVjPs&ab_channel=QwiD%5BGMD%5D",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "SuperGabMaker",
-            "link": "https://youtu.be/s6CWkG2P3AQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/g9dyCTJQJyg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
-    ]
+	"id": 72216956,
+	"name": "Peak Adrenaline lay",
+	"author": "ThePhoenix225",
+	"creators": [],
+	"verifier": "ThePhoenix225",
+	"verification": "https://www.youtube.com/watch?v=vLhJKkilJzU",
+	"password": "569590",
+	"percentToQualify": 100,
+	"song": "Creo - Drift",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "agentgiscool",
+			"link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "zDark",
+			"link": "https://www.youtube.com/watch?v=fJFD7WLqMkM",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Nooob07",
+			"link": "https://www.youtube.com/watch?v=D8fh80VaR6c",
+			"percent": 100,
+			"hz": "60",
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/Vt2zoJZiYAA",
+			"percent": 100,
+			"hz": "144",
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/RX1qRI99nMs",
+			"percent": 100,
+			"hz": "360"
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/YURtYO9mznA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "sphericle2",
+			"link": "https://youtu.be/CkFhMdJPRl4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "SinSnrGD",
+			"link": "https://youtu.be/ewh4NEtPwdE",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://www.youtube.com/watch?v=5V-jJ4NJKaM&ab_channel=Kreas",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/vgxVsUtxwOU",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "8"
+		},
+		{
+			"user": "edu",
+			"link": "https://www.youtube.com/watch?v=pQ217kaNan4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=_yb9Fx2o0J0",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": "6"
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/FMI8pWu0W7w",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "nolli",
+			"link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Iza",
+			"link": "https://www.youtube.com/watch?v=O4tylMbU80A&ab_channel=Sakira",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Tradeskill",
+			"link": "https://youtu.be/vYHucg8xqU8?si=8KZ7MNtJmAi2p9ZJ",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "briskrain",
+			"link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Asteria.",
+			"link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
+			"percent": 100,
+			"hz": 280,
+			"mobile": false
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/WV9dvrM50M0?si=F98KbCXz6K2DfhNS",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "QwidziT",
+			"link": "https://www.youtube.com/watch?v=6xH7JmUVjPs&ab_channel=QwiD%5BGMD%5D",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "SuperGabMaker",
+			"link": "https://youtu.be/s6CWkG2P3AQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/g9dyCTJQJyg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		}
+	]
 }
