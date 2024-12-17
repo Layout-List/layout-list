@@ -1,0 +1,70 @@
+{
+    "id": 103884581,
+    "name": "Generic Layout",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Skip",
+    "verification": "https://www.youtube.com/watch?v=P2qj9XiAAbU",
+    "percentToQualify": 61,
+    "song": "Creo - Sphere",
+    "difficulty": 4,
+    "enjoyment": 7,
+    "records": [
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/6ZWsXo5oV_s",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=q-ykzonveYo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 1
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://www.youtube.com/watch?v=p0OtloD1PrE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/KgA334nKC6M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "sans_hanitizer",
+            "link": "https://www.youtube.com/watch?v=MQ1F1DaeZ_k",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        }
+    ]
+}
