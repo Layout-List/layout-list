@@ -1,144 +1,144 @@
 {
-    "id": 97154670,
-    "name": "NO x22",
-    "author": "Tanginess",
-    "creators": [],
-    "verifier": "Tanginess",
-    "verification": "https://www.youtube.com/watch?v=Nn9E-v8GRw4",
-    "percentToQualify": 56,
-    "song": "JPEGMAFIA & Danny Brown - NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO!",
-    "songLink": "https://drive.google.com/file/d/1UqpMzpl3Sd8YMU91MSg3HxVdyp1cijsx/view?usp=drive_link",
-    "difficulty": 4,
-    "records": [
-         {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/Ew_zPzMNVkM?si=y3tYJVIlQnEixkD3",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "9"
-        },
-         {
-            "user": "nolli",
-            "link": "https://www.youtube.com/watch?v=d2nB3Xs0jpY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=dO4QLRimQAY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/ptj1R_qjEuw",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "SarcasticMuch",
-            "link": "https://www.youtube.com/watch?v=B6WxZhKGEDw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/pzDJ6-The9A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "idiotdash",
-            "link": "https://www.youtube.com/watch?v=UWyxAozpaHA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-         {
-            "user": "Skip",
-            "link": "https://youtu.be/p30tj7H1r1s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "The16FigureLimit",
-            "link": "https://youtu.be/WXTU5iiv_u8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://youtu.be/_hGrPZRXzD4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Vink",
-            "link": "https://youtu.be/tXCRr8x7AvY",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "sphericle",
-            "link": "https://youtu.be/ShcwLKsglTI?si=fKGtcu8kf2cT_j9-",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Spaace",
-            "link": "https://youtu.be/UNFvclNhVIU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Tinkle",
-            "link": "https://www.youtube.com/watch?v=wAGPRKw-o_I",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+	"id": 97154670,
+	"name": "NO x22",
+	"author": "Tanginess",
+	"creators": [],
+	"verifier": "Tanginess",
+	"verification": "https://www.youtube.com/watch?v=Nn9E-v8GRw4",
+	"percentToQualify": 56,
+	"song": "JPEGMAFIA & Danny Brown - NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO!",
+	"songLink": "https://drive.google.com/file/d/1UqpMzpl3Sd8YMU91MSg3HxVdyp1cijsx/view?usp=drive_link",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/Ew_zPzMNVkM?si=y3tYJVIlQnEixkD3",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "9"
+		},
+		{
+			"user": "nolli",
+			"link": "https://www.youtube.com/watch?v=d2nB3Xs0jpY",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Riley",
+			"link": "https://www.youtube.com/watch?v=dO4QLRimQAY",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/ptj1R_qjEuw",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": "10"
+		},
+		{
+			"user": "SarcasticMuch",
+			"link": "https://www.youtube.com/watch?v=B6WxZhKGEDw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/pzDJ6-The9A",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "idiotdash",
+			"link": "https://www.youtube.com/watch?v=UWyxAozpaHA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Skip",
+			"link": "https://youtu.be/p30tj7H1r1s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "The16FigureLimit",
+			"link": "https://youtu.be/WXTU5iiv_u8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/_hGrPZRXzD4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/tXCRr8x7AvY",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ShcwLKsglTI?si=fKGtcu8kf2cT_j9-",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Spaace",
+			"link": "https://youtu.be/UNFvclNhVIU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Tinkle",
+			"link": "https://www.youtube.com/watch?v=wAGPRKw-o_I",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		}
+	]
 }
