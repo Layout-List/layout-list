@@ -1,14 +1,20 @@
 {
-    "id": 111787038,
-    "name": "Phoenix",
-    "author": "vitnz",
-    "creators": [],
-    "verifier": "vitnz",
-    "verification": "https://www.youtube.com/watch?v=QUXq_4pmCXg",
-    "percentToQualify": 100,
-    "song": "NCS - Phoenix",
-    "difficulty": 0,
-    "records": [
-        
-    ]
+	"id": 111787038,
+	"name": "Phoenix",
+	"author": "vitnz",
+	"creators": [],
+	"verifier": "vitnz",
+	"verification": "https://www.youtube.com/watch?v=QUXq_4pmCXg",
+	"percentToQualify": 100,
+	"song": "NCS - Phoenix",
+	"difficulty": 0,
+	"records": [
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }
