@@ -257,6 +257,14 @@
             "hz": 360,
             "mobile": false,
             "enjoyment": 9
+        },
+        {
+            "user": "VeraliGD",
+            "link": "https://youtu.be/wnYhLjM3NmU?si=5FBg_CIV9yHqBVLB",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 6
         }
     ]
 }
