@@ -80,6 +80,12 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 1
+		},
+		{
+			"user": "sphericle",
+			"link": "https://google.com",
+			"percent": 100,
+			"hz": 240
 		}
 	]
 }
