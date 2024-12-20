@@ -25,5 +25,14 @@
 		"from_rank": null,
 		"above": "dunkaccino",
 		"below": "dramatic"
+	},
+	{
+		"date": 1734734383,
+		"action": "placed",
+		"name": "testlevel",
+		"to_rank": 300,
+		"from_rank": null,
+		"above": "dunkaccino",
+		"below": "dramatic"
 	}
 ]
