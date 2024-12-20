@@ -43,23 +43,5 @@
 		"from_rank": null,
 		"above": "dunkaccino",
 		"below": "dramatic"
-	},
-	{
-		"date": 1734738909,
-		"action": "raised",
-		"name": "obsidian_aspect",
-		"to_rank": 10,
-		"from_rank": 38,
-		"above": "wipe_me_down",
-		"below": "_ethereallayouts"
-	},
-	{
-		"date": 1734738951,
-		"action": "lowered",
-		"name": "obsidian_aspect",
-		"to_rank": 38,
-		"from_rank": 13,
-		"above": "titanium",
-		"below": "adventurer"
 	}
 ]
