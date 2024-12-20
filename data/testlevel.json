@@ -9,5 +9,12 @@
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "234923942394",
-	"records" : []
+	"records": [
+		{
+			"user": "sphericle",
+			"link": "https://hai.com",
+			"percent": 100,
+			"hz": 240
+		}
+	]
 }
