@@ -89,6 +89,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 0
+		},
+		{
+			"user": "sphericle",
+			"link": "https://hai.com",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": null
 		}
 	]
 }
