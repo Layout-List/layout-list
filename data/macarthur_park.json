@@ -1,16 +1,23 @@
 {
-    "id": 112589773,
-    "name": "MacArthur Park",
-    "author": "monthmai",
-    "creators": [],
-    "verifier": "monthmai",
-    "verification": "https://youtu.be/Fk-syCUbyek?si=yJ6_3cV0j33XTEww",
-    "percentToQualify": 100,
-    "song": "Richard Harris - MacArthur Park",
-    "songLink": "https://drive.google.com/file/d/1CzTiqQfTnS7mjASfrCC1QfraGQJ6aNR_/view?usp=sharing",
-    "difficulty": 1,
-    "enjoyment": 10,
-    "records": [
-        
-    ]
+	"id": 112589773,
+	"name": "MacArthur Park",
+	"author": "monthmai",
+	"creators": [],
+	"verifier": "monthmai",
+	"verification": "https://youtu.be/Fk-syCUbyek?si=yJ6_3cV0j33XTEww",
+	"percentToQualify": 100,
+	"song": "Richard Harris - MacArthur Park",
+	"songLink": "https://drive.google.com/file/d/1CzTiqQfTnS7mjASfrCC1QfraGQJ6aNR_/view?usp=sharing",
+	"difficulty": 1,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		}
+	]
 }
