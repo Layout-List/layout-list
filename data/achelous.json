@@ -24,6 +24,13 @@
 			"enjoyment": 0
 		},
 		{
+			"user": "Robotic",
+			"link": "https://www.youtube.com/watch?v=OVpM4R_zGfk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
 			"user": "Syrcx",
 			"link": "https://www.youtube.com/watch?v=7bj8o7NYoEE",
 			"percent": 100,
@@ -38,13 +45,6 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
-		},
-		{
-			"user": "Robotic",
-			"link": "https://www.youtube.com/watch?v=OVpM4R_zGfk",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
 		}
 	]
 }
