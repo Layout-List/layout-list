@@ -1,1 +1,13 @@
-ewoJImlkIjogMjM5NDI5MzQsCgkibmFtZSI6ICJ0ZXN0bG9sIiwKCSJhdXRob3IiOiAic3BoZXJpY2xlIiwKCSJjcmVhdG9ycyI6IFsKCQkidGVzdCIsCgkJInNwaGVyaWNsZSIsCgkJInRlc3QgMiIKCV0sCgkidmVyaWZpZXIiOiAic3BoZXJpY2xlIiwKCSJ2ZXJpZmljYXRpb24iOiAiaHR0cHM6Ly9oYWkuY29tIiwKCSJwZXJjZW50VG9RdWFsaWZ5IjogMTAwLAoJInBhc3N3b3JkIjogIkZyZWUgdG8gY29weSIsCgkiZGlmZmljdWx0eSI6IDMsCgkic29uZyI6ICJranNkZmtqZGZzIiwKCSJyZWNvcmRzIjogW10KfQ==
+{
+	"id": 23942934,
+	"name": "testlol",
+	"author": "sphericle",
+	"creators": ["test","sphericle","test 2"],
+	"verifier": "sphericle",
+	"verification": "https://hai.com",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 3,
+	"song": "kjsdfkjdfs",
+	"records" : []
+}
