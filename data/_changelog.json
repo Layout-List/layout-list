@@ -16,14 +16,5 @@
 		"from_rank": null,
 		"above": "manipulation",
 		"below": "decorated_layout"
-	},
-	{
-		"date": 1734786378,
-		"action": "raised",
-		"name": "so_based",
-		"to_rank": 30,
-		"from_rank": 53,
-		"above": "celestia",
-		"below": "blade_of_faith"
 	}
 ]
