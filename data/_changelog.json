@@ -16,14 +16,5 @@
 		"from_rank": null,
 		"above": "manipulation",
 		"below": "decorated_layout"
-	},
-	{
-		"date": 1734786719,
-		"action": "lowered",
-		"name": "so_based",
-		"to_rank": 60,
-		"from_rank": 53,
-		"above": "mary_on_a_cross",
-		"below": "myheadhurts"
 	}
 ]
