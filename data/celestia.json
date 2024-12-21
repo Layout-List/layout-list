@@ -1,119 +1,54 @@
-{
-    "id": 102176153,
-    "name": "CELESTIA",
-    "author": "Tanginess",
-    "creators": [],
-    "verifier": "Riley",
-    "verification": "https://youtu.be/NJ0CvB_Cmx0",
-    "showcase": "https://www.youtube.com/watch?v=dXLsdupQXJk",
-    "percentToQualify": 60,
-    "song": "Yabujin - CHALICE OF MIND",
-    "songLink": "https://www.mediafire.com/file/vh9lpagpvuy64w1/68002.mp3/file",
-    "difficulty": 7,
-    "enjoyment": 10,
-    "records": [
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=LXN050bHfaY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Tanginess",
-            "link": "https://youtu.be/ONtf9rLryRE?feature=shared",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "idiotdash",
-            "link": "https://www.youtube.com/watch?v=LGda71OcvTQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Spaace",
-            "link": "https://www.youtube.com/watch?v=JLf_nlVKrAQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/szQv0HgGf2Y",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/WhJAt0yNY4E",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Dangadash",
-            "link": "https://www.youtube.com/watch?v=QGvLEVYzDE8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/Y-yVgSTDcsw?si=C2uvyN4aVNB7Psl5",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Skip",
-            "link": "https://www.youtube.com/watch?v=vrMx2bPymYw&",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-            
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/WgZLmZhFFdU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=8CX2-3vEEsE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Dominez",
-            "link": "https://youtu.be/BlKHYRNa0A8",
-            "percent": 100,
-            "hz": 480,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=EK9Y9GPFFEU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
-}
+ewoJImlkIjogMTAyMTc2MTUzLAoJIm5hbWUiOiAiQ0VMRVNUSUEiLAoJImF1
+dGhvciI6ICJUYW5naW5lc3MiLAoJImNyZWF0b3JzIjogW10sCgkidmVyaWZp
+ZXIiOiAiUmlsZXkiLAoJInZlcmlmaWNhdGlvbiI6ICJodHRwczovL3lvdXR1
+LmJlL05KMEN2Ql9DbXgwIiwKCSJzaG93Y2FzZSI6ICJodHRwczovL3d3dy55
+b3V0dWJlLmNvbS93YXRjaD92PWRYTHNkdXBRWEprIiwKCSJwZXJjZW50VG9R
+dWFsaWZ5IjogNjAsCgkic29uZyI6ICJZYWJ1amluIC0gQ0hBTElDRSBPRiBN
+SU5EIiwKCSJzb25nTGluayI6ICJodHRwczovL3d3dy5tZWRpYWZpcmUuY29t
+L2ZpbGUvdmg5bHBhZ3B2dXk2NHcxLzY4MDAyLm1wMy9maWxlIiwKCSJkaWZm
+aWN1bHR5IjogNywKCSJlbmpveW1lbnQiOiAxMCwKCSJyZWNvcmRzIjogWwoJ
+CXsKCQkJInVzZXIiOiAiSHlkcmFuaWFjIiwKCQkJImxpbmsiOiAiaHR0cHM6
+Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1MWE4wNTBiSGZhWSIsCgkJCSJw
+ZXJjZW50IjogMTAwLAoJCQkiaHoiOiAyNDAsCgkJCSJtb2JpbGUiOiBmYWxz
+ZSwKCQkJImVuam95bWVudCI6ICIxMCIKCQl9LAoJCXsKCQkJInVzZXIiOiAi
+VGFuZ2luZXNzIiwKCQkJImxpbmsiOiAiaHR0cHM6Ly95b3V0dS5iZS9PTnRm
+OXJMcnlSRT9mZWF0dXJlPXNoYXJlZCIsCgkJCSJwZXJjZW50IjogMTAwLAoJ
+CQkiaHoiOiAxNjUsCgkJCSJtb2JpbGUiOiBmYWxzZQoJCX0sCgkJewoJCQki
+dXNlciI6ICJpZGlvdGRhc2giLAoJCQkibGluayI6ICJodHRwczovL3d3dy55
+b3V0dWJlLmNvbS93YXRjaD92PUxHZGE3MU9jdlRRIiwKCQkJInBlcmNlbnQi
+OiAxMDAsCgkJCSJoeiI6IDI0MCwKCQkJIm1vYmlsZSI6IGZhbHNlCgkJfSwK
+CQl7CgkJCSJ1c2VyIjogIlNwYWFjZSIsCgkJCSJsaW5rIjogImh0dHBzOi8v
+d3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SkxmX25sVktyQVEiLAoJCQkicGVy
+Y2VudCI6IDEwMCwKCQkJImh6IjogMjQwLAoJCQkibW9iaWxlIjogZmFsc2Us
+CgkJCSJlbmpveW1lbnQiOiAxMAoJCX0sCgkJewoJCQkidXNlciI6ICJ6RGFy
+ayIsCgkJCSJsaW5rIjogImh0dHBzOi8veW91dHUuYmUvc3pRdjBIZ0dmMlki
+LAoJCQkicGVyY2VudCI6IDEwMCwKCQkJImh6IjogMzYwLAoJCQkibW9iaWxl
+IjogZmFsc2UsCgkJCSJlbmpveW1lbnQiOiA3CgkJfSwKCQl7CgkJCSJ1c2Vy
+IjogIlN5cmN4IiwKCQkJImxpbmsiOiAiaHR0cHM6Ly95b3V0dS5iZS9XaEpB
+dDB5Tlk0RSIsCgkJCSJwZXJjZW50IjogMTAwLAoJCQkiaHoiOiAyNDAsCgkJ
+CSJtb2JpbGUiOiBmYWxzZSwKCQkJImVuam95bWVudCI6IDEwCgkJfSwKCQl7
+CgkJCSJ1c2VyIjogIkRhbmdhZGFzaCIsCgkJCSJsaW5rIjogImh0dHBzOi8v
+d3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UUd2TEVWWXpERTgiLAoJCQkicGVy
+Y2VudCI6IDEwMCwKCQkJImh6IjogNjAsCgkJCSJtb2JpbGUiOiBmYWxzZSwK
+CQkJImVuam95bWVudCI6IDkKCQl9LAoJCXsKCQkJInVzZXIiOiAiSHlwZXJi
+ZWF0IiwKCQkJImxpbmsiOiAiaHR0cHM6Ly95b3V0dS5iZS9ZLXlWZ1NURGNz
+dz9zaT1DMnV2eU40YVZOQjdQc2w1IiwKCQkJInBlcmNlbnQiOiAxMDAsCgkJ
+CSJoeiI6IDI0MCwKCQkJIm1vYmlsZSI6IGZhbHNlLAoJCQkiZW5qb3ltZW50
+IjogOQoJCX0sCgkJewoJCQkidXNlciI6ICJTa2lwIiwKCQkJImxpbmsiOiAi
+aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12ck14MmJQeW1ZdyYi
+LAoJCQkicGVyY2VudCI6IDEwMCwKCQkJImh6IjogMjQwLAoJCQkibW9iaWxl
+IjogZmFsc2UsCgkJCSJlbmpveW1lbnQiOiA1CgkJfSwKCQl7CgkJCSJ1c2Vy
+IjogIk15c3Rpa2wiLAoJCQkibGluayI6ICJodHRwczovL3lvdXR1LmJlL1dn
+WkxtWmhGRmRVIiwKCQkJInBlcmNlbnQiOiAxMDAsCgkJCSJoeiI6IDM2MCwK
+CQkJIm1vYmlsZSI6IGZhbHNlLAoJCQkiZW5qb3ltZW50IjogNgoJCX0sCgkJ
+ewoJCQkidXNlciI6ICJhdHRyaXhpYSIsCgkJCSJsaW5rIjogImh0dHBzOi8v
+d3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OENYMi0zdkVFc0UiLAoJCQkicGVy
+Y2VudCI6IDEwMCwKCQkJImh6IjogMjQwLAoJCQkibW9iaWxlIjogZmFsc2Us
+CgkJCSJlbmpveW1lbnQiOiA5CgkJfSwKCQl7CgkJCSJ1c2VyIjogIkRvbWlu
+ZXoiLAoJCQkibGluayI6ICJodHRwczovL3lvdXR1LmJlL0JsS0hZUk5hMEE4
+IiwKCQkJInBlcmNlbnQiOiAxMDAsCgkJCSJoeiI6IDQ4MCwKCQkJIm1vYmls
+ZSI6IGZhbHNlLAoJCQkiZW5qb3ltZW50IjogOAoJCX0sCgkJewoJCQkidXNl
+ciI6ICJydXN0aWMiLAoJCQkibGluayI6ICJodHRwczovL3d3dy55b3V0dWJl
+LmNvbS93YXRjaD92PUVLOVk5R1BGRkVVIiwKCQkJInBlcmNlbnQiOiAxMDAs
+CgkJCSJoeiI6IDI0MCwKCQkJIm1vYmlsZSI6IGZhbHNlLAoJCQkiZW5qb3lt
+ZW50IjogMTAKCQl9CgldCn0=
