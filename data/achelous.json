@@ -45,13 +45,6 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
-		},
-		{
-			"user": "sphericle",
-			"link": "https://testlink.com",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 10
 		}
 	]
 }
