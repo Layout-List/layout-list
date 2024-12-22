@@ -12,6 +12,10 @@ export default {
             type: String,
             required: true,
         },
+        enjoyment: {
+            type: Number,
+            required: false,
+        },
     },
 
     template: `
@@ -19,7 +23,7 @@ export default {
             <template v-if="selfVerified">
                 <div class="type-title-sm">Creator & Verifier</div>
                 <p class="type-body">
-                    <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
+                    <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}<span v-if="enjoyment"> ({{ enjoyment }}/10)</span></a>
                 </p>
             </template>
             <template v-else-if="creators.length === 0 || creators.length === 1 && creators[0] === author">
@@ -29,7 +33,7 @@ export default {
                 </p>
                 <div class="type-title-sm">Verifier</div>
                 <p class="type-body">
-                <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + verifier.toLowerCase().replaceAll(' ', '_')">{{ verifier }}</a>
+                    <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + verifier.toLowerCase().replaceAll(' ', '_')">{{ verifier }}<span v-if="enjoyment"> ({{ enjoyment }}/10)</span></a>
                 </p>
             </template>
             <template v-else>
@@ -42,7 +46,7 @@ export default {
                 </p>
                 <div class="type-title-sm">Verifier</div>
                 <p class="type-body">
-                    <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + verifier.toLowerCase().replaceAll(' ', '_')">{{ verifier }}</a>
+                    <a class="link" :href="'https://laylist.pages.dev/#/leaderboard/user/' + verifier.toLowerCase().replaceAll(' ', '_')">{{ verifier }}<span v-if="enjoyment"> ({{ enjoyment }}/10)</span></a>
                 </p>
             </template>
         </div>
