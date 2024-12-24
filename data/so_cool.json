@@ -1255,6 +1255,14 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "ZYAKIKZ",
+			"link": "https://youtu.be/9v7iLzmFfhg?feature=shared",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
