@@ -1,52 +1,53 @@
 {
-    "id": 91131780,
-    "name": "Convergence",
-    "author": "Huskie",
-    "creators": [],
-    "verifier": "Syrcx",
-    "verification": "https://www.youtube.com/watch?v=At0KPcms92M&feature=youtu.be",
-    "percentToQualify": 54,
-    "song": "Creo - Reflections",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/7Yo0IxH_ykg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "SarcasticMuch",
-            "link": "https://youtu.be/tQqkhYdi-64",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/q3wcDWisH10",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+	"id": 91131780,
+	"name": "Convergence",
+	"author": "Huskie",
+	"creators": [],
+	"verifier": "Syrcx",
+	"verification": "https://www.youtube.com/watch?v=At0KPcms92M&feature=youtu.be",
+	"percentToQualify": 54,
+	"song": "Creo - Reflections",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/7Yo0IxH_ykg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "SarcasticMuch",
+			"link": "https://youtu.be/tQqkhYdi-64",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://youtu.be/q3wcDWisH10",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		}
+	]
 }
