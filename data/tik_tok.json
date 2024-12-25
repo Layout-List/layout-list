@@ -15,7 +15,8 @@
 			"link": "https://youtu.be/Br0KlCET-bM",
 			"percent": 100,
 			"hz": 500,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "SarcasticMuch",
