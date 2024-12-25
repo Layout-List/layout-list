@@ -71,7 +71,8 @@
 			"link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
 			"percent": 100,
 			"hz": 240,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 8
 		},
 		{
 			"user": "DeleteNine",
