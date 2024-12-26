@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor} from '../config.js';
-import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
+import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchChangelog, formatChangelog } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
@@ -224,6 +224,11 @@ export default {
                         </p>
                     </div>
                     <hr class="divider">
+                    <h3>Changelog</h3>
+                    <div class="right-text">
+                        <p v-for="log in changelog">{{ formatChangelog(log) }}</p>
+                    </div>
+                    <hr class="divider">
                     <div class="right-text">
                         <p>
                             For your convenience, the Layout List caches the data for the list in your browser.
@@ -269,6 +274,7 @@ export default {
         fetchTierLength,
         localize,
         copyURL,
+        formatChangelog,
         // used for the ability to deselect tag filters
         search(query) {
             if (this.searchQuery === query) {
@@ -342,6 +348,7 @@ export default {
         // Fetch list from store
         this.list = this.store.list;
         this.staff = store.staff;
+        this.changelog = await fetchChangelog();
         
         this.selectFromParam()
 

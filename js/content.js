@@ -688,3 +688,24 @@ export function fetchTotalScore(list, difficulty) {
     return round(totalScore);
 
 }
+export async function fetchChangelog() {
+    const changelogResult = await fetch(`${dir}/_changelog.json`);
+    const changelog = await changelogResult.json();
+    changelog.reverse();
+    // return the first 10 entries
+    return changelog.slice(0, 10);
+}
+export function formatChangelog(log) {
+    let changelog = "";
+
+    if (log.action === "placed") {
+        changelog += `Placed ${log.name} at #${log.to_rank}`;
+        if (log.above || log.below) {
+            changelog += `, `;
+            if (log.above) changelog += `above ${log.above}`;
+            if (log.above && log.below) changelog += ` and `;
+            if (log.below) changelog += `below ${log.below}`;
+        }
+    }
+    return changelog;
+}
