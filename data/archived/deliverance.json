@@ -1,0 +1,79 @@
+{
+	"id": 102474367,
+	"name": "Deliverance",
+	"author": "sn0w",
+	"creators": [],
+	"verifier": "sn0w",
+	"verification": "https://www.youtube.com/watch?v=7c3YHBUqJbM",
+	"showcase": "https://www.youtube.com/watch?v=7c3YHBUqJbM",
+	"percentToQualify": 100,
+	"song": "Aegleseeker - Silentroom vs Frums",
+	"songLink": "https://drive.google.com/file/d/1kMenqPyTswXKHKCasZs8-1UcyOeV252W/view?usp=drive_link",
+	"difficulty": 2,
+	"enjoyment": 2,
+	"records": [
+		{
+			"user": "fusemax",
+			"link": "https://www.youtube.com/watch?v=YWMZ6Kben30",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "6"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/tpMf3YCttMo",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/Pw5qlO0TkWA",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 0
+		},
+		{
+			"user": "TheCatAstronaut",
+			"link": "https://youtu.be/T22vI93Y5Rk",
+			"percent": 100,
+			"hz": 1000,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "IIRafII",
+			"link": "https://youtu.be/ZaG8qx81lSk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
+}
