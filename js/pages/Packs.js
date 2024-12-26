@@ -106,13 +106,12 @@ export default {
                                     <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
+                            <td class="mobile">
+                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+                            </td>
                             <td class="enjoyment">
                                 <p v-if="record.enjoyment === undefined">?/10</p>
                                 <p v-else>{{ record.enjoyment }}/10</p>
-                            </td>
-                            <td class="mobile">
-                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
-
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}FPS</p>
