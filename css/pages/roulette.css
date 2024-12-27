@@ -129,3 +129,10 @@
         align-self: stretch;
     }
 }
+.nong-text {
+    text-decoration: underline; 
+    text-align: right; 
+    text-wrap: nowrap; 
+    max-width: 5in;
+    
+}

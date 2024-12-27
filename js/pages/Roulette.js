@@ -62,11 +62,12 @@ export default {
                                         #{{ currentLevel.rank }}
                                     </p>
                                     
-                                    <div style="float: right;" class="tooltip" v-if="currentLevel.songlink !== null">
-                                        <p style="text-decoration: underline; text-align: right; text-wrap: nowrap; max-width: 5in">
+                                    <div v-if="currentLevel.songlink !== null">
+                                        <p class="nong-text">
                                             <a
                                                 :href="currentLevel.songlink"
                                                 target="_blank"
+                                                class="nong-text"
                                             >Nong: {{ currentLevel.songname }}
                                             </a>
                                         </p>
