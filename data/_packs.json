@@ -62,6 +62,17 @@
         ]
     },
     {
+        "name": "Shums Pack",
+        "difficulty": 1, 
+        "levels": [
+            "playing_god",
+            "goat",
+            "spacious",
+            "legends_never_die",
+            "message_in_a_bottle"
+        ]
+    },
+    {
         "name": "Quacker Pack",   
         "difficulty": 1,
         "levels": [
@@ -105,6 +116,24 @@
             "heartache",
             "ruler_of_everything",
             "dancing_in_the_dark"
+        ]
+    },
+    {
+        "name": "Time Pack",
+        "difficulty": 2, 
+        "levels": [
+            "4am",
+            "0am",
+            "6pm"
+        ]
+    },
+    {
+        "name": "Azakl Pack", 
+        "difficulty": 3, 
+        "levels": [
+            "00darkside",
+            "smooktober",
+            "malevolence"
         ]
     },
     {
@@ -183,6 +212,15 @@
             "distant_stars",
             "next_adventure",
             "sudden_departure"
+        ]
+    },
+    {
+        "name": "Angryface Pack",
+        "difficulty": 4, 
+        "levels": [
+            "shizukana",
+            "rupture",
+            "svalbard"
         ]
     },
     {
