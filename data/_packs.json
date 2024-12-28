@@ -108,6 +108,24 @@
         ]
     },
     {
+        "name": "Time Pack",
+        "difficulty": 2, 
+        "levels": [
+            "4am",
+            "0am",
+            "6pm"
+        ]
+    },
+    {
+        "name": "Azakl Pack", 
+        "difficulty": 3, 
+        "levels": [
+            "00darkside",
+            "smooktober",
+            "malevolence"
+        ]
+    },
+    {
         "name": "Detailed Pack 2", 
         "difficulty": 3, 
         "levels": [
@@ -183,6 +201,15 @@
             "distant_stars",
             "next_adventure",
             "sudden_departure"
+        ]
+    },
+    {
+        "name": "Angryface Pack",
+        "difficulty": 4, 
+        "levels": [
+            "shizukana",
+            "rupture",
+            "svalbard"
         ]
     },
     {
