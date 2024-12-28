@@ -91,7 +91,7 @@ export default {
                         <li>
                             <div class="type-title-sm">Song</div>
 
-                            <p v-if="level.songLink"><a target="_blank" :href="level.songLink" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <p v-if="level.songLink"><a target="_blank" :href="songDownload" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                             <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
@@ -308,14 +308,9 @@ export default {
         },
 
         songDownload() {
-            if (!this.level.songLink.includes('drive.google.com')) {
-                return;
-            }
+            if (!this.level.songLink.includes('drive.google.com')) return this.level.songLink;
             const id = this.level.songLink.match(/[-\w]{25,}/)?.[0];
-            if (id === undefined) {
-                console.log('nope')
-                return this.level.songLink;
-            }
+            if (id === undefined) return this.level.songLink;
             return `https://drive.usercontent.google.com/uc?id=${id}&export=download`;
         },
 
