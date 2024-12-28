@@ -91,7 +91,7 @@ export default {
                         <li>
                             <div class="type-title-sm">Song</div>
 
-                            <p v-if="level.songLink"><a target="_blank" :href="songDownload" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <p v-if="level.songLink"><a target="_blank" :href="level.songLink" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                             <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
