@@ -1,64 +1,70 @@
-
 {
-    "id": 109846475,
-    "name": "Akareta",
-    "author": "Glitch_",
-    "creators": [],
-    "verifier": "Riley",
-    "verification": "https://youtu.be/giOLYSaxkiY",
-    "percentToQualify": 56,
-    "song": "椎名もた(siinamota) - Young Girl A / 少女A",
-    "songLink": "https://drive.google.com/file/d/14DitiQhoeXKm40X7SSeuDY4mQ9mAG4TV/view?usp=drive_link",
-    "difficulty": 8,
-    "enjoyment": 10,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://www.youtube.com/watch?v=2DnEhvIspdo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=pW3KFra5u1Q",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/oYygLoSnXx0?si=uGs-zXvQ6pElynwG",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/OBIxzp_f4Qk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=YtG5K3iNrJI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+	"id": 109846475,
+	"name": "Akareta",
+	"author": "Glitch_",
+	"creators": [],
+	"verifier": "Riley",
+	"verification": "https://youtu.be/giOLYSaxkiY",
+	"percentToQualify": 56,
+	"song": "椎名もた(siinamota) - Young Girl A / 少女A",
+	"songLink": "https://drive.google.com/file/d/14DitiQhoeXKm40X7SSeuDY4mQ9mAG4TV/view?usp=drive_link",
+	"difficulty": 8,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "zDark",
+			"link": "https://www.youtube.com/watch?v=2DnEhvIspdo",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=pW3KFra5u1Q",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/oYygLoSnXx0?si=uGs-zXvQ6pElynwG",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/OBIxzp_f4Qk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=YtG5K3iNrJI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "nykolol",
+			"link": "https://youtu.be/hS5fvo6SzAs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
