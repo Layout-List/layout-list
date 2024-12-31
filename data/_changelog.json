@@ -34,5 +34,14 @@
 		"from_rank": null,
 		"above": "sn0wsucksatgd",
 		"below": "virtual"
+	},
+	{
+		"date": 1735668786,
+		"action": "placed",
+		"name": "barbarian",
+		"to_rank": 63,
+		"from_rank": null,
+		"above": "escaping_limbo",
+		"below": "_mythicallayouts"
 	}
 ]
