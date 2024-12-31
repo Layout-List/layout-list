@@ -1,12 +1,5 @@
 [
 	{
-		"name": "Test Pack 2",
-		"difficulty": 2,
-		"levels": [
-			"ochi_moi"
-		]
-	},
-	{
 		"name": "Chill Pack",
 		"difficulty": 0,
 		"levels": [
