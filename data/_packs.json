@@ -1,12 +1,5 @@
 [
 	{
-		"name": "Test Pack",
-		"difficulty": 3,
-		"levels": [
-			"achelous"
-		]
-	},
-	{
 		"name": "Chill Pack",
 		"difficulty": 0,
 		"levels": [
