@@ -1271,6 +1271,14 @@
 			"hz": 120,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "Arsonic777",
+			"link": "https://youtu.be/mGC_aJvUBvs?si=11gPjD4xMLq9Ef7y",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
