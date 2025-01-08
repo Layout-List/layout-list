@@ -10,14 +10,5 @@
 	"difficulty": 1,
 	"song": "Kingsammelot - Balls in yo Jaws (Remix)",
 	"songLink": "https://drive.google.com/file/d/1JkhDFtLqcDqZP5L-C1IvBLmx4rmyQ_mz/view?usp=sharing",
-	"records": [
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/27T96tj8Tjw",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 8,
-			"mobile": true
-		}
-	]
+	"records" : []
 }

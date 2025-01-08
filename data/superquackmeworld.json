@@ -1,109 +1,102 @@
 {
-	"id": 109018775,
-	"name": "SUPERQUACMEWORLD",
-	"author": "fusemax",
-	"creators": [],
-	"verifier": "fusemax",
-	"verification": "https://www.youtube.com/watch?v=nqagiZlfXGc",
-	"percentToQualify": 100,
-	"song": "Marilyn Manson - Resident Evil Main Title Theme",
-	"songLink": "https://drive.google.com/file/d/1jeAX8HlVPUN3-6G58h9llxIn6rXMpMcf/view?usp=drive_link",
-	"difficulty": 3,
-	"records": [
-		{
-			"user": "Tanginess",
-			"link": "https://youtu.be/z8yW2RMB_wo",
-			"percent": 100,
-			"hz": 480,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Spaace",
-			"link": "https://youtu.be/8Dk-9McyxkE",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "sn0w",
-			"link": "https://www.youtube.com/watch?v=T-lX1Xy76iY",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/VEPTgaIktJA?si=tXymR8oPYT968qqF",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 7
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/KgA334nKC6M",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://medal.tv/games/geometry-dash/clips/iJdgdwdVj_o8VG0LQ/d1337i46azKl?invite=cr-MSxrRFMsMTg1OTcxMTAwLA",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "GMD YIBWATERSCUSSY",
-			"link": "https://youtu.be/dnkVw3qJ0uw",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Lacley",
-			"link": "https://www.youtube.com/watch?v=DOGm3v_bv2Y",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "waves",
-			"link": "https://youtu.be/Te5TPeoWbTg",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/Cc7-fIAXaAE",
-			"percent": 100,
-			"mobile": true,
-			"hz": 60,
-			"enjoyment": 5
-		},
-		{
-			"user": "ICENOVA",
-			"link": "https://youtu.be/e_5Hgy1YN94?si=Y-lHEp2U-Afs_rk0",
-			"percent": 100,
-			"hz": 480,
-			"enjoyment": 5
-		}
-	]
+    "id": 109018775,
+    "name": "SUPERQUACMEWORLD",
+    "author": "fusemax",
+    "creators": [],
+    "verifier": "fusemax",
+    "verification": "https://www.youtube.com/watch?v=nqagiZlfXGc",
+    "percentToQualify": 100,
+    "song": "Marilyn Manson - Resident Evil Main Title Theme",
+    "songLink": "https://drive.google.com/file/d/1jeAX8HlVPUN3-6G58h9llxIn6rXMpMcf/view?usp=drive_link",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/z8yW2RMB_wo",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/8Dk-9McyxkE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=T-lX1Xy76iY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/VEPTgaIktJA?si=tXymR8oPYT968qqF",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/KgA334nKC6M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iJdgdwdVj_o8VG0LQ/d1337i46azKl?invite=cr-MSxrRFMsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "GMD YIBWATERSCUSSY",
+            "link": "https://youtu.be/dnkVw3qJ0uw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Lacley",
+            "link": "https://www.youtube.com/watch?v=DOGm3v_bv2Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "waves",
+            "link": "https://youtu.be/Te5TPeoWbTg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/Cc7-fIAXaAE",
+            "percent": 100,
+            "mobile": true,
+            "hz": 60,
+            "enjoyment": 5
+        }
+    ]
 }

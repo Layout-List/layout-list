@@ -1,156 +1,149 @@
 {
-	"id": 108170208,
-	"name": "what you love",
-	"author": "morsey",
-	"creators": [],
-	"verifier": "Hydraniac",
-	"verification": "https://youtu.be/OKkcp8x2mgk?si=QVEg7Jyk2_geUSBI",
-	"percentToQualify": 100,
-	"song": "What You Love - Gargalan",
-	"difficulty": 2,
-	"enjoyment": 8,
-	"records": [
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/SoL2CjQlZao?si=YO4w_J99PVk2Rl55",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 10
-		},
-		{
-			"user": "ThisGuyKreas",
-			"link": "https://youtu.be/Kg5ilqhHha8?si=oWBvUXEmpIOS_giN",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "DERYAMIX",
-			"link": "https://www.youtube.com/watch?v=lK4e8sdZqZc",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "Interive",
-			"link": "https://www.youtube.com/watch?v=Z45aSBcrJ6c",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/2pNDvibHIsM?si=EyF2GHv7Ti8hPvY0",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/yTEcVaMh2Ak",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/glE5G_GP3xA",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "The16FigureLimit",
-			"link": "https://youtu.be/nkZ-APTwjn4",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Asteria.",
-			"link": "https://youtu.be/g2jUCDwbdZU?si=Az-ZnkZkCwBI9Wmh",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Riley",
-			"link": "https://youtu.be/l8jEqfIHY_k?si=MDWwl-TIq50ER0F1",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/OmbmtoXC86g",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 4
-		},
-		{
-			"user": "Acacia",
-			"link": "https://www.youtube.com/watch?v=n6gCnDsTOGM",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "RaynoXx",
-			"link": "https://www.youtube.com/watch?v=I8phy7-smo4",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "sn0w",
-			"link": "https://youtu.be/cvPniLqXENY",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "miniwombat2",
-			"link": "https://www.youtube.com/watch?v=FQsqoazjWPk",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "azakl",
-			"link": "https://youtu.be/tVg35nerP2I",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "FalkerX",
-			"link": "https://youtu.be/KrAP9rqeHlQ",
-			"percent": 100,
-			"hz": 165,
-			"enjoyment": 4
-		}
-	]
+    "id": 108170208,
+    "name": "what you love",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/OKkcp8x2mgk?si=QVEg7Jyk2_geUSBI",
+    "percentToQualify": 100,
+    "song": "What You Love - Gargalan",
+    "difficulty": 2,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/SoL2CjQlZao?si=YO4w_J99PVk2Rl55",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/Kg5ilqhHha8?si=oWBvUXEmpIOS_giN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://www.youtube.com/watch?v=lK4e8sdZqZc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Interive",
+            "link": "https://www.youtube.com/watch?v=Z45aSBcrJ6c",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/2pNDvibHIsM?si=EyF2GHv7Ti8hPvY0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/glE5G_GP3xA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://youtu.be/nkZ-APTwjn4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/g2jUCDwbdZU?si=Az-ZnkZkCwBI9Wmh",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/l8jEqfIHY_k?si=MDWwl-TIq50ER0F1",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/OmbmtoXC86g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=n6gCnDsTOGM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=I8phy7-smo4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/cvPniLqXENY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "miniwombat2",
+            "link": "https://www.youtube.com/watch?v=FQsqoazjWPk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "azakl",
+            "link": "https://youtu.be/tVg35nerP2I",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

@@ -52,14 +52,5 @@
 		"from_rank": null,
 		"above": "layout_master",
 		"below": "fluidity"
-	},
-	{
-		"date": 1735668964,
-		"action": "raised",
-		"name": "grueling_grotto",
-		"to_rank": 215,
-		"from_rank": 224,
-		"above": "sn0wsucksatgd",
-		"below": "virtual"
 	}
 ]

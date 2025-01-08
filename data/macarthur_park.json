@@ -25,21 +25,6 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
-		},
-		{
-			"user": "sans_hanitizer",
-			"link": "https://www.youtube.com/watch?v=4yg6BMwRCcs",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": null
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 7,
-			"mobile": true
 		}
 	]
 }
