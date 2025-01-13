@@ -89,6 +89,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://truthsocial.com/@PokeZach/posts/113822187406297922",
+			"percent": 72,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }
