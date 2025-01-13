@@ -95,6 +95,13 @@
 			"hz": 60,
 			"enjoyment": 3,
 			"mobile": true
+		},
+		{
+			"user": "Epherium",
+			"link": "https://youtu.be/8TK3yUwjkjs",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 10
 		}
 	]
 }
