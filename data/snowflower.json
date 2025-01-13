@@ -287,6 +287,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 6
+		},
+		{
+			"user": "GoldMan",
+			"link": "https://youtu.be/RWgjLe1_Gq4",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7
 		}
 	]
 }
