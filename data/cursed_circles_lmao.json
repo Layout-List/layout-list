@@ -2,12 +2,14 @@
 	"id": 94235324,
 	"name": "Cursed circles lmao",
 	"author": "vitnz",
-	"creators": [],
+	"creators": [
+		"justusrl"
+	],
 	"verifier": "vitnz",
 	"verification": "https://youtu.be/0zKDWbjwIGo",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "Creo - Drift",
-	"records" : []
+	"records": []
 }
