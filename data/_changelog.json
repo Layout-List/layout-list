@@ -61,5 +61,14 @@
 		"from_rank": 224,
 		"above": "sn0wsucksatgd",
 		"below": "virtual"
+	},
+	{
+		"date": 1737061517,
+		"action": "placed",
+		"name": "pulsing_balls_ex",
+		"to_rank": 143,
+		"from_rank": null,
+		"above": "a_red_level",
+		"below": "manslaughter"
 	}
 ]
