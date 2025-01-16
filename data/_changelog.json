@@ -70,5 +70,14 @@
 		"from_rank": null,
 		"above": "a_red_level",
 		"below": "manslaughter"
+	},
+	{
+		"date": 1737061610,
+		"action": "placed",
+		"name": "cursed_circles_lmao",
+		"to_rank": 330,
+		"from_rank": null,
+		"above": "in_yo_jaws",
+		"below": "thwack"
 	}
 ]
