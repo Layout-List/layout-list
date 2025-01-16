@@ -79,5 +79,14 @@
 		"from_rank": null,
 		"above": "in_yo_jaws",
 		"below": "thwack"
+	},
+	{
+		"date": 1737061680,
+		"action": "placed",
+		"name": "bit_size_candies",
+		"to_rank": 256,
+		"from_rank": null,
+		"above": "wildest_dreams",
+		"below": "i_got_no_time"
 	}
 ]
