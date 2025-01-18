@@ -1,185 +1,186 @@
 {
-    "id": 75226335,
-    "name": "Rumble Rang",
-    "author": "sqrtpie",
-    "creators": [],
-    "verifier": "sqrtpie",
-    "verification": "https://youtu.be/HTtesEtmYrw",
-    "percentToQualify": 100,
-    "song": "Dunderpatrullen - Rumble Rangers",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/ZoFbyLQryu0",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "Fezzern",
-            "link": "https://www.youtube.com/watch?v=RlyQtsVbm1s",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/Udluu1WdnAM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "EmeraldOre",
-            "link": "https://www.youtube.com/watch?v=UHPSTZioGXE",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "culobdj",
-            "link": "https://www.youtube.com/watch?v=XfRfDkUeJoA",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/OPy8vCkcYcM",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/KMM3s9iraps",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/5DPRsUFdEMo",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/djR32QsmJNE",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/_CkVEJgN6iE",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/gDBJ4r2yBPI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 4
-        },
-        {
-            "user": "Matthlew",
-            "link": "https://youtu.be/QutohniCTJk",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "agentgiscool",
-            "link": "https://www.youtube.com/watch?v=izVLmjCjQiY",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/iIMBVgP8vv8",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/SKFtaHe291I",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Bibox",
-            "link": "https://youtu.be/TIJbz_q_Sbs",
-            "percent": 100,
-            "hz": "360",
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/lWU4yqMnA5g?si=GiRVzHS1yP9ZddfF",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "4"
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/YyV82EaLnhg?si=UfNHDqollEvsl0e1",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-          {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-          {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/iTC3GlKZHAY",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-              "enjoyment": 8
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=M7mK2GyMdBs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"sqrtpie"
+  ],
+  "difficulty": 2,
+  "id": 75226335,
+  "name": "Rumble Rang",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/ZoFbyLQryu0",
+	  "percent": 100,
+	  "user": "Blathers"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=RlyQtsVbm1s",
+	  "percent": 100,
+	  "user": "Fezzern"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Udluu1WdnAM",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=UHPSTZioGXE",
+	  "percent": 100,
+	  "user": "EmeraldOre"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=XfRfDkUeJoA",
+	  "percent": 100,
+	  "user": "culobdj"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/OPy8vCkcYcM",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/KMM3s9iraps",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/5DPRsUFdEMo",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/djR32QsmJNE",
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/_CkVEJgN6iE",
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 60,
+	  "link": "https://youtu.be/gDBJ4r2yBPI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/QutohniCTJk",
+	  "percent": 100,
+	  "user": "Matthlew"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=izVLmjCjQiY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "agentgiscool"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/iIMBVgP8vv8",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/SKFtaHe291I",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": "360",
+	  "link": "https://youtu.be/TIJbz_q_Sbs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Bibox"
+	},
+	{
+	  "enjoyment": "4",
+	  "hz": 60,
+	  "link": "https://youtu.be/lWU4yqMnA5g?si=GiRVzHS1yP9ZddfF",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/YyV82EaLnhg?si=UfNHDqollEvsl0e1",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Jab"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 120,
+	  "link": "https://youtu.be/iTC3GlKZHAY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=M7mK2GyMdBs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	}
+  ],
+  "song": "Dunderpatrullen - Rumble Rangers",
+  "verification": "https://youtu.be/HTtesEtmYrw",
+  "verifier": "sqrtpie"
 }

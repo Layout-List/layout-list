@@ -1,89 +1,90 @@
 {
-	"id": 102134186,
-	"name": "Machinery",
-	"author": "Blysteryx",
-	"creators": [],
-	"verifier": "Blysteryx",
-	"verification": "https://youtu.be/EvgROIeWluA?si=8ZdUCD4SFSN57G06",
-	"percentToQualify": 100,
-	"song": "Helvetican - PARIS FREQUENCY",
-	"difficulty": 1,
-	"records": [
-		{
-			"user": "Poke Zach",
-			"link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 7
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://youtu.be/4w1igI80QQ0?si=mZxQGEKjNQ0MMCjO",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "RaynoXx",
-			"link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/aOJx0upFz2k",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Alvaneder",
-			"link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://youtu.be/7qTe2m9_u38",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": "6"
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "ToastyTP",
-			"link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/xRrxEx-YQGk",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "sphericle",
-			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 6
-		}
-	]
+  "creators": [
+	"Blysteryx"
+  ],
+  "difficulty": 1,
+  "id": 102134186,
+  "name": "Machinery",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/4w1igI80QQ0?si=mZxQGEKjNQ0MMCjO",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/aOJx0upFz2k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Alvaneder"
+	},
+	{
+	  "enjoyment": "6",
+	  "hz": 75,
+	  "link": "https://youtu.be/7qTe2m9_u38",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ToastyTP"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/xRrxEx-YQGk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+	  "percent": 100,
+	  "user": "sphericle"
+	}
+  ],
+  "song": "Helvetican - PARIS FREQUENCY",
+  "verification": "https://youtu.be/EvgROIeWluA?si=8ZdUCD4SFSN57G06",
+  "verifier": "Blysteryx"
 }

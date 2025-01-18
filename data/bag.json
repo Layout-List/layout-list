@@ -1,30 +1,30 @@
 {
-    "id": 102022581,
-    "name": "Bag",
-    "author": "Mystikl",
-    "creators": [],
-    "verifier": "Mystikl",
-    "verification": "https://youtu.be/2eq_C7D5PDU",
-    "percentToQualify": 62,
-    "song": "Yuno Miles - Put The Money In The Bag",
-    "songLink": "https://www.mediafire.com/file/iwbx10wqi1x8x2e/6942069.mp3/file",
-    "difficulty": 5,
-    "records": [
-         {
-            "user": "mr123j",
-            "link": "https://youtu.be/neFM0xP0K_A",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        }
-        
-    ]
+  "creators": [
+	"Mystikl"
+  ],
+  "difficulty": 5,
+  "id": 102022581,
+  "name": "Bag",
+  "percentToQualify": 62,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/neFM0xP0K_A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mr123j"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "Yuno Miles - Put The Money In The Bag",
+  "songLink": "https://www.mediafire.com/file/iwbx10wqi1x8x2e/6942069.mp3/file",
+  "verification": "https://youtu.be/2eq_C7D5PDU",
+  "verifier": "Mystikl"
 }

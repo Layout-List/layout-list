@@ -1,53 +1,54 @@
 {
-    "id": 102079941,
-    "name": "Im Still Standing",
-    "author": "Xeronius",
-    "creators": [],
-    "verifier": "DeleteNine",
-    "verification": "https://www.youtube.com/watch?v=FdNGZh4nUF4",
-    "percentToQualify": 100,
-    "song": "Elton John - I'm Still Standing",
-    "songLink": "https://drive.google.com/file/d/1F2kNR3Ntpqi5azwHEB2BwwgF_nyJPbht/view?usp=drive_link",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/QhQsArEPSIs",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "3"
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/aOJx0upFz2k",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/vaGnza5uDO0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [
+	"Xeronius"
+  ],
+  "difficulty": 3,
+  "id": 102079941,
+  "name": "Im Still Standing",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 75,
+	  "link": "https://youtu.be/QhQsArEPSIs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": "3",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/aOJx0upFz2k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/vaGnza5uDO0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "song": "Elton John - I'm Still Standing",
+  "songLink": "https://drive.google.com/file/d/1F2kNR3Ntpqi5azwHEB2BwwgF_nyJPbht/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=FdNGZh4nUF4",
+  "verifier": "DeleteNine"
 }

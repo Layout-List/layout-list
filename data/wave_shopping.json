@@ -1,158 +1,159 @@
 {
-    "id": 106096380,
-    "name": "Wave Shopping",
-    "author": "Asteria.",
-    "creators": [],
-    "verifier": "Asteria.",
-    "verification": "https://youtu.be/G-pgQ6cW9MA",
-    "percentToQualify": 100,
-    "song": "SOPHIE - Faceshopping",
-    "songLink": "https://www.mediafire.com/file/kbcnb1uh0dwfxl5/889238.mp3/file",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/JB69Dj6kSa8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://youtu.be/JE8XzIV40vU",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/2wN6Iflhmx0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/H8bvfhhWkdc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Tupi",
-            "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/pyHLmDNaZdY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "mr123j",
-            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "rainityyy",
-            "link": "https://youtube.com/shorts/1F5w2lQyVvA?si=HZl0qqS-VHmViKMq",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/LcKC2xoThPQ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Blueberry",
-            "link": "https://youtu.be/wdkjoCNynRE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/ejU9GDjMHuI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Paladean",
-            "link": "https://www.youtube.com/watch?v=0fw9DHjoddI",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "VGdarkz",
-            "link": "https://youtu.be/N0KqYgOSqlQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Bluelightning379",
-            "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+  "creators": [
+	"Asteria."
+  ],
+  "difficulty": 1,
+  "id": 106096380,
+  "name": "Wave Shopping",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/JB69Dj6kSa8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 300,
+	  "link": "https://youtu.be/JE8XzIV40vU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TurtleER"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 360,
+	  "link": "https://youtu.be/2wN6Iflhmx0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/H8bvfhhWkdc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rSnoozy"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/pyHLmDNaZdY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mr123j"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtube.com/shorts/1F5w2lQyVvA?si=HZl0qqS-VHmViKMq",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rainityyy"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 144,
+	  "link": "https://youtu.be/LcKC2xoThPQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zyxo"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/wdkjoCNynRE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blueberry"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 240,
+	  "link": "https://youtu.be/ejU9GDjMHuI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=0fw9DHjoddI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Paladean"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/N0KqYgOSqlQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "VGdarkz"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Bluelightning379"
+	}
+  ],
+  "song": "SOPHIE - Faceshopping",
+  "songLink": "https://www.mediafire.com/file/kbcnb1uh0dwfxl5/889238.mp3/file",
+  "verification": "https://youtu.be/G-pgQ6cW9MA",
+  "verifier": "Asteria."
 }

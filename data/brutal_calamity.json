@@ -1,112 +1,113 @@
 {
-    "id": 110196150,
-    "name": "Brutal Calamity",
-    "author": "DigitalZero",
-    "creators": [],
-    "verifier": "Armani",
-    "verification": "https://youtu.be/oavtHhlob2g",
-    "showcase": "https://youtu.be/79MfI4KY8_E",
-    "percentToQualify": 53,
-    "song": "DM DOKURO - Stained, Brutal Calamity",
-    "songLink": "https://www.mediafire.com/file/z0p4vqoafut9kby/565826.mp3/file",
-    "difficulty": 9,
-    "records": [
-        {
-            "user": "sqrtpie",
-            "link": "https://youtu.be/mtNAsdFkP-s",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/2PcaisEY_OA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "ZygisDij",
-            "link": "https://www.youtube.com/watch?v=0ftUQzbbZeo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "morsey",
-            "link": "https://youtu.be/Q9ZwKhGVV5Y?si=sxzQvP-ok9oySspc",
-            "percent": 84,
-            "hz": 75,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=A_AGZHt1SPw",
-            "percent": 72,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rustic",
-            "link": "trust me",
-            "percent": 65,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://youtu.be/Th6DmxSJzJE?feature=shared",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=g-FKd5aV3TA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Dangadash",
-            "link": "https://www.youtube.com/watch?v=Kl8dU4oL4Jo",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Cowdoom11",
-            "link": "https://www.youtube.com/watch?v=oZtazJ83gDE",
-            "percent": 57,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Robotic",
-            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/lSS_kVgmfw8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/OPqQnlK5j6s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        }
-    ]
+  "creators": [
+	"DigitalZero"
+  ],
+  "difficulty": 9,
+  "id": 110196150,
+  "name": "Brutal Calamity",
+  "percentToQualify": 53,
+  "records": [
+	{
+	  "enjoyment": 10,
+	  "hz": 120,
+	  "link": "https://youtu.be/mtNAsdFkP-s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sqrtpie"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/2PcaisEY_OA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=0ftUQzbbZeo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ZygisDij"
+	},
+	{
+	  "hz": 75,
+	  "link": "https://youtu.be/Q9ZwKhGVV5Y?si=sxzQvP-ok9oySspc",
+	  "mobile": false,
+	  "percent": 84,
+	  "user": "morsey"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=A_AGZHt1SPw",
+	  "mobile": false,
+	  "percent": 72,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": 360,
+	  "link": "trust me",
+	  "mobile": false,
+	  "percent": 65,
+	  "user": "rustic"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Th6DmxSJzJE?feature=shared",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=g-FKd5aV3TA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=Kl8dU4oL4Jo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dangadash"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=oZtazJ83gDE",
+	  "mobile": false,
+	  "percent": 57,
+	  "user": "Cowdoom11"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Robotic"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 240,
+	  "link": "https://youtu.be/lSS_kVgmfw8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 240,
+	  "link": "https://youtu.be/OPqQnlK5j6s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	}
+  ],
+  "showcase": "https://youtu.be/79MfI4KY8_E",
+  "song": "DM DOKURO - Stained, Brutal Calamity",
+  "songLink": "https://www.mediafire.com/file/z0p4vqoafut9kby/565826.mp3/file",
+  "verification": "https://youtu.be/oavtHhlob2g",
+  "verifier": "Armani"
 }

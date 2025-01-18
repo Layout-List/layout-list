@@ -1,103 +1,104 @@
 {
-    "id": 89887020,
-    "name": "vermin layout",
-    "author": "morsey",
-    "creators": [],
-    "verifier": "morsey",
-    "verification": "https://www.youtube.com/watch?v=KPr5cTsnrs8",
-    "showcase": "https://youtu.be/0FjGIb8XiQA?si=TITAxWlxV_Z0jay_",
-    "percentToQualify": 100,
-    "song": "Bossfight - Vermin",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/RkdEvuLreGs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://www.youtube.com/watch?v=SyYITShIx1o&t=6s",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/T3bjgLcnQAQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/MQrQ9PqAcrE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/Gbj2w894kz8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "portal 3",
-            "link": "https://youtu.be/0Bf7X5w1meM",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/-YXfwZjVG8A",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 5
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=g3Ob0BuOLcU",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=yL9GraXZunE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"morsey"
+  ],
+  "difficulty": 2,
+  "id": 89887020,
+  "name": "vermin layout",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/RkdEvuLreGs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 300,
+	  "link": "https://www.youtube.com/watch?v=SyYITShIx1o&t=6s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NiXaNTy"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/T3bjgLcnQAQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/MQrQ9PqAcrE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/Gbj2w894kz8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/0Bf7X5w1meM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "portal 3"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 120,
+	  "link": "https://youtu.be/-YXfwZjVG8A",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=g3Ob0BuOLcU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=yL9GraXZunE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 60,
+	  "link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	}
+  ],
+  "showcase": "https://youtu.be/0FjGIb8XiQA?si=TITAxWlxV_Z0jay_",
+  "song": "Bossfight - Vermin",
+  "verification": "https://www.youtube.com/watch?v=KPr5cTsnrs8",
+  "verifier": "morsey"
 }

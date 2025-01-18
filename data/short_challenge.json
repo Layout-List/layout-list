@@ -1,68 +1,69 @@
 {
-    "id": 78425566,
-    "name": "Short Challenge",
-    "author": "JPTOfficiaL",
-    "creators": [],
-    "verifier": "JPTOfficiaL",
-    "verification": "https://youtu.be/dGBL-0oiSl0",
-    "percentToQualify": 100,
-    "song": "MadhouseDUDE - Jet Set",
-    "difficulty": 1,
-    "records": [
-        {
-          "user": "zDark",
-          "link": "https://youtu.be/0CR4b-J2AmI",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/WvO8FbeOfL4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/jyB4VP1azms",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Bluelightning379",
-            "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "zWren",
-            "link": "https://www.youtube.com/watch?v=42OXsOVGWKc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [
+	"JPTOfficiaL"
+  ],
+  "difficulty": 1,
+  "id": 78425566,
+  "name": "Short Challenge",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/0CR4b-J2AmI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/WvO8FbeOfL4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 144,
+	  "link": "https://youtu.be/jyB4VP1azms",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zyxo"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Bluelightning379"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=42OXsOVGWKc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	}
+  ],
+  "song": "MadhouseDUDE - Jet Set",
+  "verification": "https://youtu.be/dGBL-0oiSl0",
+  "verifier": "JPTOfficiaL"
 }

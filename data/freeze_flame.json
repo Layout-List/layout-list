@@ -1,139 +1,140 @@
 {
-    "id": 77286079,
-    "name": "Freeze Flame",
-    "author": "Flare",
-    "creators": [],
-    "verifier": "ShimzyZE",
-    "verification": "https://youtu.be/VNLOWQMDF0k",
-    "showcase": "https://youtu.be/VMNCK8GbDJI",
-    "percentToQualify": 58,
-    "password": "Not Copyable",
-    "song": "Camellia(\u304b\u3081\u308a\u3042) - Quaoar",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "rustic",
-            "link": "https://youtu.be/x-ICrfMTT2w",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/IupG0-KiEP4",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "TheRealCave",
-            "link": "https://youtu.be/l1Zz78Dw0Q4",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/y0Hu-jgyxm8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Lev_Nix",
-            "link": "https://www.youtube.com/watch?v=cHuUmw7nlFM",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/IvpH32-nmOA",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "Matthlew",
-            "link": "https://www.youtube.com/watch?v=EGna5ULBf5w",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "jz5",
-            "link": "https://www.youtube.com/watch?v=fqlXohA0Ims",
-            "percent": 100,
-            "hz": 165
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/NNXGTapDoOM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Zanatis ",
-            "link": "https://www.youtube.com/watch?v=X47mBi3nTIw",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://youtu.be/99ZCZnLIVGI",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/fLhRqk5N6og",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/FXYXEop1LF0",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/qByNtzvji4M",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/J0ykHdZdiYQ?si=srac69XK5jng8TZ0",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Flare",
-            "link": "https://medal.tv/games/geometry-dash/clips/1z0y2CK3h1CoJa/d1337e9OoQDP?invite=cr-MSxVQVgsNzMyMDE2NDgs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/hentC7OScBY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [
+	"Flare"
+  ],
+  "difficulty": 3,
+  "id": 77286079,
+  "name": "Freeze Flame",
+  "password": "Not Copyable",
+  "percentToQualify": 58,
+  "records": [
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/x-ICrfMTT2w",
+	  "percent": 100,
+	  "user": "rustic"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/IupG0-KiEP4",
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/l1Zz78Dw0Q4",
+	  "percent": 100,
+	  "user": "TheRealCave"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/y0Hu-jgyxm8",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=cHuUmw7nlFM",
+	  "percent": 100,
+	  "user": "Lev_Nix"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/IvpH32-nmOA",
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=EGna5ULBf5w",
+	  "percent": 100,
+	  "user": "Matthlew"
+	},
+	{
+	  "hz": 165,
+	  "link": "https://www.youtube.com/watch?v=fqlXohA0Ims",
+	  "percent": 100,
+	  "user": "jz5"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/NNXGTapDoOM",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=X47mBi3nTIw",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Zanatis "
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/99ZCZnLIVGI",
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/fLhRqk5N6og",
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/FXYXEop1LF0",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/qByNtzvji4M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 120,
+	  "link": "https://youtu.be/J0ykHdZdiYQ?si=srac69XK5jng8TZ0",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/1z0y2CK3h1CoJa/d1337e9OoQDP?invite=cr-MSxVQVgsNzMyMDE2NDgs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Flare"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/hentC7OScBY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "showcase": "https://youtu.be/VMNCK8GbDJI",
+  "song": "Camellia(かめりあ) - Quaoar",
+  "verification": "https://youtu.be/VNLOWQMDF0k",
+  "verifier": "ShimzyZE"
 }

@@ -1,125 +1,126 @@
 {
-    "id": 91204229,
-    "name": "gold layout",
-    "author": "morsey",
-    "creators": [],
-    "verifier": "morsey",
-    "verification": "https://youtu.be/lJk5iA1qqy4",
-    "percentToQualify": 100,
-    "song": "Koven - Gold (SPACEJUMP X VIRU$ Remix)",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/YkIB4mABjVE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/UpDjGPS4fOE",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/a4hTHPc0nlY",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "10"
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/QF1wuFkYb7A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": true
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/-9B6hHdUcUA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/zuhy7jhqRZ8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-         {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/w6LpmhfSz8E",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=_yb9Fx2o0J0",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/fZ18r3Qk7jA",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-          "user": "Tupi",
-          "link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Asteria.",
-            "link": "https://youtu.be/V8v1M-JoVfM",
-            "percent": 100,
-            "hz": 280,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/cvPniLqXENY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"morsey"
+  ],
+  "difficulty": 2,
+  "id": 91204229,
+  "name": "gold layout",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/YkIB4mABjVE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 165,
+	  "link": "https://youtu.be/UpDjGPS4fOE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 60,
+	  "link": "https://youtu.be/a4hTHPc0nlY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/QF1wuFkYb7A",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/-9B6hHdUcUA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/zuhy7jhqRZ8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/w6LpmhfSz8E",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "enjoyment": "8",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=_yb9Fx2o0J0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 120,
+	  "link": "https://youtu.be/fZ18r3Qk7jA",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 280,
+	  "link": "https://youtu.be/V8v1M-JoVfM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Asteria."
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/cvPniLqXENY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "song": "Koven - Gold (SPACEJUMP X VIRU$ Remix)",
+  "verification": "https://youtu.be/lJk5iA1qqy4",
+  "verifier": "morsey"
 }

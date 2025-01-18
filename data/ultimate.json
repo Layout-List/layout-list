@@ -1,84 +1,85 @@
 {
-    "id": 86863834,
-    "name": "ULTIMATE",
-    "author": "Huskie",
-    "creators": [],
-    "verifier": "Huskie",
-    "verification": "https://www.youtube.com/watch?v=oykvwEiZbok",
-    "percentToQualify": 100,
-    "song": "Skorde x Nateki - ULTIMATE",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/24ZQFe8uPPI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=jmEcXATftRU&t",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/XRy0gVjGn7Q",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Skip",
-            "link": "https://www.youtube.com/watch?v=PHntJNLvLsE&",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Spaace",
-            "link": "https://youtu.be/lwB13-qAYzs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Iza",
-            "link": "https://www.youtube.com/watch?v=mY4c8WAR_ag",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/Cc7-fIAXaAE",
-            "percent": 100,
-            "mobile": true,
-            "hz": 60,
-            "enjoyment": 7
-        }
-    ]
+  "creators": [
+	"Huskie"
+  ],
+  "difficulty": 3,
+  "id": 86863834,
+  "name": "ULTIMATE",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/24ZQFe8uPPI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=jmEcXATftRU&t",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/XRy0gVjGn7Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=PHntJNLvLsE&",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skip"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/lwB13-qAYzs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Spaace"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 165,
+	  "link": "https://www.youtube.com/watch?v=mY4c8WAR_ag",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Iza"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://youtu.be/Cc7-fIAXaAE",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	}
+  ],
+  "song": "Skorde x Nateki - ULTIMATE",
+  "verification": "https://www.youtube.com/watch?v=oykvwEiZbok",
+  "verifier": "Huskie"
 }

@@ -1,218 +1,219 @@
 {
-	"id": 94578807,
-	"name": "S4v3 Th4t Sh1t",
-	"author": "Len",
-	"creators": [],
-	"verifier": "Dom_Luca",
-	"verification": "https://www.youtube.com/watch?v=nTFkhSiTj1c",
-	"percentToQualify": 52,
-	"song": "Lil Peep - Save That Shit",
-	"songLink": "https://drive.google.com/file/d/12Wkg6wzSHV0pylNkMVPvYV7vMvlE881R/view?usp=drive_link",
-	"difficulty": 5,
-	"records": [
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=_dmlPGALK1c",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Dangadash",
-			"link": "https://www.youtube.com/watch?v=mU6K_eNyfEs&t=136s",
-			"percent": 100,
-			"hz": 60,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Blueberry",
-			"link": "https://youtu.be/AXFGnFlw3RE",
-			"percent": 100,
-			"hz": 500,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "zDark",
-			"link": "https://youtu.be/HWxVFYE541w?si=xn2SBCXG8epYa0tE",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "ImPhara",
-			"link": "https://www.youtube.com/watch?v=zm-i9RuXpVU",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://medal.tv/games/geometry-dash/clips/20ti62cd0XOIPj/d1337tveofnB?invite=cr-MSxCc2wsMTg1OTcxMTAwLA",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "SarcasticMuch",
-			"link": "https://youtu.be/tQqkhYdi-64",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "morsey",
-			"link": "https://youtu.be/8jRD7v5H47Q",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "The16FigureLimit",
-			"link": "https://www.youtube.com/watch?v=iiR4N4Q1vHU",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "Skip",
-			"link": "https://www.youtube.com/watch?v=p8BOD_HU94U&",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/HsudVAhtsAw",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Keruo",
-			"link": "https://youtu.be/vQNi3wy8nUU",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Captainfireball",
-			"link": "https://youtu.be/0KfZb4zAzcQ",
-			"percent": 61,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "rastuyas",
-			"link": "https://youtu.be/Aum1RLQebes",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://www.youtube.com/watch?v=FIAWpXB4mY4",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Spaace",
-			"link": "https://youtu.be/CSRSMvq5L04",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 3
-		},
-		{
-			"user": "attrixia",
-			"link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "Asteria.",
-			"link": "https://youtu.be/PIEd_SeRQAI",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://www.youtube.com/watch?v=nRgROy_aumc",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "riley",
-			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "sans_hanitizer",
-			"link": "https://youtu.be/XC57XXctHUk",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Wingz_GD",
-			"link": "https://youtu.be/16MqcN3T6ac",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 0
-		},
-		{
-			"user": "pulsecougar",
-			"link": "https://www.youtube.com/watch?v=5MrFMsMLfCg",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 8
-		},
-		{
-			"user": "ICENOVA",
-			"link": "https://www.youtube.com/watch?v=F82lL8GPJhU",
-			"percent": 100,
-			"hz": 480,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "nykolol",
-			"link": "https://youtu.be/fGujiuclu9I",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 8
-		},
-		{
-			"user": "Random",
-			"link": "https://youtu.be/CKrjauVXhDU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 9
-		}
-	]
+  "creators": [
+	"Len"
+  ],
+  "difficulty": 5,
+  "id": 94578807,
+  "name": "S4v3 Th4t Sh1t",
+  "percentToQualify": 52,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=_dmlPGALK1c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=mU6K_eNyfEs&t=136s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dangadash"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 500,
+	  "link": "https://youtu.be/AXFGnFlw3RE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blueberry"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 360,
+	  "link": "https://youtu.be/HWxVFYE541w?si=xn2SBCXG8epYa0tE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=zm-i9RuXpVU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ImPhara"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/20ti62cd0XOIPj/d1337tveofnB?invite=cr-MSxCc2wsMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/tQqkhYdi-64",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "SarcasticMuch"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/8jRD7v5H47Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "morsey"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=iiR4N4Q1vHU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "The16FigureLimit"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=p8BOD_HU94U&",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skip"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/HsudVAhtsAw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/vQNi3wy8nUU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Keruo"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/0KfZb4zAzcQ",
+	  "mobile": false,
+	  "percent": 61,
+	  "user": "Captainfireball"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/Aum1RLQebes",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=FIAWpXB4mY4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://youtu.be/CSRSMvq5L04",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Spaace"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/PIEd_SeRQAI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Asteria."
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=nRgROy_aumc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "riley"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/XC57XXctHUk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sans_hanitizer"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 360,
+	  "link": "https://youtu.be/16MqcN3T6ac",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Wingz_GD"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=5MrFMsMLfCg",
+	  "percent": 100,
+	  "user": "pulsecougar"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 480,
+	  "link": "https://www.youtube.com/watch?v=F82lL8GPJhU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ICENOVA"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/fGujiuclu9I",
+	  "percent": 100,
+	  "user": "nykolol"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/CKrjauVXhDU",
+	  "percent": 100,
+	  "user": "Random"
+	}
+  ],
+  "song": "Lil Peep - Save That Shit",
+  "songLink": "https://drive.google.com/file/d/12Wkg6wzSHV0pylNkMVPvYV7vMvlE881R/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=nTFkhSiTj1c",
+  "verifier": "Dom_Luca"
 }

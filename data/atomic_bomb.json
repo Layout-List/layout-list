@@ -1,55 +1,56 @@
 {
-    "id": 109325265,
-    "name": "Atomic Bomb",
-    "author": "pivithasnolife",
-    "creators": [],
-    "verifier": "Riley",
-    "verification": "https://youtu.be/6-kB33t1ICk",
-    "showcase": "https://www.youtube.com/watch?v=vM_d_NQUGjM",
-    "percentToQualify": 58,
-    "song": "DJ Nate - Intercept 2",
-    "difficulty": 7,
-    "enjoyment": 10,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/9FCOWLzcZpc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/nrjqtWUXE_M",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/qnUy5kreRVo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Spaace",
-            "link": "https://youtu.be/g00YtpzbJl8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/ZaSNt-C0dUc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [
+	"pivithasnolife"
+  ],
+  "difficulty": 7,
+  "enjoyment": 10,
+  "id": 109325265,
+  "name": "Atomic Bomb",
+  "percentToQualify": 58,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/9FCOWLzcZpc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 120,
+	  "link": "https://youtu.be/nrjqtWUXE_M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/qnUy5kreRVo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 240,
+	  "link": "https://youtu.be/g00YtpzbJl8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Spaace"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/ZaSNt-C0dUc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=vM_d_NQUGjM",
+  "song": "DJ Nate - Intercept 2",
+  "verification": "https://youtu.be/6-kB33t1ICk",
+  "verifier": "Riley"
 }

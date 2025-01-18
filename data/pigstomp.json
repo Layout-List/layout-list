@@ -1,59 +1,59 @@
 {
-    "id": 83263743,
-    "name": "pigstomp",
-    "author": "Flare",
-    "creators": [
-      "ShimzyZE"
-    ],
-    "verifier": "Flare",
-    "verification": "https://youtu.be/fHP0nrnWIvE",
-    "percentToQualify": 54,
-    "song": "Platnuu - ~Pigstep Remix~",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/BydMouCAVgA",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/xscaVXQbwO0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/5EpNph0RNOQ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/lhrP8WvtOEc?si=--tN04xzGYOVRVl2",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"ShimzyZE",
+	"Flare"
+  ],
+  "difficulty": 4,
+  "id": 83263743,
+  "name": "pigstomp",
+  "percentToQualify": 54,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/BydMouCAVgA",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/xscaVXQbwO0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/5EpNph0RNOQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://youtu.be/lhrP8WvtOEc?si=--tN04xzGYOVRVl2",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "Platnuu - ~Pigstep Remix~",
+  "verification": "https://youtu.be/fHP0nrnWIvE",
+  "verifier": "Flare"
 }

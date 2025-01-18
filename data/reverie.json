@@ -1,103 +1,104 @@
 {
-    "id": 99436723,
-    "name": "Reverie",
-    "author": "Psyqhodelic",
-    "creators": [],
-    "verifier": "Psyqhodelic",
-    "verification": "https://youtu.be/ciKcNr1S34k",
-    "showcase": "https://youtu.be/WHgR3wdOwJE",
-    "percentToQualify": 56,
-    "song": "EspiDev - Reverie",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "ToastyBois",
-            "link": "https://www.youtube.com/watch?v=Sjrerh1cPrU",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://youtu.be/vKTG1CDzoTM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/FippIMqbTMw",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/agLW4Yj9RFU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8.5
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=TN1sCDZDStE",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "sqrtpie",
-            "link": "https://youtu.be/eiLyGdVjtEg",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Armani",
-            "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/rcj34SYjjIY",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "MiniWheatDuo",
-            "link": "https://www.youtube.com/watch?v=iCggcjpX6BI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://www.youtube.com/watch?v=HAHaGxu0FFo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://www.youtube.com/watch?v=wXR_bx7x4_M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        }
-    ]
+  "creators": [
+	"Psyqhodelic"
+  ],
+  "difficulty": 5,
+  "id": 99436723,
+  "name": "Reverie",
+  "percentToQualify": 56,
+  "records": [
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=Sjrerh1cPrU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ToastyBois"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/vKTG1CDzoTM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "danielvess555"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/FippIMqbTMw",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "enjoyment": 8.5,
+	  "hz": 240,
+	  "link": "https://youtu.be/agLW4Yj9RFU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=TN1sCDZDStE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/eiLyGdVjtEg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sqrtpie"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/rcj34SYjjIY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=iCggcjpX6BI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "MiniWheatDuo"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=HAHaGxu0FFo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TurtleER"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=wXR_bx7x4_M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NiXaNTy"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "riley"
+	}
+  ],
+  "showcase": "https://youtu.be/WHgR3wdOwJE",
+  "song": "EspiDev - Reverie",
+  "verification": "https://youtu.be/ciKcNr1S34k",
+  "verifier": "Psyqhodelic"
 }

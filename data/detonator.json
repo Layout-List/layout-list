@@ -1,38 +1,39 @@
 {
-    "id": 102615602,
-    "name": "Detonator",
-    "author": "Hydraniac",
-    "creators": [],
-    "verifier": "Hydraniac",
-    "verification": "https://www.youtube.com/watch?v=kP4pVJ-o468",
-    "percentToQualify": 47,
-    "song": "Creo - Rock Thing",
-    "difficulty": 5,
-    "enjoyment": 4,
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"Hydraniac"
+  ],
+  "difficulty": 5,
+  "enjoyment": 4,
+  "id": 102615602,
+  "name": "Detonator",
+  "percentToQualify": 47,
+  "records": [
+	{
+	  "enjoyment": 1,
+	  "hz": 240,
+	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "riley"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	}
+  ],
+  "song": "Creo - Rock Thing",
+  "verification": "https://www.youtube.com/watch?v=kP4pVJ-o468",
+  "verifier": "Hydraniac"
 }

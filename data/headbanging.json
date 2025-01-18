@@ -1,37 +1,38 @@
 {
-    "id": 89960521,
-    "name": "HEADBANGING",
-    "author": "QuackerDeezles",
-    "creators": [],
-    "verifier": "Mystikl",
-    "verification": "https://youtu.be/x742UUq8jVA",
-    "showcase": "https://www.youtube.com/watch?v=4oAVi-D_jRI",
-    "percentToQualify": 56,
-    "song": "six impala - the beast i worship",
-    "difficulty": 6,
-    "records": [
-         {
-            "user": "zDark",
-            "link": "https://youtu.be/-oTOi8B-SFU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=5_lUplnAvck",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"QuackerDeezles"
+  ],
+  "difficulty": 6,
+  "id": 89960521,
+  "name": "HEADBANGING",
+  "percentToQualify": 56,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/-oTOi8B-SFU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=5_lUplnAvck",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=4oAVi-D_jRI",
+  "song": "six impala - the beast i worship",
+  "verification": "https://youtu.be/x742UUq8jVA",
+  "verifier": "Mystikl"
 }

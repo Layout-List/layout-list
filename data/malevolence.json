@@ -1,30 +1,31 @@
 {
-    "id": 112104447,
-    "name": "Malevolence",
-    "author": "azakl",
-    "creators": [],
-    "verifier": "azakl",
-    "verification": "https://youtu.be/R5DhBaljbtY",
-    "percentToQualify": 65,
-    "song": "Teminite - mutant",
-    "difficulty": 4,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/j50hYT0BkvaTIukiB?invite=cr-MSwyR1gsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "cinderrblock",
-            "link": "https://youtu.be/V3-86js8qjY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [
+	"azakl"
+  ],
+  "difficulty": 4,
+  "enjoyment": 8,
+  "id": 112104447,
+  "name": "Malevolence",
+  "percentToQualify": 65,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/j50hYT0BkvaTIukiB?invite=cr-MSwyR1gsMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/V3-86js8qjY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "cinderrblock"
+	}
+  ],
+  "song": "Teminite - mutant",
+  "verification": "https://youtu.be/R5DhBaljbtY",
+  "verifier": "azakl"
 }

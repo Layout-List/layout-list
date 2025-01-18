@@ -1,162 +1,163 @@
 {
-	"id": 88485624,
-	"name": "Bad Apple",
-	"author": "Puri1",
-	"creators": [],
-	"verifier": "Puri1",
-	"verification": "https://www.youtube.com/watch?v=I12KnpbqTak&ab_channel=Puri",
-	"percentToQualify": 100,
-	"song": "Nomico - Bad Apple!!",
-	"songLink": "https://www.mediafire.com/file/dv21dxsu9kjr3ap/301816.mp3/file",
-	"difficulty": 1,
-	"records": [
-		{
-			"user": "Asteria.",
-			"link": "https://youtu.be/RsblDmzzQHQ",
-			"percent": 100,
-			"hz": "240",
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/z5md3sbckCI",
-			"percent": 100,
-			"hz": 165,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "mrperson",
-			"link": "https://youtu.be/XF_SdUmNw5c",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "ThisGuyKreas",
-			"link": "https://youtu.be/UY67_CssvsE",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true
-		},
-		{
-			"user": "Zxnyi",
-			"link": "https://www.youtube.com/watch?v=esBFtFYnC9M",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Sanctum",
-			"link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
-			"percent": 100,
-			"hz": 120,
-			"mobile": true
-		},
-		{
-			"user": "zDark",
-			"link": "https://youtu.be/jtzKw9lnZmo",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "DJJDK",
-			"link": "https://www.youtube.com/watch?v=WfV5MoBD1m0",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "nolli",
-			"link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
-			"percent": 100,
-			"hz": 120,
-			"mobile": true,
-			"enjoyment": 1
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/0PW-yCs5j5c",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "LimeDub",
-			"link": "https://youtu.be/FWhXwOgD4gk",
-			"percent": 100,
-			"hz": 288,
-			"mobile": false
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://youtu.be/1pA7JGxT5Zk?si=hOVDNuDa8RCMjHa0",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://youtu.be/zCFl-KnTw90",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": "7"
-		},
-		{
-			"user": "Popples",
-			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false
-		},
-		{
-			"user": "Raezori",
-			"link": "https://youtu.be/XWQhT0yxyRc",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/rwnx_gBL-HY?si=WScASTT-Bc6xef5Z",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 1
-		},
-		{
-			"user": "sn0w",
-			"link": "https://youtu.be/zNV95k0CThE",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 8
-		}
-	]
+  "creators": [
+	"Puri1"
+  ],
+  "difficulty": 1,
+  "id": 88485624,
+  "name": "Bad Apple",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 10,
+	  "hz": "240",
+	  "link": "https://youtu.be/RsblDmzzQHQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Asteria."
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 165,
+	  "link": "https://youtu.be/z5md3sbckCI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/XF_SdUmNw5c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/UY67_CssvsE",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=esBFtFYnC9M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zxnyi"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Sanctum"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/jtzKw9lnZmo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=WfV5MoBD1m0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 120,
+	  "link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/0PW-yCs5j5c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/FWhXwOgD4gk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/1pA7JGxT5Zk?si=hOVDNuDa8RCMjHa0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://youtu.be/zCFl-KnTw90",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Popples"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/XWQhT0yxyRc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Raezori"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 60,
+	  "link": "https://youtu.be/rwnx_gBL-HY?si=WScASTT-Bc6xef5Z",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/zNV95k0CThE",
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "song": "Nomico - Bad Apple!!",
+  "songLink": "https://www.mediafire.com/file/dv21dxsu9kjr3ap/301816.mp3/file",
+  "verification": "https://www.youtube.com/watch?v=I12KnpbqTak&ab_channel=Puri",
+  "verifier": "Puri1"
 }

@@ -1,81 +1,82 @@
 {
-    "id": 94346905,
-    "name": "Take Me Away",
-    "author": "SarcasticMuch",
-    "creators": [],
-    "verifier": "Blueberry",
-    "verification": "https://youtu.be/qA0LFE8fDXU?si=RINQQDwRGxOYTTDf",
-    "showcase": "https://www.youtube.com/watch?v=WXQjYFp0-VY",
-    "percentToQualify": 50,
-    "song": "Rukkus - Take Me Away",
-    "difficulty": 5,
-    "records": [
-     {
-            "user": "zap",
-            "link": "https://www.youtube.com/watch?v=q0FacVD1Wik&ab_channel=zap",
-            "percent": 53,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "GMDJohn",
-            "link": "https://www.youtube.com/watch?v=7Vl1vCVCGfk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "Plazma",
-            "link": "https://www.youtube.com/watch?v=78MigAS94NE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/TCeYLFom6VM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=iZ3KU3Hrye0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        }
-    ]
+  "creators": [
+	"SarcasticMuch"
+  ],
+  "difficulty": 5,
+  "id": 94346905,
+  "name": "Take Me Away",
+  "percentToQualify": 50,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=q0FacVD1Wik&ab_channel=zap",
+	  "mobile": false,
+	  "percent": 53,
+	  "user": "zap"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=7Vl1vCVCGfk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "GMDJohn"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=78MigAS94NE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Plazma"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/TCeYLFom6VM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=iZ3KU3Hrye0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 360,
+	  "link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "riley"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=WXQjYFp0-VY",
+  "song": "Rukkus - Take Me Away",
+  "verification": "https://youtu.be/qA0LFE8fDXU?si=RINQQDwRGxOYTTDf",
+  "verifier": "Blueberry"
 }

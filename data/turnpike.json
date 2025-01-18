@@ -1,45 +1,46 @@
 {
-    "id": 105099317,
-    "name": "Turnpike",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://youtu.be/oRefpYuecf0?si=W9-vT7_tgKOV3UcH",
-    "percentToQualify": 100,
-    "song": "F-777 - Tuxedo Lightsaber Battle",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-          "user": "Hyperbeat",
-          "link": "https://www.youtube.com/watch?v=353dln9stV4",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true,
-          "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/bcTThlSVcPU?si=QRrWuxSLRFgjRpSP",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/M3ClkMTc_sw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "creators": [
+	"Blysteryx"
+  ],
+  "difficulty": 1,
+  "id": 105099317,
+  "name": "Turnpike",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/bcTThlSVcPU?si=QRrWuxSLRFgjRpSP",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/M3ClkMTc_sw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	}
+  ],
+  "song": "F-777 - Tuxedo Lightsaber Battle",
+  "verification": "https://youtu.be/oRefpYuecf0?si=W9-vT7_tgKOV3UcH",
+  "verifier": "Blysteryx"
 }

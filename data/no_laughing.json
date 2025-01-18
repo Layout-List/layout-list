@@ -1,83 +1,84 @@
 {
-    "id": 96833422,
-    "name": "NO LAUGHING ALLOWED",
-    "author": "Blueberry",
-    "creators": [],
-    "verifier": "Poke Zach",
-    "verification": "https://youtu.be/BsGj939GeG0?si=VBeOInAdHLY6kkoB",
-    "percentToQualify": 100,
-    "song": "soclb - Infertehno 2  ",
-    "songLink": "https://www.mediafire.com/file/gh1n0pfc35cfaby/343707.mp3/file",
-    "difficulty": 2,
-    "enjoyment": 9,
-    "records": [
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/-YXfwZjVG8A",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "6"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/IAQC9KrdrSo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-          "user": "zDark",
-          "link": "https://youtu.be/YGVydirX9dU",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Tupi",
-          "link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/G7rp4ruv9Bo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/hL-xm9UxXpc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "RedNazFM",
-            "link": "https://www.youtube.com/watch?v=_BHC9zKS1Vw",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "creators": [
+	"Blueberry"
+  ],
+  "difficulty": 2,
+  "enjoyment": 9,
+  "id": 96833422,
+  "name": "NO LAUGHING ALLOWED",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 6,
+	  "hz": 120,
+	  "link": "https://youtu.be/-YXfwZjVG8A",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": "6",
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/IAQC9KrdrSo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/YGVydirX9dU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/G7rp4ruv9Bo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/hL-xm9UxXpc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=_BHC9zKS1Vw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "RedNazFM"
+	}
+  ],
+  "song": "soclb - Infertehno 2  ",
+  "songLink": "https://www.mediafire.com/file/gh1n0pfc35cfaby/343707.mp3/file",
+  "verification": "https://youtu.be/BsGj939GeG0?si=VBeOInAdHLY6kkoB",
+  "verifier": "Poke Zach"
 }
