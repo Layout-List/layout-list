@@ -103,7 +103,7 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <a class="director" :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                    <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
                                     <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
@@ -150,7 +150,7 @@ export default {
                         <ol class="staff">
                             <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
-                                <a class="type-label-lg link" class="director" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <a class="type-label-lg link director" target="_blank" :href="editor.link">{{ editor.name }}</a>
                             </li>
                         </ol>
                     </template>
