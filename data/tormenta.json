@@ -1,158 +1,159 @@
 {
-    "id": 72612321,
-    "name": "Tormenta \u2b50",
-    "author": "BrazilTeam",
-    "creators": [],
-    "verifier": "Luyz",
-    "verification": "https://youtu.be/509Th77agCk",
-    "showcase": "https://youtu.be/Z2IUFRrPXms",
-    "percentToQualify": 52,
-    "password": "Not Copyable",
-    "song": "AeronMusic - Sidestep",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/9lGBBBLRKYY",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://www.youtube.com/watch?v=YDteYJmGc6o",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/mrbjI-bz860",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "MiniWheatDuo",
-            "link": "https://www.youtube.com/watch?v=8UyKuh8_h7g",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Moisty",
-            "link": "https://youtu.be/kShpugE9_to",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Lev_Nix",
-            "link": "https://youtu.be/edCCGsgBTwI",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "leaf",
-            "link": "https://www.youtube.com/watch?v=X5tGq-sA5Bw",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "Armani",
-            "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=7tJcNjpvA4I",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/mcV2mM2QHuw",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Bibox",
-            "link": "https://youtu.be/TtaiPHtYwS8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/lN49cHKFK9M",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Leckylecks",
-            "link": "https://youtu.be/lf_oF69-tKk?si=y3Qkq45u_IFmv96d",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "tomm",
-            "link": "https://youtu.be/oag3UmadI4A",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-          {
-            "user": "agentgiscool",
-            "link": "https://youtu.be/IEDnmThHh88",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-          {
-            "user": "Kubus",
-            "link": "https://youtu.be/qqIOQzkzyM8?si=5s35xEJWL_gWxKLQ",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/k-TWLnp64dQ?si=Td35feRrXBv8b1jA",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://youtu.be/bZmCfkUNIqw?si=EOleNb5JGBtNEGCE",
-            "percent": 100,
-            "hz": 280,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Sloudy",
-            "link": "https://youtu.be/4FMzm7qFVmc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/5Vb6uhJlEFs?si=H5bG_JqSz06DNDLI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [
+	"BrazilTeam"
+  ],
+  "difficulty": 4,
+  "id": 72612321,
+  "name": "Tormenta ⭐",
+  "password": "Not Copyable",
+  "percentToQualify": 52,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/9lGBBBLRKYY",
+	  "percent": 100,
+	  "user": "Blathers"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=YDteYJmGc6o",
+	  "percent": 100,
+	  "user": "danielvess555"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/mrbjI-bz860",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=8UyKuh8_h7g",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "MiniWheatDuo"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/kShpugE9_to",
+	  "percent": 100,
+	  "user": "Moisty"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/edCCGsgBTwI",
+	  "percent": 100,
+	  "user": "Lev_Nix"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=X5tGq-sA5Bw",
+	  "percent": 100,
+	  "user": "leaf"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=7tJcNjpvA4I",
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/mcV2mM2QHuw",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/TtaiPHtYwS8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Bibox"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/lN49cHKFK9M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/lf_oF69-tKk?si=y3Qkq45u_IFmv96d",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Leckylecks"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/oag3UmadI4A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "tomm"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/IEDnmThHh88",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "agentgiscool"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/qqIOQzkzyM8?si=5s35xEJWL_gWxKLQ",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Kubus"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 60,
+	  "link": "https://youtu.be/k-TWLnp64dQ?si=Td35feRrXBv8b1jA",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 280,
+	  "link": "https://youtu.be/bZmCfkUNIqw?si=EOleNb5JGBtNEGCE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NiXaNTy"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/4FMzm7qFVmc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Sloudy"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/5Vb6uhJlEFs?si=H5bG_JqSz06DNDLI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "showcase": "https://youtu.be/Z2IUFRrPXms",
+  "song": "AeronMusic - Sidestep",
+  "verification": "https://youtu.be/509Th77agCk",
+  "verifier": "Luyz"
 }

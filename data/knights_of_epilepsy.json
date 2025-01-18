@@ -1,21 +1,22 @@
 {
-    "id": 106511880,
-    "name": "kNights oF epiLepsy",
-    "author": "Flare",
-    "creators": [],
-    "verifier": "Evil",
-    "verification": "https://youtu.be/xPztFAMQdR4",
-    "percentToQualify": 100,
-    "song": "DuoCore - Dignity",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/FoEyNGCnLNg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "creators": [
+	"Flare"
+  ],
+  "difficulty": 1,
+  "id": 106511880,
+  "name": "kNights oF epiLepsy",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/FoEyNGCnLNg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	}
+  ],
+  "song": "DuoCore - Dignity",
+  "verification": "https://youtu.be/xPztFAMQdR4",
+  "verifier": "Evil"
 }

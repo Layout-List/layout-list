@@ -1,38 +1,38 @@
-
 {
-    "id": 110390442,
-    "name": "Smooktober",
-    "author": "azakl",
-    "creators": [],
-    "verifier": "azakl",
-    "verification": "https://youtu.be/gK1Es_R7x3w",
-    "percentToQualify": 100,
-    "song": "Solkrieg - Deimos",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/j0pASCyzqkLVEtfXy?invite=cr-MSxxR00sMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/rYFCmdwNmrI?si=2FRXGW7NoKLismy4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 1
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/OAl70NOdKAE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"azakl"
+  ],
+  "difficulty": 3,
+  "id": 110390442,
+  "name": "Smooktober",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/j0pASCyzqkLVEtfXy?invite=cr-MSxxR00sMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 60,
+	  "link": "https://youtu.be/rYFCmdwNmrI?si=2FRXGW7NoKLismy4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/OAl70NOdKAE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	}
+  ],
+  "song": "Solkrieg - Deimos",
+  "verification": "https://youtu.be/gK1Es_R7x3w",
+  "verifier": "azakl"
 }

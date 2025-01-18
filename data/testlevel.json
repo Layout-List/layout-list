@@ -1,20 +1,21 @@
 {
-	"id": 129123,
-	"name": "testlevel",
-	"author": "sphericle",
-	"creators": [],
-	"verifier": "sphericle",
-	"verification": "https://hai.com",
-	"percentToQualify": 100,
-	"password": "Free to copy",
-	"difficulty": 1,
-	"song": "234923942394",
-	"records": [
-		{
-			"user": "sphericle",
-			"link": "https://hai.com",
-			"percent": 100,
-			"hz": 240
-		}
-	]
+  "creators": [
+	"sphericle"
+  ],
+  "difficulty": 1,
+  "id": 129123,
+  "name": "testlevel",
+  "password": "Free to copy",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://hai.com",
+	  "percent": 100,
+	  "user": "sphericle"
+	}
+  ],
+  "song": "234923942394",
+  "verification": "https://hai.com",
+  "verifier": "sphericle"
 }

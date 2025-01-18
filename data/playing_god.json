@@ -1,39 +1,39 @@
 {
-    "id": 109521625,
-    "name": "Playing God",
-    "author": "Shums",
-    "creators": [],
-    "verifier": "Shums",
-    "verification": "https://www.youtube.com/watch?v=aRrgz71jZHQ",
-    "percentToQualify": 100,
-    "song": "Polyphia - Playing God",
-    "songLink": "https://drive.google.com/file/d/1N0eBKFrhyUoxGkGXyC2pbfHuVTA2Jlys/view?usp=drive_link",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/BKChSLOojy8?si=d4cVJKkILjaMtOtA",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        }
-        
-    ]
+  "creators": [
+	"Shums"
+  ],
+  "difficulty": 1,
+  "id": 109521625,
+  "name": "Playing God",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 10,
+	  "hz": 60,
+	  "link": "https://youtu.be/BKChSLOojy8?si=d4cVJKkILjaMtOtA",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 60,
+	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 240,
+	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	}
+  ],
+  "song": "Polyphia - Playing God",
+  "songLink": "https://drive.google.com/file/d/1N0eBKFrhyUoxGkGXyC2pbfHuVTA2Jlys/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=aRrgz71jZHQ",
+  "verifier": "Shums"
 }

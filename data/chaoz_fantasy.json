@@ -1,45 +1,45 @@
 {
-    "id": 111997786,
-    "name": "Chaoz Fantasy",
-    "author": "rastuyas",
-    "creators": [],
-    "verifier": "skyv",
-    "verification": "https://www.youtube.com/watch?v=_aFbrWd6nvw",
-    "percentToQualify": 100,
-    "song": "ParagonX9 - Chaoz Fantasy",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "sn0w",
-            "link": "https://medal.tv/games/geometry-dash/clips/j3EjcbaYJiHPK9suf/spok?invite=cr-MSxMWFIsMjY3Njk2MzQ2LA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/k2WN4u1w0dI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "mr123j",
-            "link": "https://youtu.be/QAUmif9pYg8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/2jMQ5iwTMpc?si=N0PE3Y_c7lEzWYxN",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 4
-        }
-        
-    ]
+  "creators": [
+	"rastuyas"
+  ],
+  "difficulty": 3,
+  "id": 111997786,
+  "name": "Chaoz Fantasy",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/j3EjcbaYJiHPK9suf/spok?invite=cr-MSxMWFIsMjY3Njk2MzQ2LA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/k2WN4u1w0dI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/QAUmif9pYg8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mr123j"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 60,
+	  "link": "https://youtu.be/2jMQ5iwTMpc?si=N0PE3Y_c7lEzWYxN",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	}
+  ],
+  "song": "ParagonX9 - Chaoz Fantasy",
+  "verification": "https://www.youtube.com/watch?v=_aFbrWd6nvw",
+  "verifier": "skyv"
 }

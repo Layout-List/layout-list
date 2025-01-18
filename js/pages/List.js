@@ -58,7 +58,7 @@ export default {
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <a class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                     </div>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
+                    <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -76,7 +76,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
@@ -89,9 +89,8 @@ export default {
                     </ul>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Song</div>
-
-                            <p v-if="level.songLink"><a target="_blank" :href="songDownload" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
+                            <p v-if="level.songLink" style="text-decoration: underline;"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                             <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
@@ -104,7 +103,7 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                    <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
                                     <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
@@ -143,7 +142,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
+                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
                     </div>
                     <hr class="divider">
                     <template v-if="staff">
@@ -151,20 +150,22 @@ export default {
                         <ol class="staff">
                             <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
-                                <a class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <a class="type-label-lg link director" target="_blank" :href="editor.link">{{ editor.name }}</a>
                             </li>
                         </ol>
                     </template>
+
                     <hr class="divider">
+
                     <h3>Tags</h3>
-
-                    <p style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
-                    <p style="cursor:pointer;" @click="search('✨')">✨ Subject to Exemptions</p>
-                    <p style="cursor:pointer;" @click="search('💫')">💫 Accepted Under Old Standards</p>
-                    <p style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
-                    <p style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
+                    <p class="director" style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
+                    <p class="director" style="cursor:pointer;" @click="search('✨')">✨ Subject to Exemptions</p>
+                    <p class="director" style="cursor:pointer;" @click="search('💫')">💫 Accepted Under Old Standards</p>
+                    <p class="director" style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
+                    <p class="director" style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
 
                     <hr class="divider">
+
                     <h3>Record Submission Requirements</h3>
                     <div class="right-text">
                         <p>

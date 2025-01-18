@@ -1,22 +1,23 @@
 {
-	"id": 79929694,
-	"name": "Saas",
-	"author": "vitnz",
-	"creators": [],
-	"verifier": "vitnz",
-	"verification": "https://youtu.be/9N8N0AWZS1I",
-	"percentToQualify": 100,
-	"password": "Free to copy",
-	"difficulty": 1,
-	"song": "SoundHolicK - Illusion of Space",
-	"records": [
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/27T96tj8Tjw",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 8,
-			"mobile": true
-		}
-	]
+  "creators": [
+	"vitnz"
+  ],
+  "difficulty": 1,
+  "id": 79929694,
+  "name": "Saas",
+  "password": "Free to copy",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/27T96tj8Tjw",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	}
+  ],
+  "song": "SoundHolicK - Illusion of Space",
+  "verification": "https://youtu.be/9N8N0AWZS1I",
+  "verifier": "vitnz"
 }

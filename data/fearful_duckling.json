@@ -1,178 +1,179 @@
 {
-    "id": 72011026,
-    "name": "Fearful Duckling",
-    "author": "QuackerDeezles",
-    "creators": [],
-    "verifier": "QuackerDeezles",
-    "verification": "https://www.youtube.com/watch?v=DtnOBtPrt9k",
-    "percentToQualify": 100,
-    "password": "Not Copyable",
-    "song": "Merin & Xlsagani - Nightmares",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "ZBosGaming",
-            "link": "https://youtu.be/mXkYdJp7-Fs",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/u4u7e7LEzds",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "sqrtpie",
-            "link": "https://youtu.be/DphuZGAQKtQ",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/sqEH_1lWz5w",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://www.youtube.com/watch?app=desktop&v=Rc00xVBlg5g",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/r9y76xe8oWg",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "Fezzern",
-            "link": "https://youtu.be/lb01teif29c",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=xbD6uP-9jOU",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "culobdj",
-            "link": "https://youtu.be/xJ6jbB1cVjw",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/djJhwWXHWeo",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/KMM3s9iraps",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/5DPRsUFdEMo",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/lGtSbg34V98",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/RX-Ch2tN1Nw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "SinSnrGD",
-            "link": "https://youtu.be/9uRKLqQY80I",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/TtEeOeHJgfc",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Sanctum",
-            "link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/FMI8pWu0W7w",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/10KN14nvDbI",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "2"
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=M7mK2GyMdBs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/J9zZsF1UF58",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        }
-    ]
+  "creators": [
+	"QuackerDeezles"
+  ],
+  "difficulty": 2,
+  "id": 72011026,
+  "name": "Fearful Duckling",
+  "password": "Not Copyable",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/mXkYdJp7-Fs",
+	  "percent": 100,
+	  "user": "ZBosGaming"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/u4u7e7LEzds",
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/DphuZGAQKtQ",
+	  "percent": 100,
+	  "user": "sqrtpie"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/sqEH_1lWz5w",
+	  "percent": 100,
+	  "user": "Blathers"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?app=desktop&v=Rc00xVBlg5g",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/r9y76xe8oWg",
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/lb01teif29c",
+	  "percent": 100,
+	  "user": "Fezzern"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=xbD6uP-9jOU",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/xJ6jbB1cVjw",
+	  "percent": 100,
+	  "user": "culobdj"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/djJhwWXHWeo",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/KMM3s9iraps",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/5DPRsUFdEMo",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/lGtSbg34V98",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/RX-Ch2tN1Nw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/9uRKLqQY80I",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "SinSnrGD"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 60,
+	  "link": "https://youtu.be/TtEeOeHJgfc",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Sanctum"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/FMI8pWu0W7w",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "enjoyment": "2",
+	  "hz": 75,
+	  "link": "https://youtu.be/10KN14nvDbI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=M7mK2GyMdBs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://youtu.be/J9zZsF1UF58",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 360,
+	  "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "Merin & Xlsagani - Nightmares",
+  "verification": "https://www.youtube.com/watch?v=DtnOBtPrt9k",
+  "verifier": "QuackerDeezles"
 }

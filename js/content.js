@@ -148,26 +148,6 @@ export async function fetchLeaderboard(list) {
             return;
         }
 
-        // Author
-        const author = Object.keys(scoreMap).find(
-            (u) => u.toLowerCase() === level.author.toLowerCase(),
-        ) || level.author;
-        scoreMap[author] ??= {
-            created: [],
-            verified: [],
-            completed: [],
-            progressed: [],
-            userPacks: [],
-            flag: flags[level.author]
-        };
-
-        const { created } = scoreMap[author];
-        created.push({
-            rank,
-            level: level.name,
-            link: level.verification,
-        });
-
         // Creators
         level.creators.forEach((person) => {
             const creator = Object.keys(scoreMap).find(
@@ -183,9 +163,9 @@ export async function fetchLeaderboard(list) {
             };
             const { created } = scoreMap[creator];
             created.push({
-            rank,
-            level: level.name,
-            link: level.verification,
+                rank,
+                level: level.name,
+                link: level.verification,
             });
         });
         

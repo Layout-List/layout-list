@@ -1,119 +1,120 @@
 {
-    "id": 98907095,
-    "name": "Midnight Chromedrive",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://www.youtube.com/watch?v=8BKVSfeDlf0",
-    "percentToQualify": 100,
-    "song": "six impala - CHROMETYPE",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=MLoysWQt_gc",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/8FtXN4Xq3EI",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "LimeDub",
-            "link": "https://youtu.be/jALX9Y0UJho",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Popples",
-            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/CzJyRCatOEc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/3rLAoICX3B0",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/8Is0KGkKj7M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "ToastyTP",
-            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment" : "?"
-        },
-        {
-            "user": "Paladean",
-            "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"Blysteryx"
+  ],
+  "difficulty": 1,
+  "id": 98907095,
+  "name": "Midnight Chromedrive",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=MLoysWQt_gc",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": "8",
+	  "hz": 75,
+	  "link": "https://youtu.be/8FtXN4Xq3EI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/jALX9Y0UJho",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Popples"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Alvaneder"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/CzJyRCatOEc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/3rLAoICX3B0",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/8Is0KGkKj7M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 360,
+	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ToastyTP"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Paladean"
+	}
+  ],
+  "song": "six impala - CHROMETYPE",
+  "verification": "https://www.youtube.com/watch?v=8BKVSfeDlf0",
+  "verifier": "Blysteryx"
 }

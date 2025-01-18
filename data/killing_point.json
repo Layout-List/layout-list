@@ -1,53 +1,54 @@
 {
-    "id": 104937049,
-    "name": "Killing point",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://youtu.be/7Z-tZDLZNpM?si=z9cM8ypmZKOSyBc_",
-    "percentToQualify": 100,
-    "song": "KaTT, six impala - looking for swords",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-          "user": "Hyperbeat",
-          "link": "https://www.youtube.com/watch?v=353dln9stV4",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true,
-          "enjoyment": 3
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Be_LntdDueI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/tHYS7MGcQdk?si=VtKUQ38WmYKnalpm",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+  "creators": [
+	"Blysteryx"
+  ],
+  "difficulty": 1,
+  "id": 104937049,
+  "name": "Killing point",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 360,
+	  "link": "https://youtu.be/Be_LntdDueI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/tHYS7MGcQdk?si=VtKUQ38WmYKnalpm",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	}
+  ],
+  "song": "KaTT, six impala - looking for swords",
+  "verification": "https://youtu.be/7Z-tZDLZNpM?si=z9cM8ypmZKOSyBc_",
+  "verifier": "Blysteryx"
 }

@@ -1,85 +1,86 @@
 {
-    "id": 100734235,
-    "name": "Final Drop",
-    "author": "HZover",
-    "creators": [],
-    "verifier": "mrperson",
-    "verification": "https://youtu.be/prZkF42vWfg",
-    "showcase": "https://www.youtube.com/watch?v=f8OFgikn5X4&ab_channel=LayoutListShowcases",
-    "percentToQualify": 53,
-    "password": "Not Copyable",
-    "song": "NemesisTheory - Rose At Nightfall",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "HZover",
-            "link": "https://youtu.be/sQNRJAUwq7A",
-            "percent": 100,
-            "hz": 300
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/05bmJIRkMQQ",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=roNm0bCIGF4",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://youtu.be/QwYL46a0y8M",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=86YVwybL9YY",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/477V4glJd8w",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/2A6I8fPP61s",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/r4nCcpiZddw",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "TurtlesdoHurdles",
-            "link": "https://youtu.be/MjXJ1rMLrtA",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "sn0w",
-            "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
-            "percent": 100,
-            "hz": 360,
-            "enjoyment": 8,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"HZover"
+  ],
+  "difficulty": 4,
+  "id": 100734235,
+  "name": "Final Drop",
+  "password": "Not Copyable",
+  "percentToQualify": 53,
+  "records": [
+	{
+	  "hz": 300,
+	  "link": "https://youtu.be/sQNRJAUwq7A",
+	  "percent": 100,
+	  "user": "HZover"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/05bmJIRkMQQ",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=roNm0bCIGF4",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/QwYL46a0y8M",
+	  "percent": 100,
+	  "user": "CaioMD"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=86YVwybL9YY",
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/477V4glJd8w",
+	  "percent": 100,
+	  "user": "Jab"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/2A6I8fPP61s",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/r4nCcpiZddw",
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/MjXJ1rMLrtA",
+	  "percent": 100,
+	  "user": "TurtlesdoHurdles"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=f8OFgikn5X4&ab_channel=LayoutListShowcases",
+  "song": "NemesisTheory - Rose At Nightfall",
+  "verification": "https://youtu.be/prZkF42vWfg",
+  "verifier": "mrperson"
 }

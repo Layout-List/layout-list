@@ -1,169 +1,170 @@
 {
-    "id": 72202989,
-    "name": "Ruler of Everything",
-    "author": "Salukis",
-    "creators": [],
-    "verifier": "xtyles",
-    "verification": "https://youtu.be/6LSr7uKA_0s",
-    "showcase": "https://www.youtube.com/watch?v=zdF5_z_isPQ&ab_channel=LayoutListShowcases",
-    "percentToQualify": 49,
-    "song": "Tally Hall - Ruler of Everything",
-    "songLink": "https://www.mediafire.com/file/480d2cusv7y6b6z/8888.mp3/file",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "ZBosGaming",
-            "link": "https://youtu.be/ry49jjlHZWE",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Solo12",
-            "link": "https://www.youtube.com/watch?v=awirCQNMVW4",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/CZoMGk1lhbw",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "Fezzern",
-            "link": "https://www.youtube.com/watch?v=hPEStsUe6AQ",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/Udluu1WdnAM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/exQBU5B_1dU",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "theworldofme",
-            "link": "https://youtu.be/8hzuJi5YFbM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "culobdj",
-            "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Po7uLUmLJ7k",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/5DPRsUFdEMo",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/DZ_ndqdR5Kw",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Trees",
-            "link": "https://www.youtube.com/watch?v=Mg5CaNM2SDU",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/9V_ueEhevYk",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "ObvSilver",
-            "link": "https://youtu.be/3IKDjSdjhfw",
-            "percent": 100,
-            "hz": 165
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/iOPL_ZOvt_U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Bibox",
-            "link": "https://www.youtube.com/watch?v=P2G3T2R-Iro",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Skybolt06",
-            "link": "https://youtu.be/x-3Z8wxHq50",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Asteria.",
-            "link": "https://youtu.be/g2jUCDwbdZU?si=Az-ZnkZkCwBI9Wmh",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 1
-        }
-    ]
+  "creators": [
+	"Salukis"
+  ],
+  "difficulty": 2,
+  "id": 72202989,
+  "name": "Ruler of Everything",
+  "percentToQualify": 49,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/ry49jjlHZWE",
+	  "percent": 100,
+	  "user": "ZBosGaming"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=awirCQNMVW4",
+	  "percent": 100,
+	  "user": "Solo12"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/CZoMGk1lhbw",
+	  "percent": 100,
+	  "user": "Blathers"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=hPEStsUe6AQ",
+	  "percent": 100,
+	  "user": "Fezzern"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Udluu1WdnAM",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/exQBU5B_1dU",
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/8hzuJi5YFbM",
+	  "percent": 100,
+	  "user": "theworldofme"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=KYRBW5dLQPk",
+	  "percent": 100,
+	  "user": "culobdj"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/Po7uLUmLJ7k",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/5DPRsUFdEMo",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/DZ_ndqdR5Kw",
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=Mg5CaNM2SDU",
+	  "percent": 100,
+	  "user": "Trees"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/9V_ueEhevYk",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 165,
+	  "link": "https://youtu.be/3IKDjSdjhfw",
+	  "percent": 100,
+	  "user": "ObvSilver"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/iOPL_ZOvt_U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=P2G3T2R-Iro",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Bibox"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/x-3Z8wxHq50",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skybolt06"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/g2jUCDwbdZU?si=Az-ZnkZkCwBI9Wmh",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Asteria."
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 60,
+	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 60,
+	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=zdF5_z_isPQ&ab_channel=LayoutListShowcases",
+  "song": "Tally Hall - Ruler of Everything",
+  "songLink": "https://www.mediafire.com/file/480d2cusv7y6b6z/8888.mp3/file",
+  "verification": "https://youtu.be/6LSr7uKA_0s",
+  "verifier": "xtyles"
 }

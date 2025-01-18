@@ -1,59 +1,60 @@
 {
-    "id": 97147316,
-    "name": "What You Love",
-    "author": "ThisGuyKreas",
-    "creators": [],
-    "verifier": "ThisGuyKreas",
-    "verification": "https://youtu.be/SnigW3NS4QQ",
-    "percentToQualify": 100,
-    "song": "garlagan - What You Love",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Dangadash",
-            "link": "https://www.youtube.com/watch?v=1FVnksS0gKM",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-         {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/RK2FfPR7juU?si=KEXCBK7CqrN_r8hF",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "3"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/tWg-kevab0s?si=tV5xufxcQo1PbG9C",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/iTC3GlKZHAY",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/BDvXMkg6MgM?si=rDDVUPNq2VXhZa6d",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 7
-        }
-    ]
+  "creators": [
+	"ThisGuyKreas"
+  ],
+  "difficulty": 2,
+  "id": 97147316,
+  "name": "What You Love",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=1FVnksS0gKM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dangadash"
+	},
+	{
+	  "enjoyment": "3",
+	  "hz": 60,
+	  "link": "https://youtu.be/RK2FfPR7juU?si=KEXCBK7CqrN_r8hF",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/tWg-kevab0s?si=tV5xufxcQo1PbG9C",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 120,
+	  "link": "https://youtu.be/iTC3GlKZHAY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://youtu.be/BDvXMkg6MgM?si=rDDVUPNq2VXhZa6d",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	}
+  ],
+  "song": "garlagan - What You Love",
+  "verification": "https://youtu.be/SnigW3NS4QQ",
+  "verifier": "ThisGuyKreas"
 }

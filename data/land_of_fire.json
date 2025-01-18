@@ -1,148 +1,149 @@
 {
-	"id": 85004894,
-	"name": "LAND OF FIRE",
-	"author": "Gwisp",
-	"creators": [],
-	"verifier": "Dom_Luca",
-	"verification": "https://youtu.be/cnhbGGu2nVw",
-	"showcase": "https://youtu.be/QSarlBZvTCM",
-	"percentToQualify": 100,
-	"song": "KORDHELL - LAND OF FIRE",
-	"songLink": "https://www.mediafire.com/file/ppa0sznfvsrg0jl/75782.mp3/file",
-	"difficulty": 2,
-	"records": [
-		{
-			"user": "DeleteNine",
-			"link": "https://youtu.be/TWKjYOfbObw",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "sikoo23",
-			"link": "https://youtu.be/DWsiYpuMexc",
-			"percent": 100,
-			"hz": 120,
-			"mobile": true
-		},
-		{
-			"user": "DJJDK",
-			"link": "https://youtu.be/wZYV8N4lQDY",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "mrperson",
-			"link": "https://youtu.be/VaRz9c-Z8e4",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/mP0t7Vou_80",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "zDark",
-			"link": "https://youtu.be/tfa2apODm3I",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "ThisGuyKreas",
-			"link": "https://youtu.be/XTApGN0QDaM",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true
-		},
-		{
-			"user": "customs",
-			"link": "https://youtu.be/iYTPGc9jBkQ",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Dropp",
-			"link": "https://www.youtube.com/watch?v=A_BiI6xg9lA",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "sphericle",
-			"link": "https://youtu.be/j7uyHznfdCY",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 4
-		},
-		{
-			"user": "Skip",
-			"link": "https://youtu.be/_YZcPe_Jb1w?si=8cy1m7L0OjHPxjNF",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "nolli",
-			"link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/iTC3GlKZHAY",
-			"percent": 100,
-			"hz": 120,
-			"mobile": true,
-			"enjoyment": 5
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": "8"
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/dJ0foW_n3cU",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "NiXaNTy",
-			"link": "https://youtu.be/rbc4vT8gtA8?si=Qo6mZDQOiQNsmCkR",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 8
-		}
-	]
+  "creators": [
+	"Gwisp"
+  ],
+  "difficulty": 2,
+  "id": 85004894,
+  "name": "LAND OF FIRE",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/TWKjYOfbObw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/DWsiYpuMexc",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "sikoo23"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/wZYV8N4lQDY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/VaRz9c-Z8e4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/mP0t7Vou_80",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/tfa2apODm3I",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/XTApGN0QDaM",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/iYTPGc9jBkQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "customs"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=A_BiI6xg9lA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dropp"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://youtu.be/j7uyHznfdCY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sphericle"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/_YZcPe_Jb1w?si=8cy1m7L0OjHPxjNF",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skip"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 120,
+	  "link": "https://youtu.be/iTC3GlKZHAY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": "8",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/rbc4vT8gtA8?si=Qo6mZDQOiQNsmCkR",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NiXaNTy"
+	}
+  ],
+  "showcase": "https://youtu.be/QSarlBZvTCM",
+  "song": "KORDHELL - LAND OF FIRE",
+  "songLink": "https://www.mediafire.com/file/ppa0sznfvsrg0jl/75782.mp3/file",
+  "verification": "https://youtu.be/cnhbGGu2nVw",
+  "verifier": "Dom_Luca"
 }

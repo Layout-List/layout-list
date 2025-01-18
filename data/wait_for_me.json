@@ -1,60 +1,61 @@
 {
-    "id": 100837172,
-    "name": "Wait For Me",
-    "author": "Ultrobro",
-    "creators": [],
-    "verifier": "Ultrobro",
-    "verification": "https://youtu.be/XtGCayDu3iQ?si=0Huz9_fgp__87k1v",
-    "percentToQualify": 100,
-    "song": "DrayxMusic - Wait For Me",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=SwlaH3xe_go",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-         {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/1scfw-hJ7DA?si=pZlECxNQYSzxssK8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 0
-        },
-          {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/iTC3GlKZHAY",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/hL-xm9UxXpc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+  "creators": [
+	"Ultrobro"
+  ],
+  "difficulty": 2,
+  "id": 100837172,
+  "name": "Wait For Me",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=SwlaH3xe_go",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 60,
+	  "link": "https://youtu.be/1scfw-hJ7DA?si=pZlECxNQYSzxssK8",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 120,
+	  "link": "https://youtu.be/iTC3GlKZHAY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/hL-xm9UxXpc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "song": "DrayxMusic - Wait For Me",
+  "verification": "https://youtu.be/XtGCayDu3iQ?si=0Huz9_fgp__87k1v",
+  "verifier": "Ultrobro"
 }

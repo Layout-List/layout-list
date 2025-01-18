@@ -1,94 +1,94 @@
 {
-	"id": 100871941,
-	"name": "fell in luv",
-	"author": "Flare",
-	"creators": [
-		"DJJDK"
-	],
-	"verifier": "zDark",
-	"verification": "https://youtu.be/ufFOB8Svon8?si=n9yLK0XtzlRqy_0Q",
-	"percentToQualify": 100,
-	"song": "Playboi Carti - Fell In Luv",
-	"songLink": "https://drive.google.com/file/d/1QjehpbiwNUStBUmHwEJmGSaH2DzowOm6/view?usp=drive_link",
-	"difficulty": 3,
-	"records": [
-		{
-			"user": "Paladean",
-			"link": "https://youtu.be/jWYWCl-76tQ",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://www.youtube.com/watch?v=7JzmKRVwTiI",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://youtu.be/8rJaGoAY6OQ",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": "8"
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/1V0wiv_ZChw",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "sphericle",
-			"link": "https://www.youtube.com/watch?v=F5BCfyMJXRE",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/wybOU99aknM",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 8
-		},
-		{
-			"user": "Portal 3",
-			"link": "https://www.youtube.com/watch?v=pUM5FOCFKM0&ab_channel=Portal3",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false,
-			"enjoyment": 2
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 4
-		},
-		{
-			"user": "Dom_Luca",
-			"link": "https://www.youtube.com/watch?v=xB79hxkI-5k",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 10
-		}
-	]
+  "creators": [
+	"DJJDK",
+	"Flare"
+  ],
+  "difficulty": 3,
+  "id": 100871941,
+  "name": "fell in luv",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/jWYWCl-76tQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Paladean"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=7JzmKRVwTiI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": "8",
+	  "hz": 75,
+	  "link": "https://youtu.be/8rJaGoAY6OQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/1V0wiv_ZChw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=F5BCfyMJXRE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sphericle"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/wybOU99aknM",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=pUM5FOCFKM0&ab_channel=Portal3",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Portal 3"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=xB79hxkI-5k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	}
+  ],
+  "song": "Playboi Carti - Fell In Luv",
+  "songLink": "https://drive.google.com/file/d/1QjehpbiwNUStBUmHwEJmGSaH2DzowOm6/view?usp=drive_link",
+  "verification": "https://youtu.be/ufFOB8Svon8?si=n9yLK0XtzlRqy_0Q",
+  "verifier": "zDark"
 }

@@ -13,7 +13,7 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                    Shameless copy of the <a class="director" href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">Extreme Demon Roulette by matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
@@ -46,9 +46,23 @@ export default {
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
                             </a>
                             <div class="meta">
-                                <p>#{{ level.rank }}</p>
-                                <h2><a :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
-                                <p style="color: #00b54b; font-weight: 700">{{ progression[i] }}%</p>
+                                <div>
+                                    <div class="rank-container">
+                                        <p>#{{ level.rank }}</p>
+                                    </div>
+                                    <div class="nong-container">
+                                         <p v-if="level.songlink !== null">Nong: <a class="director" :href="level.songlink" target="_blank">{{ level.songname }}</a></p>
+                                     </div>
+                                </div>
+                                <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
+                                <div>
+                                    <div style="display: inline-block; width: 50%;">
+                                        <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                                    </div>
+                                    <div style="display: inline-block; width: 50%; text-align: right;">
+                                        <p style="color: #00b54b; font-weight: 700">{{ progression[i] }}%</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- Current Level -->
@@ -57,24 +71,23 @@ export default {
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(currentLevel.video))" alt="">
                             </a>
                             <div class="meta">
-                                <div class="copy-container">
-                                    <p class="copy-name">
-                                        #{{ currentLevel.rank }}
-                                    </p>
-                                    
-                                    <div v-if="currentLevel.songlink !== null">
-                                        <p class="nong-text">
-                                            <a
-                                                :href="currentLevel.songlink"
-                                                target="_blank"
-                                                class="nong-text"
-                                            >Nong: {{ currentLevel.songname }}
-                                            </a>
-                                        </p>
+                                <div>
+                                    <div class="rank-container">
+                                        <p>#{{ currentLevel.rank }}</p>
+                                    </div>
+                                    <div class="nong-container">
+                                        <p v-if="currentLevel.songlink !== null">Nong: <a class="director" :href="currentLevel.songlink" target="_blank">{{ currentLevel.songname }}</a></p>
                                     </div>
                                 </div>
-                                <h2><a :href="'https://laylist.pages.dev/#/level/' + currentLevel.path" target="_blank">{{ currentLevel.name }}</a></h2>
-                                <p>{{ currentLevel.id }}</p>
+                                <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + currentLevel.path" target="_blank">{{ currentLevel.name }}</a></h2>
+                                <div>
+                                    <div style="display: inline-block; width: 50%;">
+                                        <p class="director" style="cursor: pointer" @click="copyURL(currentLevel.id)">{{ currentLevel.id }}</p>
+                                    </div>
+                                    <div style="display: inline-block; width: 50%; text-align: right;">
+                                        <p style=" font-weight: 700">{{ currentPercentage + 1 }}%</p>
+                                    </div>
+                                </div>
                             </div>
                             <form class="actions" v-if="!givenUp">
                                 <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage + 1" max=100>
@@ -96,9 +109,23 @@ export default {
                                     <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
                                 </a>
                                 <div class="meta">
-                                    <p>#{{ level.rank }}</p>
-                                    <h2><a :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
-                                    <p style="color: #d50000; font-weight: 700">{{ currentPercentage + 2 + i }}%</p>
+                                    <div>
+                                        <div class="rank-container">
+                                            <p>#{{ level.rank }}</p>
+                                        </div>
+                                        <div class="nong-container">
+                                            <p v-if="level.songlink !== null">Nong: <a class="director" :href="level.songlink" target="_blank">{{ level.songname }}</a></p>
+                                        </div> 
+                                    </div>
+                                    <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
+                                    <div>
+                                        <div style="display: inline-block; width: 50%;">
+                                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                                        </div>
+                                        <div style="display: inline-block; width: 50%; text-align: right;">
+                                            <p style="color: #d50000; font-weight: 700">{{ currentPercentage + 2 + i }}%</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </template>

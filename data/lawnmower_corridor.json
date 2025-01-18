@@ -1,60 +1,63 @@
 {
-    "id": 75969648,
-    "name": "Lawnmower Corridor",
-    "author": "Huskie",
-    "creators": ["Krakow","Egg"],
-    "verifier": "Huskie",
-    "verification": "https://www.youtube.com/watch?v=RWZiCaG4kdM&feature=youtu.be",
-    "percentToQualify": 50,
-    "song": "Aryay - The Lawnmower",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=ExO9z0SIc98&t=2s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "xanyx",
-            "link": "https://www.youtube.com/watch?v=8wnS7g_UMVo",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/BDdu3n0Ea3Q",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/lck-HWpK-Dg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"Krakow",
+	"Egg",
+	"Huskie"
+  ],
+  "difficulty": 5,
+  "id": 75969648,
+  "name": "Lawnmower Corridor",
+  "percentToQualify": 50,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98&t=2s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=8wnS7g_UMVo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "xanyx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/BDdu3n0Ea3Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/lck-HWpK-Dg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	}
+  ],
+  "song": "Aryay - The Lawnmower",
+  "verification": "https://www.youtube.com/watch?v=RWZiCaG4kdM&feature=youtu.be",
+  "verifier": "Huskie"
 }

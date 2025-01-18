@@ -1,76 +1,77 @@
 {
-    "id": 98202905,
-    "name": "IM GOD",
-    "author": "Dominez",
-    "creators": [],
-    "verifier": "Dominez",
-    "verification": "https://www.youtube.com/watch?v=sFFmgSrFBQU",
-    "percentToQualify": 62,
-    "song": "Clams Casino and Imogen Heap - I'm God",
-    "songLink": "https://drive.google.com/file/d/1FbGCHhLwv3iClSFoJbmO_tN2-aEStcfK/view?usp=drive_link",
-    "difficulty": 4,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "duszek81",
-            "link": "https://www.youtube.com/watch?v=gxtrn_AfwVE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/J4FrOL9s1KY",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/xETpVhXq5ts",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/Y8bRwvbP-SU?si=JSFPjSWfpyrfBzFx",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/w_uroKuP5EA?si=kfMsTrgWzaFBh_R7",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "6"
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Vink",
-            "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"Dominez"
+  ],
+  "difficulty": 4,
+  "enjoyment": 8,
+  "id": 98202905,
+  "name": "IM GOD",
+  "percentToQualify": 62,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=gxtrn_AfwVE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "duszek81"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://youtu.be/J4FrOL9s1KY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/xETpVhXq5ts",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/Y8bRwvbP-SU?si=JSFPjSWfpyrfBzFx",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": "6",
+	  "hz": 60,
+	  "link": "https://youtu.be/w_uroKuP5EA?si=kfMsTrgWzaFBh_R7",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Vink"
+	}
+  ],
+  "song": "Clams Casino and Imogen Heap - I'm God",
+  "songLink": "https://drive.google.com/file/d/1FbGCHhLwv3iClSFoJbmO_tN2-aEStcfK/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=sFFmgSrFBQU",
+  "verifier": "Dominez"
 }

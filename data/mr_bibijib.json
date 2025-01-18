@@ -1,125 +1,126 @@
 {
-    "id": 104420787,
-    "name": "mr bibijib",
-    "author": "Woachi",
-    "creators": [],
-    "verifier": "Woachi",
-    "verification": "https://youtu.be/7500l_RoZsI",
-    "percentToQualify": 100,
-    "song": "Waterflame - Geometrical Dominator",
-    "difficulty": 0,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/9hrqE-nns40?si=HHHDzJ2Nj8GK2Lg5",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 7
-        },
-        {
-            "user": "GrumpBoat",
-            "link": "https://youtu.be/bJfUHtlH7_o",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-             "user": "TheCatAstronaut",
-            "link": "https://youtu.be/0rlMWJUIXCM",
-            "percent": 100,
-            "hz": 170,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "ToastyTP",
-            "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-          "user": "Hyperbeat",
-          "link": "https://www.youtube.com/watch?v=353dln9stV4",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true,
-          "enjoyment": 7
-        },
-        {
-            "user": "agentgiscool",
-            "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/irIVjOk2OfQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Paladean",
-            "link": "https://youtu.be/d4ohG3lcib4",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Tanginess",
-            "link": "https://www.youtube.com/watch?v=6TgU0-RXqzM",
-            "percent": 100,
-            "hz": 480,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "DERYAMIX",
-            "link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        }
-    ]
+  "creators": [
+	"Woachi"
+  ],
+  "difficulty": 0,
+  "id": 104420787,
+  "name": "mr bibijib",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/9hrqE-nns40?si=HHHDzJ2Nj8GK2Lg5",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/bJfUHtlH7_o",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "GrumpBoat"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 170,
+	  "link": "https://youtu.be/0rlMWJUIXCM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TheCatAstronaut"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ToastyTP"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "agentgiscool"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/irIVjOk2OfQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 120,
+	  "link": "https://youtu.be/d4ohG3lcib4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Paladean"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 480,
+	  "link": "https://www.youtube.com/watch?v=6TgU0-RXqzM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tanginess"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "DERYAMIX"
+	}
+  ],
+  "song": "Waterflame - Geometrical Dominator",
+  "verification": "https://youtu.be/7500l_RoZsI",
+  "verifier": "Woachi"
 }

@@ -1,40 +1,40 @@
 {
-    "id": 86935334,
-    "name": "banger",
-    "author": "MannyHeffley",
-    "creators": [],
-    "verifier": "Hydraniac",
-    "verification": "https://youtu.be/yo9TKx5Vt0Y?si=EYzN0BXGLsZLVWlT",
-    "percentToQualify": 100,
-    "song": "xi - Freedom Dive",
-    "songLink": "IF NO NONG, DELETE THIS TAB",
-    "difficulty": 1,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-        
-    ]
+  "creators": [
+	"MannyHeffley"
+  ],
+  "difficulty": 1,
+  "enjoyment": 8,
+  "id": 86935334,
+  "name": "banger",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	}
+  ],
+  "song": "xi - Freedom Dive",
+  "songLink": "IF NO NONG, DELETE THIS TAB",
+  "verification": "https://youtu.be/yo9TKx5Vt0Y?si=EYzN0BXGLsZLVWlT",
+  "verifier": "Hydraniac"
 }

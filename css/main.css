@@ -169,3 +169,6 @@ input[type="checkbox"] {
     padding-bottom:2em
 }
 
+.director:hover {
+    text-decoration: underline;
+}

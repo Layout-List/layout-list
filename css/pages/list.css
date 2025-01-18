@@ -65,7 +65,7 @@
 .page-list .level-container .tier {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding-right: 2rem;
     max-width: 100%;
 }
@@ -118,11 +118,6 @@
     text-align: end;
 }
 
-.page-list .meta-container .og a:hover,
-.page-list .level-container .level .records a:hover {
-    text-decoration: underline;
-}
-
 .page-list .meta {
     display: flex;
     flex-direction: column;
@@ -156,10 +151,6 @@
 
 .page-list .meta .staff li img {
     height: 1.25rem;
-}
-
-.page-list .meta .staff li a:hover {
-    text-decoration: underline;
 }
 
 .notice {

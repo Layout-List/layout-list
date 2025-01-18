@@ -1,54 +1,54 @@
 {
-    "id": 110840530,
-    "name": "Translucent",
-    "author": "IIRafII",
-    "creators": [],
-    "verifier": "IIRafII",
-    "verification": "https://youtu.be/h4LJ8aKgcmU",
-    "percentToQualify": 100,
-    "song": "Creo - Aura",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 4
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "sn0w",
-            "link": "https://www.twitch.tv/videos/2291010730",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Wingz_GD",
-            "link": "https://youtu.be/rIP6xGdEX3w",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        }
-        
-    ]
+  "creators": [
+	"IIRafII"
+  ],
+  "difficulty": 2,
+  "id": 110840530,
+  "name": "Translucent",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 4,
+	  "hz": 60,
+	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.twitch.tv/videos/2291010730",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 360,
+	  "link": "https://youtu.be/rIP6xGdEX3w",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Wingz_GD"
+	}
+  ],
+  "song": "Creo - Aura",
+  "verification": "https://youtu.be/h4LJ8aKgcmU",
+  "verifier": "IIRafII"
 }

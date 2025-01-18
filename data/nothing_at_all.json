@@ -1,161 +1,162 @@
 {
-    "id": 88168123,
-    "name": "nothing at all",
-    "author": "Fawami",
-    "creators": [],
-    "verifier": "Fawami",
-    "verification": "https://www.youtube.com/watch?v=z6MGv9AFs-M",
-    "showcase": "https://youtu.be/tpW0I7suOwo",
-    "percentToQualify": 100,
-    "song": "Joji - Glimpse Of Us",
-    "songLink": "https://drive.google.com/file/d/1P0Rlq_CVmWb8YYfvh3cNE9lP3P4zoaXa/view?usp=drive_link",
-    "difficulty": 1,
-    "records": [
-         {
-            "user": "zDark",
-            "link": "https://youtu.be/2IXHmv2J-VU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "customs",
-            "link": "https://youtu.be/VaMo6F3K6p8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Asteria.",
-            "link": "https://youtu.be/-sZccpWfIdg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/IiZuxkcixN8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/EIVGU_FzqHU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/AnTIpBVNVF4",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-         {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=-Yso7O8Rp8k",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-             "enjoyment": "7"
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/w6LpmhfSz8E",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "elballer",
-            "link": "https://youtu.be/e57aSyFBHdA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/KyWWtuNi-vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/lWU4yqMnA5g?si=GiRVzHS1yP9ZddfF",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 2
-        },
-        {
-            "user": "yarn",
-            "link": "https://www.youtube.com/watch?v=M7hhA1EKwqc",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Popples",
-            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "LimeDub",
-            "link": "https://www.youtube.com/watch?v=vjund4DVAyU",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Paladean",
-            "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/ysANHYj56qs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"Fawami"
+  ],
+  "difficulty": 1,
+  "id": 88168123,
+  "name": "nothing at all",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/2IXHmv2J-VU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/VaMo6F3K6p8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "customs"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/-sZccpWfIdg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Asteria."
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/IiZuxkcixN8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/EIVGU_FzqHU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/AnTIpBVNVF4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=-Yso7O8Rp8k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/w6LpmhfSz8E",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/e57aSyFBHdA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "elballer"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/KyWWtuNi-vU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 60,
+	  "link": "https://youtu.be/lWU4yqMnA5g?si=GiRVzHS1yP9ZddfF",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=M7hhA1EKwqc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "yarn"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 120,
+	  "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Popples"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=vjund4DVAyU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Paladean"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/ysANHYj56qs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "showcase": "https://youtu.be/tpW0I7suOwo",
+  "song": "Joji - Glimpse Of Us",
+  "songLink": "https://drive.google.com/file/d/1P0Rlq_CVmWb8YYfvh3cNE9lP3P4zoaXa/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=z6MGv9AFs-M",
+  "verifier": "Fawami"
 }

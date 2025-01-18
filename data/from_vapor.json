@@ -1,180 +1,181 @@
 {
-    "id": 75771921,
-    "name": "From Vapor",
-    "author": "culobdj",
-    "creators": [],
-    "verifier": "culobdj",
-    "verification": "https://youtu.be/WItHjESHhnE",
-    "percentToQualify": 54,
-    "song": "Lapse - From Air",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=sP34P9Q1EV4",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/aFa2XNNH4N4",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "JustShock",
-            "link": "https://www.youtube.com/watch?v=JX68eD4G3Rc",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/ztwfjxe9TsI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/6s47gHU5Kx8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Matthlew",
-            "link": "https://www.youtube.com/watch?v=5H2HP0mEYK0",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://youtu.be/Rl-o9kOGLLU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=SisK43ftrtg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "ShimzyZE",
-            "link": "https://www.youtube.com/watch?v=8UisG_YkkdU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Vink",
-            "link": "https://www.youtube.com/watch?v=VCPAyXS_9Y4",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/NNXGTapDoOM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/t94OZ_VKN_U",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/qty8c6uAPUE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Enigma",
-            "link": "https://youtu.be/07DpoeOSDm8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/KkC5j9T58vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/PLXHlqGC0IM?si=4JHUE8cSiO7D94s6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/6etBt5MubPc",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 2
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://www.youtube.com/watch?v=E0dQNrRwmHI",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/ZxlUaFWM1FY?si=IfimOdi_13NMRMMv",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "GMD YIBWATERSCUSSY",
-            "link": "https://youtu.be/ldUPtWpH6tA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"culobdj"
+  ],
+  "difficulty": 3,
+  "id": 75771921,
+  "name": "From Vapor",
+  "percentToQualify": 54,
+  "records": [
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=sP34P9Q1EV4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/aFa2XNNH4N4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blathers"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=JX68eD4G3Rc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "JustShock"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/ztwfjxe9TsI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/6s47gHU5Kx8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=5H2HP0mEYK0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Matthlew"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rustic"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Rl-o9kOGLLU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "CaioMD"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=SisK43ftrtg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=8UisG_YkkdU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ShimzyZE"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=VCPAyXS_9Y4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Vink"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/NNXGTapDoOM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/t94OZ_VKN_U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/qty8c6uAPUE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/07DpoeOSDm8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Enigma"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/KkC5j9T58vU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/PLXHlqGC0IM?si=4JHUE8cSiO7D94s6",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 60,
+	  "link": "https://youtu.be/6etBt5MubPc",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=E0dQNrRwmHI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TurtleER"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/ZxlUaFWM1FY?si=IfimOdi_13NMRMMv",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/ldUPtWpH6tA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "GMD YIBWATERSCUSSY"
+	}
+  ],
+  "song": "Lapse - From Air",
+  "verification": "https://youtu.be/WItHjESHhnE",
+  "verifier": "culobdj"
 }

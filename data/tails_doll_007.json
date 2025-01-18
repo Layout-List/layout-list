@@ -1,70 +1,71 @@
 {
-    "id": 98633642,
-    "name": "tA1lsD0l1 007 💫",
-    "author": "Flare",
-    "creators": [],
-    "verifier": "zDark",
-    "verification": "https://youtu.be/t-X5Zed4Imc",
-    "percentToQualify": 37,
-    "song": "ta1lsd0ll - ta1lsd007",
-    "songLink": "https://www.mediafire.com/file/tekkycum5d58ubn/523556.mp3/file",
-    "difficulty": 7,
-    "enjoyment": 10,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/6gtsedQObyQ?si=Zip_CNqns4ldgNCZ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=hVjJmXRE4gk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/Fe-Bn_Xr7_o?si=r3d4jdljH-5AMLoa",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/ohINdNjCIWY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "Fawami",
-            "link": "https://youtu.be/jL8IM5o839Y",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=2OI_E4Q1UvI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        }
-    ]
+  "creators": [
+	"Flare"
+  ],
+  "difficulty": 7,
+  "enjoyment": 10,
+  "id": 98633642,
+  "name": "tA1lsD0l1 007 💫",
+  "percentToQualify": 37,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/6gtsedQObyQ?si=Zip_CNqns4ldgNCZ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=hVjJmXRE4gk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/Fe-Bn_Xr7_o?si=r3d4jdljH-5AMLoa",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 360,
+	  "link": "https://youtu.be/ohINdNjCIWY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 165,
+	  "link": "https://youtu.be/jL8IM5o839Y",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fawami"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=2OI_E4Q1UvI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	}
+  ],
+  "song": "ta1lsd0ll - ta1lsd007",
+  "songLink": "https://www.mediafire.com/file/tekkycum5d58ubn/523556.mp3/file",
+  "verification": "https://youtu.be/t-X5Zed4Imc",
+  "verifier": "zDark"
 }

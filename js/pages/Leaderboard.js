@@ -82,7 +82,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                             </tr>
                         </table>
@@ -94,7 +94,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
@@ -109,7 +109,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
                                     <img v-if="score.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
@@ -131,7 +131,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
                                 </td>
                                 <td class="score">
                                     <img v-if="score.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">

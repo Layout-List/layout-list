@@ -1,61 +1,62 @@
 {
-	"id": 88095390,
-	"name": "CURE",
-	"author": "lightning78",
-	"creators": [],
-	"verifier": "lightning78",
-	"verification": "https://www.youtube.com/watch?v=ezO-ItmP5tg",
-	"percentToQualify": 60,
-	"song": "AURORA - Cure For Me",
-	"songLink": "https://drive.google.com/file/d/1hTz5z_EDbZEh9FETUe7WqWHlAwLx_bkU/view?usp=drive_link",
-	"difficulty": 6,
-	"records": [
-		{
-			"user": "Tupi",
-			"link": "https://www.youtube.com/watch?v=6Xd2QNbgeDQ&ab_channel=Tup1%5BGD%5D",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": "8"
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/yC_X_JbKh7w",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Riley",
-			"link": "https://www.youtube.com/watch?v=88hjKR-69xE",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "miniwombat2",
-			"link": "https://www.youtube.com/watch?v=x0DBxeo0Rds",
-			"percent": 64,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Dom_Luca",
-			"link": "https://www.youtube.com/watch?v=2lo_EEjGEOE",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 10
-		}
-	]
+  "creators": [
+	"lightning78"
+  ],
+  "difficulty": 6,
+  "id": 88095390,
+  "name": "CURE",
+  "percentToQualify": 60,
+  "records": [
+	{
+	  "enjoyment": "8",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6Xd2QNbgeDQ&ab_channel=Tup1%5BGD%5D",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/yC_X_JbKh7w",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=88hjKR-69xE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=x0DBxeo0Rds",
+	  "mobile": false,
+	  "percent": 64,
+	  "user": "miniwombat2"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=2lo_EEjGEOE",
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	}
+  ],
+  "song": "AURORA - Cure For Me",
+  "songLink": "https://drive.google.com/file/d/1hTz5z_EDbZEh9FETUe7WqWHlAwLx_bkU/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=ezO-ItmP5tg",
+  "verifier": "lightning78"
 }

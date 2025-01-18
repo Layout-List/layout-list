@@ -1,187 +1,188 @@
 {
-    "id": 73879410,
-    "name": "Astrid",
-    "author": "Midgetapple01",
-    "creators": [],
-    "verifier": "Blathers",
-    "verification": "https://youtu.be/r3SC_xu02QY",
-    "showcase": "https://youtu.be/vX9tV0-Mgbw",
-    "percentToQualify": 54,
-    "song": "glaive - astrid",
-    "songLink": "https://drive.google.com/file/d/14_4voDvgAgkQbhgoEpnRwj01weBTZLf_/view?usp=drive_link",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "Kind1e",
-            "link": "https://www.youtube.com/watch?v=XOZN-MPZUT4",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=3pheV9otOeg",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=HM4bKpw6MHs",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://youtu.be/VpZ7O7VNa7o",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/10CH9kJmZSE",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/xvDYdrmIs5w",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Gerokir",
-            "link": "https://youtu.be/gkdpvWHQINo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Matthlew",
-            "link": "https://www.youtube.com/watch?v=CMrEnl6lASc",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://www.youtube.com/watch?v=MKFQeb2cozE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/O8nRq7UYkjE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=12X-AP1n-Og",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/p8_S7vYpFgI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/4VPm5BVuQFw",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "hab",
-            "link": "https://youtu.be/8QXoNWiRzbU",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/lxrcLdVwuVg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "LimeDub",
-            "link": "https://youtu.be/RZ1Y3XZ3uzk",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/tPLdbVhu8OY?si=jBtUYa7H5k--EUAE",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "ZBosGaming",
-            "link": "https://www.twitch.tv/videos/1179750397",
-            "percent": 57,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=Dl8hyKD5hTQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [
+	"Midgetapple01"
+  ],
+  "difficulty": 5,
+  "id": 73879410,
+  "name": "Astrid",
+  "percentToQualify": 54,
+  "records": [
+	{
+	  "hz": 165,
+	  "link": "https://www.youtube.com/watch?v=XOZN-MPZUT4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Kind1e"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=3pheV9otOeg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rustic"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=HM4bKpw6MHs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/VpZ7O7VNa7o",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "danielvess555"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/10CH9kJmZSE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/xvDYdrmIs5w",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/gkdpvWHQINo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Gerokir"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=CMrEnl6lASc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Matthlew"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=MKFQeb2cozE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "CaioMD"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/O8nRq7UYkjE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=12X-AP1n-Og",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/p8_S7vYpFgI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://youtu.be/4VPm5BVuQFw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 300,
+	  "link": "https://youtu.be/8QXoNWiRzbU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "hab"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/lxrcLdVwuVg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rSnoozy"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/RZ1Y3XZ3uzk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/tPLdbVhu8OY?si=jBtUYa7H5k--EUAE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Jab"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.twitch.tv/videos/1179750397",
+	  "mobile": false,
+	  "percent": 57,
+	  "user": "ZBosGaming"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=Dl8hyKD5hTQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	}
+  ],
+  "showcase": "https://youtu.be/vX9tV0-Mgbw",
+  "song": "glaive - astrid",
+  "songLink": "https://drive.google.com/file/d/14_4voDvgAgkQbhgoEpnRwj01weBTZLf_/view?usp=drive_link",
+  "verification": "https://youtu.be/r3SC_xu02QY",
+  "verifier": "Blathers"
 }

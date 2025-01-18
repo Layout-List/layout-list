@@ -1,62 +1,62 @@
 {
-    "id": 105294066,
-    "name": "Wait a Minute",
-    "author": "Len",
-    "creators": [],
-    "verifier": "ImPhara",
-    "verification": "https://www.youtube.com/watch?v=jo8b-ZyiOWo",
-    "percentToQualify": 100,
-    "song": "Willow Smith - Wait a Minute (Sped Up)",
-    "songLink": "https://www.mediafire.com/file/xchx9mlimszwb1h/10007195.mp3/file",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/2eLucgjNh9l3Fm/d1337YZr8RBf?invite=cr-MSx3WEosMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/JVuyrWMT4uc?si=IZjTEkqw3TWDofTX",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 0
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/RcrHQiMSyF4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/hL-xm9UxXpc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/nzPWEZhf-lc?si=vdK25BGislxukaCj",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-            
-        }
-    ]
+  "creators": [
+	"Len"
+  ],
+  "difficulty": 3,
+  "id": 105294066,
+  "name": "Wait a Minute",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/2eLucgjNh9l3Fm/d1337YZr8RBf?invite=cr-MSx3WEosMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 60,
+	  "link": "https://youtu.be/JVuyrWMT4uc?si=IZjTEkqw3TWDofTX",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/RcrHQiMSyF4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://youtu.be/hL-xm9UxXpc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/nzPWEZhf-lc?si=vdK25BGislxukaCj",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	}
+  ],
+  "song": "Willow Smith - Wait a Minute (Sped Up)",
+  "songLink": "https://www.mediafire.com/file/xchx9mlimszwb1h/10007195.mp3/file",
+  "verification": "https://www.youtube.com/watch?v=jo8b-ZyiOWo",
+  "verifier": "ImPhara"
 }

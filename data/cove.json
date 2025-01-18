@@ -1,111 +1,112 @@
 {
-	"id": 99332238,
-	"name": "Cove",
-	"author": "Xeronius",
-	"creators": [],
-	"verifier": "Xeronius",
-	"verification": "https://www.youtube.com/watch?v=rmmuyXQAPS4",
-	"percentToQualify": 100,
-	"song": "Waterflame - -Cove-",
-	"difficulty": 1,
-	"records": [
-		{
-			"user": "DeleteNine",
-			"link": "https://www.youtube.com/watch?v=JmobCvdHSs4",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Popples",
-			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/t4dBh5GDJPQ",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/8Is0KGkKj7M",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Blysteryx",
-			"link": " https://youtu.be/6etBt5MubPc",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 3
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "Asteria.",
-			"link": "https://youtu.be/CN-8gPRaaps",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Alvaneder",
-			"link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Lacley",
-			"link": "https://www.youtube.com/watch?v=IrGSMf0DXMk",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "RaynoXx",
-			"link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 8
-		},
-		{
-			"user": "GMD YIBWATERSCUSSY",
-			"link": "https://youtu.be/9OpfOFaPzT8",
-			"percent": 100,
-			"hz": 480,
-			"enjoyment": 5
-		}
-	]
+  "creators": [
+	"Xeronius"
+  ],
+  "difficulty": 1,
+  "id": 99332238,
+  "name": "Cove",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=JmobCvdHSs4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Popples"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/t4dBh5GDJPQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/8Is0KGkKj7M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 60,
+	  "link": " https://youtu.be/6etBt5MubPc",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/CN-8gPRaaps",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Asteria."
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Alvaneder"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=IrGSMf0DXMk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Lacley"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 480,
+	  "link": "https://youtu.be/9OpfOFaPzT8",
+	  "percent": 100,
+	  "user": "GMD YIBWATERSCUSSY"
+	}
+  ],
+  "song": "Waterflame - -Cove-",
+  "verification": "https://www.youtube.com/watch?v=rmmuyXQAPS4",
+  "verifier": "Xeronius"
 }

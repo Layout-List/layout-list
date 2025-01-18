@@ -1,14 +1,14 @@
 {
-    "id": 106806350,
-    "name": "LL Challenge 35",
-    "author": "Syrcx",
-    "creators": ["The16Figurelimit"],
-    "verifier": "Syrcx",
-    "verification": "https://youtu.be/JU5LFlQXkGs",
-    "percentToQualify": 100,
-    "song": "Demonicity - Best drop of all time",
-    "difficulty": 1,
-    "records": [
-        
-    ]
+  "creators": [
+	"The16Figurelimit",
+	"Syrcx"
+  ],
+  "difficulty": 1,
+  "id": 106806350,
+  "name": "LL Challenge 35",
+  "percentToQualify": 100,
+  "records": [],
+  "song": "Demonicity - Best drop of all time",
+  "verification": "https://youtu.be/JU5LFlQXkGs",
+  "verifier": "Syrcx"
 }

@@ -1,47 +1,47 @@
 {
-    "id": 100953986,
-    "name": "EEEEYYYY",
-    "author": "nykolol",
-    "creators": [],
-    "verifier": "nykolol",
-    "verification": "https://www.youtube.com/watch?v=67WaR6nLbls",
-    "percentToQualify": 100,
-    "song": "DJ Sabrina The Teenage DJ - Eeeeyyyy",
-    "songLink": "https://www.mediafire.com/file/3n3nx8wh6ekbnkx/711568.mp3/file",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/zan5-tcMbew",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 3
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/Vsw0PXi7vcg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment" : 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/KgA334nKC6M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        }
-        
-    ]
+  "creators": [
+	"nykolol"
+  ],
+  "difficulty": 3,
+  "id": 100953986,
+  "name": "EEEEYYYY",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 3,
+	  "hz": 60,
+	  "link": "https://youtu.be/zan5-tcMbew",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/Vsw0PXi7vcg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://youtu.be/KgA334nKC6M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	}
+  ],
+  "song": "DJ Sabrina The Teenage DJ - Eeeeyyyy",
+  "songLink": "https://www.mediafire.com/file/3n3nx8wh6ekbnkx/711568.mp3/file",
+  "verification": "https://www.youtube.com/watch?v=67WaR6nLbls",
+  "verifier": "nykolol"
 }

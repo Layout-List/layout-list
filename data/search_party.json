@@ -1,54 +1,53 @@
 {
-    "id": 102827056,
-    "name": "search party",
-    "author": "Blueberry",
-    "creators": [],
-    "verifier": "Mystikl",
-    "verification": "https://youtu.be/2FKHY99GQwA",
-    "percentToQualify": 93,
-    "song": "Jane Remover - Search Party (Blueberry Edit)",
-    "songLink": "https://www.mediafire.com/file/4mc97bphsa7rfis/62.mp3/file",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Blueberry",
-            "link": "https://www.youtube.com/watch?v=ntYQUDW23gM",
-            "percent": 100,
-            "hz": 500,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/kxBjFelzxqU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/svbPczIl8VE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "sn0w",
-            "link": "https://medal.tv/games/geometry-dash/clips/jbDl7eCpAFiuRkQRR/1BN56Mq64uq5?invite=cr-MSxqbTEsMjY3Njk2MzQ2LA",
-            "percent": 100,
-            "hz": 240,
-            "enjoyment": 9
-        }
-
-        
-    ]
+  "creators": [
+	"Blueberry"
+  ],
+  "difficulty": 4,
+  "id": 102827056,
+  "name": "search party",
+  "percentToQualify": 93,
+  "records": [
+	{
+	  "hz": 500,
+	  "link": "https://www.youtube.com/watch?v=ntYQUDW23gM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blueberry"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/kxBjFelzxqU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/svbPczIl8VE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/jbDl7eCpAFiuRkQRR/1BN56Mq64uq5?invite=cr-MSxqbTEsMjY3Njk2MzQ2LA",
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "song": "Jane Remover - Search Party (Blueberry Edit)",
+  "songLink": "https://www.mediafire.com/file/4mc97bphsa7rfis/62.mp3/file",
+  "verification": "https://youtu.be/2FKHY99GQwA",
+  "verifier": "Mystikl"
 }

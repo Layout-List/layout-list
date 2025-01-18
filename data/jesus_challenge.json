@@ -1,53 +1,54 @@
 {
-    "id": 106129304,
-    "name": "Jesus Challenge",
-    "author": "zDark",
-    "creators": [],
-    "verifier": "evil",
-    "verification": "https://youtu.be/gVqSg0h349o",
-    "percentToQualify": 100,
-    "song": "riiece - fanta$y L0v3",
-    "songLink": "https://www.mediafire.com/file/j26nsivg93zozlk/3473.mp3/file",
-    "difficulty": 1,
-    "records": [
-        {
-          "user": "Mystikl",
-          "link": "https://youtu.be/rrFRE6uGU6I",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false,
-          "enjoyment": 7
-        },
-        {
-          "user": "zDark",
-          "link": "https://youtu.be/TObolxtM22Q",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "mrperson",
-          "link": "https://youtu.be/1FPifER8SgA",
-          "percent": 100,
-          "hz": 144,
-          "mobile": false,
-          "enjoyment": 3
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/AYSFcVy-x4c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [
+	"zDark"
+  ],
+  "difficulty": 1,
+  "id": 106129304,
+  "name": "Jesus Challenge",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/rrFRE6uGU6I",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/TObolxtM22Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 144,
+	  "link": "https://youtu.be/1FPifER8SgA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/AYSFcVy-x4c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	}
+  ],
+  "song": "riiece - fanta$y L0v3",
+  "songLink": "https://www.mediafire.com/file/j26nsivg93zozlk/3473.mp3/file",
+  "verification": "https://youtu.be/gVqSg0h349o",
+  "verifier": "evil"
 }
