@@ -89,7 +89,7 @@ export default {
                     </ul>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Song</div>
+                            <div class="type-title-sm" :style="'text">{{ level.songLink ? "NONG" : "Song" }}</div>
                             <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                             <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
