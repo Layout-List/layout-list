@@ -1,13 +1,13 @@
 [
     {
         "role": "owner",
-        "name": "Mystikl",
-        "link": "https://www.youtube.com/@lMystikl"
+        "name": "Hydraniac",
+        "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
     },
     {
         "role": "owner",
-        "name": "Hydraniac",
-        "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
+        "name": "sphericle",
+        "link": "https://youtube.com/@zsphericle"
     },
     {
         "role": "owner",
@@ -31,7 +31,7 @@
     },
     {
         "role": "dev",
-        "name": "sphericle",
-        "link": "https://youtube.com/@zsphericle"
+        "name": "Mystikl",
+        "link": "https://www.youtube.com/@lMystikl"
     }
 ]
