@@ -1,101 +1,100 @@
 {
-    "id": 77915201,
-    "name": "your canonical uncle",
-    "author": "TurtleER",
-    "creators": [],
-    "verifier": "TurtleER",
-    "verification": "https://youtu.be/lyQRYUFwJ5M",
-    "percentToQualify": 100,
-    "song": "Xomu10 - Pagoda",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/vYtgoNtIYgc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/g00By_W3O_s",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/H8bvfhhWkdc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/_blIO4Sp3qs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "mr123j",
-            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/Lj4yw_XciAc?si=rxwguJ5eK76kH_vQ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/AYSFcVy-x4c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+  "creators": [],
+  "difficulty": 1,
+  "id": 77915201,
+  "name": "your canonical uncle",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://youtu.be/vYtgoNtIYgc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 360,
+	  "link": "https://youtu.be/g00By_W3O_s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/H8bvfhhWkdc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 360,
+	  "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rSnoozy"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/_blIO4Sp3qs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mr123j"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 144,
+	  "link": "https://youtu.be/Lj4yw_XciAc?si=rxwguJ5eK76kH_vQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zyxo"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/AYSFcVy-x4c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	}
+  ],
+  "song": "Xomu10 - Pagoda",
+  "verification": "https://youtu.be/lyQRYUFwJ5M",
+  "verifier": "TurtleER"
 }

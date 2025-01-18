@@ -1,45 +1,44 @@
 {
-    "id": 106169972,
-    "name": "butt3rfli3s",
-    "author": "Seismic",
-    "creators": [],
-    "verifier": "Seismic",
-    "verification": "https://youtu.be/eJ3wgZdUIHE",
-    "percentToQualify": 100,
-    "song": "milkypossum - BUTT3RFLi3S",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/zpwCvndDpvA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/m_gW3n2oXsA",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/AYSFcVy-x4c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "creators": [],
+  "difficulty": 1,
+  "id": 106169972,
+  "name": "butt3rfli3s",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/zpwCvndDpvA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 144,
+	  "link": "https://youtu.be/m_gW3n2oXsA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/AYSFcVy-x4c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	}
+  ],
+  "song": "milkypossum - BUTT3RFLi3S",
+  "verification": "https://youtu.be/eJ3wgZdUIHE",
+  "verifier": "Seismic"
 }

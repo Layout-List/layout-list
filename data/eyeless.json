@@ -1,96 +1,94 @@
 {
-    "id": 105508798,
-    "name": "Eyeless",
-    "author": "Len",
-    "creators": [],
-    "verifier": "zDark",
-    "verification": "https://www.youtube.com/watch?v=XenmZDokrNE&ab_channel=zDark",
-    "percentToQualify": 62,
-    "song": "Slipknot - Eyeless",
-    "songLink": "https://drive.google.com/file/d/1c65Uo7jEyhvSweqehIpHrv01XsRFZm_S/view?usp=drive_link",
-    "difficulty": 7,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/wN11hZQ68a4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/IcsBRGD6eyg?si=0_VqC3PwFevNplYK",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/ddb3eSV1JxQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/jVafrNAPonA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "ImPhara",
-            "link": "https://youtu.be/j_RbJKs93lI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=_ZfUN4n20xM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Tupi",
-            "link": "https://www.youtube.com/live/ftoZh-HT3Uo",
-            "percent": 100,
-            "hz": 200,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
-    
+  "creators": [],
+  "difficulty": 7,
+  "enjoyment": 8,
+  "id": 105508798,
+  "name": "Eyeless",
+  "percentToQualify": 62,
+  "records": [
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/wN11hZQ68a4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/IcsBRGD6eyg?si=0_VqC3PwFevNplYK",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/ddb3eSV1JxQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/jVafrNAPonA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/j_RbJKs93lI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ImPhara"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=_ZfUN4n20xM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rustic"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 200,
+	  "link": "https://www.youtube.com/live/ftoZh-HT3Uo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	}
+  ],
+  "song": "Slipknot - Eyeless",
+  "songLink": "https://drive.google.com/file/d/1c65Uo7jEyhvSweqehIpHrv01XsRFZm_S/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=XenmZDokrNE&ab_channel=zDark",
+  "verifier": "zDark"
 }

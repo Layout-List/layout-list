@@ -1,17 +1,14 @@
 {
-    "id": 107367071,
-    "name": "Obsidian",
-    "author": "whitmp4",
-    "creators": [
-        "Riley",
-        "flare"
-    ],
-    "verifier": "evil",
-    "verification": "https://youtu.be/TaKXHAA2ZbE",
-    "percentToQualify": 100,
-    "song": "Creo - Dimensions",
-    "difficulty": 4,
-    "records": [
-
-    ]
+  "creators": [
+	"Riley",
+	"flare"
+  ],
+  "difficulty": 4,
+  "id": 107367071,
+  "name": "Obsidian",
+  "percentToQualify": 100,
+  "records": [],
+  "song": "Creo - Dimensions",
+  "verification": "https://youtu.be/TaKXHAA2ZbE",
+  "verifier": "evil"
 }

@@ -1,121 +1,122 @@
 {
-    "id": 96319884,
-    "name": "Vodka circles",
-    "author": "nolli",
-    "creators": ["Flare",
-    "DJJDK"],
-    "verifier": "nolli",
-    "verification": "https://www.youtube.com/watch?v=fQFRlViFcH8",
-    "showcase": "https://youtu.be/E5bGBKeYLWs",
-    "percentToQualify": 56,
-    "song": "Arkady Ukupnik - I'll Never Marry You (DJ Koko Remix)",
-    "songLink": "https://www.mediafire.com/file/ehey6jr21qnxxhk/735403.mp3/file",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "Blathers",
-            "link": "https://www.youtube.com/watch?v=r1G2l8EmRo0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/lHwG_E3_YtU?si=Ay8Q-uqA9hpNvAvv",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "5"
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/y-Xb7HwB92o",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=8ARFeSdtvq8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=W1YXi54oMXY&ab_channel=rastuyas",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-          {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-          {
-            "user": "Plazma",
-            "link": "https://www.youtube.com/watch?v=LTBH56UU0aY&t=3s",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-          {
-            "user": "sarcasticmuch",
-            "link": "https://www.youtube.com/watch?v=XHxAqwfqJus",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/MFts3pWQn8Q",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/yycvsR7DIKU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Spaace",
-            "link": "https://www.youtube.com/watch?v=umuL1C54yxY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=8CX2-3vEEsE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/0alvXQmXi_U?si=dBzrn_4CSYWP4tjp",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"Flare",
+	"DJJDK"
+  ],
+  "difficulty": 5,
+  "id": 96319884,
+  "name": "Vodka circles",
+  "percentToQualify": 56,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=r1G2l8EmRo0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blathers"
+	},
+	{
+	  "enjoyment": "5",
+	  "hz": 240,
+	  "link": "https://youtu.be/lHwG_E3_YtU?si=Ay8Q-uqA9hpNvAvv",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/y-Xb7HwB92o",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=8ARFeSdtvq8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=W1YXi54oMXY&ab_channel=rastuyas",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=LTBH56UU0aY&t=3s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Plazma"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=XHxAqwfqJus",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sarcasticmuch"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/MFts3pWQn8Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/yycvsR7DIKU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=umuL1C54yxY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Spaace"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=8CX2-3vEEsE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/0alvXQmXi_U?si=dBzrn_4CSYWP4tjp",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	}
+  ],
+  "showcase": "https://youtu.be/E5bGBKeYLWs",
+  "song": "Arkady Ukupnik - I'll Never Marry You (DJ Koko Remix)",
+  "songLink": "https://www.mediafire.com/file/ehey6jr21qnxxhk/735403.mp3/file",
+  "verification": "https://www.youtube.com/watch?v=fQFRlViFcH8",
+  "verifier": "nolli"
 }

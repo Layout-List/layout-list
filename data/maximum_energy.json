@@ -1,29 +1,28 @@
 {
-    "id": 102146429,
-    "name": "MAXIMUM ENERGY",
-    "author": "RaynoXx",
-    "creators": [],
-    "verifier": "RaynoXx",
-    "verification": "https://youtu.be/bp9eqhfrYkY?si=0Yu8aBNDXvXbWaVl",
-    "percentToQualify": 56,
-    "song": "ColchianCat - Zaphkiel",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment" : 9
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/KgA334nKC6M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        }
-    ]
+  "creators": [],
+  "difficulty": 4,
+  "id": 102146429,
+  "name": "MAXIMUM ENERGY",
+  "percentToQualify": 56,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://youtu.be/KgA334nKC6M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	}
+  ],
+  "song": "ColchianCat - Zaphkiel",
+  "verification": "https://youtu.be/bp9eqhfrYkY?si=0Yu8aBNDXvXbWaVl",
+  "verifier": "RaynoXx"
 }

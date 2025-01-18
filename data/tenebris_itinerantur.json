@@ -1,35 +1,34 @@
 {
-    "id": 92100588,
-    "name": "Tenebris Itinerantur",
-    "author": "whitmp4",
-    "creators": [],
-    "verifier": "whitmp4",
-    "verification": "https://youtu.be/idJhMXcMXBA?si=_W5v_RTMYVaPF_By",
-    "percentToQualify": 100,
-    "song": "1f1n1ty & LOrbSheddy - Dark Matter Suite (Remix)",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/6X2lhRGpoTo",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=WG5qRR0IG9c",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": " https://youtu.be/6etBt5MubPc",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 92100588,
+  "name": "Tenebris Itinerantur",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://youtu.be/6X2lhRGpoTo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=WG5qRR0IG9c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": " https://youtu.be/6etBt5MubPc",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	}
+  ],
+  "song": "1f1n1ty & LOrbSheddy - Dark Matter Suite (Remix)",
+  "verification": "https://youtu.be/idJhMXcMXBA?si=_W5v_RTMYVaPF_By",
+  "verifier": "whitmp4"
 }

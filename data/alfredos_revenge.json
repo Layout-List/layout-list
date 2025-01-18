@@ -1,47 +1,45 @@
-
 {
-    "id": 110420852,
-    "name": "Alfredos Revenge",
-    "author": "Iza",
-    "creators": [],
-    "verifier": "NiXaNTy",
-    "verification": "https://youtu.be/scYKnBAhOSU",
-    "percentToQualify": 59,
-    "song": "Fleetwire - Cerebral Cobweb",
-    "songLink": "https://drive.google.com/file/d/1LgZvUEREtHu6THxbQ_sqQ1boCDhPtDkS/view?usp=drive_link",
-    "difficulty": 6,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/CNK3IcGqmqs?si=MyIAZuQBBE_HFOrf",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=pyOWcpU_jB0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [],
+  "difficulty": 6,
+  "id": 110420852,
+  "name": "Alfredos Revenge",
+  "percentToQualify": 59,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/CNK3IcGqmqs?si=MyIAZuQBBE_HFOrf",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=pyOWcpU_jB0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	}
+  ],
+  "song": "Fleetwire - Cerebral Cobweb",
+  "songLink": "https://drive.google.com/file/d/1LgZvUEREtHu6THxbQ_sqQ1boCDhPtDkS/view?usp=drive_link",
+  "verification": "https://youtu.be/scYKnBAhOSU",
+  "verifier": "NiXaNTy"
 }

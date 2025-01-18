@@ -1,61 +1,60 @@
 {
-    "id": 104559167,
-    "name": "Lil Rosey on Budget",
-    "author": "QwidziT",
-    "creators": [],
-    "verifier": "QwidziT",
-    "verification": "https://youtu.be/fRHZU3Xop1E",
-    "percentToQualify": 50,
-    "song": "xKore - Die Bitch!",
-    "difficulty": 4,
-    "records": [
-        {
-          "user": "TheCatAstronaut",
-          "link": "https://www.youtube.com/watch?v=n7lQJ9NqS3U&ab_channel=TheCatAstronautExtra",
-          "percent": 100,
-          "hz": 170,
-          "mobile": false,
-          "enjoyment": "6"
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/i2-4gFHjqsk?si=O9sGgUivOzbPH_PI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/hL-xm9UxXpc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/QhY6iwa6StA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/iTJOWzd7Tb0tSE6cX?invite=cr-MSxuemwsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "creators": [],
+  "difficulty": 4,
+  "id": 104559167,
+  "name": "Lil Rosey on Budget",
+  "percentToQualify": 50,
+  "records": [
+	{
+	  "enjoyment": "6",
+	  "hz": 170,
+	  "link": "https://www.youtube.com/watch?v=n7lQJ9NqS3U&ab_channel=TheCatAstronautExtra",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TheCatAstronaut"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://youtu.be/i2-4gFHjqsk?si=O9sGgUivOzbPH_PI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/hL-xm9UxXpc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 360,
+	  "link": "https://youtu.be/QhY6iwa6StA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/iTJOWzd7Tb0tSE6cX?invite=cr-MSxuemwsMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	}
+  ],
+  "song": "xKore - Die Bitch!",
+  "verification": "https://youtu.be/fRHZU3Xop1E",
+  "verifier": "QwidziT"
 }

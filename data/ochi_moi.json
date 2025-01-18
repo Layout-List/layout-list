@@ -1,31 +1,30 @@
 {
-    "id": 100448967,
-    "name": "OCHI MOI",
-    "author": "pachii",
-    "creators": [],
-    "verifier": "Dominez",
-    "verification": "https://www.youtube.com/watch?v=OO040M26uEI",
-    "percentToQualify": 55,
-    "song": "Sefa - Oko",
-    "songLink": "https://drive.google.com/file/d/1eC2MS4YWM6hVqJ-Y3OubNwa0pVSlgorE/view?usp=drive_link",
-    "difficulty": 9,
-    "enjoyment": 9,
-    "records": [
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/y-vjLHgza1c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/I4FdelvUMqY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "creators": [],
+  "difficulty": 9,
+  "enjoyment": 9,
+  "id": 100448967,
+  "name": "OCHI MOI",
+  "percentToQualify": 55,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/y-vjLHgza1c",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/I4FdelvUMqY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	}
+  ],
+  "song": "Sefa - Oko",
+  "songLink": "https://drive.google.com/file/d/1eC2MS4YWM6hVqJ-Y3OubNwa0pVSlgorE/view?usp=drive_link",
+  "verification": "https://www.youtube.com/watch?v=OO040M26uEI",
+  "verifier": "Dominez"
 }

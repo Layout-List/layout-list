@@ -1,85 +1,83 @@
-
 {
-    "id": 107574477,
-    "name": "THE CANDY PUMPPPPPPP",
-    "author": "ThisGuyKreas",
-    "creators": [],
-    "verifier": "ThisGuyKreas",
-    "verification": "https://youtu.be/iKrorxcy_nM",
-    "percentToQualify": 100,
-    "song": "Renard - THE CANDY PUMP",
-    "songLink": "https://drive.google.com/file/d/1oWuu_UCXx-EU3Emp-hlvN2XKCdSX8Jaz/view?usp=sharing",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Dangadash",
-            "link": "https://www.youtube.com/watch?v=x3K3tAieN5E",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/38xEA5bjP3g?si=Cswaiotgd7zaSVbK",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Kind1e",
-            "link": "https://www.youtube.com/watch?v=zhx7xELuQ84",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/zupR3tzTcT0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/yTEcVaMh2Ak",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/80GDD4TaXrc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjyoment": 9
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/OmbmtoXC86g",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 5
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 107574477,
+  "name": "THE CANDY PUMPPPPPPP",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=x3K3tAieN5E",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dangadash"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/38xEA5bjP3g?si=Cswaiotgd7zaSVbK",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 165,
+	  "link": "https://www.youtube.com/watch?v=zhx7xELuQ84",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Kind1e"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/zupR3tzTcT0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/yTEcVaMh2Ak",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjyoment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/80GDD4TaXrc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 60,
+	  "link": "https://youtu.be/OmbmtoXC86g",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	}
+  ],
+  "song": "Renard - THE CANDY PUMP",
+  "songLink": "https://drive.google.com/file/d/1oWuu_UCXx-EU3Emp-hlvN2XKCdSX8Jaz/view?usp=sharing",
+  "verification": "https://youtu.be/iKrorxcy_nM",
+  "verifier": "ThisGuyKreas"
 }

@@ -1,52 +1,51 @@
 {
-    "id": 97942197,
-    "name": "my eyes",
-    "author": "Flare",
-    "creators": [],
-    "verifier": "zDark",
-    "verification": "https://youtu.be/hv8EAu84PRQ?si=NTzJexZN366flmpt",
-    "percentToQualify": 100,
-    "song": "Travis Scott - My Eyes",
-    "songLink": "https://www.mediafire.com/file/s3xjd8ffgh149zp/61415.mp3/file",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "DJJDK",
-            "link": "https://www.youtube.com/watch?v=7_UHS-94rCo",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=-ssHUnn5W0Q",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/lPYi_ZrX0hA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [],
+  "difficulty": 3,
+  "id": 97942197,
+  "name": "my eyes",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 300,
+	  "link": "https://www.youtube.com/watch?v=7_UHS-94rCo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=-ssHUnn5W0Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/lPYi_ZrX0hA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "Travis Scott - My Eyes",
+  "songLink": "https://www.mediafire.com/file/s3xjd8ffgh149zp/61415.mp3/file",
+  "verification": "https://youtu.be/hv8EAu84PRQ?si=NTzJexZN366flmpt",
+  "verifier": "zDark"
 }

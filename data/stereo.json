@@ -1,79 +1,78 @@
 {
-    "id": 89865607,
-    "name": "STEREO",
-    "author": "agentgiscool",
-    "creators": [],
-    "verifier": "agentgiscool",
-    "verification": "https://youtu.be/M-YtSEHWoTg",
-    "percentToQualify": 100,
-    "password": "783736",
-    "song": "ForeverBound - Stereo Madness",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/Fr9z2hgPLSQ",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "9"
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/isJrkvULufo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "LimeDub",
-            "link": "https://www.youtube.com/watch?v=aE38NqSb_-k",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://www.youtube.com/watch?v=9f2LjXvS38k",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/CtxobQE96BE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/6czdLCtMAKA",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-          "user": "DeleteNine",
-          "link": "https://www.youtube.com/watch?v=QZsPqfjdZbY",
-          "percent": 100,
-          "hz": 120,
-          "mobile": false
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/3rLAoICX3B0",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [],
+  "difficulty": 3,
+  "id": 89865607,
+  "name": "STEREO",
+  "password": "783736",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": "9",
+	  "hz": 60,
+	  "link": "https://youtu.be/Fr9z2hgPLSQ",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/isJrkvULufo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=aE38NqSb_-k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "hz": 300,
+	  "link": "https://www.youtube.com/watch?v=9f2LjXvS38k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NiXaNTy"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/CtxobQE96BE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/6czdLCtMAKA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=QZsPqfjdZbY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/3rLAoICX3B0",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "ThisGuyKreas"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "ForeverBound - Stereo Madness",
+  "verification": "https://youtu.be/M-YtSEHWoTg",
+  "verifier": "agentgiscool"
 }

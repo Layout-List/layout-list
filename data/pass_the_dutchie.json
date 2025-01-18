@@ -1,96 +1,95 @@
 {
-	"id": 95984645,
-	"name": "pass the dutchie",
-	"author": "monthmai",
-	"creators": [],
-	"verifier": "monthmai",
-	"verification": "https://youtu.be/dncYzhHvxgE?si=FAPsgeBCFx0yyaOh",
-	"percentToQualify": 62,
-	"song": "Musical Youth - Pass The Dutchie",
-	"songLink": "https://drive.google.com/file/d/1XdC3en1mnl_L4MY8yvcbU7rSNxntEqA-/view?usp=drive_link",
-	"difficulty": 4,
-	"records": [
-		{
-			"user": "PoiPonPL",
-			"link": "https://youtu.be/SQhrdZ4bCmE",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Acacia",
-			"link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://youtu.be/n5MHghr2InA",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": "7"
-		},
-		{
-			"user": "SarcasticMuch",
-			"link": "https://youtu.be/VJtMocYLfFI",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/IAkiuulSLA8",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://youtu.be/OAxJoMaFwzk ",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/7IxIlxFco60",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Vink",
-			"link": "https://youtu.be/tXCRr8x7AvY",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/K6cv4m-jvP0?si=ljLi7iPxn8GB_RWp",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 9,
-			"mobile": true
-		},
-		{
-			"user": "Dom_Luca",
-			"link": "https://www.youtube.com/watch?v=QKR-VKO_Obg",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 8
-		}
-	]
+  "creators": [],
+  "difficulty": 4,
+  "id": 95984645,
+  "name": "pass the dutchie",
+  "percentToQualify": 62,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/SQhrdZ4bCmE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "PoiPonPL"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://youtu.be/n5MHghr2InA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/VJtMocYLfFI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "SarcasticMuch"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/IAkiuulSLA8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/OAxJoMaFwzk ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/7IxIlxFco60",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 120,
+	  "link": "https://youtu.be/tXCRr8x7AvY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Vink"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/K6cv4m-jvP0?si=ljLi7iPxn8GB_RWp",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=QKR-VKO_Obg",
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	}
+  ],
+  "song": "Musical Youth - Pass The Dutchie",
+  "songLink": "https://drive.google.com/file/d/1XdC3en1mnl_L4MY8yvcbU7rSNxntEqA-/view?usp=drive_link",
+  "verification": "https://youtu.be/dncYzhHvxgE?si=FAPsgeBCFx0yyaOh",
+  "verifier": "monthmai"
 }

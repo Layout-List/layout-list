@@ -1,37 +1,36 @@
 {
-    "id": 103551938,
-    "name": "Layout X",
-    "author": "Toxycfur",
-    "creators": [],
-    "verifier": "Toxycfur",
-    "verification": "https://youtu.be/hOGMQjBpdEA?si=fL-LLJ9RutGlRUib",
-    "percentToQualify": 100,
-    "song": "Camellia - Myths You Forgot (ft. Toby Fox)",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/fZhfnbtpajc?si=JXos8I97ySMToZy3",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "8"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 103551938,
+  "name": "Layout X",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/fZhfnbtpajc?si=JXos8I97ySMToZy3",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": "8",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "Camellia - Myths You Forgot (ft. Toby Fox)",
+  "verification": "https://youtu.be/hOGMQjBpdEA?si=fL-LLJ9RutGlRUib",
+  "verifier": "Toxycfur"
 }

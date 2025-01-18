@@ -1,61 +1,60 @@
 {
-    "id": 98523491,
-    "name": "Desperados Layout",
-    "author": "iIDariusIi",
-    "creators": [],
-    "verifier": "Tupi",
-    "verification": "https://www.youtube.com/watch?v=-J8lQpsMQQY",
-    "percentToQualify": 100,
-    "song": "OfficialNovacore - Desperado",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/xYgquCHlbZA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "IIRafII",
-            "link": "https://youtu.be/cQ17DF95ocs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "miniwombat2",
-            "link": "https://www.youtube.com/watch?v=FQsqoazjWPk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/wp52hcDfGfg?si=BQppVJVCPw30-CkS",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 98523491,
+  "name": "Desperados Layout",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/xYgquCHlbZA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/cQ17DF95ocs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "IIRafII"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=FQsqoazjWPk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "miniwombat2"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://youtu.be/wp52hcDfGfg?si=BQppVJVCPw30-CkS",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	}
+  ],
+  "song": "OfficialNovacore - Desperado",
+  "verification": "https://www.youtube.com/watch?v=-J8lQpsMQQY",
+  "verifier": "Tupi"
 }

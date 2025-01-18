@@ -1,71 +1,68 @@
-
 {
-    "id": 98433023,
-    "name": "Spacious",
-    "author": "Shums",
-    "creators": [],
-    "verifier": "Shums",
-    "verification": "https://youtu.be/lip8ElzaBVo?si=BiwnBtooOqScFQPC ",
-    "percentToQualify": 100,
-    "song": "Creo - Endless",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/DuDVc24SeN0?si=VdZlUjIKmCwXCbPD",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=M_JV5gEUEbE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/iLHosyrfWwF4jqRcQ?invite=cr-MSwxQzgsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "sn0w",
-            "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 5
-        }
-        
-    ]
+  "creators": [],
+  "difficulty": 1,
+  "id": 98433023,
+  "name": "Spacious",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://youtu.be/DuDVc24SeN0?si=VdZlUjIKmCwXCbPD",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=M_JV5gEUEbE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/iLHosyrfWwF4jqRcQ?invite=cr-MSwxQzgsMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 75,
+	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 60,
+	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	}
+  ],
+  "song": "Creo - Endless",
+  "verification": "https://youtu.be/lip8ElzaBVo?si=BiwnBtooOqScFQPC ",
+  "verifier": "Shums"
 }

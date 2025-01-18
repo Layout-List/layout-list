@@ -1,165 +1,164 @@
 {
-    "id": 60536996,
-    "name": "Nircles",
-    "author": "KJackpot",
-    "creators": [
-        "Mulpan"
-    ],
-    "verifier": "KJackpot",
-    "verification": "https://youtu.be/7ozS7LZ-1f0",
-    "showcase": "https://www.youtube.com/watch?v=paF6PJTJvb8&ab_channel=LayoutListShowcases",
-    "percentToQualify": 59,
-    "password": "333333",
-    "song": "Rukkus - Nine Circles (Xtrullor Remix)",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Mulpan",
-            "link": "https://www.youtube.com/watch?v=8rsooF593Z8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "ZBosGaming",
-            "link": "https://www.youtube.com/watch?v=3PdlZaVoyPI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Kind1e",
-            "link": "https://youtu.be/2zG7lDKWQqM",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "sqrtpie",
-            "link": "https://youtu.be/nmphaltu8n0",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Sloudy",
-            "link": "https://youtu.be/UgcUpc0wHQ0",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "ToastyBois",
-            "link": "https://www.youtube.com/watch?v=7LnMpTHFYT4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/EV4oor0VXNg",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://youtu.be/hgKSfZuis34",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Gp63q9DBAX8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "culobdj",
-            "link": "https://youtu.be/wzD0X3F0TlI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "mrutherford1106",
-            "link": "https://www.youtube.com/watch?v=FWv04_Zm1AQ",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/MMel0p9zFr8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/RS9dfKCgVw8",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/FX2NMVuZPmM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/yosgF2Ax9g8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=bDTxwjLDweA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/Qbk0rbRFLOw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/KbIGusuSi_w",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "ThatPolaRis",
-            "link": "https://youtu.be/aHdD9LIW-Uw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 3
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 0
-        }
-    ]
+  "creators": [
+	"Mulpan"
+  ],
+  "difficulty": 2,
+  "id": 60536996,
+  "name": "Nircles",
+  "password": "333333",
+  "percentToQualify": 59,
+  "records": [
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=8rsooF593Z8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mulpan"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=3PdlZaVoyPI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ZBosGaming"
+	},
+	{
+	  "hz": 165,
+	  "link": "https://youtu.be/2zG7lDKWQqM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Kind1e"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/nmphaltu8n0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sqrtpie"
+	},
+	{
+	  "hz": 300,
+	  "link": "https://youtu.be/UgcUpc0wHQ0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Sloudy"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=7LnMpTHFYT4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ToastyBois"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/EV4oor0VXNg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/hgKSfZuis34",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "danielvess555"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/Gp63q9DBAX8",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/wzD0X3F0TlI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "culobdj"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=FWv04_Zm1AQ",
+	  "percent": 100,
+	  "user": "mrutherford1106"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/MMel0p9zFr8",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Luk231"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/RS9dfKCgVw8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/FX2NMVuZPmM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/yosgF2Ax9g8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Jab"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=bDTxwjLDweA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Qbk0rbRFLOw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/KbIGusuSi_w",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/aHdD9LIW-Uw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ThatPolaRis"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 120,
+	  "link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 360,
+	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=paF6PJTJvb8&ab_channel=LayoutListShowcases",
+  "song": "Rukkus - Nine Circles (Xtrullor Remix)",
+  "verification": "https://youtu.be/7ozS7LZ-1f0",
+  "verifier": "KJackpot"
 }

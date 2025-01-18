@@ -1,89 +1,88 @@
 {
-    "id": 102097436,
-    "name": "Rupture",
-    "author": "Angryface",
-    "creators": [],
-    "verifier": "Angryface",
-    "verification": "https://www.youtube.com/watch?v=55tIqXOHuE8",
-    "percentToQualify": 50,
-    "song": "Albee - Seismic Activity",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "TheInsanePro",
-            "link": "https://www.youtube.com/watch?v=J8b7tIRW2Tk",
-            "percent": 69,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/RJuzRZTJFwU?si=5_jIZrtlpD5A2GD7",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-          {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/zdxf204b4o8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=rqfCwOUlilw",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment" : 9
-        },
-        {
-            "user": "DonaldTrumpGD",
-            "link": "https://youtu.be/AOjC7_jbGSI?si=LZhHN7f1Gs5lvJXQ",
-            "percent": 50,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/XOAPQkgn6yc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Zetrax",
-            "link": "https://youtu.be/frstdolre4Q",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "RedNazFM",
-            "link": "https://www.youtube.com/watch?v=7QoA29wipBw",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [],
+  "difficulty": 4,
+  "id": 102097436,
+  "name": "Rupture",
+  "percentToQualify": 50,
+  "records": [
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=J8b7tIRW2Tk",
+	  "mobile": false,
+	  "percent": 69,
+	  "user": "TheInsanePro"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/RJuzRZTJFwU?si=5_jIZrtlpD5A2GD7",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/zdxf204b4o8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=rqfCwOUlilw",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/AOjC7_jbGSI?si=LZhHN7f1Gs5lvJXQ",
+	  "mobile": true,
+	  "percent": 50,
+	  "user": "DonaldTrumpGD"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/XOAPQkgn6yc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/frstdolre4Q",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zetrax"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=7QoA29wipBw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "RedNazFM"
+	}
+  ],
+  "song": "Albee - Seismic Activity",
+  "verification": "https://www.youtube.com/watch?v=55tIqXOHuE8",
+  "verifier": "Angryface"
 }

@@ -1,125 +1,124 @@
 {
-    "id": 101597908,
-    "name": "LayoutList Challenge",
-    "author": "rastuyas",
-    "creators": [],
-    "verifier": "rastuyas",
-    "verification": "https://youtu.be/faoTf8bFP2s",
-    "percentToQualify": 100,
-    "song": "Waterflame - -Control: Mind-",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/ktjba8umiNg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "morsey",
-            "link": "https://youtu.be/EpZFhPcL1dQ?si=aIig6ZDSPxn9UXHk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://youtu.be/JE8XzIV40vU",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/grGsSeHpZQU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Tupi",
-            "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/i5qIykcfpF8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "mr123j",
-            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7   
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=YMz96OUbDbc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7  
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/ejU9GDjMHuI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "The16FigureLimit",
-            "link": "https://youtu.be/vpQAcks45kk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "8"
-        }
-    ]
+  "creators": [],
+  "difficulty": 1,
+  "id": 101597908,
+  "name": "LayoutList Challenge",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/ktjba8umiNg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/EpZFhPcL1dQ?si=aIig6ZDSPxn9UXHk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "morsey"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 300,
+	  "link": "https://youtu.be/JE8XzIV40vU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TurtleER"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 360,
+	  "link": "https://youtu.be/grGsSeHpZQU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rSnoozy"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/i5qIykcfpF8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mr123j"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=YMz96OUbDbc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zyxo"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 240,
+	  "link": "https://youtu.be/ejU9GDjMHuI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	},
+	{
+	  "enjoyment": "8",
+	  "hz": 240,
+	  "link": "https://youtu.be/vpQAcks45kk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "The16FigureLimit"
+	}
+  ],
+  "song": "Waterflame - -Control: Mind-",
+  "verification": "https://youtu.be/faoTf8bFP2s",
+  "verifier": "rastuyas"
 }

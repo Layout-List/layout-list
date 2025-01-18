@@ -1,30 +1,28 @@
 {
-    "id": 109682338,
-    "name": "Supermarket",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://youtu.be/OKsajaj35SQ?si=CbpBXXfgg_8O9pZK",
-    "percentToQualify": 100,
-    "song": "underscores & Knapsack - SPIT",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        }
-        
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 109682338,
+  "name": "Supermarket",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	}
+  ],
+  "song": "underscores & Knapsack - SPIT",
+  "verification": "https://youtu.be/OKsajaj35SQ?si=CbpBXXfgg_8O9pZK",
+  "verifier": "Blysteryx"
 }

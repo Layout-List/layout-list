@@ -1,234 +1,233 @@
 {
-    "id": 65949625,
-    "name": "I Dont Wanna Go \u2b50",
-    "author": "ZeroSR",
-    "creators": [
-        "Convie"
-    ],
-    "verifier": "ZeroSR",
-    "verification": "https://youtu.be/fyPqEFApPEs",
-    "showcase": "https://youtu.be/E0Iy04ysz60",
-    "percentToQualify": 53,
-    "password": "100418",
-    "song": "Virtual Riot - I Dont Wanna Go",
-    "songLink": "https://www.mediafire.com/file/qyrofgjb5ov3d54/705699.mp3/file",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "ZBosGaming",
-            "link": "https://www.twitch.tv/videos/1129485336",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "sqrtpie",
-            "link": "https://youtu.be/jwK5rLP0AgY",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Khronos",
-            "link": "https://youtu.be/bDKMuTr2c5g",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/meRugoNHIy8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://www.youtube.com/watch?v=e1UhYMzmcgU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Moisty",
-            "link": "https://youtu.be/GI4Z00Op3pI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "TheRealCave",
-            "link": "https://youtu.be/vaJI2BgXVXs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/RS9dfKCgVw8",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Kuaikuai27",
-            "link": "https://youtu.be/y1IKPFqa5Nk",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/ouaAEyegzio",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "MiniWheatDuo",
-            "link": "https://youtu.be/cC4tYaLJFBA",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "EmeraldOre",
-            "link": "https://www.youtube.com/watch?v=sXn42Y5O6ck",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/gsZq7WccPwc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Trees",
-            "link": "https://youtu.be/eehyCKkoIY0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Enigma",
-            "link": "https://youtu.be/zurqb8PJNn8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/nf0Ho1E_IFU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Eff8Gku3raw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fawami",
-            "link": "https://youtu.be/ONTlctzW7qU",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "Skybolt06",
-            "link": "https://www.youtube.com/watch?v=hgotL62owtE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Zxnyi",
-            "link": "https://www.youtube.com/watch?v=RQG2NxZcTWI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/WXsGEaOD5z4?si=r0Otu93gb4zXnHcg",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "StevenOct",
-            "link": "https://www.youtube.com/watch?v=_eoMgtx3U6M",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Gybyy",
-            "link": "https://www.youtube.com/watch?v=CtrRp0Zg6lQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/nYgk4qZCFdw",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "9"
-        },
-         {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/WgmMEN8sGHA?si=NSMAugcVq-OUy0l4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://www.youtube.com/watch?v=_xXqQkMjk50",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/pR_sCWz5PTc?si=f6HR1E8j96c-FfPQLL",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Sloudy",
-            "link": "https://youtu.be/7heA92dFglU?si=hc0ZQCgk8dfg8Ogr",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/IsACf-K3Zbg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
-    ]
+  "creators": [
+	"Convie"
+  ],
+  "difficulty": 3,
+  "id": 65949625,
+  "name": "I Dont Wanna Go ⭐",
+  "password": "100418",
+  "percentToQualify": 53,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://www.twitch.tv/videos/1129485336",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "ZBosGaming"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/jwK5rLP0AgY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sqrtpie"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/bDKMuTr2c5g",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Khronos"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/meRugoNHIy8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=e1UhYMzmcgU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "danielvess555"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/GI4Z00Op3pI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Moisty"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/vaJI2BgXVXs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TheRealCave"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/RS9dfKCgVw8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/y1IKPFqa5Nk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Kuaikuai27"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/ouaAEyegzio",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/cC4tYaLJFBA",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "MiniWheatDuo"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=sXn42Y5O6ck",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "EmeraldOre"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/gsZq7WccPwc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/eehyCKkoIY0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Trees"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/zurqb8PJNn8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Enigma"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/nf0Ho1E_IFU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Eff8Gku3raw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 165,
+	  "link": "https://youtu.be/ONTlctzW7qU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fawami"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=hgotL62owtE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skybolt06"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=RQG2NxZcTWI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zxnyi"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 120,
+	  "link": "https://youtu.be/WXsGEaOD5z4?si=r0Otu93gb4zXnHcg",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=_eoMgtx3U6M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "StevenOct"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=CtrRp0Zg6lQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Gybyy"
+	},
+	{
+	  "enjoyment": "9",
+	  "hz": 75,
+	  "link": "https://youtu.be/nYgk4qZCFdw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://youtu.be/WgmMEN8sGHA?si=NSMAugcVq-OUy0l4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=_xXqQkMjk50",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TurtleER"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/pR_sCWz5PTc?si=f6HR1E8j96c-FfPQLL",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/7heA92dFglU?si=hc0ZQCgk8dfg8Ogr",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Sloudy"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/IsACf-K3Zbg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	}
+  ],
+  "showcase": "https://youtu.be/E0Iy04ysz60",
+  "song": "Virtual Riot - I Dont Wanna Go",
+  "songLink": "https://www.mediafire.com/file/qyrofgjb5ov3d54/705699.mp3/file",
+  "verification": "https://youtu.be/fyPqEFApPEs",
+  "verifier": "ZeroSR"
 }

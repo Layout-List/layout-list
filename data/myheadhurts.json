@@ -1,68 +1,67 @@
 {
-	"id": 99393315,
-	"name": "MYHEADHURTS",
-	"author": "Blueberry",
-	"creators": [],
-	"verifier": "Mystikl",
-	"verification": "https://youtu.be/qH9wASigNPE",
-	"percentToQualify": 51,
-	"song": "strxwberrymilk - My Head Hurts",
-	"songLink": "https://drive.google.com/file/d/1qgSfYZ8dmyIRrC34_txM85kl0uvF_Ybn/view?usp=drive_link",
-	"difficulty": 6,
-	"records": [
-		{
-			"user": "LimeDub",
-			"link": "https://www.youtube.com/watch?v=Wp_vzN7-Co4",
-			"percent": 100,
-			"hz": 288,
-			"mobile": false
-		},
-		{
-			"user": "rastuyas",
-			"link": "https://www.youtube.com/watch?v=AxyT5WSHWWk&ab_channel=rastuyas",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=5wc6S5oij7U",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "attrixia",
-			"link": "https://www.youtube.com/watch?v=arcv6foeEC0",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 4
-		},
-		{
-			"user": "Acacia",
-			"link": "https://youtu.be/1po0RPq10ok",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 4
-		},
-		{
-			"user": "nykolol",
-			"link": "https://youtu.be/cj4yq24Xt4U",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 9
-		}
-	]
+  "creators": [],
+  "difficulty": 6,
+  "id": 99393315,
+  "name": "MYHEADHURTS",
+  "percentToQualify": 51,
+  "records": [
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=Wp_vzN7-Co4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=AxyT5WSHWWk&ab_channel=rastuyas",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=5wc6S5oij7U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=arcv6foeEC0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://youtu.be/1po0RPq10ok",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/cj4yq24Xt4U",
+	  "percent": 100,
+	  "user": "nykolol"
+	}
+  ],
+  "song": "strxwberrymilk - My Head Hurts",
+  "songLink": "https://drive.google.com/file/d/1qgSfYZ8dmyIRrC34_txM85kl0uvF_Ybn/view?usp=drive_link",
+  "verification": "https://youtu.be/qH9wASigNPE",
+  "verifier": "Mystikl"
 }

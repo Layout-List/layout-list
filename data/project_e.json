@@ -1,48 +1,47 @@
 {
-    "id": 110101194,
-    "name": "PROJECT E",
-    "author": "Tanginess",
-    "creators": [
-      "hjog"
-    ],
-    "verifier": "Riley",
-    "verification": "https://youtu.be/8ZWurIInmo4",
-    "percentToQualify": 60,
-    "song": "Waterflame - Control: Mind",
-    "difficulty": 9,
-    "enjoyment": 6,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/bxoJKoCuN9Y",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=0N3vP5d2yAk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/_6vz2ACnM0M?si=jTvBkJOKVtuXzhsY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/lJ2N9o6s5oo?si=q_ILaUgfOEqHGWDY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"hjog"
+  ],
+  "difficulty": 9,
+  "enjoyment": 6,
+  "id": 110101194,
+  "name": "PROJECT E",
+  "percentToQualify": 60,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/bxoJKoCuN9Y",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=0N3vP5d2yAk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/_6vz2ACnM0M?si=jTvBkJOKVtuXzhsY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/lJ2N9o6s5oo?si=q_ILaUgfOEqHGWDY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	}
+  ],
+  "song": "Waterflame - Control: Mind",
+  "verification": "https://youtu.be/8ZWurIInmo4",
+  "verifier": "Riley"
 }

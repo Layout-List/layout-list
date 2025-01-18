@@ -1,72 +1,71 @@
 {
-    "id": 97247638,
-    "name": "Hydrogen Bomb",
-    "author": "Riley",
-    "creators": [
-      "dogpole"
-    ],
-    "verifier": "Spaace",
-    "verification": "https://youtu.be/nNSQ-JFWw_I",
-    "percentToQualify": 51,
-    "song": "DJ Nate - Treat the Oscillators",
-    "difficulty": 8,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/6-kB33t1ICk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/D7ccN2iLUbo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=duNmrPA8gX8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "zDark",
-            "link": "https://www.youtube.com/watch?v=xf8g7-ypTGs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "hjog",
-            "link": "https://www.youtube.com/watch?v=ugza4IqusBQ",
-            "percent": 79,
-            "hz": 480,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/qHS9I7K1e5s?si=XEvUUzKF3n_6MFOu",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/oREP7dwI37M?si=MOd6J2W18EJvR4GJ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "creators": [
+	"dogpole"
+  ],
+  "difficulty": 8,
+  "enjoyment": 8,
+  "id": 97247638,
+  "name": "Hydrogen Bomb",
+  "percentToQualify": 51,
+  "records": [
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/6-kB33t1ICk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/D7ccN2iLUbo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=duNmrPA8gX8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=xf8g7-ypTGs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 480,
+	  "link": "https://www.youtube.com/watch?v=ugza4IqusBQ",
+	  "mobile": false,
+	  "percent": 79,
+	  "user": "hjog"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/qHS9I7K1e5s?si=XEvUUzKF3n_6MFOu",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/oREP7dwI37M?si=MOd6J2W18EJvR4GJ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rSnoozy"
+	}
+  ],
+  "song": "DJ Nate - Treat the Oscillators",
+  "verification": "https://youtu.be/nNSQ-JFWw_I",
+  "verifier": "Spaace"
 }

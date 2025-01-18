@@ -1,84 +1,83 @@
 {
-    "id": 75196480,
-    "name": "Sailing Force",
-    "author": "Blueskii",
-    "creators": [
-        "N3mo",
-        "Striked",
-        "Ji",
-        "Korewa",
-        "Pesca",
-        "Arax",
-        "Pepsaiko",
-        "Vantablack",
-        "SomeoneD",
-        "IHunglezz",
-        "Haru",
-        "Vulna",
-        "Jamscone",
-        "Cron7",
-        "Muon",
-        "IlleniunArt"
-    ],
-    "verifier": "dice88",
-    "verification": "https://youtu.be/oVtu5f6M7lI",
-    "showcase": "https://youtu.be/sqef3KtUXuY",
-    "percentToQualify": 59,
-    "song": "\u307a\u306e\u308c\u308a - Sailing Force",
-    "songLink": "https://www.mediafire.com/file/w2odadqkkz6etbc/1141401.mp3/file",
-    "difficulty": 7,
-    "records": [
-        {
-            "user": "zNolan",
-            "link": "https://www.youtube.com/watch?v=RgC35xwD8so",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/zimPRqEjOCo",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/u_aDbGSNYIY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://youtu.be/F9B6x-LaiPM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/RWaDFQRqneo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/ohINdNjCIWY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [
+	"N3mo",
+	"Striked",
+	"Ji",
+	"Korewa",
+	"Pesca",
+	"Arax",
+	"Pepsaiko",
+	"Vantablack",
+	"SomeoneD",
+	"IHunglezz",
+	"Haru",
+	"Vulna",
+	"Jamscone",
+	"Cron7",
+	"Muon",
+	"IlleniunArt"
+  ],
+  "difficulty": 7,
+  "id": 75196480,
+  "name": "Sailing Force",
+  "percentToQualify": 59,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=RgC35xwD8so",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zNolan"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://youtu.be/zimPRqEjOCo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/u_aDbGSNYIY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/F9B6x-LaiPM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "CaioMD"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/RWaDFQRqneo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/ohINdNjCIWY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	}
+  ],
+  "showcase": "https://youtu.be/sqef3KtUXuY",
+  "song": "ぺのれり - Sailing Force",
+  "songLink": "https://www.mediafire.com/file/w2odadqkkz6etbc/1141401.mp3/file",
+  "verification": "https://youtu.be/oVtu5f6M7lI",
+  "verifier": "dice88"
 }

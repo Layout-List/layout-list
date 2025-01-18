@@ -1,56 +1,55 @@
 {
-    "id": 100998608,
-    "name": "Obsidian",
-    "author": "whitmp4",
-    "creators": [
-        "Riley",
-        "Flare"
-    ],
-    "verifier": "evil",
-    "verification": "https://www.youtube.com/watch?v=TaKXHAA2ZbE",
-    "percentToQualify": 58,
-    "song": "Creo - Dimension",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Tradeskill",
-            "link": "https://youtu.be/kI6fdWmq7q4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Tupi",
-            "link": "https://www.youtube.com/watch?v=WgZRfOOEVC8&ab_channel=Tup1%5BGD%5D",
-            "percent": 83,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/ohINdNjCIWY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=qzqjaTLfLSQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [
+	"Riley",
+	"Flare"
+  ],
+  "difficulty": 4,
+  "id": 100998608,
+  "name": "Obsidian",
+  "percentToQualify": 58,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/kI6fdWmq7q4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tradeskill"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=WgZRfOOEVC8&ab_channel=Tup1%5BGD%5D",
+	  "mobile": false,
+	  "percent": 83,
+	  "user": "Tupi"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/ohINdNjCIWY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=qzqjaTLfLSQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	}
+  ],
+  "song": "Creo - Dimension",
+  "verification": "https://www.youtube.com/watch?v=TaKXHAA2ZbE",
+  "verifier": "evil"
 }

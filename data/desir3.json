@@ -1,29 +1,30 @@
 {
-    "id": 103000641,
-    "name": "desir3",
-    "author": "zDark",
-    "creators": ["Flare"],
-    "verifier": "zDark",
-    "verification": "https://youtu.be/_8wqjOrd8TQ",
-    "percentToQualify": 100,
-    "song": "onumi - desire",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/LLpNYmh1XNI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [
+	"Flare"
+  ],
+  "difficulty": 3,
+  "id": 103000641,
+  "name": "desir3",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 6,
+	  "hz": 60,
+	  "link": "https://youtu.be/LLpNYmh1XNI",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "onumi - desire",
+  "verification": "https://youtu.be/_8wqjOrd8TQ",
+  "verifier": "zDark"
 }

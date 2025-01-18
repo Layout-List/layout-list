@@ -1,81 +1,80 @@
 {
-    "id": 100966847,
-    "name": "Do not fall asleep",
-    "author": "RaynoXx",
-    "creators": [],
-    "verifier": "RaynoXx",
-    "verification": "https://youtu.be/aAd3YE8r7WI?si=vcdNzvl2ojpjXJJc",
-    "percentToQualify": 100,
-    "song": "Koraii - Purgatori",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 7
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=lB5n10rBO5U",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-         {
-            "user": "dewbbs",
-            "link": "https://www.youtube.com/watch?v=hawQsDjecn4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Vink",
-            "link": "https://youtu.be/tXCRr8x7AvY",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/EXLUxsPZ2rg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/yTEcVaMh2Ak",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 100966847,
+  "name": "Do not fall asleep",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 7,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 120,
+	  "link": "https://www.youtube.com/watch?v=lB5n10rBO5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=hawQsDjecn4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "dewbbs"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Alvaneder"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 120,
+	  "link": "https://youtu.be/tXCRr8x7AvY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Vink"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/EXLUxsPZ2rg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/yTEcVaMh2Ak",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	}
+  ],
+  "song": "Koraii - Purgatori",
+  "verification": "https://youtu.be/aAd3YE8r7WI?si=vcdNzvl2ojpjXJJc",
+  "verifier": "RaynoXx"
 }

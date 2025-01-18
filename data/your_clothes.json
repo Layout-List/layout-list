@@ -1,150 +1,149 @@
 {
-	"id": 99153890,
-	"name": "your clothes",
-	"author": "jz5",
-	"creators": [],
-	"verifier": "Poke Zach",
-	"verification": "https://youtu.be/z0C0Zkd9rUU?si=lMq76hlSU_qqGyfw",
-	"percentToQualify": 100,
-	"song": "Jane Remover - your clothes",
-	"songLink": "https://www.mediafire.com/file/v7zrus8sj0jt6ic/908739.mp3/file",
-	"difficulty": 3,
-	"enjoyment": 9,
-	"records": [
-		{
-			"user": "Seismic",
-			"link": "https://www.youtube.com/watch?v=Lg9dAhQ8sfc",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "evil",
-			"link": "https://www.youtube.com/watch?v=OWpfIeqYClo",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "nolli",
-			"link": "https://www.youtube.com/watch?v=JEMXTq3_qlQ&list=PLkw3FLQgqEI6yeGnJytAtZdQ0B7tJUb99&index=18",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Skip",
-			"link": "https://youtu.be/PHntJNLvLsE",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "sphericle",
-			"link": "https://www.youtube.com/watch?v=c4DXLcIDQ-0",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/pDtACy0B4mo",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Blueberry",
-			"link": "https://youtu.be/4o4LnhoHyAI",
-			"percent": 100,
-			"hz": 500,
-			"mobile": false
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://youtu.be/ifuRIpqDoWA",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Petarp",
-			"link": "https://youtu.be/klrX5OKIBXw",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "mrperson",
-			"link": "https://www.youtube.com/watch?v=mMSP_8QVvvc",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false,
-			"enjoyment": "4"
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=c-HPCPPNUfg",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Riley",
-			"link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 3
-		},
-		{
-			"user": "attrixia",
-			"link": "https://youtu.be/lck-HWpK-Dg",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "monthmai",
-			"link": "https://www.youtube.com/watch?v=hFEXtb7l3eI",
-			"percent": 100,
-			"hz": 700,
-			"enjoyment": 4
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/zx9Wzm-o-Lg",
-			"percent": 100,
-			"hz": 120,
-			"enjoyment": 7,
-			"mobile": true
-		},
-		{
-			"user": "Jolly",
-			"link": "https://youtu.be/oxWobLyI3dg",
-			"percent": 100,
-			"hz": 144,
-			"enjoyment": 3
-		}
-	]
+  "creators": [],
+  "difficulty": 3,
+  "enjoyment": 9,
+  "id": 99153890,
+  "name": "your clothes",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=Lg9dAhQ8sfc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Seismic"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=OWpfIeqYClo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=JEMXTq3_qlQ&list=PLkw3FLQgqEI6yeGnJytAtZdQ0B7tJUb99&index=18",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "nolli"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/PHntJNLvLsE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skip"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=c4DXLcIDQ-0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sphericle"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/pDtACy0B4mo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 500,
+	  "link": "https://youtu.be/4o4LnhoHyAI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blueberry"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/ifuRIpqDoWA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/klrX5OKIBXw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Petarp"
+	},
+	{
+	  "enjoyment": "4",
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=mMSP_8QVvvc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=c-HPCPPNUfg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/lck-HWpK-Dg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 700,
+	  "link": "https://www.youtube.com/watch?v=hFEXtb7l3eI",
+	  "percent": 100,
+	  "user": "monthmai"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 120,
+	  "link": "https://youtu.be/zx9Wzm-o-Lg",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 144,
+	  "link": "https://youtu.be/oxWobLyI3dg",
+	  "percent": 100,
+	  "user": "Jolly"
+	}
+  ],
+  "song": "Jane Remover - your clothes",
+  "songLink": "https://www.mediafire.com/file/v7zrus8sj0jt6ic/908739.mp3/file",
+  "verification": "https://youtu.be/z0C0Zkd9rUU?si=lMq76hlSU_qqGyfw",
+  "verifier": "Poke Zach"
 }

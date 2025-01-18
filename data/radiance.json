@@ -1,77 +1,78 @@
 {
-    "id": 104182212,
-    "name": "Radiance",
-    "author": "NotAquatic",
-    "creators": ["TheCatAstronaut"],
-    "verifier": "Aquatic",
-    "verification": "https://youtu.be/lg6cd8jP8SI?si=GAkvcCpR7TOcNvVi",
-    "percentToQualify": 100,
-    "song": "Creo - Aura",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-          "user": "Hyperbeat",
-          "link": "https://www.youtube.com/watch?v=353dln9stV4",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true,
-          "enjoyment": 2
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/GZUWTm-LqX0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Flipperglint",
-            "link": "https://youtu.be/Mr4_JZK4uFw?si=h9oYyH7yI7c32k2A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/tHYS7MGcQdk?si=VtKUQ38WmYKnalpm",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 1
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/NP4BqJFBtzQ?si=hnQTshxpW0G_u-lu",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 5
-        },
-        {
-            "user": "TheCatAstronaut",
-            "link": "https://youtu.be/T22vI93Y5Rk",
-            "percent": 100,
-            "hz": 1000,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "sn0w",
-            "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [
+	"TheCatAstronaut"
+  ],
+  "difficulty": 2,
+  "id": 104182212,
+  "name": "Radiance",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 360,
+	  "link": "https://youtu.be/GZUWTm-LqX0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 0,
+	  "hz": 360,
+	  "link": "https://youtu.be/Mr4_JZK4uFw?si=h9oYyH7yI7c32k2A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Flipperglint"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 60,
+	  "link": "https://youtu.be/tHYS7MGcQdk?si=VtKUQ38WmYKnalpm",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 60,
+	  "link": "https://youtu.be/NP4BqJFBtzQ?si=hnQTshxpW0G_u-lu",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 1000,
+	  "link": "https://youtu.be/T22vI93Y5Rk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TheCatAstronaut"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "sn0w"
+	}
+  ],
+  "song": "Creo - Aura",
+  "verification": "https://youtu.be/lg6cd8jP8SI?si=GAkvcCpR7TOcNvVi",
+  "verifier": "Aquatic"
 }

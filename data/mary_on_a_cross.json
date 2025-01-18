@@ -1,102 +1,101 @@
 {
-	"id": 104754794,
-	"name": "Mary On A Cross",
-	"author": "rSnoozy",
-	"creators": [],
-	"verifier": "Fawami",
-	"verification": "https://youtu.be/O6158mOtrQo?feature=shared",
-	"percentToQualify": 55,
-	"song": "Ghost - Mary On A Cross",
-	"songLink": "https://drive.google.com/file/d/1qvrK9e1ZYUOqCb5sz7GyGQy5OPaVTjNM/view?usp=drive_link",
-	"difficulty": 6,
-	"records": [
-		{
-			"user": "Acacia",
-			"link": "https://youtu.be/etR8Bbjwy7c?si=9BW_KsLoz4XJbCeA",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Tupi",
-			"link": "https://www.youtube.com/watch?v=iIcSbVR3m6Q&ab_channel=Tup1%5BGD%5D",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/EfnWZ6OfpSA",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 3
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://medal.tv/games/geometry-dash/clips/iLTKkAaFIm-vDhx70?invite=cr-MSxMSlosMTg1OTcxMTAwLA",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/MqOLscUuA50",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "whitmp4",
-			"link": "https://youtu.be/uCK2_lIHw_c?si=_jIwqtyQNpsIdRzv",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Spaace",
-			"link": "https://youtu.be/wyKhJeiTHY8",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "rastuyas",
-			"link": "https://www.youtube.com/watch?v=BXp9d-C6EtY",
-			"percent": 100,
-			"hz": 480,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "vitnz",
-			"link": "https://www.youtube.com/watch?v=_S2RXW9tlHw",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://truthsocial.com/@PokeZach/posts/113822187406297922",
-			"percent": 72,
-			"hz": 60,
-			"enjoyment": 8,
-			"mobile": true
-		}
-	]
+  "creators": [],
+  "difficulty": 6,
+  "id": 104754794,
+  "name": "Mary On A Cross",
+  "percentToQualify": 55,
+  "records": [
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/etR8Bbjwy7c?si=9BW_KsLoz4XJbCeA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=iIcSbVR3m6Q&ab_channel=Tup1%5BGD%5D",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Tupi"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://youtu.be/EfnWZ6OfpSA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/iLTKkAaFIm-vDhx70?invite=cr-MSxMSlosMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/MqOLscUuA50",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/uCK2_lIHw_c?si=_jIwqtyQNpsIdRzv",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "whitmp4"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/wyKhJeiTHY8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Spaace"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 480,
+	  "link": "https://www.youtube.com/watch?v=BXp9d-C6EtY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=_S2RXW9tlHw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "vitnz"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 60,
+	  "link": "https://truthsocial.com/@PokeZach/posts/113822187406297922",
+	  "mobile": true,
+	  "percent": 72,
+	  "user": "Poke Zach"
+	}
+  ],
+  "song": "Ghost - Mary On A Cross",
+  "songLink": "https://drive.google.com/file/d/1qvrK9e1ZYUOqCb5sz7GyGQy5OPaVTjNM/view?usp=drive_link",
+  "verification": "https://youtu.be/O6158mOtrQo?feature=shared",
+  "verifier": "Fawami"
 }

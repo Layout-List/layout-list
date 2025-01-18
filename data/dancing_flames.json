@@ -1,45 +1,44 @@
 {
-    "id": 106241266,
-    "name": "Dancing flames",
-    "author": "RaynoXx",
-    "creators": [],
-    "verifier": "RaynoXx",
-    "verification": "https://youtu.be/-N6ZrKpJYds?si=b1AxOmT0sVfLYCfQ",
-    "percentToQualify": 100,
-    "song": "Raya - Flames",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/HVEK7EpvvPg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": "9"
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/ejU9GDjMHuI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        }
-    ]
+  "creators": [],
+  "difficulty": 1,
+  "id": 106241266,
+  "name": "Dancing flames",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zyxo"
+	},
+	{
+	  "enjoyment": "9",
+	  "hz": 360,
+	  "link": "https://youtu.be/HVEK7EpvvPg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 240,
+	  "link": "https://youtu.be/ejU9GDjMHuI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	}
+  ],
+  "song": "Raya - Flames",
+  "verification": "https://youtu.be/-N6ZrKpJYds?si=b1AxOmT0sVfLYCfQ",
+  "verifier": "RaynoXx"
 }

@@ -1,110 +1,109 @@
 {
-    "id": 74131002,
-    "name": "Papermoon Layout",
-    "author": "sqrtpie",
-    "creators": [
-        "ZBosGaming"
-    ],
-    "verifier": "sqrtpie",
-    "verification": "https://youtu.be/UtrSrOaa36E",
-    "percentToQualify": 50,
-    "song": "Tommy february6 - PAPERMOON",
-    "songLink": "https://www.mediafire.com/file/mu7qnuzrq8cbhje/32516.mp3/file",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "ZBosGaming",
-            "link": "https://youtu.be/pygSfdisXUA",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/agvwXU0vNJY",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "ImFinGD",
-            "link": "https://www.youtube.com/watch?v=7vvtORJ1XHc",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=Qx2uaxc3nFE",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/FX2NMVuZPmM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=2bQmJIdzRTY",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/OUl2jzj9SVo",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/UFyrbT4pbrE",
-            "percent": 100,
-            "hz": "360",
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/gyBBWTigmiw",
-            "percent": 100,
-            "hz": "360",
-            "mobile": false
-        },
-        {
-            "user": "LimeDub",
-            "link": "https://www.youtube.com/watch?v=zM_CcCvnZfI",
-            "percent": 100,
-            "hz": "144",
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/Vt9hiLYGljo",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "RadiantHun",
-            "link": "https://www.youtube.com/watch?v=fueWZR38EuE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/7owZ9GvNLcw?si=l3bLqeB6CT70_OPs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/vNNeLOe8-5c",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"ZBosGaming"
+  ],
+  "difficulty": 4,
+  "id": 74131002,
+  "name": "Papermoon Layout",
+  "percentToQualify": 50,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/pygSfdisXUA",
+	  "percent": 100,
+	  "user": "ZBosGaming"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/agvwXU0vNJY",
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=7vvtORJ1XHc",
+	  "percent": 100,
+	  "user": "ImFinGD"
+	},
+	{
+	  "hz": 288,
+	  "link": "https://www.youtube.com/watch?v=Qx2uaxc3nFE",
+	  "percent": 100,
+	  "user": "Fusion425"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/FX2NMVuZPmM",
+	  "percent": 100,
+	  "user": "Armani"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=2bQmJIdzRTY",
+	  "percent": 100,
+	  "user": "Dom_Luca"
+	},
+	{
+	  "hz": "360",
+	  "link": "https://youtu.be/OUl2jzj9SVo",
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": "360",
+	  "link": "https://youtu.be/UFyrbT4pbrE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": "360",
+	  "link": "https://youtu.be/gyBBWTigmiw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": "144",
+	  "link": "https://www.youtube.com/watch?v=zM_CcCvnZfI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "LimeDub"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://youtu.be/Vt9hiLYGljo",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=fueWZR38EuE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "RadiantHun"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/7owZ9GvNLcw?si=l3bLqeB6CT70_OPs",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 60,
+	  "link": "https://youtu.be/vNNeLOe8-5c",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	}
+  ],
+  "song": "Tommy february6 - PAPERMOON",
+  "songLink": "https://www.mediafire.com/file/mu7qnuzrq8cbhje/32516.mp3/file",
+  "verification": "https://youtu.be/UtrSrOaa36E",
+  "verifier": "sqrtpie"
 }

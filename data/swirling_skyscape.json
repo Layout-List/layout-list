@@ -1,81 +1,80 @@
 {
-    "id": 97125608,
-    "name": "Swirling Skyscape",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://youtu.be/yG_SwZRZMPw?si=Q1qKb08tqW1gUywL",
-    "percentToQualify": 100,
-    "song": "wispx - Idyllic",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/y45SONuYuGM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/WfNv6LLcxk4",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "9"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://www.youtube.com/watch?v=eRv4TEWoHlc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/RK2FfPR7juU?si=KEXCBK7CqrN_r8hF",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "6"
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/hykRQQRBkLU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/1hP4hDkjvk0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "id": 97125608,
+  "name": "Swirling Skyscape",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/y45SONuYuGM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": "9",
+	  "hz": 75,
+	  "link": "https://youtu.be/WfNv6LLcxk4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=eRv4TEWoHlc",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": "6",
+	  "hz": 60,
+	  "link": "https://youtu.be/RK2FfPR7juU?si=KEXCBK7CqrN_r8hF",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://youtu.be/hykRQQRBkLU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/1hP4hDkjvk0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Alvaneder"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "wispx - Idyllic",
+  "verification": "https://youtu.be/yG_SwZRZMPw?si=Q1qKb08tqW1gUywL",
+  "verifier": "Blysteryx"
 }

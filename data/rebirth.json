@@ -1,53 +1,52 @@
 {
-    "id": 108303614,
-    "name": "Rebirth",
-    "author": "Zyxo",
-    "creators": [],
-    "verifier": "Zyxo",
-    "verification": "https://youtu.be/ZqytDmUzbww",
-    "percentToQualify": 100,
-    "song": "Diivi - Glaive - Astrid (Remix)",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/-xc4IbL6U48",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/KgA334nKC6M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/61OWAvf2Dv0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/iU97JyK6OCBSTIIHF?invite=cr-MSx4Q0UsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        }
-    ]
+  "creators": [],
+  "difficulty": 4,
+  "id": 108303614,
+  "name": "Rebirth",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": 4,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 360,
+	  "link": "https://youtu.be/-xc4IbL6U48",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://youtu.be/KgA334nKC6M",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 360,
+	  "link": "https://youtu.be/61OWAvf2Dv0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/iU97JyK6OCBSTIIHF?invite=cr-MSx4Q0UsMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hydraniac"
+	}
+  ],
+  "song": "Diivi - Glaive - Astrid (Remix)",
+  "verification": "https://youtu.be/ZqytDmUzbww",
+  "verifier": "Zyxo"
 }

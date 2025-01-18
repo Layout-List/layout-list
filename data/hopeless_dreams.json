@@ -1,96 +1,95 @@
 {
-    "id": 96509801,
-    "name": "Hopeless Dreams",
-    "author": "Xeronius",
-    "creators": [],
-    "verifier": "Xeronius",
-    "verification": "https://www.youtube.com/watch?v=jBhR4iEEQGU",
-    "percentToQualify": 100,
-    "song": "Helblinde - Solace of Oblivion",
-    "difficulty": 2,
-    "enjoyment": 7,
-    "records": [
-        {
-            "user": "monthmai",
-            "link": "https://youtu.be/cG-22_3GCYc?si=sF7SnyjOmnGlFJUQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-          {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/2_WUH7NIuPs?si=5XQymmsEXrGRsYj4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "9"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/JA_qnNGlBuU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-          "user": "zDark",
-          "link": "https://youtu.be/_fiMD_6aUqw",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=M7mK2GyMdBs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "TheCatAstronaut",
-            "link": "https://www.youtube.com/watch?v=eSgXuz0ab2A",
-            "percent": 100,
-            "hz": 170,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "5"
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "creators": [],
+  "difficulty": 2,
+  "enjoyment": 7,
+  "id": 96509801,
+  "name": "Hopeless Dreams",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/cG-22_3GCYc?si=sF7SnyjOmnGlFJUQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "monthmai"
+	},
+	{
+	  "enjoyment": "9",
+	  "hz": 60,
+	  "link": "https://youtu.be/2_WUH7NIuPs?si=5XQymmsEXrGRsYj4",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/JA_qnNGlBuU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/_fiMD_6aUqw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=M7mK2GyMdBs",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "hz": 170,
+	  "link": "https://www.youtube.com/watch?v=eSgXuz0ab2A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "TheCatAstronaut"
+	},
+	{
+	  "enjoyment": "5",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	}
+  ],
+  "song": "Helblinde - Solace of Oblivion",
+  "verification": "https://www.youtube.com/watch?v=jBhR4iEEQGU",
+  "verifier": "Xeronius"
 }

@@ -1,47 +1,46 @@
 {
-    "id": 95971874,
-    "name": "tick tock",
-    "author": "XBladeXGMD",
-    "creators": [],
-    "verifier": "evil",
-    "verification": "https://youtu.be/XIkUgE7EPHE?si=EG0WwBMaNFUhgImu",
-    "percentToQualify": 54,
-    "song": "Joji - Tick Tock",
-    "songLink": "https://drive.google.com/file/d/1TERUMxAGc9NXZfHbHoYGq7FnHPHrwMXv/view?usp=drive_link",
-    "difficulty": 4,
-    "enjoyment": 7,
-    "records": [
-        {
-            "user": "Blueberry",
-            "link": "https://youtu.be/8_ZHrl2EgWk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Wixies",
-            "link": "https://www.youtube.com/watch?v=K7vFEdGijwY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "creators": [],
+  "difficulty": 4,
+  "enjoyment": 7,
+  "id": 95971874,
+  "name": "tick tock",
+  "percentToQualify": 54,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/8_ZHrl2EgWk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blueberry"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=K7vFEdGijwY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Wixies"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	}
+  ],
+  "song": "Joji - Tick Tock",
+  "songLink": "https://drive.google.com/file/d/1TERUMxAGc9NXZfHbHoYGq7FnHPHrwMXv/view?usp=drive_link",
+  "verification": "https://youtu.be/XIkUgE7EPHE?si=EG0WwBMaNFUhgImu",
+  "verifier": "evil"
 }

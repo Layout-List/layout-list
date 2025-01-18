@@ -1,131 +1,130 @@
 {
-	"id": 94668202,
-	"name": "Incision",
-	"author": "DJJDK",
-	"creators": [],
-	"verifier": "zDark",
-	"verification": "https://www.youtube.com/watch?v=jvkIbUembPw",
-	"showcase": "https://www.youtube.com/watch?v=vM7KjCy54uc",
-	"percentToQualify": 52,
-	"song": "lexycat - INCISION",
-	"difficulty": 9,
-	"enjoyment": 9,
-	"records": [
-		{
-			"user": "Seismic",
-			"link": "https://www.youtube.com/watch?v=VjzZP20o84A",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=Pplg4bfbH_0",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/PQjyYkpqAd4?si=2AyTB1Yhc95rzWpk",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Robotic",
-			"link": "https://www.youtube.com/watch?v=1SkNbz3a07k",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Acacia",
-			"link": "https://www.youtube.com/watch?v=5lJ5HAuQNVI",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/s-PGet-UEFY",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "mr123j",
-			"link": "https://youtu.be/60xFOV5bxAY",
-			"percent": 76,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "Fawami",
-			"link": "https://www.youtube.com/watch?v=ixTygurV554",
-			"percent": 64,
-			"hz": 165,
-			"mobile": false
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://medal.tv/games/geometry-dash/clips/i9KlaVuhlhj1zWkqr/d1337hPLRQLM?invite=cr-MSxqZ2ksMTg1OTcxMTAwLA",
-			"percent": 78,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "skyv",
-			"link": "https://www.youtube.com/watch?v=xoUlmr8w-y8&ab_channel=TheWildSeal",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "voicechatping",
-			"link": "https://youtu.be/qHpPt7PaKGg",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 2
-		},
-		{
-			"user": "attrixia",
-			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 3
-		},
-		{
-			"user": "Akuriserv",
-			"link": "https://youtu.be/bPC01oaR_eg?si=uK6xHAfBbTWiXyCG",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Riley",
-			"link": "https://youtu.be/PzD10nUWzts",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 3
-		},
-		{
-			"user": "nykolol",
-			"link": "https://youtu.be/LX0ZSaRU-tQ",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
-		}
-	]
+  "creators": [],
+  "difficulty": 9,
+  "enjoyment": 9,
+  "id": 94668202,
+  "name": "Incision",
+  "percentToQualify": 52,
+  "records": [
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=VjzZP20o84A",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Seismic"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=Pplg4bfbH_0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/PQjyYkpqAd4?si=2AyTB1Yhc95rzWpk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=1SkNbz3a07k",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Robotic"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=5lJ5HAuQNVI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Acacia"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://youtu.be/s-PGet-UEFY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/60xFOV5bxAY",
+	  "mobile": false,
+	  "percent": 76,
+	  "user": "mr123j"
+	},
+	{
+	  "hz": 165,
+	  "link": "https://www.youtube.com/watch?v=ixTygurV554",
+	  "mobile": false,
+	  "percent": 64,
+	  "user": "Fawami"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://medal.tv/games/geometry-dash/clips/i9KlaVuhlhj1zWkqr/d1337hPLRQLM?invite=cr-MSxqZ2ksMTg1OTcxMTAwLA",
+	  "mobile": false,
+	  "percent": 78,
+	  "user": "Hydraniac"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=xoUlmr8w-y8&ab_channel=TheWildSeal",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "skyv"
+	},
+	{
+	  "enjoyment": 2,
+	  "hz": 240,
+	  "link": "https://youtu.be/qHpPt7PaKGg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "voicechatping"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "attrixia"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/bPC01oaR_eg?si=uK6xHAfBbTWiXyCG",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Akuriserv"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://youtu.be/PzD10nUWzts",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Riley"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://youtu.be/LX0ZSaRU-tQ",
+	  "percent": 100,
+	  "user": "nykolol"
+	}
+  ],
+  "showcase": "https://www.youtube.com/watch?v=vM7KjCy54uc",
+  "song": "lexycat - INCISION",
+  "verification": "https://www.youtube.com/watch?v=jvkIbUembPw",
+  "verifier": "zDark"
 }

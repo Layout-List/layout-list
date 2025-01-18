@@ -1,71 +1,70 @@
 {
-    "id": 67933625,
-    "name": "Reignite",
-    "author": "XxJ0SHxX",
-    "creators": [
-        "PaardappeLs"
-    ],
-    "verifier": "XxJ0SHxX",
-    "verification": "https://youtu.be/ea3Y7fq1jQA?si=-BAgkVQTsyx_um0z",
-    "percentToQualify": 100,
-    "song": "Geoplex - Reignite",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/pLSMbzcDDsk",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=w2m7WZ7Gxm8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/zjlAYz2rlqY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/M3ClkMTc_sw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "creators": [
+	"PaardappeLs"
+  ],
+  "difficulty": 1,
+  "id": 67933625,
+  "name": "Reignite",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "enjoyment": "10",
+	  "hz": 75,
+	  "link": "https://youtu.be/pLSMbzcDDsk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 60,
+	  "link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 60,
+	  "link": "https://www.youtube.com/watch?v=w2m7WZ7Gxm8",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 240,
+	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 240,
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/zjlAYz2rlqY",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 360,
+	  "link": "https://youtu.be/M3ClkMTc_sw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	}
+  ],
+  "song": "Geoplex - Reignite",
+  "verification": "https://youtu.be/ea3Y7fq1jQA?si=-BAgkVQTsyx_um0z",
+  "verifier": "XxJ0SHxX"
 }

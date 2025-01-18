@@ -1,150 +1,149 @@
 {
-    "id": 78098394,
-    "name": "dunewalker",
-    "author": "morsey",
-    "creators": [],
-    "verifier": "morsey",
-    "verification": "https://www.youtube.com/watch?v=tGwSAD4Jf9I",
-    "password": "150108",
-    "percentToQualify": 56,
-    "song": "Tokzick x ImCold - Dunewalker II",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtube.com/shorts/9MVVCpmmQMw?si=l9y2mfFO8DU5xilB",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "10"
-        },
-         {
-            "user": "zakonp",
-            "link": "https://www.youtube.com/watch?v=7zV0GzohkGk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "mrperson",
-            "link": "https://youtu.be/T8_kfB5bBX8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/51I4bdnDHK0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/1JCVCl0n49E",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "DJJDK",
-            "link": "https://www.youtube.com/watch?v=J5Zzk9_FghA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Skip",
-            "link": "https://youtu.be/8r3Z4n0oWAU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Ds8ZMguyQpM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/1VhplqJuSbw",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "briskrain",
-            "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=oiK7SDqhZhQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/sWIMs-pvE_g?si=jEYFjar2gkDKvRLS",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://youtu.be/Yaw0AnO7IhI?si=fExSewyU6z3H8ZOk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/QJVG5pvUit8?si=PpBInZcgW7veocvY",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Wingz_GD",
-            "link": "https://youtu.be/tibMnweaQs4",
-            "percent": 100,
-            "hz": 360,
-            "enjoyment": 4
-        }
-    ]
+  "creators": [],
+  "difficulty": 3,
+  "id": 78098394,
+  "name": "dunewalker",
+  "password": "150108",
+  "percentToQualify": 56,
+  "records": [
+	{
+	  "enjoyment": "10",
+	  "hz": 60,
+	  "link": "https://youtube.com/shorts/9MVVCpmmQMw?si=l9y2mfFO8DU5xilB",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Poke Zach"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=7zV0GzohkGk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zakonp"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/T8_kfB5bBX8",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/51I4bdnDHK0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 1,
+	  "hz": 240,
+	  "link": "https://youtu.be/1JCVCl0n49E",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "evil"
+	},
+	{
+	  "enjoyment": 6,
+	  "hz": 120,
+	  "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "Blysteryx"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "rastuyas"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=J5Zzk9_FghA",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DJJDK"
+	},
+	{
+	  "hz": 240,
+	  "link": "https://youtu.be/8r3Z4n0oWAU",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Skip"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/Ds8ZMguyQpM",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "enjoyment": "7",
+	  "hz": 75,
+	  "link": "https://youtu.be/1VhplqJuSbw",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Xeronius"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 144,
+	  "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "briskrain"
+	},
+	{
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=oiK7SDqhZhQ",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "DeleteNine"
+	},
+	{
+	  "enjoyment": 3,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/sWIMs-pvE_g?si=jEYFjar2gkDKvRLS",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Hyperbeat"
+	},
+	{
+	  "enjoyment": 5,
+	  "hz": 360,
+	  "link": "https://youtu.be/Yaw0AnO7IhI?si=fExSewyU6z3H8ZOk",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NiXaNTy"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 60,
+	  "link": "https://youtu.be/QJVG5pvUit8?si=PpBInZcgW7veocvY",
+	  "mobile": true,
+	  "percent": 100,
+	  "user": "RaynoXx"
+	},
+	{
+	  "enjoyment": 4,
+	  "hz": 360,
+	  "link": "https://youtu.be/tibMnweaQs4",
+	  "percent": 100,
+	  "user": "Wingz_GD"
+	}
+  ],
+  "song": "Tokzick x ImCold - Dunewalker II",
+  "verification": "https://www.youtube.com/watch?v=tGwSAD4Jf9I",
+  "verifier": "morsey"
 }

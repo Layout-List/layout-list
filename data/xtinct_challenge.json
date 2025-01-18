@@ -1,91 +1,90 @@
 {
-    "id": 96519116,
-    "name": "Xtinct Challenge",
-    "author": "RaynoXx",
-    "creators": [],
-    "verifier": "RaynoXx",
-    "verification": "https://youtu.be/OSbt0aGnSg8?si=G3KV3K26iq9Xg9d-",
-    "percentToQualify": 100,
-    "song": "Waterflame - Conclusion",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/hMBAedFvH9A?si=FuhCWvXHnfMgZGgj",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/MBlX11zI6O4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/4Jm2yFQ_DDg",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Blueberry",
-            "link": "https://youtu.be/wdkjoCNynRE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/ejU9GDjMHuI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Paladean",
-            "link": "https://youtu.be/w_1_AUWnc7U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Bluelightning379",
-            "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "NTau",
-            "link": "https://www.youtube.com/watch?v=4NMv9FOXKFg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "creators": [],
+  "difficulty": 1,
+  "id": 96519116,
+  "name": "Xtinct Challenge",
+  "percentToQualify": 100,
+  "records": [
+	{
+	  "hz": 360,
+	  "link": "https://youtu.be/hMBAedFvH9A?si=FuhCWvXHnfMgZGgj",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zDark"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 360,
+	  "link": "https://youtu.be/MBlX11zI6O4",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Mystikl"
+	},
+	{
+	  "hz": 144,
+	  "link": "https://youtu.be/4Jm2yFQ_DDg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "mrperson"
+	},
+	{
+	  "enjoyment": 10,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Syrcx"
+	},
+	{
+	  "enjoyment": "?",
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Zyxo"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 360,
+	  "link": "https://youtu.be/wdkjoCNynRE",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Blueberry"
+	},
+	{
+	  "enjoyment": "10",
+	  "hz": 240,
+	  "link": "https://youtu.be/ejU9GDjMHuI",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "zWren"
+	},
+	{
+	  "enjoyment": 8,
+	  "hz": 240,
+	  "link": "https://youtu.be/w_1_AUWnc7U",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Paladean"
+	},
+	{
+	  "enjoyment": 7,
+	  "hz": 240,
+	  "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "Bluelightning379"
+	},
+	{
+	  "enjoyment": 9,
+	  "hz": 360,
+	  "link": "https://www.youtube.com/watch?v=4NMv9FOXKFg",
+	  "mobile": false,
+	  "percent": 100,
+	  "user": "NTau"
+	}
+  ],
+  "song": "Waterflame - Conclusion",
+  "verification": "https://youtu.be/OSbt0aGnSg8?si=G3KV3K26iq9Xg9d-",
+  "verifier": "RaynoXx"
 }
