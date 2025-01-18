@@ -120,15 +120,31 @@ input[type="checkbox"] {
     max-width: 22em;
     height: 40px;
     padding-left: 10px;
+    padding-right: 30px;
     margin-bottom: 1rem;
     margin-left: 1rem;
     background-color: var(--color-background-hover);
+    transition: all 120ms ease-out;
+}
+
+.search:hover:not(:focus) {
+    border: 2px solid var(--color-hover);
     transition: all, border 120ms ease-out;
 }
 
-.search:hover {
-    border: 2px solid var(--color-hover);
-    transition: all, border 120ms ease-out;
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.clear-search {
+    position: absolute;
+    right: 5px; /* Adjust based on desired position */
+    top: 50%;
+    transform: translateY(-93%) translateX(-100%);
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .copy-container {
@@ -167,6 +183,10 @@ input[type="checkbox"] {
 
 .right-text > p:not(:last-child)  {
     padding-bottom:2em
+}
+
+.director {
+    transition: text-decoration 120ms ease-out;
 }
 
 .director:hover {
