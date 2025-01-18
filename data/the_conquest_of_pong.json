@@ -1,44 +1,46 @@
+
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 110990563,
-  "name": "The Conquest Of Pong",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 2,
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/yJuSWiVhHs4?si=eQTcwgr6BcXpoVmF",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	}
-  ],
-  "song": "Dunderpatrullen - Tumba Ping Pong Song",
-  "verification": "https://www.youtube.com/watch?v=bXtvf25iCBM",
-  "verifier": "Angryface"
+    "id": 110990563,
+    "name": "The Conquest Of Pong",
+    "author": "Angryface",
+    "creators": [],
+    "verifier": "Angryface",
+    "verification": "https://www.youtube.com/watch?v=bXtvf25iCBM",
+    "percentToQualify": 100,
+    "song": "Dunderpatrullen - Tumba Ping Pong Song",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/yJuSWiVhHs4?si=eQTcwgr6BcXpoVmF",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

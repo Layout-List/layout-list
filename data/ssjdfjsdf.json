@@ -1,12 +1,13 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 1,
-  "name": "ssjdfjsdf",
-  "password": "Free to copy",
-  "percentToQualify": 100,
-  "records": [],
-  "song": "240",
-  "verification": "https://hai.com",
-  "verifier": "sodijfsd"
+	"id": 1,
+	"name": "ssjdfjsdf",
+	"author": "udshsdf",
+	"creators": [],
+	"verifier": "sodijfsd",
+	"verification": "https://hai.com",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 1,
+	"song": "240",
+	"records" : []
 }

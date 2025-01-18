@@ -1,115 +1,116 @@
 {
-  "creators": [
-	"Flare"
-  ],
-  "difficulty": 4,
-  "id": 94839313,
-  "name": "fog",
-  "password": "Not Copyable",
-  "percentToQualify": 53,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/PB-yB8xJvbM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/toZlMHGTc1s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=U7rL-N2crl4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tradeskill"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/uYzdaMWI85o",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 75,
-	  "link": "https://youtu.be/0NJKAcp7xKM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=sNTPYObahCw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=PRgddTi6rWI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Petarp"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/GAu0OMyjFpo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/ipQyDJNOQ3aS4dCvG/d1337OIhcqQq?invite=cr-MSx6MjMsMTg1OTcxMTAwLA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=DM-HrWYYt1U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rustic"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=fCc5wkUfWJ8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "XxSirgaxX"
-	}
-  ],
-  "showcase": "https://youtu.be/2O9YaNrWOfs",
-  "song": "lieu - see it thru (snippet)",
-  "songLink": "https://www.mediafire.com/file/3m3wckzen1spnv4/171702.mp3/file",
-  "verification": "https://youtu.be/_VH1nuHm6QA",
-  "verifier": "zDark"
+    "id": 94839313,
+    "name": "fog",
+    "author": "hab",
+    "creators": [
+        "Flare"
+    ],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/_VH1nuHm6QA",
+    "showcase": "https://youtu.be/2O9YaNrWOfs",
+    "percentToQualify": 53,
+    "password": "Not Copyable",
+    "song": "lieu - see it thru (snippet)",
+    "songLink": "https://www.mediafire.com/file/3m3wckzen1spnv4/171702.mp3/file",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/PB-yB8xJvbM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/toZlMHGTc1s",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Tradeskill",
+            "link": "https://www.youtube.com/watch?v=U7rL-N2crl4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/uYzdaMWI85o",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/0NJKAcp7xKM",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "10"
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=sNTPYObahCw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Petarp",
+            "link": "https://www.youtube.com/watch?v=PRgddTi6rWI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/GAu0OMyjFpo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/ipQyDJNOQ3aS4dCvG/d1337OIhcqQq?invite=cr-MSx6MjMsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "rustic",
+            "link": "https://www.youtube.com/watch?v=DM-HrWYYt1U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "XxSirgaxX",
+            "link": "https://www.youtube.com/watch?v=fCc5wkUfWJ8",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

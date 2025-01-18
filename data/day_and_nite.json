@@ -1,89 +1,90 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 96711010,
-  "name": "day and nite",
-  "percentToQualify": 50,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/glC7nVVvNOY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/hya0C5uIu_o",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/TDoe9qBV7a0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/N33WY9OPss8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Ir88n7uxTLk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Skip"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Ki0t4nKX1d0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 240,
-	  "link": "https://youtu.be/sk58vf0ioOw",
-	  "mobile": false,
-	  "percent": 85,
-	  "user": "Asteria."
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 360,
-	  "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://youtu.be/KgA334nKC6M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	}
-  ],
-  "song": "Kid Cudi - Day 'n' Nite",
-  "songLink": "https://drive.google.com/file/d/1_0NhPATpJAtdojPJVMoIqtBwVK4ZEMgy/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=2wmPuSG9Lpo",
-  "verifier": "nolli"
+    "id": 96711010,
+    "name": "day and nite",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "nolli",
+    "verification": "https://www.youtube.com/watch?v=2wmPuSG9Lpo",
+    "percentToQualify": 50,
+    "song": "Kid Cudi - Day 'n' Nite",
+    "songLink": "https://drive.google.com/file/d/1_0NhPATpJAtdojPJVMoIqtBwVK4ZEMgy/view?usp=drive_link",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/glC7nVVvNOY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/hya0C5uIu_o",
+            "percent": 100,
+            "hz": 240,
+            "enjoyment": 7,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/TDoe9qBV7a0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/N33WY9OPss8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://www.youtube.com/watch?v=Ir88n7uxTLk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=Ki0t4nKX1d0",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/sk58vf0ioOw",
+            "percent": 85,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/KgA334nKC6M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        }
+    ]
 }

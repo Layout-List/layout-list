@@ -1,12 +1,14 @@
 {
-  "creators": [],
-  "difficulty": 7,
-  "id": 0,
-  "name": "(Supreme Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Supreme Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 7,
+    "records": [
+    ]
 }

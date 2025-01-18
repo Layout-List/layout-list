@@ -1,68 +1,69 @@
 {
-  "creators": [
-	"Diogan"
-  ],
-  "difficulty": 5,
-  "id": 91961897,
-  "name": "Underlying Grief",
-  "password": "Not Copyable",
-  "percentToQualify": 55,
-  "records": [
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=a6wHuWWl6tM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Diogan"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/imT-mHwldqE",
-	  "mobile": false,
-	  "percent": 70,
-	  "user": "pivithasnolife"
-	},
-	{
-	  "hz": 165,
-	  "link": "https://youtu.be/Pm0pDiWMUcw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Fawami"
-	},
-	{
-	  "hz": 165,
-	  "link": "https://youtu.be/buXjBedQM8w",
-	  "mobile": false,
-	  "percent": 71,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/15hKZ-GOAuI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Seismic"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=rCB8OzckeqE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	}
-  ],
-  "showcase": "https://youtu.be/5WCURpKL25s",
-  "song": "Chris Christodoulou - …con lentitud poderosa",
-  "songLink": "https://www.mediafire.com/file/oiqhwf4ja28wvuk/747194.mp3/file",
-  "verification": "https://youtu.be/Xk2E8ur3tWU?si=eV0YgPY_as-hjFY-",
-  "verifier": "zDark"
+    "id": 91961897,
+    "name": "Underlying Grief",
+    "author": "Fawami",
+    "creators": [
+      "Diogan"
+    ],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/Xk2E8ur3tWU?si=eV0YgPY_as-hjFY-",
+    "showcase": "https://youtu.be/5WCURpKL25s",
+    "percentToQualify": 55,
+    "password": "Not Copyable",
+    "song": "Chris Christodoulou - …con lentitud poderosa",
+    "songLink": "https://www.mediafire.com/file/oiqhwf4ja28wvuk/747194.mp3/file",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "Diogan",
+            "link": "https://www.youtube.com/watch?v=a6wHuWWl6tM",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "pivithasnolife",
+            "link": "https://youtu.be/imT-mHwldqE",
+            "percent": 70,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Fawami",
+            "link": "https://youtu.be/Pm0pDiWMUcw",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/buXjBedQM8w",
+            "percent": 71,
+            "hz": 165,
+            "mobile": false
+        },
+        {
+            "user": "Seismic",
+            "link": "https://youtu.be/15hKZ-GOAuI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=rCB8OzckeqE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

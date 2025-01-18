@@ -1,22 +1,23 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 76560383,
-  "name": "In yo Jaws",
-  "password": "Free to copy",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/27T96tj8Tjw",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Kingsammelot - Balls in yo Jaws (Remix)",
-  "songLink": "https://drive.google.com/file/d/1JkhDFtLqcDqZP5L-C1IvBLmx4rmyQ_mz/view?usp=sharing",
-  "verification": "https://youtu.be/uqIVvCluMSg",
-  "verifier": "vitnz"
+	"id": 76560383,
+	"name": "In yo Jaws",
+	"author": "vitnz",
+	"creators": [],
+	"verifier": "vitnz",
+	"verification": "https://youtu.be/uqIVvCluMSg",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 1,
+	"song": "Kingsammelot - Balls in yo Jaws (Remix)",
+	"songLink": "https://drive.google.com/file/d/1JkhDFtLqcDqZP5L-C1IvBLmx4rmyQ_mz/view?usp=sharing",
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/27T96tj8Tjw",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		}
+	]
 }

@@ -1,88 +1,89 @@
 {
-  "creators": [
-	"sqrtpie",
-	"hab",
-	"exho",
-	"snoweye",
-	"toastybois",
-	"kloone",
-	"Goldenera",
-	"insxne97"
-  ],
-  "difficulty": 5,
-  "id": 91678911,
-  "name": "shrimp x2",
-  "percentToQualify": 61,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "verifier",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "LordVaderCraft"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=l7DeT8u5pOc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/E9hhjwbm-S4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 300,
-	  "link": "https://youtu.be/OZlVZbllX6U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "NiXaNTy"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/E6qV4bbm4FU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=jFeXb6Cv0qU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 360,
-	  "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	}
-  ],
-  "song": "Miyolophone - Mandragora",
-  "verification": "https://youtu.be/MjG-jdFO0EU",
-  "verifier": "mrperson"
+    "id": 91678911,
+    "name": "shrimp x2",
+    "author": "zDark",
+    "creators": [
+        "sqrtpie",
+        "hab",
+        "exho",
+        "snoweye",
+        "toastybois",
+        "kloone",
+        "Goldenera",
+        "insxne97"
+    ],
+    "verifier": "mrperson",
+    "verification": "https://youtu.be/MjG-jdFO0EU",
+    "percentToQualify": 61,
+    "song": "Miyolophone - Mandragora",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "LordVaderCraft",
+            "link": "verifier",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=l7DeT8u5pOc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/E9hhjwbm-S4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/OZlVZbllX6U",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/E6qV4bbm4FU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=jFeXb6Cv0qU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        }
+    ]
 }

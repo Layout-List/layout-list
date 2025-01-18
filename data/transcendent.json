@@ -1,39 +1,38 @@
 {
-  "creators": [
-	"Xeronius"
-  ],
-  "difficulty": 2,
-  "id": 105343885,
-  "name": "Transcendent",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 2,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/sDhX1vYnF4U?si=jBrfw4M0DxHxGSKg",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "underscores, knapsack - Dry land 2001",
-  "songLink": "https://drive.google.com/file/d/1PGmJylBmiD1xyRfjlu1mEKWgq_ztvKVn/view?usp=drive_link",
-  "verification": "https://youtu.be/_ntYVt6UmAk?si=ceIp3XUf7cDnTrZm",
-  "verifier": "Blysteryx"
+    "id": 105343885,
+    "name": "Transcendent",
+    "author": "Blysteryx",
+    "creators": ["Xeronius"],
+    "verifier": "Blysteryx",
+    "verification": "https://youtu.be/_ntYVt6UmAk?si=ceIp3XUf7cDnTrZm",
+    "percentToQualify": 100,
+    "song": "underscores, knapsack - Dry land 2001",
+    "songLink": "https://drive.google.com/file/d/1PGmJylBmiD1xyRfjlu1mEKWgq_ztvKVn/view?usp=drive_link",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/sDhX1vYnF4U?si=jBrfw4M0DxHxGSKg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

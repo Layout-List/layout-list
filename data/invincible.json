@@ -1,105 +1,106 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "enjoyment": 7,
-  "id": 97403813,
-  "name": "Invincible",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/bJHHqRieX34",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=KYbU0L6jD44",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/8Is0KGkKj7M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/2SZ04xkiesY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/HoZCIWj5myc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Asteria."
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ToastyTP"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/hL-xm9UxXpc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	}
-  ],
-  "song": "DEAF KEV - Invincible",
-  "verification": "https://www.youtube.com/watch?v=r3ob1R3yjww",
-  "verifier": "Xeronius"
+    "id": 97403813,
+    "name": "Invincible",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=r3ob1R3yjww",
+    "percentToQualify": 100,
+    "song": "DEAF KEV - Invincible",
+    "difficulty": 1,
+    "enjoyment": 7,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/bJHHqRieX34",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=KYbU0L6jD44",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/8Is0KGkKj7M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/2SZ04xkiesY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=ixLw1E6qqbM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/HoZCIWj5myc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/hL-xm9UxXpc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+    ]
 }

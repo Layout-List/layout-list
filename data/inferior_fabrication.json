@@ -1,22 +1,24 @@
 {
-  "creators": [],
-  "difficulty": 5,
-  "enjoyment": 7,
-  "id": 108968569,
-  "name": "Inferior Fabrication",
-  "percentToQualify": 67,
-  "records": [
-	{
-	  "enjoyment": 0,
-	  "hz": 240,
-	  "link": "https://youtu.be/M3ClkMTc_sw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	}
-  ],
-  "song": "Inferior Fabrications - PinpinNeon",
-  "songLink": "https://drive.google.com/file/d/1AUSzwkE9NOOEtPqx9TxFMSLzTrmXVZ7k/view?usp=drive_link",
-  "verification": "https://youtu.be/ClQRYWtfe3k?si=jq-DC3QJ9Gg7JIfQ",
-  "verifier": "[BUDDY] peanutcoolguy"
+    "id": 108968569,
+    "name": "Inferior Fabrication",
+    "author": "NutellaIsGod",
+    "creators": [],
+    "verifier": "[BUDDY] peanutcoolguy",
+    "verification": "https://youtu.be/ClQRYWtfe3k?si=jq-DC3QJ9Gg7JIfQ",
+    "percentToQualify": 67,
+    "song": "Inferior Fabrications - PinpinNeon",
+    "songLink": "https://drive.google.com/file/d/1AUSzwkE9NOOEtPqx9TxFMSLzTrmXVZ7k/view?usp=drive_link",
+    "difficulty": 5,
+    "enjoyment": 7,
+    "records": [
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/M3ClkMTc_sw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
+        }
+        
+    ]
 }

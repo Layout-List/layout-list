@@ -1,114 +1,115 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "id": 74426934,
-  "name": "Bajox",
-  "percentToQualify": 61,
-  "records": [
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=AJq7vfmGZRQ",
-	  "percent": 100,
-	  "user": "Bibox"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/7eq4eKcWKAM",
-	  "percent": 100,
-	  "user": "ZBosGaming"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/zHK45V62Nwo",
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/P84KjbKKB60",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Luk231"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/10CH9kJmZSE",
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 288,
-	  "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
-	  "percent": 100,
-	  "user": "Armani"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/atiPeDEW7-o",
-	  "percent": 100,
-	  "user": "Jab"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/vfns3eWrPhM",
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/q1zQdy96jAA",
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=IkLxB2HFWKY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/kIIqZFo-RyA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 75,
-	  "link": "https://youtu.be/4PtO87med5I",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 60,
-	  "link": "https://youtu.be/tAo8Ji_pkto?si=Axb_Is9CVM_xQLiZ",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "showcase": "https://www.youtube.com/watch?v=r9WXT6JwPSE&ab_channel=LayoutListShowcases",
-  "song": "Schtiffles - NG+",
-  "verification": "https://youtu.be/G4DywBPUAKM",
-  "verifier": "rustic"
+    "id": 74426934,
+    "name": "Bajox",
+    "author": "Bibox",
+    "creators": [],
+    "verifier": "rustic",
+    "verification": "https://youtu.be/G4DywBPUAKM",
+    "showcase": "https://www.youtube.com/watch?v=r9WXT6JwPSE&ab_channel=LayoutListShowcases",
+    "percentToQualify": 61,
+    "song": "Schtiffles - NG+",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Bibox",
+            "link": "https://www.youtube.com/watch?v=AJq7vfmGZRQ",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/7eq4eKcWKAM",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/zHK45V62Nwo",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Luk231",
+            "link": "https://youtu.be/P84KjbKKB60",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://youtu.be/10CH9kJmZSE",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Armani",
+            "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Jab",
+            "link": "https://youtu.be/atiPeDEW7-o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://youtu.be/vfns3eWrPhM",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/q1zQdy96jAA",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://www.youtube.com/watch?v=IkLxB2HFWKY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+          "user": "DeleteNine",
+          "link": "https://youtu.be/kIIqZFo-RyA",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/4PtO87med5I",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/tAo8Ji_pkto?si=Axb_Is9CVM_xQLiZ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 2
+        }
+    ]
 }

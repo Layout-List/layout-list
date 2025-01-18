@@ -1,68 +1,69 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "enjoyment": 10,
-  "id": 106346241,
-  "name": "Rimuru",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=w8U1IZKRHgY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/hpHollXUbNs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/KgA334nKC6M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/IYM1x_Yc6FU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "IIRafII"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/LkT7yiOQ-mE",
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "DanJohansen - Synergetic Enigma",
-  "verification": "https://www.youtube.com/watch?v=jXZjTFw_ASY",
-  "verifier": "sn0w"
+	"id": 106346241,
+	"name": "Rimuru",
+	"author": "sn0w",
+	"creators": [],
+	"verifier": "sn0w",
+	"verification": "https://www.youtube.com/watch?v=jXZjTFw_ASY",
+	"percentToQualify": 100,
+	"song": "DanJohansen - Synergetic Enigma",
+	"difficulty": 4,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "rastuyas",
+			"link": "https://www.youtube.com/watch?v=w8U1IZKRHgY",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/hpHollXUbNs",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/KgA334nKC6M",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "IIRafII",
+			"link": "https://youtu.be/IYM1x_Yc6FU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/LkT7yiOQ-mE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		}
+	]
 }

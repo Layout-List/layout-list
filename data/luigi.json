@@ -1,85 +1,87 @@
+
 {
-  "creators": [],
-  "difficulty": 3,
-  "enjoyment": 9,
-  "id": 108418826,
-  "name": "Luigi",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 480,
-	  "link": "https://www.youtube.com/watch?v=dXpDkMuEWNI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tanginess"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 144,
-	  "link": "https://youtu.be/r-RxmJNsJTY?si=DrSjy9XvVXXAnlyV",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Jolly"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/T-lX1Xy76iY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 60,
-	  "link": "https://youtu.be/en2tn5At_Zs?si=Liwl6WGskNWFvfjX",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/GEeZisYU6ek",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://youtu.be/KgA334nKC6M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/Bc43OhLuDxM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "azakl"
-	}
-  ],
-  "song": "Creo - Nautilus",
-  "verification": "https://youtu.be/4A8xjQ7NVFo?si=chnscCoYvQ-pqk9A",
-  "verifier": "Hydraniac"
+    "id": 108418826,
+    "name": "Luigi",
+    "author": "Hydraniac",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/4A8xjQ7NVFo?si=chnscCoYvQ-pqk9A",
+    "percentToQualify": 100,
+    "song": "Creo - Nautilus",
+    "difficulty": 3,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "Tanginess",
+            "link": "https://www.youtube.com/watch?v=dXpDkMuEWNI",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Jolly",
+            "link": "https://youtu.be/r-RxmJNsJTY?si=DrSjy9XvVXXAnlyV",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/T-lX1Xy76iY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/en2tn5At_Zs?si=Liwl6WGskNWFvfjX",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 3
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/GEeZisYU6ek",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/KgA334nKC6M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        },
+        {
+            "user": "azakl",
+            "link": "https://youtu.be/Bc43OhLuDxM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

@@ -1,191 +1,193 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "id": 73963992,
-  "name": "ARE YOU WITH THAT",
-  "percentToQualify": 49,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/4eBlA1L3VuQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ZBosGaming"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=C8GVF5nprIQ",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ShakeNX"
-	},
-	{
-	  "hz": 165,
-	  "link": "https://youtu.be/9XSDV-sPZPI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Kind1e"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/_VjJeMnE5OU",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Luk231"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/bITviLrR0_E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "matt843"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/eq-bDPQDNeM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/PbbpdB6LmZ4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sqrtpie"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/HeMtqZhtDto",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "culobdj"
-	},
-	{
-	  "hz": 288,
-	  "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Armani"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=wdfRYWTaDTs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Matthlew"
-	},
-	{
-	  "hz": 180,
-	  "link": "https://www.youtube.com/watch?v=BFPpD8WGMzQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Papas"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/Bd4v9xEYX68",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/q5kX5mVTHno",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Enigma"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/sSszN_OZfhs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Kuahnm"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/xXDxgrtgB0Y",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Jab"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/99v7f-tdrRM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/whoPyFZxvW8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 300,
-	  "link": "https://youtu.be/n4OmCzMDvkU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "NiXaNTy"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=1rc1nyZOo8c&ab_channel=DELETE999%5BGD%5D",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 165,
-	  "link": "https://www.youtube.com/watch?v=gIUVPoIj5V4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Fawami"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/KWsJmgTq6Ws",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "sikoo23"
-	},
-	{
-	  "enjoyment": "4",
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=Kl9-qhaZQrM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/ysANHYj56qs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/7owZ9GvNLcw?si=l3bLqeB6CT70_OPs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "showcase": "https://youtu.be/SvwCuOsYbdU",
-  "song": "Vince Staples - ARE YOU WITH THAT?",
-  "songLink": "https://drive.google.com/file/d/1qRNaitg4F0v4rgmlHqNlBKcDnreejxhW/view?usp=drive_link",
-  "verification": "https://youtu.be/tAdYjgLltY0",
-  "verifier": "idiotdash"
+    "id": 73963992,
+    "name": "ARE YOU WITH THAT",
+    "author": "idiotdash",
+    "creators": [],
+    "verifier": "idiotdash",
+    "verification": "https://youtu.be/tAdYjgLltY0",
+    "showcase": "https://youtu.be/SvwCuOsYbdU",
+    "percentToQualify": 49,
+    "song": "Vince Staples - ARE YOU WITH THAT?",
+    "songLink": "https://drive.google.com/file/d/1qRNaitg4F0v4rgmlHqNlBKcDnreejxhW/view?usp=drive_link",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "ZBosGaming",
+            "link": "https://youtu.be/4eBlA1L3VuQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "ShakeNX",
+            "link": "https://www.youtube.com/watch?v=C8GVF5nprIQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Kind1e",
+            "link": "https://youtu.be/9XSDV-sPZPI",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        },
+        {
+            "user": "Luk231",
+            "link": "https://youtu.be/_VjJeMnE5OU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "matt843",
+            "link": "https://youtu.be/bITviLrR0_E",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/eq-bDPQDNeM",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "sqrtpie",
+            "link": "https://youtu.be/PbbpdB6LmZ4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://youtu.be/HeMtqZhtDto",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "culobdj",
+            "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Armani",
+            "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Matthlew",
+            "link": "https://www.youtube.com/watch?v=wdfRYWTaDTs",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Papas",
+            "link": "https://www.youtube.com/watch?v=BFPpD8WGMzQ",
+            "percent": 100,
+            "hz": 180,
+            "mobile": false
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://youtu.be/Bd4v9xEYX68",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Enigma",
+            "link": "https://youtu.be/q5kX5mVTHno",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Kuahnm",
+            "link": "https://youtu.be/sSszN_OZfhs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Jab",
+            "link": "https://youtu.be/xXDxgrtgB0Y",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/99v7f-tdrRM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/whoPyFZxvW8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/n4OmCzMDvkU",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=1rc1nyZOo8c&ab_channel=DELETE999%5BGD%5D",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Fawami",
+            "link": "https://www.youtube.com/watch?v=gIUVPoIj5V4",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        
+        },
+        {
+            "user": "sikoo23",
+            "link": "https://youtu.be/KWsJmgTq6Ws",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=Kl9-qhaZQrM",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "4"
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/ysANHYj56qs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/7owZ9GvNLcw?si=l3bLqeB6CT70_OPs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

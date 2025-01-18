@@ -1,12 +1,15 @@
 {
-  "creators": [],
-  "difficulty": 0,
-  "id": 0,
-  "name": "(Beginner Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Beginner Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 0,
+    "records": [
+        
+    ]
 }

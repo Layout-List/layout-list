@@ -1,78 +1,79 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 85402342,
-  "name": "Blue Velvet",
-  "percentToQualify": 57,
-  "records": [
-	{
-	  "hz": 288,
-	  "link": "https://www.youtube.com/watch?v=1UvF7qSbqwY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blathers"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/A6xd1egyHkQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=77nPFkKgP3E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/LAQ4XbXD8mg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/14AAi1gRJqw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/q-NOYBLTxq4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "RFanVS"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/XsQFIzfrMxA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Skip"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/Xdh3ZhmfGYg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 360,
-	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "showcase": "https://youtu.be/1Lo3kPyA73w",
-  "song": "Djjaner - Blue Velvet",
-  "verification": "https://youtu.be/21OWorODn4c",
-  "verifier": "Jab"
+    "id": 85402342,
+    "name": "Blue Velvet",
+    "author": "DJJDK",
+    "creators": [],
+    "verifier": "Jab",
+    "verification": "https://youtu.be/21OWorODn4c",
+    "showcase": "https://youtu.be/1Lo3kPyA73w",
+    "percentToQualify": 57,
+    "song": "Djjaner - Blue Velvet",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Blathers",
+            "link": "https://www.youtube.com/watch?v=1UvF7qSbqwY",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/A6xd1egyHkQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=77nPFkKgP3E",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/LAQ4XbXD8mg",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/14AAi1gRJqw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "RFanVS",
+            "link": "https://youtu.be/q-NOYBLTxq4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://youtu.be/XsQFIzfrMxA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/Xdh3ZhmfGYg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

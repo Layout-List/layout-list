@@ -1,58 +1,59 @@
 {
-  "creators": [],
-  "difficulty": 2,
-  "id": 101145130,
-  "name": "Astral Badass",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/bXfrrCU6trA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/zdxf204b4o8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 240,
-	  "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 360,
-	  "link": "https://youtu.be/b5Gwq_Ns2Vg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	}
-  ],
-  "song": "MDK - Astral Badass",
-  "verification": "https://www.youtube.com/watch?v=drZHpY0q9jY",
-  "verifier": "Blysteryx"
+    "id": 101145130,
+    "name": "Astral Badass",
+    "author": "Blysteryx",
+    "creators": [],
+    "verifier": "Blysteryx",
+    "verification": "https://www.youtube.com/watch?v=drZHpY0q9jY",
+    "percentToQualify": 100,
+    "song": "MDK - Astral Badass",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/bXfrrCU6trA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "9"
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/zdxf204b4o8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/b5Gwq_Ns2Vg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

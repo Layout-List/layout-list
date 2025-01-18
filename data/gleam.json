@@ -1,52 +1,53 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 104893529,
-  "name": "Gleam",
-  "percentToQualify": 48,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=c6iW5AB0C0M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Afisoac"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/i2006WQU1QWy84FUJ/d1337ulpHzJ6?invite=cr-MSxlQWosMTg1OTcxMTAwLA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/Ko5ZLwEEPOk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "StevenOct"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Creo - Wavelight",
-  "verification": "https://www.youtube.com/watch?v=2Vue69y8Fss",
-  "verifier": "Creeevy"
+	"id": 104893529,
+	"name": "Gleam",
+	"author": "zCriox",
+	"creators": [],
+	"verifier": "Creeevy",
+	"verification": "https://www.youtube.com/watch?v=2Vue69y8Fss",
+	"percentToQualify": 48,
+	"song": "Creo - Wavelight",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "Afisoac",
+			"link": "https://www.youtube.com/watch?v=c6iW5AB0C0M",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/i2006WQU1QWy84FUJ/d1337ulpHzJ6?invite=cr-MSxlQWosMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "StevenOct",
+			"link": "https://youtu.be/Ko5ZLwEEPOk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
 }

@@ -1,37 +1,38 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 108333163,
-  "name": "Aporia 🎖️",
-  "percentToQualify": 47,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/iqCtKPRP6HCKJ1dqS/d1337fNUEkiB?invite=cr-MSxFZ1UsMTg1OTcxMTAwLA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/yXfn3l70Yl4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	}
-  ],
-  "song": "KROWW - Exitus",
-  "songLink": "https://drive.google.com/file/d/1iD6YM3vuV5Ex5ohu9uK_XRad63UqEAeC/view?usp=drive_link",
-  "verification": "https://youtu.be/_c5aYRIOP74",
-  "verifier": "dunix"
+    "id": 108333163,
+    "name": "Aporia 🎖️",
+    "author": "dunix",
+    "creators": [],
+    "verifier": "dunix",
+    "verification": "https://youtu.be/_c5aYRIOP74",
+    "percentToQualify": 47,
+    "song": "KROWW - Exitus",
+    "songLink": "https://drive.google.com/file/d/1iD6YM3vuV5Ex5ohu9uK_XRad63UqEAeC/view?usp=drive_link",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iqCtKPRP6HCKJ1dqS/d1337fNUEkiB?invite=cr-MSxFZ1UsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/yXfn3l70Yl4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

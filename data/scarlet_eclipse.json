@@ -1,84 +1,85 @@
 {
-  "creators": [
-	"Nell",
-	"Striked",
-	"Nexorous",
-	"Infxrnal",
-	"Convie",
-	"Sagascius",
-	"Vantablack",
-	"CheezIts4D1nner",
-	"Asuria",
-	"SaturnV"
-  ],
-  "difficulty": 5,
-  "id": 100331254,
-  "name": "Scarlet Eclipse",
-  "percentToQualify": 58,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/OBMs7jsukpM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/L89FNkqU8PY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "sikoo23"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=5TZ1-0cw8G0&feature=youtu.be&ab_channel=zodycoder",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zodycoder"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/4S9jmqnpUMc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/KOL8pCaPI9o",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 360,
-	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	}
-  ],
-  "showcase": "https://youtu.be/Q85hAKTBVqQ",
-  "song": "Yooh - Destroy",
-  "songLink": "https://www.mediafire.com/file/1gzaaviwzpuad6z/11283.mp3/file",
-  "verification": "https://www.youtube.com/watch?v=0vBE_1fv0ZU",
-  "verifier": "MiniWheatDuo"
+    "id": 100331254,
+    "name": "Scarlet Eclipse",
+    "author": "CameronDane",
+    "creators": [
+        "Nell",
+        "Striked",
+        "Nexorous",
+        "Infxrnal",
+        "Convie",
+        "Sagascius",
+        "Vantablack",
+        "CheezIts4D1nner",
+        "Asuria",
+        "SaturnV"
+    ],
+    "verifier": "MiniWheatDuo",
+    "verification": "https://www.youtube.com/watch?v=0vBE_1fv0ZU",
+    "showcase": "https://youtu.be/Q85hAKTBVqQ",
+    "percentToQualify": 58,
+    "song": "Yooh - Destroy",
+    "songLink": "https://www.mediafire.com/file/1gzaaviwzpuad6z/11283.mp3/file",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/OBMs7jsukpM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "sikoo23",
+            "link": "https://youtu.be/L89FNkqU8PY",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "zodycoder",
+            "link": "https://www.youtube.com/watch?v=5TZ1-0cw8G0&feature=youtu.be&ab_channel=zodycoder",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/4S9jmqnpUMc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/KOL8pCaPI9o",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

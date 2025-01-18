@@ -1,35 +1,36 @@
 {
-  "creators": [],
-  "difficulty": 5,
-  "id": 111309990,
-  "name": "Geek Bar Pulse",
-  "percentToQualify": 57,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/irjBMbgW10k",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "IIRafII"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.twitch.tv/videos/2289473261",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/live/sO-6_9aS7W0?si=umwsijAujlSOhbed",
-	  "percent": 100,
-	  "user": "cinderrblock"
-	}
-  ],
-  "song": "xKore - Showdown",
-  "verification": "https://youtu.be/bkMywnl9e4c?si=an8F4U8ldv0M8PpP",
-  "verifier": "Tinkle"
+	"id": 111309990,
+	"name": "Geek Bar Pulse",
+	"author": "Tinkle",
+	"creators": [],
+	"verifier": "Tinkle",
+	"verification": "https://youtu.be/bkMywnl9e4c?si=an8F4U8ldv0M8PpP",
+	"percentToQualify": 57,
+	"song": "xKore - Showdown",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "IIRafII",
+			"link": "https://youtu.be/irjBMbgW10k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sn0w",
+			"link": "https://www.twitch.tv/videos/2289473261",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://www.youtube.com/live/sO-6_9aS7W0?si=umwsijAujlSOhbed",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }

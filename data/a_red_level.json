@@ -1,57 +1,58 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 96760518,
-  "name": "A Red Level",
-  "percentToQualify": 58,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=xBvaUIDbTKI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "TheCatAstronaut"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/mW523FftvlU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tradeskill"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=EUoOJ8K9YmM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Dimrain47 - The Falling Mysts",
-  "verification": "https://youtu.be/JhnkV0BDQBE",
-  "verifier": "Flare"
+    "id": 96760518,
+    "name": "A Red Level",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "Flare",
+    "verification": "https://youtu.be/JhnkV0BDQBE",
+    "percentToQualify": 58,
+    "song": "Dimrain47 - The Falling Mysts",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "TheCatAstronaut",
+            "link": "https://www.youtube.com/watch?v=xBvaUIDbTKI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/mW523FftvlU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Tradeskill",
+            "link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=EUoOJ8K9YmM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

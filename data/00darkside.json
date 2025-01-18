@@ -1,37 +1,39 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "enjoyment": 10,
-  "id": 109978171,
-  "name": "00DARKSIDE",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/lxDI84HMA1E?si=JCVO3NwYeb-tMdbc",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RedNazFM"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/iYlpGd9smjXxWPxri?invite=cr-MSwyZzksMTg1OTcxMTAwLA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/2jMQ5iwTMpc?si=N0PE3Y_c7lEzWYxN",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Helvetican - Bufu",
-  "verification": "https://youtu.be/o3QV5eRWd7A",
-  "verifier": "azakl"
+    "id": 109978171,
+    "name": "00DARKSIDE",
+    "author": "azakl",
+    "creators": [],
+    "verifier": "azakl",
+    "verification": "https://youtu.be/o3QV5eRWd7A",
+    "percentToQualify": 100,
+    "song": "Helvetican - Bufu",
+    "difficulty": 3,
+    "enjoyment": 10,
+    "records": [
+        {
+            "user": "RedNazFM",
+            "link": "https://youtu.be/lxDI84HMA1E?si=JCVO3NwYeb-tMdbc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iYlpGd9smjXxWPxri?invite=cr-MSwyZzksMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/2jMQ5iwTMpc?si=N0PE3Y_c7lEzWYxN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+        
+    ]
 }

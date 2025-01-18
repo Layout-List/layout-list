@@ -1,61 +1,62 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 91887127,
-  "name": "Duality of Life",
-  "percentToQualify": 58,
-  "records": [
-	{
-	  "enjoyment": "?",
-	  "hz": 360,
-	  "link": "https://youtu.be/Hx7d_I88Www",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 144,
-	  "link": "https://youtu.be/5Kz_1pI-J6Y",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/PHntJNLvLsE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Skip"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/epI-GVaqBUE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sphericle"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 360,
-	  "link": "https://youtu.be/2yFnAkJ84D0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	}
-  ],
-  "showcase": "https://youtu.be/wAXWIvyLDr8",
-  "song": "Creo - Rivals",
-  "verification": "https://youtu.be/J8xcV-g11I8?si=2IF4CS9n1lr4SMiN",
-  "verifier": "evil"
+    "id": 91887127,
+    "name": "Duality of Life",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "evil",
+    "verification": "https://youtu.be/J8xcV-g11I8?si=2IF4CS9n1lr4SMiN",
+    "showcase": "https://youtu.be/wAXWIvyLDr8",
+    "percentToQualify": 58,
+    "song": "Creo - Rivals",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/Hx7d_I88Www",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/5Kz_1pI-J6Y",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Skip",
+            "link": "https://youtu.be/PHntJNLvLsE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+         {
+            "user": "sphericle",
+            "link": "https://youtu.be/epI-GVaqBUE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+            {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/2yFnAkJ84D0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

@@ -1,51 +1,52 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 106177281,
-  "name": "OhioSkibidiSigmaMkII",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/JfeDbjRbJKU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/JBRqTWh6BlI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Zyxo"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/AYSFcVy-x4c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	}
-  ],
-  "song": "Kevin MacLeod - Fluffing A Duck",
-  "verification": "https://youtu.be/iVUTnrxL_0k?si=6PAhK9RlEPMdmh8g",
-  "verifier": "Hydraniac"
+    "id": 106177281,
+    "name": "OhioSkibidiSigmaMkII",
+    "author": "Hydraniac",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/iVUTnrxL_0k?si=6PAhK9RlEPMdmh8g",
+    "percentToQualify": 100,
+    "song": "Kevin MacLeod - Fluffing A Duck",
+    "difficulty": 1,
+    "records": [
+        {
+          "user": "zDark",
+          "link": "https://youtu.be/JfeDbjRbJKU",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/JBRqTWh6BlI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5 
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/AYSFcVy-x4c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

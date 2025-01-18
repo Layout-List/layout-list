@@ -1,28 +1,29 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 107743611,
-  "name": "Mached",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 6,
-	  "hz": 360,
-	  "link": "https://youtu.be/LqmTjzDvVWI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/AYSFcVy-x4c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	}
-  ],
-  "song": "Rukkus - xKore-Die B*tch (NK rmx)",
-  "verification": "https://www.youtube.com/watch?v=p39SZvjRnOM",
-  "verifier": "Bluelightning379"
+    "id": 107743611,
+    "name": "Mached",
+    "author": "Bluelightning379",
+    "creators": [],
+    "verifier": "Bluelightning379",
+    "verification": "https://www.youtube.com/watch?v=p39SZvjRnOM",
+    "percentToQualify": 100,
+    "song": "Rukkus - xKore-Die B*tch (NK rmx)",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/LqmTjzDvVWI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/AYSFcVy-x4c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

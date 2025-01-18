@@ -1,92 +1,93 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 105524359,
-  "name": "Phantom pain",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 0,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=xFDAX1wO6iI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tyjohn323"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ToastyTP"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 360,
-	  "link": "https://youtu.be/p4icj4N3g9k",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 480,
-	  "link": "https://www.youtube.com/watch?v=7w8qyrIg_gE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tanginess"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/PybU3MgK7Bo?si=XOOOiYffnMyy6qi8",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "DERYAMIX"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 60,
-	  "link": "https://youtu.be/bcTThlSVcPU?si=QRrWuxSLRFgjRpSP",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/PGUze7Jh-X4?si=yjPldWKjZDtlGrX2",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Bocopter"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=gilIKLScmQ4",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	}
-  ],
-  "song": "SixImpala - Thank You, For The Octopus",
-  "verification": "https://www.youtube.com/watch?v=iBeeX2JgOuA",
-  "verifier": "Blysteryx"
+    "id": 105524359,
+    "name": "Phantom pain",
+    "author": "Blysteryx",
+    "creators": [],
+    "verifier": "Blysteryx",
+    "verification": "https://www.youtube.com/watch?v=iBeeX2JgOuA",
+    "percentToQualify": 100,
+    "song": "SixImpala - Thank You, For The Octopus",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Tyjohn323",
+            "link": "https://www.youtube.com/watch?v=xFDAX1wO6iI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+          "user": "Hyperbeat",
+          "link": "https://www.youtube.com/watch?v=353dln9stV4",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+          "enjoyment": 4
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/p4icj4N3g9k",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "Tanginess",
+            "link": "https://www.youtube.com/watch?v=7w8qyrIg_gE",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://youtu.be/PybU3MgK7Bo?si=XOOOiYffnMyy6qi8",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/bcTThlSVcPU?si=QRrWuxSLRFgjRpSP",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 0
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/PGUze7Jh-X4?si=yjPldWKjZDtlGrX2",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=gilIKLScmQ4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true,
+            "enjoyment": 1
+        }
+    ]
 }

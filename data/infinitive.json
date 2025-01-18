@@ -1,26 +1,27 @@
 {
-  "creators": [],
-  "difficulty": 8,
-  "id": 91759823,
-  "name": "INFINITIVE",
-  "percentToQualify": 65,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 144,
-	  "link": "https://youtu.be/6Fo2euh0ROg?si=-i8zLb9fZmlMXFiV",
-	  "percent": 100,
-	  "user": "HamsterPlayz"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 350,
-	  "link": "https://youtu.be/YUMGnJ-4PZ8?si=dREqWBRKJ0gxCDaR",
-	  "percent": 100,
-	  "user": "Akuriserv"
-	}
-  ],
-  "song": "Schtiffles - Marbl",
-  "verification": "https://www.youtube.com/watch?v=xF6JSuwWLIk&t",
-  "verifier": "evil"
+	"id": 91759823,
+	"name": "INFINITIVE",
+	"author": "ShadowAxeKid",
+	"creators": [],
+	"verifier": "evil",
+	"verification": "https://www.youtube.com/watch?v=xF6JSuwWLIk&t",
+	"percentToQualify": 65,
+	"song": "Schtiffles - Marbl",
+	"difficulty": 8,
+	"records": [
+		{
+			"user": "HamsterPlayz",
+			"link": "https://youtu.be/6Fo2euh0ROg?si=-i8zLb9fZmlMXFiV",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 8
+		},
+		{
+			"user": "Akuriserv",
+			"link": "https://youtu.be/YUMGnJ-4PZ8?si=dREqWBRKJ0gxCDaR",
+			"percent": 100,
+			"hz": 350,
+			"enjoyment": 5
+		}
+	]
 }

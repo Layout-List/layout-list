@@ -1,104 +1,106 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "id": 96704591,
-  "name": "Lies Layout",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=LC--iPU9Fb4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DJJDK"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=ZFsQUL5iY3c",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=PiKYjCQ15xE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/kqwMfrWpdMI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=0BggU07-xwo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=EyRRvApoR8Q",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=p_XQ72WJye0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "The16FigureLimit"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Y62OQXFRkJw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=M5kfQMUTzqY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "morsey"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/QJVG5pvUit8?si=PpBInZcgW7veocvY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	}
-  ],
-  "song": "kavaltunes - NAZAAR - Lies ft. REAH (Kaval Remix)",
-  "verification": "https://www.youtube.com/watch?v=-QHuSyt7lHs",
-  "verifier": "zDark"
+    "id": 96704591,
+    "name": "Lies Layout",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "zDark",
+    "verification": "https://www.youtube.com/watch?v=-QHuSyt7lHs",
+    "percentToQualify": 100,
+    "song": "kavaltunes - NAZAAR - Lies ft. REAH (Kaval Remix)",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=LC--iPU9Fb4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=ZFsQUL5iY3c",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 5
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=PiKYjCQ15xE",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/kqwMfrWpdMI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=0BggU07-xwo",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+          "user": "Poke Zach",
+          "link": "https://www.youtube.com/watch?v=EyRRvApoR8Q",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+          "enjoyment": "10"
+        },
+        {
+          "user": "The16FigureLimit",
+          "link": "https://www.youtube.com/watch?v=p_XQ72WJye0",
+          "percent": 100,
+          "hz": 75,
+          "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Y62OQXFRkJw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=M5kfQMUTzqY",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/QJVG5pvUit8?si=PpBInZcgW7veocvY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+        
+    ]
 }

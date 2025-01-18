@@ -1,30 +1,31 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 107151403,
-  "name": "SorryForPartying",
-  "percentToQualify": 49,
-  "records": [
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/NQhhbHKqI4Y",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "showcase": "https://youtu.be/xj-gCZGmcaM?feature=shared",
-  "song": "LMFAO - Sorry For Party Rocking (Remix)",
-  "songLink": "https://drive.google.com/file/d/1fUFJXkr1hM9p4Z2hz6MKprusHKnEkXpP/view?usp=drive_link",
-  "verification": "https://youtu.be/m9le41lZpU0",
-  "verifier": "Riley"
+    "id": 107151403,
+    "name": "SorryForPartying",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "Riley",
+    "verification": "https://youtu.be/m9le41lZpU0",
+    "showcase": "https://youtu.be/xj-gCZGmcaM?feature=shared",
+    "percentToQualify": 49,
+    "song": "LMFAO - Sorry For Party Rocking (Remix)",
+    "songLink": "https://drive.google.com/file/d/1fUFJXkr1hM9p4Z2hz6MKprusHKnEkXpP/view?usp=drive_link",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/NQhhbHKqI4Y",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        }
+    ]
 }

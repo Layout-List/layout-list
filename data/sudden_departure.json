@@ -1,46 +1,45 @@
 {
-  "creators": [
-	"ThunderStorm36"
-  ],
-  "difficulty": 4,
-  "id": 100396155,
-  "name": "Sudden Departure",
-  "percentToQualify": 51,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/MfB0_eK1iQg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://youtu.be/V-GXqd7DyIc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/iZIB-MVPZAw?si=9F35cCe6qTIt2k-u",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "YOASOBI - Racing into the Night",
-  "songLink": "https://drive.google.com/file/d/1vee2y7AnF4ri21oz9dcxgrdYnfv9AnJZ/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=j1NycEPeMMo",
-  "verifier": "ThunderStorm36"
+    "id": 100396155,
+    "name": "Sudden Departure",
+    "author": "TheJaco9",
+    "creators": ["ThunderStorm36"],
+    "verifier": "ThunderStorm36",
+    "verification": "https://www.youtube.com/watch?v=j1NycEPeMMo",
+    "percentToQualify": 51,
+    "song": "YOASOBI - Racing into the Night",
+    "songLink": "https://drive.google.com/file/d/1vee2y7AnF4ri21oz9dcxgrdYnfv9AnJZ/view?usp=drive_link",
+    "difficulty": 4,
+    "records": [
+         {
+            "user": "zDark",
+            "link": "https://youtu.be/MfB0_eK1iQg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/V-GXqd7DyIc",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/iZIB-MVPZAw?si=9F35cCe6qTIt2k-u",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+    ]
 }

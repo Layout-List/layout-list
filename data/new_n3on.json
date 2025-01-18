@@ -1,54 +1,56 @@
 {
-  "creators": [],
-  "difficulty": 5,
-  "enjoyment": 8,
-  "id": 109979279,
-  "name": "New N3on",
-  "percentToQualify": 56,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=2sDPGT_L8tM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/tqxtgnrbWgg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/BZeEpqWK210?feature=shared",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=9cX3WYlM0WA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	}
-  ],
-  "song": "Playboi Carti - New N3on",
-  "songLink": "https://drive.google.com/file/d/1voUwEt9w-mM_piTOxinonOdoBQq0zzI-/view?usp=drive_link",
-  "verification": "https://youtu.be/4Zr7k-yuXQg",
-  "verifier": "Mystikl"
+    "id": 109979279,
+    "name": "New N3on",
+    "author": "SarcasticMuch",
+    "creators": [],
+    "verifier": "Mystikl",
+    "verification": "https://youtu.be/4Zr7k-yuXQg",
+    "percentToQualify": 56,
+    "song": "Playboi Carti - New N3on",
+    "songLink": "https://drive.google.com/file/d/1voUwEt9w-mM_piTOxinonOdoBQq0zzI-/view?usp=drive_link",
+    "difficulty": 5,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=2sDPGT_L8tM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?feature=shared",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=9cX3WYlM0WA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        }
+        
+    ]
 }

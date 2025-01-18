@@ -1,120 +1,121 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "enjoyment": 8,
-  "id": 99380578,
-  "name": "Get Funked",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 144,
-	  "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "briskrain"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/jEcuRgd9YjE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=KYbU0L6jD44",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/ysANHYj56qs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/8Is0KGkKj7M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/2SZ04xkiesY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 60,
-	  "link": "https://youtu.be/Brm6Eb4wvs4?si=hyfU4i1DqdBviElN",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 280,
-	  "link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Asteria."
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Paladean"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=odEE5_cemik",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Shums"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	}
-  ],
-  "song": "Creo - Ballistic Funk",
-  "verification": "https://www.youtube.com/watch?v=lav7j-02wZM",
-  "verifier": "Xeronius"
+    "id": 99380578,
+    "name": "Get Funked",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=lav7j-02wZM",
+    "percentToQualify": 100,
+    "song": "Creo - Ballistic Funk",
+    "difficulty": 1,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "briskrain",
+            "link": "https://youtu.be/FQpO4oF5Lr4?si=ozc9p0Mz6WLxqodJ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/jEcuRgd9YjE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=KYbU0L6jD44",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/ysANHYj56qs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/8Is0KGkKj7M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/2SZ04xkiesY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Brm6Eb4wvs4?si=hyfU4i1DqdBviElN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 5
+        },
+          {
+            "user": "Asteria.",
+            "link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
+            "percent": 100,
+            "hz": 280,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Shums",
+            "link": "https://www.youtube.com/watch?v=odEE5_cemik",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+    ]
 }

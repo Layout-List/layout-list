@@ -1,130 +1,131 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 77477626,
-  "name": "Next Adventure",
-  "percentToQualify": 56,
-  "records": [
-	{
-	  "hz": 288,
-	  "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/Rl-o9kOGLLU",
-	  "percent": 100,
-	  "user": "CaioMD"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=658B5SA7eHM",
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=hQcSUa28CiM",
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/akiYLUNZOKQ",
-	  "percent": 100,
-	  "user": "rustic"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=0PG7P3IUs30",
-	  "percent": 100,
-	  "user": "leaf"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/gIWRnDnQp94",
-	  "percent": 100,
-	  "user": "Armani"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/2wlKMn3rph0",
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=LYijzNSZ5TM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/t_ty3izzgKk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nolli"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 90,
-	  "link": "https://www.youtube.com/watch?v=_1eZM9lXaRU&list=PLmBzJRvcYikt-1oj0yY6EYVyIN_D-0x6-&index=5&ab_channel=TurtleERFAKE",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "TurtleER"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/SF6F82jq6S4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Vink"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=kVWAJtp6mew",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "RadiantHun"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://youtu.be/zXvAapIEt-A",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "showcase": "https://youtu.be/Bp-W6EBUmkY",
-  "song": "Drayx - Next Adventure",
-  "verification": "https://youtu.be/JwxZqgfmaOA",
-  "verifier": "Blathers"
+    "id": 77477626,
+    "name": "Next Adventure",
+    "author": "Blathers",
+    "creators": [],
+    "verifier": "Blathers",
+    "verification": "https://youtu.be/JwxZqgfmaOA",
+    "showcase": "https://youtu.be/Bp-W6EBUmkY",
+    "percentToQualify": 56,
+    "song": "Drayx - Next Adventure",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=OpKlMDLx3ZM",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "CaioMD",
+            "link": "https://youtu.be/Rl-o9kOGLLU",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=658B5SA7eHM",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=hQcSUa28CiM",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "rustic",
+            "link": "https://youtu.be/akiYLUNZOKQ",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "leaf",
+            "link": "https://www.youtube.com/watch?v=0PG7P3IUs30",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Armani",
+            "link": "https://youtu.be/gIWRnDnQp94",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/2wlKMn3rph0",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://www.youtube.com/watch?v=LYijzNSZ5TM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/t_ty3izzgKk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+          "user": "Acacia",
+          "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        },
+        {
+          "user": "TurtleER",
+          "link": "https://www.youtube.com/watch?v=_1eZM9lXaRU&list=PLmBzJRvcYikt-1oj0yY6EYVyIN_D-0x6-&index=5&ab_channel=TurtleERFAKE",
+          "percent": 100,
+          "hz": 90,
+          "mobile": true,
+          "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/SF6F82jq6S4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "RadiantHun",
+            "link": "https://www.youtube.com/watch?v=kVWAJtp6mew",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/zXvAapIEt-A",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        }
+    ]
 }

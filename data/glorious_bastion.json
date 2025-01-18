@@ -1,44 +1,45 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 96482483,
-  "name": "Glorious Bastion",
-  "password": "945718",
-  "percentToQualify": 54,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/i4NkkPlKBIc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=mjqE1FhPj-E",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=sn-GksSFZoU",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Waterflame - -Glorious Thunderzone-",
-  "verification": "https://youtu.be/Jq2paWFKwUY?si=OQoANJB869xnWHXJ",
-  "verifier": "Blysteryx"
+    "id": 96482483,
+    "name": "Glorious Bastion",
+    "author": "Blysteryx",
+    "creators": [],
+    "verifier": "Blysteryx",
+    "verification": "https://youtu.be/Jq2paWFKwUY?si=OQoANJB869xnWHXJ",
+    "percentToQualify": 54,
+    "password": "945718",
+    "song": "Waterflame - -Glorious Thunderzone-",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/i4NkkPlKBIc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=mjqE1FhPj-E",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=sn-GksSFZoU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        }
+    ]
 }

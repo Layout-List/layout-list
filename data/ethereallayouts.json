@@ -1,12 +1,15 @@
 {
-  "creators": [],
-  "difficulty": 8,
-  "id": 0,
-  "name": "(Ethereal Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Ethereal Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 8,
+    "records": [
+        
+    ]
 }

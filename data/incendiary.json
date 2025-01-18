@@ -1,97 +1,98 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "id": 88715170,
-  "name": "Incendiary",
-  "password": "938743",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/kU-2pevOmTo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=dnpdfRplXWQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/SG2TrguacwM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/zzFAS8m2T1M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 120,
-	  "link": "https://youtu.be/W2QoLHnimjA?si=WpDa7y5OzIe7pyiQ",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://youtu.be/cBexRYoe1wE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/6rOI3s2yZI4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=Kyhc6Zw80hs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/L7VKV1nf3Ck?si=PnE6VRR0Gei_pmdd",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Redeilia - Incendiary",
-  "verification": "https://youtu.be/K-OUTqXq2aY",
-  "verifier": "agentgiscool"
+    "id": 88715170,
+    "name": "Incendiary",
+    "author": "agentgiscool",
+    "creators": [],
+    "verifier": "agentgiscool",
+    "verification": "https://youtu.be/K-OUTqXq2aY",
+    "percentToQualify": 100,
+    "password": "938743",
+    "song": "Redeilia - Incendiary",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/kU-2pevOmTo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=dnpdfRplXWQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/SG2TrguacwM",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/zzFAS8m2T1M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/W2QoLHnimjA?si=WpDa7y5OzIe7pyiQ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/cBexRYoe1wE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/6rOI3s2yZI4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=Kyhc6Zw80hs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/L7VKV1nf3Ck?si=PnE6VRR0Gei_pmdd",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+    ]
 }

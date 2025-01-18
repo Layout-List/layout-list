@@ -1,83 +1,84 @@
 {
-  "creators": [],
-  "difficulty": 0,
-  "id": 110839027,
-  "name": "Golden Hour",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://youtu.be/rS93s64gtBs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Paladean"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://youtu.be/KsLw-H44pkI",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/9HqJaTjmO2E?si=LNwA42s015nLO3Dr",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 240,
-	  "link": "https://youtu.be/OAl70NOdKAE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 2,
-	  "link": "https://youtu.be/3EOXjd8Io7s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "azakl"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/Ow2XaaXsaIU",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
-	  "percent": 100,
-	  "user": "sphericle"
-	}
-  ],
-  "song": "JVKE - Golden Hour",
-  "songLink": "https://drive.google.com/file/d/1GZANA_bbtEDiJg6D0DTzDJxsZ0aggOWD/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=TjJ6AYfkXGI",
-  "verifier": "Shums"
+	"id": 110839027,
+	"name": "Golden Hour",
+	"author": "Shums",
+	"creators": [],
+	"verifier": "Shums",
+	"verification": "https://www.youtube.com/watch?v=TjJ6AYfkXGI",
+	"percentToQualify": 100,
+	"song": "JVKE - Golden Hour",
+	"songLink": "https://drive.google.com/file/d/1GZANA_bbtEDiJg6D0DTzDJxsZ0aggOWD/view?usp=drive_link",
+	"difficulty": 0,
+	"records": [
+		{
+			"user": "Paladean",
+			"link": "https://youtu.be/rS93s64gtBs",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/KsLw-H44pkI",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 4
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/9HqJaTjmO2E?si=LNwA42s015nLO3Dr",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/OAl70NOdKAE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "azakl",
+			"link": "https://youtu.be/3EOXjd8Io7s",
+			"percent": 100,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/Ow2XaaXsaIU",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }

@@ -1,85 +1,86 @@
 {
-  "creators": [],
-  "difficulty": 6,
-  "id": 101123938,
-  "name": "Paninireta",
-  "percentToQualify": 51,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=rwgZeCn32TY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=TSw5NGhVCsA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/4c5R0mtkQG4?si=kxiOzt29DBQCXja-",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "NiXaNTy"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/l8BFgxwYgWE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=88hjKR-69xE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/1po0RPq10ok",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 480,
-	  "link": "https://youtu.be/sUK0owfFsJc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/tqxtgnrbWgg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	}
-  ],
-  "song": "Himiwari - Fragile",
-  "songLink": "https://www.mediafire.com/file/z8s4wxq12c7anrz/758448.mp3/file",
-  "verification": "https://www.youtube.com/watch?v=8001HWJodnw",
-  "verifier": "ToastyBois"
+    "id": 101123938,
+    "name": "Paninireta",
+    "author": "ToastyBois",
+    "creators": [],
+    "verifier": "ToastyBois",
+    "verification": "https://www.youtube.com/watch?v=8001HWJodnw",
+    "percentToQualify": 51,
+    "song": "Himiwari - Fragile",
+    "songLink": "https://www.mediafire.com/file/z8s4wxq12c7anrz/758448.mp3/file",
+    "difficulty": 6,
+    "records": [
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=rwgZeCn32TY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=TSw5NGhVCsA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/4c5R0mtkQG4?si=kxiOzt29DBQCXja-",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/l8BFgxwYgWE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=88hjKR-69xE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/1po0RPq10ok",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/sUK0owfFsJc",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

@@ -1,134 +1,135 @@
 {
-  "creators": [],
-  "difficulty": 8,
-  "enjoyment": 8,
-  "id": 84142655,
-  "name": "block disaster",
-  "percentToQualify": 36,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/LpYALDEF9Dg?si=FWjOSaOZ7xavPg7t",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Akuriserv"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/-5UAUYFx-CY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=GECSr4t_eHo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 360,
-	  "link": "https://youtu.be/8Fi3MlRhlV8?si=eHN3w4Nw9Ru9zq9O",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 120,
-	  "link": "https://youtu.be/6UMZw6dUGhc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Popples"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/AqtJ0QsYjCU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "coubitic"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Hc5s1edH1Hc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ImPhara"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=kjBGKG-eMIc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Couropsnov"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Robotic"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/sWMGD9BmTrY?si=D1cKJupqpLUap4QD",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "cinderrblock"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/eeV9lFSSOPk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=pGBklNC5aCI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dangadash"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=RaA8m5OODDY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/xjtn7wIEexk?si=IkDBpj2wiTTj-od6",
-	  "mobile": true,
-	  "percent": 77,
-	  "user": "Poke Zach"
-	}
-  ],
-  "showcase": "https://youtu.be/26gSovmjo5o",
-  "song": "Llaappssee - Being Alive is Fucking Weird",
-  "verification": "https://youtu.be/LlS-DEP9_RA?si=YUd-vFSb0hfG6rDK",
-  "verifier": "evil"
+    "id": 84142655,
+    "name": "block disaster",
+    "author": "F1regek",
+    "creators": [],
+    "verifier": "evil",
+    "verification": "https://youtu.be/LlS-DEP9_RA?si=YUd-vFSb0hfG6rDK",
+    "showcase": "https://youtu.be/26gSovmjo5o",
+    "percentToQualify": 36,
+    "song": "Llaappssee - Being Alive is Fucking Weird",
+    "difficulty": 8,
+    "enjoyment": 8,
+    "records": [
+      {
+        "user": "Akuriserv",
+        "link": "https://youtu.be/LpYALDEF9Dg?si=FWjOSaOZ7xavPg7t",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false,
+        "enjoyment": 8
+      },
+      {
+        "user": "zDark",
+        "link": "https://youtu.be/-5UAUYFx-CY",
+        "percent": 100,
+        "hz": 360,
+        "mobile": false,
+        "enjoyment": 8
+        },
+        {
+          "user": "Syrcx",
+          "link": "https://www.youtube.com/watch?v=GECSr4t_eHo",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 9
+        },
+        {
+          "user": "Mystikl",
+          "link": "https://youtu.be/8Fi3MlRhlV8?si=eHN3w4Nw9Ru9zq9O",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false,
+          "enjoyment": 4
+        },
+        {
+          "user": "Popples",
+          "link": "https://youtu.be/6UMZw6dUGhc",
+          "percent": 100,
+          "hz": 120,
+          "mobile": false,
+          "enjoyment": "?"
+        },
+        {
+          "user": "coubitic",
+          "link": "https://youtu.be/AqtJ0QsYjCU",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 10
+        },
+        {
+          "user": "ImPhara",
+          "link": "https://www.youtube.com/watch?v=Hc5s1edH1Hc",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false,
+          "enjoyment": 5
+        },
+        {
+          "user": "Couropsnov",
+          "link": "https://www.youtube.com/watch?v=kjBGKG-eMIc",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false,
+          "enjoyment": "?"
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "cinderrblock",
+            "link": "https://youtu.be/sWMGD9BmTrY?si=D1cKJupqpLUap4QD",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/eeV9lFSSOPk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Dangadash",
+            "link": "https://www.youtube.com/watch?v=pGBklNC5aCI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=RaA8m5OODDY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/xjtn7wIEexk?si=IkDBpj2wiTTj-od6",
+            "percent": 77,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        }
+    ]
 }

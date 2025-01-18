@@ -1,27 +1,28 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "id": 78838200,
-  "name": "Level 0",
-  "percentToQualify": 56,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/VeYBAj-xPlA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/pR_sCWz5PTc?si=f6HR1E8j96c-FfPQLL",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Creo - Never Make It",
-  "verification": "https://youtu.be/K1ZbwyKYk4U",
-  "verifier": "Mystikl"
+    "id": 78838200,
+    "name": "Level 0",
+    "author": "Mystikl",
+    "creators": [],
+    "verifier": "Mystikl",
+    "verification": "https://youtu.be/K1ZbwyKYk4U",
+    "percentToQualify": 56,
+    "song": "Creo - Never Make It",
+    "difficulty": 3,
+    "records": [
+         {
+            "user": "zDark",
+            "link": "https://youtu.be/VeYBAj-xPlA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/pR_sCWz5PTc?si=f6HR1E8j96c-FfPQLL",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

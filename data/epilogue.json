@@ -1,125 +1,126 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 62532589,
-  "name": "epilogue layout",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/RH7x4pEugnY?si=4mQyPKHOmH0Ko99y",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": "4",
-	  "hz": 75,
-	  "link": "https://youtu.be/4XDORsoIp2A",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 165,
-	  "link": "https://www.youtube.com/watch?v=1RJzsXpzH_c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "monthmai"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=1RJzsXpzH_c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zakonp"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/QgqzMQ8bEEs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=zk8GpuunZMg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/8Is0KGkKj7M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/2SZ04xkiesY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/HeD5pceqgBI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/cvPniLqXENY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	}
-  ],
-  "song": "Creo - Epilogue",
-  "verification": "https://youtu.be/0pXcCwxOoPQ?si=mSTZxG2fh04FAotR",
-  "verifier": "morsey"
+    "id": 62532589,
+    "name": "epilogue layout",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "morsey",
+    "verification": "https://youtu.be/0pXcCwxOoPQ?si=mSTZxG2fh04FAotR",
+    "percentToQualify": 100,
+    "song": "Creo - Epilogue",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/RH7x4pEugnY?si=4mQyPKHOmH0Ko99y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/4XDORsoIp2A",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "4"
+        },
+        {
+            "user": "monthmai",
+            "link": "https://www.youtube.com/watch?v=1RJzsXpzH_c",
+            "percent": 100,
+            "hz": 165,
+            "mobile": false
+        },
+        {
+            "user": "zakonp",
+            "link": "https://www.youtube.com/watch?v=1RJzsXpzH_c",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/QgqzMQ8bEEs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=zk8GpuunZMg",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/8Is0KGkKj7M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/2SZ04xkiesY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/HeD5pceqgBI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/cvPniLqXENY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        }
+    ]
 }

@@ -1,103 +1,104 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "enjoyment": 9,
-  "id": 86985556,
-  "name": "Blade of Forsaken",
-  "percentToQualify": 56,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/6wWOrk1RJ78?si=NXAsGFzUPD1LVZte",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "monthmai"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=Dl8hyKD5hTQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/sDBfPpBFox8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/Ej_7WZxDh6g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=bG1ARd4Ebgg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "PoiPonPL"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=sQ0GRVB9xKY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Zetrax"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/7IxIlxFco60",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/1njL4SYYLpc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "StevenOct"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/2IQc7qqGvvo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=g74dlY72rwM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "XxSirgaxX"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=nfj30jDGaKY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Utc"
-	}
-  ],
-  "song": "Goukisan - Betrayal of Fear",
-  "verification": "https://youtu.be/9DT-_QfCYLE?si=YkBbtcrFl3ObL2RC",
-  "verifier": "Popples"
+    "id": 86985556,
+    "name": "Blade of Forsaken",
+    "author": "Popples",
+    "creators": [],
+    "verifier": "Popples",
+    "verification": "https://youtu.be/9DT-_QfCYLE?si=YkBbtcrFl3ObL2RC",
+    "percentToQualify": 56,
+    "song": "Goukisan - Betrayal of Fear",
+    "difficulty": 4,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "monthmai",
+            "link": "https://youtu.be/6wWOrk1RJ78?si=NXAsGFzUPD1LVZte",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=Dl8hyKD5hTQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/sDBfPpBFox8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/Ej_7WZxDh6g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "PoiPonPL",
+            "link": "https://www.youtube.com/watch?v=bG1ARd4Ebgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Zetrax",
+            "link": "https://www.youtube.com/watch?v=sQ0GRVB9xKY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/7IxIlxFco60",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/FIAWpXB4mY4?si=v_ak1FFQTaGVEkg7",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "StevenOct",
+            "link": "https://youtu.be/1njL4SYYLpc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/2IQc7qqGvvo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "XxSirgaxX",
+            "link": "https://www.youtube.com/watch?v=g74dlY72rwM",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Utc",
+            "link": "https://www.youtube.com/watch?v=nfj30jDGaKY",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

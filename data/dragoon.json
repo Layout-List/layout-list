@@ -1,79 +1,80 @@
 {
-  "creators": [],
-  "difficulty": 2,
-  "id": 83164924,
-  "name": "Dragoon",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/mUn0ab_ALJU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/w6LpmhfSz8E",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://youtu.be/5o0IyomsJOQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=ZwEVw0E91b4",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/JgI4GqPoQ0U",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/h6O-UaHGoxI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "6",
-	  "hz": 75,
-	  "link": "https://youtu.be/KE7LPlH-tcM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 360,
-	  "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Sky Dragoon - X4",
-  "verification": "https://youtu.be/UwViI4iZLpw",
-  "verifier": "Blysteryx"
+    "id": 83164924,
+    "name": "Dragoon",
+    "author": "Blysteryx",
+    "creators": [],
+    "verifier": "Blysteryx",
+    "verification": "https://youtu.be/UwViI4iZLpw",
+    "percentToQualify": 100,
+    "song": "Sky Dragoon - X4",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/mUn0ab_ALJU",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/w6LpmhfSz8E",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/5o0IyomsJOQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=ZwEVw0E91b4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "9"
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/JgI4GqPoQ0U",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/h6O-UaHGoxI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/KE7LPlH-tcM",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "6"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
+        }
+    ]
 }

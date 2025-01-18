@@ -1,100 +1,101 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "id": 78874359,
-  "name": "New",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/oLHXUohHdGY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DJJDK"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/rytVlLThjAc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/5cvgAZz2_uw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/4JLrPF6UFiA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/Q5-IjT284Gw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tupi"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 643,
-	  "link": "https://youtu.be/oc32vF9vMpw?si=CSWlW1PXy15CX96p",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Wert_Krapata"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 60,
-	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "Fox Stevenson - Miss You (Camical Remix)",
-  "verification": "https://youtu.be/gNWlunngkcQ",
-  "verifier": "Kind1e"
+	"id": 78874359,
+	"name": "New",
+	"author": "Kind1e",
+	"creators": [],
+	"verifier": "Kind1e",
+	"verification": "https://youtu.be/gNWlunngkcQ",
+	"percentToQualify": 100,
+	"song": "Fox Stevenson - Miss You (Camical Remix)",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/oLHXUohHdGY",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/rytVlLThjAc",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://youtu.be/5cvgAZz2_uw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/4JLrPF6UFiA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/Q5-IjT284Gw",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Tupi",
+			"link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=VvJkOyU6MYE",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Wert_Krapata",
+			"link": "https://youtu.be/oc32vF9vMpw?si=CSWlW1PXy15CX96p",
+			"percent": 100,
+			"hz": 643,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/yTEcVaMh2Ak",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 1
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		}
+	]
 }

@@ -1,21 +1,23 @@
 {
-  "creators": [],
-  "difficulty": 3,
-  "enjoyment": 9,
-  "id": 112177754,
-  "name": "DruGgeD oUt",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 2,
-	  "hz": 60,
-	  "link": "https://youtu.be/DpUzNBirtOs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Zelgeon - Just kidding! (Glitch Hop)",
-  "verification": "https://youtu.be/TlnV-rly6bs?si=1xd93GA0AASmOUek",
-  "verifier": "RaynoXx"
+    "id": 112177754,
+    "name": "DruGgeD oUt",
+    "author": "RaynoXx",
+    "creators": [],
+    "verifier": "RaynoXx",
+    "verification": "https://youtu.be/TlnV-rly6bs?si=1xd93GA0AASmOUek",
+    "percentToQualify": 100,
+    "song": "Zelgeon - Just kidding! (Glitch Hop)",
+    "difficulty": 3,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/DpUzNBirtOs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 2
+        }
+        
+    ]
 }

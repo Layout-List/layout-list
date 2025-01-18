@@ -1,12 +1,15 @@
 {
-  "creators": [],
-  "difficulty": 11,
-  "id": 0,
-  "name": "(Impossible Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Impossible Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 11,
+    "records": [
+        
+    ]
 }

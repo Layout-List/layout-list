@@ -1,84 +1,85 @@
 {
-  "creators": [],
-  "difficulty": 0,
-  "id": 100267536,
-  "name": "g o o d t h i n g",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=wYa5p_bezPE",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://youtu.be/Xjg0Xx_LCB4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=1mCRX9rd0WE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/gMt8mUrcmHQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/2SZ04xkiesY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "hz": 280,
-	  "link": "https://youtu.be/KTwqNoX3cgI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Asteria."
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/XrwQIL9DtJ4?si=4s7WOjsFO4x3R1Se",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Raezori"
-	}
-  ],
-  "song": "midimachine - g o o d t h i n g",
-  "verification": "https://www.youtube.com/watch?v=nMICeM1e-jY",
-  "verifier": "whitmp4"
+    "id": 100267536,
+    "name": "g o o d t h i n g",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://www.youtube.com/watch?v=nMICeM1e-jY",
+    "percentToQualify": 100,
+    "song": "midimachine - g o o d t h i n g",
+    "difficulty": 0,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=wYa5p_bezPE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/Xjg0Xx_LCB4",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=1mCRX9rd0WE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/gMt8mUrcmHQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/2SZ04xkiesY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+         {
+            "user": "Asteria.",
+            "link": "https://youtu.be/KTwqNoX3cgI",
+            "percent": 100,
+            "hz": 280,
+            "mobile": false
+        },
+         {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/XrwQIL9DtJ4?si=4s7WOjsFO4x3R1Se",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Raezori",
+            "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
 }

@@ -1,102 +1,103 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 80616815,
-  "name": "Skyless",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://youtu.be/3Le_gUsMXaU?si=IrtDw61uwDcp4UTs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/JRFWkWzuAQo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/QHBH8sqImJ8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "FloppaTopchick"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/LD2vp1SueZ0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/0FOvIDpKO8Y?si=L-jDfzSlLgzTX7bJ",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Dellpickle"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=OXLMhsM_U3g",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Popples"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=XU5doKLiAKs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "MurycynGd"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "garlagan - Skyless",
-  "verification": "https://youtu.be/seNuv1mQ7U8?si=RbZuGWaYdekuy2om",
-  "verifier": "Gr8ness"
+    "id": 80616815,
+    "name": "Skyless",
+    "author": "Gr8ness",
+    "creators": [],
+    "verifier": "Gr8ness",
+    "verification": "https://youtu.be/seNuv1mQ7U8?si=RbZuGWaYdekuy2om",
+    "percentToQualify": 100,
+    "song": "garlagan - Skyless",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/3Le_gUsMXaU?si=IrtDw61uwDcp4UTs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=EcJzcYXhaHo",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/JRFWkWzuAQo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "FloppaTopchick",
+            "link": "https://youtu.be/QHBH8sqImJ8",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/LD2vp1SueZ0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Dellpickle",
+            "link": "https://youtu.be/0FOvIDpKO8Y?si=L-jDfzSlLgzTX7bJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=OXLMhsM_U3g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Popples",
+            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "MurycynGd",
+            "link": "https://www.youtube.com/watch?v=XU5doKLiAKs",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

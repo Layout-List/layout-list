@@ -1,22 +1,21 @@
 {
-  "creators": [
-	"tangi"
-  ],
-  "difficulty": 1,
-  "id": 106773183,
-  "name": "Solar",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "3",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=RknSBFBihE4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	}
-  ],
-  "song": "Jumper - Solar Wind",
-  "verification": "https://youtu.be/cn3hBbSE2Pg",
-  "verifier": "attrixia"
+    "id": 106773183,
+    "name": "Solar",
+    "author": "Riley",
+    "creators": ["tangi"],
+    "verifier": "attrixia",
+    "verification": "https://youtu.be/cn3hBbSE2Pg",
+    "percentToQualify": 100,
+    "song": "Jumper - Solar Wind",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "zWren",
+            "link": "https://www.youtube.com/watch?v=RknSBFBihE4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "3"
+        }
+    ]
 }

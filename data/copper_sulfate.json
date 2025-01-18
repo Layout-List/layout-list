@@ -1,69 +1,70 @@
 {
-  "creators": [],
-  "difficulty": 7,
-  "enjoyment": 8,
-  "id": 100791365,
-  "name": "Copper Sulfate",
-  "percentToQualify": 60,
-  "records": [
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/tHI3jmtFURo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ImPhara"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/Wwl6jTNrb7Y",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 240,
-	  "link": "https://youtu.be/6WVp9RXu5cA?si=IBff-IqWhsZtLzpk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/qq5Y3DcG9Bc?si=hcwfD7G8ZDMU_N4e",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "NiXaNTy"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/WIbWTB8FrKE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=S1-GQRdjhOA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	}
-  ],
-  "song": "Creo - Octane",
-  "verification": "https://www.youtube.com/watch?v=X6_hIxJeLBU&t=10s",
-  "verifier": "Riley"
+    "id": 100791365,
+    "name": "Copper Sulfate",
+    "author": "Len",
+    "creators": [],
+    "verifier": "Riley",
+    "verification": "https://www.youtube.com/watch?v=X6_hIxJeLBU&t=10s",
+    "percentToQualify": 60,
+    "song": "Creo - Octane",
+    "difficulty": 7,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "ImPhara",
+            "link": "https://youtu.be/tHI3jmtFURo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/Wwl6jTNrb7Y",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/6WVp9RXu5cA?si=IBff-IqWhsZtLzpk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/qq5Y3DcG9Bc?si=hcwfD7G8ZDMU_N4e",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/WIbWTB8FrKE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "zDark",
+            "link": "https://www.youtube.com/watch?v=S1-GQRdjhOA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

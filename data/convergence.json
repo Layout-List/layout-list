@@ -1,52 +1,53 @@
 {
-  "creators": [],
-  "difficulty": 5,
-  "id": 91131780,
-  "name": "Convergence",
-  "percentToQualify": 54,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/7Yo0IxH_ykg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/tQqkhYdi-64",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "SarcasticMuch"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/q3wcDWisH10",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	}
-  ],
-  "song": "Creo - Reflections",
-  "verification": "https://www.youtube.com/watch?v=At0KPcms92M&feature=youtu.be",
-  "verifier": "Syrcx"
+	"id": 91131780,
+	"name": "Convergence",
+	"author": "Huskie",
+	"creators": [],
+	"verifier": "Syrcx",
+	"verification": "https://www.youtube.com/watch?v=At0KPcms92M&feature=youtu.be",
+	"percentToQualify": 54,
+	"song": "Creo - Reflections",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/7Yo0IxH_ykg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "SarcasticMuch",
+			"link": "https://youtu.be/tQqkhYdi-64",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://youtu.be/q3wcDWisH10",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		}
+	]
 }

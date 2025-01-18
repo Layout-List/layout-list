@@ -1,12 +1,15 @@
 {
-  "creators": [],
-  "difficulty": 6,
-  "id": 0,
-  "name": "(Extreme Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Extreme Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 6,
+    "records": [
+        
+    ]
 }

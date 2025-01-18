@@ -1,123 +1,124 @@
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 89289860,
-  "name": "I Said Nya",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/vN_6oERjvOY?si=PYrj5Sgevd23vzAY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Zyxo"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/GQjbjOCiK3Y?si=hcJ0svfn2_lulBtF",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Sakira"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/OcBRj6HwYxI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 60,
-	  "link": "https://youtu.be/s3qRkluI7Fs?si=cMwO2fDfqUKW4iDJ",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/-LsAHlXFkJQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/zGrUa5IIOHw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 120,
-	  "link": "https://youtu.be/-YXfwZjVG8A",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/hm2SscnMZq8?si=i5Rut9VE5IVSc7fy",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=EgpDW7ZKaI8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "gdBean"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/f28wAP8zAGo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Asteria."
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/zdxf204b4o8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	}
-  ],
-  "song": "Azazal - I Said Meow",
-  "verification": "https://www.youtube.com/watch?v=zF5fCnMTPcI",
-  "verifier": "Xeronius"
+    "id": 89289860,
+    "name": "I Said Nya",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=zF5fCnMTPcI",
+    "percentToQualify": 100,
+    "song": "Azazal - I Said Meow",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/vN_6oERjvOY?si=PYrj5Sgevd23vzAY",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Sakira",
+            "link": "https://youtu.be/GQjbjOCiK3Y?si=hcJ0svfn2_lulBtF",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/OcBRj6HwYxI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/s3qRkluI7Fs?si=cMwO2fDfqUKW4iDJ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 3
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/-LsAHlXFkJQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/zGrUa5IIOHw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/-YXfwZjVG8A",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/hm2SscnMZq8?si=i5Rut9VE5IVSc7fy",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "gdBean",
+            "link": "https://www.youtube.com/watch?v=EgpDW7ZKaI8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/f28wAP8zAGo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/zdxf204b4o8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        }
+    ]
 }

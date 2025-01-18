@@ -1,11 +1,12 @@
 {
-  "creators": [],
-  "difficulty": 6,
-  "id": 100872108,
-  "name": "Agemo",
-  "percentToQualify": 55,
-  "records": [],
-  "song": "Dimrain47 - The Prototype",
-  "verification": "https://www.youtube.com/watch?v=YVVKoHjJOPg",
-  "verifier": "nolli"
+    "id": 100872108,
+    "name": "Agemo",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "nolli",
+    "verification": "https://www.youtube.com/watch?v=YVVKoHjJOPg",
+    "percentToQualify": 55,
+    "song": "Dimrain47 - The Prototype",
+    "difficulty": 6,
+    "records": []
 }

@@ -1,58 +1,59 @@
 {
-  "creators": [],
-  "difficulty": 0,
-  "enjoyment": 9,
-  "id": 80341120,
-  "name": "Unnamed Layout",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/DpUzNBirtOs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/_IQbZAIFfU8",
-	  "percent": 100,
-	  "user": "sphericle"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/vAUt_aTBF-8?si=M1aH-VIvykkQJnaw",
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://youtu.be/NErzzGcuBAY?si=qne3Z-pm5MCnav-b",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "VeraliGD"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/Rj11nWHvEm0?si=sRYhkAxOe32xMq6j",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Bocopter"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 120,
-	  "link": "https://youtu.be/zx9Wzm-o-Lg",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "Creo - Dark Tides",
-  "verification": "https://youtu.be/nYpjjcc-K7E?si=tVs2IjNcAkvCsfth",
-  "verifier": "Wingz_GD"
+	"id": 80341120,
+	"name": "Unnamed Layout",
+	"author": "Wingz_GD",
+	"creators": [],
+	"verifier": "Wingz_GD",
+	"verification": "https://youtu.be/nYpjjcc-K7E?si=tVs2IjNcAkvCsfth",
+	"percentToQualify": 100,
+	"song": "Creo - Dark Tides",
+	"difficulty": 0,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/DpUzNBirtOs",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/vAUt_aTBF-8?si=M1aH-VIvykkQJnaw",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "VeraliGD",
+			"link": "https://youtu.be/NErzzGcuBAY?si=qne3Z-pm5MCnav-b",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Bocopter",
+			"link": "https://youtu.be/Rj11nWHvEm0?si=sRYhkAxOe32xMq6j",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/zx9Wzm-o-Lg",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }

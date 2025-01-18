@@ -1,58 +1,59 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 93702269,
-  "name": "Yachireta",
-  "percentToQualify": 55,
-  "records": [
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/_FMm3KOn1eI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Jab"
-	},
-	{
-	  "hz": 225,
-	  "link": "https://youtu.be/HVRZEAqO0iY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "PoiPonPL"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/tlvclz_-QEI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/MjDrTbvvbus",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://youtu.be/7IxIlxFco60",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 360,
-	  "link": "https://youtu.be/I0EvleuglEc?si=vgO-BrChELtO0COu",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "showcase": "https://www.youtube.com/watch?v=WAbqpZfSm1I",
-  "song": "Konomi Suzuki - Secret Code",
-  "songLink": "https://cdn.discordapp.com/attachments/1059284741100146758/1143718248311951370/914838.mp3",
-  "verification": "https://youtu.be/Sxxs_QODHpo",
-  "verifier": "Yuuri"
+    "id": 93702269,
+    "name": "Yachireta",
+    "author": "Jono",
+    "creators": [],
+    "verifier": "Yuuri",
+    "verification": "https://youtu.be/Sxxs_QODHpo",
+    "showcase": "https://www.youtube.com/watch?v=WAbqpZfSm1I",
+    "percentToQualify": 55,
+    "song": "Konomi Suzuki - Secret Code",
+    "songLink": "https://cdn.discordapp.com/attachments/1059284741100146758/1143718248311951370/914838.mp3",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Jab",
+            "link": "https://youtu.be/_FMm3KOn1eI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "PoiPonPL",
+            "link": "https://youtu.be/HVRZEAqO0iY",
+            "percent": 100,
+            "hz": 225,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/tlvclz_-QEI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/MjDrTbvvbus",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/7IxIlxFco60",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/I0EvleuglEc?si=vgO-BrChELtO0COu",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
+        }
+    ]
 }

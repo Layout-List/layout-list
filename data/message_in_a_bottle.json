@@ -1,45 +1,47 @@
+
 {
-  "creators": [],
-  "difficulty": 1,
-  "id": 110578926,
-  "name": "Message In A Bottle",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/iLTRFSLoJ5uc1F58B?invite=cr-MSw0RkksMTg1OTcxMTAwLA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/ZxlUaFWM1FY?si=IfimOdi_13NMRMMv",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	}
-  ],
-  "song": "Taylor Swift - Message In A Bottle",
-  "songLink": "https://drive.google.com/file/d/1OAcpMMa6rf-NOkewAaon9Ab4PfJ4DUjh/view?usp=sharing",
-  "verification": "https://www.youtube.com/watch?v=tXshSEEgXUg",
-  "verifier": "Shums"
+    "id": 110578926,
+    "name": "Message In A Bottle",
+    "author": "Shums",
+    "creators": [],
+    "verifier": "Shums",
+    "verification": "https://www.youtube.com/watch?v=tXshSEEgXUg",
+    "percentToQualify": 100,
+    "song": "Taylor Swift - Message In A Bottle",
+    "songLink": "https://drive.google.com/file/d/1OAcpMMa6rf-NOkewAaon9Ab4PfJ4DUjh/view?usp=sharing",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iLTRFSLoJ5uc1F58B?invite=cr-MSw0RkksMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/ZxlUaFWM1FY?si=IfimOdi_13NMRMMv",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        }
+    ]
 }

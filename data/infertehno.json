@@ -1,50 +1,51 @@
 {
-  "creators": [],
-  "difficulty": 4,
-  "id": 95428448,
-  "name": "INFERTEHNO",
-  "percentToQualify": 57,
-  "records": [
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/MCBWGOmEcvY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=UWyxAozpaHA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "idiotdash"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 360,
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Shinrog - Infertehno",
-  "verification": "https://youtu.be/Uw1zzQ2XS3M",
-  "verifier": "mr123j"
+    "id": 95428448,
+    "name": "INFERTEHNO",
+    "author": "mr123j",
+    "creators": [],
+    "verifier": "mr123j",
+    "verification": "https://youtu.be/Uw1zzQ2XS3M",
+    "percentToQualify": 57,
+    "song": "Shinrog - Infertehno",
+    "difficulty": 4,
+    "records": [
+         {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/MCBWGOmEcvY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "idiotdash",
+            "link": "https://www.youtube.com/watch?v=UWyxAozpaHA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
+        }
+    ]
 }

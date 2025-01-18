@@ -1,106 +1,107 @@
 {
-  "creators": [
-	"BySelling",
-	"YEHbudy360",
-	"Rensss",
-	"Quadr"
-  ],
-  "difficulty": 3,
-  "id": 94981801,
-  "name": "to the moon",
-  "percentToQualify": 61,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/RWmdbAvk_CI",
-	  "percent": 100,
-	  "user": "Armani"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/IrqZdZnWgTI",
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/V4lcXAlDyXs",
-	  "percent": 100,
-	  "user": "TurtlesdoHurdles"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/z9WiqIN4YLU",
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=xnPF08G4_ic",
-	  "percent": 100,
-	  "user": "pivithasnolife"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/ZQ2CUVimJVk",
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/d2HgguXqBVQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/cAhCTsEYVVM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 330,
-	  "link": "https://www.youtube.com/watch?v=1rA36dgwb8M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nykolol"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/z8b2xKw3K50",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Qoldres"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/requested/clips/24JzEUPTM-UIrn/d1337PApuY5j?invite=cr-MSw0WDcsMTk3MjYyOTM2LA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 60,
-	  "link": "https://youtu.be/BKChSLOojy8?si=d4cVJKkILjaMtOtA",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "showcase": "https://www.youtube.com/watch?v=Fyn4fMbCjv4&ab_channel=LayoutListShowcases",
-  "song": "Dunderpatrullen - To The Moon",
-  "verification": "https://youtu.be/3KvvrNZ2uYw",
-  "verifier": "DJJDK"
+    "id": 94981801,
+    "name": "to the moon",
+    "author": "RewrtTT",
+    "creators": [
+        "BySelling",
+        "YEHbudy360",
+        "Rensss",
+        "Quadr"
+    ],
+    "verifier": "DJJDK",
+    "verification": "https://youtu.be/3KvvrNZ2uYw",
+    "showcase": "https://www.youtube.com/watch?v=Fyn4fMbCjv4&ab_channel=LayoutListShowcases",
+    "percentToQualify": 61,
+    "song": "Dunderpatrullen - To The Moon",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Armani",
+            "link": "https://youtu.be/RWmdbAvk_CI",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://youtu.be/IrqZdZnWgTI",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "TurtlesdoHurdles",
+            "link": "https://youtu.be/V4lcXAlDyXs",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/z9WiqIN4YLU",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "pivithasnolife",
+            "link": "https://www.youtube.com/watch?v=xnPF08G4_ic",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/ZQ2CUVimJVk",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/d2HgguXqBVQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/cAhCTsEYVVM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "nykolol",
+            "link": "https://www.youtube.com/watch?v=1rA36dgwb8M",
+            "percent": 100,
+            "hz": 330,
+            "mobile": false
+        },
+        {
+            "user": "Qoldres",
+            "link": "https://youtu.be/z8b2xKw3K50",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://medal.tv/games/requested/clips/24JzEUPTM-UIrn/d1337PApuY5j?invite=cr-MSw0WDcsMTk3MjYyOTM2LA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/BKChSLOojy8?si=d4cVJKkILjaMtOtA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 2
+        }
+    ]
 }

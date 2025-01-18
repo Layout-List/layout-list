@@ -1,34 +1,35 @@
 {
-  "creators": [],
-  "difficulty": 5,
-  "id": 92492574,
-  "name": "Swaggin at the partm",
-  "percentToQualify": 53,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=BuHVcKGiW3A&t=3s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/CtJf3THWuzg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/48mloHeMtTk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	}
-  ],
-  "song": "Ghostface Playa - Swaggin' at the Partment",
-  "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1207437115991003206/874478.mp3?ex=65dfa471&is=65cd2f71&hm=37f039275e24adf89fe4b23275f4e05689a59ecffb47a6287c656834fa480bea&",
-  "verification": "https://youtu.be/LQESB5dZxsA",
-  "verifier": "Seismic"
+    "id": 92492574,
+    "name": "Swaggin at the partm",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "Seismic",
+    "verification": "https://youtu.be/LQESB5dZxsA",
+    "percentToQualify": 53,
+    "song": "Ghostface Playa - Swaggin' at the Partment",
+    "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1207437115991003206/874478.mp3?ex=65dfa471&is=65cd2f71&hm=37f039275e24adf89fe4b23275f4e05689a59ecffb47a6287c656834fa480bea&",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=BuHVcKGiW3A&t=3s",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/CtJf3THWuzg",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/48mloHeMtTk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        }
+    ]
 }

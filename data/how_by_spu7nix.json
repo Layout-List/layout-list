@@ -1,46 +1,47 @@
 {
-  "creators": [
-	"Rico"
-  ],
-  "difficulty": 2,
-  "id": 106763860,
-  "name": "How by Spu7nix",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/ciKpZL-jxTk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/kDXmar1pUVM",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Exyl x Paper Skies - How",
-  "verification": "https://youtu.be/-UQdIWhvD5Y?si=UuVF-aVgUwU0DFiZ",
-  "verifier": "DeltaFlare"
+	"id": 106763860,
+	"name": "How by Spu7nix",
+	"author": "Jackyy",
+	"creators": [
+		"Rico"
+	],
+	"verifier": "DeltaFlare",
+	"verification": "https://youtu.be/-UQdIWhvD5Y?si=UuVF-aVgUwU0DFiZ",
+	"percentToQualify": 100,
+	"song": "Exyl x Paper Skies - How",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/ciKpZL-jxTk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/kDXmar1pUVM",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		}
+	]
 }

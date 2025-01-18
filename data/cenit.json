@@ -1,75 +1,76 @@
 {
-  "creators": [],
-  "difficulty": 5,
-  "enjoyment": 9,
-  "id": 102559797,
-  "name": "Cenit",
-  "percentToQualify": 51,
-  "records": [
-	{
-	  "hz": 288,
-	  "link": "https://youtu.be/8aTeG0WXFrE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "idiotdash"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/yF8kh9pIbZE?si=Ui9j1PeiEW_kuJFl",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=0yl-0e7uCTU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Spaace"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=pxPjcdX4h58",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	}
-  ],
-  "song": "Diivi - Glaive - Astrid (Remix)",
-  "verification": "https://www.youtube.com/watch?v=rfOUR1MxczU",
-  "verifier": "Xeronius"
+    "id": 102559797,
+    "name": "Cenit",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=rfOUR1MxczU",
+    "percentToQualify": 51,
+    "song": "Diivi - Glaive - Astrid (Remix)",
+    "difficulty": 5,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "idiotdash",
+            "link": "https://youtu.be/8aTeG0WXFrE",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/yF8kh9pIbZE?si=Ui9j1PeiEW_kuJFl",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=0yl-0e7uCTU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=pxPjcdX4h58",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

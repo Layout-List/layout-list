@@ -1,35 +1,36 @@
 {
-  "creators": [
-	"DJJDK",
-	"Flare",
-	"Blysteryx",
-	"fae",
-	"Huskie"
-  ],
-  "difficulty": 6,
-  "enjoyment": 7,
-  "id": 97069296,
-  "name": "So Based",
-  "percentToQualify": 59,
-  "records": [
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Yz4YjJmEkgQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 240,
-	  "link": "https://youtu.be/idC48K0HSx4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Skip"
-	}
-  ],
-  "song": "SuperSoniker - So Cool",
-  "verification": "https://youtu.be/DZPpiyisnVc?si=mABF6Vu1bz6hTw3A",
-  "verifier": "zDark"
+	"id": 97069296,
+	"name": "So Based",
+	"author": "Asteria.",
+	"creators": [
+		"DJJDK",
+		"Flare",
+		"Blysteryx",
+		"fae",
+		"Huskie"
+	],
+	"verifier": "zDark",
+	"verification": "https://youtu.be/DZPpiyisnVc?si=mABF6Vu1bz6hTw3A",
+	"percentToQualify": 59,
+	"song": "SuperSoniker - So Cool",
+	"difficulty": 6,
+	"enjoyment": 7,
+	"records": [
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=Yz4YjJmEkgQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Skip",
+			"link": "https://youtu.be/idC48K0HSx4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
+		}
+	]
 }
