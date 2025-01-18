@@ -5,9 +5,7 @@
     gap: 2rem;
     align-items: flex-start;
 }
-.page-roulette .sidebar a {
-    text-decoration: underline;
-}
+
 .page-roulette .sidebar a:hover {
     color: var(--color-on-background);
 }
@@ -129,10 +127,17 @@
         align-self: stretch;
     }
 }
-.nong-text {
-    text-decoration: underline; 
-    text-align: right; 
-    text-wrap: nowrap; 
-    max-width: 5in;
-    
+
+.rank-container {
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+
+.nong-container {
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    text-align: right;
+    text-wrap: wrap;
 }

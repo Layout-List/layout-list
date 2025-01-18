@@ -57,7 +57,7 @@ export default {
                         <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
                         <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
                     </div>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment || null"></LevelAuthors>
+                    <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment || null"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -75,7 +75,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
@@ -89,7 +89,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Song</div>
-                            <p v-if="level.songLink"><a target="_blank" :href="songDownload" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <p v-if="level.songLink"><a class="director" target="_blank" :href="songDownload">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                             <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
@@ -102,7 +102,7 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                    <a class="director" :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                                     <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
@@ -137,7 +137,7 @@ export default {
                     <h2 v-if="!selectedPack.levels">Levels (5)</h2>
                     <p v-if="selectedPack.levels" class="type-body">
                         <template v-for="(level, index) in selectedPack.levels">
-                            <a :href="'https://laylist.pages.dev/#/level/' + level.path">{{ level.name }}</a>
+                            <a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path">{{ level.name }}</a>
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
                         </template>
                     </p>
@@ -145,7 +145,9 @@ export default {
                     <p v-if="!selectedPack.levels && selectedPack.difficulty >= 7"> Beat any 5 layouts in the supreme tier or above that are not in any other packs</p>
                     <h2>Records ({{ selectedPack.records.length }})</h2>
                     <div class="pack-records">
-                        <p v-for="record in selectedPack.records"><a  :href="'https://laylist.pages.dev/#/leaderboard/user/' + record.toLowerCase().replaceAll(' ', '_')">{{ record }}</a></p>
+                        <p v-for="record in selectedPack.records">
+                            <a class="director" :href="'https://laylist.pages.dev/#/leaderboard/user/' + record.toLowerCase().replaceAll(' ', '_')">{{ record }}</a>
+                        </p>
                     </div>
                 </div>
                 <!-- whatever this is -->
@@ -159,7 +161,7 @@ export default {
                         <p class="error" v-for="error of errors" :key="error">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
+                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
                     </div>
                     <hr class="divider">
                     <h3>About Packs</h3>
