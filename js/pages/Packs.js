@@ -146,7 +146,10 @@ export default {
                     <h2>Records ({{ selectedPack.records.length }})</h2>
                     <div class="pack-records">
                         <p v-for="record in selectedPack.records">
-                            <a class="director" :href="'https://laylist.pages.dev/#/leaderboard/user/' + record.toLowerCase().replaceAll(' ', '_')">{{ record }}</a>
+                            <div class="user-container">
+                                <a :href="'https://laylist.pages.dev/#/leaderboard/user/' + record.name.toLowerCase().replaceAll(' ', '_')" target="_blank" class="director">{{ record.name }}</a>
+                                <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
+                            </div>
                         </p>
                     </div>
                 </div>

@@ -390,12 +390,15 @@ export async function fetchLeaderboard(list) {
 export async function fetchPacks(list) {
     try {
         const packResult = await fetch(`${dir}/_packs.json`);
+        const flagResult = await fetch(`${dir}/_flags.json`);
         let packs = []
+        let flags;
         try {
             packs = await packResult.json();
+            flags = await flagResult.json();
         } catch (e) {
-            console.error(`failed to process packs: ${e}`)
-            packs = ["err", e]
+            console.error(`failed to process packs: ${e}`);
+            packs = ["err", e];
         }
         let users = [];
 
@@ -511,8 +514,11 @@ export async function fetchPacks(list) {
                         ? originalUser.user
                         : originalUser;
 
-                    if (!pack.records.includes(userToPush)) {
-                        pack.records.push(userToPush);
+                    if (!pack.records.some((record) => record.name === userToPush)) {
+                        pack.records.push({
+                            name: userToPush,
+                            flag: flags[userToPush] ? flags[userToPush] : undefined
+                        });
                     }
                 });
             });
