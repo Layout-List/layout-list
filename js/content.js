@@ -12,7 +12,7 @@ const benchmarker = '_';
 
 
 
-export async function fetchList() {
+export async function fetchList(sort) {
     const listResult = await fetch(`${dir}/_list.json`);
     const packResult = await fetch(`${dir}/_packs.json`);
     const flagResult = await fetch(`${dir}/_flags.json`);
@@ -23,82 +23,69 @@ export async function fetchList() {
         try {
             packsMap = await packResult.json();
         } catch (e) {
-            // pack error object [0] will always be "err"
-            // [1] is the error message
-            // (optional) [2] is the level name being processed while the error is thrown
-            packsMap = ["err", e] 
+            packsMap = ["err", e];
         }
 
-        // Create a lookup dictionary for ranks
         const ranksEntries = list.filter((path) => !path.startsWith(benchmarker)).map((
             path,
             index,
         ) => [path, index + 1]);
         const ranks = Object.fromEntries(ranksEntries);
 
-        return await Promise.all(
+        const levels = await Promise.all(
             list.map(async (path) => {
-                let packs = []
+                let packs = [];
                 const rank = ranks[path] || null;
                 try {
                     const levelResult = await fetch(
                         `${dir}/${path.startsWith(benchmarker) ? path.substring(1) : path}.json`,
                     );
-                    let level = await levelResult.json(); // no longer a constant so we can wrap in the path
+                    let level = await levelResult.json();
 
                     level["path"] = path;
 
                     try {
                         if (level.records) {
-                            // for each record, look up "user" in the flag map and add flag property to their record
                             level.records.forEach((record) => {
                                 record.flag = flags[record.user];
                             });
-
                         }
                     } catch (e) {
-                        console.error(`failed to process flags: ${e}`)
+                        console.error(`failed to process flags: ${e}`);
                     }
-                    
+
                     try {
                         if (packsMap[0] !== "err") {
                             packsMap.forEach((pack) => {
                                 try {
-                                    if (pack.levels) { 
+                                    if (pack.levels) {
                                         if (pack.levels.includes(path)) {
                                             packs.push(pack);
-                                            
                                         }
 
-                                        // checks if the pack contains the level's path
-                                        for (let packlevel in pack.levels) { 
+                                        for (let packlevel in pack.levels) {
                                             if (pack.levels[packlevel] === path) {
-                                                // iterate through every level in the pack,
-                                                // and overwrite the level path in the levels array
-                                                // with the object it resolves to
                                                 pack.levels[packlevel] = level;
                                                 pack.levels[packlevel].path = path;
                                                 pack.levels[packlevel].rank = rank;
-                                                
                                             }
                                         }
                                     } else if (pack.difficulty === level.difficulty) {
                                         packs.push(pack);
                                     }
                                 } catch (e) {
-                                    console.error(`failed to fetch pack ${pack.name}:  ${e}`)
-                                    packs.push(["err", e, pack.name])
+                                    console.error(`failed to fetch pack ${pack.name}:  ${e}`);
+                                    packs.push(["err", e, pack.name]);
                                 }
-                            })
+                            });
                         } else {
-                            console.error(`failed to process packs: ${packsMap[1]}`)
+                            console.error(`failed to process packs: ${packsMap[1]}`);
                         }
                     } catch (e) {
-                        console.error(`failed to fetch packs: ${e}`)
-                        packs.push(["err", e])
+                        console.error(`failed to fetch packs: ${e}`);
+                        packs.push(["err", e]);
                     }
-                    
-                    
+
                     return [
                         null,
                         rank,
@@ -118,6 +105,22 @@ export async function fetchList() {
                 }
             }),
         );
+
+        if (sort) {
+            switch(sort) {
+                case 1:
+                    levels.sort((a, b) => {
+                        const enjoymentA = averageEnjoyment(a[2].records);
+                        const enjoymentB = averageEnjoyment(b[2].records);
+                        return enjoymentB - enjoymentA;
+                    });
+                    break;
+                case 2:
+                    break;
+            }
+        }
+
+        return levels;
     } catch {
         console.error(`Failed to load list.`);
         return null;
