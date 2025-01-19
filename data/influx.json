@@ -1,79 +1,78 @@
 {
-  "creators": [
-	"Hyperbeat"
-  ],
-  "difficulty": 4,
-  "enjoyment": 10,
-  "id": 101041096,
-  "name": "Influx",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/WjduR-RQQik?si=f4-UrCW9e2hVTHRN",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/u9H8IWkbVjU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/JCeje4fZFu4?si=Ut8ojXri7MeAojQW",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/Z2EwBbPmg48",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/NWmQXNq69e0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 60,
-	  "link": "https://youtu.be/en_zQ_ipf20",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=_Zp8ZzgXJOY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/tAo8Ji_pkto?si=Axb_Is9CVM_xQLiZ",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "Quartzone & Elemn - Inutilia",
-  "verification": "https://www.youtube.com/watch?v=_OIpymWS6w8&feature=youtu.be",
-  "verifier": "Hyperbeat"
+    "id": 101041096,
+    "name": "Influx",
+    "author": "Hyperbeat",
+    "creators": [],
+    "verifier": "Hyperbeat",
+    "verification": "https://www.youtube.com/watch?v=_OIpymWS6w8&feature=youtu.be",
+    "percentToQualify": 100,
+    "song": "Quartzone & Elemn - Inutilia",
+    "difficulty": 4,
+    "enjoyment": 10,
+    "records": [
+         {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/WjduR-RQQik?si=f4-UrCW9e2hVTHRN",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment" : 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/u9H8IWkbVjU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" : 8
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/JCeje4fZFu4?si=Ut8ojXri7MeAojQW",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment" : 9
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/Z2EwBbPmg48",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+         {
+            "user": "sn0w",
+            "link": "https://youtu.be/NWmQXNq69e0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+         },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/en_zQ_ipf20",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 2
+        },
+        {
+            "user": "zDark",
+            "link": "https://www.youtube.com/watch?v=_Zp8ZzgXJOY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/tAo8Ji_pkto?si=Axb_Is9CVM_xQLiZ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        }
+    ]
 }

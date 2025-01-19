@@ -1,84 +1,83 @@
 {
-  "creators": [
-	"sqrtpie"
-  ],
-  "difficulty": 5,
-  "id": 84204180,
-  "name": "Escaping Limbo",
-  "percentToQualify": 51,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/dB5XsSzNJU8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/z7EOuH6sxMI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/AoPXBgPjx5c?feature=shared",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/4JJuAAFSdUE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=ZGGs3d-tmZk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=0MgxJEQJDS8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "morsey"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/38xEA5bjP3g?si=Cswaiotgd7zaSVbK",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 165,
-	  "link": "https://youtu.be/jUP840G8EGo",
-	  "mobile": false,
-	  "percent": 56,
-	  "user": "Iza"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	}
-  ],
-  "showcase": "https://www.youtube.com/watch?v=OPfFezUH1_o&ab_channel=LayoutListShowcases",
-  "song": "LucidShadowDreamer - Escaping Limbo",
-  "verification": "https://youtu.be/6ATYCl4DqWw",
-  "verifier": "sqrtpie"
+    "id": 84204180,
+    "name": "Escaping Limbo",
+    "author": "sqrtpie",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/6ATYCl4DqWw",
+    "showcase": "https://www.youtube.com/watch?v=OPfFezUH1_o&ab_channel=LayoutListShowcases",
+    "percentToQualify": 51,
+    "song": "LucidShadowDreamer - Escaping Limbo",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/dB5XsSzNJU8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/z7EOuH6sxMI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/AoPXBgPjx5c?feature=shared",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/4JJuAAFSdUE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=ZGGs3d-tmZk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=0MgxJEQJDS8",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/38xEA5bjP3g?si=Cswaiotgd7zaSVbK",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Iza",
+            "link": "https://youtu.be/jUP840G8EGo",
+            "percent": 56,
+            "hz": 165,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

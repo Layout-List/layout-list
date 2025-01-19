@@ -1,89 +1,88 @@
 {
-  "creators": [
-	"Natteboss"
-  ],
-  "difficulty": 3,
-  "id": 89034546,
-  "name": "Hammer Layout",
-  "password": "123123",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/mDBBedMF1ys",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "jz5"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/aGuy3GRF9eA",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "agentgiscool"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/tTF6-Y7W4Sg?si=ZziebtTGQQCROgqP",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=EEfVrghUEiM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/VhH7nNDlbGs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=USx02rygkMw&ab_channel=Sakira",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Iza"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=gg6HvaS9g40",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Dirtyphonics & Sullivan King - Hammer",
-  "songLink": "https://drive.google.com/file/d/1g65kNRmVHB0SDVD_tqa7tCYRvgMbeI85/view?usp=drive_link",
-  "verification": "https://youtu.be/FH0VH4eEox4",
-  "verifier": "Natteboss"
+    "id": 89034546,
+    "name": "Hammer Layout",
+    "author": "Natteboss",
+    "creators": [],
+    "verifier": "Natteboss",
+    "verification": "https://youtu.be/FH0VH4eEox4",
+    "percentToQualify": 100,
+    "password": "123123",
+    "song": "Dirtyphonics & Sullivan King - Hammer",
+    "songLink": "https://drive.google.com/file/d/1g65kNRmVHB0SDVD_tqa7tCYRvgMbeI85/view?usp=drive_link",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "jz5",
+            "link": "https://youtu.be/mDBBedMF1ys",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://youtu.be/aGuy3GRF9eA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/tTF6-Y7W4Sg?si=ZziebtTGQQCROgqP",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=EEfVrghUEiM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/VhH7nNDlbGs",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "Iza",
+            "link": "https://www.youtube.com/watch?v=USx02rygkMw&ab_channel=Sakira",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=gg6HvaS9g40",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

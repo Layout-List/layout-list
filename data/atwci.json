@@ -1,56 +1,54 @@
 {
-  "creators": [
-	"Hydraniac",
-	"The16FigureLimit"
-  ],
-  "difficulty": 3,
-  "id": 106726777,
-  "name": "ATWCI",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "10",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=TX7l-AZ-5lA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/QN3jTKwxozk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://youtu.be/KgA334nKC6M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/QBG5VAKnEzY?si=h7Fj1XSqK9-vCw8C",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Matt Maltese - As the World Caves In",
-  "songLink": "https://drive.google.com/file/d/1LnFUY7vUyA40kH6BkIXSG9cSrytWawq7/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=A_WIZoCy_Bs",
-  "verifier": "The16FigureLimit"
+    "id": 106726777,
+    "name": "ATWCI",
+    "author": "The16FigureLimit",
+    "creators": ["Hydraniac"],
+    "verifier": "The16FigureLimit",
+    "verification": "https://www.youtube.com/watch?v=A_WIZoCy_Bs",
+    "percentToQualify": 100,
+    "song": "Matt Maltese - As the World Caves In",
+    "songLink": "https://drive.google.com/file/d/1LnFUY7vUyA40kH6BkIXSG9cSrytWawq7/view?usp=drive_link",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=TX7l-AZ-5lA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/QN3jTKwxozk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/KgA334nKC6M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/QBG5VAKnEzY?si=h7Fj1XSqK9-vCw8C",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        }
+    ]
 }

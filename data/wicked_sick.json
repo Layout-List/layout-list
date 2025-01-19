@@ -1,96 +1,95 @@
 {
-  "creators": [
-	"Xeronius"
-  ],
-  "difficulty": 2,
-  "id": 95152181,
-  "name": "Wicked Sick",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 3,
-	  "hz": 60,
-	  "link": "https://youtu.be/3DoiWNEAkhk?si=QwyjCrMyXWSaplFn",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/44Mhvx6TxUc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nolli"
-	},
-	{
-	  "hz": 40,
-	  "link": "https://youtu.be/Ow2wvGOLg_Q",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/k78hUtEWklc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/a8thJ_3uWCw",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/4KX7nYjdbnE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=xtXxeO_t6wE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=GnasYY6D8cE",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": "3",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/r4k7Tk4P_b0?si=p95YwPYmBlquJqN9",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Avenza - Wicked",
-  "songLink": "https://www.mediafire.com/file/opps9xbhzkjil3s/918532.mp3/file",
-  "verification": "https://www.youtube.com/watch?v=5ECxE5UMJJI",
-  "verifier": "Xeronius"
+    "id": 95152181,
+    "name": "Wicked Sick",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=5ECxE5UMJJI",
+    "percentToQualify": 100,
+    "song": "Avenza - Wicked",
+    "songLink": "https://www.mediafire.com/file/opps9xbhzkjil3s/918532.mp3/file",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/3DoiWNEAkhk?si=QwyjCrMyXWSaplFn",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 3
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/44Mhvx6TxUc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/Ow2wvGOLg_Q",
+            "percent": 100,
+            "hz": 40,
+            "mobile": true
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/k78hUtEWklc",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/a8thJ_3uWCw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/4KX7nYjdbnE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=xtXxeO_t6wE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=GnasYY6D8cE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=hkiCpD0Su1k",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "3"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/r4k7Tk4P_b0?si=p95YwPYmBlquJqN9",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 6
+        }
+    ]
 }

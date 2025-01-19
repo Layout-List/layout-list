@@ -1,30 +1,29 @@
 {
-  "creators": [
-	"whitmp4"
-  ],
-  "difficulty": 1,
-  "id": 93876711,
-  "name": "Coherency",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/2bQg0q9trOLid1/d1337uylG24k?invite=cr-MSxTYkUsMTk3MjYyOTM2LA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/9hrqE-nns40?si=HHHDzJ2Nj8GK2Lg5",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "cornandbeans - {Midnight}",
-  "verification": "https://youtu.be/pIOGRradoAM?si=8-gjXGY_EEB2vc9n",
-  "verifier": "whitmp4"
+    "id": 93876711,
+    "name": "Coherency",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://youtu.be/pIOGRradoAM?si=8-gjXGY_EEB2vc9n",
+    "percentToQualify": 100,
+    "song": "cornandbeans - {Midnight}",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://medal.tv/games/geometry-dash/clips/2bQg0q9trOLid1/d1337uylG24k?invite=cr-MSxTYkUsMTk3MjYyOTM2LA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/9hrqE-nns40?si=HHHDzJ2Nj8GK2Lg5",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        }
+    ]
 }

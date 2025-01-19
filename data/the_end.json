@@ -1,114 +1,113 @@
 {
-  "creators": [
-	"xxblogde2xx"
-  ],
-  "difficulty": 2,
-  "id": 81014240,
-  "name": "The End Is Here",
-  "password": "200515",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/2B7fxux3Ags",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DJJDK"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/1Hy6ktQeOOk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/GrTzLc4tV6U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/1zI7klLy2eQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/3PfxkiREgEM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/pGPvTOnyg1g",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=JBxlaZCULN4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Edu"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 75,
-	  "link": "https://youtu.be/OMX7iWT5HX8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 360,
-	  "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/_9dT9VewN5Y?si=uTfFbEaVsA8jsoB6",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "showcase": "https://youtu.be/LTp7q7dZLtE",
-  "song": "Porter Robinson - Goodbye To A World (Pitched Down)",
-  "songLink": "https://www.mediafire.com/file/0dx9ow6nmx24lse/676.mp3/file",
-  "verification": "https://youtu.be/7tlwTUKlXHs",
-  "verifier": "PoolGAMER"
+    "id": 81014240,
+    "name": "The End Is Here",
+    "author": "xxblogde2xx",
+    "creators": [],
+    "verifier": "PoolGAMER",
+    "verification": "https://youtu.be/7tlwTUKlXHs",
+    "showcase": "https://youtu.be/LTp7q7dZLtE",
+    "password": "200515",
+    "percentToQualify": 100,
+    "song": "Porter Robinson - Goodbye To A World (Pitched Down)",
+    "songLink": "https://www.mediafire.com/file/0dx9ow6nmx24lse/676.mp3/file",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/2B7fxux3Ags",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/1Hy6ktQeOOk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/GrTzLc4tV6U",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/1zI7klLy2eQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/3PfxkiREgEM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+          "user": "ThisGuyKreas",
+          "link": "https://youtu.be/pGPvTOnyg1g",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true
+        },
+          {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=0q_ou1uRfKk",
+            "percent": 100,
+            "hz": 360,
+            "enjoyment": 10,
+            "mobile": false
+        },
+         {
+            "user": "Edu",
+            "link": "https://www.youtube.com/watch?v=JBxlaZCULN4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/OMX7iWT5HX8",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/_9dT9VewN5Y?si=uTfFbEaVsA8jsoB6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

@@ -1,83 +1,83 @@
 {
-  "creators": [
-	"gokill",
-	"electro543",
-	"aleph",
-	"asumix",
-	"noobypro27",
-	"novawaveJ",
-	"sqrtpie",
-	"zDark",
-	"vszruul"
-  ],
-  "difficulty": 3,
-  "id": 84387366,
-  "name": "Kill Pressure",
-  "password": "Not Copyable",
-  "percentToQualify": 45,
-  "records": [
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/T5TOfabfWy0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/vczsqExhLjs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Jab"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=e-7DJaedcVY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/HEIrXWUWCMI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/gXrjU4jtmrA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/c6ci4C_cIHM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Bibox"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 120,
-	  "link": "https://youtu.be/ppTlgtdg8G8?si=noQbw9bCggPbunwt",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "showcase": "https://www.youtube.com/watch?v=KV1QZXLdgvY&ab_channel=LayoutListShowcases",
-  "song": "Disciple - How We Roll",
-  "songLink": "https://www.mediafire.com/file/lrux6guojvtwc52/9009.mp3/file",
-  "verification": "https://youtu.be/4RVh1fLCz6Q",
-  "verifier": "zDark"
+    "id": 84387366,
+    "name": "Kill Pressure",
+    "author": "vszruul",
+    "creators": [
+        "gokill",
+        "electro543",
+        "aleph",
+        "asumix",
+        "noobypro27",
+        "novawaveJ",
+        "sqrtpie",
+        "zDark"
+    ],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/4RVh1fLCz6Q",
+    "showcase": "https://www.youtube.com/watch?v=KV1QZXLdgvY&ab_channel=LayoutListShowcases",
+    "percentToQualify": 45,
+    "password": "Not Copyable",
+    "song": "Disciple - How We Roll",
+    "songLink": "https://www.mediafire.com/file/lrux6guojvtwc52/9009.mp3/file",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/T5TOfabfWy0",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Jab",
+            "link": "https://youtu.be/vczsqExhLjs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=e-7DJaedcVY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/HEIrXWUWCMI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/gXrjU4jtmrA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Bibox",
+            "link": "https://youtu.be/c6ci4C_cIHM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/ppTlgtdg8G8?si=noQbw9bCggPbunwt",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

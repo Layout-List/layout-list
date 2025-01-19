@@ -1,80 +1,79 @@
 {
-  "creators": [
-	"Hyperbeat"
-  ],
-  "difficulty": 8,
-  "enjoyment": 9,
-  "id": 97372142,
-  "name": "Rhyotic",
-  "percentToQualify": 68,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/zzz3qDcVuuE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=h2rTfGW4fSY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/-9l6KgRUzks",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Robotic"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/VUNaNpzry9A",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/CvwlBiM3N_U?si=7iMN0GWmPFo6hNUV",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=32lICkRZoN0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=-LbHsIxk9u8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	}
-  ],
-  "song": "BeutNoise - Embrace",
-  "songLink": "https://drive.google.com/file/d/1K-_FoOdrd4uoSSDfOvv0twkNjdIvlgP-/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=XQQ1xRWZQ3E",
-  "verifier": "Hyperbeat"
+    "id": 97372142,
+    "name": "Rhyotic",
+    "author": "Hyperbeat",
+    "creators": [],
+    "verifier": "Hyperbeat",
+    "verification": "https://www.youtube.com/watch?v=XQQ1xRWZQ3E",
+    "percentToQualify": 68,
+    "song": "BeutNoise - Embrace",
+    "songLink": "https://drive.google.com/file/d/1K-_FoOdrd4uoSSDfOvv0twkNjdIvlgP-/view?usp=drive_link",
+    "difficulty": 8,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/zzz3qDcVuuE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "zDark",
+            "link": "https://www.youtube.com/watch?v=h2rTfGW4fSY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/-9l6KgRUzks",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/VUNaNpzry9A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/CvwlBiM3N_U?si=7iMN0GWmPFo6hNUV",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=32lICkRZoN0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=-LbHsIxk9u8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
+        }
+    ]
 }

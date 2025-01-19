@@ -1,142 +1,141 @@
 {
-  "creators": [
-	"morsey"
-  ],
-  "difficulty": 8,
-  "id": 95261876,
-  "name": "go beyond nerf",
-  "percentToQualify": 56,
-  "records": [
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=M-lxGYVUhHw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/ZFQUWghcgUc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=7p--9cFrgj0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 360,
-	  "link": "https://youtu.be/pnqeKs21YUw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/EwAW5sWwqI4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Catchit27"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=_Np5EEFG-6U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Robotic"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=m67i8fyb8as",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/aqvIwNwrLfk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Akuriserv"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/eeV9lFSSOPk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 480,
-	  "link": "https://www.youtube.com/watch?v=cM3NhZnHkVc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "hjog"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=hDpCglb8VoA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "morsey"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/0sQOAO-OGTM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 240,
-	  "link": "https://youtu.be/adPTrC7oHp0?si=-5xn26tqmCIMYsYh",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Ufhn8Jn8ivw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "cinderrblock"
-	}
-  ],
-  "song": "Dungeecount - Distraught Subconscience",
-  "verification": "https://youtu.be/dI-3RnDi8O8",
-  "verifier": "Mystikl"
+    "id": 95261876,
+    "name": "go beyond nerf",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "Mystikl",
+    "verification": "https://youtu.be/dI-3RnDi8O8",
+    "percentToQualify": 56,
+    "song": "Dungeecount - Distraught Subconscience",
+    "difficulty": 8,
+    "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=M-lxGYVUhHw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/ZFQUWghcgUc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=7p--9cFrgj0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/pnqeKs21YUw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Catchit27",
+            "link": "https://youtu.be/EwAW5sWwqI4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=_Np5EEFG-6U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "zWren",
+            "link": "https://www.youtube.com/watch?v=m67i8fyb8as",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "Akuriserv",
+            "link": "https://youtu.be/aqvIwNwrLfk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+         {
+            "user": "Riley",
+            "link": "https://youtu.be/eeV9lFSSOPk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+         },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=cM3NhZnHkVc",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=hDpCglb8VoA",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/0sQOAO-OGTM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://youtu.be/adPTrC7oHp0?si=-5xn26tqmCIMYsYh",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "cinderrblock",
+            "link": "https://www.youtube.com/watch?v=Ufhn8Jn8ivw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        }
+    ]
 }

@@ -1,71 +1,70 @@
 {
-  "creators": [
-	"Hyperbeat"
-  ],
-  "difficulty": 1,
-  "enjoyment": 9,
-  "id": 102230703,
-  "name": "Fluidity",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/zdxf204b4o8?si=Gnb67BCprI6bh_1g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/WPtzvN5Bxk8?si=w1LmAQIFeQkPzgso",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/DQy6resmWvg?si=Gwa8dKNOqLL72YvB",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 360,
-	  "link": "https://youtu.be/B64M7eHUP3M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/V_bcFEtg7sc",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=xGaaabAJOxc&list=PLDSRT6L3kL_ZUWPgDVX1eH20liyzwekDO&index=96&t=5s",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://m.youtube.com/watch?v=zssHubT-hKs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "RadiantHun"
-	}
-  ],
-  "song": "SkybreakEDM - Seraphim (Angels & Demons II)",
-  "verification": "https://www.youtube.com/watch?v=TBlxA1qA0dc",
-  "verifier": "Hyperbeat"
+    "id": 102230703,
+    "name": "Fluidity",
+    "author": "Hyperbeat",
+    "creators": [],
+    "verifier": "Hyperbeat",
+    "verification": "https://www.youtube.com/watch?v=TBlxA1qA0dc",
+    "percentToQualify": 100,
+    "song": "SkybreakEDM - Seraphim (Angels & Demons II)",
+    "difficulty": 1,
+    "enjoyment": 9,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/zdxf204b4o8?si=Gnb67BCprI6bh_1g",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" : 9
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/WPtzvN5Bxk8?si=w1LmAQIFeQkPzgso",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment" : 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/DQy6resmWvg?si=Gwa8dKNOqLL72YvB",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/B64M7eHUP3M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+         {
+            "user": "sn0w",
+            "link": "https://youtu.be/V_bcFEtg7sc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": true,
+            "enjoyment": 8
+         },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=xGaaabAJOxc&list=PLDSRT6L3kL_ZUWPgDVX1eH20liyzwekDO&index=96&t=5s",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "RadiantHun",
+            "link": "https://m.youtube.com/watch?v=zssHubT-hKs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

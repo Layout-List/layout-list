@@ -1,133 +1,132 @@
 {
-  "creators": [
-	"Coinlol"
-  ],
-  "difficulty": 1,
-  "id": 102511672,
-  "name": "DIAN",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "8",
-	  "hz": 60,
-	  "link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://youtu.be/Rvg86NjtlFQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 600,
-	  "link": "https://youtu.be/SKRKPESOwRQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DJJDK"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=NulK9SBF0CU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "xanyx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 60,
-	  "link": "https://youtu.be/7oqI7JmPnSs?si=MhRDnS3PLp_fO1qv",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ToastyTP"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/xMTXn5I1KXg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 480,
-	  "link": "https://youtu.be/MxT9_mYhLy0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tanginess"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Paladean"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=BZEmjBWwKJw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "josikp"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
-	  "percent": 100,
-	  "user": "sphericle"
-	}
-  ],
-  "song": "EX-LYD - Cosmic Dance",
-  "verification": "https://youtu.be/ZOrJdROOeEc?si=25M-6g5DVwXaEy4k",
-  "verifier": "Coinlol"
+	"id": 102511672,
+	"name": "DIAN",
+	"author": "Coinlol",
+	"creators": [],
+	"verifier": "Coinlol",
+	"verification": "https://youtu.be/ZOrJdROOeEc?si=25M-6g5DVwXaEy4k",
+	"percentToQualify": 100,
+	"song": "EX-LYD - Cosmic Dance",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "8"
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/Rvg86NjtlFQ",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": "8"
+		},
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/SKRKPESOwRQ",
+			"percent": 100,
+			"hz": 600,
+			"mobile": false,
+			"enjoyment": "9"
+		},
+		{
+			"user": "xanyx",
+			"link": "https://www.youtube.com/watch?v=NulK9SBF0CU",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/7oqI7JmPnSs?si=MhRDnS3PLp_fO1qv",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 5
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/hEduWNbkjn0?si=gB8Zo3471REB7hsQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/xMTXn5I1KXg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Tanginess",
+			"link": "https://youtu.be/MxT9_mYhLy0",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Paladean",
+			"link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "josikp",
+			"link": "https://www.youtube.com/watch?v=BZEmjBWwKJw",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }

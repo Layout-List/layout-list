@@ -1,53 +1,53 @@
 {
-  "creators": [
-	"ImPhara",
-	"Asteria.",
-	"RaynoXx",
-	"Xeronius",
-	"Bibox",
-	"Flare",
-	"sn0w",
-	"monthmai",
-	"Popples",
-	"Tanginess",
-	"nxtcrystxl",
-	"Jasmine",
-	"agentgiscool",
-	"Blueberry",
-	"Hyperbeat"
-  ],
-  "difficulty": 7,
-  "enjoyment": 10,
-  "id": 103548659,
-  "name": "Adventurer",
-  "percentToQualify": 59,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/d4895QtMM2w",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/3N70foS5hnI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	}
-  ],
-  "song": "Koraii - Sanctuary",
-  "verification": "https://youtu.be/FhbH_-RHBBY?si=Cv1TSu3HlfVWeDgw",
-  "verifier": "Hyperbeat"
+    "id": 103548659,
+    "name": "Adventurer",
+    "author": "Hyperbeat",
+    "creators": [
+        "ImPhara",
+        "Asteria.",
+        "RaynoXx",
+        "Xeronius",
+        "Bibox",
+        "Flare",
+        "sn0w",
+        "monthmai",
+        "Popples",
+        "Tanginess",
+        "nxtcrystxl",
+        "Jasmine",
+        "agentgiscool",
+        "Blueberry"
+    ],
+    "verifier": "Hyperbeat",
+    "verification": "https://youtu.be/FhbH_-RHBBY?si=Cv1TSu3HlfVWeDgw",
+    "percentToQualify": 59,
+    "song": "Koraii - Sanctuary",
+    "difficulty": 7,
+    "enjoyment": 10,
+    "records": [
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/d4895QtMM2w",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/3N70foS5hnI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 1
+        }
+    ]
 }

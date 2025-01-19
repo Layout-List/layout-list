@@ -1,126 +1,125 @@
 {
-  "creators": [
-	"DJJDK"
-  ],
-  "difficulty": 5,
-  "id": 81217458,
-  "name": "Think About It",
-  "percentToQualify": 52,
-  "records": [
-	{
-	  "hz": 288,
-	  "link": "https://youtu.be/MfCs-9Ti80s",
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/FX2NMVuZPmM",
-	  "percent": 100,
-	  "user": "Armani"
-	},
-	{
-	  "hz": 288,
-	  "link": "https://clips.twitch.tv/RudeHealthyLampTebowing-xfp3hlnNNS8j87dI",
-	  "percent": 100,
-	  "user": "Blathers"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=tYnoQd3bI7E",
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/-cAUU5KoBJQ",
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/He2CCTYeYhU",
-	  "percent": 100,
-	  "user": "Jab"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/sFtTYC02uMo",
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/C02ZsX0yS7E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=TRz8S7FWs7M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "FluffyCatNeo"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=Xp2FhcBPH7c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Plazma"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 120,
-	  "link": "https://youtu.be/tXCRr8x7AvY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Vink"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 240,
-	  "link": "https://medal.tv/games/geometry-dash/clips/iTHnzg6WOkTAKstHr?invite=cr-MSxiN3QsMTg1OTcxMTAwLA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	}
-  ],
-  "showcase": "https://www.youtube.com/watch?v=CB6_h9O5IJg&ab_channel=LayoutListShowcases",
-  "song": "KORAII - think about it 🍷~",
-  "verification": "https://youtu.be/sSMhnQtCwSs",
-  "verifier": "DJJDK"
+    "id": 81217458,
+    "name": "Think About It",
+    "author": "DJJDK",
+    "creators": [],
+    "verifier": "DJJDK",
+    "verification": "https://youtu.be/sSMhnQtCwSs",
+    "showcase": "https://www.youtube.com/watch?v=CB6_h9O5IJg&ab_channel=LayoutListShowcases",
+    "percentToQualify": 52,
+    "song": "KORAII - think about it \ud83c\udf77~",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "Fusion425",
+            "link": "https://youtu.be/MfCs-9Ti80s",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Blathers",
+            "link": "https://clips.twitch.tv/RudeHealthyLampTebowing-xfp3hlnNNS8j87dI",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=tYnoQd3bI7E",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/-cAUU5KoBJQ",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Jab",
+            "link": "https://youtu.be/He2CCTYeYhU",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/sFtTYC02uMo",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/C02ZsX0yS7E",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "FluffyCatNeo",
+            "link": "https://www.youtube.com/watch?v=TRz8S7FWs7M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Plazma",
+            "link": "https://www.youtube.com/watch?v=Xp2FhcBPH7c",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/tXCRr8x7AvY",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iTHnzg6WOkTAKstHr?invite=cr-MSxiN3QsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        }
+    ]
 }

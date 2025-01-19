@@ -1,69 +1,68 @@
 {
-  "creators": [
-	"Blathers"
-  ],
-  "difficulty": 7,
-  "id": 93673528,
-  "name": "Experiment (2 Player)",
-  "percentToQualify": 59,
-  "records": [
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=V3NdP7VJgjo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Magmeta"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/s7DKpTXNgyY?si=yDBTUSgMx67ZZBqb",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/nyrR411hNGY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=_huqAMyC1Ug&ab_channel=rastuyas",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=N7453nPkIQo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/Ret8ztfClQE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=WWfABhrS6K8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas but french"
-	}
-  ],
-  "showcase": "https://youtu.be/XNjHs3bCxH4?si=5mgsEy0oxNqJ3QgM",
-  "song": "Lone - Triple Helix",
-  "songLink": "https://www.mediafire.com/file/o77dpfr9vugt71i/1163930_%25281%2529.mp3/file",
-  "verification": "https://youtu.be/l9AiUqCgh6Q",
-  "verifier": "Blathers"
+    "id": 93673528,
+    "name": "Experiment (2 Player)",
+    "author": "Blathers",
+    "creators": [],
+    "verifier": "Blathers",
+    "verification": "https://youtu.be/l9AiUqCgh6Q",
+    "showcase": "https://youtu.be/XNjHs3bCxH4?si=5mgsEy0oxNqJ3QgM",
+    "percentToQualify": 59,
+    "song": "Lone - Triple Helix",
+    "songLink": "https://www.mediafire.com/file/o77dpfr9vugt71i/1163930_%25281%2529.mp3/file",
+    "difficulty": 7,
+    "records": [
+        {
+            "user": "Magmeta",
+            "link": "https://www.youtube.com/watch?v=V3NdP7VJgjo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/s7DKpTXNgyY?si=yDBTUSgMx67ZZBqb",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/nyrR411hNGY",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=_huqAMyC1Ug&ab_channel=rastuyas",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=N7453nPkIQo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/Ret8ztfClQE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "rastuyas but french",
+            "link": "https://www.youtube.com/watch?v=WWfABhrS6K8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

@@ -1,31 +1,30 @@
 {
-  "creators": [
-	"idiotdash"
-  ],
-  "difficulty": 4,
-  "id": 71183856,
-  "name": "dunkaccirumiru",
-  "percentToQualify": 59,
-  "records": [
-	{
-	  "enjoyment": "9",
-	  "hz": 240,
-	  "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/hL-xm9UxXpc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	}
-  ],
-  "song": "Cakewalking Tortokhod - DUNKACCIRUMIRU",
-  "songLink": "https://www.mediafire.com/file/b39z7fad4iju7jj/573245.mp3/file",
-  "verification": "https://youtu.be/XUZpJGvZwIc?si=wvypT31gAUZmY-QD",
-  "verifier": "idiotdash"
+    "id": 71183856,
+    "name": "dunkaccirumiru",
+    "author": "idiotdash",
+    "creators": [],
+    "verifier": "idiotdash",
+    "verification": "https://youtu.be/XUZpJGvZwIc?si=wvypT31gAUZmY-QD",
+    "percentToQualify": 59,
+    "song": "Cakewalking Tortokhod - DUNKACCIRUMIRU",
+    "songLink": "https://www.mediafire.com/file/b39z7fad4iju7jj/573245.mp3/file",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/hL-xm9UxXpc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

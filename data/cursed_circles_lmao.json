@@ -1,15 +1,15 @@
 {
-  "creators": [
-	"justusrl",
-	"vitnz"
-  ],
-  "difficulty": 1,
-  "id": 94235324,
-  "name": "Cursed circles lmao",
-  "password": "Free to copy",
-  "percentToQualify": 100,
-  "records": [],
-  "song": "Creo - Drift",
-  "verification": "https://youtu.be/0zKDWbjwIGo",
-  "verifier": "vitnz"
+	"id": 94235324,
+	"name": "Cursed circles lmao",
+	"author": "vitnz",
+	"creators": [
+		"justusrl"
+	],
+	"verifier": "vitnz",
+	"verification": "https://youtu.be/0zKDWbjwIGo",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 1,
+	"song": "Creo - Drift",
+	"records": []
 }

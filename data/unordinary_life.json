@@ -1,90 +1,89 @@
 {
-  "creators": [
-	"Xeronius"
-  ],
-  "difficulty": 3,
-  "enjoyment": 7,
-  "id": 80914165,
-  "name": "Unordinary Life",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/ooXpj0D1pPQ?si=k6MjRLBpX72ovGzA",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Zyxo"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/AEK_TS_0PfI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/UPSk2fp723Y",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/yiR2n_7Zc98",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=B4yf_ubw5As",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/BU5Ms7PJ6D4?si=6R4W5pjrHDPo1iuU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=j0Zd16yT3W0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "agentgiscool"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/cQ17DF95ocs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "IIRafII"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "The Living Tombstone - My Ordinary Life",
-  "verification": "https://www.youtube.com/watch?v=BiN1Ma_nkUs",
-  "verifier": "Xeronius"
+    "id": 80914165,
+    "name": "Unordinary Life",
+    "author": "Xeronius",
+    "creators": [],
+    "verifier": "Xeronius",
+    "verification": "https://www.youtube.com/watch?v=BiN1Ma_nkUs",
+    "percentToQualify": 100,
+    "song": "The Living Tombstone - My Ordinary Life",
+    "difficulty": 3,
+    "enjoyment": 7,
+    "records": [
+         {
+            "user": "Zyxo",
+            "link": "https://youtu.be/ooXpj0D1pPQ?si=k6MjRLBpX72ovGzA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "mrperson",
+            "link": "https://youtu.be/AEK_TS_0PfI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/UPSk2fp723Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/yiR2n_7Zc98",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=B4yf_ubw5As",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BU5Ms7PJ6D4?si=6R4W5pjrHDPo1iuU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=j0Zd16yT3W0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        },
+        {
+            "user": "IIRafII",
+            "link": "https://youtu.be/cQ17DF95ocs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+    ]
 }

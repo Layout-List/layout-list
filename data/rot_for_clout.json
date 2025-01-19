@@ -1,39 +1,38 @@
 {
-  "creators": [
-	"monthmai"
-  ],
-  "difficulty": 3,
-  "enjoyment": 9,
-  "id": 112109941,
-  "name": "ROT FOR CLOUT",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/DpUzNBirtOs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/kLH_JDFh8y0?si=9wA_wDKcJDsmcseU&t=29",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sans_hanitizer"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=QKR-VKO_Obg",
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	}
-  ],
-  "song": "Jamie Paige - ROT FOR CLOUT",
-  "songLink": "https://www.mediafire.com/file/sxn5zjna5wt3fsk/588452.mp3/file",
-  "verification": "https://youtu.be/j02tVxmdNPg?si=r80OMrCFgA2fmQW3",
-  "verifier": "monthmai"
+	"id": 112109941,
+	"name": "ROT FOR CLOUT",
+	"author": "monthmai",
+	"creators": [],
+	"verifier": "monthmai",
+	"verification": "https://youtu.be/j02tVxmdNPg?si=r80OMrCFgA2fmQW3",
+	"percentToQualify": 100,
+	"song": "Jamie Paige - ROT FOR CLOUT",
+	"songLink": "https://www.mediafire.com/file/sxn5zjna5wt3fsk/588452.mp3/file",
+	"difficulty": 3,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/DpUzNBirtOs",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/kLH_JDFh8y0?si=9wA_wDKcJDsmcseU&t=29",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=QKR-VKO_Obg",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
+		}
+	]
 }

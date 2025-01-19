@@ -1,79 +1,78 @@
 {
-  "creators": [
-	"Fawami"
-  ],
-  "difficulty": 7,
-  "id": 94691611,
-  "name": "why am i still here",
-  "percentToQualify": 53,
-  "records": [
-	{
-	  "enjoyment": 2,
-	  "hz": 360,
-	  "link": "https://youtu.be/iWxSjET4Igc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Acacia"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=s9SEXzg25gI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Robotic"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 360,
-	  "link": "https://youtu.be/wk0ChqrwxBY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 360,
-	  "link": "https://youtu.be/eeV9lFSSOPk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 144,
-	  "link": "https://youtu.be/XVURElZER4M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 240,
-	  "link": "https://youtu.be/02KrW9AM1i0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	}
-  ],
-  "showcase": "https://youtu.be/UiE_GK9xr9A",
-  "song": "Joji - WHY AM I STILL IN LA",
-  "songLink": "https://drive.google.com/file/d/1R-mUUSajQXzqlARkysWG-v4OuJAu9rZE/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=KF5karWA8Q8",
-  "verifier": "Fawami"
+    "id": 94691611,
+    "name": "why am i still here",
+    "author": "Fawami",
+    "creators": [],
+    "verifier": "Fawami",
+    "verification": "https://www.youtube.com/watch?v=KF5karWA8Q8",
+    "showcase": "https://youtu.be/UiE_GK9xr9A",
+    "percentToQualify": 53,
+    "song": "Joji - WHY AM I STILL IN LA",
+    "songLink": "https://drive.google.com/file/d/1R-mUUSajQXzqlARkysWG-v4OuJAu9rZE/view?usp=drive_link",
+    "difficulty": 7,
+    "records": [
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/iWxSjET4Igc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=s9SEXzg25gI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/wk0ChqrwxBY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/eeV9lFSSOPk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/XVURElZER4M",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/02KrW9AM1i0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        }
+    ]
 }

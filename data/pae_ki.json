@@ -1,123 +1,122 @@
 {
-  "creators": [
-	"Aconn"
-  ],
-  "difficulty": 1,
-  "id": 55889899,
-  "name": "Pae Ki Layout",
-  "records": [
-	{
-	  "enjoyment": 7,
-	  "hz": 75,
-	  "link": "https://youtu.be/N_69DfxO8TY",
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/xuPSG5FYZXA?si=eMfkGUSJ3piuO7Iz",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=4rwyreK_6Qg",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=aS8lxxyjuIM&ab_channel=Asteria..",
-	  "percent": 100,
-	  "user": "Asteria."
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ToastyTP"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/htv_gLIVz2c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "VGdarkz"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/UfKD5jAP0lY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Paladean"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/ljMl4PS6sao?si=_UcZUrbPwx565zvS",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "DERYAMIX"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/ANPqtCjCmmQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "HyplaY"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=xh5RwYyaMmU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	}
-  ],
-  "song": "Meganeko - tak - pae-ki (meganeko remix)",
-  "verification": "https://www.youtube.com/watch?v=wk8dgpVAptE",
-  "verifier": "QwidziT"
+    "id": 55889899,
+    "name": "Pae Ki Layout",
+    "author": "Aconn",
+    "creators": [],
+    "verifier": "QwidziT",
+    "verification": "https://www.youtube.com/watch?v=wk8dgpVAptE",
+    "song": "Meganeko - tak - pae-ki (meganeko remix)",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/N_69DfxO8TY",
+            "percent": 100,
+            "hz": 75,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/xuPSG5FYZXA?si=eMfkGUSJ3piuO7Iz",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=4rwyreK_6Qg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://www.youtube.com/watch?v=aS8lxxyjuIM&ab_channel=Asteria..",
+            "percent": 100,
+            "hz": 240,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+            "user": "VGdarkz",
+            "link": "https://youtu.be/htv_gLIVz2c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/UfKD5jAP0lY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "DERYAMIX",
+            "link": "https://youtu.be/ljMl4PS6sao?si=_UcZUrbPwx565zvS",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/ANPqtCjCmmQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=xh5RwYyaMmU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

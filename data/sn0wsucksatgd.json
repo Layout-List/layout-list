@@ -1,70 +1,69 @@
 {
-  "creators": [
-	"sn0w"
-  ],
-  "difficulty": 3,
-  "enjoyment": 8,
-  "id": 108815431,
-  "name": "sn0wsucksatgd",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 144,
-	  "link": "https://youtu.be/2JpEcvGItck?si=2VBNiGCNutuceL3V",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "fusemax"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 360,
-	  "link": "https://youtu.be/VivsCaE0DsA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=j7h_1Dn40RY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "IIRafII"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 60,
-	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "xKore - Showdown",
-  "verification": "https://youtu.be/NwfnIchfQw4",
-  "verifier": "sn0w"
+	"id": 108815431,
+	"name": "sn0wsucksatgd",
+	"author": "sn0w",
+	"creators": [],
+	"verifier": "sn0w",
+	"verification": "https://youtu.be/NwfnIchfQw4",
+	"percentToQualify": 100,
+	"song": "xKore - Showdown",
+	"difficulty": 3,
+	"enjoyment": 8,
+	"records": [
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "fusemax",
+			"link": "https://youtu.be/2JpEcvGItck?si=2VBNiGCNutuceL3V",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/yTEcVaMh2Ak",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/VivsCaE0DsA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/4ZWkSjcjuuE?si=o0x4m1Z_yYhj17J6",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "IIRafII",
+			"link": "https://www.youtube.com/watch?v=j7h_1Dn40RY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 5
+		}
+	]
 }

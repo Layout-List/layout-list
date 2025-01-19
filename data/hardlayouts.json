@@ -1,14 +1,15 @@
 {
-  "creators": [
-	""
-  ],
-  "difficulty": 3,
-  "id": 0,
-  "name": "(Hard Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Hard Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 3,
+    "records": [
+        
+    ]
 }

@@ -1,128 +1,127 @@
 {
-  "creators": [
-	"Asteria."
-  ],
-  "difficulty": 2,
-  "id": 99436836,
-  "name": "Azure Peaks",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=0AxTLL3Zjho",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/XqZlhXL9el4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=u_Q9e7OJCmw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=C2HRoSXUtg0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=wYa5p_bezPE",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 120,
-	  "link": "https://youtu.be/iTC3GlKZHAY",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "hz": 500,
-	  "link": "https://youtu.be/zSM8jjqZLAk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blueberry"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=QgGPx0SkrfU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Fallen"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/NWmQXNq69e0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=zJOYCrHapc4&ab_channel=Tup1%5BGD%5D",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tupi"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 60,
-	  "link": "https://youtu.be/k3hOZV70DBQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "xanyx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	}
-  ],
-  "song": "DSMagnum - -[ HailFIRE Peaks ]-",
-  "verification": "https://www.youtube.com/watch?v=H01lztckkB0",
-  "verifier": "Asteria."
+    "id": 99436836,
+    "name": "Azure Peaks",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "Asteria.",
+    "verification": "https://www.youtube.com/watch?v=H01lztckkB0",
+    "percentToQualify": 100,
+    "song": "DSMagnum - -[ HailFIRE Peaks ]-",
+    "difficulty": 2,
+    "records": [
+         {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=0AxTLL3Zjho",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+             "enjoyment": "8"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/XqZlhXL9el4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=u_Q9e7OJCmw",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://www.youtube.com/watch?v=C2HRoSXUtg0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=wYa5p_bezPE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "9"
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+          {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/iTC3GlKZHAY",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://youtu.be/zSM8jjqZLAk",
+            "percent": 100,
+            "hz": 500,
+            "mobile": false
+        },
+        {
+            "user": "Fallen",
+            "link": "https://www.youtube.com/watch?v=QgGPx0SkrfU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+         {
+            "user": "sn0w",
+            "link": "https://youtu.be/NWmQXNq69e0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=zJOYCrHapc4&ab_channel=Tup1%5BGD%5D",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "xanyx",
+            "link": "https://youtu.be/k3hOZV70DBQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
+        }
+    ]
 }

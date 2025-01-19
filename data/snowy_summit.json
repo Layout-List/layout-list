@@ -1,103 +1,102 @@
 {
-  "creators": [
-	"exho"
-  ],
-  "difficulty": 2,
-  "id": 86996037,
-  "name": "Snowy Summit",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": " watched",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Fusion425"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/nd24j6jnzPc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/6xhFkQPZONw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/omMSxFnTrTE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/SgM2NPFT-l8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/UY67_CssvsE",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/FMI8pWu0W7w",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nolli"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 240,
-	  "link": "https://youtu.be/fP4G7-GcmmU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 360,
-	  "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://youtu.be/WTx0R6acX_E?si=apYGvIY8PyQNRyvU",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 60,
-	  "link": "https://youtu.be/Rc8v7-kAp_A?si=tDyQtk8F_dcpQ3bM",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "LucidShadowDreamer - In Love with the Wind",
-  "verification": "https://www.youtube.com/watch?v=fCz1Ioc53Zk",
-  "verifier": "exho"
+    "id": 86996037,
+    "name": "Snowy Summit",
+    "author": "exho",
+    "creators": [],
+    "verifier": "exho",
+    "verification": "https://www.youtube.com/watch?v=fCz1Ioc53Zk",
+    "percentToQualify": 100,
+    "song": "LucidShadowDreamer - In Love with the Wind",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Fusion425",
+            "link": " watched",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/nd24j6jnzPc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/6xhFkQPZONw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/omMSxFnTrTE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/SgM2NPFT-l8",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/UY67_CssvsE",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/FMI8pWu0W7w",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/fP4G7-GcmmU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/WTx0R6acX_E?si=apYGvIY8PyQNRyvU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Rc8v7-kAp_A?si=tDyQtk8F_dcpQ3bM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 1
+        }
+    ]
 }

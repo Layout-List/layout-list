@@ -1,55 +1,54 @@
 {
-  "creators": [
-	"[RFD]Fribble"
-  ],
-  "difficulty": 6,
-  "id": 110387556,
-  "name": "somebawdy",
-  "percentToQualify": 60,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 480,
-	  "link": "https://www.youtube.com/watch?v=-29CoP30HHg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "hjog"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/MTQce2Etub4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=QBpidz9gvsw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	}
-  ],
-  "song": "ericdoa - dancinwithsombawdy",
-  "songLink": "https://drive.google.com/file/d/12UHvQkNGX6siPKG-1QFYDmZ2u3Kp_GpQ/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=ePn0MiMpYzI",
-  "verifier": "Dom_Luca"
+	"id": 110387556,
+	"name": "somebawdy",
+	"author": "[RFD]Fribble",
+	"creators": [],
+	"verifier": "Dom_Luca",
+	"verification": "https://www.youtube.com/watch?v=ePn0MiMpYzI",
+	"percentToQualify": 60,
+	"song": "ericdoa - dancinwithsombawdy",
+	"songLink": "https://drive.google.com/file/d/12UHvQkNGX6siPKG-1QFYDmZ2u3Kp_GpQ/view?usp=drive_link",
+	"difficulty": 6,
+	"records": [
+		{
+			"user": "hjog",
+			"link": "https://www.youtube.com/watch?v=-29CoP30HHg",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/MTQce2Etub4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=QBpidz9gvsw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Riley",
+			"link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
 }

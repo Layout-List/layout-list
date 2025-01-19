@@ -1,54 +1,53 @@
 {
-  "creators": [
-	"Solelak"
-  ],
-  "difficulty": 2,
-  "enjoyment": 10,
-  "id": 109126257,
-  "name": "Magart Thatch",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/Yo0asAIlNes?si=6tieQnUVMgdDXjCS",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://youtu.be/OmbmtoXC86g",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "Blast Processing - Waterflame",
-  "verification": "https://youtu.be/Reh7bXXgWh0?si=yFR4PMAcLYrPiNg7",
-  "verifier": "sn0w"
+    "id": 109126257,
+    "name": "Magart Thatch",
+    "author": "Solelak",
+    "creators": [],
+    "verifier": "sn0w",
+    "verification": "https://youtu.be/Reh7bXXgWh0?si=yFR4PMAcLYrPiNg7",
+    "percentToQualify": 100,
+    "song": "Blast Processing - Waterflame",
+    "difficulty": 2,
+    "enjoyment": 10,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Yo0asAIlNes?si=6tieQnUVMgdDXjCS",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/OmbmtoXC86g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        }
+    ]
 }

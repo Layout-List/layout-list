@@ -1,78 +1,77 @@
 {
-  "creators": [
-	"Tanginess"
-  ],
-  "difficulty": 1,
-  "id": 106400458,
-  "name": "violet party",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "?",
-	  "hz": 1000,
-	  "link": "https://www.youtube.com/watch?v=Kd1aPMEGpXs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tanginess"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 240,
-	  "link": "https://youtu.be/06nWFyDZTic",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=b808jvpOry8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=hmdj5vnbfn0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Zyxo"
-	},
-	{
-	  "enjoyment": "6",
-	  "hz": 360,
-	  "link": "https://youtu.be/zpyXntm_Uys",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": "4",
-	  "hz": 240,
-	  "link": "https://youtu.be/ejU9GDjMHuI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=nU9IJgrlBJY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Lln5kYlmr68",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	}
-  ],
-  "song": "lexycat - Jasmine",
-  "verification": "https://youtu.be/3E-s2EyhT9M",
-  "verifier": "Spaace"
+    "id": 106400458,
+    "name": "violet party",
+    "author": "Tanginess",
+    "creators": [],
+    "verifier": "Spaace",
+    "verification": "https://youtu.be/3E-s2EyhT9M",
+    "percentToQualify": 100,
+    "song": "lexycat - Jasmine",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Tanginess",
+            "link": "https://www.youtube.com/watch?v=Kd1aPMEGpXs",
+            "percent": 100,
+            "hz": 1000,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/06nWFyDZTic",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=b808jvpOry8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=hmdj5vnbfn0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/zpyXntm_Uys",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "6"
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/ejU9GDjMHuI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "4"
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=nU9IJgrlBJY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=Lln5kYlmr68",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": "9"
+        }
+    ]
 }

@@ -1,14 +1,15 @@
 {
-  "creators": [
-	""
-  ],
-  "difficulty": 2,
-  "id": 0,
-  "name": "(Medium Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Medium Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 2,
+    "records": [
+        
+    ]
 }

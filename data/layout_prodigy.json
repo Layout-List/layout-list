@@ -1,109 +1,108 @@
 {
-  "creators": [
-	"whitmp4"
-  ],
-  "difficulty": 3,
-  "id": 95430818,
-  "name": "Layout Prodigy",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "?",
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=t-CpHmM8RhM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "whitmp4"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://youtu.be/FZ-PlaZ_aSQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 144,
-	  "link": "https://youtu.be/-Y3pdOuDiHE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=GOqya35T05g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "morsey"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=7NYi4rHUDrI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "yarn"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 360,
-	  "link": "https://youtu.be/PemntjYh6l0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/WrjzlGZEI-g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://youtu.be/wnpidmKrzhI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 120,
-	  "link": "https://youtu.be/9AjSB4c7Zz4?si=nyXCVyXWDerlagB9",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/hNEhdQaVsGA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/7IxIlxFco60",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	}
-  ],
-  "song": "Creo - Never Make It",
-  "verification": "https://youtu.be/TbCcc51o_gg?si=iUjJLHfx7GGbUkB2",
-  "verifier": "evil"
+    "id": 95430818,
+    "name": "Layout Prodigy",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "evil",
+    "verification": "https://youtu.be/TbCcc51o_gg?si=iUjJLHfx7GGbUkB2",
+    "percentToQualify": 100,
+    "song": "Creo - Never Make It",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "whitmp4",
+            "link": "https://www.youtube.com/watch?v=t-CpHmM8RhM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/FZ-PlaZ_aSQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/-Y3pdOuDiHE",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=GOqya35T05g",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": 10
+        },
+         {
+            "user": "yarn",
+            "link": "https://www.youtube.com/watch?v=7NYi4rHUDrI",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/PemntjYh6l0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/WrjzlGZEI-g",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/wnpidmKrzhI",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/9AjSB4c7Zz4?si=nyXCVyXWDerlagB9",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/hNEhdQaVsGA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/7IxIlxFco60",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

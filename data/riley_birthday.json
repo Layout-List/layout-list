@@ -1,47 +1,46 @@
 {
-  "creators": [
-	"Tanginess"
-  ],
-  "difficulty": 1,
-  "id": 106124190,
-  "name": "riley birthday",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 3,
-	  "hz": 360,
-	  "link": "https://youtu.be/60yv35bYo9g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 144,
-	  "link": "https://youtu.be/M7UVVMmNK5E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=TzI2xRfKeik",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Zyxo"
-	}
-  ],
-  "song": "Parry Gripp - This Is The Best Burrito I've Ever Eaten",
-  "songLink": "https://www.mediafire.com/file/e65k6r0ytc27a57/19.mp3/file",
-  "verification": "https://www.youtube.com/watch?v=W3Btg7Dki0E",
-  "verifier": "Tanginess"
+    "id": 106124190,
+    "name": "riley birthday",
+    "author": "Tanginess",
+    "creators": [],
+    "verifier": "Tanginess",
+    "verification": "https://www.youtube.com/watch?v=W3Btg7Dki0E",
+    "percentToQualify": 100,
+    "song": "Parry Gripp - This Is The Best Burrito I've Ever Eaten",
+    "songLink": "https://www.mediafire.com/file/e65k6r0ytc27a57/19.mp3/file",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/60yv35bYo9g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/M7UVVMmNK5E",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=TzI2xRfKeik",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

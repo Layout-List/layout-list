@@ -1,14 +1,15 @@
 {
-  "creators": [
-	""
-  ],
-  "difficulty": 1,
-  "id": 0,
-  "name": "(Easy Layouts)",
-  "password": "",
-  "percentToQualify": 0,
-  "records": [],
-  "song": "",
-  "verification": "",
-  "verifier": ""
+    "id": 0,
+    "name": "(Easy Layouts)",
+    "author": "",
+    "creators": [],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": 0,
+    "password": "",
+    "song": "",
+    "difficulty": 1,
+    "records": [
+        
+    ]
 }

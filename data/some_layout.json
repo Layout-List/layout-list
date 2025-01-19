@@ -1,123 +1,122 @@
 {
-  "creators": [
-	"Wodka"
-  ],
-  "difficulty": 2,
-  "id": 79135723,
-  "name": "Some Layout",
-  "password": "001234",
-  "percentToQualify": 60,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/FX2NMVuZPmM",
-	  "percent": 100,
-	  "user": "Armani"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/2n9du9QD33k",
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "agentgiscool"
-	},
-	{
-	  "hz": "360",
-	  "link": "https://youtu.be/5uxyBDTC1eQ",
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": "360",
-	  "link": "https://youtu.be/xNqzLZ6dHT8",
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/Hj2VLeEMf-Q",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "4",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=-Yso7O8Rp8k",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/w6LpmhfSz8E",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 120,
-	  "link": "https://youtu.be/1Er-I8gEr2M?si=g67zNf3JVCo1Y2Bp",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/6HPuB3SxCfQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/WV9dvrM50M0?si=F98KbCXz6K2DfhNS",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/b7IOc7cPgyw",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Creo - Aurora",
-  "verification": "https://youtu.be/Efsm_FaLTy4",
-  "verifier": "Wodka"
+    "id": 79135723,
+    "name": "Some Layout",
+    "author": "Wodka",
+    "creators": [],
+    "verifier": "Wodka",
+    "verification": "https://youtu.be/Efsm_FaLTy4",
+    "percentToQualify": 60,
+    "password": "001234",
+    "song": "Creo - Aurora",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Armani",
+            "link": "https://youtu.be/FX2NMVuZPmM",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/2n9du9QD33k",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://www.youtube.com/watch?v=sM8aBnuV_5Q",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/5uxyBDTC1eQ",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/xNqzLZ6dHT8",
+            "percent": 100,
+            "hz": "360"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/Hj2VLeEMf-Q",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=-Yso7O8Rp8k",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "4"
+        },
+         {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/w6LpmhfSz8E",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/1Er-I8gEr2M?si=g67zNf3JVCo1Y2Bp",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/6HPuB3SxCfQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+         {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/WV9dvrM50M0?si=F98KbCXz6K2DfhNS",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/b7IOc7cPgyw",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+    ]
 }

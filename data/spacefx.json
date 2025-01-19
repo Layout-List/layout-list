@@ -1,70 +1,69 @@
 {
-  "creators": [
-	"xXDoraimonXx"
-  ],
-  "difficulty": 1,
-  "id": 97703967,
-  "name": "Space FX",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/lW_q_A4QUiI?si=SBiyto6lxB4O_jjO",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 75,
-	  "link": "https://youtu.be/yQAJZklhngM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/GgwFq-Rx5jQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/hL-xm9UxXpc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/9LJnkiaHhb8?si=P5vV8LBbBGJKMdVa",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Bossfight - Milky Ways",
-  "verification": "insert link",
-  "verifier": "xXDoraimonXx"
+    "id": 97703967,
+    "name": "Space FX",
+    "author": "xXDoraimonXx",
+    "creators": [],
+    "verifier": "xXDoraimonXx",
+    "verification": "insert link",
+    "percentToQualify": 100,
+    "song": "Bossfight - Milky Ways",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/lW_q_A4QUiI?si=SBiyto6lxB4O_jjO",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/yQAJZklhngM",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "10"
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/GgwFq-Rx5jQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/hL-xm9UxXpc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/9LJnkiaHhb8?si=P5vV8LBbBGJKMdVa",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+    ]
 }

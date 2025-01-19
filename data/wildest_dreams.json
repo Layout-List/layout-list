@@ -1,116 +1,115 @@
 {
-  "creators": [
-	"zDark"
-  ],
-  "difficulty": 2,
-  "id": 102890622,
-  "name": "wildest dreams",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/TjBCK74xVkc",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=A14JA1uTugs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Paladean"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=OpZhWmHDPyM",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "TheCatAstronaut"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=0u641VPkmeI",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=4bMjRfo0idQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 75,
-	  "link": "https://youtu.be/a9aO-Ribmn8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/42oOgIABB9Y",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Asteria."
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=7BnAxTAMFFs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Spaace"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=A_JUrR8_gTs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Shums"
-	}
-  ],
-  "song": "Taylor Swift - Wildest Dreams",
-  "songLink": "https://drive.google.com/file/d/1edrY1tqLYt-XReXUAnSmU_1Zw5p5rIfQ/view?usp=drive_link",
-  "verification": "https://youtu.be/8fqabzqt2ag?feature=shared",
-  "verifier": "zDark"
+    "id": 102890622,
+    "name": "wildest dreams",
+    "author": "zDark",
+    "creators": [],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/8fqabzqt2ag?feature=shared",
+    "percentToQualify": 100,
+    "song": "Taylor Swift - Wildest Dreams",
+    "songLink": "https://drive.google.com/file/d/1edrY1tqLYt-XReXUAnSmU_1Zw5p5rIfQ/view?usp=drive_link",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/TjBCK74xVkc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=A14JA1uTugs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "TheCatAstronaut",
+            "link": "https://www.youtube.com/watch?v=OpZhWmHDPyM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=0u641VPkmeI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "10"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=4bMjRfo0idQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/a9aO-Ribmn8",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/42oOgIABB9Y",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=7BnAxTAMFFs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "8"
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Shums",
+            "link": "https://www.youtube.com/watch?v=A_JUrR8_gTs",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

@@ -1,145 +1,144 @@
 {
-  "creators": [
-	"tanginess"
-  ],
-  "difficulty": 1,
-  "id": 100099891,
-  "name": "love letter",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://youtu.be/y195jrOJC5U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=OKrydkxEvWE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/AjydJDeSJpY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=KYbU0L6jD44",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/XsQFIzfrMxA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Skip"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=wthr1uw8qMk",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://youtu.be/8Is0KGkKj7M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/1hP4hDkjvk0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "enjoyment": 1,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/5Vb6uhJlEFs?si=GK7dQXyRR5Hu6CCK",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/FaPxpBLuXXE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sphericle"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=rTrP4MuPnsc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Spaace"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/nkZ-APTwjn4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "The16FigureLimit"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/d5QqwC8jllE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Asteria."
-	}
-  ],
-  "song": "Saury - Message from ラブラブなデート",
-  "songLink": "https://drive.google.com/file/d/1EkNihtfzRosVsj9vngndCujKmZPeQCKi/view?usp=drive_link",
-  "verification": "https://www.youtube.com/watch?v=6YuDRI1-sfY",
-  "verifier": "tanginess"
+    "id": 100099891,
+    "name": "love letter",
+    "author": "tanginess",
+    "creators": [],
+    "verifier": "tanginess",
+    "verification": "https://www.youtube.com/watch?v=6YuDRI1-sfY",
+    "percentToQualify": 100,
+    "song": "Saury - Message from ラブラブなデート",
+    "songLink": "https://drive.google.com/file/d/1EkNihtfzRosVsj9vngndCujKmZPeQCKi/view?usp=drive_link",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/y195jrOJC5U",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=OKrydkxEvWE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/AjydJDeSJpY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=KYbU0L6jD44",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://youtu.be/XsQFIzfrMxA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=wthr1uw8qMk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/8Is0KGkKj7M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/1hP4hDkjvk0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+         {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 1
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/5Vb6uhJlEFs?si=GK7dQXyRR5Hu6CCK",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "sphericle",
+            "link": "https://youtu.be/FaPxpBLuXXE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=rTrP4MuPnsc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://youtu.be/nkZ-APTwjn4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/d5QqwC8jllE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

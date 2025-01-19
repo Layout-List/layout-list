@@ -1,93 +1,93 @@
 {
-  "creators": [
-	"zDark",
-	"monthmai"
-  ],
-  "difficulty": 5,
-  "id": 95591084,
-  "name": "hollywood baby",
-  "password": "679541",
-  "percentToQualify": 57,
-  "records": [
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/Z25PbQ3yf5g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "jz5"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/Kahj5ss_eKA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=LyfEn1RTOOo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Dom_Luca"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/S87rAj6Lvg8?si=rK9H-SKqt66RNYCJ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/7IxIlxFco60",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/I0EvleuglEc?si=vgO-BrChELtO0COu",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "riley"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 240,
-	  "link": "https://youtu.be/_7H_kOcIs7g",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "[BUDDY] peanutcoolguy"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/s6TBVWr1L5U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sans_hanitizer"
-	}
-  ],
-  "song": "100 gecs - Hollywood Baby",
-  "songLink": "https://www.mediafire.com/file/3mynwrqbredh1og/463664.mp3/file",
-  "verification": "https://youtu.be/b21VpqBTnPk?si=pm1P-uVkwjnZtC62",
-  "verifier": "monthmai"
+    "id": 95591084,
+    "name": "hollywood baby",
+    "author": "monthmai",
+    "creators": [
+        "zDark"
+    ],
+    "verifier": "monthmai",
+    "verification": "https://youtu.be/b21VpqBTnPk?si=pm1P-uVkwjnZtC62",
+    "percentToQualify": 57,
+    "password": "679541",
+    "song": "100 gecs - Hollywood Baby",
+    "songLink": "https://www.mediafire.com/file/3mynwrqbredh1og/463664.mp3/file",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "jz5",
+            "link": "https://youtu.be/Z25PbQ3yf5g",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/Kahj5ss_eKA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=LyfEn1RTOOo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/S87rAj6Lvg8?si=rK9H-SKqt66RNYCJ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/7IxIlxFco60",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/I0EvleuglEc?si=vgO-BrChELtO0COu",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "[BUDDY] peanutcoolguy",
+            "link": "https://youtu.be/_7H_kOcIs7g",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "sans_hanitizer",
+            "link": "https://youtu.be/s6TBVWr1L5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        }
+    ]
 }

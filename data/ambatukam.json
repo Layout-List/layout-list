@@ -1,93 +1,92 @@
 {
-  "creators": [
-	"dunix"
-  ],
-  "difficulty": 2,
-  "id": 106507909,
-  "name": "ambatukam",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/Es8DUwyGhZE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": 2,
-	  "hz": 60,
-	  "link": "https://youtu.be/08RK6fkn7jA?si=Q0TdJPnWh-Tjkppy",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/sslmT7W9QQA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hydraniac"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/vaGnza5uDO0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Spaace"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 60,
-	  "link": "https://youtu.be/OmbmtoXC86g",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 165,
-	  "link": "https://youtu.be/__IdszQJs54",
-	  "percent": 100,
-	  "user": "FalkerX"
-	}
-  ],
-  "song": "dreamybullxxx - ambatakam (trap remix)",
-  "songLink": "https://www.mediafire.com/file/schnv1kraiocj5v/9612.mp3/file",
-  "verification": "ihttps://youtu.be/PRnn0ARBsvI",
-  "verifier": "dunix"
+	"id": 106507909,
+	"name": "ambatukam",
+	"author": "dunix",
+	"creators": [],
+	"verifier": "dunix",
+	"verification": "ihttps://youtu.be/PRnn0ARBsvI",
+	"percentToQualify": 100,
+	"song": "dreamybullxxx - ambatakam (trap remix)",
+	"songLink": "https://www.mediafire.com/file/schnv1kraiocj5v/9612.mp3/file",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=353dln9stV4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/Es8DUwyGhZE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/08RK6fkn7jA?si=Q0TdJPnWh-Tjkppy",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 2
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/sslmT7W9QQA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/vaGnza5uDO0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Spaace",
+			"link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/yTEcVaMh2Ak",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/OmbmtoXC86g",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "FalkerX",
+			"link": "https://youtu.be/__IdszQJs54",
+			"percent": 100,
+			"hz": 165,
+			"enjoyment": 3
+		}
+	]
 }

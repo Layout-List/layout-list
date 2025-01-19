@@ -1,157 +1,156 @@
 {
-  "creators": [
-	"sqrtpie"
-  ],
-  "difficulty": 1,
-  "id": 96159102,
-  "name": "Because We Miss You",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 10,
-	  "hz": 240,
-	  "link": "https://youtu.be/SidUtMEus3s?si=8ftYo1W1typ_CKUM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=hQWTIdnaQtw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DJJDK"
-	},
-	{
-	  "enjoyment": "9",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=ls588YL1Rpo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/jLu2ZVY6vsA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 120,
-	  "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nolli"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=dTBslqx_44k&feature=youtu.be",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/FTqmmlTEKfo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 60,
-	  "link": "https://youtu.be/Gh2KhEyEv6c?si=6tFOJItUS8lrMpuh",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "hz": 288,
-	  "link": "https://youtu.be/03-E-qO97tM",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "LimeDub"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Popples"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ToastyTP"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/tb1NeE07-CA?si=-8W8BzT_GmnyoZzb",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Bocopter"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/URUdzcuixFs?si=dTqh53bFOtl25m52",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	}
-  ],
-  "song": "LucidShadowDreamer - Because We Miss You",
-  "verification": "https://youtu.be/t7unVBZ_TmE?si=e6kNA23PeR66WyJa",
-  "verifier": "sqrtpie"
+    "id": 96159102,
+    "name": "Because We Miss You",
+    "author": "sqrtpie",
+    "creators": [],
+    "verifier": "sqrtpie",
+    "verification": "https://youtu.be/t7unVBZ_TmE?si=e6kNA23PeR66WyJa",
+    "percentToQualify": 100,
+    "song": "LucidShadowDreamer - Because We Miss You",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/SidUtMEus3s?si=8ftYo1W1typ_CKUM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=hQWTIdnaQtw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=ls588YL1Rpo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+             "enjoyment": "9"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/jLu2ZVY6vsA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=dTBslqx_44k&feature=youtu.be",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/FTqmmlTEKfo",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Gh2KhEyEv6c?si=6tFOJItUS8lrMpuh",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 3
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/03-E-qO97tM",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Popples",
+            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+         {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+            "user": "Bocopter",
+            "link": "https://youtu.be/tb1NeE07-CA?si=-8W8BzT_GmnyoZzb",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment" : 10
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/URUdzcuixFs?si=dTqh53bFOtl25m52",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        }
+    ]
 }

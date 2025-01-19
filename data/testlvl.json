@@ -1,17 +1,13 @@
 {
-  "creators": [
-	"test",
-	"test2",
-	"test3",
-	"sphericle"
-  ],
-  "difficulty": 4,
-  "id": 234234,
-  "name": "testlvl",
-  "password": "Free to copy",
-  "percentToQualify": 100,
-  "records": [],
-  "song": "sdlkfjsdf",
-  "verification": "https://hai.com",
-  "verifier": "sphericle"
+	"id": 234234,
+	"name": "testlvl",
+	"author": "sphericle",
+	"creators": ["test","test2","test3"],
+	"verifier": "sphericle",
+	"verification": "https://hai.com",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 4,
+	"song": "sdlkfjsdf",
+	"records": []
 }

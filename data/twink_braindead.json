@@ -1,160 +1,159 @@
 {
-  "creators": [
-	"morsey"
-  ],
-  "difficulty": 3,
-  "id": 96002642,
-  "name": "Twink Braindead",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=uuzAE7btAI4",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "rastuyas"
-	},
-	{
-	  "enjoyment": "10",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=hoVM2woIq5Y",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/k04-zzJFmMo",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/dlJgyFgl_UQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/0s6fThz_SAE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/xpncKsYNWwo?si=OlD8pBXC0lnkPJMA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "monthmai"
-	},
-	{
-	  "enjoyment": "8",
-	  "hz": 75,
-	  "link": "https://www.youtube.com/watch?v=1UpOTNXlIHI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=7vD7Irr5Gwc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=jbpzrhMt-zI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "The16FigureLimit"
-	},
-	{
-	  "enjoyment": 3,
-	  "hz": 60,
-	  "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 60,
-	  "link": "https://youtu.be/i2-4gFHjqsk?si=O9sGgUivOzbPH_PI",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 300,
-	  "link": "https://www.youtube.com/watch?v=M5kfQMUTzqY",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "morsey"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=3U9KlPKDhfg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blueberry"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/BU5Ms7PJ6D4?si=6R4W5pjrHDPo1iuU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 240,
-	  "link": "https://youtu.be/xE4ckdBxt9w?si=VXjNPc40RfE85Phj",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Spaace"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Riley"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=QnDSHgLv8j0",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "attrixia"
-	},
-	{
-	  "enjoyment": 6,
-	  "hz": 240,
-	  "link": "https://youtu.be/L4ykGmoSXSw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DogSpike"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 360,
-	  "link": "https://youtu.be/t2kE3f73n4M",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Wingz_GD"
-	}
-  ],
-  "song": "lavacakes - twink braindead",
-  "verification": "https://youtu.be/mfRXUas2DHg",
-  "verifier": "Syrcx"
+    "id": 96002642,
+    "name": "Twink Braindead",
+    "author": "morsey",
+    "creators": [],
+    "verifier": "Syrcx",
+    "verification": "https://youtu.be/mfRXUas2DHg",
+    "percentToQualify": 100,
+    "song": "lavacakes - twink braindead",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=uuzAE7btAI4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+          {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=hoVM2woIq5Y",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "10"
+        },
+         {
+            "user": "mrperson",
+            "link": "https://youtu.be/k04-zzJFmMo",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+         {
+            "user": "zDark",
+            "link": "https://youtu.be/dlJgyFgl_UQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/0s6fThz_SAE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "monthmai",
+            "link": "https://youtu.be/xpncKsYNWwo?si=OlD8pBXC0lnkPJMA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=1UpOTNXlIHI",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+             "enjoyment": "8"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=7vD7Irr5Gwc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "The16FigureLimit",
+            "link": "https://www.youtube.com/watch?v=jbpzrhMt-zI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 3
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/i2-4gFHjqsk?si=O9sGgUivOzbPH_PI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 10
+        },
+        {
+            "user": "morsey",
+            "link": "https://www.youtube.com/watch?v=M5kfQMUTzqY",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://www.youtube.com/watch?v=3U9KlPKDhfg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BU5Ms7PJ6D4?si=6R4W5pjrHDPo1iuU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Spaace",
+            "link": "https://youtu.be/xE4ckdBxt9w?si=VXjNPc40RfE85Phj",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=QnDSHgLv8j0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "DogSpike",
+            "link": "https://youtu.be/L4ykGmoSXSw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Wingz_GD",
+            "link": "https://youtu.be/t2kE3f73n4M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 0
+        }
+    ]
 }

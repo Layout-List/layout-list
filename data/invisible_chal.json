@@ -1,46 +1,45 @@
 {
-  "creators": [
-	"mr123j"
-  ],
-  "difficulty": 1,
-  "id": 106288523,
-  "name": "InvisiblE ChaL",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 3,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Zyxo"
-	},
-	{
-	  "enjoyment": "2",
-	  "hz": 360,
-	  "link": "https://youtu.be/yP55E8Zqe8k",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/AYSFcVy-x4c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	}
-  ],
-  "song": "DEAF KEV - Invincible",
-  "verification": "https://youtu.be/HfhPqSVK5R4",
-  "verifier": "mr123j"
+    "id": 106288523,
+    "name": "InvisiblE ChaL",
+    "author": "mr123j",
+    "creators": [],
+    "verifier": "mr123j",
+    "verification": "https://youtu.be/HfhPqSVK5R4",
+    "percentToQualify": 100,
+    "song": "DEAF KEV - Invincible",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/yP55E8Zqe8k",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "2"
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/AYSFcVy-x4c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

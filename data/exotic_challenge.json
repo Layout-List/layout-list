@@ -1,30 +1,29 @@
 {
-  "creators": [
-	"RaynoXx"
-  ],
-  "difficulty": 1,
-  "id": 100650060,
-  "name": "Exotic challenge",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/m-UBl5g6SXs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/AYSFcVy-x4c",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zWren"
-	}
-  ],
-  "song": "Explore The Core - DJVI",
-  "verification": "https://youtu.be/_qt2eM_PFfI?si=AYVZ14Kvbj6vNXup",
-  "verifier": "RaynoXx"
+    "id": 100650060,
+    "name": "Exotic challenge",
+    "author": "RaynoXx",
+    "creators": [],
+    "verifier": "RaynoXx",
+    "verification": "https://youtu.be/_qt2eM_PFfI?si=AYVZ14Kvbj6vNXup",
+    "percentToQualify": 100,
+    "song": "Explore The Core - DJVI",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/m-UBl5g6SXs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/AYSFcVy-x4c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

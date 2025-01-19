@@ -1,46 +1,45 @@
 {
-  "creators": [
-	"monthmai"
-  ],
-  "difficulty": 1,
-  "enjoyment": 10,
-  "id": 112589773,
-  "name": "MacArthur Park",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/LkT7yiOQ-mE",
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "enjoyment": null,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=4yg6BMwRCcs",
-	  "percent": 100,
-	  "user": "sans_hanitizer"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 60,
-	  "link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "Richard Harris - MacArthur Park",
-  "songLink": "https://drive.google.com/file/d/1CzTiqQfTnS7mjASfrCC1QfraGQJ6aNR_/view?usp=sharing",
-  "verification": "https://youtu.be/Fk-syCUbyek?si=yJ6_3cV0j33XTEww",
-  "verifier": "monthmai"
+	"id": 112589773,
+	"name": "MacArthur Park",
+	"author": "monthmai",
+	"creators": [],
+	"verifier": "monthmai",
+	"verification": "https://youtu.be/Fk-syCUbyek?si=yJ6_3cV0j33XTEww",
+	"percentToQualify": 100,
+	"song": "Richard Harris - MacArthur Park",
+	"songLink": "https://drive.google.com/file/d/1CzTiqQfTnS7mjASfrCC1QfraGQJ6aNR_/view?usp=sharing",
+	"difficulty": 1,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/LkT7yiOQ-mE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://www.youtube.com/watch?v=4yg6BMwRCcs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": null
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }

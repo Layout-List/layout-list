@@ -1,56 +1,56 @@
 {
-  "creators": [
-	"Solelak",
-	"Hyperbeat"
-  ],
-  "difficulty": 2,
-  "enjoyment": 8,
-  "id": 106164723,
-  "name": "Ikea Never Clear",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 60,
-	  "link": "https://youtu.be/p7TSfG1S98g?si=OuUubqiOqEoe-yDa",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 360,
-	  "link": "https://youtu.be/MOsqIscVoSE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "enjoyment": 5,
-	  "hz": 60,
-	  "link": "https://youtu.be/OmbmtoXC86g",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	}
-  ],
-  "song": "FaunSound - Figurehead (GRTSU RMX)",
-  "verification": "https://youtu.be/n_uBr8HX3bI",
-  "verifier": "Solelak"
+    "id": 106164723,
+    "name": "Ikea Never Clear",
+    "author": "Hyperbeat",
+    "creators": [
+        "Solelak"
+    ],
+    "verifier": "Solelak",
+    "verification": "https://youtu.be/n_uBr8HX3bI",
+    "percentToQualify": 100,
+    "song": "FaunSound - Figurehead (GRTSU RMX)",
+    "difficulty": 2,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/p7TSfG1S98g?si=OuUubqiOqEoe-yDa",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/MOsqIscVoSE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/OmbmtoXC86g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 5
+        }
+    ]
 }

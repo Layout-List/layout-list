@@ -1,15 +1,15 @@
 {
-  "creators": [
-	"C4ynn",
-	"Cy4nn"
-  ],
-  "difficulty": 4,
-  "id": 113536213,
-  "name": "Pulsing Balls EX",
-  "password": "Free to copy",
-  "percentToQualify": 100,
-  "records": [],
-  "song": "-Clutterfunk 2.2-",
-  "verification": "https://youtu.be/6zVMbMRBun4",
-  "verifier": "skip"
+	"id": 113536213,
+	"name": "Pulsing Balls EX",
+	"author": "Cy4nn",
+	"creators": [
+		"C4ynn"
+	],
+	"verifier": "skip",
+	"verification": "https://youtu.be/6zVMbMRBun4",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 4,
+	"song": "-Clutterfunk 2.2-",
+	"records": []
 }

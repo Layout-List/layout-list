@@ -1,178 +1,177 @@
 {
-  "creators": [
-	"StoneCD"
-  ],
-  "difficulty": 1,
-  "id": 88805376,
-  "name": "breaking it off",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/v4HabIhH3P0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "enjoyment": 4,
-	  "hz": 60,
-	  "link": "https://youtu.be/8D3p3DxH-VM",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=-Yso7O8Rp8k",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/w6LpmhfSz8E",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/aGuy3GRF9eA",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "agentgiscool"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/xXhYd_j2j44",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://youtu.be/HXz78G5mwEs?si=ZbUWVn-Oi03L1BmK",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Sanctum"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/saM1_tTKgX0?si=EBsMmLRf7ODdBWZL",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Zyxo"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/UFVqi19yhOc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/sCYFqO0Ea7E",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nolli"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 120,
-	  "link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Blysteryx"
-	},
-	{
-	  "hz": 288,
-	  "link": "https://youtu.be/FWhXwOgD4gk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "LimeDub"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/sNz1Z74f9zs?si=fOd5dWyXdi89yxOt",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Popples"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Paladean"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Alvaneder"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 60,
-	  "link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "RaynoXx"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 360,
-	  "link": "https://youtu.be/lZkPPTMoXAY?si=38nUZbJBXKz3bU_Z",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	},
-	{
-	  "enjoyment": "?",
-	  "hz": 144,
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "ToastyTP"
-	},
-	{
-	  "enjoyment": 0,
-	  "hz": 480,
-	  "link": "https://youtu.be/MxT9_mYhLy0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tanginess"
-	}
-  ],
-  "song": "PinkPantheress - Breaking It Off",
-  "songLink": "https://drive.google.com/file/d/1VUfx7iJi6LU-CVXmQj3-B_5nLqv-N2pN/view?usp=drive_link",
-  "verification": "https://youtu.be/xoDGsGtO9Vg",
-  "verifier": "StoneCD"
+    "id": 88805376,
+    "name": "breaking it off",
+    "author": "StoneCD",
+    "creators": [],
+    "verifier": "StoneCD",
+    "verification": "https://youtu.be/xoDGsGtO9Vg",
+    "percentToQualify": 100,
+    "song": "PinkPantheress - Breaking It Off",
+    "songLink": "https://drive.google.com/file/d/1VUfx7iJi6LU-CVXmQj3-B_5nLqv-N2pN/view?usp=drive_link",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/v4HabIhH3P0",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/8D3p3DxH-VM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 4
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=-Yso7O8Rp8k",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/w6LpmhfSz8E",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "agentgiscool",
+            "link": "https://youtu.be/aGuy3GRF9eA",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/xXhYd_j2j44",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Sanctum",
+            "link": "https://youtu.be/HXz78G5mwEs?si=ZbUWVn-Oi03L1BmK",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/saM1_tTKgX0?si=EBsMmLRf7ODdBWZL",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/UFVqi19yhOc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/sCYFqO0Ea7E",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/FWhXwOgD4gk",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/sNz1Z74f9zs?si=fOd5dWyXdi89yxOt",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Popples",
+            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+         {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+         },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/UAaTBbhOCZ8?si=HaxTSAmQMoC0H3ZL",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/lZkPPTMoXAY?si=38nUZbJBXKz3bU_Z",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+            "user": "Tanginess",
+            "link": "https://youtu.be/MxT9_mYhLy0",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment" : 0
+        }
+    ]
 }

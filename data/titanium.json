@@ -1,46 +1,45 @@
 {
-  "creators": [
-	"Tinkle"
-  ],
-  "difficulty": 7,
-  "id": 110391794,
-  "name": "Titanium",
-  "percentToQualify": 60,
-  "records": [
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=pYWmmUbSJV0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Robotic"
-	},
-	{
-	  "enjoyment": 10,
-	  "hz": 480,
-	  "link": "https://www.youtube.com/watch?v=rX3mwC2DpmI&t=1s",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "hjog"
-	},
-	{
-	  "enjoyment": 9,
-	  "hz": 240,
-	  "link": "https://youtu.be/fFpBmmWo9MQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Syrcx"
-	},
-	{
-	  "enjoyment": 7,
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=p7C-IZYenMI",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "attrixia"
-	}
-  ],
-  "song": "TheColdSpirit - Sparkler",
-  "verification": "https://www.youtube.com/watch?v=x6rpXfeimuA",
-  "verifier": "Tinkle"
+    "id": 110391794,
+    "name": "Titanium",
+    "author": "Tinkle",
+    "creators": [],
+    "verifier": "Tinkle",
+    "verification": "https://www.youtube.com/watch?v=x6rpXfeimuA",
+    "percentToQualify": 60,
+    "song": "TheColdSpirit - Sparkler",
+    "difficulty": 7,
+    "records": [
+        {
+            "user": "Robotic",
+            "link": "https://www.youtube.com/watch?v=pYWmmUbSJV0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "hjog",
+            "link": "https://www.youtube.com/watch?v=rX3mwC2DpmI&t=1s",
+            "percent": 100,
+            "hz": 480,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/fFpBmmWo9MQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=p7C-IZYenMI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

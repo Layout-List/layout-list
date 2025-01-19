@@ -1,88 +1,87 @@
 {
-  "creators": [
-	"Bibox"
-  ],
-  "difficulty": 3,
-  "id": 89490979,
-  "name": "Zhuriken",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": "360",
-	  "link": "https://youtu.be/DuQFsP2EZMs",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Bibox"
-	},
-	{
-	  "hz": 330,
-	  "link": "https://youtu.be/Z2jnlDFSIbU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "nykolol"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/adJsn_807sU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "LimeDub"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/cLiyOoXW7jU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/-_xN5Cfs4Ak",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/51h5SIvJRIQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "sn0w"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 75,
-	  "link": "https://youtu.be/fh8ti1r2DK8",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=7u8y59nYaAE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 60,
-	  "link": "https://youtu.be/Nd0Xeer4VAA?si=VjkuPXIEDhiLwfs-",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 360,
-	  "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Hyperbeat"
-	}
-  ],
-  "song": "Panda Eyes - Shuriken",
-  "songLink": "https://youtu.be/Hb2PfC_dpcw",
-  "verification": "https://youtu.be/uJyDFOXnUDs",
-  "verifier": "zDark"
+    "id": 89490979,
+    "name": "Zhuriken",
+    "author": "Bibox",
+    "creators": [],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/uJyDFOXnUDs",
+    "percentToQualify": 100,
+    "song": "Panda Eyes - Shuriken",
+    "songLink": "https://youtu.be/Hb2PfC_dpcw",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Bibox",
+            "link": "https://youtu.be/DuQFsP2EZMs",
+            "percent": 100,
+            "hz": "360",
+            "mobile": false
+        },
+        {
+            "user": "nykolol",
+            "link": "https://youtu.be/Z2jnlDFSIbU",
+            "percent": 100,
+            "hz": 330,
+            "mobile": false
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/adJsn_807sU",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/cLiyOoXW7jU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/-_xN5Cfs4Ak",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+         {
+            "user": "sn0w",
+            "link": "https://youtu.be/51h5SIvJRIQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/fh8ti1r2DK8",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=7u8y59nYaAE",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+          {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Nd0Xeer4VAA?si=VjkuPXIEDhiLwfs-",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/uBqrq27BKYQ?si=94kiks3bciZAoHGQ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

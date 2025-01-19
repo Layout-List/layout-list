@@ -1,94 +1,93 @@
 {
-  "creators": [
-	"whitmp4"
-  ],
-  "difficulty": 3,
-  "id": 95098277,
-  "name": "Mystique",
-  "percentToQualify": 100,
-  "records": [
-	{
-	  "hz": 360,
-	  "link": "https://www.youtube.com/watch?v=cXY2gIfbqK0",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DJJDK"
-	},
-	{
-	  "enjoyment": 8,
-	  "hz": 240,
-	  "link": "https://youtu.be/kzaEI_DRjBk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "evil"
-	},
-	{
-	  "hz": 60,
-	  "link": "https://youtu.be/vbJeDXYlRfE?si=BfnyVlc_SVq1XDwI",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "ThisGuyKreas"
-	},
-	{
-	  "enjoyment": "7",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Xeronius"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/EXYpNSkBgug",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Blueberry"
-	},
-	{
-	  "hz": 144,
-	  "link": "https://youtu.be/A_AUcfiZ8kU",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "mrperson"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/upnAxkTvszw",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "zDark"
-	},
-	{
-	  "hz": 360,
-	  "link": "https://youtu.be/qbnPX1PQD0A",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Mystikl"
-	},
-	{
-	  "hz": 120,
-	  "link": "https://www.youtube.com/watch?v=i0XnnPCsvQk",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "DeleteNine"
-	},
-	{
-	  "hz": 240,
-	  "link": "https://www.youtube.com/watch?v=2ihPotOE8iE",
-	  "mobile": false,
-	  "percent": 100,
-	  "user": "Tradeskill"
-	},
-	{
-	  "enjoyment": "1",
-	  "hz": 60,
-	  "link": "https://www.youtube.com/watch?v=EyRRvApoR8Q",
-	  "mobile": true,
-	  "percent": 100,
-	  "user": "Poke Zach"
-	}
-  ],
-  "song": "Dan Johansen - Synergetic Enigma",
-  "verification": "https://www.youtube.com/watch?v=ITrWGL2WiBU",
-  "verifier": "whitmp4"
+    "id": 95098277,
+    "name": "Mystique",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://www.youtube.com/watch?v=ITrWGL2WiBU",
+    "percentToQualify": 100,
+    "song": "Dan Johansen - Synergetic Enigma",
+    "difficulty": 3,
+    "records": [
+         {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=cXY2gIfbqK0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/kzaEI_DRjBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/vbJeDXYlRfE?si=BfnyVlc_SVq1XDwI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://youtu.be/EXYpNSkBgug",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/A_AUcfiZ8kU",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/upnAxkTvszw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/qbnPX1PQD0A",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=i0XnnPCsvQk",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+          "user": "Tradeskill",
+          "link": "https://www.youtube.com/watch?v=2ihPotOE8iE",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        },
+        {
+          "user": "Poke Zach",
+          "link": "https://www.youtube.com/watch?v=EyRRvApoR8Q",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+            "enjoyment": "1"
+        }
+    ]
 }
