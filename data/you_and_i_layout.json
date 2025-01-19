@@ -1,85 +1,86 @@
 {
-    "id": 105294773,
-    "name": "You and I Layout",
-    "author": "morsey",
-    "creators": [],
-    "verifier": "zDark",
-    "verification": "https://www.youtube.com/watch?v=0XkljItHsI0",
-    "percentToQualify": 100,
-    "song": "somanylynx - You & I",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/hgtY6C2szWI?si=AC87xnDtL8yKXNSH",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 5
-        },
-        {
-            "user": "morsey",
-            "link": "https://www.youtube.com/watch?v=M5kfQMUTzqY",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "The16FigureLimit",
-            "link": "https://youtu.be/_VNdCmGwS9M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/vaGnza5uDO0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/ypMIrlYpAV0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/iA5JjpaCbXmI193N9?invite=cr-MSx3RXUsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=I8phy7-smo4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        }
-    ]
+  "id": 105294773,
+  "name": "You and I Layout",
+  "creators": [
+	"morsey"
+  ],
+  "verifier": "zDark",
+  "verification": "https://www.youtube.com/watch?v=0XkljItHsI0",
+  "percentToQualify": 100,
+  "song": "somanylynx - You & I",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/hgtY6C2szWI?si=AC87xnDtL8yKXNSH",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "morsey",
+	  "link": "https://www.youtube.com/watch?v=M5kfQMUTzqY",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "The16FigureLimit",
+	  "link": "https://youtu.be/_VNdCmGwS9M",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "sn0w",
+	  "link": "https://youtu.be/vaGnza5uDO0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/ypMIrlYpAV0",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://medal.tv/games/geometry-dash/clips/iA5JjpaCbXmI193N9?invite=cr-MSx3RXUsMTg1OTcxMTAwLA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://www.youtube.com/watch?v=I8phy7-smo4",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 9
+	}
+  ]
 }

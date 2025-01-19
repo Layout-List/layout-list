@@ -1,173 +1,174 @@
 {
-    "id": 62909889,
-    "name": "RGB \u2b50",
-    "author": "Sillow",
-    "creators": [],
-    "verifier": "Sillow",
-    "verification": "https://youtu.be/i79i4uc3GQs",
-    "showcase": "https://www.youtube.com/watch?v=9uNWxwFPrvo&t=4s&ab_channel=LayoutListShowcases",
-    "percentToQualify": 54,
-    "song": "Cacola - Yellow and Purple",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/sbwLqEwunDA",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=PyMOeC2Mq10",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "lboke",
-            "link": "https://youtu.be/KwQ5Hk2mS8A",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "Kuaikuai27",
-            "link": "https://youtu.be/J9vfNztzYEs",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Matthlew",
-            "link": "https://youtu.be/xz8PpMQ1r7o?t=177",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "JustShock",
-            "link": "https://www.youtube.com/watch?v=zolCI2MF-V8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/UPuLAIGKuhY",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Chair",
-            "link": "https://www.youtube.com/watch?v=zpIPhAGHSV4",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/Ux3F5eN0jJg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/OvK21VXcVrc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "BlackBird552",
-            "link": "https://youtu.be/a1eLX7kwfv0",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-          "user": "DeleteNine",
-          "link": "https://youtu.be/UFijLscJOgs",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
-        },
-        {
-          "user": "Mystikl",
-          "link": "https://youtu.be/Gim4Qj0N0Zo",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Acacia",
-          "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-            "user": "FloppaTopchick",
-            "link": "https://youtu.be/bTslTueZVqE",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "RedNazFM",
-            "link": "https://www.youtube.com/watch?v=Ymg6AdRYXX8",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/WgmMEN8sGHA?si=NSMAugcVq-OUy0l4",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/xT_G5AAvfII?si=EvlulztK2kABg9Pj",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://youtu.be/jnYu2kODMmU?si=tbV_crtIb2nztXZw",
-            "percent": 100,
-            "hz": 600,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Sloudy",
-            "link": "https://www.youtube.com/watch?v=M5AbhHAiwnw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/zTVjH1gueOw?si=6reP0nsmyK0oTWKW",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        }
-    ]
+  "id": 62909889,
+  "name": "RGB ⭐",
+  "creators": [
+	"Sillow"
+  ],
+  "verifier": "Sillow",
+  "verification": "https://youtu.be/i79i4uc3GQs",
+  "showcase": "https://www.youtube.com/watch?v=9uNWxwFPrvo&t=4s&ab_channel=LayoutListShowcases",
+  "percentToQualify": 54,
+  "song": "Cacola - Yellow and Purple",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Blathers",
+	  "link": "https://youtu.be/sbwLqEwunDA",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "Fusion425",
+	  "link": "https://www.youtube.com/watch?v=PyMOeC2Mq10",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "lboke",
+	  "link": "https://youtu.be/KwQ5Hk2mS8A",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false
+	},
+	{
+	  "user": "Kuaikuai27",
+	  "link": "https://youtu.be/J9vfNztzYEs",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "Matthlew",
+	  "link": "https://youtu.be/xz8PpMQ1r7o?t=177",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "JustShock",
+	  "link": "https://www.youtube.com/watch?v=zolCI2MF-V8",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/UPuLAIGKuhY",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Chair",
+	  "link": "https://www.youtube.com/watch?v=zpIPhAGHSV4",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/Ux3F5eN0jJg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/OvK21VXcVrc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "BlackBird552",
+	  "link": "https://youtu.be/a1eLX7kwfv0",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/UFijLscJOgs",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/Gim4Qj0N0Zo",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "FloppaTopchick",
+	  "link": "https://youtu.be/bTslTueZVqE",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "RedNazFM",
+	  "link": "https://www.youtube.com/watch?v=Ymg6AdRYXX8",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://youtu.be/WgmMEN8sGHA?si=NSMAugcVq-OUy0l4",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/xT_G5AAvfII?si=EvlulztK2kABg9Pj",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "NiXaNTy",
+	  "link": "https://youtu.be/jnYu2kODMmU?si=tbV_crtIb2nztXZw",
+	  "percent": 100,
+	  "hz": 600,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Sloudy",
+	  "link": "https://www.youtube.com/watch?v=M5AbhHAiwnw",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/zTVjH1gueOw?si=6reP0nsmyK0oTWKW",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	}
+  ]
 }

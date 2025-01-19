@@ -1,95 +1,97 @@
 {
-    "id": 97114766,
-    "name": "the eek",
-    "author": "Okasan",
-    "creators": ["whitmp4"],
-    "verifier": "whitmp4",
-    "verification": "https://youtu.be/kTSAFamGdqE?si=pnsqrNq_kX4dFEFQ",
-    "percentToQualify": 100,
-    "song": "surasshu - The Penis (Eek!) [Solaraloes WAAAH! Remix]",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=vdcP9XpM75M&ab_channel=rastuyas",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/pfhc03jlT5s",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-          "user": "Xeronius",
-          "link": "https://youtu.be/ZdupHD76TMw?si=Y5W9ChlTx72cuwAz",
-          "percent": 100,
-          "hz": 75,
-          "mobile": false,
-          "enjoyment": "10"
-        },
-        {
-          "user": "zDark",
-          "link": "https://youtu.be/U-wJFlSMvY8",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-            "user": "Skip",
-            "link": "https://youtu.be/PHntJNLvLsE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/VA6Hem1du7Y?si=J1NKqoU1DACiin2k",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/QsHEWadepq4?si=Om8XwGIu1pcX6vWp",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "0"
-        },
-         {
-            "user": "sn0w",
-            "link": "https://youtu.be/NWmQXNq69e0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=38p9632erwk",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=jmEcXATftRU&t=11s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": 97114766,
+  "name": "the eek",
+  "creators": [
+	"Okasan",
+	"whitmp4"
+  ],
+  "verifier": "whitmp4",
+  "verification": "https://youtu.be/kTSAFamGdqE?si=pnsqrNq_kX4dFEFQ",
+  "percentToQualify": 100,
+  "song": "surasshu - The Penis (Eek!) [Solaraloes WAAAH! Remix]",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "rastuyas",
+	  "link": "https://www.youtube.com/watch?v=vdcP9XpM75M&ab_channel=rastuyas",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/pfhc03jlT5s",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/ZdupHD76TMw?si=Y5W9ChlTx72cuwAz",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "10"
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/U-wJFlSMvY8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Skip",
+	  "link": "https://youtu.be/PHntJNLvLsE",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/VA6Hem1du7Y?si=J1NKqoU1DACiin2k",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/QsHEWadepq4?si=Om8XwGIu1pcX6vWp",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "0"
+	},
+	{
+	  "user": "sn0w",
+	  "link": "https://youtu.be/NWmQXNq69e0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Alvaneder",
+	  "link": "https://www.youtube.com/watch?v=38p9632erwk",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=jmEcXATftRU&t=11s",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

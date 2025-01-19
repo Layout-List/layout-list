@@ -1,89 +1,89 @@
 {
-    "id": 100396165,
-    "name": "RAID",
-    "author": "Meekah",
-    "creators": [
-        "rafer",
-        "Dnuoz",
-        "Snowdrift",
-        "Ducky",
-        "Memi (Ninride)",
-        "Mzero",
-        "xVoid",
-        "Axel996",
-        "Rensss",
-        "KomoIndo",
-        "Triforce"
-    ],
-    "verifier": "Koopazu",
-    "verification": "https://youtu.be/P12OOKT_ZX0",
-    "showcase": "https://www.youtube.com/watch?v=BSsBFglZdRc",
-    "percentToQualify": 55,
-    "song": "Dan Johansen - Synergetic Enigma",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "qb1",
-            "link": "https://youtu.be/rW6ZZbn6Kzk",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=_MSCiGiPTwg",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/cPnR1sY5yZo",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/vFuut-LdK64",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/UT_C4YSwEnc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=0nPay3QY4Wc&ab_channel=Blysofthelist",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "id": 100396165,
+  "name": "RAID",
+  "creators": [
+	"Meekah",
+	"rafer",
+	"Dnuoz",
+	"Snowdrift",
+	"Ducky",
+	"Memi (Ninride)",
+	"Mzero",
+	"xVoid",
+	"Axel996",
+	"Rensss",
+	"KomoIndo",
+	"Triforce"
+  ],
+  "verifier": "Koopazu",
+  "verification": "https://youtu.be/P12OOKT_ZX0",
+  "showcase": "https://www.youtube.com/watch?v=BSsBFglZdRc",
+  "percentToQualify": 55,
+  "song": "Dan Johansen - Synergetic Enigma",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "qb1",
+	  "link": "https://youtu.be/rW6ZZbn6Kzk",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "Dom_Luca",
+	  "link": "https://www.youtube.com/watch?v=_MSCiGiPTwg",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/cPnR1sY5yZo",
+	  "percent": 100,
+	  "hz": 144
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/vFuut-LdK64",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/UT_C4YSwEnc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://www.youtube.com/watch?v=0nPay3QY4Wc&ab_channel=Blysofthelist",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

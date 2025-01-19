@@ -1,70 +1,71 @@
 {
-    "id": 105050233,
-    "name": "yeat turban twizz lv",
-    "author": "dunix",
-    "creators": [],
-    "verifier": "Hyperbeat",
-    "verification": "https://www.youtube.com/watch?v=NI9ohOl7ZyQ",
-    "percentToQualify": 100,
-    "song": "Twel - Pixel Rave",
-    "difficulty": 3,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/i2-4gFHjqsk?si=O9sGgUivOzbPH_PI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 1
-        },
-        {
-            "user": "dunix",
-            "link": "https://www.youtube.com/watch?v=NZMb9zfJ7HE",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/ipPbbUstxaUa6X_Zi/d1337ZtTfZQT?invite=cr-MSxwNzEsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/KgA334nKC6M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/P3pTLfWiZlA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/sCaOcX5kDXk",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 6
-        }
-    ]
+  "id": 105050233,
+  "name": "yeat turban twizz lv",
+  "creators": [
+	"dunix"
+  ],
+  "verifier": "Hyperbeat",
+  "verification": "https://www.youtube.com/watch?v=NI9ohOl7ZyQ",
+  "percentToQualify": 100,
+  "song": "Twel - Pixel Rave",
+  "difficulty": 3,
+  "enjoyment": 8,
+  "records": [
+	{
+	  "user": "RaynoXx",
+	  "link": "https://youtu.be/i2-4gFHjqsk?si=O9sGgUivOzbPH_PI",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "dunix",
+	  "link": "https://www.youtube.com/watch?v=NZMb9zfJ7HE",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://medal.tv/games/geometry-dash/clips/ipPbbUstxaUa6X_Zi/d1337ZtTfZQT?invite=cr-MSxwNzEsMTg1OTcxMTAwLA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "7"
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/KgA334nKC6M",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/P3pTLfWiZlA",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/sCaOcX5kDXk",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 6
+	}
+  ]
 }

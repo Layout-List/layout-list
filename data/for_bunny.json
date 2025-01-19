@@ -1,45 +1,47 @@
 {
-    "id": 90402461,
-    "name": "For Bunny",
-    "author": "RyusakiGD",
-    "creators": ["Mystikl"],
-    "verifier": "Mystikl",
-    "verification": "https://youtu.be/0Gxz9SJK-zc",
-    "percentToQualify": 100,
-    "song": "Skorde - Ritual",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/JVuyrWMT4uc?si=IZjTEkqw3TWDofTX",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 7
-        }
-    ]
+  "id": 90402461,
+  "name": "For Bunny",
+  "creators": [
+	"RyusakiGD",
+	"Mystikl"
+  ],
+  "verifier": "Mystikl",
+  "verification": "https://youtu.be/0Gxz9SJK-zc",
+  "percentToQualify": 100,
+  "song": "Skorde - Ritual",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/JVuyrWMT4uc?si=IZjTEkqw3TWDofTX",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Riley",
+	  "link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 7
+	}
+  ]
 }

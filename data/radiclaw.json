@@ -1,83 +1,84 @@
 {
-    "id": 93357334,
-    "name": "radiclaw layout",
-    "author": "morsey",
-    "creators": [],
-    "verifier": "mrperson",
-    "verification": "https://youtu.be/hfBb_ooe4Jo",
-    "percentToQualify": 52,
-    "song": "Paper Skies & Azazal - Radiclaw",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/nTBio0Acxf4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/uuzAE7btAI4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/S4ZtlaVMpPY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Wixies",
-            "link": "https://www.youtube.com/watch?v=8H0Gyq2grnw",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment" : 9
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=l1IqVezheZM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "morsey",
-            "link": "https://youtu.be/D8lPqVAIcxA?si=g7JJiMmoIKfAu8Ia",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        }
-    ]
+  "id": 93357334,
+  "name": "radiclaw layout",
+  "creators": [
+	"morsey"
+  ],
+  "verifier": "mrperson",
+  "verification": "https://youtu.be/hfBb_ooe4Jo",
+  "percentToQualify": 52,
+  "song": "Paper Skies & Azazal - Radiclaw",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/nTBio0Acxf4",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://youtu.be/uuzAE7btAI4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/S4ZtlaVMpPY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Wixies",
+	  "link": "https://www.youtube.com/watch?v=8H0Gyq2grnw",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=l1IqVezheZM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "morsey",
+	  "link": "https://youtu.be/D8lPqVAIcxA?si=g7JJiMmoIKfAu8Ia",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	}
+  ]
 }

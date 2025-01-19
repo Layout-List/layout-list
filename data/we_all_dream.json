@@ -1,189 +1,190 @@
 {
-	"id": 103370550,
-	"name": "We all Dream",
-	"author": "xXDoraimonXx",
-	"creators": [],
-	"verifier": "xXDoraimonXx",
-	"verification": "https://www.youtube.com/watch?v=Icud5448NeQ",
-	"percentToQualify": 100,
-	"song": "Creo - We Can Dream",
-	"difficulty": 1,
-	"records": [
-		{
-			"user": "Asteria.",
-			"link": "https://youtu.be/V_Hy06EV66A",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/fZhfnbtpajc?si=JXos8I97ySMToZy3",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hydraniac",
-			"link": "https://www.youtube.com/watch?v=7BnAxTAMFFs",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "RaynoXx",
-			"link": "https://www.youtube.com/watch?v=4rwyreK_6Qg",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": "10"
-		},
-		{
-			"user": "Tradeskill",
-			"link": "https://youtu.be/kI6fdWmq7q4",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": "9"
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://youtu.be/Y-3pRRak95w",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": "10"
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/dJ0foW_n3cU",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "ToastyTP",
-			"link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "Aquatic",
-			"link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false,
-			"enjoyment": "?"
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/O4y9vB5YfQM",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "sn0w",
-			"link": "https://youtu.be/hL-xm9UxXpc",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Interive",
-			"link": "https://youtu.be/WtjifugT9GQ?si=WxODGwN4Q4DOkmzC",
-			"percent": 100,
-			"hz": 120,
-			"mobile": true,
-			"enjoyment": 8
-		},
-		{
-			"user": "Tanginess",
-			"link": "https://youtu.be/MxT9_mYhLy0",
-			"percent": 100,
-			"hz": 480,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Paladean",
-			"link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "DERYAMIX",
-			"link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 8
-		},
-		{
-			"user": "Shums",
-			"link": "https://www.youtube.com/watch?v=QU2Ut8bL1Ns",
-			"percent": 100,
-			"hz": 120,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://www.youtube.com/watch?v=xh5RwYyaMmU",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "miniwombat2",
-			"link": "https://www.youtube.com/watch?v=BUehfFPyy1w&ab_channel=miniwombat2",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Sarryz",
-			"link": "YouTube.com/watch?v=6W6M-17DseQ",
-			"percent": 100,
-			"hz": 120,
-			"mobile": true,
-			"enjoyment": 10
-		},
-		{
-			"user": "Bocopter",
-			"link": "https://www.youtube.com/watch?v=td4BtV_C_7Q",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 10,
-			"mobile": true
-		}
-	]
+  "id": 103370550,
+  "name": "We all Dream",
+  "creators": [
+	"xXDoraimonXx"
+  ],
+  "verifier": "xXDoraimonXx",
+  "verification": "https://www.youtube.com/watch?v=Icud5448NeQ",
+  "percentToQualify": 100,
+  "song": "Creo - We Can Dream",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "Asteria.",
+	  "link": "https://youtu.be/V_Hy06EV66A",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/fZhfnbtpajc?si=JXos8I97ySMToZy3",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://www.youtube.com/watch?v=7BnAxTAMFFs",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://www.youtube.com/watch?v=4rwyreK_6Qg",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "10"
+	},
+	{
+	  "user": "Tradeskill",
+	  "link": "https://youtu.be/kI6fdWmq7q4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "9"
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/Y-3pRRak95w",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "10"
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "ToastyTP",
+	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Aquatic",
+	  "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/O4y9vB5YfQM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "sn0w",
+	  "link": "https://youtu.be/hL-xm9UxXpc",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Interive",
+	  "link": "https://youtu.be/WtjifugT9GQ?si=WxODGwN4Q4DOkmzC",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Tanginess",
+	  "link": "https://youtu.be/MxT9_mYhLy0",
+	  "percent": 100,
+	  "hz": 480,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Paladean",
+	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "DERYAMIX",
+	  "link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Shums",
+	  "link": "https://www.youtube.com/watch?v=QU2Ut8bL1Ns",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=xh5RwYyaMmU",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "miniwombat2",
+	  "link": "https://www.youtube.com/watch?v=BUehfFPyy1w&ab_channel=miniwombat2",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Sarryz",
+	  "link": "YouTube.com/watch?v=6W6M-17DseQ",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": true,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Bocopter",
+	  "link": "https://www.youtube.com/watch?v=td4BtV_C_7Q",
+	  "percent": 100,
+	  "hz": 60,
+	  "enjoyment": 10,
+	  "mobile": true
+	}
+  ]
 }

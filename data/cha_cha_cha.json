@@ -1,77 +1,78 @@
 {
-	"id": 109540641,
-	"name": "Cha Cha Cha",
-	"author": "Asteria.",
-	"creators": [],
-	"verifier": "Asteria.",
-	"verification": "https://youtu.be/ckI3My31IVI",
-	"percentToQualify": 100,
-	"song": "Käärijä - Cha Cha Cha",
-	"songLink": "https://drive.google.com/file/d/1R4EFPcMaKcAtdfbdFtd6WzbATsWWPOq2/view?usp=drive_link",
-	"difficulty": 2,
-	"records": [
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/uyqMVq959oc?si=XnNk1UPBKqsCKXcM",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 6
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/yTEcVaMh2Ak",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/zce6wkJTsNQ",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "mrperson",
-			"link": "https://youtu.be/BUDrX22PnL0",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Xeronius",
-			"link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-			"percent": 100,
-			"hz": 75,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "sphericle",
-			"link": "https://youtu.be/-SaJKWQUikw",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 4
-		}
-	],
-	"enjoyment": 8
+  "id": 109540641,
+  "name": "Cha Cha Cha",
+  "creators": [
+	"Asteria."
+  ],
+  "verifier": "Asteria.",
+  "verification": "https://youtu.be/ckI3My31IVI",
+  "percentToQualify": 100,
+  "song": "Käärijä - Cha Cha Cha",
+  "songLink": "https://drive.google.com/file/d/1R4EFPcMaKcAtdfbdFtd6WzbATsWWPOq2/view?usp=drive_link",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/uyqMVq959oc?si=XnNk1UPBKqsCKXcM",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/yTEcVaMh2Ak",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/zce6wkJTsNQ",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/BUDrX22PnL0",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "sphericle",
+	  "link": "https://youtu.be/-SaJKWQUikw",
+	  "percent": 100,
+	  "hz": 240,
+	  "enjoyment": 4
+	}
+  ],
+  "enjoyment": 8
 }

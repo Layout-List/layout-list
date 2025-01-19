@@ -1,74 +1,75 @@
 {
-    "id": 88711224,
-    "name": "Soggy Swamp",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://www.youtube.com/watch?v=XwRcsKD1MSM&ab_channel=BlysteryxGD",
-    "showcase": "https://youtu.be/GMUTrmhTgqM?si=G8BdRrhc3oLjph5f",
-    "percentToQualify": 100,
-    "song": "Waterflame - -Sunken field-",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=ilBu-KSyVag",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "9"
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/mk-SJB76EIQ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/IOfwZ9GO9Xc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/sc2YFpAMrbk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=4HN7btqIfOQ",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/dqvA-uchddg",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/BU5Ms7PJ6D4?si=6R4W5pjrHDPo1iuU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "id": 88711224,
+  "name": "Soggy Swamp",
+  "creators": [
+	"Blysteryx"
+  ],
+  "verifier": "Blysteryx",
+  "verification": "https://www.youtube.com/watch?v=XwRcsKD1MSM&ab_channel=BlysteryxGD",
+  "showcase": "https://youtu.be/GMUTrmhTgqM?si=G8BdRrhc3oLjph5f",
+  "percentToQualify": 100,
+  "song": "Waterflame - -Sunken field-",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://www.youtube.com/watch?v=ilBu-KSyVag",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "9"
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/mk-SJB76EIQ",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/IOfwZ9GO9Xc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/sc2YFpAMrbk",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=4HN7btqIfOQ",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/dqvA-uchddg",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/BU5Ms7PJ6D4?si=6R4W5pjrHDPo1iuU",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

@@ -1,158 +1,159 @@
 {
-    "id": 82474028,
-    "name": "motionless",
-    "author": "morsey",
-    "creators": [],
-    "verifier": "morsey",
-    "verification": "https://youtu.be/aFuoyexmhjY",
-    "percentToQualify": 100,
-    "song": "I SEE STARS - Murder Mitten",
-    "songLink": "https://www.mediafire.com/file/b341enh6lxnfw8w/8800.mp3/file",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/vYvybv1pF5o",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://youtu.be/JE8XzIV40vU",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/XGXbFWb72T8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/H8bvfhhWkdc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Tupi",
-            "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/kfiipBGcBeg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "mr123j",
-            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "sc6ne",
-            "link": "https://youtu.be/ABAIUIjC70A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/377YQ4-4hnA",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "The16FigureLimit",
-            "link": "https://youtu.be/NNw9gHxRGIo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/uCOU2RTyABg?si=hOK0TdINXpKyrxpC",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/i-Atz7rlUgo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Bluelightning379",
-            "link": "https://www.youtube.com/watch?v=ma668LBe6Vc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "VGdarkz",
-            "link": "https://youtu.be/N0KqYgOSqlQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+  "id": 82474028,
+  "name": "motionless",
+  "creators": [
+	"morsey"
+  ],
+  "verifier": "morsey",
+  "verification": "https://youtu.be/aFuoyexmhjY",
+  "percentToQualify": 100,
+  "song": "I SEE STARS - Murder Mitten",
+  "songLink": "https://www.mediafire.com/file/b341enh6lxnfw8w/8800.mp3/file",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/vYvybv1pF5o",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "TurtleER",
+	  "link": "https://youtu.be/JE8XzIV40vU",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/XGXbFWb72T8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://youtu.be/H8bvfhhWkdc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "rSnoozy",
+	  "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Tupi",
+	  "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/kfiipBGcBeg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "mr123j",
+	  "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "sc6ne",
+	  "link": "https://youtu.be/ABAIUIjC70A",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/377YQ4-4hnA",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "The16FigureLimit",
+	  "link": "https://youtu.be/NNw9gHxRGIo",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Zyxo",
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://youtu.be/uCOU2RTyABg?si=hOK0TdINXpKyrxpC",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://youtu.be/i-Atz7rlUgo",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Bluelightning379",
+	  "link": "https://www.youtube.com/watch?v=ma668LBe6Vc",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "VGdarkz",
+	  "link": "https://youtu.be/N0KqYgOSqlQ",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 6
+	}
+  ]
 }

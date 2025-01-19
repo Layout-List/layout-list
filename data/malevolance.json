@@ -1,16 +1,15 @@
-{ 
-    "id": 112104447,
-    "name": "Malevolance",
-    "author": "azakl",
-    "creators": [],
-    "verifier": "azakl",
-    "verification": "https://youtu.be/R5DhBaljbtY",
-    "percentToQualify": 100,
-    "song": "Teminite - Mutant",
-    "songLink": "https://www.newgrounds.com/audio/listen/877782",
-    "difficulty": 4,
-    "enjoyment": 8,
-    "records": [
-        
-    ]
+{
+  "id": 112104447,
+  "name": "Malevolance",
+  "creators": [
+	"azakl"
+  ],
+  "verifier": "azakl",
+  "verification": "https://youtu.be/R5DhBaljbtY",
+  "percentToQualify": 100,
+  "song": "Teminite - Mutant",
+  "songLink": "https://www.newgrounds.com/audio/listen/877782",
+  "difficulty": 4,
+  "enjoyment": 8,
+  "records": []
 }

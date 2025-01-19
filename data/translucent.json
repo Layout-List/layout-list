@@ -1,54 +1,54 @@
 {
-    "id": 110840530,
-    "name": "Translucent",
-    "author": "IIRafII",
-    "creators": [],
-    "verifier": "IIRafII",
-    "verification": "https://youtu.be/h4LJ8aKgcmU",
-    "percentToQualify": 100,
-    "song": "Creo - Aura",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 4
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "sn0w",
-            "link": "https://www.twitch.tv/videos/2291010730",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Wingz_GD",
-            "link": "https://youtu.be/rIP6xGdEX3w",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 5
-        }
-        
-    ]
+  "id": 110840530,
+  "name": "Translucent",
+  "creators": [
+	"IIRafII"
+  ],
+  "verifier": "IIRafII",
+  "verification": "https://youtu.be/h4LJ8aKgcmU",
+  "percentToQualify": 100,
+  "song": "Creo - Aura",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "sn0w",
+	  "link": "https://www.twitch.tv/videos/2291010730",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "Wingz_GD",
+	  "link": "https://youtu.be/rIP6xGdEX3w",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 5
+	}
+  ]
 }

@@ -1,77 +1,78 @@
 {
-    "id": 106400458,
-    "name": "violet party",
-    "author": "Tanginess",
-    "creators": [],
-    "verifier": "Spaace",
-    "verification": "https://youtu.be/3E-s2EyhT9M",
-    "percentToQualify": 100,
-    "song": "lexycat - Jasmine",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Tanginess",
-            "link": "https://www.youtube.com/watch?v=Kd1aPMEGpXs",
-            "percent": 100,
-            "hz": 1000,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/06nWFyDZTic",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=b808jvpOry8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=hmdj5vnbfn0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/zpyXntm_Uys",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": "6"
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/ejU9GDjMHuI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "4"
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=nU9IJgrlBJY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=Lln5kYlmr68",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": "9"
-        }
-    ]
+  "id": 106400458,
+  "name": "violet party",
+  "creators": [
+	"Tanginess"
+  ],
+  "verifier": "Spaace",
+  "verification": "https://youtu.be/3E-s2EyhT9M",
+  "percentToQualify": 100,
+  "song": "lexycat - Jasmine",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "Tanginess",
+	  "link": "https://www.youtube.com/watch?v=Kd1aPMEGpXs",
+	  "percent": 100,
+	  "hz": 1000,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/06nWFyDZTic",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "10"
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=b808jvpOry8",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "8"
+	},
+	{
+	  "user": "Zyxo",
+	  "link": "https://www.youtube.com/watch?v=hmdj5vnbfn0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "7"
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/zpyXntm_Uys",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": "6"
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://youtu.be/ejU9GDjMHuI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "4"
+	},
+	{
+	  "user": "Dom_Luca",
+	  "link": "https://www.youtube.com/watch?v=nU9IJgrlBJY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": "8"
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://www.youtube.com/watch?v=Lln5kYlmr68",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": "9"
+	}
+  ]
 }

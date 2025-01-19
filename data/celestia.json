@@ -1,119 +1,119 @@
 {
-    "id": 102176153,
-    "name": "CELESTIA",
-    "author": "Tanginess",
-    "creators": [],
-    "verifier": "Riley",
-    "verification": "https://youtu.be/NJ0CvB_Cmx0",
-    "showcase": "https://www.youtube.com/watch?v=dXLsdupQXJk",
-    "percentToQualify": 60,
-    "song": "Yabujin - CHALICE OF MIND",
-    "songLink": "https://www.mediafire.com/file/vh9lpagpvuy64w1/68002.mp3/file",
-    "difficulty": 7,
-    "enjoyment": 10,
-    "records": [
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=LXN050bHfaY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "10"
-        },
-        {
-            "user": "Tanginess",
-            "link": "https://youtu.be/ONtf9rLryRE?feature=shared",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "idiotdash",
-            "link": "https://www.youtube.com/watch?v=LGda71OcvTQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Spaace",
-            "link": "https://www.youtube.com/watch?v=JLf_nlVKrAQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/szQv0HgGf2Y",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/WhJAt0yNY4E",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Dangadash",
-            "link": "https://www.youtube.com/watch?v=QGvLEVYzDE8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/Y-yVgSTDcsw?si=C2uvyN4aVNB7Psl5",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Skip",
-            "link": "https://www.youtube.com/watch?v=vrMx2bPymYw&",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-            
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/WgZLmZhFFdU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=8CX2-3vEEsE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Dominez",
-            "link": "https://youtu.be/BlKHYRNa0A8",
-            "percent": 100,
-            "hz": 480,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=EK9Y9GPFFEU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "id": 102176153,
+  "name": "CELESTIA",
+  "creators": [
+	"Tanginess"
+  ],
+  "verifier": "Riley",
+  "verification": "https://youtu.be/NJ0CvB_Cmx0",
+  "showcase": "https://www.youtube.com/watch?v=dXLsdupQXJk",
+  "percentToQualify": 60,
+  "song": "Yabujin - CHALICE OF MIND",
+  "songLink": "https://www.mediafire.com/file/vh9lpagpvuy64w1/68002.mp3/file",
+  "difficulty": 7,
+  "enjoyment": 10,
+  "records": [
+	{
+	  "user": "Hydraniac",
+	  "link": "https://www.youtube.com/watch?v=LXN050bHfaY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "10"
+	},
+	{
+	  "user": "Tanginess",
+	  "link": "https://youtu.be/ONtf9rLryRE?feature=shared",
+	  "percent": 100,
+	  "hz": 165,
+	  "mobile": false
+	},
+	{
+	  "user": "idiotdash",
+	  "link": "https://www.youtube.com/watch?v=LGda71OcvTQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Spaace",
+	  "link": "https://www.youtube.com/watch?v=JLf_nlVKrAQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/szQv0HgGf2Y",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/WhJAt0yNY4E",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Dangadash",
+	  "link": "https://www.youtube.com/watch?v=QGvLEVYzDE8",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/Y-yVgSTDcsw?si=C2uvyN4aVNB7Psl5",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Skip",
+	  "link": "https://www.youtube.com/watch?v=vrMx2bPymYw&",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/WgZLmZhFFdU",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://www.youtube.com/watch?v=8CX2-3vEEsE",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Dominez",
+	  "link": "https://youtu.be/BlKHYRNa0A8",
+	  "percent": 100,
+	  "hz": 480,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "rustic",
+	  "link": "https://www.youtube.com/watch?v=EK9Y9GPFFEU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	}
+  ]
 }

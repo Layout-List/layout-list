@@ -1,123 +1,124 @@
 {
-    "id": 96928937,
-    "name": "ThunderZone",
-    "author": "whitmp4",
-    "creators": [],
-    "verifier": "whitmp4",
-    "verification": "https://youtu.be/B2pOjNwIyZA?si=70Npm7vdMtvHsLbn",
-    "percentToQualify": 100,
-    "song": "Waterflame - -ThunderZone v2-",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/YHyeMpAmga4?si=xgCptj99q6LICP94",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/1jumKJuCpeQ?si=tRrxz4WVLReai_FY",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "9"
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "1"
-        },
-        {
-          "user": "Acacia",
-          "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-          "user": "Blysteryx",
-          "link": "https://youtu.be/K40bHu8oErQ?si=or-lKlHQvOxL7nnn",
-          "percent": 100,
-          "hz": 240,
-          "mobile": true
-        },
-        {
-          "user": "Mystikl",
-          "link": "https://youtu.be/dS7-Xd3eZ04",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Tomfoolering",
-            "link": "https://www.youtube.com/watch?v=gS6rauaYi0U",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Ultrobro",
-            "link": "https://youtu.be/AhwQyRmnHx0?si=YHLwopp9Ide-MXYS",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-          {
-            "user": "Asteria.",
-            "link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
-            "percent": 100,
-            "hz": 280,
-            "mobile": false
-        },
-         {
-            "user": "Bibox",
-            "link": "https://youtu.be/eh46drJZs3M",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "sn0w",
-            "link": "https://youtu.be/NWmQXNq69e0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-          {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/_OwQSeRRSzg?si=6_F5ACtmZsx8WxLB",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-          },
-          {
-              "user": "Hydraniac",
-              "link": "https://www.youtube.com/watch?v=7BnAxTAMFFs",
-              "percent": 100,
-              "hz": 240,
-              "mobile": false,
-              "enjoyment": 3
-        },
-        {
-          "user": "Syrcx",
-          "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false,
-          "enjoyment": "?"
-      }
-    ]
+  "id": 96928937,
+  "name": "ThunderZone",
+  "creators": [
+	"whitmp4"
+  ],
+  "verifier": "whitmp4",
+  "verification": "https://youtu.be/B2pOjNwIyZA?si=70Npm7vdMtvHsLbn",
+  "percentToQualify": 100,
+  "song": "Waterflame - -ThunderZone v2-",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/YHyeMpAmga4?si=xgCptj99q6LICP94",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/1jumKJuCpeQ?si=tRrxz4WVLReai_FY",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "9"
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "1"
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/K40bHu8oErQ?si=or-lKlHQvOxL7nnn",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": true
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/dS7-Xd3eZ04",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Tomfoolering",
+	  "link": "https://www.youtube.com/watch?v=gS6rauaYi0U",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false
+	},
+	{
+	  "user": "Ultrobro",
+	  "link": "https://youtu.be/AhwQyRmnHx0?si=YHLwopp9Ide-MXYS",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Asteria.",
+	  "link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
+	  "percent": 100,
+	  "hz": 280,
+	  "mobile": false
+	},
+	{
+	  "user": "Bibox",
+	  "link": "https://youtu.be/eh46drJZs3M",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "sn0w",
+	  "link": "https://youtu.be/NWmQXNq69e0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://youtu.be/_OwQSeRRSzg?si=6_F5ACtmZsx8WxLB",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://www.youtube.com/watch?v=7BnAxTAMFFs",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	}
+  ]
 }

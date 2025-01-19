@@ -1,81 +1,82 @@
 {
-    "id": 76071699,
-    "name": "Money Machine Layout",
-    "author": "akinawoo",
-    "creators": [],
-    "verifier": "acratic",
-    "verification": "https://www.youtube.com/watch?v=Cad4AsSgtss",
-    "showcase": "https://www.youtube.com/watch?v=6pT4_-bfZH4&ab_channel=LayoutListShowcases",
-    "percentToQualify": 58,
-    "song": "100 gecs - money machine",
-    "songLink": "https://drive.google.com/file/d/1iyyMaWGXHLzATI3AkDpjS01jZphnmlmX/view?usp=drive_link",
-    "difficulty": 6,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/BNDs0fS0gjw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/d-OUHYWFkBk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/dGyVojWo33w",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "WellNot",
-            "link": "https://youtu.be/BoIsa8VvLgY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=CkVFtZpk6Oc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "rfanvs",
-            "link": "https://www.youtube.com/watch?v=V0BwLqzr0sQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Vink",
-            "link": "https://youtu.be/4ocwHDXhfMg",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=u9hULF0zmi8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "id": 76071699,
+  "name": "Money Machine Layout",
+  "creators": [
+	"akinawoo"
+  ],
+  "verifier": "acratic",
+  "verification": "https://www.youtube.com/watch?v=Cad4AsSgtss",
+  "showcase": "https://www.youtube.com/watch?v=6pT4_-bfZH4&ab_channel=LayoutListShowcases",
+  "percentToQualify": 58,
+  "song": "100 gecs - money machine",
+  "songLink": "https://drive.google.com/file/d/1iyyMaWGXHLzATI3AkDpjS01jZphnmlmX/view?usp=drive_link",
+  "difficulty": 6,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/BNDs0fS0gjw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/d-OUHYWFkBk",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "rSnoozy",
+	  "link": "https://youtu.be/dGyVojWo33w",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "WellNot",
+	  "link": "https://youtu.be/BoIsa8VvLgY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=CkVFtZpk6Oc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "rfanvs",
+	  "link": "https://www.youtube.com/watch?v=V0BwLqzr0sQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Vink",
+	  "link": "https://youtu.be/4ocwHDXhfMg",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://www.youtube.com/watch?v=u9hULF0zmi8",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	}
+  ]
 }

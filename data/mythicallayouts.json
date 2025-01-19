@@ -1,15 +1,14 @@
 {
-    "id": 0,
-    "name": "(Mythical Layouts)",
-    "author": "Shown here",
-    "creators": [],
-    "verifier": "",
-    "verification": "",
-    "percentToQualify": 0,
-    "password": "",
-    "song": "Shown here",
-    "difficulty": 5,
-    "records": [
-        
-    ]
+  "id": 0,
+  "name": "(Mythical Layouts)",
+  "creators": [
+	"Shown here"
+  ],
+  "verifier": "",
+  "verification": "",
+  "percentToQualify": 0,
+  "password": "",
+  "song": "Shown here",
+  "difficulty": 5,
+  "records": []
 }

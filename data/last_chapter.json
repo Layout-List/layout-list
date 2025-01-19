@@ -1,117 +1,118 @@
 {
-    "id": 78424022,
-    "name": "Last Chapter",
-    "author": "idiotdash",
-    "creators": [],
-    "verifier": "idiotdash",
-    "verification": "https://youtu.be/MKIP9PFibCQ",
-    "percentToQualify": 54,
-    "song": "\u30e9\u30b9\u30c8\u30c1\u30e3\u30d7\u30bf\u30fc - nano.RIPE",
-    "songLink": "https://drive.google.com/file/d/1kTTEkGuwAaqbrD_aVK6i2IYqhZ2lx2ll/view?usp=drive_link",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/ry24Knveanw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=UCbknKXCMnc",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=EfiF0SXK2zI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/duzmdGbHpws",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://youtu.be/NY7NwzmPCS8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/NUyYh6cNYF0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/hZ81HQoQcj4",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-          {
-            "user": "Doggo136",
-            "link": "https://youtu.be/CPoYvw6bNJ0?si=U-8viWaj-_nqGAvY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-          {
-            "user": "gdBean",
-            "link": "https://www.youtube.com/watch?v=k9fHjmesVIk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=QN2Ryn2Soug",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Asteria.",
-            "link": "https://youtu.be/d5QqwC8jllE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/iU8yZGvfewTvK16c5?invite=cr-MSxTYmcsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "id": 78424022,
+  "name": "Last Chapter",
+  "creators": [
+	"idiotdash"
+  ],
+  "verifier": "idiotdash",
+  "verification": "https://youtu.be/MKIP9PFibCQ",
+  "percentToQualify": 54,
+  "song": "ラストチャプター - nano.RIPE",
+  "songLink": "https://drive.google.com/file/d/1kTTEkGuwAaqbrD_aVK6i2IYqhZ2lx2ll/view?usp=drive_link",
+  "difficulty": 4,
+  "records": [
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/ry24Knveanw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://www.youtube.com/watch?v=UCbknKXCMnc",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "CaioMD",
+	  "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Dom_Luca",
+	  "link": "https://www.youtube.com/watch?v=EfiF0SXK2zI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/duzmdGbHpws",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://youtu.be/NY7NwzmPCS8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/NUyYh6cNYF0",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/hZ81HQoQcj4",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "8"
+	},
+	{
+	  "user": "Doggo136",
+	  "link": "https://youtu.be/CPoYvw6bNJ0?si=U-8viWaj-_nqGAvY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "gdBean",
+	  "link": "https://www.youtube.com/watch?v=k9fHjmesVIk",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=QN2Ryn2Soug",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Asteria.",
+	  "link": "https://youtu.be/d5QqwC8jllE",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://medal.tv/games/geometry-dash/clips/iU8yZGvfewTvK16c5?invite=cr-MSxTYmcsMTg1OTcxMTAwLA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

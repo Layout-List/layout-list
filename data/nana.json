@@ -1,87 +1,87 @@
 {
-    "id": 68483637,
-    "name": "NANA",
-    "author": "DJJDK",
-    "creators": [
-        "Racio",
-        "Blathers",
-        "NewDark",
-        "St1ng",
-        "Tragikly",
-        "DaAlexSeed"
-    ],
-    "verifier": "Blathers",
-    "verification": "https://youtu.be/pQoHbzv-uSU",
-    "showcase": "https://youtu.be/o_DHFYxb168",
-    "percentToQualify": 53,
-    "song": "Geoxor - NANA",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "Plasmic",
-            "link": "https://www.youtube.com/watch?v=cPpFXE8_8P8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://www.youtube.com/watch?v=zkrI9MaemCQ",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "CaioMD",
-           "link": "https://www.youtube.com/watch?v=PKgL6rU5TfY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/gIWRnDnQp94",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/ZmEPE74Cx_g",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-          {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=5EBLi9-gaJo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/KgA334nKC6M",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/moRa7i7WfUw?si=Hr-mGOpFlUwXvKcP",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        }
-    ]
+  "id": 68483637,
+  "name": "NANA",
+  "creators": [
+	"DJJDK",
+	"Racio",
+	"Blathers",
+	"NewDark",
+	"St1ng",
+	"Tragikly",
+	"DaAlexSeed"
+  ],
+  "verifier": "Blathers",
+  "verification": "https://youtu.be/pQoHbzv-uSU",
+  "showcase": "https://youtu.be/o_DHFYxb168",
+  "percentToQualify": 53,
+  "song": "Geoxor - NANA",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "Plasmic",
+	  "link": "https://www.youtube.com/watch?v=cPpFXE8_8P8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Fusion425",
+	  "link": "https://www.youtube.com/watch?v=zkrI9MaemCQ",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "CaioMD",
+	  "link": "https://www.youtube.com/watch?v=PKgL6rU5TfY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/gIWRnDnQp94",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/ZmEPE74Cx_g",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=5EBLi9-gaJo",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/KgA334nKC6M",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/moRa7i7WfUw?si=Hr-mGOpFlUwXvKcP",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 1
+	}
+  ]
 }

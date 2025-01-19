@@ -1,213 +1,214 @@
 {
-    "id": 47625602,
-    "name": "Kitty Kat LAYOUT",
-    "author": "Blathers",
-    "creators": [],
-    "verifier": "Blathers",
-    "verification": "https://youtu.be/GUWW_OVT2YM",
-    "showcase": "https://youtu.be/LAckmLSs3xk",
-    "percentToQualify": 51,
-    "song": "Acid-Notation - ---Kitty---",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Plasmic",
-            "link": "https://clips.twitch.tv/ElatedPlumpStapleTwitchRaid-_v3nkv4Oyc9PKE9G",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "weekend135",
-            "link": "https://www.youtube.com/watch?v=vrsg0dWNhuA",
-            "percent": 100,
-            "hz": 280
-        },
-        {
-            "user": "ZBosGaming",
-            "link": "https://youtu.be/0lA9_X1NXk0",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "sqrtpie",
-            "link": "https://youtu.be/47m-YZQsSh4",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "Sloudy",
-            "link": "https://www.youtube.com/watch?v=Hw0W-70UGLU",
-            "percent": 100,
-            "hz": 300
-        },
-        {
-            "user": "culobdj",
-            "link": "https://www.youtube.com/watch?v=HOsfz7-B8po",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "rustic",
-            "link": "https://youtu.be/qj5thRr8TfU",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=1ER5yeY15lI",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/8R0oEAQUK8w",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/gleOjMWi5cM",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://youtu.be/ctSkcbwo7_k",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Armani",
-            "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://www.youtube.com/watch?v=ybmEixpxiKg",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Jab",
-            "link": "https://www.youtube.com/watch?v=FhOVJBEFs_g",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "mrutherford1106",
-            "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "TurtlesdoHurdles",
-            "link": "https://www.youtube.com/watch?v=NmiqnY2RwoI",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://youtu.be/Wha1eOlqaqI",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/Ih4QMrsa83w",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/fq6mP9Pr6xE",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-          "user": "SinSnrGD",
-          "link": "https://www.youtube.com/watch?v=lTkz5o2JktI&ab_channel=sinsnr",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/P4hq4EN7--0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fawami",
-            "link": "https://youtu.be/4Ia5RrXOtAw",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "Xenyan",
-            "link": "https://youtu.be/V-T4OtGVACQ",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 10
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-         {
-            "user": "briskrain",
-            "link": "https://youtu.be/cF2ImIvhsA0?si=u63ppg8shbX_kgkS",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 0
-        },
-        {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=38p9632erwk",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/T9JXmrL28eU?si=itq8HpDWFR6oZcik",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "0"
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://www.youtube.com/watch?v=jxvC9Mlidyw",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=GJMa4c7yOlU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "id": 47625602,
+  "name": "Kitty Kat LAYOUT",
+  "creators": [
+	"Blathers"
+  ],
+  "verifier": "Blathers",
+  "verification": "https://youtu.be/GUWW_OVT2YM",
+  "showcase": "https://youtu.be/LAckmLSs3xk",
+  "percentToQualify": 51,
+  "song": "Acid-Notation - ---Kitty---",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Plasmic",
+	  "link": "https://clips.twitch.tv/ElatedPlumpStapleTwitchRaid-_v3nkv4Oyc9PKE9G",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "weekend135",
+	  "link": "https://www.youtube.com/watch?v=vrsg0dWNhuA",
+	  "percent": 100,
+	  "hz": 280
+	},
+	{
+	  "user": "ZBosGaming",
+	  "link": "https://youtu.be/0lA9_X1NXk0",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "sqrtpie",
+	  "link": "https://youtu.be/47m-YZQsSh4",
+	  "percent": 100,
+	  "hz": 60
+	},
+	{
+	  "user": "Sloudy",
+	  "link": "https://www.youtube.com/watch?v=Hw0W-70UGLU",
+	  "percent": 100,
+	  "hz": 300
+	},
+	{
+	  "user": "culobdj",
+	  "link": "https://www.youtube.com/watch?v=HOsfz7-B8po",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "rustic",
+	  "link": "https://youtu.be/qj5thRr8TfU",
+	  "percent": 100,
+	  "hz": 144
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://www.youtube.com/watch?v=1ER5yeY15lI",
+	  "percent": 100,
+	  "hz": 144
+	},
+	{
+	  "user": "Luk231",
+	  "link": "https://youtu.be/8R0oEAQUK8w",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Fusion425",
+	  "link": "https://youtu.be/gleOjMWi5cM",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "danielvess555",
+	  "link": "https://youtu.be/ctSkcbwo7_k",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://www.youtube.com/watch?v=3g1185vqtwY",
+	  "percent": 100,
+	  "hz": 288
+	},
+	{
+	  "user": "CaioMD",
+	  "link": "https://www.youtube.com/watch?v=ybmEixpxiKg",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Jab",
+	  "link": "https://www.youtube.com/watch?v=FhOVJBEFs_g",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "mrutherford1106",
+	  "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
+	  "percent": 100,
+	  "hz": 144
+	},
+	{
+	  "user": "TurtlesdoHurdles",
+	  "link": "https://www.youtube.com/watch?v=NmiqnY2RwoI",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Dom_Luca",
+	  "link": "https://youtu.be/Wha1eOlqaqI",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/Ih4QMrsa83w",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/fq6mP9Pr6xE",
+	  "percent": 100,
+	  "hz": 60
+	},
+	{
+	  "user": "SinSnrGD",
+	  "link": "https://www.youtube.com/watch?v=lTkz5o2JktI&ab_channel=sinsnr",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/P4hq4EN7--0",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Fawami",
+	  "link": "https://youtu.be/4Ia5RrXOtAw",
+	  "percent": 100,
+	  "hz": 165,
+	  "mobile": false
+	},
+	{
+	  "user": "Xenyan",
+	  "link": "https://youtu.be/V-T4OtGVACQ",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "briskrain",
+	  "link": "https://youtu.be/cF2ImIvhsA0?si=u63ppg8shbX_kgkS",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 0
+	},
+	{
+	  "user": "Alvaneder",
+	  "link": "https://www.youtube.com/watch?v=38p9632erwk",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/T9JXmrL28eU?si=itq8HpDWFR6oZcik",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "0"
+	},
+	{
+	  "user": "TurtleER",
+	  "link": "https://www.youtube.com/watch?v=jxvC9Mlidyw",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=GJMa4c7yOlU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

@@ -1,56 +1,56 @@
 {
-	"id": 110693754,
-	"name": "Ablaze Downfall",
-	"author": "Spaace",
-	"creators": [
-		"Riley"
-	],
-	"verifier": "attrixia",
-	"verification": "https://youtu.be/P32t9aQz1Qw",
-	"percentToQualify": 46,
-	"song": "Sick Legend - Set Fire to the Rain (hardstyle)",
-	"songLink": "https://drive.google.com/file/d/1jF7tQ8CG-TrDnO9pp3AXC4gJm3_IS1pq/view?usp=drive_link",
-	"difficulty": 7,
-	"enjoyment": 9,
-	"records": [
-		{
-			"user": "Spaace",
-			"link": "https://youtu.be/09NDkVePnSc",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "zWren",
-			"link": "https://www.youtube.com/watch?v=VkFf-bBe9dM",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://youtu.be/RrzKh_dKbfw?si=XeuNb0Uz1PzTFZ8K",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 0
-		},
-		{
-			"user": "Riley",
-			"link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Acacia",
-			"link": "https://youtu.be/Vq2LhvK613I",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 10
-		}
-	]
+  "id": 110693754,
+  "name": "Ablaze Downfall",
+  "creators": [
+	"Spaace",
+	"Riley"
+  ],
+  "verifier": "attrixia",
+  "verification": "https://youtu.be/P32t9aQz1Qw",
+  "percentToQualify": 46,
+  "song": "Sick Legend - Set Fire to the Rain (hardstyle)",
+  "songLink": "https://drive.google.com/file/d/1jF7tQ8CG-TrDnO9pp3AXC4gJm3_IS1pq/view?usp=drive_link",
+  "difficulty": 7,
+  "enjoyment": 9,
+  "records": [
+	{
+	  "user": "Spaace",
+	  "link": "https://youtu.be/09NDkVePnSc",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://www.youtube.com/watch?v=VkFf-bBe9dM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/RrzKh_dKbfw?si=XeuNb0Uz1PzTFZ8K",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 0
+	},
+	{
+	  "user": "Riley",
+	  "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://youtu.be/Vq2LhvK613I",
+	  "percent": 100,
+	  "hz": 360,
+	  "enjoyment": 10
+	}
+  ]
 }

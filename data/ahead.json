@@ -1,122 +1,123 @@
 {
-    "id": 73932988,
-    "name": "Ahead",
-    "author": "ZeusGD",
-    "creators": [],
-    "verifier": "ZeusGD",
-    "verification": "https://youtu.be/vRUU-8FObzs",
-    "showcase": "https://youtu.be/XG8JnuPHkOc",
-    "percentToQualify": 54,
-    "song": "MrKoolTrix - Journey Ahead",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "ZBosGaming",
-            "link": "https://www.youtube.com/watch?v=oW-yB08kvWE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/fT0jTumVD1Y",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/AtztkezVeck",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://www.youtube.com/watch?v=zIPNfuGfQBA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Vink",
-            "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=5H51JknvfYg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/gIWRnDnQp94",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/UkjWw2RaLUE",
-            "percent": 96,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/IZsrfLvPHUs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/bqgwsHgrDgE",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": ".com",
-            "link": "https://www.youtube.com/watch?v=cQ2SqgcoIx0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/Eat8vPz0tf0",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/ph1mWOm4iWc?si=kooBLYzLkWBNCUiW",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "id": 73932988,
+  "name": "Ahead",
+  "creators": [
+	"ZeusGD"
+  ],
+  "verifier": "ZeusGD",
+  "verification": "https://youtu.be/vRUU-8FObzs",
+  "showcase": "https://youtu.be/XG8JnuPHkOc",
+  "percentToQualify": 54,
+  "song": "MrKoolTrix - Journey Ahead",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "ZBosGaming",
+	  "link": "https://www.youtube.com/watch?v=oW-yB08kvWE",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Luk231",
+	  "link": "https://youtu.be/fT0jTumVD1Y",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Fusion425",
+	  "link": "https://youtu.be/AtztkezVeck",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "CaioMD",
+	  "link": "https://www.youtube.com/watch?v=zIPNfuGfQBA",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Vink",
+	  "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "rustic",
+	  "link": "https://www.youtube.com/watch?v=5H51JknvfYg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/gIWRnDnQp94",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Blathers",
+	  "link": "https://youtu.be/UkjWw2RaLUE",
+	  "percent": 96,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/IZsrfLvPHUs",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/bqgwsHgrDgE",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": ".com",
+	  "link": "https://www.youtube.com/watch?v=cQ2SqgcoIx0",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/Eat8vPz0tf0",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=XMOFso7vjCg",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/ph1mWOm4iWc?si=kooBLYzLkWBNCUiW",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	}
+  ]
 }

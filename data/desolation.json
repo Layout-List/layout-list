@@ -1,105 +1,105 @@
 {
-    "id": 89860783,
-    "name": "DesolatioN",
-    "author": "Goldoss",
-    "creators": [
-        "Am1KroN"
-    ],
-    "verifier": "Am1KroN",
-    "verification": "https://youtu.be/jHJJtzJv4H0?si=UwFcW5x434rR8bnk",
-    "percentToQualify": 10,
-    "song": "ELEPS - Desolation (Original Mix)",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "DJJDK",
-            "link": "https://youtu.be/4pMgrxZc3Kw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/qNYtUa5CDmw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://youtu.be/kLUXA8Ji0VA",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/6HPuB3SxCfQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/yEfPQwmtxxo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "Xeronius",
-            "link": "https://youtu.be/WfNv6LLcxk4",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-             "enjoyment": "6"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/7raXBN0OoaI?si=kClwKomPhJFcmNwR",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/sxuLynUEx7M",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 0
-        }
-    ]
+  "id": 89860783,
+  "name": "DesolatioN",
+  "creators": [
+	"Goldoss",
+	"Am1KroN"
+  ],
+  "verifier": "Am1KroN",
+  "verification": "https://youtu.be/jHJJtzJv4H0?si=UwFcW5x434rR8bnk",
+  "percentToQualify": 10,
+  "song": "ELEPS - Desolation (Original Mix)",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "DJJDK",
+	  "link": "https://youtu.be/4pMgrxZc3Kw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/qNYtUa5CDmw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "ThisGuyKreas",
+	  "link": "https://youtu.be/kLUXA8Ji0VA",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/6HPuB3SxCfQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "nolli",
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/yEfPQwmtxxo",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/WfNv6LLcxk4",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "6"
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/7raXBN0OoaI?si=kClwKomPhJFcmNwR",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=80GDCe_uO_8&t=26s",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/sxuLynUEx7M",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 0
+	}
+  ]
 }

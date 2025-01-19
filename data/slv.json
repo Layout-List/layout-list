@@ -1,60 +1,60 @@
 {
-    "id": 79992820,
-    "name": "SLV",
-    "author": "Fusion425",
-    "creators": [
-        "ZBosGaming"
-    ],
-    "verifier": "Fusion425",
-    "verification": "https://youtu.be/x8K4u-3fGIM",
-    "showcase": "https://www.youtube.com/watch?v=flNELeuOoH0&ab_channel=LayoutListShowcases",
-    "percentToQualify": 60,
-    "song": "DSMagnum - -[ HailFIRE Peaks ]-",
-    "difficulty": 6,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/PIVko3GYuj8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Dominez28",
-            "link": "https://youtu.be/d8LzEzlBj1o",
-            "percent": 87,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "Seismic",
-            "link": "https://youtu.be/pXDixU_wRpQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=qkijkPbEP8I",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=ysoT4PKF2Q0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "cartermon",
-            "link": "https://youtu.be/Vl_b3N1oY0Y?si=mIj6yU27cbayIk3h",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "id": 79992820,
+  "name": "SLV",
+  "creators": [
+	"Fusion425",
+	"ZBosGaming"
+  ],
+  "verifier": "Fusion425",
+  "verification": "https://youtu.be/x8K4u-3fGIM",
+  "showcase": "https://www.youtube.com/watch?v=flNELeuOoH0&ab_channel=LayoutListShowcases",
+  "percentToQualify": 60,
+  "song": "DSMagnum - -[ HailFIRE Peaks ]-",
+  "difficulty": 6,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/PIVko3GYuj8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Dominez28",
+	  "link": "https://youtu.be/d8LzEzlBj1o",
+	  "percent": 87,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Seismic",
+	  "link": "https://youtu.be/pXDixU_wRpQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=qkijkPbEP8I",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=ysoT4PKF2Q0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "cartermon",
+	  "link": "https://youtu.be/Vl_b3N1oY0Y?si=mIj6yU27cbayIk3h",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	}
+  ]
 }

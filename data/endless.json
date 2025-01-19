@@ -1,172 +1,173 @@
 {
-    "id": 76558750,
-    "name": "Endless ❌",
-    "author": "Sal752",
-    "creators": [],
-    "verifier": "Sal752",
-    "verification": "https://youtu.be/EoUWB_gkkhk",
-    "percentToQualify": 53,
-    "song": "Creo - Endless",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/0UWaycNzqdI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/01N-BHZ4LOM",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "culobdj",
-            "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/ouaAEyegzio",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/vO14tymWU6M",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/CCJO0A8SoVc",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "Lev_Nix",
-            "link": "https://www.youtube.com/watch?v=w6MwY-AusXw",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "ZeusGD",
-            "link": "https://www.youtube.com/watch?v=eOQSbK_vi_k",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://www.youtube.com/watch?v=YVr88h5WA5I",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/QevVjQHJm2Q",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "sikoo23",
-            "link": "https://youtu.be/SYrYItbuiI0",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=fjxk4OOLIWM&ab_channel=DELETE999%5BGD%5D",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Super26Ramo",
-            "link": "https://www.youtube.com/watch?v=5doHHAngZmw",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://youtu.be/Zu2cfV6HFcU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Skybolt06",
-            "link": "https://www.youtube.com/watch?v=X9MeQHYm8ns",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/1OJPuuDVUv8",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "8"
-        },
-        {
-            "user": "agentgiscool",
-            "link": "https://youtu.be/aGuy3GRF9eA",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": "9"
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/Cc7-fIAXaAE",
-            "percent": 100,
-            "mobile": true,
-            "hz": 60,
-            "enjoyment": 7
-        }
-    ]
+  "id": 76558750,
+  "name": "Endless ❌",
+  "creators": [
+	"Sal752"
+  ],
+  "verifier": "Sal752",
+  "verification": "https://youtu.be/EoUWB_gkkhk",
+  "percentToQualify": 53,
+  "song": "Creo - Endless",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Fusion425",
+	  "link": "https://youtu.be/0UWaycNzqdI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Luk231",
+	  "link": "https://youtu.be/01N-BHZ4LOM",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "culobdj",
+	  "link": "https://www.youtube.com/watch?v=4dwvIlHs4zI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/ouaAEyegzio",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/vO14tymWU6M",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Blathers",
+	  "link": "https://youtu.be/CCJO0A8SoVc",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "Lev_Nix",
+	  "link": "https://www.youtube.com/watch?v=w6MwY-AusXw",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "rustic",
+	  "link": "https://www.youtube.com/watch?v=C5naWhje4n4",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "ZeusGD",
+	  "link": "https://www.youtube.com/watch?v=eOQSbK_vi_k",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://www.youtube.com/watch?v=YVr88h5WA5I",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/QevVjQHJm2Q",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "sikoo23",
+	  "link": "https://youtu.be/SYrYItbuiI0",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": true
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=fjxk4OOLIWM&ab_channel=DELETE999%5BGD%5D",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Super26Ramo",
+	  "link": "https://www.youtube.com/watch?v=5doHHAngZmw",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://youtu.be/Zu2cfV6HFcU",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Skybolt06",
+	  "link": "https://www.youtube.com/watch?v=X9MeQHYm8ns",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/1OJPuuDVUv8",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "8"
+	},
+	{
+	  "user": "agentgiscool",
+	  "link": "https://youtu.be/aGuy3GRF9eA",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": "9"
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://www.youtube.com/watch?v=PBbEYkFg_xY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/Cc7-fIAXaAE",
+	  "percent": 100,
+	  "mobile": true,
+	  "hz": 60,
+	  "enjoyment": 7
+	}
+  ]
 }

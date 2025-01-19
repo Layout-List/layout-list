@@ -1,198 +1,199 @@
 {
-    "id": 111809028,
-    "name": "PPGD",
-    "author": "PILHA",
-    "creators": [],
-    "verifier": "PILHA",
-    "verification": "https://youtu.be/uTW2QPntV-Y",
-    "showcase": "https://youtu.be/6SB-YqpXvrM",
-    "percentToQualify": 53,
-    "song": "Yifei - Mayonakano Door",
-    "songLink": "https://www.mediafire.com/file/ncjn7dxm340duv5/830628.mp3/file",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "joaopedroo",
-            "link": "https://www.youtube.com/watch?v=otNPVeL7avI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/gm91lQ7-mdk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Matthlew",
-            "link": "https://youtu.be/mlLE45kt6NY",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "rustic",
-            "link": "https://www.youtube.com/watch?v=wpR02-YoFA4",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=qlAmoMqNzbc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/gIWRnDnQp94",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/EtzY4ZDfIqg",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/Z4y1kgo19pM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/KgKFDtdoVTI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "RFanVS",
-            "link": "https://youtu.be/oLDVPeVqkTM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "sikoo23",
-            "link": "https://youtu.be/qP_y1JxxFOA",
-            "percent": 100,
-            "hz": "120",
-            "mobile": true
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=VTgm5K05oHI&ab_channel=AcaciaDoor",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Yuuri",
-            "link": "https://www.youtube.com/watch?v=h2hLi5L9eWE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-          "user": "Tradeskill",
-          "link": "https://youtu.be/oC8jgQSYSfA",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
-        },
-        {
-          "user": "sphericle",
-          "link": "https://www.youtube.com/live/qtAk9eCFeW4?si=eSdXFEaCCyX-d7p-&t=1434",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
-        },
-        {
-          "user": "Jab",
-          "link": "https://www.youtube.com/watch?v=dyQV0nm4SnA",
-          "percent": 100,
-          "hz": 144,
-          "mobile": false
-        },
-        {
-          "user": "Xeronius",
-          "link": "https://youtu.be/Z5UDnLtwq0A",
-          "percent": 100,
-          "hz": 75,
-          "mobile": false,
-          "enjoyment": "7"
-        },
-        {
-          "user": "zap",
-          "link": "https://youtu.be/nNq_RLEo4_0?feature=shared",
-          "percent": 100,
-          "hz": 240,
-          "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/3pGgZJHhmoA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Spaace",
-            "link": "https://youtu.be/7cXfUR34caU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://medal.tv/games/geometry-dash/clips/iTRFyI87Fj1CvQIQr?invite=cr-MSxPSzYsMTg1OTcxMTAwLA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "IIRafII",
-            "link": "https://youtu.be/irjBMbgW10k",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": 111809028,
+  "name": "PPGD",
+  "creators": [
+	"PILHA"
+  ],
+  "verifier": "PILHA",
+  "verification": "https://youtu.be/uTW2QPntV-Y",
+  "showcase": "https://youtu.be/6SB-YqpXvrM",
+  "percentToQualify": 53,
+  "song": "Yifei - Mayonakano Door",
+  "songLink": "https://www.mediafire.com/file/ncjn7dxm340duv5/830628.mp3/file",
+  "difficulty": 4,
+  "records": [
+	{
+	  "user": "joaopedroo",
+	  "link": "https://www.youtube.com/watch?v=otNPVeL7avI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Fusion425",
+	  "link": "https://youtu.be/gm91lQ7-mdk",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Matthlew",
+	  "link": "https://youtu.be/mlLE45kt6NY",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "rustic",
+	  "link": "https://www.youtube.com/watch?v=wpR02-YoFA4",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Dom_Luca",
+	  "link": "https://www.youtube.com/watch?v=qlAmoMqNzbc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/gIWRnDnQp94",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/EtzY4ZDfIqg",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/Z4y1kgo19pM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/KgKFDtdoVTI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "RFanVS",
+	  "link": "https://youtu.be/oLDVPeVqkTM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "sikoo23",
+	  "link": "https://youtu.be/qP_y1JxxFOA",
+	  "percent": 100,
+	  "hz": "120",
+	  "mobile": true
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=VTgm5K05oHI&ab_channel=AcaciaDoor",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Yuuri",
+	  "link": "https://www.youtube.com/watch?v=h2hLi5L9eWE",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Tradeskill",
+	  "link": "https://youtu.be/oC8jgQSYSfA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "sphericle",
+	  "link": "https://www.youtube.com/live/qtAk9eCFeW4?si=eSdXFEaCCyX-d7p-&t=1434",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Jab",
+	  "link": "https://www.youtube.com/watch?v=dyQV0nm4SnA",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/Z5UDnLtwq0A",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "7"
+	},
+	{
+	  "user": "zap",
+	  "link": "https://youtu.be/nNq_RLEo4_0?feature=shared",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/3pGgZJHhmoA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Riley",
+	  "link": "https://www.youtube.com/watch?app=desktop&v=h15oOlS0aMM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Spaace",
+	  "link": "https://youtu.be/7cXfUR34caU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://medal.tv/games/geometry-dash/clips/iTRFyI87Fj1CvQIQr?invite=cr-MSxPSzYsMTg1OTcxMTAwLA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "IIRafII",
+	  "link": "https://youtu.be/irjBMbgW10k",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }
