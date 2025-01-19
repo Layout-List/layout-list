@@ -1,45 +1,46 @@
 {
-    "id": 106288523,
-    "name": "InvisiblE ChaL",
-    "author": "mr123j",
-    "creators": [],
-    "verifier": "mr123j",
-    "verification": "https://youtu.be/HfhPqSVK5R4",
-    "percentToQualify": 100,
-    "song": "DEAF KEV - Invincible",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/yP55E8Zqe8k",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": "2"
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/AYSFcVy-x4c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "id": 106288523,
+  "name": "InvisiblE ChaL",
+  "creators": [
+	"mr123j"
+  ],
+  "verifier": "mr123j",
+  "verification": "https://youtu.be/HfhPqSVK5R4",
+  "percentToQualify": 100,
+  "song": "DEAF KEV - Invincible",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Zyxo",
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/yP55E8Zqe8k",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": "2"
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://youtu.be/AYSFcVy-x4c",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

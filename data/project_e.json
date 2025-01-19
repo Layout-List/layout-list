@@ -1,48 +1,48 @@
 {
-    "id": 110101194,
-    "name": "PROJECT E",
-    "author": "Tanginess",
-    "creators": [
-      "hjog"
-    ],
-    "verifier": "Riley",
-    "verification": "https://youtu.be/8ZWurIInmo4",
-    "percentToQualify": 60,
-    "song": "Waterflame - Control: Mind",
-    "difficulty": 9,
-    "enjoyment": 6,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/bxoJKoCuN9Y",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=0N3vP5d2yAk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/_6vz2ACnM0M?si=jTvBkJOKVtuXzhsY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/lJ2N9o6s5oo?si=q_ILaUgfOEqHGWDY",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "id": 110101194,
+  "name": "PROJECT E",
+  "creators": [
+	"hjog",
+	"Tanginess"
+  ],
+  "verifier": "Riley",
+  "verification": "https://youtu.be/8ZWurIInmo4",
+  "percentToQualify": 60,
+  "song": "Waterflame - Control: Mind",
+  "difficulty": 9,
+  "enjoyment": 6,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/bxoJKoCuN9Y",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://www.youtube.com/watch?v=0N3vP5d2yAk",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://youtu.be/_6vz2ACnM0M?si=jTvBkJOKVtuXzhsY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/lJ2N9o6s5oo?si=q_ILaUgfOEqHGWDY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	}
+  ]
 }

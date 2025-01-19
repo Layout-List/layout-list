@@ -1,78 +1,79 @@
 {
-    "id": 94691611,
-    "name": "why am i still here",
-    "author": "Fawami",
-    "creators": [],
-    "verifier": "Fawami",
-    "verification": "https://www.youtube.com/watch?v=KF5karWA8Q8",
-    "showcase": "https://youtu.be/UiE_GK9xr9A",
-    "percentToQualify": 53,
-    "song": "Joji - WHY AM I STILL IN LA",
-    "songLink": "https://drive.google.com/file/d/1R-mUUSajQXzqlARkysWG-v4OuJAu9rZE/view?usp=drive_link",
-    "difficulty": 7,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/iWxSjET4Igc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=s9SEXzg25gI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Robotic",
-            "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/wk0ChqrwxBY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/eeV9lFSSOPk",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/XVURElZER4M",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/02KrW9AM1i0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        }
-    ]
+  "id": 94691611,
+  "name": "why am i still here",
+  "creators": [
+	"Fawami"
+  ],
+  "verifier": "Fawami",
+  "verification": "https://www.youtube.com/watch?v=KF5karWA8Q8",
+  "showcase": "https://youtu.be/UiE_GK9xr9A",
+  "percentToQualify": 53,
+  "song": "Joji - WHY AM I STILL IN LA",
+  "songLink": "https://drive.google.com/file/d/1R-mUUSajQXzqlARkysWG-v4OuJAu9rZE/view?usp=drive_link",
+  "difficulty": 7,
+  "records": [
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/iWxSjET4Igc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=s9SEXzg25gI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Robotic",
+	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/wk0ChqrwxBY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "Riley",
+	  "link": "https://youtu.be/eeV9lFSSOPk",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/XVURElZER4M",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/02KrW9AM1i0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	}
+  ]
 }

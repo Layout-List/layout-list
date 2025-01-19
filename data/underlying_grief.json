@@ -1,69 +1,69 @@
 {
-    "id": 91961897,
-    "name": "Underlying Grief",
-    "author": "Fawami",
-    "creators": [
-      "Diogan"
-    ],
-    "verifier": "zDark",
-    "verification": "https://youtu.be/Xk2E8ur3tWU?si=eV0YgPY_as-hjFY-",
-    "showcase": "https://youtu.be/5WCURpKL25s",
-    "percentToQualify": 55,
-    "password": "Not Copyable",
-    "song": "Chris Christodoulou - …con lentitud poderosa",
-    "songLink": "https://www.mediafire.com/file/oiqhwf4ja28wvuk/747194.mp3/file",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "Diogan",
-            "link": "https://www.youtube.com/watch?v=a6wHuWWl6tM",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "pivithasnolife",
-            "link": "https://youtu.be/imT-mHwldqE",
-            "percent": 70,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fawami",
-            "link": "https://youtu.be/Pm0pDiWMUcw",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/buXjBedQM8w",
-            "percent": 71,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "Seismic",
-            "link": "https://youtu.be/15hKZ-GOAuI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=rCB8OzckeqE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "id": 91961897,
+  "name": "Underlying Grief",
+  "creators": [
+	"Diogan",
+	"Fawami"
+  ],
+  "verifier": "zDark",
+  "verification": "https://youtu.be/Xk2E8ur3tWU?si=eV0YgPY_as-hjFY-",
+  "showcase": "https://youtu.be/5WCURpKL25s",
+  "percentToQualify": 55,
+  "password": "Not Copyable",
+  "song": "Chris Christodoulou - …con lentitud poderosa",
+  "songLink": "https://www.mediafire.com/file/oiqhwf4ja28wvuk/747194.mp3/file",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "Diogan",
+	  "link": "https://www.youtube.com/watch?v=a6wHuWWl6tM",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "pivithasnolife",
+	  "link": "https://youtu.be/imT-mHwldqE",
+	  "percent": 70,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Fawami",
+	  "link": "https://youtu.be/Pm0pDiWMUcw",
+	  "percent": 100,
+	  "hz": 165,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/buXjBedQM8w",
+	  "percent": 71,
+	  "hz": 165,
+	  "mobile": false
+	},
+	{
+	  "user": "Seismic",
+	  "link": "https://youtu.be/15hKZ-GOAuI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=rCB8OzckeqE",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	}
+  ]
 }

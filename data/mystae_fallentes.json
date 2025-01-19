@@ -1,65 +1,67 @@
 {
-    "id": 98241151,
-    "name": "Mystae Fallentes",
-    "author": "whitmp4",
-    "creators": ["DJJDK"],
-    "verifier": "DJJDK",
-    "verification": "https://youtu.be/MkPCQywJs6s",
-    "percentToQualify": 100,
-    "song": "Dimrain47 - The Falling Mysts",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/2H70Ifo6IIE?si=-KxLe7TV4Z7oq9zb",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/gJOEOUucCv0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/i3QDBSLGbzY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://www.youtube.com/watch?v=pPhghPMntqc",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=wGJDjjoBE4M",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "gdBean",
-            "link": "https://youtu.be/Pt7RyZV78H0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/sF6UA4cuyto",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": 98241151,
+  "name": "Mystae Fallentes",
+  "creators": [
+	"DJJDK",
+	"whitmp4"
+  ],
+  "verifier": "DJJDK",
+  "verification": "https://youtu.be/MkPCQywJs6s",
+  "percentToQualify": 100,
+  "song": "Dimrain47 - The Falling Mysts",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/2H70Ifo6IIE?si=-KxLe7TV4Z7oq9zb",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": true
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/gJOEOUucCv0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/i3QDBSLGbzY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://www.youtube.com/watch?v=pPhghPMntqc",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "7"
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=wGJDjjoBE4M",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "gdBean",
+	  "link": "https://youtu.be/Pt7RyZV78H0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/sF6UA4cuyto",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

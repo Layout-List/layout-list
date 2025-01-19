@@ -1,133 +1,134 @@
 {
-    "id": 95523171,
-    "name": "Toxic Sewers",
-    "author": "Xeronius",
-    "creators": [],
-    "verifier": "Xeronius",
-    "verification": "https://www.youtube.com/watch?v=Wr4YT8T2MGQ",
-    "percentToQualify": 100,
-    "song": "Waterflame - -Toxic sewers-",
-    "difficulty": 1,
-    "enjoyment": 9,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/44Mhvx6TxUc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/D2dTDzAGGdc?si=yGoqvfOhQIkmIcjQ",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "nolli",
-            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "ThisGuyKreas",
-            "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/fAtuysZ8nu4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=JmobCvdHSs4",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Popples",
-            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "LimeDub",
-            "link": "https://www.youtube.com/watch?v=vjund4DVAyU",
-            "percent": 100,
-            "hz": 288,
-            "mobile": false
-        },
-        {
-            "user": "sabrina",
-            "link": "https://youtu.be/ilhBNoR41UE?si=U5mbo3fl34kKJ0s3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-         {
-            "user": "Asteria.",
-            "link": "https://youtu.be/KxlQW0EM2t0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Spaace",
-            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        }
-    ]
+  "id": 95523171,
+  "name": "Toxic Sewers",
+  "creators": [
+	"Xeronius"
+  ],
+  "verifier": "Xeronius",
+  "verification": "https://www.youtube.com/watch?v=Wr4YT8T2MGQ",
+  "percentToQualify": 100,
+  "song": "Waterflame - -Toxic sewers-",
+  "difficulty": 1,
+  "enjoyment": 9,
+  "records": [
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/44Mhvx6TxUc",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/D2dTDzAGGdc?si=yGoqvfOhQIkmIcjQ",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "nolli",
+	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "ThisGuyKreas",
+	  "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/fAtuysZ8nu4",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=JmobCvdHSs4",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Popples",
+	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "LimeDub",
+	  "link": "https://www.youtube.com/watch?v=vjund4DVAyU",
+	  "percent": 100,
+	  "hz": 288,
+	  "mobile": false
+	},
+	{
+	  "user": "sabrina",
+	  "link": "https://youtu.be/ilhBNoR41UE?si=U5mbo3fl34kKJ0s3",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Alvaneder",
+	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Asteria.",
+	  "link": "https://youtu.be/KxlQW0EM2t0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Spaace",
+	  "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://www.youtube.com/watch?v=LLCWHkTTlJs",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	}
+  ]
 }

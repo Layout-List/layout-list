@@ -1,14 +1,13 @@
 {
-    "id": 86867011,
-    "name": "Lynn vera",
-    "author": "Fae",
-    "creators": [],
-    "verifier": "Fae",
-    "verification": "https://www.youtube.com/watch?v=lHSK_XXzHZ0&ab_channel=fae",
-    "percentToQualify": 100,
-    "song": "Vera Lynn - Lemonardo",
-    "difficulty": 1,
-    "records": [
-        
-    ]
+  "id": 86867011,
+  "name": "Lynn vera",
+  "creators": [
+	"Fae"
+  ],
+  "verifier": "Fae",
+  "verification": "https://www.youtube.com/watch?v=lHSK_XXzHZ0&ab_channel=fae",
+  "percentToQualify": 100,
+  "song": "Vera Lynn - Lemonardo",
+  "difficulty": 1,
+  "records": []
 }

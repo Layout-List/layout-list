@@ -1,85 +1,86 @@
 {
-    "id": 91741752,
-    "name": "Koozoo2k Challenge",
-    "author": "Xeronius",
-    "creators": [],
-    "verifier": "Xeronius",
-    "verification": "https://www.youtube.com/watch?v=OaUNJkXxNNE",
-    "percentToQualify": 100,
-    "song": "AnalogByNature - Cheetahmen (Action 52)",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=ZjVObA1ErI4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "XanyxGD",
-            "link": "https://www.youtube.com/watch?v=orXBpdU_jKo",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Blueberry",
-            "link": "https://youtu.be/wdkjoCNynRE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-          "user": "Wert_Krapata",
-          "link": "https://youtu.be/rOsIC4NIEmI?si=R_rgewyaYVktGo9g",
-          "percent": 100,
-          "hz": 643,
-          "mobile": false,
-          "enjoyment": 7
-        },
-        {
-          "user": "Mystikl",
-          "link": "https://youtu.be/ve_dqDPx6Xc",
-          "percent": 100,
-          "hz": 360,
-          "mobile": false,
-          "enjoyment": 7
-        },
-        {
-          "user": "Hyperbeat",
-          "link": "https://www.youtube.com/watch?v=353dln9stV4",
-          "percent": 100,
-          "hz": 60,
-          "mobile": true,
-          "enjoyment": 8
-        },
-        {
-            "user": "Paladean",
-            "link": "https://youtu.be/w_1_AUWnc7U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zWren",
-            "link": "https://www.youtube.com/watch?v=42OXsOVGWKc",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "id": 91741752,
+  "name": "Koozoo2k Challenge",
+  "creators": [
+	"Xeronius"
+  ],
+  "verifier": "Xeronius",
+  "verification": "https://www.youtube.com/watch?v=OaUNJkXxNNE",
+  "percentToQualify": 100,
+  "song": "AnalogByNature - Cheetahmen (Action 52)",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "Zyxo",
+	  "link": "https://www.youtube.com/watch?v=ZjVObA1ErI4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "XanyxGD",
+	  "link": "https://www.youtube.com/watch?v=orXBpdU_jKo",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Blueberry",
+	  "link": "https://youtu.be/wdkjoCNynRE",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Wert_Krapata",
+	  "link": "https://youtu.be/rOsIC4NIEmI?si=R_rgewyaYVktGo9g",
+	  "percent": 100,
+	  "hz": 643,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/ve_dqDPx6Xc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Paladean",
+	  "link": "https://youtu.be/w_1_AUWnc7U",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://www.youtube.com/watch?v=42OXsOVGWKc",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	}
+  ]
 }

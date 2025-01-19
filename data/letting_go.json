@@ -1,93 +1,94 @@
 {
-    "id": 103429924,
-    "name": "Letting Go",
-    "author": "Asteria.",
-    "creators": [],
-    "verifier": "Asteria.",
-    "verification": "https://youtu.be/Txqa5ajAgrU",
-    "percentToQualify": 100,
-    "song": "greafer - letting go",
-    "songLink": "https://drive.google.com/file/d/1kJBiWY5cGjEe5cOOnl0HYAxQZO3uefcW/view?usp=drive_link",
-    "difficulty": 0,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/yAJrNeK_HIA?si=6o7C8acgYycyFx1d",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 1
-        },
-        {
-            "user": "RaynoXx",
-            "link": "https://www.youtube.com/watch?v=4rwyreK_6Qg",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "5"
-        },
-        {
-            "user": "Tradeskill",
-            "link": "https://youtu.be/kI6fdWmq7q4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Raezori",
-            "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "6"
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/azskv8q4NxQ",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "1"
-        },
-        {
-             "user": "TheCatAstronaut",
-            "link": "https://youtu.be/0rlMWJUIXCM",
-            "percent": 100,
-            "hz": 170,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "ToastyTP",
-            "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/dJ0foW_n3cU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "agentgiscool",
-            "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        }
-    ]
+  "id": 103429924,
+  "name": "Letting Go",
+  "creators": [
+	"Asteria."
+  ],
+  "verifier": "Asteria.",
+  "verification": "https://youtu.be/Txqa5ajAgrU",
+  "percentToQualify": 100,
+  "song": "greafer - letting go",
+  "songLink": "https://drive.google.com/file/d/1kJBiWY5cGjEe5cOOnl0HYAxQZO3uefcW/view?usp=drive_link",
+  "difficulty": 0,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/yAJrNeK_HIA?si=6o7C8acgYycyFx1d",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://www.youtube.com/watch?v=4rwyreK_6Qg",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "5"
+	},
+	{
+	  "user": "Tradeskill",
+	  "link": "https://youtu.be/kI6fdWmq7q4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Raezori",
+	  "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "6"
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/azskv8q4NxQ",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "1"
+	},
+	{
+	  "user": "TheCatAstronaut",
+	  "link": "https://youtu.be/0rlMWJUIXCM",
+	  "percent": 100,
+	  "hz": 170,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "ToastyTP",
+	  "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/dJ0foW_n3cU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "agentgiscool",
+	  "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	}
+  ]
 }

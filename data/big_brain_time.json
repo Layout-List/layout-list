@@ -1,134 +1,135 @@
 {
-    "id": 75842948,
-    "name": "Big Brain Time",
-    "author": "Moisty",
-    "creators": [],
-    "verifier": "Moisty",
-    "verification": "https://youtu.be/5dMW1P34IgQ",
-    "showcase": "https://www.youtube.com/watch?v=Dp3YkPYoAhg",
-    "percentToQualify": 52,
-    "song": "tv room - Know It All",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "necreiP",
-            "link": "https://youtu.be/T3LJzuFrKCg",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Blathers",
-            "link": "https://youtu.be/yuKBjycch8Q",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/eR5XbOKJBGc",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Luk231",
-            "link": "https://youtu.be/U1DfBVjwqfo",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "ShimzyZE",
-            "link": "https://www.youtube.com/watch?v=k6XwFpwTKow",
-            "percent": "96",
-            "hz": 360
-        },
-        {
-            "user": "danielvess555",
-            "link": "https://youtu.be/iq26-C2wdOI",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Fusion425",
-            "link": "https://youtu.be/RS9dfKCgVw8",
-            "percent": 100,
-            "hz": 288
-        },
-        {
-            "user": "CaioMD",
-            "link": "https://youtu.be/GljdGvTpRds",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "TheRealCave",
-            "link": "https://youtu.be/QSc4AoZc5V8",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Vink",
-            "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
-            "percent": 100,
-            "hz": 120
-        },
-        {
-            "user": "Armani",
-            "link": "https://youtu.be/gIWRnDnQp94",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/6NzqsVXmUr0",
-            "percent": 100,
-            "hz": 144
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/XXcKbFk4KXo",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "sfonchik",
-            "link": "https://www.youtube.com/watch?v=fA3WGjdqxdY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 4
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": 75842948,
+  "name": "Big Brain Time",
+  "creators": [
+	"Moisty"
+  ],
+  "verifier": "Moisty",
+  "verification": "https://youtu.be/5dMW1P34IgQ",
+  "showcase": "https://www.youtube.com/watch?v=Dp3YkPYoAhg",
+  "percentToQualify": 52,
+  "song": "tv room - Know It All",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "necreiP",
+	  "link": "https://youtu.be/T3LJzuFrKCg",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Blathers",
+	  "link": "https://youtu.be/yuKBjycch8Q",
+	  "percent": 100,
+	  "hz": 288
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/eR5XbOKJBGc",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Luk231",
+	  "link": "https://youtu.be/U1DfBVjwqfo",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "ShimzyZE",
+	  "link": "https://www.youtube.com/watch?v=k6XwFpwTKow",
+	  "percent": "96",
+	  "hz": 360
+	},
+	{
+	  "user": "danielvess555",
+	  "link": "https://youtu.be/iq26-C2wdOI",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "Fusion425",
+	  "link": "https://youtu.be/RS9dfKCgVw8",
+	  "percent": 100,
+	  "hz": 288
+	},
+	{
+	  "user": "CaioMD",
+	  "link": "https://youtu.be/GljdGvTpRds",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "TheRealCave",
+	  "link": "https://youtu.be/QSc4AoZc5V8",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "Vink",
+	  "link": "https://www.youtube.com/watch?v=okwkWY4SDrI",
+	  "percent": 100,
+	  "hz": 120
+	},
+	{
+	  "user": "Armani",
+	  "link": "https://youtu.be/gIWRnDnQp94",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/6NzqsVXmUr0",
+	  "percent": 100,
+	  "hz": 144
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/XXcKbFk4KXo",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=LNAOp1j7iWo",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "sfonchik",
+	  "link": "https://www.youtube.com/watch?v=fA3WGjdqxdY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 4
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

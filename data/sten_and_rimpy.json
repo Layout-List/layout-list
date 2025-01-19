@@ -1,77 +1,78 @@
 {
-    "id": 93087877,
-    "name": "Sten and Rimpy",
-    "author": "whitmp4",
-    "creators": [],
-    "verifier": "Koozoo2000",
-    "verification": "https://youtu.be/DUkEeQwSFDw?si=3WaPI8XxnOLnzxzy",
-    "percentToQualify": 100,
-    "song": "LemKuuja - Ai ?? ??",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "evil",
-            "link": "https://youtu.be/N1Kr5RZKdwM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "TurtleER",
-            "link": "https://youtu.be/JE8XzIV40vU",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/d1OF6-7jbg8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://youtu.be/H8bvfhhWkdc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "rSnoozy",
-            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/thwK5_tFQ6w",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "mr123j",
-            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        }
-    ]
+  "id": 93087877,
+  "name": "Sten and Rimpy",
+  "creators": [
+	"whitmp4"
+  ],
+  "verifier": "Koozoo2000",
+  "verification": "https://youtu.be/DUkEeQwSFDw?si=3WaPI8XxnOLnzxzy",
+  "percentToQualify": 100,
+  "song": "LemKuuja - Ai ?? ??",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/N1Kr5RZKdwM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "TurtleER",
+	  "link": "https://youtu.be/JE8XzIV40vU",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/d1OF6-7jbg8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://youtu.be/H8bvfhhWkdc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "rSnoozy",
+	  "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/thwK5_tFQ6w",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "mr123j",
+	  "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	}
+  ]
 }

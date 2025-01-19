@@ -1,65 +1,65 @@
 {
-	"id": 99937942,
-	"name": "Fighting My Demons",
-	"author": "zDark",
-	"hosts": [
-		"zDark"
-	],
-	"creators": [
-		"Flare",
-		"Fawami",
-		"morsey",
-		"Mystikl",
-		"exho",
-		"Hyperbeat",
-		"nolli",
-		"jz5"
-	],
-	"verifier": "zDark",
-	"verification": "https://www.youtube.com/watch?v=ffkls2FJhC0",
-	"percentToQualify": 59,
-	"song": "Ken Carson - Fighting My Demons",
-	"songLink": "https://drive.google.com/file/d/182qaagOrDtCQETKBUeut_IOlCWmCFcg7/view?usp=drive_link",
-	"difficulty": 4,
-	"records": [
-		{
-			"user": "Mystikl",
-			"link": "https://www.youtube.com/watch?v=64Vd0pvH5zQ",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "RougeAvery",
-			"link": "https://www.youtube.com/watch?v=G3EfinK5CfA",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "sphericle",
-			"link": "https://www.youtube.com/watch?v=uyVmBMV-45o",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
-			"user": "evil",
-			"link": "https://youtu.be/gMt8mUrcmHQ",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 3
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 7
-		}
-	]
+  "id": 99937942,
+  "name": "Fighting My Demons",
+  "hosts": [
+	"zDark"
+  ],
+  "creators": [
+	"Flare",
+	"Fawami",
+	"morsey",
+	"Mystikl",
+	"exho",
+	"Hyperbeat",
+	"nolli",
+	"jz5",
+	"zDark"
+  ],
+  "verifier": "zDark",
+  "verification": "https://www.youtube.com/watch?v=ffkls2FJhC0",
+  "percentToQualify": 59,
+  "song": "Ken Carson - Fighting My Demons",
+  "songLink": "https://drive.google.com/file/d/182qaagOrDtCQETKBUeut_IOlCWmCFcg7/view?usp=drive_link",
+  "difficulty": 4,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://www.youtube.com/watch?v=64Vd0pvH5zQ",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "RougeAvery",
+	  "link": "https://www.youtube.com/watch?v=G3EfinK5CfA",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "sphericle",
+	  "link": "https://www.youtube.com/watch?v=uyVmBMV-45o",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/gMt8mUrcmHQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

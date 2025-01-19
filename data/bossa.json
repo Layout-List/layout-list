@@ -1,66 +1,66 @@
 {
-    "id": 110066106,
-    "name": "Bossa",
-    "author": "Bluestone",
-    "creators": [
-        "Microwaveee"
-    ],
-    "verifier": "Bluestone",
-    "verification": "https://youtu.be/yiLhvoa-q7U",
-    "showcase": "https://www.youtube.com/watch?v=u0k7aljcmnM&ab_channel=LayoutListShowcases",
-    "percentToQualify": 55,
-    "password": "Not Copyable",
-    "song": "Dominuus - Bossa",
-    "difficulty": 4,
-    "records": [
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/F_lyA_CG9Lg",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/C3MH7_5ve54",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/SkVBEf9tIAc",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/Bs-PWGeg4BA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "PoiPonPL",
-            "link": "https://youtu.be/RC7CvSEFbZg",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/qehjJSJOjzA",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": 110066106,
+  "name": "Bossa",
+  "creators": [
+	"Microwaveee",
+	"Bluestone"
+  ],
+  "verifier": "Bluestone",
+  "verification": "https://youtu.be/yiLhvoa-q7U",
+  "showcase": "https://www.youtube.com/watch?v=u0k7aljcmnM&ab_channel=LayoutListShowcases",
+  "percentToQualify": 55,
+  "password": "Not Copyable",
+  "song": "Dominuus - Bossa",
+  "difficulty": 4,
+  "records": [
+	{
+	  "user": "Jab",
+	  "link": "https://youtu.be/F_lyA_CG9Lg",
+	  "percent": 100,
+	  "hz": 240
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/C3MH7_5ve54",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/SkVBEf9tIAc",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/Bs-PWGeg4BA",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "PoiPonPL",
+	  "link": "https://youtu.be/RC7CvSEFbZg",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/qehjJSJOjzA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

@@ -1,22 +1,23 @@
 {
-    "id": 107170789,
-    "name": "Two Robot Chall",
-    "author": "rastuyas but french",
-    "creators": [],
-    "verifier": "rastuyas but french",
-    "verification": "https://youtu.be/0S5MxMCwSOE",
-    "percentToQualify": 100,
-    "song": "LindaAI-CUE - さいたま2000",
-    "songLink": "https://drive.google.com/file/d/14qJc8322oDf8Pe-vVwK6cD-AfJqNhRNe/view?usp=drive_link",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=JsvKDjirfls",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": "7"
-        }
-    ]
+  "id": 107170789,
+  "name": "Two Robot Chall",
+  "creators": [
+	"rastuyas but french"
+  ],
+  "verifier": "rastuyas but french",
+  "verification": "https://youtu.be/0S5MxMCwSOE",
+  "percentToQualify": 100,
+  "song": "LindaAI-CUE - さいたま2000",
+  "songLink": "https://drive.google.com/file/d/14qJc8322oDf8Pe-vVwK6cD-AfJqNhRNe/view?usp=drive_link",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "mrperson",
+	  "link": "https://www.youtube.com/watch?v=JsvKDjirfls",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": "7"
+	}
+  ]
 }

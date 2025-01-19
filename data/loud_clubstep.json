@@ -1,88 +1,88 @@
 {
-    "id": 76332128,
-    "name": "Loud Clubstep",
-    "author": "Fusion425",
-    "creators": [
-        "JustRai",
-        "HRLayouts",
-        "Gwispy",
-        "jz5",
-        "whisperend",
-        "ToastyBois"
-    ],
-    "verifier": "Fusion425",
-    "verification": "https://youtu.be/8IVLclg_sQ4",
-    "showcase": "https://youtu.be/RMQcubCmP0Y",
-    "percentToQualify": 64,
-    "song": "dj-Nate - Clubstep",
-    "difficulty": 6,
-    "records": [
-        {
-            "user": "culobdj",
-            "link": "https://youtu.be/LqVoDiV_Qe4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Qk7o2UoC6To",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "NiXaNTy",
-            "link": "https://youtu.be/XMOhwcOReSQ",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/aZ3yqReA0mU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "nolli",
-            "link": "https://www.youtube.com/watch?v=m4W40Jna-n4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=JiwxV3_Z8OI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 2
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "attrixia",
-            "link": "https://www.youtube.com/watch?v=2OI_E4Q1UvI",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Riley",
-            "link": "https://www.youtube.com/watch?v=88hjKR-69xE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": 76332128,
+  "name": "Loud Clubstep",
+  "creators": [
+	"JustRai",
+	"HRLayouts",
+	"Gwispy",
+	"jz5",
+	"whisperend",
+	"ToastyBois",
+	"Fusion425"
+  ],
+  "verifier": "Fusion425",
+  "verification": "https://youtu.be/8IVLclg_sQ4",
+  "showcase": "https://youtu.be/RMQcubCmP0Y",
+  "percentToQualify": 64,
+  "song": "dj-Nate - Clubstep",
+  "difficulty": 6,
+  "records": [
+	{
+	  "user": "culobdj",
+	  "link": "https://youtu.be/LqVoDiV_Qe4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/Qk7o2UoC6To",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "NiXaNTy",
+	  "link": "https://youtu.be/XMOhwcOReSQ",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/aZ3yqReA0mU",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "nolli",
+	  "link": "https://www.youtube.com/watch?v=m4W40Jna-n4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=JiwxV3_Z8OI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://www.youtube.com/watch?v=2OI_E4Q1UvI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "Riley",
+	  "link": "https://www.youtube.com/watch?v=88hjKR-69xE",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

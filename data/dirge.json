@@ -1,45 +1,46 @@
 {
-    "id": 93728253,
-    "name": "Dirge",
-    "author": "crumche",
-    "creators": [],
-    "verifier": "crumche",
-    "verification": "https://youtu.be/a3op9UgRRns?si=554FK3PdQkD44wf7",
-    "percentToQualify": 56,
-    "password": "Free to copy",
-    "song": "Destroid - Funk Hole",
-    "difficulty": 6,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/3leShTt7O4s",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=04e6Pv-FUFs",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 1
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=xg-QWwRe0XA",
-            "percent": 62,
-            "hz": 144,
-            "mobile": false,
-            "enjoyment": 10
-        }
-    ]
+  "id": 93728253,
+  "name": "Dirge",
+  "creators": [
+	"crumche"
+  ],
+  "verifier": "crumche",
+  "verification": "https://youtu.be/a3op9UgRRns?si=554FK3PdQkD44wf7",
+  "percentToQualify": 56,
+  "password": "Free to copy",
+  "song": "Destroid - Funk Hole",
+  "difficulty": 6,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/3leShTt7O4s",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=04e6Pv-FUFs",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 1
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://www.youtube.com/watch?v=xg-QWwRe0XA",
+	  "percent": 62,
+	  "hz": 144,
+	  "mobile": false,
+	  "enjoyment": 10
+	}
+  ]
 }

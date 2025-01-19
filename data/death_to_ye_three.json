@@ -1,131 +1,132 @@
 {
-    "id": "91437854",
-    "name": "Death to ye Three",
-    "author": "sqrtpie",
-    "creators": [],
-    "verifier": "sqrtpie",
-    "verification": "https://youtu.be/zXz8pS1I8zs?si=cQ7WNJCTlYMuiqAm",
-    "showcase": "https://youtu.be/bi9ZlEfY4KQ",
-    "percentToQualify": 59,
-    "song": "LucidShadowDreamer - Death to Ye Three",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/a9vfLldq90Y?si=uWnPGJ2vOSpVOkJ-",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=yk1eDto0eAw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": ".com",
-            "link": "https://www.youtube.com/watch?v=diRn-uwOH9c",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/D9Gd64qTYis",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Blathers",
-            "link": "https://www.youtube.com/watch?v=sokUwQrvmqI",
-            "percent": 100,
-            "hz": 280,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/a5Rw43wTfTQ",
-            "percent": 59,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Fawami",
-            "link": "https://youtu.be/xLQjKOF4TwY",
-            "percent": 100,
-            "hz": 165,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/xVjqma8NW-A?si=cs8q-lehl1uHSqYo",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Tupi",
-            "link": "https://www.youtube.com/watch?v=_Rl1VYzvMjk",
-            "percent": 75,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "Iza",
-            "link": "https://www.youtube.com/watch?v=9jnuPPELJoY&ab_channel=Sakira",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://youtu.be/UKXfatqHwXE",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/RC0r_ncbq8w",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "morsey",
-            "link": "https://youtu.be/OG9E5WV1KjQ",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Keruo",
-            "link": "https://www.youtube.com/watch?v=miXbiG_llxo",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 6
-        },
-        {
-            "user": "riley",
-            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 4
-        }
-    ]
+  "id": "91437854",
+  "name": "Death to ye Three",
+  "creators": [
+	"sqrtpie"
+  ],
+  "verifier": "sqrtpie",
+  "verification": "https://youtu.be/zXz8pS1I8zs?si=cQ7WNJCTlYMuiqAm",
+  "showcase": "https://youtu.be/bi9ZlEfY4KQ",
+  "percentToQualify": 59,
+  "song": "LucidShadowDreamer - Death to Ye Three",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/a9vfLldq90Y?si=uWnPGJ2vOSpVOkJ-",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=yk1eDto0eAw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": ".com",
+	  "link": "https://www.youtube.com/watch?v=diRn-uwOH9c",
+	  "percent": 100,
+	  "hz": 360
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/D9Gd64qTYis",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Blathers",
+	  "link": "https://www.youtube.com/watch?v=sokUwQrvmqI",
+	  "percent": 100,
+	  "hz": 280,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/a5Rw43wTfTQ",
+	  "percent": 59,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Fawami",
+	  "link": "https://youtu.be/xLQjKOF4TwY",
+	  "percent": 100,
+	  "hz": 165,
+	  "mobile": false
+	},
+	{
+	  "user": "Jab",
+	  "link": "https://youtu.be/xVjqma8NW-A?si=cs8q-lehl1uHSqYo",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Tupi",
+	  "link": "https://www.youtube.com/watch?v=_Rl1VYzvMjk",
+	  "percent": 75,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Iza",
+	  "link": "https://www.youtube.com/watch?v=9jnuPPELJoY&ab_channel=Sakira",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://youtu.be/UKXfatqHwXE",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/RC0r_ncbq8w",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "morsey",
+	  "link": "https://youtu.be/OG9E5WV1KjQ",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Keruo",
+	  "link": "https://www.youtube.com/watch?v=miXbiG_llxo",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "riley",
+	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

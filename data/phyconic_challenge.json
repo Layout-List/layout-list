@@ -1,60 +1,60 @@
 {
-    "id": 88796249,
-    "name": "phyconic challenge",
-    "author": "mrperson",
-    "creators": [
-                 "Flare",
-                 "Dom_Luca"
-                ],
-    "verifier": "mrperson",
-    "verification": "https://youtu.be/ECrxd8uAxL4",
-    "percentToQualify": 55,
-    "song": "Creo - Challenger",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/irtST0g44YM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/vMvzmbAe1wM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "Dom_Luca",
-            "link": "https://www.youtube.com/watch?v=d95B30Tfcjg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://www.youtube.com/watch?v=Kv2zcJ5M-IU",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=l1IqVezheZM",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        }
-    ]
+  "id": 88796249,
+  "name": "phyconic challenge",
+  "creators": [
+	"Flare",
+	"Dom_Luca",
+	"mrperson"
+  ],
+  "verifier": "mrperson",
+  "verification": "https://youtu.be/ECrxd8uAxL4",
+  "percentToQualify": 55,
+  "song": "Creo - Challenger",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/irtST0g44YM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/vMvzmbAe1wM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Dom_Luca",
+	  "link": "https://www.youtube.com/watch?v=d95B30Tfcjg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=Kv2zcJ5M-IU",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=l1IqVezheZM",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	}
+  ]
 }

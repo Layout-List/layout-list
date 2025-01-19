@@ -1,73 +1,75 @@
 {
-    "id": 95338560,
-    "name": "ICE BREAKER",
-    "author": "Flare",
-    "creators": ["DJJDK"],
-    "verifier": "Flare",
-    "verification": "https://youtu.be/6cp3VvdLngQ",
-    "percentToQualify": 100,
-    "song": "Camellia(かめりあ) - First Town Of This Journey",
-    "songLink": "https://www.mediafire.com/file/3odkpws214alibo/739413.mp3/file",
-    "difficulty": 3,
-    "records": [
-        {
-            "user": "DJJDK",
-            "link": "https://www.youtube.com/watch?v=ZOOm5OrAsSY",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/ycgaP8wWLoA",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/AQtKvSz-Phk",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://www.youtube.com/watch?v=TkoM0is2sIc",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/RyfwrELyRFM",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Tradeskill",
-            "link": "https://youtu.be/kI6fdWmq7q4",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        }
-    ]
+  "id": 95338560,
+  "name": "ICE BREAKER",
+  "creators": [
+	"DJJDK",
+	"Flare"
+  ],
+  "verifier": "Flare",
+  "verification": "https://youtu.be/6cp3VvdLngQ",
+  "percentToQualify": 100,
+  "song": "Camellia(かめりあ) - First Town Of This Journey",
+  "songLink": "https://www.mediafire.com/file/3odkpws214alibo/739413.mp3/file",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "DJJDK",
+	  "link": "https://www.youtube.com/watch?v=ZOOm5OrAsSY",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/ycgaP8wWLoA",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Jab",
+	  "link": "https://youtu.be/AQtKvSz-Phk",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://www.youtube.com/watch?v=TkoM0is2sIc",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/RyfwrELyRFM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Tradeskill",
+	  "link": "https://youtu.be/kI6fdWmq7q4",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://www.youtube.com/watch?v=1AiMOxkie-g",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	}
+  ]
 }

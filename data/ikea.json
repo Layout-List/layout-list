@@ -1,56 +1,56 @@
 {
-    "id": 106164723,
-    "name": "Ikea Never Clear",
-    "author": "Hyperbeat",
-    "creators": [
-        "Solelak"
-    ],
-    "verifier": "Solelak",
-    "verification": "https://youtu.be/n_uBr8HX3bI",
-    "percentToQualify": 100,
-    "song": "FaunSound - Figurehead (GRTSU RMX)",
-    "difficulty": 2,
-    "enjoyment": 8,
-    "records": [
-        {
-            "user": "RaynoXx",
-            "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/p7TSfG1S98g?si=OuUubqiOqEoe-yDa",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 9
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/MOsqIscVoSE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/OmbmtoXC86g",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 5
-        }
-    ]
+  "id": 106164723,
+  "name": "Ikea Never Clear",
+  "creators": [
+	"Solelak",
+	"Hyperbeat"
+  ],
+  "verifier": "Solelak",
+  "verification": "https://youtu.be/n_uBr8HX3bI",
+  "percentToQualify": 100,
+  "song": "FaunSound - Figurehead (GRTSU RMX)",
+  "difficulty": 2,
+  "enjoyment": 8,
+  "records": [
+	{
+	  "user": "RaynoXx",
+	  "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/p7TSfG1S98g?si=OuUubqiOqEoe-yDa",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/MOsqIscVoSE",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/OmbmtoXC86g",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 5
+	}
+  ]
 }

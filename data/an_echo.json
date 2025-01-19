@@ -1,147 +1,148 @@
 {
-    "id": 88988854,
-    "name": "an echo",
-    "author": "fawami",
-    "creators": [],
-    "verifier": "fawami",
-    "verification": "https://www.youtube.com/watch?v=V5EN9ZpL47k",
-    "showcase": "https://www.youtube.com/watch?v=NkGkhw0Be5s",
-    "percentToQualify": 100,
-    "song": "Joji - Die For You",
-    "songLink": "https://drive.google.com/file/d/13LMoVWrS1okoPxaXPaRoA0yGgWhJrVWy/view?usp=drive_link",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "Poke Zach",
-            "link": "https://youtu.be/q7vkSLD4YZY",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": 8
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/Ran8QBgz3eg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/G1-a7ejuMQs",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://youtu.be/yRUAkBTa1rs",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "lottery",
-            "link": "https://www.youtube.com/watch?v=W_86hmqDayE",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Asteria.",
-            "link": "https://youtu.be/cAEAIM8Ucn8",
-            "percent": 100,
-            "hz": 280,
-            "mobile": false
-        },
-         {
-            "user": "Koozoo2000",
-            "link": "https://youtu.be/EwDUR6OESwU?si=E1-hTfblke6v6KtV",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-         {
-            "user": "zap",
-            "link": "https://youtu.be/_E-z6twXofY?si=DeS1Vp9mIv6hQh_F",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Blueberry",
-            "link": "https://youtu.be/y5bl9zKj4zI",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "yarn",
-            "link": "https://youtu.be/gVz6pu0-XPo?feature=shared",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false
-        },
-        {
-            "user": "Blysteryx",
-            "link": "https://youtu.be/fZ18r3Qk7jA",
-            "percent": 100,
-            "hz": 120,
-            "mobile": true,
-            "enjoyment": 6
-        },
-        {
-            "user": "delonix",
-            "link": "https://youtu.be/a9Dew61p7hw?si=eJHNFR86udlOloyb",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true
-        },
-        {
-            "user": "Xeronius",
-            "link": "https://youtu.be/gyu0o9rkVIw",
-            "percent": 100,
-            "hz": 75,
-            "mobile": false,
-            "enjoyment": "7"
-        },
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/4Eg9T-dpVvw?si=hJNHnXi3LGDYMp_C",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/_TuWllv-Dj0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 3
-        },
-        {
-            "user": "Paladean",
-            "link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
-            "percent": 100,
-            "hz": 120,
-            "mobile": false
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "id": 88988854,
+  "name": "an echo",
+  "creators": [
+	"fawami"
+  ],
+  "verifier": "fawami",
+  "verification": "https://www.youtube.com/watch?v=V5EN9ZpL47k",
+  "showcase": "https://www.youtube.com/watch?v=NkGkhw0Be5s",
+  "percentToQualify": 100,
+  "song": "Joji - Die For You",
+  "songLink": "https://drive.google.com/file/d/13LMoVWrS1okoPxaXPaRoA0yGgWhJrVWy/view?usp=drive_link",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/q7vkSLD4YZY",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/Ran8QBgz3eg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/G1-a7ejuMQs",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/yRUAkBTa1rs",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "lottery",
+	  "link": "https://www.youtube.com/watch?v=W_86hmqDayE",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Asteria.",
+	  "link": "https://youtu.be/cAEAIM8Ucn8",
+	  "percent": 100,
+	  "hz": 280,
+	  "mobile": false
+	},
+	{
+	  "user": "Koozoo2000",
+	  "link": "https://youtu.be/EwDUR6OESwU?si=E1-hTfblke6v6KtV",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zap",
+	  "link": "https://youtu.be/_E-z6twXofY?si=DeS1Vp9mIv6hQh_F",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Blueberry",
+	  "link": "https://youtu.be/y5bl9zKj4zI",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "yarn",
+	  "link": "https://youtu.be/gVz6pu0-XPo?feature=shared",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/fZ18r3Qk7jA",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": true,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "delonix",
+	  "link": "https://youtu.be/a9Dew61p7hw?si=eJHNFR86udlOloyb",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true
+	},
+	{
+	  "user": "Xeronius",
+	  "link": "https://youtu.be/gyu0o9rkVIw",
+	  "percent": 100,
+	  "hz": 75,
+	  "mobile": false,
+	  "enjoyment": "7"
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/4Eg9T-dpVvw?si=hJNHnXi3LGDYMp_C",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/_TuWllv-Dj0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 3
+	},
+	{
+	  "user": "Paladean",
+	  "link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
+	  "percent": 100,
+	  "hz": 120,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/74NuV2d8m4A?si=YWgAgfewXVyLQwP3",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 9
+	}
+  ]
 }

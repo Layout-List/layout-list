@@ -1,59 +1,60 @@
 {
-    "id": 101145130,
-    "name": "Astral Badass",
-    "author": "Blysteryx",
-    "creators": [],
-    "verifier": "Blysteryx",
-    "verification": "https://www.youtube.com/watch?v=drZHpY0q9jY",
-    "percentToQualify": 100,
-    "song": "MDK - Astral Badass",
-    "difficulty": 2,
-    "records": [
-        {
-            "user": "DeleteNine",
-            "link": "https://youtu.be/bXfrrCU6trA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Poke Zach",
-            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-            "percent": 100,
-            "hz": 60,
-            "mobile": true,
-            "enjoyment": "9"
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/zdxf204b4o8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 5
-        },
-        {
-            "user": "Alvaneder",
-            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "8"
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/b5Gwq_Ns2Vg",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 6
-        }
-    ]
+  "id": 101145130,
+  "name": "Astral Badass",
+  "creators": [
+	"Blysteryx"
+  ],
+  "verifier": "Blysteryx",
+  "verification": "https://www.youtube.com/watch?v=drZHpY0q9jY",
+  "percentToQualify": 100,
+  "song": "MDK - Astral Badass",
+  "difficulty": 2,
+  "records": [
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/bXfrrCU6trA",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": "9"
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/zdxf204b4o8",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	},
+	{
+	  "user": "Alvaneder",
+	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/XfyeTlRWJqo?si=QNKKCAX3lB1Rlh8X",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "8"
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/b5Gwq_Ns2Vg",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 6
+	}
+  ]
 }

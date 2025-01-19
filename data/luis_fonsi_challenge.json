@@ -1,30 +1,31 @@
 {
-    "id": 106616239,
-    "name": "Luis Fonsi Challenge",
-    "author": "Alvaneder",
-    "creators": [],
-    "verifier": "Alvaneder",
-    "verification": "https://www.youtube.com/watch?v=tzD_euz-UyI",
-    "percentToQualify": 100,
-    "song": "Despacito - Luis Fonsi ft. Daddy Yankee",
-    "songLink": "https://drive.google.com/file/d/1-i_i1aKISpSyvW6UwWdt-BQPlpDYMPLs/view?usp=drive_link",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/ioWAkuCuGr8",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/AYSFcVy-x4c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "id": 106616239,
+  "name": "Luis Fonsi Challenge",
+  "creators": [
+	"Alvaneder"
+  ],
+  "verifier": "Alvaneder",
+  "verification": "https://www.youtube.com/watch?v=tzD_euz-UyI",
+  "percentToQualify": 100,
+  "song": "Despacito - Luis Fonsi ft. Daddy Yankee",
+  "songLink": "https://drive.google.com/file/d/1-i_i1aKISpSyvW6UwWdt-BQPlpDYMPLs/view?usp=drive_link",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/ioWAkuCuGr8",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://youtu.be/AYSFcVy-x4c",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	}
+  ]
 }

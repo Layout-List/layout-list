@@ -1,101 +1,102 @@
 {
-	"id": 88153704,
-	"name": "ENDLESS VOID",
-	"author": "sikoo23",
-	"creators": [],
-	"verifier": "sikoo23",
-	"verification": "https://youtu.be/OkwXqkc6cCs",
-	"percentToQualify": 100,
-	"song": "Skorde - Six6Six",
-	"difficulty": 3,
-	"records": [
-		{
-			"user": "DeleteNine",
-			"link": "https://www.youtube.com/watch?v=b3eKd9exSHI",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "mrperson",
-			"link": "https://youtu.be/ktT8zkRHPlc",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/IyRfqX28OmA",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "zDark",
-			"link": "https://youtu.be/Klk9Mw21HLM",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false
-		},
-		{
-			"user": "zodycoder",
-			"link": "https://youtu.be/LZJby5QVpcQ",
-			"percent": 100,
-			"hz": 60,
-			"mobile": false
-		},
-		{
-			"user": "hab",
-			"link": "https://youtu.be/6ouYB02KMbs",
-			"percent": 100,
-			"hz": 300,
-			"mobile": false
-		},
-		{
-			"user": "Skip",
-			"link": "https://youtu.be/P0poiDYxIpI",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
-			"user": "Petarp",
-			"link": "https://www.youtube.com/watch?v=rIhpJZ5tI2w",
-			"percent": 100,
-			"hz": 144,
-			"mobile": false
-		},
-		{
-			"user": "Syrcx",
-			"link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/pR_sCWz5PTc?si=f6HR1E8j96c-FfPQLL",
-			"percent": 100,
-			"hz": 360,
-			"mobile": false,
-			"enjoyment": 2
-		},
-		{
-			"user": "RaynoXx",
-			"link": "https://youtu.be/Jjrn4CeVHM8?si=MpVHgNW1Bo9ECfFj",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 6
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/yCSl-Lbn1nM?si=97jWZF79_bmrVTjb",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 9,
-			"mobile": true
-		}
-	]
+  "id": 88153704,
+  "name": "ENDLESS VOID",
+  "creators": [
+	"sikoo23"
+  ],
+  "verifier": "sikoo23",
+  "verification": "https://youtu.be/OkwXqkc6cCs",
+  "percentToQualify": 100,
+  "song": "Skorde - Six6Six",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "DeleteNine",
+	  "link": "https://www.youtube.com/watch?v=b3eKd9exSHI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://youtu.be/ktT8zkRHPlc",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/IyRfqX28OmA",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/Klk9Mw21HLM",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "zodycoder",
+	  "link": "https://youtu.be/LZJby5QVpcQ",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false
+	},
+	{
+	  "user": "hab",
+	  "link": "https://youtu.be/6ouYB02KMbs",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false
+	},
+	{
+	  "user": "Skip",
+	  "link": "https://youtu.be/P0poiDYxIpI",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "Petarp",
+	  "link": "https://www.youtube.com/watch?v=rIhpJZ5tI2w",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/pR_sCWz5PTc?si=f6HR1E8j96c-FfPQLL",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 2
+	},
+	{
+	  "user": "RaynoXx",
+	  "link": "https://youtu.be/Jjrn4CeVHM8?si=MpVHgNW1Bo9ECfFj",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/yCSl-Lbn1nM?si=97jWZF79_bmrVTjb",
+	  "percent": 100,
+	  "hz": 60,
+	  "enjoyment": 9,
+	  "mobile": true
+	}
+  ]
 }

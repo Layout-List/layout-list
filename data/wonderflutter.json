@@ -1,53 +1,54 @@
 {
-    "id": 106108214,
-    "name": "WonderFlutter",
-    "author": "Asteria.",
-    "creators": [],
-    "verifier": "rastuyas",
-    "verification": "https://www.youtube.com/watch?v=x1ovtb_N9mI&ab_channel=rastuyas",
-    "percentToQualify": 100,
-    "song": "Matt R - Flutterwonder",
-    "songLink": "https://cdn.discordapp.com/attachments/1247456473873780917/1248081942126264340/447407.mp3?ex=66684d23&is=6666fba3&hm=b265eeb4b0205f1b0e98892e2dee1041691deced2e8452350f4f9daf0ba41544&",
-    "difficulty": 1,
-    "records": [
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/NQ5tnTt64lA",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Mystikl",
-            "link": "https://youtu.be/mzNW2hNnEEo",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Syrcx",
-            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        },
-        {
-            "user": "Zyxo",
-            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": "?"
-        },
-        {
-            "user": "zWren",
-            "link": "https://youtu.be/AYSFcVy-x4c",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 8
-        }
-    ]
+  "id": 106108214,
+  "name": "WonderFlutter",
+  "creators": [
+	"Asteria."
+  ],
+  "verifier": "rastuyas",
+  "verification": "https://www.youtube.com/watch?v=x1ovtb_N9mI&ab_channel=rastuyas",
+  "percentToQualify": 100,
+  "song": "Matt R - Flutterwonder",
+  "songLink": "https://cdn.discordapp.com/attachments/1247456473873780917/1248081942126264340/447407.mp3?ex=66684d23&is=6666fba3&hm=b265eeb4b0205f1b0e98892e2dee1041691deced2e8452350f4f9daf0ba41544&",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/NQ5tnTt64lA",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/mzNW2hNnEEo",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Syrcx",
+	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	},
+	{
+	  "user": "Zyxo",
+	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": "?"
+	},
+	{
+	  "user": "zWren",
+	  "link": "https://youtu.be/AYSFcVy-x4c",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 8
+	}
+  ]
 }

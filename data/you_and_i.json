@@ -1,172 +1,173 @@
 {
-    "id": 93967842,
-    "name": "you and i",
-    "author": "Fawami",
-    "creators": [],
-    "verifier": "Fawami",
-    "verification": "https://youtu.be/fx5FO-JldfQ?si=6L3wGNN4aAroiZzv",
-    "showcase": "https://youtu.be/6vOHA9Z4_VQ?feature=shared",
-    "percentToQualify": 54,
-    "song": "d4vd - You and I",
-    "songLink": "https://drive.google.com/file/d/1KT7h9DKZQMQc0nOsOQhvhui7WSVev_Qo/view?usp=drive_link",
-    "difficulty": 5,
-    "records": [
-        {
-            "user": "FluffyCatNeo",
-            "link": "https://www.youtube.com/watch?v=HyHbi4UbJtU",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Diogan",
-            "link": "https://www.youtube.com/watch?v=e8S08GJZcPk",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "Hyperbeat",
-            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "evil",
-            "link": "https://youtu.be/MN1odbQzIL0?si=vtdoAX-QLGhTAfrV",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "rastuyas",
-            "link": "https://www.youtube.com/watch?v=2s5ymOG5dU8",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "zDark",
-            "link": "https://youtu.be/_A6Rfk7_qms",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Jab",
-            "link": "https://youtu.be/mNxwPd3VNRs",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "mrperson",
-            "link": "https://www.youtube.com/watch?v=7nvV60AyH-8",
-            "percent": 100,
-            "hz": 144,
-            "mobile": false
-        },
-        {
-            "user": "nykolol",
-            "link": "https://www.youtube.com/watch?v=Q07w-Asaow0&ab_channel=crystal",
-            "percent": 100,
-            "hz": 330,
-            "mobile": false
-        },
-         {
-            "user": "Chubby9000",
-            "link": "https://youtu.be/m9qOJNeaRwg?si=4-xeIPlF0l4iz7PD",
-            "percent": 100,
-            "hz": 330,
-            "mobile": false
-        },
-        {
-            "user": "Acacia",
-            "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
-            "percent": 100,
-            "hz": 360,
-            "mobile": false
-        },
-        {
-            "user": "Lezephyx",
-            "link": "https://www.youtube.com/watch?v=qY6zNcvZGRk&t=1s",
-            "percent": 63,
-            "hz": 180,
-            "mobile": false
-        },
-        {
-            "user": "Blueberry",
-            "link": "https://youtu.be/bUj20qGCsNE",
-            "percent": 100,
-            "hz": 500,
-            "mobile": false
-        },
-         {
-            "user": "Skip",
-            "link": "https://youtu.be/p30tj7H1r1s",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false
-        },
-        {
-            "user": "morsey",
-            "link": "https://youtu.be/7Pj_jhmujKc?si=e4v-lHncB2yO0tzR",
-            "percent": 100,
-            "hz": 300,
-            "mobile": false,
-            "enjoyment": 8
-        },
-        {
-            "user": "sn0w",
-            "link": "https://youtu.be/vaGnza5uDO0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Spaace",
-            "link": "https://youtu.be/eJ98A3gYQA0",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Riley",
-            "link": "https://youtu.be/l8jEqfIHY_k?si=MDWwl-TIq50ER0F1",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "Hydraniac",
-            "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 7
-        },
-        {
-            "user": "Vink",
-            "link": "https://youtu.be/tXCRr8x7AvY?si=hCI2ghFJ-5Tc2fcv&t=222",
-            "percent": 100,
-            "hz": 60,
-            "mobile": false,
-            "enjoyment": 10
-        },
-        {
-            "user": "attrixia",
-            "link": "https://youtu.be/GSAhn3pu3vU",
-            "percent": 100,
-            "hz": 240,
-            "mobile": false,
-            "enjoyment": 9
-        }
-    ]
+  "id": 93967842,
+  "name": "you and i",
+  "creators": [
+	"Fawami"
+  ],
+  "verifier": "Fawami",
+  "verification": "https://youtu.be/fx5FO-JldfQ?si=6L3wGNN4aAroiZzv",
+  "showcase": "https://youtu.be/6vOHA9Z4_VQ?feature=shared",
+  "percentToQualify": 54,
+  "song": "d4vd - You and I",
+  "songLink": "https://drive.google.com/file/d/1KT7h9DKZQMQc0nOsOQhvhui7WSVev_Qo/view?usp=drive_link",
+  "difficulty": 5,
+  "records": [
+	{
+	  "user": "FluffyCatNeo",
+	  "link": "https://www.youtube.com/watch?v=HyHbi4UbJtU",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Diogan",
+	  "link": "https://www.youtube.com/watch?v=e8S08GJZcPk",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "evil",
+	  "link": "https://youtu.be/MN1odbQzIL0?si=vtdoAX-QLGhTAfrV",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "rastuyas",
+	  "link": "https://www.youtube.com/watch?v=2s5ymOG5dU8",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "zDark",
+	  "link": "https://youtu.be/_A6Rfk7_qms",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Jab",
+	  "link": "https://youtu.be/mNxwPd3VNRs",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "mrperson",
+	  "link": "https://www.youtube.com/watch?v=7nvV60AyH-8",
+	  "percent": 100,
+	  "hz": 144,
+	  "mobile": false
+	},
+	{
+	  "user": "nykolol",
+	  "link": "https://www.youtube.com/watch?v=Q07w-Asaow0&ab_channel=crystal",
+	  "percent": 100,
+	  "hz": 330,
+	  "mobile": false
+	},
+	{
+	  "user": "Chubby9000",
+	  "link": "https://youtu.be/m9qOJNeaRwg?si=4-xeIPlF0l4iz7PD",
+	  "percent": 100,
+	  "hz": 330,
+	  "mobile": false
+	},
+	{
+	  "user": "Acacia",
+	  "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
+	  "percent": 100,
+	  "hz": 360,
+	  "mobile": false
+	},
+	{
+	  "user": "Lezephyx",
+	  "link": "https://www.youtube.com/watch?v=qY6zNcvZGRk&t=1s",
+	  "percent": 63,
+	  "hz": 180,
+	  "mobile": false
+	},
+	{
+	  "user": "Blueberry",
+	  "link": "https://youtu.be/bUj20qGCsNE",
+	  "percent": 100,
+	  "hz": 500,
+	  "mobile": false
+	},
+	{
+	  "user": "Skip",
+	  "link": "https://youtu.be/p30tj7H1r1s",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false
+	},
+	{
+	  "user": "morsey",
+	  "link": "https://youtu.be/7Pj_jhmujKc?si=e4v-lHncB2yO0tzR",
+	  "percent": 100,
+	  "hz": 300,
+	  "mobile": false,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "sn0w",
+	  "link": "https://youtu.be/vaGnza5uDO0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Spaace",
+	  "link": "https://youtu.be/eJ98A3gYQA0",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Riley",
+	  "link": "https://youtu.be/l8jEqfIHY_k?si=MDWwl-TIq50ER0F1",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "Hydraniac",
+	  "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Vink",
+	  "link": "https://youtu.be/tXCRr8x7AvY?si=hCI2ghFJ-5Tc2fcv&t=222",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": 10
+	},
+	{
+	  "user": "attrixia",
+	  "link": "https://youtu.be/GSAhn3pu3vU",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 9
+	}
+  ]
 }
