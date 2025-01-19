@@ -1,97 +1,96 @@
 {
-  "id": 59544919,
-  "name": "Decorated Layout",
-  "creators": [
-	"Pennutoh"
-  ],
-  "verifier": "Pennutoh",
-  "verification": "https://www.youtube.com/watch?v=dUoAjGppGFY",
-  "showcase": "https://youtu.be/sb6DJy2VjxM",
-  "percentToQualify": 56,
-  "song": "Dimrain47 - Surface",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/g8eoOtuWiH8",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/TJbKBaowd-g",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://youtu.be/NIrQs9SQt_I",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/omwxBgrHr2g",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://www.youtube.com/watch?v=Ui4w690wfrQ",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false
-	},
-	{
-	  "user": "RFanVS",
-	  "link": "https://youtu.be/6kaGKsAR2UI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=pPhghPMntqc",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "8"
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/QSXY9-ARrX0?si=8ZTghPFzX8mkuxFb",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 3
-	}
-  ]
+    "id": 59544919,
+    "name": "Decorated Layout",
+    "author": "Pennutoh",
+    "creators": [],
+    "verifier": "Pennutoh",
+    "verification": "https://www.youtube.com/watch?v=dUoAjGppGFY",
+    "showcase": "https://youtu.be/sb6DJy2VjxM",
+    "percentToQualify": 56,
+    "song": "Dimrain47 - Surface",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/g8eoOtuWiH8",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/TJbKBaowd-g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/NIrQs9SQt_I",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/omwxBgrHr2g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://www.youtube.com/watch?v=Ui4w690wfrQ",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
+          "user": "RFanVS",
+          "link": "https://youtu.be/6kaGKsAR2UI",
+          "percent": 100,
+          "hz": 240,
+          "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=pPhghPMntqc",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/QSXY9-ARrX0?si=8ZTghPFzX8mkuxFb",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 3
+        }
+    ]
 }

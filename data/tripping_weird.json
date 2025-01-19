@@ -1,66 +1,65 @@
 {
-  "id": 77022955,
-  "name": "Tripping Weird",
-  "creators": [
-	"JPTOfficiaL"
-  ],
-  "verifier": "JPTOfficiaL",
-  "verification": "https://youtu.be/b4PYE4B-2QU",
-  "percentToQualify": 100,
-  "song": "Xorberax - drag me with you (reupload)",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=EUBbljVEPsw",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "gdBean",
-	  "link": "https://youtu.be/re-UTyvEk3s?si=May89hPTzJB4e2je",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/BWWLpzz2jvw?si=eT-j1cyJCUCRZkBp",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "GMD YIBWATERSCUSSY",
-	  "link": "https://youtu.be/xqwdbp06Teo",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 5
-	}
-  ]
+    "id": 77022955,
+    "name": "Tripping Weird",
+    "author": "JPTOfficiaL",
+    "creators": [],
+    "verifier": "JPTOfficiaL",
+    "verification": "https://youtu.be/b4PYE4B-2QU",
+    "percentToQualify": 100,
+    "song": "Xorberax - drag me with you (reupload)",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=EUBbljVEPsw",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+         {
+            "user": "gdBean",
+            "link": "https://youtu.be/re-UTyvEk3s?si=May89hPTzJB4e2je",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+         {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/BWWLpzz2jvw?si=eT-j1cyJCUCRZkBp",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/bHQ9Rbl3_rg?si=erV8aIHeWFiOtY1e",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "GMD YIBWATERSCUSSY",
+            "link": "https://youtu.be/xqwdbp06Teo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/yTEcVaMh2Ak",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/kpEUyYf5WJw?si=bD1l1QlNgZeVXQgr",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 5
+        }
+    ]
 }

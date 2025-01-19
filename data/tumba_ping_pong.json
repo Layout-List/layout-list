@@ -1,89 +1,88 @@
 {
-  "id": 101680312,
-  "name": "Tumba Ping Pong Song",
-  "creators": [
-	"whitmp4"
-  ],
-  "verifier": "whitmp4",
-  "verification": "https://youtu.be/pqjmnMtOJg8?si=FmsBUT0_6-BvkObq",
-  "percentToQualify": 100,
-  "song": "Dunderpatrullen - Tumba Ping Pong Song",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/YSUJTo31m-8",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=38p9632erwk",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "8"
-	},
-	{
-	  "user": "evil",
-	  "link": "https://medal.tv/games/geometry-dash/clips/1Z5sBwRhlPsHDr/d1337zfYg82o?invite=cr-MSxsQVksMTk3MjYyOTM2LA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=2d5wcFEh2b8",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Asteria.",
-	  "link": "https://youtu.be/rOLpmnScGE4",
-	  "percent": 100,
-	  "hz": 280,
-	  "mobile": false
-	},
-	{
-	  "user": "Pr0Gamer1192",
-	  "link": "https://www.youtube.com/watch?v=_NknK3Jq8Xk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/_4YFRxJbNfs?si=MJj86usAYLugrJ-a",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	}
-  ]
+    "id": 101680312,
+    "name": "Tumba Ping Pong Song",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://youtu.be/pqjmnMtOJg8?si=FmsBUT0_6-BvkObq",
+    "percentToQualify": 100,
+    "song": "Dunderpatrullen - Tumba Ping Pong Song",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/YSUJTo31m-8",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=38p9632erwk",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=g3RqRfyoHkI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "evil",
+            "link": "https://medal.tv/games/geometry-dash/clips/1Z5sBwRhlPsHDr/d1337zfYg82o?invite=cr-MSxsQVksMTk3MjYyOTM2LA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=2d5wcFEh2b8",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 5
+        },
+        {
+            "user": "Asteria.",
+            "link": "https://youtu.be/rOLpmnScGE4",
+            "percent": 100,
+            "hz": 280,
+            "mobile": false
+        },
+        {
+            "user": "Pr0Gamer1192",
+            "link": "https://www.youtube.com/watch?v=_NknK3Jq8Xk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/_4YFRxJbNfs?si=MJj86usAYLugrJ-a",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+    ]
 }

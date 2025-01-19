@@ -1,63 +1,62 @@
 {
-  "id": 102705412,
-  "name": "Dont Fear",
-  "creators": [
-	"Undrwater",
-	"QwidziT"
-  ],
-  "verifier": "QwidziT",
-  "verification": "https://youtu.be/4zrzzzy_Loo",
-  "percentToQualify": 50,
-  "song": "Rukkus - Fear Me",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "zWren",
-	  "link": "https://www.youtube.com/watch?v=fizhWmODUjQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/c1YRMAsn740",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://medal.tv/games/geometry-dash/clips/iqZI8keV6NNhBB5Yd/d1337dkBTMHl?invite=cr-MSx3UGEsMTg1OTcxMTAwLA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	}
-  ]
+    "id": 102705412,
+    "name": "Dont Fear",
+    "author": "QwidziT",
+    "creators": ["Undrwater"],
+    "verifier": "QwidziT",
+    "verification": "https://youtu.be/4zrzzzy_Loo",
+    "percentToQualify": 50,
+    "song": "Rukkus - Fear Me",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "zWren",
+            "link": "https://www.youtube.com/watch?v=fizhWmODUjQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/c1YRMAsn740",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iqZI8keV6NNhBB5Yd/d1337dkBTMHl?invite=cr-MSx3UGEsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        }
+        
+    ]
 }

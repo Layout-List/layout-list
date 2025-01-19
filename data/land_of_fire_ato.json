@@ -1,120 +1,119 @@
 {
-  "id": 96504913,
-  "name": "land of fire",
-  "creators": [
-	"Asteria."
-  ],
-  "verifier": "Asteria.",
-  "verification": "https://youtu.be/OOOCew0yJD8",
-  "percentToQualify": 100,
-  "song": "KORDHELL - LAND OF FIRE (Sped Up)",
-  "songLink": "https://www.mediafire.com/file/ppa0sznfvsrg0jl/75782.mp3/file",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Acacia",
-	  "link": "https://youtu.be/m6hP21jDSu8?feature=shared",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/BjGItxO0RP4",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/2bvGfgpYF-E",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/ZSoVXGku6Fk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/DmgLrkk9K4Q",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/gyu0o9rkVIw",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "7"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=38p9632erwk",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/xuPSG5FYZXA?si=eMfkGUSJ3piuO7Iz",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "1"
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/0gYRPEWIpIM?si=aU2XZQBfQ7fq2k-w",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	}
-  ]
+    "id": 96504913,
+    "name": "land of fire",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "Asteria.",
+    "verification": "https://youtu.be/OOOCew0yJD8",
+    "percentToQualify": 100,
+    "song": "KORDHELL - LAND OF FIRE (Sped Up)",
+    "songLink": "https://www.mediafire.com/file/ppa0sznfvsrg0jl/75782.mp3/file",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/m6hP21jDSu8?feature=shared",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/BjGItxO0RP4",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/2bvGfgpYF-E",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/ZSoVXGku6Fk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/DmgLrkk9K4Q",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/gyu0o9rkVIw",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Popples",
+            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=38p9632erwk",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/xuPSG5FYZXA?si=eMfkGUSJ3piuO7Iz",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": "1"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/0gYRPEWIpIM?si=aU2XZQBfQ7fq2k-w",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        }
+    ]
 }

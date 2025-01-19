@@ -1,14 +1,15 @@
 {
-  "id": 106649936,
-  "name": "Momentum",
-  "creators": [
-	"Riley"
-  ],
-  "verifier": "attrixia",
-  "verification": "https://www.youtube.com/watch?v=eg-mRRX04jg",
-  "percentToQualify": 100,
-  "song": "Frou Frou - A new kind of love (sped up)",
-  "songLink": "https://drive.google.com/file/d/1_-WuAjWHI2-4veDkUVoyItqdC9GavOjh/view?usp=drive_link",
-  "difficulty": 1,
-  "records": []
+    "id": 106649936,
+    "name": "Momentum",
+    "author": "Riley",
+    "creators": [],
+    "verifier": "attrixia",
+    "verification": "https://www.youtube.com/watch?v=eg-mRRX04jg",
+    "percentToQualify": 100,
+    "song": "Frou Frou - A new kind of love (sped up)",
+    "songLink": "https://drive.google.com/file/d/1_-WuAjWHI2-4veDkUVoyItqdC9GavOjh/view?usp=drive_link",
+    "difficulty": 1,
+    "records": [
+        
+    ]
 }

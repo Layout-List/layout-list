@@ -1,53 +1,52 @@
 {
-  "id": 98815878,
-  "name": "Atos Ping Pong Fight",
-  "creators": [
-	"Asteria."
-  ],
-  "verifier": "Asteria.",
-  "verification": "https://www.youtube.com/watch?v=1bcoxDLrgck",
-  "showcase": "https://youtu.be/dJXpQ_dyXtU?si=zTQQb7pouOtH4KkS",
-  "percentToQualify": 100,
-  "song": "Dunderpatrullen - Tumba Ping Pong Song",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/gXy56qznwM4?si=IyQy9kNCyEuhTVrV",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": true,
-	  "enjoyment": 1
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/iqEzurGgYXM",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=q9l2pyfdArI",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/hNEhdQaVsGA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ],
-  "enjoyment": 10
+	"id": 98815878,
+	"name": "Atos Ping Pong Fight",
+	"author": "Asteria.",
+	"creators": [],
+	"verifier": "Asteria.",
+	"verification": "https://www.youtube.com/watch?v=1bcoxDLrgck",
+	"showcase": "https://youtu.be/dJXpQ_dyXtU?si=zTQQb7pouOtH4KkS",
+	"percentToQualify": 100,
+	"song": "Dunderpatrullen - Tumba Ping Pong Song",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/gXy56qznwM4?si=IyQy9kNCyEuhTVrV",
+			"percent": 100,
+			"hz": 240,
+			"mobile": true,
+			"enjoyment": 1
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/iqEzurGgYXM",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=q9l2pyfdArI",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/hNEhdQaVsGA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/H8P37i6H6P8?si=zfQy5WmsVIx4YoqV",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 4
+		}
+	],
+	"enjoyment": 10
 }

@@ -1,150 +1,149 @@
 {
-  "id": 91617167,
-  "name": "Fragmented",
-  "creators": [
-	"whitmp4"
-  ],
-  "verifier": "whitmp4",
-  "verification": "https://www.youtube.com/watch?v=PkZy5rIneDA",
-  "percentToQualify": 100,
-  "song": "TOMBOYY - KIDS",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/3_MgPOV26-c?si=YF4DAclcoVD2GOLI",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Hokahey",
-	  "link": "https://youtu.be/fa7RpWAUoqI",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false
-	},
-	{
-	  "user": "Blost",
-	  "link": "https://youtu.be/hBM2Jq4youw?si=y3Wh5Iix7iEoq5MX",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "briskrain",
-	  "link": "https://youtu.be/Ib0TRyEVQn8",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Utc",
-	  "link": "https://youtu.be/Vjg9ENu_w9o",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=Qpf5M31dKic",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/xvIYu2I96Fg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": true
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "7"
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/bvel58qSZks",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/qzZRN1eO0-s",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/8Is0KGkKj7M",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": " https://youtu.be/6etBt5MubPc",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "sabrina",
-	  "link": "https://youtu.be/ilhBNoR41UE?si=U5mbo3fl34kKJ0s3",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "gdBean",
-	  "link": "https://youtu.be/5fh8Zq5fKdg",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	}
-  ]
+    "id": 91617167,
+    "name": "Fragmented",
+    "author": "whitmp4",
+    "creators": [],
+    "verifier": "whitmp4",
+    "verification": "https://www.youtube.com/watch?v=PkZy5rIneDA",
+    "percentToQualify": 100,
+    "song": "TOMBOYY - KIDS",
+    "difficulty": 1,
+    "records": [
+         {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/3_MgPOV26-c?si=YF4DAclcoVD2GOLI",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "Hokahey",
+            "link": "https://youtu.be/fa7RpWAUoqI",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false
+        },
+         {
+            "user": "Blost",
+            "link": "https://youtu.be/hBM2Jq4youw?si=y3Wh5Iix7iEoq5MX",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+         {
+            "user": "briskrain",
+            "link": "https://youtu.be/Ib0TRyEVQn8",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Utc",
+            "link": "https://youtu.be/Vjg9ENu_w9o",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=Qpf5M31dKic",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/xvIYu2I96Fg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/bvel58qSZks",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/qzZRN1eO0-s",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/TJh-lAbAdCM?si=SKtyMKFGtbxQiZTZ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/3rLAoICX3B0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/8Is0KGkKj7M",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Blysteryx",
+            "link": " https://youtu.be/6etBt5MubPc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "sabrina",
+            "link": "https://youtu.be/ilhBNoR41UE?si=U5mbo3fl34kKJ0s3",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "gdBean",
+            "link": "https://youtu.be/5fh8Zq5fKdg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        }
+    ]
 }

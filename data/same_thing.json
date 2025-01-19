@@ -1,92 +1,91 @@
 {
-  "id": 102030772,
-  "name": "SAME THING",
-  "creators": [
-	"zCriox"
-  ],
-  "verifier": "zCriox",
-  "verification": "https://www.youtube.com/watch?v=3Ez4uE0Euwo",
-  "percentToQualify": 100,
-  "song": "Twikipedia - Same Thing",
-  "songLink": "https://www.mediafire.com/file/6c1v6bmse78a167/3132.mp3/file",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "https://www.youtube.com/watch?v=Mw18M7Qjpyk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/unMk4ICYQgs",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/KPf5VZERybY?si=xZ1AjoTppEIoxeQ7",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/sdzGVi597n8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/S-PZ-DuVcsw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://medal.tv/games/geometry-dash/clips/2e2Zrb5cc0LFdO/d1337KY1OMO7?invite=cr-MSxwUzAsMTg1OTcxMTAwLA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/0qU0lW0k8f4?si=PuusKJ15Y-ZOi3zz",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "monthmai",
-	  "link": "https://youtu.be/3710ToBfTm8?si=YaX1r2K4Zqmd2ct7",
-	  "percent": 100,
-	  "hz": 600,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://www.youtube.com/watch?v=3BshOmYIUxc",
-	  "percent": 100,
-	  "hz": 360,
-	  "enjoyment": 9
-	}
-  ]
+	"id": 102030772,
+	"name": "SAME THING",
+	"author": "zCriox",
+	"creators": [],
+	"verifier": "zCriox",
+	"verification": "https://www.youtube.com/watch?v=3Ez4uE0Euwo",
+	"percentToQualify": 100,
+	"song": "Twikipedia - Same Thing",
+	"songLink": "https://www.mediafire.com/file/6c1v6bmse78a167/3132.mp3/file",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "zDark",
+			"link": "https://www.youtube.com/watch?v=Mw18M7Qjpyk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/unMk4ICYQgs",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": "9"
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/KPf5VZERybY?si=xZ1AjoTppEIoxeQ7",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/sdzGVi597n8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/S-PZ-DuVcsw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/2e2Zrb5cc0LFdO/d1337KY1OMO7?invite=cr-MSxwUzAsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/0qU0lW0k8f4?si=PuusKJ15Y-ZOi3zz",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "monthmai",
+			"link": "https://youtu.be/3710ToBfTm8?si=YaX1r2K4Zqmd2ct7",
+			"percent": 100,
+			"hz": 600,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=3BshOmYIUxc",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 9
+		}
+	]
 }

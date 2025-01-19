@@ -1,69 +1,68 @@
 {
-  "id": 78425566,
-  "name": "Short Challenge",
-  "creators": [
-	"JPTOfficiaL"
-  ],
-  "verifier": "JPTOfficiaL",
-  "verification": "https://youtu.be/dGBL-0oiSl0",
-  "percentToQualify": 100,
-  "song": "MadhouseDUDE - Jet Set",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/0CR4b-J2AmI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/WvO8FbeOfL4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/jyB4VP1azms",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Zyxo",
-	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Bluelightning379",
-	  "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "zWren",
-	  "link": "https://www.youtube.com/watch?v=42OXsOVGWKc",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	}
-  ]
+    "id": 78425566,
+    "name": "Short Challenge",
+    "author": "JPTOfficiaL",
+    "creators": [],
+    "verifier": "JPTOfficiaL",
+    "verification": "https://youtu.be/dGBL-0oiSl0",
+    "percentToQualify": 100,
+    "song": "MadhouseDUDE - Jet Set",
+    "difficulty": 1,
+    "records": [
+        {
+          "user": "zDark",
+          "link": "https://youtu.be/0CR4b-J2AmI",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/WvO8FbeOfL4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/jyB4VP1azms",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Bluelightning379",
+            "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "zWren",
+            "link": "https://www.youtube.com/watch?v=42OXsOVGWKc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 5
+        }
+    ]
 }

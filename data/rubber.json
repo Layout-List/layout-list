@@ -1,74 +1,73 @@
 {
-  "id": 93673174,
-  "name": "Rubber VRoom",
-  "creators": [
-	"Flare"
-  ],
-  "verifier": "DJJDK",
-  "verification": "https://www.youtube.com/watch?v=jX-6fSsoGhs",
-  "showcase": "https://youtu.be/oqns8UK4a1A?feature=shared",
-  "percentToQualify": 51,
-  "song": "Creo - Crazy",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://youtu.be/0Bh-qwaMKEc",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/LqhQs438WOY?si=Duf9_k1Qqjgmq6wJ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/0ArgXFXg42Q",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/egEo4_kvtpY",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Tradeskill",
-	  "link": "https://youtu.be/1fUsvx0W5Cc",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "IIRafII",
-	  "link": "https://www.youtube.com/watch?v=rsBcqzf-uEE",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	}
-  ]
+    "id": 93673174,
+    "name": "Rubber VRoom",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "DJJDK",
+    "verification": "https://www.youtube.com/watch?v=jX-6fSsoGhs",
+    "showcase": "https://youtu.be/oqns8UK4a1A?feature=shared",
+    "percentToQualify": 51,
+    "song": "Creo - Crazy",
+    "difficulty": 5,
+    "records": [
+         {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/0Bh-qwaMKEc",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/LqhQs438WOY?si=Duf9_k1Qqjgmq6wJ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/0ArgXFXg42Q",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "mrperson",
+            "link": "https://youtu.be/egEo4_kvtpY",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Tradeskill",
+            "link": "https://youtu.be/1fUsvx0W5Cc",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "IIRafII",
+            "link": "https://www.youtube.com/watch?v=rsBcqzf-uEE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

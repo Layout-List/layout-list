@@ -1,60 +1,59 @@
 {
-  "id": 94729722,
-  "name": "murder plot",
-  "creators": [
-	"Flare"
-  ],
-  "verifier": "zDark",
-  "verification": "https://youtu.be/wUO-6SzL4eM",
-  "showcase": "https://youtu.be/-0i_JnRG9Cs",
-  "percentToQualify": 52,
-  "song": "KORDHELL - MURDER PLOT",
-  "songLink": "https://drive.google.com/file/d/1yjaxFl0zIgMaC4pkP7Yx1nZTDBmzFlaG/view?usp=drive_link",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "Blathers",
-	  "link": "https://www.youtube.com/watch?v=n-k3rjSqJHQ",
-	  "percent": 100,
-	  "hz": 280,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/swNlT-2JL34",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://youtu.be/szc4ffBzI-M",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/WkBhOxRDhWs",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=nJKrao4IdrY",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	}
-  ]
+    "id": 94729722,
+    "name": "murder plot",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/wUO-6SzL4eM",
+    "showcase": "https://youtu.be/-0i_JnRG9Cs",
+    "percentToQualify": 52,
+    "song": "KORDHELL - MURDER PLOT",
+    "songLink": "https://drive.google.com/file/d/1yjaxFl0zIgMaC4pkP7Yx1nZTDBmzFlaG/view?usp=drive_link",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Blathers",
+            "link": "https://www.youtube.com/watch?v=n-k3rjSqJHQ",
+            "percent": 100,
+            "hz": 280,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/swNlT-2JL34",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://youtu.be/szc4ffBzI-M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/WkBhOxRDhWs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=nJKrao4IdrY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 10
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/TgtA_qqTaJo?si=iiWiD8mRMjzsPyyD",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

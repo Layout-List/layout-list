@@ -1,154 +1,153 @@
 {
-  "id": 97052017,
-  "name": "Paint The Town Red",
-  "creators": [
-	"Raezori"
-  ],
-  "verifier": "Raezori",
-  "verification": "https://youtu.be/E8DJpV8uAY4",
-  "percentToQualify": 100,
-  "song": "Doja Cat - Paint the Town Red",
-  "songLink": "https://drive.google.com/file/d/1kqzhF1LvZfWD9kN04k9qzcaj9EuWDCJh/view?usp=drive_link",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/1HncWLNgcfA",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "zakonp",
-	  "link": "https://youtu.be/DyLTh_g2SCk",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "4"
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/sY16l-0xgsc?si=6VInfVqoyqCNkgBq",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Asteria.",
-	  "link": "https://youtu.be/ErrF7M6erk4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/fZ18r3Qk7jA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/BCOBQm6tFrk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "allen",
-	  "link": "https://youtu.be/S89ZS-E5VOw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/rt35R9QU0Xk",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/IXdHUBPqIFs?si=GXzGKaXjLFulpJLG",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/_4YFRxJbNfs?si=MJj86usAYLugrJ-a",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "sphericle",
-	  "link": "https://youtu.be/hAGhgAoR7L0",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 10
-	}
-  ]
+	"id": 97052017,
+	"name": "Paint The Town Red",
+	"author": "Raezori",
+	"creators": [],
+	"verifier": "Raezori",
+	"verification": "https://youtu.be/E8DJpV8uAY4",
+	"percentToQualify": 100,
+	"song": "Doja Cat - Paint the Town Red",
+	"songLink": "https://drive.google.com/file/d/1kqzhF1LvZfWD9kN04k9qzcaj9EuWDCJh/view?usp=drive_link",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "evil",
+			"link": "https://youtu.be/1HncWLNgcfA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		},
+		{
+			"user": "zakonp",
+			"link": "https://youtu.be/DyLTh_g2SCk",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=C58WdkH2JcU",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": "4"
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/sY16l-0xgsc?si=6VInfVqoyqCNkgBq",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "Asteria.",
+			"link": "https://youtu.be/ErrF7M6erk4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/fZ18r3Qk7jA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/BCOBQm6tFrk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "allen",
+			"link": "https://youtu.be/S89ZS-E5VOw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "LimeDub",
+			"link": "https://youtu.be/rt35R9QU0Xk",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/IXdHUBPqIFs?si=GXzGKaXjLFulpJLG",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Popples",
+			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/3rLAoICX3B0",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Paladean",
+			"link": "https://www.youtube.com/watch?v=7k0b1G9-bdc",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/_4YFRxJbNfs?si=MJj86usAYLugrJ-a",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/CPgS2uspV78?si=RZucBv-Dq2CceHKf",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=Xfm1y0jy-8E",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/hAGhgAoR7L0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }

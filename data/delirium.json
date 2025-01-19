@@ -1,96 +1,95 @@
 {
-  "id": 79449125,
-  "name": "Delirium ❌",
-  "creators": [
-	"rodentsardine"
-  ],
-  "verifier": "aelzfr",
-  "verification": "https://youtu.be/zbTO_YkgsqY",
-  "showcase": "https://youtu.be/iDMV57yJOKk",
-  "percentToQualify": 58,
-  "song": "Djjaner - The Hallucination",
-  "difficulty": 6,
-  "records": [
-	{
-	  "user": "JJw128",
-	  "link": "https://youtu.be/9vGekwULKhI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/f525OJTgvk4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Couropsnov",
-	  "link": "https://youtu.be/TGuCT88xODA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Dep96",
-	  "link": "https://www.youtube.com/watch?v=0wAiaW6Z9Fs",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://youtu.be/b3yAP6YsCUA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/CKlYX9cHxE4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Seismic",
-	  "link": "https://youtu.be/o6d3YjOGKUY",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=hk-gZOp7ctw",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 0
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/21eicmFpjdI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	}
-  ]
+    "id": 79449125,
+    "name": "Delirium ❌",
+    "author": "rodentsardine",
+    "creators": [],
+    "verifier": "aelzfr",
+    "verification": "https://youtu.be/zbTO_YkgsqY",
+    "showcase": "https://youtu.be/iDMV57yJOKk",
+    "percentToQualify": 58,
+    "song": "Djjaner - The Hallucination",
+    "difficulty": 6,
+    "records": [
+        {
+            "user": "JJw128",
+            "link": "https://youtu.be/9vGekwULKhI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/f525OJTgvk4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Couropsnov",
+            "link": "https://youtu.be/TGuCT88xODA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Dep96",
+            "link": "https://www.youtube.com/watch?v=0wAiaW6Z9Fs",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/b3yAP6YsCUA",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/CKlYX9cHxE4",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Seismic",
+            "link": "https://youtu.be/o6d3YjOGKUY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=hk-gZOp7ctw",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/21eicmFpjdI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        }
+    ]
 }

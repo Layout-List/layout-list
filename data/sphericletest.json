@@ -1,14 +1,13 @@
 {
-  "id": 100102012031023,
-  "name": "sphericletest",
-  "creators": [
-	"sphericle"
-  ],
-  "verifier": "sphericle",
-  "verification": "https://hai.com",
-  "percentToQualify": 100,
-  "password": "Free to copy",
-  "difficulty": 1,
-  "song": "song",
-  "records": []
+	"id": 100102012031023,
+	"name": "sphericletest",
+	"author": "sphericle",
+	"creators": [],
+	"verifier": "sphericle",
+	"verification": "https://hai.com",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 1,
+	"song": "song",
+	"records" : []
 }

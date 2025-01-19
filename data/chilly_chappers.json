@@ -1,131 +1,130 @@
 {
-  "id": 71060838,
-  "name": "Chilly Chappers",
-  "creators": [
-	"Blathers"
-  ],
-  "verifier": "Blathers",
-  "verification": "https://youtu.be/bO-WbF2GpyQ",
-  "showcase": "https://youtu.be/YHDPOfxOptM",
-  "percentToQualify": 53,
-  "song": "Rukkus - Take Me Away",
-  "difficulty": 7,
-  "records": [
-	{
-	  "user": "Plasmic",
-	  "link": "https://www.twitch.tv/videos/1090223333",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "danielvess555",
-	  "link": "https://youtu.be/nEy-xWJ81Zw",
-	  "percent": 100,
-	  "hz": 240
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://www.youtube.com/watch?v=QqSwkHdZz9w",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "CaioMD",
-	  "link": "https://www.youtube.com/watch?v=Nz7BsJFB3vI",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "idiotdash",
-	  "link": "https://www.youtube.com/watch?v=7zhzSYL9k_I",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "ZBosGaming",
-	  "link": "https://clips.twitch.tv/ExpensiveCogentKumquatFloof-9yem7B1aahM0lcf0",
-	  "percent": 62,
-	  "hz": 360
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/rxKtWFa9xeY",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "culobdj",
-	  "link": "https://www.youtube.com/watch?v=pt4WVcgHKCo",
-	  "percent": 56,
-	  "hz": 240
-	},
-	{
-	  "user": "Seismic",
-	  "link": "https://youtu.be/36UCx04WDP4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/ve1QXsYhaxY",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://www.youtube.com/watch?v=CkVFtZpk6Oc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "TurtleER",
-	  "link": "https://youtu.be/hJ6C1b4qU9g",
-	  "percent": 61,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=DfQOK-ccLa8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/eeV9lFSSOPk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/CzGkDqMUiG8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	}
-  ]
+    "id": 71060838,
+    "name": "Chilly Chappers",
+    "author": "Blathers",
+    "creators": [],
+    "verifier": "Blathers",
+    "verification": "https://youtu.be/bO-WbF2GpyQ",
+    "showcase": "https://youtu.be/YHDPOfxOptM",
+    "percentToQualify": 53,
+    "song": "Rukkus - Take Me Away",
+    "difficulty": 7,
+    "records": [
+        {
+            "user": "Plasmic",
+            "link": "https://www.twitch.tv/videos/1090223333",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "danielvess555",
+            "link": "https://youtu.be/nEy-xWJ81Zw",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=QqSwkHdZz9w",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "CaioMD",
+            "link": "https://www.youtube.com/watch?v=Nz7BsJFB3vI",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "idiotdash",
+            "link": "https://www.youtube.com/watch?v=7zhzSYL9k_I",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Armani",
+            "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "ZBosGaming",
+            "link": "https://clips.twitch.tv/ExpensiveCogentKumquatFloof-9yem7B1aahM0lcf0",
+            "percent": 62,
+            "hz": 360
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/rxKtWFa9xeY",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "culobdj",
+            "link": "https://www.youtube.com/watch?v=pt4WVcgHKCo",
+            "percent": 56,
+            "hz": 240
+        },
+        {
+            "user": "Seismic",
+            "link": "https://youtu.be/36UCx04WDP4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/ve1QXsYhaxY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=CkVFtZpk6Oc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/hJ6C1b4qU9g",
+            "percent": 61,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=DfQOK-ccLa8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/eeV9lFSSOPk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/CzGkDqMUiG8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        }
+    ]
 }

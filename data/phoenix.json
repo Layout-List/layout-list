@@ -1,51 +1,50 @@
 {
-  "id": 111787038,
-  "name": "Phoenix",
-  "creators": [
-	"vitnz"
-  ],
-  "verifier": "vitnz",
-  "verification": "https://www.youtube.com/watch?v=QUXq_4pmCXg",
-  "percentToQualify": 100,
-  "song": "NCS - Phoenix",
-  "difficulty": 0,
-  "records": [
-	{
-	  "user": "sphericle",
-	  "link": "https://youtu.be/_IQbZAIFfU8",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
-	  "percent": 100,
-	  "hz": 60,
-	  "enjoyment": 5,
-	  "mobile": true
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/Y05VvAvN7WE",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "cinderrblock",
-	  "link": "https://www.youtube.com/live/sO-6_9aS7W0?si=umwsijAujlSOhbed",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/zx9Wzm-o-Lg",
-	  "percent": 100,
-	  "hz": 120,
-	  "enjoyment": 7,
-	  "mobile": true
-	}
-  ]
+	"id": 111787038,
+	"name": "Phoenix",
+	"author": "vitnz",
+	"creators": [],
+	"verifier": "vitnz",
+	"verification": "https://www.youtube.com/watch?v=QUXq_4pmCXg",
+	"percentToQualify": 100,
+	"song": "NCS - Phoenix",
+	"difficulty": 0,
+	"records": [
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 5,
+			"mobile": true
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/Y05VvAvN7WE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://www.youtube.com/live/sO-6_9aS7W0?si=umwsijAujlSOhbed",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/zx9Wzm-o-Lg",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }

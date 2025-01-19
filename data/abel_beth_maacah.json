@@ -1,103 +1,101 @@
 {
-  "id": 94354877,
-  "name": "Abel Beth Maacah",
-  "creators": [
-	"evil",
-	"whitmp4"
-  ],
-  "verifier": "evil",
-  "verification": "https://youtu.be/6vAc_Yvlems",
-  "percentToQualify": 56,
-  "song": "Waterflame - -Running From Demons- (2021 Vast Album Remaster)",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/IY7LYB5ZhCw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/afSCqAYgisw",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=T9F5A2NsQXE",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Blueberry",
-	  "link": "https://youtu.be/y5bl9zKj4zI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "zakonp",
-	  "link": "https://youtu.be/CRF0x-BMOVc",
-	  "percent": 60,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://www.youtube.com/watch?v=hoqqrE6M3oM",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/UiznmvvnlEc",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "7"
-	},
-	{
-	  "user": "Skip",
-	  "link": "https://youtu.be/PHntJNLvLsE",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/Wqbdd7NoU3M",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/j6G4mbZFh5I?si=Ylq8TFbLvk9-iJFt",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "gdBean",
-	  "link": "https://youtu.be/KmBwn1WpB84",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	}
-  ]
+    "id": 94354877,
+    "name": "Abel Beth Maacah",
+    "author": "whitmp4",
+    "creators": ["evil"],
+    "verifier": "evil",
+    "verification": "https://youtu.be/6vAc_Yvlems",
+    "percentToQualify": 56,
+    "song": "Waterflame - -Running From Demons- (2021 Vast Album Remaster)",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/IY7LYB5ZhCw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/afSCqAYgisw",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=T9F5A2NsQXE",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Blueberry",
+            "link": "https://youtu.be/y5bl9zKj4zI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "zakonp",
+            "link": "https://youtu.be/CRF0x-BMOVc",
+            "percent": 60,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+         {
+            "user": "nolli",
+            "link": "https://www.youtube.com/watch?v=hoqqrE6M3oM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+         {
+            "user": "Xeronius",
+            "link": "https://youtu.be/UiznmvvnlEc",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Skip",
+            "link": "https://youtu.be/PHntJNLvLsE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/Wqbdd7NoU3M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/j6G4mbZFh5I?si=Ylq8TFbLvk9-iJFt",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "gdBean",
+            "link": "https://youtu.be/KmBwn1WpB84",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        }
+    ]
 }

@@ -1,179 +1,178 @@
 {
-  "id": 95120621,
-  "name": "Sky Castle",
-  "creators": [
-	"Asteria."
-  ],
-  "verifier": "Asteria.",
-  "verification": "https://youtu.be/CnuXzzH19Oc",
-  "percentToQualify": 100,
-  "song": "Waterflame - -conclusion-",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Tradeskill",
-	  "link": "https://www.youtube.com/watch?v=oJrpJganwtM",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://www.youtube.com/watch?v=yXVMkjAPu18",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/aAs3myypTcU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/6Vhy_urhIJQ?si=rj4HTZL8d2UKwqzW",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "8"
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "rastuyas",
-	  "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/2_FdTVYtg5Y",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/hSVmrLmMacg?si=ZimWIdqzTzon9ASu",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/rt35R9QU0Xk",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Fallen",
-	  "link": "https://youtu.be/xnmzzt_gSTU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=FOy9QFTX0-U",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Flipperglint",
-	  "link": "https://youtu.be/NCvgbUo6JOg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/T6HFNY3Tmz0?si=VxHjhHLvSWRDTjlI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Spaace",
-	  "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "HyplaY",
-	  "link": "https://youtu.be/3ydiu3R_we0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+    "id": 95120621,
+    "name": "Sky Castle",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "Asteria.",
+    "verification": "https://youtu.be/CnuXzzH19Oc",
+    "percentToQualify": 100,
+    "song": "Waterflame - -conclusion-",
+    "difficulty": 1,
+    "records": [
+          {
+            "user": "Tradeskill",
+            "link": "https://www.youtube.com/watch?v=oJrpJganwtM",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=yXVMkjAPu18",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/aAs3myypTcU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://youtu.be/6Vhy_urhIJQ?si=rj4HTZL8d2UKwqzW",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/cl4UrnBjshk?feature=shared",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://www.youtube.com/watch?v=P_cIMyBVD4U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/2_FdTVYtg5Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/hSVmrLmMacg?si=ZimWIdqzTzon9ASu",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://youtu.be/rt35R9QU0Xk",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Popples",
+            "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Fallen",
+            "link": "https://youtu.be/xnmzzt_gSTU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://www.youtube.com/watch?v=FOy9QFTX0-U",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Flipperglint",
+            "link": "https://youtu.be/NCvgbUo6JOg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/T6HFNY3Tmz0?si=VxHjhHLvSWRDTjlI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+            "user": "Spaace",
+            "link": "https://www.youtube.com/watch?v=_qClIOcdgjk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "HyplaY",
+            "link": "https://youtu.be/3ydiu3R_we0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

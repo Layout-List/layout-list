@@ -1,38 +1,37 @@
 {
-  "id": 96605635,
-  "name": "Annie Am I Late",
-  "creators": [
-	"Iza"
-  ],
-  "verifier": "Rastuyas",
-  "verification": "https://www.youtube.com/watch?v=bP5pP8fmMTM&ab_channel=rastuyas",
-  "percentToQualify": 56,
-  "password": "423578",
-  "song": "Cuizo - Annihilate (MD2021)",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "Riley",
-	  "link": "https://www.youtube.com/watch?v=dO4QLRimQAY",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	}
-  ]
+    "id": 96605635,
+    "name": "Annie Am I Late",
+    "author": "Iza",
+    "creators": [],
+    "verifier": "Rastuyas",
+    "verification": "https://www.youtube.com/watch?v=bP5pP8fmMTM&ab_channel=rastuyas",
+    "percentToQualify": 56,
+    "password": "423578",
+    "song": "Cuizo - Annihilate (MD2021)",
+    "difficulty": 5,
+    "records": [
+         {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=dO4QLRimQAY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+         },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tLgU4y1NOTs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        }
+    ]
 }

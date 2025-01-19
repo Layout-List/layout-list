@@ -1,94 +1,93 @@
 {
-  "id": 105743635,
-  "name": "WINDSWEPT GOODBYES",
-  "creators": [
-	"nub01"
-  ],
-  "verifier": "nub01",
-  "verification": "https://www.youtube.com/watch?v=5AwSQZqytD0&ab_channel=nub01",
-  "percentToQualify": 100,
-  "song": "Koraii - Good Girl",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Blysteryx",
-	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/JEbVAEAMTAs",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/aFmYCfa-vVk?si=I8TVCN-P278vFXN0",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=3UPv6_yeVR0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": 8
-	}
-  ]
+    "id": 105743635,
+    "name": "WINDSWEPT GOODBYES",
+    "author": "nub01",
+    "creators": [],
+    "verifier": "nub01",
+    "verification": "https://www.youtube.com/watch?v=5AwSQZqytD0&ab_channel=nub01",
+    "percentToQualify": 100,
+    "song": "Koraii - Good Girl",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Blysteryx",
+            "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "ToastyTP",
+            "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment" : "?"
+        },
+        {
+          "user": "Hyperbeat",
+          "link": "https://www.youtube.com/watch?v=353dln9stV4",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+          "enjoyment": 6
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/JEbVAEAMTAs",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/aFmYCfa-vVk?si=I8TVCN-P278vFXN0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=3UPv6_yeVR0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": 8
+        }
+    ]
 }

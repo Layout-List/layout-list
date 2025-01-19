@@ -1,39 +1,39 @@
+
 {
-  "id": 108581623,
-  "name": "After Hours",
-  "creators": [
-	"flare"
-  ],
-  "verifier": "zDark",
-  "verification": "https://youtu.be/LkdEEjRbC9U",
-  "percentToQualify": 100,
-  "song": "After Dark - Mr. Kitty",
-  "songLink": "https://drive.google.com/file/d/17KSk-OCHxxW5O8rB7VgEOjZNkIqBwywf/view?usp=drive_link",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/ohINdNjCIWY",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/dCvJVTlB6-g",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+    "id": 108581623,
+    "name": "After Hours",
+    "author": "flare",
+    "creators": [],
+    "verifier": "zDark",
+    "verification": "https://youtu.be/LkdEEjRbC9U",
+    "percentToQualify": 100,
+    "song": "After Dark - Mr. Kitty",
+    "songLink": "https://drive.google.com/file/d/17KSk-OCHxxW5O8rB7VgEOjZNkIqBwywf/view?usp=drive_link",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/ohINdNjCIWY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/dCvJVTlB6-g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

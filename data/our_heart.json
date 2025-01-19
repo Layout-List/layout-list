@@ -1,47 +1,46 @@
 {
-  "id": 107188529,
-  "name": "Our Heart",
-  "creators": [
-	"Diogan",
-	"DLAppleGamez",
-	"nGoose",
-	"PivitHasNoLife",
-	"kittyamazing",
-	"zBlq",
-	"Lemonaaa",
-	"hab",
-	"vt_et",
-	"Fawami"
-  ],
-  "verifier": "Lemonaaa",
-  "verification": "https://youtu.be/8tYnXqgRbss",
-  "percentToQualify": 56,
-  "song": "Different Heaven - My Heart",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 1
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+    "id": 107188529,
+    "name": "Our Heart",
+    "author": "Fawami",
+    "creators": [
+      "Diogan",
+    "DLAppleGamez",
+    "nGoose",
+    "PivitHasNoLife",
+    "kittyamazing",
+    "zBlq",
+    "Lemonaaa",
+    "hab",
+    "vt_et"],
+    "verifier": "Lemonaaa",
+    "verification": "https://youtu.be/8tYnXqgRbss",
+    "percentToQualify": 56,
+    "song": "Different Heaven - My Heart",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 3
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 1
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/GSAhn3pu3vU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        }
+    ]
 }

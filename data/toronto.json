@@ -1,141 +1,140 @@
 {
-  "id": 104467214,
-  "name": "Toronto",
-  "creators": [
-	"Salukis"
-  ],
-  "verifier": "Salukis",
-  "verification": "https://youtu.be/T27DvLpwk68?feature=shared",
-  "percentToQualify": 100,
-  "song": "Polargeist by Step",
-  "difficulty": 0,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/4vydcV_23GY?si=LdwJBb6rbOZS6jPS",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Flipperglint",
-	  "link": "https://www.youtube.com/watch?v=38B_cpdXvSQ&ab_channel=Flipperglint",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "TheCatAstronaut",
-	  "link": "https://youtu.be/0rlMWJUIXCM",
-	  "percent": 100,
-	  "hz": 170,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=DDhCOnRI7UQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "agentgiscool",
-	  "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/LeN4b9GsV84",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Tanginess",
-	  "link": "https://youtu.be/YE18sJeWHdY",
-	  "percent": 100,
-	  "hz": 480,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "sn0w",
-	  "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "sphericle",
-	  "link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "josikp",
-	  "link": "https://www.youtube.com/watch?v=Cli3zUT_6Ao",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 10
-	}
-  ]
+	"id": 104467214,
+	"name": "Toronto",
+	"author": "Salukis",
+	"creators": [],
+	"verifier": "Salukis",
+	"verification": "https://youtu.be/T27DvLpwk68?feature=shared",
+	"percentToQualify": 100,
+	"song": "Polargeist by Step",
+	"difficulty": 0,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/4vydcV_23GY?si=LdwJBb6rbOZS6jPS",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Flipperglint",
+			"link": "https://www.youtube.com/watch?v=38B_cpdXvSQ&ab_channel=Flipperglint",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "TheCatAstronaut",
+			"link": "https://youtu.be/0rlMWJUIXCM",
+			"percent": 100,
+			"hz": 170,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=wS2RBchlqKs",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=DDhCOnRI7UQ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=353dln9stV4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "agentgiscool",
+			"link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/LeN4b9GsV84",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Tanginess",
+			"link": "https://youtu.be/YE18sJeWHdY",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sn0w",
+			"link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "josikp",
+			"link": "https://www.youtube.com/watch?v=Cli3zUT_6Ao",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 10
+		}
+	]
 }

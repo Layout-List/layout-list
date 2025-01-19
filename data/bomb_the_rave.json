@@ -1,108 +1,107 @@
 {
-  "id": 71294919,
-  "name": "bomb the rave",
-  "creators": [
-	"Sagascius"
-  ],
-  "verifier": "Sagascius",
-  "verification": "https://youtu.be/0VRCuVf_vs0",
-  "showcase": "https://youtu.be/F_F7ttqYen0",
-  "percentToQualify": 51,
-  "song": "Srav3R - Bomb The Rave (feat. Numb'n'dub)",
-  "songLink": "https://www.mediafire.com/file/90ie63vloe7mb3q/154874.mp3/file",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "Blueskii",
-	  "link": "https://www.youtube.com/watch?v=5YPOqy3Rw7U",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://www.youtube.com/watch?v=Wet5V-GRbvA",
-	  "percent": 100,
-	  "hz": 240
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://youtu.be/AtztkezVeck",
-	  "percent": 100,
-	  "hz": 288
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/vI9e_nV7me0",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "MiniWheatDuo",
-	  "link": "https://youtu.be/g5W13JCC7OU",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "EmeraldOre",
-	  "link": "https://www.youtube.com/watch?v=M35rwGGE67g",
-	  "percent": 100,
-	  "hz": 120
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "leaf",
-	  "link": "https://youtu.be/omH81kh5NaY",
-	  "percent": 100,
-	  "hz": 107
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/dlG-r9l4O-E",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://www.youtube.com/watch?v=W_5FsuVa85w",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://www.youtube.com/watch?v=Ai12wOirnF0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/cEWpqnlhemE",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=ssDmVcSPD8Y",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	}
-  ]
+    "id": 71294919,
+    "name": "bomb the rave",
+    "author": "Sagascius",
+    "creators": [],
+    "verifier": "Sagascius",
+    "verification": "https://youtu.be/0VRCuVf_vs0",
+    "showcase": "https://youtu.be/F_F7ttqYen0",
+    "percentToQualify": 51,
+    "song": "Srav3R - Bomb The Rave (feat. Numb'n'dub)",
+    "songLink": "https://www.mediafire.com/file/90ie63vloe7mb3q/154874.mp3/file",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "Blueskii",
+            "link": "https://www.youtube.com/watch?v=5YPOqy3Rw7U",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=Wet5V-GRbvA",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://youtu.be/AtztkezVeck",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/vI9e_nV7me0",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "MiniWheatDuo",
+            "link": "https://youtu.be/g5W13JCC7OU",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "EmeraldOre",
+            "link": "https://www.youtube.com/watch?v=M35rwGGE67g",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Armani",
+            "link": "https://www.youtube.com/watch?v=vpnlIuXczeQ",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "leaf",
+            "link": "https://youtu.be/omH81kh5NaY",
+            "percent": 100,
+            "hz": 107
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/dlG-r9l4O-E",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=W_5FsuVa85w",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "zDark",
+            "link": "https://www.youtube.com/watch?v=Ai12wOirnF0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/cEWpqnlhemE",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=ssDmVcSPD8Y",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

@@ -1,47 +1,47 @@
 {
-  "id": 111807067,
-  "name": "GOAT",
-  "creators": [
-	"Shums"
-  ],
-  "verifier": "Shums",
-  "verification": "https://www.youtube.com/watch?v=UXHabM-VBm4",
-  "percentToQualify": 100,
-  "song": "Polyphia - G.O.A.T",
-  "songLink": "https://drive.google.com/file/d/1ciZM31a3GEQzlVeuALwOQtm0HajMIltu/view?usp=drive_link",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/sCaOcX5kDXk",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "sn0w",
-	  "link": "https://youtu.be/OE53q5CN6gQ?si=hgfvOkqXq9jF9mzl",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 2
-	}
-  ]
+    "id": 111807067,
+    "name": "GOAT",
+    "author": "Shums",
+    "creators": [],
+    "verifier": "Shums",
+    "verification": "https://www.youtube.com/watch?v=UXHabM-VBm4",
+    "percentToQualify": 100,
+    "song": "Polyphia - G.O.A.T",
+    "songLink": "https://drive.google.com/file/d/1ciZM31a3GEQzlVeuALwOQtm0HajMIltu/view?usp=drive_link",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/sCaOcX5kDXk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 7
+        },
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/OE53q5CN6gQ?si=hgfvOkqXq9jF9mzl",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 6
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 2
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 2
+        }
+        
+    ]
 }

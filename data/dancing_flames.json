@@ -1,46 +1,45 @@
 {
-  "id": 106241266,
-  "name": "Dancing flames",
-  "creators": [
-	"RaynoXx"
-  ],
-  "verifier": "RaynoXx",
-  "verification": "https://youtu.be/-N6ZrKpJYds?si=b1AxOmT0sVfLYCfQ",
-  "percentToQualify": 100,
-  "song": "Raya - Flames",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Zyxo",
-	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/HVEK7EpvvPg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "zWren",
-	  "link": "https://youtu.be/ejU9GDjMHuI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "10"
-	}
-  ]
+    "id": 106241266,
+    "name": "Dancing flames",
+    "author": "RaynoXx",
+    "creators": [],
+    "verifier": "RaynoXx",
+    "verification": "https://youtu.be/-N6ZrKpJYds?si=b1AxOmT0sVfLYCfQ",
+    "percentToQualify": 100,
+    "song": "Raya - Flames",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/HVEK7EpvvPg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/ejU9GDjMHuI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
+        }
+    ]
 }

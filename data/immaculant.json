@@ -1,38 +1,37 @@
 {
-  "id": 92569373,
-  "name": "Immaculant",
-  "creators": [
-	"Flare"
-  ],
-  "verifier": "Flare",
-  "verification": "https://www.youtube.com/watch?v=O6clYfKA14Y&ab_channel=KrispyChikeen",
-  "showcase": "https://www.youtube.com/watch?v=jU1CTwxP5yk&ab_channel=LayoutListShowcases",
-  "percentToQualify": 57,
-  "song": "VISXGE - IMMACULATE",
-  "songLink": "https://drive.google.com/file/d/1xsUF7ruduq2BCE0uucBXOfkDaT2f9Bed/view?usp=drive_link",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/nvpBNErL3l0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/6biPqCFRYT0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+    "id": 92569373,
+    "name": "Immaculant",
+    "author": "Flare",
+    "creators": [],
+    "verifier": "Flare",
+    "verification": "https://www.youtube.com/watch?v=O6clYfKA14Y&ab_channel=KrispyChikeen",
+    "showcase": "https://www.youtube.com/watch?v=jU1CTwxP5yk&ab_channel=LayoutListShowcases",
+    "percentToQualify": 57,
+    "song": "VISXGE - IMMACULATE",
+    "songLink": "https://drive.google.com/file/d/1xsUF7ruduq2BCE0uucBXOfkDaT2f9Bed/view?usp=drive_link",
+    "difficulty": 3,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/nvpBNErL3l0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/6biPqCFRYT0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

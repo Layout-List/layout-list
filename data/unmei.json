@@ -1,47 +1,47 @@
 {
-  "id": 94464610,
-  "name": "unmei",
-  "creators": [
-	"Mystikl",
-	"whitmp4"
-  ],
-  "verifier": "Mystikl",
-  "verification": "https://www.youtube.com/watch?v=tBIayrrpMkY",
-  "showcase": "https://youtu.be/rKfDdYT7jso",
-  "percentToQualify": 59,
-  "song": "Dom & Roland - Thunder",
-  "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1207440600862036029/1131108.mp3?ex=65dfa7b0&is=65cd32b0&hm=382b331a709436b79b4d658853798eb7b381f2cab006fcf4ca536e7e3f57e8d1&",
-  "difficulty": 7,
-  "records": [
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=OaV-gyxY5e4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/lZ8FoovDqUU",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://www.youtube.com/watch?v=NFpyRpAfNe0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Catchit27",
-	  "link": "https://youtu.be/mMPTWgt1TXk?si=zFKH0TZpZ4nVIVut",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+    "id": 94464610,
+    "name": "unmei",
+    "author": "whitmp4",
+    "creators": [
+        "Mystikl"
+    ],
+    "verifier": "Mystikl",
+    "verification": "https://www.youtube.com/watch?v=tBIayrrpMkY",
+    "showcase": "https://youtu.be/rKfDdYT7jso",
+    "percentToQualify": 59,
+    "song": "Dom & Roland - Thunder",
+    "songLink": "https://cdn.discordapp.com/attachments/921847147438166016/1207440600862036029/1131108.mp3?ex=65dfa7b0&is=65cd32b0&hm=382b331a709436b79b4d658853798eb7b381f2cab006fcf4ca536e7e3f57e8d1&",
+    "difficulty": 7,
+    "records": [
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=OaV-gyxY5e4",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/lZ8FoovDqUU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=NFpyRpAfNe0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Catchit27",
+            "link": "https://youtu.be/mMPTWgt1TXk?si=zFKH0TZpZ4nVIVut",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

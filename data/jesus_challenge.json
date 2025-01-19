@@ -1,54 +1,53 @@
 {
-  "id": 106129304,
-  "name": "Jesus Challenge",
-  "creators": [
-	"zDark"
-  ],
-  "verifier": "evil",
-  "verification": "https://youtu.be/gVqSg0h349o",
-  "percentToQualify": 100,
-  "song": "riiece - fanta$y L0v3",
-  "songLink": "https://www.mediafire.com/file/j26nsivg93zozlk/3473.mp3/file",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/rrFRE6uGU6I",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/TObolxtM22Q",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/1FPifER8SgA",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "zWren",
-	  "link": "https://youtu.be/AYSFcVy-x4c",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+    "id": 106129304,
+    "name": "Jesus Challenge",
+    "author": "zDark",
+    "creators": [],
+    "verifier": "evil",
+    "verification": "https://youtu.be/gVqSg0h349o",
+    "percentToQualify": 100,
+    "song": "riiece - fanta$y L0v3",
+    "songLink": "https://www.mediafire.com/file/j26nsivg93zozlk/3473.mp3/file",
+    "difficulty": 1,
+    "records": [
+        {
+          "user": "Mystikl",
+          "link": "https://youtu.be/rrFRE6uGU6I",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false,
+          "enjoyment": 7
+        },
+        {
+          "user": "zDark",
+          "link": "https://youtu.be/TObolxtM22Q",
+          "percent": 100,
+          "hz": 360,
+          "mobile": false
+        },
+        {
+          "user": "mrperson",
+          "link": "https://youtu.be/1FPifER8SgA",
+          "percent": 100,
+          "hz": 144,
+          "mobile": false,
+          "enjoyment": 3
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/AYSFcVy-x4c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

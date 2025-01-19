@@ -1,14 +1,15 @@
 {
-  "id": 106300615,
-  "name": "N 1 H 1 L",
-  "creators": [
-	"Len"
-  ],
-  "verifier": "The16FigureLimit",
-  "verification": "https://www.youtube.com/watch?v=789w_XR78JA",
-  "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
-  "percentToQualify": 100,
-  "song": "Demolition OST - Bez Slov",
-  "difficulty": 1,
-  "records": []
+    "id": 106300615,
+    "name": "N 1 H 1 L",
+    "author": "Len",
+    "creators": [],
+    "verifier": "The16FigureLimit",
+    "verification": "https://www.youtube.com/watch?v=789w_XR78JA",
+    "showcase": "IF NO SHOWCASE, DELETE THIS TAB",
+    "percentToQualify": 100,
+    "song": "Demolition OST - Bez Slov",
+    "difficulty": 1,
+    "records": [
+        
+    ]
 }

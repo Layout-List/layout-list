@@ -1,95 +1,94 @@
 {
-  "id": 92470023,
-  "name": "Aurora",
-  "creators": [
-	"Sal752"
-  ],
-  "verifier": "fae",
-  "verification": "https://youtu.be/gAb4xB7_jhc?si=a3S_2_J6peCB7R2P",
-  "percentToQualify": 100,
-  "song": "Creo - Aurora",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "OWNER",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/ELw_98e7QPw",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "agentgiscool",
-	  "link": "https://youtu.be/aGuy3GRF9eA",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "10"
-	},
-	{
-	  "user": "WellNot",
-	  "link": "https://youtu.be/4SP3TiiVjds?si=F0OAQczuNic2TW3q",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/YWG9CM1pKOs",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=BgU99JiiUNo",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Doggo136",
-	  "link": "https://www.youtube.com/watch?v=XI-HGfETx_U",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/EMu_MJ7PiYA?si=nXkh7dsGAMdc9ymc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/mbo0wcudoA4?si=d9_u5wnmYQ7TWDMt",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
-	  "percent": 100,
-	  "hz": 60,
-	  "enjoyment": 8,
-	  "mobile": true
-	}
-  ]
+	"id": 92470023,
+	"name": "Aurora",
+	"author": "Sal752",
+	"creators": [],
+	"verifier": "fae",
+	"verification": "https://youtu.be/gAb4xB7_jhc?si=a3S_2_J6peCB7R2P",
+	"percentToQualify": 100,
+	"song": "Creo - Aurora",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "zDark",
+			"link": "OWNER",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/ELw_98e7QPw",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "agentgiscool",
+			"link": "https://youtu.be/aGuy3GRF9eA",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": "10"
+		},
+		{
+			"user": "WellNot",
+			"link": "https://youtu.be/4SP3TiiVjds?si=F0OAQczuNic2TW3q",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/YWG9CM1pKOs",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=BgU99JiiUNo",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Doggo136",
+			"link": "https://www.youtube.com/watch?v=XI-HGfETx_U",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/EMu_MJ7PiYA?si=nXkh7dsGAMdc9ymc",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/mbo0wcudoA4?si=d9_u5wnmYQ7TWDMt",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		}
+	]
 }

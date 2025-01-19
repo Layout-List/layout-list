@@ -1,154 +1,153 @@
 {
-  "id": 69651217,
-  "name": "Distant Stars",
-  "creators": [
-	"DJJDK"
-  ],
-  "verifier": "Disastrum",
-  "verification": "https://youtu.be/Rujrsz6rrVg",
-  "showcase": "https://www.youtube.com/watch?v=UWvYm2mNC00&ab_channel=LayoutListShowcases",
-  "percentToQualify": 53,
-  "song": "Erik McClure - Europa",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "DJJDK",
-	  "link": "https://www.youtube.com/watch?v=3kH0JyIXE2k",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "rustic",
-	  "link": "https://youtu.be/v3BTm2RwHuk",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/NNXGTapDoOM",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://youtu.be/mUgOyJJwe7U",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://youtu.be/m0o5EBiMzL0E",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://www.youtube.com/watch?v=aaXyWebZc1A",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/uVxSPDWwZRI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/fCC8bePqazc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "AJax",
-	  "link": "https://youtu.be/fSWWh4fYA1A",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=5MgqnFRsnII",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://youtu.be/3OpFkQPgYXo",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Zyxo",
-	  "link": "https://youtu.be/c0DbcbUlwVc?si=ypbZ4Mk3pAqetl5m",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/EDB9cQSyg_I",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/JvpJvccRmrI",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "8"
-	},
-	{
-	  "user": "TurtleER",
-	  "link": "https://www.youtube.com/watch?v=h0ntZi_z5fE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/gXkpsOliuMo",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://youtu.be/T7CUKn8fz2k?si=yNg2TxwE6ZxtQUJZ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/zXvAapIEt-A",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	}
-  ]
+    "id": 69651217,
+    "name": "Distant Stars",
+    "author": "DJJDK",
+    "creators": [],
+    "verifier": "Disastrum",
+    "verification": "https://youtu.be/Rujrsz6rrVg",
+    "showcase": "https://www.youtube.com/watch?v=UWvYm2mNC00&ab_channel=LayoutListShowcases",
+    "percentToQualify": 53,
+    "song": "Erik McClure - Europa",
+    "difficulty": 4,
+    "records": [
+        {
+            "user": "DJJDK",
+            "link": "https://www.youtube.com/watch?v=3kH0JyIXE2k",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "rustic",
+            "link": "https://youtu.be/v3BTm2RwHuk",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Armani",
+            "link": "https://youtu.be/NNXGTapDoOM",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://youtu.be/mUgOyJJwe7U",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://youtu.be/m0o5EBiMzL0E",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "mrperson",
+            "link": "https://www.youtube.com/watch?v=aaXyWebZc1A",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/uVxSPDWwZRI",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/fCC8bePqazc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "AJax",
+            "link": "https://youtu.be/fSWWh4fYA1A",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=5MgqnFRsnII",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/3OpFkQPgYXo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+         {
+            "user": "Zyxo",
+            "link": "https://youtu.be/c0DbcbUlwVc?si=ypbZ4Mk3pAqetl5m",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/EDB9cQSyg_I",
+            "percent": 100,
+            "hz": 120,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://youtu.be/JvpJvccRmrI",
+            "percent": 100,
+            "hz": 75,
+            "mobile": false,
+            "enjoyment": "8"
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://www.youtube.com/watch?v=h0ntZi_z5fE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/gXkpsOliuMo",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "NiXaNTy",
+            "link": "https://youtu.be/T7CUKn8fz2k?si=yNg2TxwE6ZxtQUJZ",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/zXvAapIEt-A",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        }
+    ]
 }

@@ -1,175 +1,174 @@
 {
-  "id": 101574620,
-  "name": "pretty much a level ⭐",
-  "creators": [
-	"FCMasloPL"
-  ],
-  "verifier": "FCMasloPL",
-  "verification": "https://youtu.be/rlvIy9zLstA",
-  "percentToQualify": 100,
-  "song": "ColBreakz - Gold Ring",
-  "difficulty": 0,
-  "records": [
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=82OLTGypcfo",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Asteria.",
-	  "link": "https://youtu.be/-GBhYVz59Fk",
-	  "percent": 100,
-	  "hz": 280,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=wXbeQ0WaeJU",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://www.youtube.com/watch?v=DQy6resmWvg",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/Kt4fjF-TLms?si=BHt0upBTTpp2AEVc",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "MurycynGd",
-	  "link": "https://www.youtube.com/watch?v=_i3KC6oGUpw",
-	  "percent": 100,
-	  "hz": 165,
-	  "mobile": false
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/zdxf204b4o8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/xrMYXOGApMU",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "7"
-	},
-	{
-	  "user": "Raezori",
-	  "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "TheCatAstronaut",
-	  "link": "https://youtu.be/0rlMWJUIXCM",
-	  "percent": 100,
-	  "hz": 170,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "GrumpBoat",
-	  "link": "https://youtu.be/4ZeA-XRTU-Y",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=DDhCOnRI7UQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "agentgiscool",
-	  "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/8xA9MhVIFAg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Sloudy",
-	  "link": " https://youtu.be/Aayv63WyH8s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "DERYAMIX",
-	  "link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "josikp",
-	  "link": "https://www.youtube.com/watch?v=rj4JUKGbeFA&ab_channel=pom",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "xXfinngdXx",
-	  "link": "https://youtu.be/fX9HyPWtUjI",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 10
-	}
-  ]
+	"id": 101574620,
+	"name": "pretty much a level ⭐",
+	"author": "FCMasloPL",
+	"creators": [],
+	"verifier": "FCMasloPL",
+	"verification": "https://youtu.be/rlvIy9zLstA",
+	"percentToQualify": 100,
+	"song": "ColBreakz - Gold Ring",
+	"difficulty": 0,
+	"records": [
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=82OLTGypcfo",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Asteria.",
+			"link": "https://youtu.be/-GBhYVz59Fk",
+			"percent": 100,
+			"hz": 280,
+			"mobile": false
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=wXbeQ0WaeJU",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://www.youtube.com/watch?v=DQy6resmWvg",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/Kt4fjF-TLms?si=BHt0upBTTpp2AEVc",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "MurycynGd",
+			"link": "https://www.youtube.com/watch?v=_i3KC6oGUpw",
+			"percent": 100,
+			"hz": 165,
+			"mobile": false
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/zdxf204b4o8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/xrMYXOGApMU",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": "7"
+		},
+		{
+			"user": "Raezori",
+			"link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "TheCatAstronaut",
+			"link": "https://youtu.be/0rlMWJUIXCM",
+			"percent": 100,
+			"hz": 170,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "GrumpBoat",
+			"link": "https://youtu.be/4ZeA-XRTU-Y",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=DDhCOnRI7UQ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "agentgiscool",
+			"link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/8xA9MhVIFAg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "Sloudy",
+			"link": " https://youtu.be/Aayv63WyH8s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "DERYAMIX",
+			"link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 4
+		},
+		{
+			"user": "josikp",
+			"link": "https://www.youtube.com/watch?v=rj4JUKGbeFA&ab_channel=pom",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "xXfinngdXx",
+			"link": "https://youtu.be/fX9HyPWtUjI",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }

@@ -1,50 +1,50 @@
 {
-  "id": 100847347,
-  "name": "Achelous",
-  "creators": [
-	"Tanginess",
-	"Iza",
-	"Huskie",
-	"The16FigureLimit",
-	"Riley"
-  ],
-  "verifier": "Acacia",
-  "verification": "https://www.youtube.com/watch?v=vEfSh4vL628",
-  "percentToQualify": 51,
-  "song": "DOOM - BFG Division",
-  "songLink": "https://www.mediafire.com/file/vybiig8a3e7hc68/14893.mp3/file",
-  "difficulty": 10,
-  "records": [
-	{
-	  "user": "Hydraniac",
-	  "link": "https://medal.tv/games/geometry-dash/clips/1XJAxSbsCyUYGf/yZCleftPqjiM?invite=cr-MSxEaW4sMTg1OTcxMTAwLA?mobilebypass=true",
-	  "percent": 80,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 0
-	},
-	{
-	  "user": "Robotic",
-	  "link": "https://www.youtube.com/watch?v=OVpM4R_zGfk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=7bj8o7NYoEE",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=8cbRPyXN3bg",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 100847347,
+	"name": "Achelous",
+	"author": "Riley",
+	"creators": [
+		"Tanginess",
+		"Iza",
+		"Huskie",
+		"The16FigureLimit"
+	],
+	"verifier": "Acacia",
+	"verification": "https://www.youtube.com/watch?v=vEfSh4vL628",
+	"percentToQualify": 51,
+	"song": "DOOM - BFG Division",
+	"songLink": "https://www.mediafire.com/file/vybiig8a3e7hc68/14893.mp3/file",
+	"difficulty": 10,
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/1XJAxSbsCyUYGf/yZCleftPqjiM?invite=cr-MSxEaW4sMTg1OTcxMTAwLA?mobilebypass=true",
+			"percent": 80,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
+		},
+		{
+			"user": "Robotic",
+			"link": "https://www.youtube.com/watch?v=OVpM4R_zGfk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=7bj8o7NYoEE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=8cbRPyXN3bg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		}
+	]
 }

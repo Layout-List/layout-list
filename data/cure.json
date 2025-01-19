@@ -1,62 +1,61 @@
 {
-  "id": 88095390,
-  "name": "CURE",
-  "creators": [
-	"lightning78"
-  ],
-  "verifier": "lightning78",
-  "verification": "https://www.youtube.com/watch?v=ezO-ItmP5tg",
-  "percentToQualify": 60,
-  "song": "AURORA - Cure For Me",
-  "songLink": "https://drive.google.com/file/d/1hTz5z_EDbZEh9FETUe7WqWHlAwLx_bkU/view?usp=drive_link",
-  "difficulty": 6,
-  "records": [
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=6Xd2QNbgeDQ&ab_channel=Tup1%5BGD%5D",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "8"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/yC_X_JbKh7w",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://www.youtube.com/watch?v=88hjKR-69xE",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "miniwombat2",
-	  "link": "https://www.youtube.com/watch?v=x0DBxeo0Rds",
-	  "percent": 64,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://www.youtube.com/watch?v=2lo_EEjGEOE",
-	  "percent": 100,
-	  "hz": 360,
-	  "enjoyment": 10
-	}
-  ]
+	"id": 88095390,
+	"name": "CURE",
+	"author": "lightning78",
+	"creators": [],
+	"verifier": "lightning78",
+	"verification": "https://www.youtube.com/watch?v=ezO-ItmP5tg",
+	"percentToQualify": 60,
+	"song": "AURORA - Cure For Me",
+	"songLink": "https://drive.google.com/file/d/1hTz5z_EDbZEh9FETUe7WqWHlAwLx_bkU/view?usp=drive_link",
+	"difficulty": 6,
+	"records": [
+		{
+			"user": "Tupi",
+			"link": "https://www.youtube.com/watch?v=6Xd2QNbgeDQ&ab_channel=Tup1%5BGD%5D",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "8"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/yC_X_JbKh7w",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Riley",
+			"link": "https://www.youtube.com/watch?v=88hjKR-69xE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "miniwombat2",
+			"link": "https://www.youtube.com/watch?v=x0DBxeo0Rds",
+			"percent": 64,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=2lo_EEjGEOE",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
+		}
+	]
 }

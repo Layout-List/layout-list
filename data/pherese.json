@@ -1,55 +1,55 @@
 {
-  "id": 103146558,
-  "name": "Pherese",
-  "creators": [
-	"Hydraniac"
-  ],
-  "verifier": "Hydraniac",
-  "verification": "https://youtu.be/31cqL9lQhJk?si=fHYzdeNxg4-kLPg4",
-  "percentToQualify": 49,
-  "song": "zami - sunray",
-  "difficulty": 4,
-  "enjoyment": 8,
-  "records": [
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/3eOTQUWuQzg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "7"
-	},
-	{
-	  "user": "caterpillar",
-	  "link": "https://youtu.be/3wWAJRj0q8E?feature=shared",
-	  "percent": 49,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "7"
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/XMd_ZY-92Jg?si=SG9eO-k0DLJKI_nI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "XxSirgaxX",
-	  "link": "https://www.youtube.com/watch?v=L3LmBm9mbGE&feature=youtu.be",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false,
-	  "enjoyment": 6
-	}
-  ]
+    "id": 103146558,
+    "name": "Pherese",
+    "author": "Hydraniac",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/31cqL9lQhJk?si=fHYzdeNxg4-kLPg4",
+    "percentToQualify": 49,
+    "song": "zami - sunray",
+    "difficulty": 4,
+    "enjoyment": 8,
+    "records": [
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/3eOTQUWuQzg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "caterpillar",
+            "link": "https://youtu.be/3wWAJRj0q8E?feature=shared",
+            "percent": 49,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "7"
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=o3s5OgIsCbU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/XMd_ZY-92Jg?si=SG9eO-k0DLJKI_nI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment" : 9
+        },
+        {
+            "user": "XxSirgaxX",
+            "link": "https://www.youtube.com/watch?v=L3LmBm9mbGE&feature=youtu.be",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 6
+        }
+        
+    ]
 }

@@ -1,13 +1,14 @@
 {
-  "id": 107494655,
-  "name": "Pineapple Pizza",
-  "creators": [
-	"zWren"
-  ],
-  "verifier": "zWren",
-  "verification": "https://www.youtube.com/watch?v=alWwgUqwcDg",
-  "percentToQualify": 100,
-  "song": "cycerin - Vain Star",
-  "difficulty": 1,
-  "records": []
+    "id": 107494655,
+    "name": "Pineapple Pizza",
+    "author": "zWren",
+    "creators": [],
+    "verifier": "zWren",
+    "verification": "https://www.youtube.com/watch?v=alWwgUqwcDg",
+    "percentToQualify": 100,
+    "song": "cycerin - Vain Star",
+    "difficulty": 1,
+    "records": [
+        
+    ]
 }

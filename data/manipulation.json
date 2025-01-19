@@ -1,107 +1,106 @@
 {
-  "id": 80678375,
-  "name": "Manipulation",
-  "creators": [
-	"Bluestone"
-  ],
-  "verifier": "Pandaa",
-  "verification": "https://youtu.be/PgrtMkuIxkk",
-  "showcase": "https://youtu.be/ZtRZ0b9bP3s",
-  "percentToQualify": 49,
-  "song": "Waterflame - -conclusion-",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "CaioMD",
-	  "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://www.youtube.com/watch?v=TgQVY5ShjQA",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/kCy9ghRQ8v0",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/-tiQ6EW3FFc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://www.youtube.com/watch?v=vkKd_4lsQMw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/BYEynLvl-TY",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "FluffyCatNeo",
-	  "link": "https://www.youtube.com/watch?v=F5k_ujUrMHg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Skip",
-	  "link": "https://youtu.be/XsQFIzfrMxA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/c0hI5vh8BSY",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	}
-  ]
+    "id": 80678375,
+    "name": "Manipulation",
+    "author": "Bluestone",
+    "creators": [],
+    "verifier": "Pandaa",
+    "verification": "https://youtu.be/PgrtMkuIxkk",
+    "showcase": "https://youtu.be/ZtRZ0b9bP3s",
+    "percentToQualify": 49,
+    "song": "Waterflame - -conclusion-",
+    "difficulty": 5,
+    "records": [
+        {
+            "user": "CaioMD",
+            "link": "https://www.youtube.com/watch?v=QwYL46a0y8M&ab_channel=CaioMD",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Dom_Luca",
+            "link": "https://www.youtube.com/watch?v=TgQVY5ShjQA",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "mrperson",
+            "link": "https://youtu.be/kCy9ghRQ8v0",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/-tiQ6EW3FFc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Fusion425",
+            "link": "https://www.youtube.com/watch?v=vkKd_4lsQMw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/BYEynLvl-TY",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "FluffyCatNeo",
+            "link": "https://www.youtube.com/watch?v=F5k_ujUrMHg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Acacia",
+            "link": "https://www.youtube.com/watch?v=1JPdRX-dQ0A",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://youtu.be/XsQFIzfrMxA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/c0hI5vh8BSY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "riley",
+            "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

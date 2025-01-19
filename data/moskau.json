@@ -1,47 +1,46 @@
 {
-  "id": 60841763,
-  "name": "Moskau Layout",
-  "creators": [
-	"Rozz"
-  ],
-  "verifier": "Rozz",
-  "verification": "https://youtu.be/naN_CCT4DOs?feature=shared",
-  "percentToQualify": 100,
-  "song": "Dschinghis Khan - Moskau",
-  "songLink": "https://drive.google.com/file/d/1yzNlSfNZeOmHOnWsi8j3MKIUhbn-0isx/view?usp=drive_link",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 0
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/8MD5gAygEhs?si=H3EQIITriZ24XfXP",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 0
-	}
-  ]
+    "id": 60841763,
+    "name": "Moskau Layout",
+    "author": "Rozz",
+    "creators": [],
+    "verifier": "Rozz",
+    "verification": "https://youtu.be/naN_CCT4DOs?feature=shared",
+    "percentToQualify": 100,
+    "song": "Dschinghis Khan - Moskau",
+    "songLink": "https://drive.google.com/file/d/1yzNlSfNZeOmHOnWsi8j3MKIUhbn-0isx/view?usp=drive_link",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/YVDC1FVaA0g?si=Hl9VGSLWPsOwzlsm",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/dJ0foW_n3cU",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 0
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/8MD5gAygEhs?si=H3EQIITriZ24XfXP",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 0
+        }
+    ]
 }

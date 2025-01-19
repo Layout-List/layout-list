@@ -1,159 +1,158 @@
 {
-  "id": 91411058,
-  "name": "Entering the deep",
-  "creators": [
-	"RaynoXx"
-  ],
-  "verifier": "RaynoXx",
-  "verification": "https://youtu.be/3ClF0e9DunY?si=KoDL3iDHwkoyxyXI",
-  "percentToQualify": 100,
-  "song": "TheGuitahHeroe - Pokemon - Temporal Tower Remix",
-  "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1247693113615454229",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/VyunbLW3dz8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "TurtleER",
-	  "link": "https://youtu.be/JE8XzIV40vU",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/Ws2GyzYkVac",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "rastuyas",
-	  "link": "https://youtu.be/H8bvfhhWkdc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "rSnoozy",
-	  "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/WEca57n2Ol0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Jolly",
-	  "link": "https://medal.tv/games/geometry-dash/clips/i16k5o8bgb9G92HO2/d1337oHRVnl0?invite=cr-MSx1Z0YsMjA5NjA3MDcyLA",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "mr123j",
-	  "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "rainityyy",
-	  "link": "https://youtube.com/shorts/1F5w2lQyVvA?si=HZl0qqS-VHmViKMq",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Zyxo",
-	  "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "zWren",
-	  "link": "https://youtu.be/ejU9GDjMHuI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "10"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://www.youtube.com/watch?v=0fw9DHjoddI",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "VGdarkz",
-	  "link": "https://youtu.be/htv_gLIVz2c",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Bluelightning379",
-	  "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+    "id": 91411058,
+    "name": "Entering the deep",
+    "author": "RaynoXx",
+    "creators": [],
+    "verifier": "RaynoXx",
+    "verification": "https://youtu.be/3ClF0e9DunY?si=KoDL3iDHwkoyxyXI",
+    "percentToQualify": 100,
+    "song": "TheGuitahHeroe - Pokemon - Temporal Tower Remix",
+    "songLink": "https://discord.com/channels/855211848362098699/921847147438166016/1247693113615454229",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "evil",
+            "link": "https://youtu.be/VyunbLW3dz8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "TurtleER",
+            "link": "https://youtu.be/JE8XzIV40vU",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/Ws2GyzYkVac",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 5
+        },
+        {
+            "user": "rastuyas",
+            "link": "https://youtu.be/H8bvfhhWkdc",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "rSnoozy",
+            "link": "https://youtu.be/_RvyG_1US3g?si=3uxQHp1v1v3pmOhB",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Tupi",
+            "link": "https://www.youtube.com/watch?v=viDQ-s77PUM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/WEca57n2Ol0",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://www.youtube.com/watch?v=6QzEFttIPqw&ab_channel=Hydraniac",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Jolly",
+            "link": "https://medal.tv/games/geometry-dash/clips/i16k5o8bgb9G92HO2/d1337oHRVnl0?invite=cr-MSx1Z0YsMjA5NjA3MDcyLA",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "mr123j",
+            "link": "https://www.youtube.com/watch?v=szaFbN4dX2E&ab_channel=mr123j",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "rainityyy",
+            "link": "https://youtube.com/shorts/1F5w2lQyVvA?si=HZl0qqS-VHmViKMq",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=4KtdCzRzv5U",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Zyxo",
+            "link": "https://www.youtube.com/watch?v=6jQRtj3Brl0",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "zWren",
+            "link": "https://youtu.be/ejU9GDjMHuI",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "10"
+        },
+        {
+          "user": "Hyperbeat",
+          "link": "https://www.youtube.com/watch?v=353dln9stV4",
+          "percent": 100,
+          "hz": 60,
+          "mobile": true,
+          "enjoyment": 6
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=0fw9DHjoddI",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "VGdarkz",
+            "link": "https://youtu.be/htv_gLIVz2c",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Bluelightning379",
+            "link": "https://www.youtube.com/watch?v=nPAUavZN1SQ&t=6s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        }
+    ]
 }

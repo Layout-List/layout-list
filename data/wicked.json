@@ -1,176 +1,175 @@
 {
-  "id": 73841916,
-  "name": "Wicked Layout",
-  "creators": [
-	"iIDariusIi"
-  ],
-  "verifier": "Tupi",
-  "verification": "https://www.youtube.com/watch?v=kVFlvS6cN-M",
-  "percentToQualify": 100,
-  "password": "159753",
-  "song": "Circus Contraption - Wicked Fascinations (DirtyPaws Remix)",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Zyxo",
-	  "link": "https://youtu.be/saM1_tTKgX0?si=EBsMmLRf7ODdBWZL",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/4uQRGyrpQXk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=EYx8XrhKR2Q",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "Otari",
-	  "link": "https://www.youtube.com/watch?v=U2qry4FqfC4&pp=ygUTd2lja2VkIGxheW91dCBieSBJSQ%3D%3D",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/lWU4yqMnA5g?si=GiRVzHS1yP9ZddfF",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/LkCQOVGqTkw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zakonp",
-	  "link": "https://youtu.be/KRL1Uq0jr2g",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/U2C_mzowC7M",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Skip",
-	  "link": "https://www.youtube.com/watch?v=OYEyXSU8OSE",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=ZsJ3uogXPOQ",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=_f3oIJ9k3FU",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://www.youtube.com/watch?v=vjund4DVAyU",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/ysANHYj56qs",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/_4YFRxJbNfs?si=MJj86usAYLugrJ-a",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Aquatic",
-	  "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
-	  "percent": 144,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "?"
-	}
-  ]
+    "id": 73841916,
+    "name": "Wicked Layout",
+    "author": "iIDariusIi",
+    "creators": [],
+    "verifier": "Tupi",
+    "verification": "https://www.youtube.com/watch?v=kVFlvS6cN-M",
+    "percentToQualify": 100,
+    "password": "159753",
+    "song": "Circus Contraption - Wicked Fascinations (DirtyPaws Remix)",
+    "difficulty": 1,
+    "records": [
+        {
+            "user": "Zyxo",
+            "link": "https://youtu.be/saM1_tTKgX0?si=EBsMmLRf7ODdBWZL",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "evil",
+            "link": "https://youtu.be/4uQRGyrpQXk",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Xeronius",
+            "link": "https://www.youtube.com/watch?v=EYx8XrhKR2Q",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Otari",
+            "link": "https://www.youtube.com/watch?v=U2qry4FqfC4&pp=ygUTd2lja2VkIGxheW91dCBieSBJSQ%3D%3D",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/lWU4yqMnA5g?si=GiRVzHS1yP9ZddfF",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/LkCQOVGqTkw",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "zakonp",
+            "link": "https://youtu.be/KRL1Uq0jr2g",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/c0BAUrAwZ2M?si=mzE0YqDi6Xuj6j-H",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "nolli",
+            "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/U2C_mzowC7M",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false
+        },
+        {
+            "user": "Skip",
+            "link": "https://www.youtube.com/watch?v=OYEyXSU8OSE",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "DeleteNine",
+            "link": "https://www.youtube.com/watch?v=ZsJ3uogXPOQ",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "Popples",
+            "link": "https://www.youtube.com/watch?v=_f3oIJ9k3FU",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "ThisGuyKreas",
+            "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "LimeDub",
+            "link": "https://www.youtube.com/watch?v=vjund4DVAyU",
+            "percent": 100,
+            "hz": 288,
+            "mobile": false
+        },
+        {
+            "user": "Paladean",
+            "link": "https://www.youtube.com/watch?v=8go7Up5mT4Q",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false
+        },
+        {
+            "user": "Riley",
+            "link": "https://youtu.be/ysANHYj56qs",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        },
+        {
+            "user": "Alvaneder",
+            "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+            "percent": 100,
+            "hz": 144,
+            "mobile": false
+        },
+        {
+            "user": "RaynoXx",
+            "link": "https://youtu.be/_4YFRxJbNfs?si=MJj86usAYLugrJ-a",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BOfM-DfzZkI?si=AAtMmiAQ9kzMqBvg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Aquatic",
+            "link": "https://www.youtube.com/watch?v=hzCuXvEMVyI",
+            "percent": 144,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "?"
+        }
+    ]
 }

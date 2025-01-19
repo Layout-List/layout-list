@@ -1,87 +1,86 @@
 {
-  "id": 101079614,
-  "name": "clock disaster",
-  "creators": [
-	"Asteria."
-  ],
-  "verifier": "evil",
-  "verification": "https://www.youtube.com/watch?v=JH3RlFXIH_w",
-  "percentToQualify": 59,
-  "song": "Llaappssee - This Song Means Nothing",
-  "difficulty": 6,
-  "enjoyment": 10,
-  "records": [
-	{
-	  "user": "Riley",
-	  "link": "https://www.youtube.com/watch?v=ehzqgUp8A08",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/AfxIzAlS_6I",
-	  "percent": 65,
-	  "hz": 288,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Skip",
-	  "link": "https://youtu.be/p30tj7H1r1s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/NCwOxjmpxSQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://www.youtube.com/watch?v=AMSe4X2uULk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://medal.tv/games/geometry-dash/clips/irOvFJy18MgnnYDAR/d1337nKliWxY?invite=cr-MSx1OXUsMTg1OTcxMTAwLA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=pxPjcdX4h58",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/O3xPwv2yGZU",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=RaA8m5OODDY",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	}
-  ]
+    "id": 101079614,
+    "name": "clock disaster",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "evil",
+    "verification": "https://www.youtube.com/watch?v=JH3RlFXIH_w",
+    "percentToQualify": 59,
+    "song": "Llaappssee - This Song Means Nothing",
+    "difficulty": 6,
+    "enjoyment": 10,
+    "records": [
+         {
+            "user": "Riley",
+            "link": "https://www.youtube.com/watch?v=ehzqgUp8A08",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 2
+        },
+         {
+            "user": "LimeDub",
+            "link": "https://youtu.be/AfxIzAlS_6I",
+            "percent": 65,
+            "hz": 288,
+            "mobile": false,
+            "enjoyment": "?"
+        },
+         {
+            "user": "Skip",
+            "link": "https://youtu.be/p30tj7H1r1s",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Syrcx",
+            "link": "https://youtu.be/NCwOxjmpxSQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://www.youtube.com/watch?v=AMSe4X2uULk",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/irOvFJy18MgnnYDAR/d1337nKliWxY?invite=cr-MSx1OXUsMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "attrixia",
+            "link": "https://www.youtube.com/watch?v=pxPjcdX4h58",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/O3xPwv2yGZU",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=RaA8m5OODDY",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        }
+    ]
 }

@@ -1,95 +1,94 @@
 {
-  "id": 82946814,
-  "name": "MURDER IN MY MIND",
-  "creators": [
-	"Potate"
-  ],
-  "verifier": "SirFiftyFive",
-  "verification": "https://youtu.be/4ZrVaUGgkEA",
-  "showcase": "https://www.youtube.com/watch?v=9S1V3OUQLqw&ab_channel=LayoutListShowcases",
-  "percentToQualify": 67,
-  "song": "KORDHELL - Murder In My Mind",
-  "songLink": "https://drive.google.com/file/d/1l-x4SB6F0B66_8CyPZP-S-hC-pY5yEzk/view?usp=drive_link",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "Emeralff",
-	  "link": "https://youtu.be/ZIuQUImTiKo",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/ZhqD2ETewKE",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "TurtlesdoHurdles",
-	  "link": "https://youtu.be/1vVWf4qaiq4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Matthlew",
-	  "link": "https://youtu.be/DlQPzpQcaFI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/E5QSp3Zfrmw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/XTPOuRXLySw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Fawami",
-	  "link": "https://youtu.be/obKOlbrcvz8",
-	  "percent": 100,
-	  "hz": 165,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/PcfRMyfpH8c",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Bibox",
-	  "link": "https://youtu.be/iBY_SWVERDw",
-	  "percent": 100,
-	  "hz": "360",
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/EMu_MJ7PiYA?si=nXkh7dsGAMdc9ymc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/Jq-sPNaI4ts",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 0
-	}
-  ]
+	"id": 82946814,
+	"name": "MURDER IN MY MIND",
+	"author": "Potate",
+	"creators": [],
+	"verifier": "SirFiftyFive",
+	"verification": "https://youtu.be/4ZrVaUGgkEA",
+	"showcase": "https://www.youtube.com/watch?v=9S1V3OUQLqw&ab_channel=LayoutListShowcases",
+	"percentToQualify": 67,
+	"song": "KORDHELL - Murder In My Mind",
+	"songLink": "https://drive.google.com/file/d/1l-x4SB6F0B66_8CyPZP-S-hC-pY5yEzk/view?usp=drive_link",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "Emeralff",
+			"link": "https://youtu.be/ZIuQUImTiKo",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/ZhqD2ETewKE",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "TurtlesdoHurdles",
+			"link": "https://youtu.be/1vVWf4qaiq4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Matthlew",
+			"link": "https://youtu.be/DlQPzpQcaFI",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/E5QSp3Zfrmw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/XTPOuRXLySw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Fawami",
+			"link": "https://youtu.be/obKOlbrcvz8",
+			"percent": 100,
+			"hz": 165,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/PcfRMyfpH8c",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Bibox",
+			"link": "https://youtu.be/iBY_SWVERDw",
+			"percent": 100,
+			"hz": "360",
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/EMu_MJ7PiYA?si=nXkh7dsGAMdc9ymc",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/Jq-sPNaI4ts",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 0
+		}
+	]
 }

@@ -1,56 +1,55 @@
 {
-  "id": 105526522,
-  "name": "understand",
-  "creators": [
-	"Hydraniac"
-  ],
-  "verifier": "Hydraniac",
-  "verification": "https://youtu.be/ceqore3Wc24?si=eGbwZKhFxbFhrSUO",
-  "percentToQualify": 59,
-  "song": "twikipedia - understand",
-  "songLink": "https://www.mediafire.com/file/qigccfuy25ea200/45675.mp3/file",
-  "difficulty": 4,
-  "enjoyment": 6,
-  "records": [
-	{
-	  "user": "Blueberry",
-	  "link": "https://www.youtube.com/watch?v=3U9KlPKDhfg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Interive",
-	  "link": "https://youtu.be/gnjNsALNIQE?si=tgUacgGWO2MKMP5u",
-	  "percent": 70,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Vink",
-	  "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/orbhhQSn2Qo",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+    "id": 105526522,
+    "name": "understand",
+    "author": "Hydraniac",
+    "creators": [],
+    "verifier": "Hydraniac",
+    "verification": "https://youtu.be/ceqore3Wc24?si=eGbwZKhFxbFhrSUO",
+    "percentToQualify": 59,
+    "song": "twikipedia - understand",
+    "songLink": "https://www.mediafire.com/file/qigccfuy25ea200/45675.mp3/file",
+    "difficulty": 4,
+    "enjoyment": 6,
+    "records": [
+        {
+            "user": "Blueberry",
+            "link": "https://www.youtube.com/watch?v=3U9KlPKDhfg",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": "9"
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Interive",
+            "link": "https://youtu.be/gnjNsALNIQE?si=tgUacgGWO2MKMP5u",
+            "percent": 70,
+            "hz": 144,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/0btZwZPWGmA?si=n6NR84yHRV__nmzJ",
+            "percent": 100,
+            "hz": 120,
+            "mobile": false,
+            "enjoyment": 6
+        },
+        {
+            "user": "Mystikl",
+            "link": "https://youtu.be/orbhhQSn2Qo",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
+        }
+    ]
 }

@@ -1,86 +1,87 @@
+
 {
-  "id": 109450800,
-  "name": "atosucksatbuilding",
-  "creators": [
-	"Asteria."
-  ],
-  "verifier": "Asteria.",
-  "verification": "https://youtu.be/bT-dvVDyRBw",
-  "percentToQualify": 100,
-  "song": "ParagonX9 - Infiltration",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "sn0w",
-	  "link": "https://youtu.be/KhST8i2DoRw?si=aD6BDWyKOwu7M9zx",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/S2gdComXKPE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://youtu.be/Z28avHvuZ1k",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/tqxtgnrbWgg",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/OmbmtoXC86g",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 1
-	},
-	{
-	  "user": "monthmai",
-	  "link": "https://youtu.be/zQG0Lrl1QDQ?si=jzpk09ZT8kILSkWm",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://medal.tv/games/geometry-dash/clips/iTHeaNddJxnPMkrz2?invite=cr-MSxBZnosMTg1OTcxMTAwLA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	}
-  ]
+    "id": 109450800,
+    "name": "atosucksatbuilding",
+    "author": "Asteria.",
+    "creators": [],
+    "verifier": "Asteria.",
+    "verification": "https://youtu.be/bT-dvVDyRBw",
+    "percentToQualify": 100,
+    "song": "ParagonX9 - Infiltration",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "sn0w",
+            "link": "https://youtu.be/KhST8i2DoRw?si=aD6BDWyKOwu7M9zx",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/Zd1wClt0rQU?si=NWu7KSxtMQ15QqaC",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 9
+        },
+        {
+            "user": "zDark",
+            "link": "https://youtu.be/S2gdComXKPE",
+            "percent": 100,
+            "hz": 360,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Acacia",
+            "link": "https://youtu.be/Z28avHvuZ1k",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/tqxtgnrbWgg",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 4
+        },
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 7
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/OmbmtoXC86g",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 1
+        },
+        {
+            "user": "monthmai",
+            "link": "https://youtu.be/zQG0Lrl1QDQ?si=jzpk09ZT8kILSkWm",
+            "percent": 100,
+            "hz": 300,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Hydraniac",
+            "link": "https://medal.tv/games/geometry-dash/clips/iTHeaNddJxnPMkrz2?invite=cr-MSxBZnosMTg1OTcxMTAwLA",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 6
+        }
+        
+    ]
 }

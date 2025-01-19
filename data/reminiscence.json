@@ -1,46 +1,46 @@
 {
-  "id": 110110879,
-  "name": "Reminiscence",
-  "creators": [
-	"Popples"
-  ],
-  "verifier": "Popples",
-  "verification": "https://youtu.be/CqO87zKGyk4",
-  "percentToQualify": 100,
-  "song": "Super Melon-Creations: Portable Happiness",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/9gA3_J0y6OI?si=dPYnnfPVDBrT4d2B",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "sn0w",
-	  "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+    "id": 110110879,
+    "name": "Reminiscence",
+    "author": "Popples",
+    "creators": [],
+    "verifier": "Popples",
+    "verification": "https://youtu.be/CqO87zKGyk4",
+    "percentToQualify": 100,
+    "song": "Super Melon-Creations: Portable Happiness",
+    "difficulty": 2,
+    "records": [
+        {
+            "user": "Hyperbeat",
+            "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 8
+        },
+        {
+            "user": "Poke Zach",
+            "link": "https://youtu.be/9gA3_J0y6OI?si=dPYnnfPVDBrT4d2B",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "enjoyment": 8
+        },
+        {
+            "user": "sn0w",
+            "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false,
+            "enjoyment": 9
+        },
+        {
+            "user": "Blysteryx",
+            "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+            "percent": 100,
+            "hz": 60,
+            "mobile": false,
+            "enjoyment": 4
+        }
+        
+    ]
 }
