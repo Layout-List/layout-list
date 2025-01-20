@@ -29,7 +29,7 @@ export default {
                     </p>
                 </div>
                 <div class="board-container">
-                    <div class="search-container">
+                    <div class="search-container" v-if="!nationSearch">
                         <input
                             type="text"
                             class="search"
@@ -38,6 +38,18 @@ export default {
                             v-model="searchQuery"
                         />
                         <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
+                        <button @click="nationSearch = true" class="nation-search-btn">Search by nation</button>
+                    </div>
+                    <div class="search-container" v-else>
+                        <input
+                            type="text"
+                            class="search"
+                            id="nation-search-bar"
+                            placeholder="Search..."
+                            v-model="nationQuery"
+                        />
+                        <button v-if="nationQuery" @click="nationQuery = ''" class="clear-search x-lb">x</button>
+                        <button @click="nationSearch = false" class="nation-search-btn">Search by user</button>
                     </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
