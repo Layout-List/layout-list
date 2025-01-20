@@ -29,13 +29,16 @@ export default {
                     </p>
                 </div>
                 <div class="board-container">
-                    <input
-                        type="text"
-                        class="search" 
-                        id="search-bar"
-                        placeholder="Search..."
-                        v-model="searchQuery"
-                    />
+                    <div class="search-container">
+                        <input
+                            type="text"
+                            class="search"
+                            id="search-bar"
+                            placeholder="Search..."
+                            v-model="searchQuery"
+                        />
+                        <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
+                    </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">

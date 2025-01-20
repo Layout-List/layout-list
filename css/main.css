@@ -124,11 +124,33 @@ input[type="checkbox"] {
     margin-left: 1rem;
     background-color: var(--color-background-hover);
     transition: all, border 120ms ease-out;
+    position: relative;
 }
 
-.search:hover {
+
+.clear-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-89%) translateX(-35%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: 40%;
+    color: var(--color-on-background);
+}
+
+.x-lb {
+    transform: translateY(-89%) translateX(-320%);
+}
+
+.search-container {
+    position: relative;
+}
+
+.search:hover:not(:focus) {
     border: 2px solid var(--color-hover);
-    transition: all, border 120ms ease-out;
 }
 
 .copy-container {
