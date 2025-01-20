@@ -142,7 +142,7 @@ input[type="checkbox"] {
 }
 
 .x-lb {
-    transform: translateX(-320%);
+    transform: translateY(-89%) translateX(-320%);
 }
 
 .search-container {
@@ -197,9 +197,9 @@ input[type="checkbox"] {
 
 @media only screen and (max-device-width: 480px) {
     .clear-search {
-        transform: translateX(-10%);
+        transform: translateY(-89%) translateX(-10%);
     }
     .x-lb {
-        transform: translateX(-32%);
+        transform: translateY(-89%) translateX(-32%);
     }
 }
