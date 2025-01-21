@@ -381,6 +381,9 @@ export default {
                 
                 const foundusers = []
                 for (const record of templevel.records) {
+                    if (record.enjoyment && (typeof record.enjoyment === "string" && record.enjoyment !== "?")) {
+                        console.warn(`Found wrong type of enjoyment on level ${templevel.name} (${record.enjoyment})! Please set enjoyment to a number or '?'`)
+                    }
                     if (foundusers.includes(record.user) || record.user === templevel.verifier) {
                         console.warn(`Found duplicate record! ${record.user} has a duplicate record on ${templevel.name} (${templevel.path}.json).`)
                     } else {
