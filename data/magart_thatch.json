@@ -55,7 +55,8 @@
 			"link": "https://www.youtube.com/watch?v=sD0S_yApSUo",
 			"percent": 100,
 			"hz": 240,
-			"enjoyment": 8
+			"enjoyment": 8,
+			"fps": 240
 		}
 	]
 }
