@@ -1,113 +1,120 @@
 {
-  "id": 85225109,
-  "name": "WaveRoad",
-  "creators": [
-	"QwidziT"
-  ],
-  "verifier": "QwidziT",
-  "verification": "https://youtu.be/mPEwwSjCxsg",
-  "percentToQualify": 100,
-  "song": "Xtrullor - Supernova",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Asteria.",
-	  "link": "https://youtu.be/bj49taskbEg",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/T9JXmrL28eU?si=itq8HpDWFR6oZcik",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "3"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/sLMO8rryjws?si=_kon9QzmWSD9qicr",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "4"
-	},
-	{
-	  "user": "Flipperglint",
-	  "link": "https://youtu.be/NCvgbUo6JOg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "VGdarkz",
-	  "link": "https://youtu.be/htv_gLIVz2c",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/dyQEt6FEh1Q",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "RadiantHun",
-	  "link": "https://www.youtube.com/watch?v=27LIk2LQbME",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 3
-	}
-  ]
+	"id": 85225109,
+	"name": "WaveRoad",
+	"creators": [
+		"QwidziT"
+	],
+	"verifier": "QwidziT",
+	"verification": "https://youtu.be/mPEwwSjCxsg",
+	"percentToQualify": 100,
+	"song": "Xtrullor - Supernova",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Asteria.",
+			"link": "https://youtu.be/bj49taskbEg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/T9JXmrL28eU?si=itq8HpDWFR6oZcik",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "3"
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/sLMO8rryjws?si=_kon9QzmWSD9qicr",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/WPtzvN5Bxk8?si=yPylYyPfcxf1oxSP",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=-zF37LbBtN4&ab_channel=Blysofthelist",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "4"
+		},
+		{
+			"user": "Flipperglint",
+			"link": "https://youtu.be/NCvgbUo6JOg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/0dfvBS0CuGk?si=Rjccp2uFJCzp1fv2",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "VGdarkz",
+			"link": "https://youtu.be/htv_gLIVz2c",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/dyQEt6FEh1Q",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/yTEcVaMh2Ak",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "RadiantHun",
+			"link": "https://www.youtube.com/watch?v=27LIk2LQbME",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/shorts/6etjsV4mry0?feature=share",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
+		}
+	]
 }
