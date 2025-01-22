@@ -1295,6 +1295,13 @@
 			"percent": 100,
 			"hz": 480,
 			"enjoyment": 6
+		},
+		{
+			"user": "BV23",
+			"link": "https://youtu.be/nS-HlCfxERY",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 9
 		}
 	]
 }
