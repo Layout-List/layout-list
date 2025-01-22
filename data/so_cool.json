@@ -1288,6 +1288,13 @@
 			"hz": 60,
 			"enjoyment": 7,
 			"mobile": true
+		},
+		{
+			"user": "Cowdoom11",
+			"link": "https://youtu.be/eZTFZ6U2Ois",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 6
 		}
 	]
 }
