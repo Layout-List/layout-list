@@ -1,0 +1,60 @@
+{
+	"id": 80341120,
+	"name": "Unnamed Layout",
+	"creators": [
+		"Wingz_GD"
+	],
+	"verifier": "Wingz_GD",
+	"verification": "https://youtu.be/nYpjjcc-K7E?si=tVs2IjNcAkvCsfth",
+	"percentToQualify": 100,
+	"song": "Creo - Dark Tides",
+	"difficulty": 0,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/DpUzNBirtOs",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/vAUt_aTBF-8?si=M1aH-VIvykkQJnaw",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "VeraliGD",
+			"link": "https://youtu.be/NErzzGcuBAY?si=qne3Z-pm5MCnav-b",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Bocopter",
+			"link": "https://youtu.be/Rj11nWHvEm0?si=sRYhkAxOe32xMq6j",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/zx9Wzm-o-Lg",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
+}
