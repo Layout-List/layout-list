@@ -1,30 +1,37 @@
 {
-  "id": 110792174,
-  "name": "Pingas Mk420",
-  "creators": [
-	"SolelakGD"
-  ],
-  "verifier": "SolelakGD",
-  "verification": "https://youtu.be/aLU-BYdpZFA?si=JseyuYvdoPsbDqj8",
-  "percentToQualify": 100,
-  "song": "<song> - xorberax",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://truthsocial.com/@PokeZach/posts/113341911743882562",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 110792174,
+	"name": "Pingas Mk420",
+	"creators": [
+		"SolelakGD"
+	],
+	"verifier": "SolelakGD",
+	"verification": "https://youtu.be/aLU-BYdpZFA?si=JseyuYvdoPsbDqj8",
+	"percentToQualify": 100,
+	"song": "<song> - xorberax",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://truthsocial.com/@PokeZach/posts/113341911743882562",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "fusemax",
+			"link": "https://www.youtube.com/watch?v=aLU-BYdpZFA",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 10
+		}
+	]
 }
