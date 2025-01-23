@@ -10,5 +10,14 @@
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "Creo - Drift",
-	"records": []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/WA4g7-CakAk?si=GlX7U6S0Hz3cGZfG",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		}
+	]
 }
