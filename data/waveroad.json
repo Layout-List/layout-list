@@ -108,6 +108,13 @@
 			"hz": 120,
 			"mobile": false,
 			"enjoyment": 3
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/shorts/6etjsV4mry0?feature=share",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
 		}
 	]
 }
