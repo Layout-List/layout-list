@@ -537,13 +537,6 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 7
-		},
-		{
-			"user": "orang cat",
-			"link": "https://www.youtube.com/watch?v=Jij_el9X80Q&ab_channel=emberkz",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
 		}
 	]
 }
