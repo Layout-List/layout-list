@@ -97,5 +97,14 @@
 		"from_rank": null,
 		"above": "atosucksatbuilding",
 		"below": "ozone"
+	},
+	{
+		"date": 1737680177,
+		"action": "placed",
+		"name": "sydney_sweeny",
+		"to_rank": 210,
+		"from_rank": null,
+		"above": "for_bunny",
+		"below": "sn0wsucksatgd"
 	}
 ]
