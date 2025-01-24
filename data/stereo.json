@@ -1,80 +1,88 @@
 {
-  "id": 89865607,
-  "name": "STEREO",
-  "creators": [
-	"agentgiscool"
-  ],
-  "verifier": "agentgiscool",
-  "verification": "https://youtu.be/M-YtSEHWoTg",
-  "percentToQualify": 100,
-  "password": "783736",
-  "song": "ForeverBound - Stereo Madness",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/Fr9z2hgPLSQ",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/isJrkvULufo",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://www.youtube.com/watch?v=aE38NqSb_-k",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://www.youtube.com/watch?v=9f2LjXvS38k",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/CtxobQE96BE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/6czdLCtMAKA",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=QZsPqfjdZbY",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/3rLAoICX3B0",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 89865607,
+	"name": "STEREO",
+	"creators": [
+		"agentgiscool"
+	],
+	"verifier": "agentgiscool",
+	"verification": "https://youtu.be/M-YtSEHWoTg",
+	"percentToQualify": 100,
+	"password": "783736",
+	"song": "ForeverBound - Stereo Madness",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/Fr9z2hgPLSQ",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": "9"
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/isJrkvULufo",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "LimeDub",
+			"link": "https://www.youtube.com/watch?v=aE38NqSb_-k",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "NiXaNTy",
+			"link": "https://www.youtube.com/watch?v=9f2LjXvS38k",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/CtxobQE96BE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/6czdLCtMAKA",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=QZsPqfjdZbY",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/3rLAoICX3B0",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/WByT4PcaTMQ?si=cQykESjZj-SoosuS",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/2snibKy_ZrQ?si=HFSCGb4XuSrsCgWy",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		}
+	]
 }
