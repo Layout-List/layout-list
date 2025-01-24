@@ -178,7 +178,7 @@ export default {
                             You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
                         </p>
                         <p>
-                            Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). Edited audio does not count.
+                            Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). This does not include mods that add artificial click sounds.
                         </p>
                         <p>
                             Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
