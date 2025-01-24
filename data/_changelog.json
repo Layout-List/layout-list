@@ -124,5 +124,14 @@
 		"from_rank": null,
 		"above": "next_adventure",
 		"below": "understand"
+	},
+	{
+		"date": 1737680545,
+		"action": "placed",
+		"name": "iter_theoria",
+		"to_rank": 37,
+		"from_rank": null,
+		"above": "dirge",
+		"below": "titanium"
 	}
 ]
