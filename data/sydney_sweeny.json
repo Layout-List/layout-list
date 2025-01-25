@@ -1,7 +1,9 @@
 {
 	"id": 109063987,
 	"name": "Sydney Sweeny",
-	"creators": ["azakl"],
+	"creators": [
+		"azakl"
+	],
 	"verifier": "azakl",
 	"verification": "https://youtu.be/SaNL4vTD-3Y",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 3,
 	"song": "Teminite - Surface Tension",
 	"enjoyment": 10,
-	"records" : []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/C-qGo3fzIoU?si=43AjCyAi_AvEFO1X",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		}
+	]
 }
