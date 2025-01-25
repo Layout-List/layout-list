@@ -1,7 +1,9 @@
 {
 	"id": 113220663,
 	"name": "Cage Girl  CamGirl",
-	"creators": ["Blysteryx"],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/iPZ6x2I10q0?si=Z0lcmaevHhIPctqr",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 2,
 	"song": "Jane Remover - Cage Girl / CamGirl",
 	"songLink": "https://cdn.discordapp.com/ephemeral-attachments/1320592923561164871/1322007535753891901/1092151.mp3?ex=67939036&is=67923eb6&hm=507c2f048808860e297f1ffb45727d5aa4f80524869677d027f8f95f11a0131d&",
-	"records" : []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/C-qGo3fzIoU?si=43AjCyAi_AvEFO1X",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 3,
+			"mobile": true
+		}
+	]
 }
