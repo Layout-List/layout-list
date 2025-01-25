@@ -1,39 +1,46 @@
 {
-  "id": 111805001,
-  "name": "let me lay it out",
-  "creators": [
-	"Bocopter",
-	"ThisGuyKreas"
-  ],
-  "verifier": "Tinkle",
-  "verification": "https://www.youtube.com/watch?v=bKPG9uxSKG4",
-  "percentToQualify": 100,
-  "song": "TOMBOYY - Think About It ????",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/sCaOcX5kDXk",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/iTgQ5qvJKQQ?si=vVkAHTIvld1ov1vt",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+	"id": 111805001,
+	"name": "let me lay it out",
+	"creators": [
+		"Bocopter",
+		"ThisGuyKreas"
+	],
+	"verifier": "Tinkle",
+	"verification": "https://www.youtube.com/watch?v=bKPG9uxSKG4",
+	"percentToQualify": 100,
+	"song": "TOMBOYY - Think About It ????",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/sCaOcX5kDXk",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/iTgQ5qvJKQQ?si=vVkAHTIvld1ov1vt",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/jyHztaBNCoXrC3tDO?invite=cr-MSxVZ2MsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
+		}
+	]
 }
