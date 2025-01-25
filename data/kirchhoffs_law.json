@@ -1,7 +1,9 @@
 {
 	"id": 113834124,
 	"name": "kirchhoffs law",
-	"creators": ["azakl"],
+	"creators": [
+		"azakl"
+	],
 	"verifier": "azakl",
 	"verification": "https://youtu.be/sxEIlj599kU",
 	"percentToQualify": 65,
@@ -9,5 +11,13 @@
 	"difficulty": 4,
 	"song": "Xtrullor - Instant Reaction",
 	"enjoyment": 9,
-	"records" : []
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/jwb4l0bqrXkQZvCWf?invite=cr-MSxRejAsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
