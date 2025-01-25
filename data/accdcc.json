@@ -1,23 +1,30 @@
 {
-  "id": 107337435,
-  "name": "accdcc",
-  "creators": [
-	"azakl"
-  ],
-  "verifier": "azakl",
-  "verification": "https://youtu.be/TXyIs40op0A",
-  "percentToQualify": 100,
-  "song": "Xtrullor - Instant Reaction",
-  "difficulty": 2,
-  "enjoyment": 10,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
-	  "percent": 100,
-	  "hz": 60,
-	  "enjoyment": 7,
-	  "mobile": true
-	}
-  ]
+	"id": 107337435,
+	"name": "accdcc",
+	"creators": [
+		"azakl"
+	],
+	"verifier": "azakl",
+	"verification": "https://youtu.be/TXyIs40op0A",
+	"percentToQualify": 100,
+	"song": "Xtrullor - Instant Reaction",
+	"difficulty": 2,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/jyHHnFsA4YNsIRcQv?invite=cr-MSw3ZHUsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		}
+	]
 }
