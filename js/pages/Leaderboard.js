@@ -4,9 +4,10 @@ import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
+import Sort from '../components/Sort.js'
 
 export default {
-    components: { Spinner, Copy, Copied },
+    components: { Spinner, Copy, Copied, Sort },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -39,6 +40,9 @@ export default {
                         />
                         <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
                     </div>
+                    <div class="button-bar" style="padding-left: 2.5rem;" :class="store.dark ? 'dark' : ''">
+                        <Sort alt="Scroll to selected" v-if="selected > 14 && searchQuery === ''" @click="scrollToSelected()" />
+                    </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
@@ -48,7 +52,7 @@ export default {
                                 <p class="type-label-lg" v-if="ientry.total > 0">{{ localize(ientry.total) }}</p>
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
-                            <td class="user" :class="{ 'active': selected == index }">
+                            <td class="user" :class="{ 'active': selected == index }" :ref="selected == index ? 'selected' : undefined">
                                 <button @click="selected = index; copied = false;">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
@@ -183,6 +187,14 @@ export default {
                     console.log(this.notFound)
                 }
             }
+        },
+        scrollToSelected() {
+            this.$nextTick(() => {
+                const selectedElement = this.$refs.selected;
+                if (selectedElement && selectedElement[0] && selectedElement[0].firstChild) {
+                    selectedElement[selectedElement.length - 1].firstChild.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
         }
     },
 

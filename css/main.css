@@ -203,3 +203,20 @@ input[type="checkbox"] {
         transform: translateY(-89%) translateX(-32%);
     }
 }
+
+.button-bar {
+    padding-left: 1.2rem;
+    padding-bottom: 0.5rem;
+    height: 1.3rem;
+
+
+}
+
+.button-bar > * {
+    cursor: pointer;
+    fill: #1f213c
+}
+
+.button-bar.dark > * {
+    fill: #FFFFFF
+}

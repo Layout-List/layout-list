@@ -6,6 +6,7 @@ import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import LevelAuthors from '../components/List/LevelAuthors.js';
+import Sort from '../components/Sort.js'
 
 const roleIconMap = {
     owner: 'crown',
@@ -15,9 +16,8 @@ const roleIconMap = {
     trial: 'user-lock',
 };
 
-
 export default {
-    components: { Spinner, LevelAuthors, Copy, Copied },
+    components: { Spinner, LevelAuthors, Copy, Copied, Sort },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -34,14 +34,17 @@ export default {
                 />
                 <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
             </div>
+            <div class="button-bar" :class="store.dark ? 'dark' : ''">
+                <Sort alt="Scroll to selected" v-if="selected > 10 && searchQuery === ''" @click="scrollToSelected()" />
+            </div>
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank">
                         <p v-if="rank === null" class="type-label-lg" style="width:2.7rem">&mdash;</p>
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
-                    <td class="level" :class="{ 'active': selected == index, 'error': err !== null }">
-                        <button @click="selected = index; copied = false">
+                    <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
+                        <button @click="selected = index; copied = false;">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -293,6 +296,14 @@ export default {
                 if (returnedIndex === -1) this.errors.push(`The level ${this.$route.params.level} does not exist, please double check the URL.`);
                 else this.selected = returnedIndex;
             }
+        },
+        scrollToSelected() {
+            this.$nextTick(() => {
+                const selectedElement = this.$refs.selected;
+                if (selectedElement && selectedElement[0] && selectedElement[0].firstChild) {
+                    selectedElement[selectedElement.length - 1].firstChild.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
         }
     },
 
