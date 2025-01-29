@@ -6,7 +6,7 @@ import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import LevelAuthors from '../components/List/LevelAuthors.js';
-import Sort from '../components/Sort.js'
+import Scroll from '../components/Scroll.js'
 
 const roleIconMap = {
     owner: 'crown',
@@ -17,7 +17,7 @@ const roleIconMap = {
 };
 
 export default {
-    components: { Spinner, LevelAuthors, Copy, Copied, Sort },
+    components: { Spinner, LevelAuthors, Copy, Copied, Scroll },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -35,7 +35,7 @@ export default {
                 <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
             </div>
             <div class="button-bar" :class="store.dark ? 'dark' : ''">
-                <Sort alt="Scroll to selected" v-if="selected > 10 && searchQuery === ''" @click="scrollToSelected()" />
+                <Scroll alt="Scroll to selected" v-if="selected > 10 && searchQuery === ''" @click="scrollToSelected()" />
             </div>
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">

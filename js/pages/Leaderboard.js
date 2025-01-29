@@ -4,10 +4,10 @@ import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
-import Sort from '../components/Sort.js'
+import Scroll from '../components/Scroll.js'
 
 export default {
-    components: { Spinner, Copy, Copied, Sort },
+    components: { Spinner, Copy, Copied, Scroll },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -41,7 +41,7 @@ export default {
                         <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
                     </div>
                     <div class="button-bar" style="padding-left: 2.5rem;" :class="store.dark ? 'dark' : ''">
-                        <Sort alt="Scroll to selected" v-if="selected > 14 && searchQuery === ''" @click="scrollToSelected()" />
+                        <Scroll alt="Scroll to selected" v-if="selected > 14 && searchQuery === ''" @click="scrollToSelected()" />
                     </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
