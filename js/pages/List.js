@@ -35,7 +35,13 @@ export default {
                 <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
             </div>
             <div class="button-bar" :class="store.dark ? 'dark' : ''">
-                <Scroll alt="Scroll to selected" v-if="selected > 10 && searchQuery === ''" @click="scrollToSelected()" />
+                <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
+                <select v-model="sortOption">
+                    <option value="0">Ranking</option>
+                    <option value="1">Enjoyment</option>
+                    <option value="2">Popularity</option>
+                </select>
+                <p style="font-size: 9.5px; opacity: 30%;"@click="descending = !descending">{{ descending === true ? 'Descending' : 'Ascending' }}</p>
             </div>
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
@@ -136,7 +142,7 @@ export default {
                     <tr style="justify-content: center; align-items: center;">
                         <td><h3 class="tier-info" style="padding-bottom:0.5rem">Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
                     </tr>
-                    <p style="padding-top:1.5rem">The levels below are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
+                    <p style="padding-top:1.5rem">The levels {{ descending ? 'below' : 'above' }} are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
 
                     <h3 v-if="level.difficulty > 5" style="padding-top:1.5rem"><a href="https://docs.google.com/spreadsheets/d/1tgwlKJpFMC2lEK8XjFPyKGP1-JJ0z2t6GsvCyojEeCw/">sn0w's extreme spreadsheet</a></h3>
                 </div>
@@ -263,6 +269,8 @@ export default {
         store,
         searchQuery: '',
         copied: false,
+        sortOption: 0,
+        descending: true
     }),
 
     methods: {
@@ -309,7 +317,7 @@ export default {
 
     computed: {
         level() {
-
+            console.log(this.selected)
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -332,21 +340,52 @@ export default {
         },
 
         filteredLevels() {
-            if (!this.searchQuery.trim()) {
-                // Return the list with original indexes
-                return this.list.map((item, index) => ({ index, item }));
-            }
-    
             const query = this.searchQuery.toLowerCase();
-    
-            // Map each item with its original index and filter by the level name
-            return this.list
-                .map((item, index) => ({ index, item }))
-                .filter(({ item: [err, rank, level] }) =>
+            let list = this.list
+            // this was a lot of fun!
+            let sortOption = parseInt(this.sortOption)
+
+            console.log(sortOption)
+
+            // use the separate indexing for searching Shenanigans
+            list = list.map((item, index) => ({ index, item }));
+            
+            // search logic
+            if (query.trim()) {
+                list = list.filter(({ item: [err, rank, level] }) =>
                     (level?.name.toLowerCase())
                         .includes(query) &&
                     level?.id !== 0
-                );
+                )
+            }
+
+            // sort based on value of dropdown menu
+            if (sortOption === 1) {
+                list = list.sort((a, b) => {
+                            const enjoymentA = averageEnjoyment(a.item[2].records);
+                            const enjoymentB = averageEnjoyment(b.item[2].records);
+                            return enjoymentB - enjoymentA;
+                        })
+                        .filter(({ item }) =>
+                            item[2].id !== 0
+                        )
+            } else if (sortOption === 2) {
+                list = list.sort((a, b) => {
+                    const recordLenA = a.item[2].records.length;
+                    const recordLenB = b.item[2].records.length;
+                    return recordLenB - recordLenA;
+                })
+                .filter(({ item }) =>
+                    item[2].id !== 0
+                )
+            }
+
+            // by default the list should be in descending order
+            if (!this.descending) {
+                list = list.reverse()
+            }
+
+            return list
         },
     },
 
