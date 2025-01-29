@@ -35,6 +35,10 @@ export default {
                 <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
             </div>
             <div class="button-bar" :class="store.dark ? 'dark' : ''">
+                <select v-model="sortOption">
+                    <option value="0">Regular</option>
+                    <option value="1">Enjoyment</option>
+                </select>
                 <Scroll alt="Scroll to selected" v-if="selected > 10 && searchQuery === ''" @click="scrollToSelected()" />
             </div>
             <table class="list" v-if="filteredLevels.length > 0">
@@ -263,6 +267,7 @@ export default {
         store,
         searchQuery: '',
         copied: false,
+        sortOption: 0
     }),
 
     methods: {
@@ -332,15 +337,26 @@ export default {
         },
 
         filteredLevels() {
+            const query = this.searchQuery.toLowerCase();
+            let list = this.list
+
+            console.log(this.sortOption)
+
+            if (this.searchOption == 1) {
+                list = list.sort((a, b) => {
+                    const enjoymentA = averageEnjoyment(a[2].records);
+                    const enjoymentB = averageEnjoyment(b[2].records);
+                    return enjoymentB - enjoymentA;
+                });
+            }
+
+            console.log(list)
+
             if (!this.searchQuery.trim()) {
-                // Return the list with original indexes
-                return this.list.map((item, index) => ({ index, item }));
+                return list.map((item, index) => ({ index, item }));
             }
     
-            const query = this.searchQuery.toLowerCase();
-    
-            // Map each item with its original index and filter by the level name
-            return this.list
+            return list
                 .map((item, index) => ({ index, item }))
                 .filter(({ item: [err, rank, level] }) =>
                     (level?.name.toLowerCase())
