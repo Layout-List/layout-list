@@ -361,23 +361,27 @@ export default {
 
             // sort based on value of dropdown menu
             if (sortOption === 1) {
-                list = list.sort((a, b) => {
+                list = list.filter(({ item }) =>
+                            item[2]?.id !== 0 &&
+                            averageEnjoyment(item[2]?.records) !== "?"
+                        )
+                    .sort((a, b) => {
                             const enjoymentA = averageEnjoyment(a.item[2].records);
                             const enjoymentB = averageEnjoyment(b.item[2].records);
+
                             return enjoymentB - enjoymentA;
                         })
-                        .filter(({ item }) =>
-                            item[2].id !== 0
-                        )
+                        
             } else if (sortOption === 2) {
-                list = list.sort((a, b) => {
+                list = list.filter(({ item }) =>
+                        item[2].id !== 0
+                    )
+                .sort((a, b) => {
                     const recordLenA = a.item[2].records.length;
                     const recordLenB = b.item[2].records.length;
                     return recordLenB - recordLenA;
                 })
-                .filter(({ item }) =>
-                    item[2].id !== 0
-                )
+                
             }
 
             // by default the list should be in descending order
