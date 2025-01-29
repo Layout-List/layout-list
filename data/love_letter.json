@@ -147,6 +147,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 5
+		},
+		{
+			"user": "sqrtpie",
+			"link": "https://youtube.com/shorts/iYOkmLPpVa4?feature=share",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
