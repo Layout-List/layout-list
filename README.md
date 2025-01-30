@@ -85,17 +85,17 @@ Can I submit multiple levels in one video?
 
 ## List Admins:
 
-* Hydraniac
+* Evil
 * Sphericle
-* Xeronius
+* Hydraniac
 
 
 ---
 
 ## List Helpers:
 
-* Evil
-* Poke Zach
+* Xeronius
+* sn0wiscold
 * Skip
 
 
