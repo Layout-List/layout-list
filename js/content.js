@@ -560,7 +560,11 @@ export function averageEnjoyment(records) {
     if (validRecordsCount === 0) return "?"; // handle case with no valid enjoyment values
 
     const average = total / validRecordsCount;
-    return round(average, 3);
+    const result = round(average, 3)
+    if (isNaN(result) || result === null) {
+        return "?";
+    }
+    return result;
 }
 
 export function fetchTierLength(list, difficulty) {
