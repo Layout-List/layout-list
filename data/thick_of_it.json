@@ -1,15 +1,23 @@
 {
-  "id": 112622408,
-  "name": "Thick Of It",
-  "creators": [
-	"Zyxo",
-	"Xeronius"
-  ],
-  "verifier": "Zyxo",
-  "verification": "https://www.youtube.com/watch?v=8ZhfG_GM6n4&feature=youtu.be",
-  "percentToQualify": 100,
-  "song": "KSI, Trippie Red, NLE Choppa - Thick Of It",
-  "songLink": "https://drive.google.com/drive/folders/1Vub_wdQcHbLFUu45P3nh2uSDyLci-GAc?usp=drive_link",
-  "difficulty": 3,
-  "records": []
+	"id": 112622408,
+	"name": "Thick Of It",
+	"creators": [
+		"Zyxo",
+		"Xeronius"
+	],
+	"verifier": "Zyxo",
+	"verification": "https://www.youtube.com/watch?v=8ZhfG_GM6n4&feature=youtu.be",
+	"percentToQualify": 100,
+	"song": "KSI, Trippie Red, NLE Choppa - Thick Of It",
+	"songLink": "https://drive.google.com/drive/folders/1Vub_wdQcHbLFUu45P3nh2uSDyLci-GAc?usp=drive_link",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jB5u5euCYDIDbUOBC?invite=cr-MSw0STYsMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 3
+		}
+	]
 }
