@@ -133,5 +133,14 @@
 		"from_rank": null,
 		"above": "dirge",
 		"below": "titanium"
+	},
+	{
+		"date": 1738470385,
+		"action": "placed",
+		"name": "dreamless_wanderer",
+		"to_rank": 48,
+		"from_rank": null,
+		"above": "checkpoint",
+		"below": "paninireta"
 	}
 ]
