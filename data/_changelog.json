@@ -196,5 +196,14 @@
 		"from_rank": 56,
 		"above": "mary_on_a_cross",
 		"below": "my_own_enemy"
+	},
+	{
+		"date": 1738473035,
+		"action": "placed",
+		"name": "garbage_pickup",
+		"to_rank": 270,
+		"from_rank": null,
+		"above": "villain",
+		"below": "rumble_rang"
 	}
 ]
