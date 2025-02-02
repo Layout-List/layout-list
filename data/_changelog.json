@@ -178,5 +178,14 @@
 		"from_rank": null,
 		"above": "gregregation",
 		"below": "sn0wsucksatgd"
+	},
+	{
+		"date": 1738470396,
+		"action": "lowered",
+		"name": "my_own_enemy",
+		"to_rank": 57,
+		"from_rank": 46,
+		"above": "money_machine",
+		"below": "movies_for_guys"
 	}
 ]
