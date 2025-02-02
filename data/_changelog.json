@@ -160,5 +160,14 @@
 		"from_rank": null,
 		"above": "toxic_sewers",
 		"below": "reignite"
+	},
+	{
+		"date": 1738470391,
+		"action": "placed",
+		"name": "ridgeline",
+		"to_rank": 369,
+		"from_rank": null,
+		"above": "shape_of_the_sun",
+		"below": "dark_matter"
 	}
 ]
