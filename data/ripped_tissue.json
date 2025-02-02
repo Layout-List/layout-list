@@ -1,12 +1,23 @@
 {
 	"id": 80392827,
 	"name": "Ripped Tissue",
-	"creators": ["Salukis"],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/oU_7j-vwadY?si=AVso0k6E6ohLfQDC",
 	"percentToQualify": 100,
 	"password": "52122",
 	"difficulty": 1,
 	"song": "Teminite - Raise The Black Flag",
-	"records" : []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/5LmgOq8TZZw?si=CUVAmFbrr8wLmke-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		}
+	]
 }
