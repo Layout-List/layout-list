@@ -151,5 +151,14 @@
 		"from_rank": null,
 		"above": "astrid",
 		"below": "s4v3_th4t_sh1t"
+	},
+	{
+		"date": 1738470390,
+		"action": "placed",
+		"name": "ripped_tissue",
+		"to_rank": 308,
+		"from_rank": null,
+		"above": "toxic_sewers",
+		"below": "reignite"
 	}
 ]
