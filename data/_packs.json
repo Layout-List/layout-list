@@ -3,7 +3,7 @@
 		"name": "Salukis Pack 2",
 		"difficulty": 1,
 		"levels": [
-			"Garbage Pickup",
+			"garbage_pickup",
 			"now_i_do",
 			"skipitybopmdada",
 			"toronto"
