@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Salukis Pack 2",
+		"difficulty": 1,
+		"levels": [
+			"Garbage Pickup",
+			"now_i_do",
+			"skipitybopmdada",
+			"toronto"
+		]
+	},
+	{
 		"name": "Test Pack",
 		"difficulty": 0,
 		"levels": []
