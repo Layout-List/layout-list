@@ -1,12 +1,23 @@
 {
 	"id": 114425292,
 	"name": "Ridgeline",
-	"creators": ["Salukis"],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/Akde_EvbpcU?si=F8upKDQZrb3H6EWX",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 0,
 	"song": "Creo - Drift",
-	"records" : []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/5LmgOq8TZZw?si=CUVAmFbrr8wLmke-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		}
+	]
 }
