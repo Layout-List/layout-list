@@ -1,12 +1,14 @@
 {
 	"id": 79397850,
 	"name": "Garbage Pickup",
-	"creators": ["Salukis"],
-	"verifier": "Solo",
+	"creators": [
+		"Salukis"
+	],
+	"verifier": "Solo12",
 	"verification": "https://youtu.be/YdoO2WJxlrQ?si=2dyC-UHP0_ywSw5D",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 2,
 	"song": "Waterflame - -Viscid-",
-	"records" : []
+	"records": []
 }
