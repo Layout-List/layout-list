@@ -43,9 +43,9 @@ export default {
                     <div class="button-bar" style="padding-left: 2.5rem;" :class="store.dark ? 'dark' : ''">
                         <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
                         <select v-model="selectedNation">
+                            <option :value="null">All nations</option>
                             <option v-for="flag in Object.keys(flagMap)" :value="flag">{{ flagMap[flag] }}</option>
                         </select>
-                        <button v-if="selectedNation !== null" @click="selectedNation = null" class="clear-nation">x</button>
                     </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
