@@ -1,60 +1,60 @@
 {
-  "id": 97147316,
-  "name": "What You Love",
-  "creators": [
-	"ThisGuyKreas"
-  ],
-  "verifier": "ThisGuyKreas",
-  "verification": "https://youtu.be/SnigW3NS4QQ",
-  "percentToQualify": 100,
-  "song": "garlagan - What You Love",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Dangadash",
-	  "link": "https://www.youtube.com/watch?v=1FVnksS0gKM",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/RK2FfPR7juU?si=KEXCBK7CqrN_r8hF",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "3"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/tWg-kevab0s?si=tV5xufxcQo1PbG9C",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/iTC3GlKZHAY",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/BDvXMkg6MgM?si=rDDVUPNq2VXhZa6d",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	}
-  ]
+	"id": 97147316,
+	"name": "What You Love",
+	"creators": [
+		"ThisGuyKreas"
+	],
+	"verifier": "ThisGuyKreas",
+	"verification": "https://youtu.be/SnigW3NS4QQ",
+	"percentToQualify": 100,
+	"song": "garlagan - What You Love",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Dangadash",
+			"link": "https://www.youtube.com/watch?v=1FVnksS0gKM",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/RK2FfPR7juU?si=KEXCBK7CqrN_r8hF",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 3
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/tWg-kevab0s?si=tV5xufxcQo1PbG9C",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/iTC3GlKZHAY",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 2
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/BDvXMkg6MgM?si=rDDVUPNq2VXhZa6d",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		}
+	]
 }

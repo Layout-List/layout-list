@@ -606,7 +606,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
-			"enjoyment": "7"
+			"enjoyment": 7
 		},
 		{
 			"user": "SarcasticMuch",
@@ -917,7 +917,7 @@
 			"percent": 100,
 			"hz": 90,
 			"mobile": true,
-			"enjoyment": "6"
+			"enjoyment": 6
 		},
 		{
 			"user": "Tyjohn323",
@@ -1013,7 +1013,7 @@
 			"percent": 100,
 			"hz": 360,
 			"mobile": false,
-			"enjoyment": "9"
+			"enjoyment": 9
 		},
 		{
 			"user": "josikp",
@@ -1021,7 +1021,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
-			"enjoyment": "9"
+			"enjoyment": 9
 		},
 		{
 			"user": "Bocopter",

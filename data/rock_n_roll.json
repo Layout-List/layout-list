@@ -1,187 +1,187 @@
 {
-  "id": 64788380,
-  "name": "Rock n Roll Layout",
-  "creators": [
-	"Koopazu",
-	"GiggsRH",
-	"Paardappels"
-  ],
-  "verifier": "Koopazu",
-  "verification": "https://youtu.be/rDUOSHKOps4",
-  "percentToQualify": 100,
-  "song": "Skrillex - Rock n' Roll (Will Take You to the Mountain)",
-  "songLink": "https://drive.google.com/file/d/1TjSL1G-9GWwKIBYVB-sbpD3ewRpF6RGw/view?usp=drive_link",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Blathers",
-	  "link": "https://youtu.be/IWxKRu6inpU",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "ZBosGaming",
-	  "link": "https://www.youtube.com/watch?v=BakbJkFsZXY",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "sqrtpie",
-	  "link": "https://youtu.be/gtatHXAc77A",
-	  "percent": 100,
-	  "hz": 60
-	},
-	{
-	  "user": "matt843",
-	  "link": "https://youtu.be/61-R9qrgcrU",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "Sloudy",
-	  "link": "https://youtu.be/eF5O46nvXPU",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "Mistik",
-	  "link": "https://www.youtube.com/watch?v=qAcbRIbx8Ko",
-	  "percent": 100,
-	  "hz": 288
-	},
-	{
-	  "user": "Culobdj",
-	  "link": "https://www.youtube.com/watch?v=JZK_j-MTUvc",
-	  "percent": 100,
-	  "hz": 240
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://www.youtube.com/watch?v=l5YzM9-E4co",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://www.youtube.com/watch?v=d2L4htTxEf0",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/KMM3s9iraps",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/5DPRsUFdEMo",
-	  "percent": 100,
-	  "hz": 288
-	},
-	{
-	  "user": "Shakespeare",
-	  "link": "https://youtu.be/KwxQDkKz9Mo",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true
-	},
-	{
-	  "user": "PivitHasNoLife",
-	  "link": "https://www.youtube.com/watch?v=7xIVmxcpXiY",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/-o86-dJT9Ew",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/2RMrAXh5AJI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://www.youtube.com/watch?v=5V-jJ4NJKaM&ab_channel=Kreas",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Sanctum",
-	  "link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/NqcngoF5Cls",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/aII7oYb5FY8?si=dZeHOtSmdva2Kw5q",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "5"
-	},
-	{
-	  "user": "portal 3",
-	  "link": "https://youtu.be/0Bf7X5w1meM",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/i4eTQwEAd3M",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/8MD5gAygEhs?si=H3EQIITriZ24XfXP",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 10
-	}
-  ]
+	"id": 64788380,
+	"name": "Rock n Roll Layout",
+	"creators": [
+		"Koopazu",
+		"GiggsRH",
+		"Paardappels"
+	],
+	"verifier": "Koopazu",
+	"verification": "https://youtu.be/rDUOSHKOps4",
+	"percentToQualify": 100,
+	"song": "Skrillex - Rock n' Roll (Will Take You to the Mountain)",
+	"songLink": "https://drive.google.com/file/d/1TjSL1G-9GWwKIBYVB-sbpD3ewRpF6RGw/view?usp=drive_link",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "Blathers",
+			"link": "https://youtu.be/IWxKRu6inpU",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "ZBosGaming",
+			"link": "https://www.youtube.com/watch?v=BakbJkFsZXY",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "sqrtpie",
+			"link": "https://youtu.be/gtatHXAc77A",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "matt843",
+			"link": "https://youtu.be/61-R9qrgcrU",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "Sloudy",
+			"link": "https://youtu.be/eF5O46nvXPU",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "Mistik",
+			"link": "https://www.youtube.com/watch?v=qAcbRIbx8Ko",
+			"percent": 100,
+			"hz": 288
+		},
+		{
+			"user": "Culobdj",
+			"link": "https://www.youtube.com/watch?v=JZK_j-MTUvc",
+			"percent": 100,
+			"hz": 240
+		},
+		{
+			"user": "mrperson",
+			"link": "https://www.youtube.com/watch?v=l5YzM9-E4co",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://www.youtube.com/watch?v=d2L4htTxEf0",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/KMM3s9iraps",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/5DPRsUFdEMo",
+			"percent": 100,
+			"hz": 288
+		},
+		{
+			"user": "Shakespeare",
+			"link": "https://youtu.be/KwxQDkKz9Mo",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true
+		},
+		{
+			"user": "PivitHasNoLife",
+			"link": "https://www.youtube.com/watch?v=7xIVmxcpXiY",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/-o86-dJT9Ew",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/2RMrAXh5AJI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://www.youtube.com/watch?v=5V-jJ4NJKaM&ab_channel=Kreas",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Sanctum",
+			"link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/NqcngoF5Cls",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/aII7oYb5FY8?si=dZeHOtSmdva2Kw5q",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "portal 3",
+			"link": "https://youtu.be/0Bf7X5w1meM",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/i4eTQwEAd3M",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "nolli",
+			"link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Popples",
+			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/8MD5gAygEhs?si=H3EQIITriZ24XfXP",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		}
+	]
 }

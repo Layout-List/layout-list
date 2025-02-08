@@ -23,7 +23,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
-			"enjoyment": "3"
+			"enjoyment": 3
 		},
 		{
 			"user": "DeleteNine",
@@ -52,7 +52,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
-			"enjoyment": "4"
+			"enjoyment": 4
 		},
 		{
 			"user": "Flipperglint",

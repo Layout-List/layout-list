@@ -1,46 +1,46 @@
 {
-  "id": 96482483,
-  "name": "Glorious Bastion",
-  "creators": [
-	"Blysteryx"
-  ],
-  "verifier": "Blysteryx",
-  "verification": "https://youtu.be/Jq2paWFKwUY?si=OQoANJB869xnWHXJ",
-  "percentToQualify": 54,
-  "password": "945718",
-  "song": "Waterflame - -Glorious Thunderzone-",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/i4NkkPlKBIc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=mjqE1FhPj-E",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://www.youtube.com/watch?v=sn-GksSFZoU",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 10
-	}
-  ]
+	"id": 96482483,
+	"name": "Glorious Bastion",
+	"creators": [
+		"Blysteryx"
+	],
+	"verifier": "Blysteryx",
+	"verification": "https://youtu.be/Jq2paWFKwUY?si=OQoANJB869xnWHXJ",
+	"percentToQualify": 54,
+	"password": "945718",
+	"song": "Waterflame - -Glorious Thunderzone-",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/i4NkkPlKBIc",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=mjqE1FhPj-E",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://www.youtube.com/watch?v=sn-GksSFZoU",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		}
+	]
 }

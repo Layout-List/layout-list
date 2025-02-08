@@ -1,147 +1,147 @@
 {
-  "id": 89656819,
-  "name": "Universe",
-  "creators": [
-	"SarcasticMuch"
-  ],
-  "verifier": "SarcasticMuch",
-  "verification": "https://youtu.be/-NBzYDOI9cc",
-  "percentToQualify": 100,
-  "song": "DJStriden - Beyond The Universe [Trance]",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/OXlcwAURheg",
-	  "percent": 100,
-	  "hz": 165,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/Ztr5fN_TocI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/9Fw1jZpw9Ls",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/ZDTWjpX_4XE",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/UY67_CssvsE",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "agentgiscool",
-	  "link": "https://youtu.be/wcCvgCuHANI",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Sanctum",
-	  "link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 1
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://www.youtube.com/watch?v=ZFsQUL5iY3c",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/FWhXwOgD4gk",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "4"
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 3
-	}
-  ]
+	"id": 89656819,
+	"name": "Universe",
+	"creators": [
+		"SarcasticMuch"
+	],
+	"verifier": "SarcasticMuch",
+	"verification": "https://youtu.be/-NBzYDOI9cc",
+	"percentToQualify": 100,
+	"song": "DJStriden - Beyond The Universe [Trance]",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "evil",
+			"link": "https://youtu.be/OXlcwAURheg",
+			"percent": 100,
+			"hz": 165,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/Ztr5fN_TocI",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/9Fw1jZpw9Ls",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/ZDTWjpX_4XE",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/UY67_CssvsE",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "agentgiscool",
+			"link": "https://youtu.be/wcCvgCuHANI",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Sanctum",
+			"link": "https://youtu.be/IAJDr-chTWg?si=CZ0Hj26yikWG34xJ",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/NtC2gHIw2fY?si=CosV19isJ39j-0n4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 1
+		},
+		{
+			"user": "nolli",
+			"link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=ZFsQUL5iY3c",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 3
+		},
+		{
+			"user": "LimeDub",
+			"link": "https://youtu.be/FWhXwOgD4gk",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/raSf8H4GMxY?si=UZ3HFh2p_856ylan",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Popples",
+			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/FvTvZC5rwzE?si=3MciaD4f4WEd_9WA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/WCYl0APP6Z8?si=r7Ebx0aQhDq1SSVo",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 3
+		}
+	]
 }

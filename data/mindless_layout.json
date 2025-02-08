@@ -1,255 +1,255 @@
 {
-  "id": 86404418,
-  "name": "Mindless Layout",
-  "creators": [
-	"morsey"
-  ],
-  "verifier": "morsey",
-  "verification": "https://www.youtube.com/watch?v=lrTiyF0qGH0",
-  "showcase": "https://www.youtube.com/watch?v=TXqf4CLkkWY",
-  "percentToQualify": 64,
-  "password": "150108",
-  "song": "Waterflame - -Control: Mind-",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/MLnVKuWlaQ0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/37QGXCfROUk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/oLm6HLm0uA8",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Blueberry",
-	  "link": "https://youtu.be/dfq456UcOaE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "agentgiscool",
-	  "link": "https://youtu.be/B11kVZKKaQE",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Koozoo2000",
-	  "link": "https://youtu.be/EwDUR6OESwU?si=E1-hTfblke6v6KtV",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "rastuyas",
-	  "link": "https://www.youtube.com/watch?v=JkhpyHz18b4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "zakonp",
-	  "link": "https://youtu.be/2ZxtDCiZZNY?si=aZKbqNnyN7cGvmA-",
-	  "percent": 94,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Jab",
-	  "link": "https://youtu.be/ER0ULUUcEVw",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=HT_IYcitHxE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://youtu.be/ympSI-cLx_g",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Hokahey",
-	  "link": "https://www.youtube.com/watch?v=UeKd-OzKv5Q",
-	  "percent": 80,
-	  "hz": 75,
-	  "mobile": false
-	},
-	{
-	  "user": "Skip",
-	  "link": "https://youtu.be/KuV6ge6rK4g",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "StevenOct",
-	  "link": "https://youtu.be/kf08g_9H78k",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Asteria.",
-	  "link": "https://www.youtube.com/watch?v=2o3H_6uohFo",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Tradeskill",
-	  "link": "https://www.youtube.com/watch?v=U7rL-N2crl4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=L98pSc4v9Uo",
-	  "percent": 67,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/SyEJo8Ev1c4",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "9"
-	},
-	{
-	  "user": "Petarp",
-	  "link": "https://www.youtube.com/watch?v=sVVwCDqvS2o",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://www.youtube.com/watch?v=SMJvwdcOams",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "10"
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "6"
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://youtu.be/c7JNnvP0pYs?si=dgMHlMOIK3uTTpKt",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "TheCatAstronaut",
-	  "link": "https://youtu.be/BRw4irM0dB0",
-	  "percent": 100,
-	  "hz": 170,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=2ONOTeb0syQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://youtu.be/cdSgT32lDxA?si=nAeAmsvaLPRlWEy9",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Spaace",
-	  "link": "https://youtu.be/jZriMuhTQfA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://medal.tv/games/geometry-dash/clips/iU9pTT41wyOwWXqNa?invite=cr-MSxvSlIsMTg1OTcxMTAwLA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/fKCF-U1fATE",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "sn0w",
-	  "link": "https://youtu.be/cvPniLqXENY",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Wingz_GD",
-	  "link": "https://youtu.be/ws1z1er2k7o",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 1
-	}
-  ]
+	"id": 86404418,
+	"name": "Mindless Layout",
+	"creators": [
+		"morsey"
+	],
+	"verifier": "morsey",
+	"verification": "https://www.youtube.com/watch?v=lrTiyF0qGH0",
+	"showcase": "https://www.youtube.com/watch?v=TXqf4CLkkWY",
+	"percentToQualify": 64,
+	"password": "150108",
+	"song": "Waterflame - -Control: Mind-",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/MLnVKuWlaQ0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/37QGXCfROUk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/oLm6HLm0uA8",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Blueberry",
+			"link": "https://youtu.be/dfq456UcOaE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "agentgiscool",
+			"link": "https://youtu.be/B11kVZKKaQE",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Koozoo2000",
+			"link": "https://youtu.be/EwDUR6OESwU?si=E1-hTfblke6v6KtV",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://www.youtube.com/watch?v=JkhpyHz18b4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "zakonp",
+			"link": "https://youtu.be/2ZxtDCiZZNY?si=aZKbqNnyN7cGvmA-",
+			"percent": 94,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Jab",
+			"link": "https://youtu.be/ER0ULUUcEVw",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Popples",
+			"link": "https://www.youtube.com/watch?v=HT_IYcitHxE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/ympSI-cLx_g",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Hokahey",
+			"link": "https://www.youtube.com/watch?v=UeKd-OzKv5Q",
+			"percent": 80,
+			"hz": 75,
+			"mobile": false
+		},
+		{
+			"user": "Skip",
+			"link": "https://youtu.be/KuV6ge6rK4g",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "StevenOct",
+			"link": "https://youtu.be/kf08g_9H78k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Asteria.",
+			"link": "https://www.youtube.com/watch?v=2o3H_6uohFo",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Tradeskill",
+			"link": "https://www.youtube.com/watch?v=U7rL-N2crl4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Acacia",
+			"link": "https://www.youtube.com/watch?v=NgvzC2Ph1pI",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Tupi",
+			"link": "https://www.youtube.com/watch?v=L98pSc4v9Uo",
+			"percent": 67,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/SyEJo8Ev1c4",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Petarp",
+			"link": "https://www.youtube.com/watch?v=sVVwCDqvS2o",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://www.youtube.com/watch?v=SMJvwdcOams",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/da6P-1IHgus?si=j-087r1hJ1Qj2-Vd",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/c7JNnvP0pYs?si=dgMHlMOIK3uTTpKt",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "TheCatAstronaut",
+			"link": "https://youtu.be/BRw4irM0dB0",
+			"percent": 100,
+			"hz": 170,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=2ONOTeb0syQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "NiXaNTy",
+			"link": "https://youtu.be/cdSgT32lDxA?si=nAeAmsvaLPRlWEy9",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Spaace",
+			"link": "https://youtu.be/jZriMuhTQfA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/iU9pTT41wyOwWXqNa?invite=cr-MSxvSlIsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/fKCF-U1fATE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/cvPniLqXENY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Wingz_GD",
+			"link": "https://youtu.be/ws1z1er2k7o",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 1
+		}
+	]
 }

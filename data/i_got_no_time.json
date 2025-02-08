@@ -1,199 +1,199 @@
 {
-  "id": 79208265,
-  "name": "I G0T N0 TIME",
-  "creators": [
-	"the4n1ma",
-	"Pr0ramon",
-	"Georgy"
-  ],
-  "verifier": "Yurch",
-  "verification": "https://youtu.be/2wgYlPsdrf4",
-  "showcase": "https://www.youtube.com/watch?v=cYGWq8vrWMI&ab_channel=LayoutListShowcases",
-  "percentToQualify": 100,
-  "song": "The Living Tombstone - I Got No Time",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Blathers",
-	  "link": "https://youtu.be/aPKH1PpFOsE",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://youtu.be/LizWO7SGv9I",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/RgIi16i2FTY",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "culobdj",
-	  "link": "https://youtu.be/uKdkZh7SlaI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://youtu.be/Fh4ksgH9eIc",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://youtu.be/b8hJ7xn98LY",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/Ux3F5eN0jJg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DartsyGD",
-	  "link": "https://www.youtube.com/watch?v=SitTq4kgVbU",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "pixer",
-	  "link": "https://youtu.be/XMovqy0bSZo",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/seGjg6hV-SI",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "sphericle",
-	  "link": "https://youtu.be/8i8R0SaVdUU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/FXgUWGhuxEM",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/dwBGpoKoj34",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://youtu.be/XTApGN0QDaM",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/kQFhigkN6TM",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": "0"
-	},
-	{
-	  "user": "Blueberry",
-	  "link": "https://youtu.be/os7X66N2774",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Edu",
-	  "link": "https://www.youtube.com/watch?v=Lbp3yLe1S4s",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": "5"
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "TheHrnyGDBrave",
-	  "link": "https://youtu.be/WK72zjGRb1I?si=Y0VMYJ1qAxhtpF9a",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false
-	},
-	{
-	  "user": "gdBean",
-	  "link": "https://youtu.be/TuHmPw3WmwQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=skizpOJCmWA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/OmbmtoXC86g",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 79208265,
+	"name": "I G0T N0 TIME",
+	"creators": [
+		"the4n1ma",
+		"Pr0ramon",
+		"Georgy"
+	],
+	"verifier": "Yurch",
+	"verification": "https://youtu.be/2wgYlPsdrf4",
+	"showcase": "https://www.youtube.com/watch?v=cYGWq8vrWMI&ab_channel=LayoutListShowcases",
+	"percentToQualify": 100,
+	"song": "The Living Tombstone - I Got No Time",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Blathers",
+			"link": "https://youtu.be/aPKH1PpFOsE",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://youtu.be/LizWO7SGv9I",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/RgIi16i2FTY",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "culobdj",
+			"link": "https://youtu.be/uKdkZh7SlaI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/Fh4ksgH9eIc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Paladean",
+			"link": "https://youtu.be/b8hJ7xn98LY",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/Ux3F5eN0jJg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DartsyGD",
+			"link": "https://www.youtube.com/watch?v=SitTq4kgVbU",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "pixer",
+			"link": "https://youtu.be/XMovqy0bSZo",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/seGjg6hV-SI",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/8i8R0SaVdUU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/FXgUWGhuxEM",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/dwBGpoKoj34",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/XTApGN0QDaM",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/kQFhigkN6TM",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 0
+		},
+		{
+			"user": "Blueberry",
+			"link": "https://youtu.be/os7X66N2774",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Edu",
+			"link": "https://www.youtube.com/watch?v=Lbp3yLe1S4s",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=sQf2frs4lyc",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "nolli",
+			"link": "https://youtu.be/6m5IVmJZ8oQ?si=BjkIACd6r7yT-N_L",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "TheHrnyGDBrave",
+			"link": "https://youtu.be/WK72zjGRb1I?si=Y0VMYJ1qAxhtpF9a",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false
+		},
+		{
+			"user": "gdBean",
+			"link": "https://youtu.be/TuHmPw3WmwQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=skizpOJCmWA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/Dj6sNL-50AU?si=3W9uKkIi3gd83LUf",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/OmbmtoXC86g",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		}
+	]
 }

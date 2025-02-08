@@ -17,7 +17,7 @@
 			"percent": 100,
 			"hz": 75,
 			"mobile": false,
-			"enjoyment": "8"
+			"enjoyment": 8
 		},
 		{
 			"user": "Hydraniac",
@@ -25,7 +25,7 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
-			"enjoyment": "9"
+			"enjoyment": 9
 		},
 		{
 			"user": "Mystikl",

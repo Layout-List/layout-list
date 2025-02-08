@@ -1,91 +1,91 @@
 {
-  "id": 97106537,
-  "name": "Depths",
-  "creators": [
-	"Mystikl"
-  ],
-  "verifier": "Mystikl",
-  "verification": "https://youtu.be/ziiK_2QR6dM",
-  "percentToQualify": 100,
-  "song": "Creo - Endless",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/EJJu02JrpmU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/TFxPbppTYIc",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/eo7Bjm90V9k",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": "8"
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=HvxGX2R0MaU",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Bibox",
-	  "link": "https://youtu.be/W2Ey7EwVeRY",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/bhAcwH4_iDQ?si=tY0fYk90WtHN9Cfw",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=jmEcXATftRU&t=11s",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Spaace",
-	  "link": "https://youtu.be/q6yb_aVKpHI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/zTVjH1gueOw?si=6reP0nsmyK0oTWKW",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 2
-	}
-  ]
+	"id": 97106537,
+	"name": "Depths",
+	"creators": [
+		"Mystikl"
+	],
+	"verifier": "Mystikl",
+	"verification": "https://youtu.be/ziiK_2QR6dM",
+	"percentToQualify": 100,
+	"song": "Creo - Endless",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "evil",
+			"link": "https://youtu.be/EJJu02JrpmU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/TFxPbppTYIc",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/eo7Bjm90V9k",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=HvxGX2R0MaU",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Bibox",
+			"link": "https://youtu.be/W2Ey7EwVeRY",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/bhAcwH4_iDQ?si=tY0fYk90WtHN9Cfw",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 2
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=jmEcXATftRU&t=11s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/dtouUQv6V-Q?si=-BV4WtiE5Pm8VFEN",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Spaace",
+			"link": "https://youtu.be/q6yb_aVKpHI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/zTVjH1gueOw?si=6reP0nsmyK0oTWKW",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 2
+		}
+	]
 }

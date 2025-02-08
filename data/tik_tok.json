@@ -1,152 +1,152 @@
 {
-  "id": 99546799,
-  "name": "TiK ToK",
-  "creators": [
-	"Huskie"
-  ],
-  "verifier": "Asteria.",
-  "verification": "https://www.youtube.com/watch?v=aC5pxIs3Bqc",
-  "percentToQualify": 57,
-  "song": "Ke$ha - TiK ToK",
-  "songLink": "https://drive.google.com/file/d/1ExKIGCgKVkcApaSLFQM6kIdnbSAEEty5/view?usp=drive_link",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "Blueberry",
-	  "link": "https://youtu.be/Br0KlCET-bM",
-	  "percent": 100,
-	  "hz": 500,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "SarcasticMuch",
-	  "link": "https://youtu.be/RTJ_dJxRD2A",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "sphericle",
-	  "link": "https://youtu.be/pHR8PFh2fLs",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Raezori",
-	  "link": "https://youtu.be/1vResbaUQkA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/3JTDK2yYohk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/ysANHYj56qs",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Skip",
-	  "link": "https://youtu.be/XsQFIzfrMxA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Tradeskill",
-	  "link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=VDzNWGfMp8k",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Fallen",
-	  "link": "https://youtu.be/6iPAXqSyGAM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/nNXaAQPUzj8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/5Vb6uhJlEFs?si=GK7dQXyRR5Hu6CCK",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://youtu.be/mAsd_FcSJns?si=yf5FqaatGpLAplH4",
-	  "percent": 100,
-	  "hz": 650,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "pivithasnolife",
-	  "link": "https://www.youtube.com/watch?v=f7JOvUlUfjY",
-	  "percent": 100,
-	  "hz": 480,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/TsdOT_HaTpU",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": "4"
-	}
-  ],
-  "enjoyment": 10
+	"id": 99546799,
+	"name": "TiK ToK",
+	"creators": [
+		"Huskie"
+	],
+	"verifier": "Asteria.",
+	"verification": "https://www.youtube.com/watch?v=aC5pxIs3Bqc",
+	"percentToQualify": 57,
+	"song": "Ke$ha - TiK ToK",
+	"songLink": "https://drive.google.com/file/d/1ExKIGCgKVkcApaSLFQM6kIdnbSAEEty5/view?usp=drive_link",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "Blueberry",
+			"link": "https://youtu.be/Br0KlCET-bM",
+			"percent": 100,
+			"hz": 500,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "SarcasticMuch",
+			"link": "https://youtu.be/RTJ_dJxRD2A",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/pHR8PFh2fLs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Raezori",
+			"link": "https://youtu.be/1vResbaUQkA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/3JTDK2yYohk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "Riley",
+			"link": "https://youtu.be/ysANHYj56qs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Skip",
+			"link": "https://youtu.be/XsQFIzfrMxA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Tradeskill",
+			"link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=VDzNWGfMp8k",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Fallen",
+			"link": "https://youtu.be/6iPAXqSyGAM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/nNXaAQPUzj8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/5Vb6uhJlEFs?si=GK7dQXyRR5Hu6CCK",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "NiXaNTy",
+			"link": "https://youtu.be/mAsd_FcSJns?si=yf5FqaatGpLAplH4",
+			"percent": 100,
+			"hz": 650,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "pivithasnolife",
+			"link": "https://www.youtube.com/watch?v=f7JOvUlUfjY",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/TsdOT_HaTpU",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 4
+		}
+	],
+	"enjoyment": 10
 }
