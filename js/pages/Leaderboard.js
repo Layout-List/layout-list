@@ -41,7 +41,11 @@ export default {
                         <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
                     </div>
                     <div class="button-bar" style="padding-left: 2.5rem;" :class="store.dark ? 'dark' : ''">
-                        <Scroll alt="Scroll to selected" v-if="selected > 14 && searchQuery === ''" @click="scrollToSelected()" />
+                        <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
+                        <select v-model="selectedNation">
+                            <option v-for="flag in Object.keys(flagMap)" :value="flag">{{ flagMap[flag] }}</option>
+                        </select>
+                        <button v-if="selectedNation !== null" @click="selectedNation = null" class="clear-nation">x</button>
                     </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
@@ -167,6 +171,8 @@ export default {
         store,
         searchQuery: '',
         copied: false,
+        selectedNation: "US",
+        flags: {}
     }),
 
     methods: {
@@ -204,17 +210,14 @@ export default {
         },
 
         filteredLeaderboard() {
-            if (!this.searchQuery.trim()) {
-                return this.leaderboard.map((entry, index) => ({ index, entry }));
-            }
-    
             const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
     
             // Map each entry with its original index and filter based on the user name
             return this.leaderboard
                 .map((entry, index) => ({ index, entry }))
                 .filter(({ entry }) =>
-                    entry.user.toLowerCase().includes(query)
+                    (this.searchQuery.trim() ? entry.user.toLowerCase().includes(query) : true) &&
+                    (this.selectedNation ? entry.flag === this.selectedNation : true)
                 );
         },
     },
@@ -224,6 +227,24 @@ export default {
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
+
+        this.flags = await fetch("../../data/_flags.json")
+            .then(async (res) => await res.json())
+            
+        this.flagMap = await fetch("../../data/_flagMap.json")
+            .then(async (res) => await res.json())
+        
+        var ret = {};
+        for (var key in this.flagMap) {
+            ret[this.flagMap[key]] = key;
+        }
+
+        ret['none'] = "None"
+
+        this.flagMap = Object.fromEntries(
+            Object.entries(ret).filter(([key, value]) => Object.values(this.flags).includes(key))
+        );
+
         
         this.selectFromParam()
 
