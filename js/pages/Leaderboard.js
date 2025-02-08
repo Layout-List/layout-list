@@ -171,7 +171,7 @@ export default {
         store,
         searchQuery: '',
         copied: false,
-        selectedNation: "US",
+        selectedNation: null,
         flags: {}
     }),
 
