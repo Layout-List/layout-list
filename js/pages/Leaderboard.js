@@ -230,7 +230,6 @@ export default {
 
         this.flags = await fetch("../../data/_flags.json")
             .then(async (res) => await res.json())
-            
         this.flagMap = await fetch("../../data/_flagMap.json")
             .then(async (res) => await res.json())
         
@@ -239,12 +238,9 @@ export default {
             ret[this.flagMap[key]] = key;
         }
 
-        ret['none'] = "None"
-
         this.flagMap = Object.fromEntries(
             Object.entries(ret).filter(([key, value]) => Object.values(this.flags).includes(key))
         );
-
         
         this.selectFromParam()
 
