@@ -146,6 +146,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "NotBelugaFan",
+			"link": "https://youtu.be/aHeE6t_e3t4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	],
 	"enjoyment": 10
