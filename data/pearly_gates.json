@@ -268,6 +268,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
+		},
+		{
+			"user": "LuminGMD",
+			"link": "https://youtu.be/ef1Ss3gIBZQ",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10,
+			"mobile": true
 		}
 	]
 }
