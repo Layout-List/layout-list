@@ -1,32 +1,39 @@
 {
-  "id": 100001120,
-  "name": "Bloom",
-  "creators": [
-	"Riley",
-	"Asteria."
-  ],
-  "verifier": "attrixia",
-  "verification": "https://youtu.be/gdacvbTFTrM",
-  "percentToQualify": 54,
-  "song": "Cigarettes After Sex - Pistol",
-  "songLink": "https://drive.google.com/file/d/1mL0ReCzuKEFfOS7PiCJ4J81WQfYQO29V/view?usp=drive_link",
-  "difficulty": 7,
-  "enjoyment": 10,
-  "records": [
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/IVoXTosVJEY?si=mVWSuUsWB5-p7fBc",
-	  "percent": 100,
-	  "hz": "240",
-	  "mobile": false
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 100001120,
+	"name": "Bloom",
+	"creators": [
+		"Riley",
+		"Asteria."
+	],
+	"verifier": "attrixia",
+	"verification": "https://youtu.be/gdacvbTFTrM",
+	"percentToQualify": 54,
+	"song": "Cigarettes After Sex - Pistol",
+	"songLink": "https://drive.google.com/file/d/1mL0ReCzuKEFfOS7PiCJ4J81WQfYQO29V/view?usp=drive_link",
+	"difficulty": 7,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/IVoXTosVJEY?si=mVWSuUsWB5-p7fBc",
+			"percent": 100,
+			"hz": "240",
+			"mobile": false
+		},
+		{
+			"user": "Riley",
+			"link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/12gRKHOjiSg",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
