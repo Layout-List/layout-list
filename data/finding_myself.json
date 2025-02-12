@@ -1,56 +1,63 @@
 {
-  "id": 95879909,
-  "name": "finding myself",
-  "creators": [
-	"Hyperbeat"
-  ],
-  "verifier": "Hyperbeat",
-  "verification": "https://youtu.be/Z8AvRyo4UtY?si=KLJpqjUbtifQFGjg",
-  "percentToQualify": 51,
-  "song": "Canoto - Found",
-  "songLink": "https://drive.google.com/file/d/1spOgaR8nQeSfQXyyWDuyuX-xHgb_Lvu0/view",
-  "difficulty": 5,
-  "enjoyment": 8,
-  "records": [
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=7IxIlxFco60",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/ZGGjuVD2_hE?si=mSPqSnKcDa1L-WCv",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "StevenOct",
-	  "link": "https://youtu.be/P8LSwo_oB9c",
-	  "percent": 96,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+	"id": 95879909,
+	"name": "finding myself",
+	"creators": [
+		"Hyperbeat"
+	],
+	"verifier": "Hyperbeat",
+	"verification": "https://youtu.be/Z8AvRyo4UtY?si=KLJpqjUbtifQFGjg",
+	"percentToQualify": 51,
+	"song": "Canoto - Found",
+	"songLink": "https://drive.google.com/file/d/1spOgaR8nQeSfQXyyWDuyuX-xHgb_Lvu0/view",
+	"difficulty": 5,
+	"enjoyment": 8,
+	"records": [
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=7IxIlxFco60",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/ZGGjuVD2_hE?si=mSPqSnKcDa1L-WCv",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/GSAhn3pu3vU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "StevenOct",
+			"link": "https://youtu.be/P8LSwo_oB9c",
+			"percent": 96,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jGm5odFUHgzSf1bph?invite=cr-MSxSejEsMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
+		}
+	]
 }
