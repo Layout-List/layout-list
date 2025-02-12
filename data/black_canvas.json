@@ -32,6 +32,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 9
+		},
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/h7M6O8MMjVU",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 10
 		}
 	]
 }
