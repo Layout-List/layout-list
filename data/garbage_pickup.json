@@ -10,5 +10,13 @@
 	"password": "Free to copy",
 	"difficulty": 2,
 	"song": "Waterflame - -Viscid-",
-	"records": []
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/APkdwsIjYAM",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		}
+	]
 }
