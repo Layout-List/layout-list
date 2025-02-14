@@ -177,7 +177,7 @@ export default {
                             Legendary Packs = Packs with levels from the supreme tier and above (200 points)
                         </p>
                         <p>
-                            Extreme Packs = Packs with levels from the extreme tier and above (150 points)
+                            Extreme Packs = Packs with levels from the extreme tier (150 points)
                         </p>
                         <p>
                             Mythical Packs = Packs with levels from the mythical tier (100 points)
