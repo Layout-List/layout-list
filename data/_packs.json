@@ -1,14 +1,5 @@
 [
 	{
-		"name": "Short Pack 2",
-		"difficulty": 7,
-		"levels": [
-			"ai",
-			"akareta",
-			"ablaze_downfall"
-		]
-	},
-	{
 		"name": "Salukis Pack 2",
 		"difficulty": 1,
 		"levels": [
@@ -16,6 +7,15 @@
 			"now_i_do",
 			"skipitybopmdada",
 			"toronto"
+		]
+	},
+	{
+		"name": "Short Pack 2",
+		"difficulty": 7,
+		"levels": [
+			"ai",
+			"akareta",
+			"ablaze_downfall"
 		]
 	},
 	{
