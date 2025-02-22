@@ -232,5 +232,14 @@
 		"from_rank": null,
 		"above": "luigi",
 		"below": "yeat_turban_twizz_lv"
+	},
+	{
+		"date": 1740191726,
+		"action": "placed",
+		"name": "twofortyfour",
+		"to_rank": 140,
+		"from_rank": null,
+		"above": "im_god",
+		"below": "tw3rking_spermwhale7"
 	}
 ]
