@@ -12,5 +12,13 @@
 	"difficulty": 3,
 	"song": "Dayglow - Hot rod",
 	"songLink": "https://cdn.discordapp.com/attachments/858399869471424512/1335465595696578624/1251018.mp3?ex=67a044c1&is=679ef341&hm=c081887e02ea11bc1e25cef4591cdb8dfb29f3f9b25b3a52e783ab68e3f154de&",
-	"records": []
+	"records": [
+		{
+			"user": "sphericle",
+			"link": "https://medal.tv/games/geometry-dash/clips/jKcpHcbfPmN8NA5qr?invite=cr-MSxvNFosMTkxMDMzOTcyLA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
