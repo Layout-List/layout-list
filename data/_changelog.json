@@ -250,5 +250,14 @@
 		"from_rank": null,
 		"above": "murder_plot",
 		"below": "shizukana"
+	},
+	{
+		"date": 1740192270,
+		"action": "placed",
+		"name": "maybe",
+		"to_rank": 119,
+		"from_rank": null,
+		"above": "shizukana",
+		"below": "rose_at_nightfall"
 	}
 ]
