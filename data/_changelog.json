@@ -223,5 +223,14 @@
 		"from_rank": null,
 		"above": "cha_cha_cha",
 		"below": "magart_thatch"
+	},
+	{
+		"date": 1740191583,
+		"action": "placed",
+		"name": "frenzied_flames",
+		"to_rank": 195,
+		"from_rank": null,
+		"above": "luigi",
+		"below": "yeat_turban_twizz_lv"
 	}
 ]
