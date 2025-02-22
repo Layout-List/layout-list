@@ -205,5 +205,14 @@
 		"from_rank": null,
 		"above": "villain",
 		"below": "rumble_rang"
+	},
+	{
+		"date": 1740191393,
+		"action": "placed",
+		"name": "madeleine",
+		"to_rank": 306,
+		"from_rank": null,
+		"above": "4am",
+		"below": "vulture"
 	}
 ]
