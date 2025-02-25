@@ -1,12 +1,22 @@
 {
 	"id": 114775711,
 	"name": "Frenzied Flames",
-	"creators": ["Angryface"],
+	"creators": [
+		"Angryface"
+	],
 	"verifier": "Angryface",
 	"verification": "https://www.youtube.com/watch?v=rydB7UiDMr4",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "Creo - Ballistic Funk",
-	"records": []
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/Lptf1V2psPE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		}
+	]
 }
