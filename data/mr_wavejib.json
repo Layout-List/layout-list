@@ -1,7 +1,9 @@
 {
 	"id": 114761593,
 	"name": "mr wavejib",
-	"creators": ["Woachi"],
+	"creators": [
+		"Woachi"
+	],
 	"verifier": "Woachi",
 	"verification": "https://youtu.be/1nGBTR8wflo",
 	"percentToQualify": 100,
@@ -9,5 +11,13 @@
 	"difficulty": 2,
 	"song": "AuSk - Berryl Fortress",
 	"enjoyment": 8,
-	"records": []
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/Lptf1V2psPE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		}
+	]
 }
