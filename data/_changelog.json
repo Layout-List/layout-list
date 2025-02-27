@@ -259,5 +259,14 @@
 		"from_rank": null,
 		"above": "shizukana",
 		"below": "rose_at_nightfall"
+	},
+	{
+		"date": 1740615359,
+		"action": "placed",
+		"name": "dreamlight",
+		"to_rank": 356,
+		"from_rank": null,
+		"above": "message_in_a_bottle",
+		"below": "pae_ki"
 	}
 ]
