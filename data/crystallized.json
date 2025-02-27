@@ -1,8 +1,14 @@
 {
 	"id": 114318525,
 	"name": "Crystallized",
-	"creators": ["Xeronius","Popples","sans_hanitizer","Raezori","chinciekn"],
-	"verifier": "EmeraldOre",
+	"creators": [
+		"Xeronius",
+		"Popples",
+		"sans_hanitizer",
+		"Raezori",
+		"chinciekn"
+	],
+	"verifier": "Popples",
 	"verification": "https://www.youtube.com/watch?v=NaL6Ne9bXn0",
 	"percentToQualify": 55,
 	"password": "Free to copy",
