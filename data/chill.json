@@ -1,155 +1,163 @@
 {
-  "id": 103949252,
-  "name": "Chill",
-  "creators": [
-	"Xeronius"
-  ],
-  "verifier": "Asteria.",
-  "verification": "https://www.youtube.com/watch?v=kOIRSUlRzac",
-  "percentToQualify": 100,
-  "song": "VrimeMusic - The Amazing Digital Circus (Lo-Fi Remix)",
-  "difficulty": 0,
-  "records": [
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/wj2WFljvH58?si=KfAiEccDJGLquVeT",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/lW_q_A4QUiI?si=SBiyto6lxB4O_jjO",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Raezori",
-	  "link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://youtu.be/DZeImlYzcXo",
-	  "percent": 100,
-	  "hz": 75,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Flipperglint",
-	  "link": "https://youtu.be/NCvgbUo6JOg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "GrumpBoat",
-	  "link": "https://youtu.be/5CIq8EZjGgE",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "TheCatAstronaut",
-	  "link": "https://youtu.be/0rlMWJUIXCM",
-	  "percent": 100,
-	  "hz": 170,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "agentgiscool",
-	  "link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/E_cCqOpz4lw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Tanginess",
-	  "link": "https://youtu.be/YE18sJeWHdY",
-	  "percent": 100,
-	  "hz": 480,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=ZYdjaK297po",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "DERYAMIX",
-	  "link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "sphericle",
-	  "link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 6
-	}
-  ]
+	"id": 103949252,
+	"name": "Chill",
+	"creators": [
+		"Xeronius"
+	],
+	"verifier": "Asteria.",
+	"verification": "https://www.youtube.com/watch?v=kOIRSUlRzac",
+	"percentToQualify": 100,
+	"song": "VrimeMusic - The Amazing Digital Circus (Lo-Fi Remix)",
+	"difficulty": 0,
+	"records": [
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/wj2WFljvH58?si=KfAiEccDJGLquVeT",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/lW_q_A4QUiI?si=SBiyto6lxB4O_jjO",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Raezori",
+			"link": "https://www.youtube.com/watch?v=lJbKEJHCj-4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/DZeImlYzcXo",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "Flipperglint",
+			"link": "https://youtu.be/NCvgbUo6JOg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=vygpmwkqcYU&ab_channel=RaynoXx",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "GrumpBoat",
+			"link": "https://youtu.be/5CIq8EZjGgE",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "TheCatAstronaut",
+			"link": "https://youtu.be/0rlMWJUIXCM",
+			"percent": 100,
+			"hz": 170,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=5BEN4-2dsT4",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=353dln9stV4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "agentgiscool",
+			"link": "https://www.youtube.com/watch?v=tsOP2EjqqoI",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/E_cCqOpz4lw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "Tanginess",
+			"link": "https://youtu.be/YE18sJeWHdY",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "DERYAMIX",
+			"link": "https://youtu.be/oXrK50FDYl8?si=q0w91PqQzmB9-U-R",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/-FCo4hXITYk?si=oWygWvcE6HjDsVH9",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/-PJFOgRoGcU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }
