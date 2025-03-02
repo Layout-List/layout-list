@@ -1,12 +1,24 @@
 {
 	"id": 115250008,
 	"name": "Dreamlight",
-	"creators": ["Blysteryx","Salukis","Zyxo"],
+	"creators": [
+		"Blysteryx",
+		"Salukis",
+		"Zyxo"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/XD5t-Tjct00",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "Tanger - takemehigher",
-	"records": []
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/qAhUn4epUT4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
