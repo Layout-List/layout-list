@@ -1,12 +1,22 @@
 {
 	"id": 103303551,
 	"name": "Take A Hike",
-	"creators": ["Lampa"],
+	"creators": [
+		"Lampa"
+	],
 	"verifier": "Lampa",
 	"verification": "https://www.youtube.com/watch?v=3fc2k2I4RNs",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "tv room - Take A Hike",
-	"records": []
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/ev9oL-N8Hyw",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
