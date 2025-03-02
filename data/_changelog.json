@@ -304,5 +304,14 @@
 		"from_rank": null,
 		"above": "blacklight",
 		"below": null
+	},
+	{
+		"date": 1740937100,
+		"action": "placed",
+		"name": "sweater_weather",
+		"to_rank": 5,
+		"from_rank": null,
+		"above": "brutal_calamity",
+		"below": "project_e"
 	}
 ]
