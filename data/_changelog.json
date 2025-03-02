@@ -313,5 +313,14 @@
 		"from_rank": null,
 		"above": "brutal_calamity",
 		"below": "project_e"
+	},
+	{
+		"date": 1740937298,
+		"action": "placed",
+		"name": "rose_at_twilight",
+		"to_rank": 19,
+		"from_rank": null,
+		"above": "bloom",
+		"below": "infinitive"
 	}
 ]
