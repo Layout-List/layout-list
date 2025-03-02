@@ -1310,6 +1310,14 @@
 			"hz": 60,
 			"enjoyment": 6,
 			"mobile": true
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/oHJ3J9Lwx7U",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
 		}
 	]
 }
