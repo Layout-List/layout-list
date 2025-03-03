@@ -364,6 +364,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 2
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/shREyqPCP-M",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
 		}
 	]
 }
