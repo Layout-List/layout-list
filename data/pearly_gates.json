@@ -292,6 +292,13 @@
 			"hz": 60,
 			"enjoyment": 3,
 			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/hNnhvoZphO8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
 		}
 	]
 }
