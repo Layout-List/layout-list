@@ -1,6 +1,6 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize, copyURL } from '../util.js';
-import { score, lightPackColor, darkPackColor} from '../config.js';
+import { score, lightPackColor, darkPackColor, aprilFoolsVideos } from '../config.js';
 import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
@@ -50,7 +50,7 @@ export default {
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
-                        <button @click="selected = index; copied = false;">
+                        <button @click="(disabledRandomSelect ? selected = index : selected = Math.floor(Math.random() * filteredLevels.length)); copied = false;">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -80,7 +80,7 @@ export default {
                             <span class="type-label-lg">Showcase</span>
                         </button>
                     </div>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <iframe class="video" id="videoframe" :src="embed(aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)])" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
@@ -155,6 +155,7 @@ export default {
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
+                    <input type="checkbox" id="randomSelect" v-model="disabledRandomSelect">
                     <div class="og">
                         <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
                     </div>
@@ -270,7 +271,9 @@ export default {
         searchQuery: '',
         copied: false,
         sortOption: 0,
-        descending: true
+        descending: true,
+        disabledRandomSelect: false,
+        aprilFoolsVideos,
     }),
 
     methods: {
