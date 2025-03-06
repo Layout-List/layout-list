@@ -1332,6 +1332,13 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https: //www.youtube.com/live/42E5u-I2GYA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
 		}
 	]
 }
