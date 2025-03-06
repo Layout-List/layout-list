@@ -578,6 +578,13 @@
 			"percent": 100,
 			"hz": 75,
 			"enjoyment": 6
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
 		}
 	]
 }
