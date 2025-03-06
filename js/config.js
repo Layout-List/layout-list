@@ -424,3 +424,27 @@ export function darkPackColor(difficulty) {
     }
     return [r, g, b, a];
 }
+
+export const aprilFoolsVideos = [
+    "https://www.youtube.com/watch?v=ineHGnSAhKA",
+    "https://www.youtube.com/watch?v=x5NRyXvqvIY&pp=ygULREogSkRLIHdvcms%3D",
+    "https://youtu.be/nqM-WIUIBmU",
+    "https://youtu.be/qLwU-e_ErxA?si=etQpFAteBx_EPWW5",
+    "https://youtu.be/CBEvfZu4HE4?si=o32q3V4Sb_U-ZWnH",
+    "https://youtu.be/C7KuvfzrWnI",
+    "https://youtu.be/lRnwK01n904?si=xt5RWx5a1EekDTm_",
+    "https://www.youtu.be/kXGgjggW9vo",
+    "https://youtu.be/6saYBeHzArE",
+    "https://youtu.be/8Pc0AEbfnBM?si=4pN21NVheMy19ETc",
+    "https://www.youtube.com/watch?v=O_U65QkH_EU",
+    "https://youtu.be/9JRLCBb7qK8?si=_jMCgm5uL4rXuLMe",
+    "https://youtu.be/siqSAlDDiXw?si=egTdtPa-COnj7aZp",
+    "https://www.youtube.com/watch?v=eDuRoPIOBjE",
+    "https://www.youtube.com/watch?v=M0qiZHV4E3U",
+    "https://www.youtube.com/watch?v=saFn4FSYLa4",
+    "https://www.youtube.com/watch?v=U57s-2h2Aoo",
+    "https://www.youtube.com/watch?v=YJdCpltq-_k",
+    "https://www.youtube.com/watch?v=tHPCpso-Fr0",
+    "https://www.youtube.com/watch?v=2pFwQiwRbcg",
+    "https://www.youtube.com/watch?v=lvqvIi3XgcE&pp=ygUfZGogY3V0cyB0cmF2aXMgc2NvdHQncyBhdXRvdHVuZQ%3D%3D"
+]
