@@ -446,5 +446,6 @@ export const aprilFoolsVideos = [
     "https://www.youtube.com/watch?v=YJdCpltq-_k",
     "https://www.youtube.com/watch?v=tHPCpso-Fr0",
     "https://www.youtube.com/watch?v=2pFwQiwRbcg",
-    "https://www.youtube.com/watch?v=lvqvIi3XgcE&pp=ygUfZGogY3V0cyB0cmF2aXMgc2NvdHQncyBhdXRvdHVuZQ%3D%3D"
+    "https://www.youtube.com/watch?v=lvqvIi3XgcE&pp=ygUfZGogY3V0cyB0cmF2aXMgc2NvdHQncyBhdXRvdHVuZQ%3D%3D",
+    "https://www.youtube.com/watch?v=GXqTIbJwwDk&pp=ygUKbXVmZmluIGNnNQ%3D%3D"
 ]
