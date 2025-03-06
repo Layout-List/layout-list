@@ -115,7 +115,7 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
+                                    <a :href="aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)]" target="_blank" class="type-label-lg director">{{ record.user }}</a>
                                     <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
