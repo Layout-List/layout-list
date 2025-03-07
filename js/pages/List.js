@@ -211,7 +211,7 @@ export default {
                     <h3>Difficulty Rankings</h3>
                     <div class="right-text">
                         <p>
-                            Impossible Layout = Top Extreme Demons (401 to 750 Points)
+                            Silent Layout = Top Extreme Demons (401 to 750 Points)
                         </p>
                         <p>
                             Legendary Layout = Mid Extreme Demons (201 to 400 Points)
