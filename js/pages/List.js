@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor, aprilFoolsVideos } from '../config.js';
-import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength } from '../content.js';
+import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchUsers } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
@@ -70,7 +70,7 @@ export default {
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <a class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                     </div>
-                    <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
+                    <LevelAuthors :creators="[users[Math.floor(Math.random() * users.length)]]" :verifier="users[Math.floor(Math.random() * users.length)]" :enjoyment="0"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -96,7 +96,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ averageEnjoyment(level.records) }}/10</p>
+                            <p>0/10</p>
                         </li>
                     </ul>
                     <ul class="stats">
@@ -115,16 +115,14 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <a :href="aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)]" target="_blank" class="type-label-lg director">{{ record.user }}</a>
-                                    <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
+                                    <a :href="aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)]" target="_blank" class="type-label-lg director">{{ users[Math.floor(Math.random() * users.length)] }}</a>
                                 </div>
                             </td>
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
                             </td>
                             <td class="enjoyment">
-                                <p v-if="record.enjoyment === undefined">?/10</p>
-                                <p v-else>{{ record.enjoyment }}/10</p>
+                                <p>0/10</p>
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}FPS</p>
@@ -274,6 +272,7 @@ export default {
         descending: true,
         disabledRandomSelect: false,
         aprilFoolsVideos,
+        users: []
     }),
 
     methods: {
@@ -413,6 +412,8 @@ export default {
                 this.errors.push('Failed to load list staff.');
             }
         }
+
+        this.users = await fetchUsers()
 
         // Hide loading spinner
         this.loading = false;

@@ -195,15 +195,14 @@ export default {
             }));
 
             const list = [];
-            if (this.useMainList) {
-                list.push(...fullListMapped.slice(0, 100));
-            }
-            if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(100));
+            const numberOfTimes = 100
+            // add the top 1 to the levels LOL
+            for (let i = 0; i < numberOfTimes; i++) {
+                list.push(fullListMapped[0])
             }
 
             // Random 100 levels
-            this.levels = shuffle(list).slice(0, 100);
+            this.levels = list.slice(0, 100);
             this.showRemaining = false;
             this.givenUp = false;
             this.progression = [];
