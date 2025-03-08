@@ -234,6 +234,13 @@
 			"hz": 60,
 			"enjoyment": 7,
 			"mobile": true
+		},
+		{
+			"user": "KingFloppa",
+			"link": "https://www.youtube.com/watch?v=1Oq9IBRM3ho",
+			"percent": 100,
+			"hz": 210,
+			"enjoyment": 9
 		}
 	]
 }
