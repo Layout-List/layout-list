@@ -322,5 +322,14 @@
 		"from_rank": null,
 		"above": "bloom",
 		"below": "infinitive"
+	},
+	{
+		"date": 1741474455,
+		"action": "placed",
+		"name": "blue_cross",
+		"to_rank": 358,
+		"from_rank": null,
+		"above": "legends_never_die",
+		"below": "sky_castle"
 	}
 ]
