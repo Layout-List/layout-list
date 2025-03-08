@@ -331,5 +331,14 @@
 		"from_rank": null,
 		"above": "legends_never_die",
 		"below": "sky_castle"
+	},
+	{
+		"date": 1741474591,
+		"action": "placed",
+		"name": "fishmart_trademark",
+		"to_rank": 299,
+		"from_rank": null,
+		"above": "nathan_park",
+		"below": "what_you_love_morsey"
 	}
 ]
