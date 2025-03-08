@@ -16,25 +16,7 @@ export default {
                     Shameless copy of the <a class="director" href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">Extreme Demon Roulette by matcool</a>.
                 </p>
                 <form class="options">
-                    <div class="check">
-                        <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Top 100 levels</label>
-                    </div>
-                    <div class="check">
-                        <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Levels below top 100</label>
-                    </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
-                </form>
-                <p class="type-label-md" style="color: #aaa">
-                    The roulette saves automatically.
-                </p>
-                <form class="save">
-                    <p>Manual Load/Save</p>
-                    <div class="btns">
-                        <Btn @click.native.prevent="onImport">Import</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
-                    </div>
                 </form>
             </div>
             <section class="levels-container">
@@ -195,15 +177,14 @@ export default {
             }));
 
             const list = [];
-            if (this.useMainList) {
-                list.push(...fullListMapped.slice(0, 100));
-            }
-            if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(100));
+            const numberOfTimes = 100
+            // add the top 1 to the levels LOL
+            for (let i = 0; i < numberOfTimes; i++) {
+                list.push(fullListMapped[0])
             }
 
             // Random 100 levels
-            this.levels = shuffle(list).slice(0, 100);
+            this.levels = list.slice(0, 100);
             this.showRemaining = false;
             this.givenUp = false;
             this.progression = [];
@@ -235,8 +216,9 @@ export default {
 
             this.progression.push(this.percentage);
             this.percentage = undefined;
-
-            this.save();
+            
+            // disable autosave
+            // this.save();
         },
         onGiveUp() {
             this.givenUp = true;
