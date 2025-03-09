@@ -163,6 +163,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https://www.youtube.com/live/IZWqUChIEjc?si=_sO7li_7L_sAlcK-",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
