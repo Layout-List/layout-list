@@ -442,6 +442,11 @@ export default {
                     } else {
                         foundusers.push(record.user)
                     }
+
+                    if (record.enjoyment && (templevel.creators.includes(record.user))) {
+                        console.warn(`Invalid enjoyment on ${templevel.name}: ${record.enjoyment}/10 by ${record.user}!`)
+                    }
+
                 }
             }
             i++
