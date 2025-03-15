@@ -1,0 +1,11 @@
+main.grind-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.login-container {
+    display: block;
+    margin: 3rem;
+}

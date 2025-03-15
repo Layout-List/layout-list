@@ -672,3 +672,21 @@ export function fetchTotalScore(list, difficulty) {
     return round(totalScore);
 
 }
+
+export async function fetchUsers() {
+    const users = new Set();
+    const list = await fetchList();
+
+    list.forEach(([err, rank, level]) => {
+        users.add(level.verifier.trim())
+        for (const creator of level.creators) {
+            users.add(creator.trim())
+        }
+        for (const record of level.records) {
+            users.add(record.user.trim())
+        }
+    })
+    
+    const userArray = Array.from(users)
+    return userArray
+}
