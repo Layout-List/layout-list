@@ -1,110 +1,118 @@
 {
-  "id": 83296506,
-  "name": "Heat Stroke",
-  "creators": [
-	"Flare",
-	"Justkeya",
-	"DJJDK"
-  ],
-  "verifier": "Flare",
-  "verification": "https://youtu.be/YEDr5fA4jA4",
-  "showcase": "https://youtu.be/7RLTY0G8kLM",
-  "percentToQualify": 60,
-  "song": "Demonicity - Dark Matter",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "ShimzyZE",
-	  "link": "https://youtu.be/95jLAE7a6So",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://youtu.be/LizWO7SGv9I",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "CaioMD",
-	  "link": "https://www.youtube.com/watch?v=Ys6S0E2YSag",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "culobdj",
-	  "link": "https://www.youtube.com/watch?v=atoAhBRwjK4",
-	  "percent": "71",
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/FX2NMVuZPmM",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "rustic",
-	  "link": "https://youtu.be/RVlVHYIAQ4I",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/huhI7HA5eFQ",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://youtu.be/Znvx3P_7FDA",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/hLVo04YOdMQ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/6uot6oM2eu4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://youtu.be/vhUc2XBe8uM",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+	"id": 83296506,
+	"name": "Heat Stroke",
+	"creators": [
+		"Flare",
+		"Justkeya",
+		"DJJDK"
+	],
+	"verifier": "Flare",
+	"verification": "https://youtu.be/YEDr5fA4jA4",
+	"showcase": "https://youtu.be/7RLTY0G8kLM",
+	"percentToQualify": 60,
+	"song": "Demonicity - Dark Matter",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "ShimzyZE",
+			"link": "https://youtu.be/95jLAE7a6So",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://youtu.be/LizWO7SGv9I",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "CaioMD",
+			"link": "https://www.youtube.com/watch?v=Ys6S0E2YSag",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "culobdj",
+			"link": "https://www.youtube.com/watch?v=atoAhBRwjK4",
+			"percent": "71",
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/FX2NMVuZPmM",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "rustic",
+			"link": "https://youtu.be/RVlVHYIAQ4I",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/huhI7HA5eFQ",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://youtu.be/Znvx3P_7FDA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/hLVo04YOdMQ",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/6uot6oM2eu4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/vhUc2XBe8uM",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=guiD4kgrSCw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AXqRfx9rnRI?si=Ol056iFKHC4Up_Gp",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/rM9N2NfzJXs",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		}
+	]
 }
