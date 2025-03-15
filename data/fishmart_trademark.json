@@ -12,5 +12,14 @@
 	"difficulty": 1,
 	"song": "CricketSaysChill - Fisher Price",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/iEQEVwVFThA",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		}
+	]
 }
