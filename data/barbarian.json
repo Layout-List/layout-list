@@ -1,16 +1,24 @@
 {
-  "id": 113199532,
-  "name": "BARBARIAN",
-  "creators": [
-	"dunix"
-  ],
-  "verifier": "Hydraniac",
-  "verification": "https://youtu.be/HhNJ-vZFsjM?si=LrhGUZ3xcHUcteHu",
-  "percentToQualify": 65,
-  "password": "Free to copy",
-  "difficulty": 5,
-  "song": "Yeat - Barbarian (Lyfestyle Drone CD)",
-  "songLink": "https://drive.google.com/file/d/14lA93S7wF8QRCzAFB5YvobQRKqYvbKS8/view?usp=sharing",
-  "enjoyment": 9,
-  "records": []
+	"id": 113199532,
+	"name": "BARBARIAN",
+	"creators": [
+		"dunix"
+	],
+	"verifier": "Hydraniac",
+	"verification": "https://youtu.be/HhNJ-vZFsjM?si=LrhGUZ3xcHUcteHu",
+	"percentToQualify": 65,
+	"password": "Free to copy",
+	"difficulty": 5,
+	"song": "Yeat - Barbarian (Lyfestyle Drone CD)",
+	"songLink": "https://drive.google.com/file/d/14lA93S7wF8QRCzAFB5YvobQRKqYvbKS8/view?usp=sharing",
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
