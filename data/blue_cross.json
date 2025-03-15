@@ -1,12 +1,23 @@
 {
 	"id": 115629964,
 	"name": "Blue cross",
-	"creators": ["Blysteryx"],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/kcUOQm2A-Bo?si=a7Vq1lqUqE0Whgzw",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "underscores - the city with no wind, six impala - unending thoughts of everyone and everything",
-	"records": []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/zYAiYPQUhVg",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }
