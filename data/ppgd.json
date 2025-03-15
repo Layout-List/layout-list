@@ -194,6 +194,14 @@
 			"hz": 60,
 			"enjoyment": 7,
 			"mobile": true
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/JxOz1wyjGBs",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
