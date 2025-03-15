@@ -306,6 +306,13 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/uCFXQoQRsRo",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }
