@@ -40,7 +40,9 @@ export default {
                         <Btn @click="saveToFile()" v-if="completed.levels.length > 0">Export</Btn>
                         <br>
                         <Btn @click="submit()" v-if="completed.levels.length > 0">Submit</Btn>
-                        <Btn v-if="pressedSubmit">Open Form</Btn>
+                        <a :href="formUrl" target="_blank">
+                            <Btn v-if="pressedSubmit">Open Form</Btn>
+                        </a>
                         <br v-if="completed.levels.length > 0">
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
                         <h2>Completed:</h2>
@@ -115,6 +117,7 @@ export default {
         list: [],
         allUsers: [],
         loggedIn: null,
+        formUrl: "https://forms.gle/",
         loggingIn: "",
         pressedSubmit: false,
         typedValues: {},
@@ -242,7 +245,8 @@ export default {
             console.log()
             if (req.status === 201) {
                 await copyURL(url);
-                alert("File uploaded successfully and copied to clipboard!\n" + url);
+                await alert("File uploaded successfully and copied to clipboard!\n" + url);
+                window.open(this.formUrl, '_blank');
             } else {
                 alert("File upload failed: " + res.message);
             }
