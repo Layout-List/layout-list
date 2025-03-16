@@ -160,9 +160,9 @@ main.grind-page {
 
 .extra-stats {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
-    gap: auto;
+    gap: 2rem;
 }
 
 .extra-stats li {
