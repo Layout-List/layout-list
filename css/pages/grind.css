@@ -159,10 +159,12 @@ main.grind-page {
 }
 
 .extra-stats {
+    float: center;
     display: flex;
-    justify-content: center;
+    width: 125%;
+    justify-content: left;
     text-align: center;
-    gap: 2rem;
+    gap: auto;
 }
 
 .extra-stats li {
@@ -170,4 +172,11 @@ main.grind-page {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    margin: 1rem;
+}
+
+.extra-stats-container {
+    width: 100%;
+    justify-content: right;
+    align-items: right;
 }

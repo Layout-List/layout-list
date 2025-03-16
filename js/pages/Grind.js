@@ -36,11 +36,11 @@ export default {
                     </div>
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
-                            <div class="grind-level-container" :class="{'stats-focused': hovered === i}" @mouseover="hovered = i" @mouseleave="hovered = null">
+                            <div class="grind-level-container" @mouseleave="hovered = null" :class="{'stats-focused': hovered === i}">
                                 <!-- Current Level -->
                                 <div class="level">
                                     <a :href="level.verification" v-if="level.verification" target="_blank" class="video">
-                                        <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.verification))" alt="">
+                                        <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.verification))" style="border-radius: 0.5rem;" alt="">
                                     </a>
                                     <div class="meta">
                                         <div>
@@ -48,7 +48,7 @@ export default {
                                                 <p>#{{ level.rank }}</p>
                                             </div>
                                             <div class="nong-container">
-                                                <p>hover</p>
+                                                <p @mouseover="hovered = i">More info</p>
                                             </div>
                                         </div>
                                         <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
@@ -60,34 +60,37 @@ export default {
                                     </div>
                                     <form class="actions grind-actions">
                                         <input type="number" placeholder="Enjoyment" min=1 max=10>
-                                        <input type="number" placeholder="Percent" value="100" max=100>
+                                        <input type="number" placeholder="Percent" value="100" :min="level.percentToQualify" max=100>
                                         <Btn style="background-color:rgb(27, 134, 29);">Complete</Btn>
                                     </form>
-                                    <ul v-if="hovered === i" class="extra-stats">
-                                        <li>
-                                            <div class="type-title-sm">Points</div>
-                                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
-                                        </li>
-                                        <li>
-                                            <div class="type-title-sm">ID</div>
-                                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-                                        </li>
-                                        <li>
-                                            <div class="type-title-sm">Password</div>
-                                            <p>{{ level.password || 'Free to Copy' }}</p>
-                                        </li>
-                                        <li>
-                                            <div class="type-title-sm">Enjoyment</div>
-                                            <p>{{ averageEnjoyment(level.records) }}/10</p>
-                                        </li>
-                                    </ul>
-                                    <ul v-if="hovered === i" class="extra-stats">
-                                        <li>
-                                            <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
-                                            <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
-                                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
-                                        </li>
-                                    </ul>
+                                    <div class="extra-stats-container" v-if="hovered === i">
+                                        <ul class="extra-stats">
+                                            <li>
+                                                <div class="type-title-sm">Points</div>
+                                                <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
+                                            </li>
+                                            <li>
+                                                <div class="type-title-sm">ID</div>
+                                                <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                                            </li>
+                                            <li>
+                                                <div class="type-title-sm">Password</div>
+                                                <p>{{ level.password || 'Free to Copy' }}</p>
+                                            </li>
+                                            <li>
+                                                <div class="type-title-sm">Enjoyment</div>
+                                                <p>{{ averageEnjoyment(level.records) }}/10</p>
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <ul class="extra-stats">
+                                            <li>
+                                                <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
+                                                <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                                                <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
