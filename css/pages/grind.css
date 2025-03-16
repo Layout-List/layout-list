@@ -59,6 +59,7 @@ main.grind-page {
     overflow: hidden;
     width: 100%;
     background-color: var(--color-background-hover);
+    transition: background-color 0.3s ease-out;
 }
 .grind-level-container .level .video img {
     width: 100%;
@@ -179,4 +180,12 @@ main.grind-page {
     width: 100%;
     justify-content: right;
     align-items: right;
+}
+
+.level.completed {
+    background-color: rgba(0, 128, 0, 0.579)
+}
+
+.rank-container {
+    white-space: nowrap;
 }
