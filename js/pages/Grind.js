@@ -34,7 +34,7 @@ export default {
                         <Btn @click="logout()">Logout</Btn>
                     </div>
                     <div class="player-container uncompleted-container">
-                        <div v-for="[err, rank, level] in uncompletedList">
+                        <div v-for="([err, rank, level], i) in uncompletedList">
                             <div class="grind-level-container">
                                 <!-- Current Level -->
                                 <div class="level">
@@ -47,7 +47,7 @@ export default {
                                                 <p>#{{ level.rank }}</p>
                                             </div>
                                             <div class="nong-container">
-                                                <p v-if="level.songLink">Nong: <a class="director" :href="level.songLink" target="_blank">{{ level.song }}</a></p>
+                                                <p>hover</p>
                                             </div>
                                         </div>
                                         <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>

@@ -78,6 +78,7 @@ main.grind-page {
     padding: 1rem;
     display: flex;
     gap: 1rem;
+    order: -1;
 }
 .grind-level-container .level .actions input[type="number"] {
     border: none;
