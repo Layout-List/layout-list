@@ -1,11 +1,12 @@
 import { store } from '../main.js'
 import { localize, getThumbnailFromId, getYoutubeIdFromUrl } from '../util.js';
-import { fetchUsers } from '../content.js'
+import { fetchUsers, averageEnjoyment } from '../content.js'
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import Scroll from '../components/Scroll.js'
 import Btn from '../components/Btn.js';
+import { score } from '../config.js';
 
 export default {
     components: { Spinner, Copy, Copied, Scroll, Btn },
@@ -35,7 +36,7 @@ export default {
                     </div>
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
-                            <div class="grind-level-container">
+                            <div class="grind-level-container" :class="{'stats-focused': hovered === i}" @mouseover="hovered = i" @mouseleave="hovered = null">
                                 <!-- Current Level -->
                                 <div class="level">
                                     <a :href="level.verification" v-if="level.verification" target="_blank" class="video">
@@ -62,6 +63,31 @@ export default {
                                         <input type="number" placeholder="Percent" value="100" max=100>
                                         <Btn style="background-color:rgb(27, 134, 29);">Complete</Btn>
                                     </form>
+                                    <ul v-if="hovered === i" class="extra-stats">
+                                        <li>
+                                            <div class="type-title-sm">Points</div>
+                                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
+                                        </li>
+                                        <li>
+                                            <div class="type-title-sm">ID</div>
+                                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                                        </li>
+                                        <li>
+                                            <div class="type-title-sm">Password</div>
+                                            <p>{{ level.password || 'Free to Copy' }}</p>
+                                        </li>
+                                        <li>
+                                            <div class="type-title-sm">Enjoyment</div>
+                                            <p>{{ averageEnjoyment(level.records) }}/10</p>
+                                        </li>
+                                    </ul>
+                                    <ul v-if="hovered === i" class="extra-stats">
+                                        <li>
+                                            <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
+                                            <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -79,6 +105,7 @@ export default {
         loggingIn: "",
         completed: {},
         loading: true,
+        hovered: null,
         listLoading: true,
     }),
 
@@ -114,6 +141,8 @@ export default {
         fetchUsers,
         getThumbnailFromId,
         getYoutubeIdFromUrl,
+        score,
+        averageEnjoyment,
         scrollToSelected() {
             this.$nextTick(() => {
                 const selectedElement = this.$refs.selected;

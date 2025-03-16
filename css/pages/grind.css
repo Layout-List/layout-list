@@ -57,6 +57,7 @@ main.grind-page {
     grid-auto-rows: max-content;
     border-radius: 1rem;
     overflow: hidden;
+    width: 100%;
     background-color: var(--color-background-hover);
 }
 .grind-level-container .level .video img {
@@ -102,6 +103,10 @@ main.grind-page {
 }
 .grind-level-container .results .btn {
     margin-top: 1rem;
+}
+.grind-level-container .stats-focused {
+    height: 120%;
+    margin-bottom: 3rem;
 }
 .toasts-container {
     overflow-y: auto;
@@ -151,4 +156,18 @@ main.grind-page {
     vertical-align: top;
     text-align: right;
     text-wrap: wrap;
+}
+
+.extra-stats {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: auto;
+}
+
+.extra-stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
