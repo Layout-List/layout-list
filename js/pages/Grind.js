@@ -31,8 +31,13 @@ export default {
             <div v-else class="grind-page-container-full">
                 <div class="page-leaderboard">
                     <div class="board-container grind-meta">
-                        <p>Logged in: {{ loggedIn }}</p>
+                        <h2>Logged in: </h2>
+                        <p>{{ loggedIn }}</p>
                         <Btn @click="logout()">Logout</Btn>
+                        <br>
+                        <h2>Completed:</h2>
+                        <p v-if="completed.length === 0">None!</p>
+                        <p v-else v-for="level in completed">{{ level.name }}</p>
                     </div>
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
@@ -59,9 +64,9 @@ export default {
                                         </div>
                                     </div>
                                     <form class="actions grind-actions">
-                                        <input type="number" placeholder="Enjoyment" min=1 max=10>
-                                        <input type="number" placeholder="Percent" value="100" :min="level.percentToQualify" max=100>
-                                        <Btn style="background-color:rgb(27, 134, 29);">Complete</Btn>
+                                        <input type="number" placeholder="Enjoyment" min=1 max=10 v-model="typedValues[level.path].enjoyment">
+                                        <input type="number" placeholder="Percent" value="100" :min="level.percentToQualify" max=100 v-model="typedValues[level.path].percent">
+                                        <Btn style="background-color:rgb(27, 134, 29);" @click="complete(level.path, level.name)">Complete</Btn>
                                     </form>
                                     <div class="extra-stats-container" v-if="hovered === i">
                                         <ul class="extra-stats">
@@ -70,12 +75,8 @@ export default {
                                                 <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
                                             </li>
                                             <li>
-                                                <div class="type-title-sm">ID</div>
-                                                <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-                                            </li>
-                                            <li>
-                                                <div class="type-title-sm">Password</div>
-                                                <p>{{ level.password || 'Free to Copy' }}</p>
+                                                <div class="type-title-sm">List%</div>
+                                                <p>{{ level.percentToQualify }}%</p>
                                             </li>
                                             <li>
                                                 <div class="type-title-sm">Enjoyment</div>
@@ -106,6 +107,7 @@ export default {
         allUsers: [],
         loggedIn: null,
         loggingIn: "",
+        typedValues: {},
         completed: {},
         loading: true,
         hovered: null,
@@ -163,6 +165,22 @@ export default {
             this.loggedIn = null;
             localStorage.removeItem("record_user");
             return;
+        },
+        complete(path, name) {
+            this.completed.push({
+                path: path,
+                ...this.typedValues[path]
+            })
+        },
+        initializeTypedValues(path) {
+            console.log('test')
+            this.typedValues[path] = {
+                enjoyment: null,
+                percent: null,
+            };
+        },
+        uncomplete(path) {
+            delete this.completed[path];
         }
     },
 
@@ -173,6 +191,10 @@ export default {
         }
 
         this.list = this.store.list
+        for (const [err, rank, level] of this.list) {
+            if (!level.path) continue;
+            this.initializeTypedValues(level.path)
+        }
 
         const allUsers = await fetchUsers()
         this.allUsers = allUsers
