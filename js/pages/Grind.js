@@ -39,8 +39,9 @@ export default {
                         <Btn @click="importFromFile()" style="margin-right: 0.3rem;">Import</Btn>
                         <Btn @click="saveToFile()" v-if="completed.levels.length > 0">Export</Btn>
                         <br>
-                        <Btn @click="submit()">Submit</Btn>
-                        <br>
+                        <Btn @click="submit()" v-if="completed.levels.length > 0">Submit</Btn>
+                        <Btn v-if="pressedSubmit">Open Form</Btn>
+                        <br v-if="completed.levels.length > 0">
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
                         <h2>Completed:</h2>
                         <p v-if="completed.length === 0">None!</p>
@@ -115,6 +116,7 @@ export default {
         allUsers: [],
         loggedIn: null,
         loggingIn: "",
+        pressedSubmit: false,
         typedValues: {},
         completed: {
             name: "",
@@ -227,22 +229,20 @@ export default {
             
         },
         async submit() {
+            this.pressedSubmit = true;
             const compressed = compressData(JSON.stringify(this.completed))
-            const req = await fetch("https://file.io/", {
+            const randomString = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+            const randomNumber2 = Math.floor(Math.random() * 1000000);
+            const url = `https://filebin.net/${randomString}/${randomNumber2}`
+            const req = await fetch(url, {
                 method: "POST",
-                body: {
-                    file: compressed,
-                    maxDownloads: 99,
-                    autoDelete: false,
-                },
-                headers: {
-                    "Content-Type": "multipart/form-data"
-                }
+                body: compressed,
             });
             const res = await req.json();
-            if (res.success) {
-                await copyURL(res.link)
-                alert("File uploaded successfully: " + res.link);
+            console.log()
+            if (req.status === 201) {
+                await copyURL(url);
+                alert("File uploaded successfully and copied to clipboard!\n" + url);
             } else {
                 alert("File upload failed: " + res.message);
             }
@@ -287,7 +287,8 @@ export default {
                         else
                             alert("This file has levels you already have records on! Maybe you uploaded the wrong file?")
                     } catch (error) {
-                        alert("Failed to import file: " + error.message);
+                        console.error(`Failed to import: ${error.message}`)
+                        alert("Failed to import file, maybe you uploaded the wrong one?");
                     }
                 };
                 reader.readAsText(file);
