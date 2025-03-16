@@ -17,11 +17,10 @@ export default {
             <div v-if="!loggedIn" class="login-container">
                 <h1>Login</h1>
                 <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username" v-model="loggingIn"><br><br>
-                <div v-if="loggingIn && (loggingIn !== '')" class="user-suggest">
-                    <p v-for="user in allUsers">
+                <input type="text" id="username" name="username" class="search" v-model="loggingIn" autocomplete="off"><br><br>
+                <div class="user-suggest">
+                    <p v-for="(user, i) in filteredUsers">
                         <span 
-                            v-if="user.toLowerCase().includes(loggingIn.toLowerCase())" 
                             @click.native.prevent="login(user)"
                             >
                             {{ user }}
@@ -29,8 +28,12 @@ export default {
                     </p>
                 </div>
             </div>
-            <div v-else>
-                <p>Logged in: {{ loggedIn }}
+            <div v-else class="grind-page-container-full">
+                <div class="left-side">
+                    <p>Logged in: {{ loggedIn }}</p>
+                </div>
+                <div class="main-grind-list">
+                </div>
             </div>
         </main>
     `,
@@ -44,6 +47,16 @@ export default {
         completed: {},
         loading: true,
     }),
+
+    computed: {
+        filteredUsers() {
+            if (!this.loggingIn.trim()) return this.allUsers.slice(0, 25);
+
+            const filtered = this.allUsers.filter((user) => user.toLowerCase().includes(this.loggingIn.toLowerCase()))
+
+            return filtered;
+        }
+    },
 
     methods: { 
         localize,
@@ -77,5 +90,23 @@ export default {
 
         // Hide loading spinner
         this.loading = false;
+    },
+
+    watch: {
+        store: {
+            handler(updated) {
+                this.list = updated.list;
+                this.staff = updated.staff;
+                updated.errors.forEach(err => {
+                    this.errors.push(`Failed to load level. (${err}.json)`);
+                })
+            },
+            deep: true
+        },
+        loggedIn: {
+            handler(updated)  {
+                localStorage.setItem("record_user", updated)
+            }
+        }
     },
 };

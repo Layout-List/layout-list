@@ -1,11 +1,36 @@
 main.grind-page {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     text-align: center;
 }
 .login-container {
     display: block;
     margin: 3rem;
+    gap: 5rem;
+}
+
+.login-container > * {
+    padding: 0.5rem;
+}
+
+.login-container > h1 {
+    padding-top: 1rem;
+    padding-top: 1rem;
+}
+
+.user-suggest > * {
+    margin-bottom: 0.5rem;
+}
+
+.left-side {
+    float: left;
+    height: 100%;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+}
+
+.main-grind-list {
+    float: left;
+    height: 100%
 }

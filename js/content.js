@@ -688,5 +688,8 @@ export async function fetchUsers() {
     })
     
     const userArray = Array.from(users)
+
+    const uniqueUsers = Array.from(new Set(userArray.map(user => user.toLowerCase())));
+
     return userArray
 }
