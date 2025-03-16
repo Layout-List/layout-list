@@ -1,5 +1,5 @@
 import { store } from '../main.js'
-import { localize } from '../util.js';
+import { localize, getThumbnailFromId, getYoutubeIdFromUrl } from '../util.js';
 import { fetchUsers } from '../content.js'
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
@@ -16,23 +16,56 @@ export default {
         <main v-else class="grind-page">
             <div v-if="!loggedIn" class="login-container">
                 <h1>Login</h1>
-                <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username" class="search" v-model="loggingIn" autocomplete="off"><br><br>
+                <input type="text" id="username" name="username" placeholder="Username" class="search" v-model="loggingIn" autocomplete="off"><br><br>
                 <div class="user-suggest">
-                    <p v-for="(user, i) in filteredUsers">
+                    <h3 v-for="(user, i) in filteredUsers" class="suggested-user">
                         <span 
                             @click.native.prevent="login(user)"
                             >
                             {{ user }}
                         </span>
-                    </p>
+                    </h3>
                 </div>
             </div>
             <div v-else class="grind-page-container-full">
-                <div class="left-side">
-                    <p>Logged in: {{ loggedIn }}</p>
-                </div>
-                <div class="main-grind-list">
+                <div class="page-leaderboard">
+                    <div class="board-container grind-meta">
+                        <p>Logged in: {{ loggedIn }}</p>
+                        <Btn @click="logout()">Logout</Btn>
+                    </div>
+                    <div class="player-container uncompleted-container">
+                        <div v-for="[err, rank, level] in uncompletedList">
+                            <div class="grind-level-container">
+                                <!-- Current Level -->
+                                <div class="level">
+                                    <a :href="level.verification" v-if="level.verification" target="_blank" class="video">
+                                        <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.verification))" alt="">
+                                    </a>
+                                    <div class="meta">
+                                        <div>
+                                            <div class="rank-container">
+                                                <p>#{{ level.rank }}</p>
+                                            </div>
+                                            <div class="nong-container">
+                                                <p v-if="level.songLink">Nong: <a class="director" :href="level.songLink" target="_blank">{{ level.song }}</a></p>
+                                            </div>
+                                        </div>
+                                        <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
+                                        <div>
+                                            <div style="display: inline-block; width: 50%;">
+                                                <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="actions grind-actions">
+                                        <input type="number" placeholder="Enjoyment" min=1 max=10>
+                                        <input type="number" placeholder="Percent" value="100" max=100>
+                                        <Btn style="background-color:rgb(27, 134, 29);">Complete</Btn>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -46,6 +79,7 @@ export default {
         loggingIn: "",
         completed: {},
         loading: true,
+        listLoading: true,
     }),
 
     computed: {
@@ -55,12 +89,31 @@ export default {
             const filtered = this.allUsers.filter((user) => user.toLowerCase().includes(this.loggingIn.toLowerCase()))
 
             return filtered;
+        },
+        uncompletedList() {
+            if (!this.loggedIn) return;
+            let list = this.list;
+            list = list.filter(([err, rank, level]) => {
+                if (!rank) return false;
+                const selfVerified = level.verifier.toLowerCase().trim() === this.loggedIn.toLowerCase()
+                const hasRecord = level.records.some(
+                    (record) => 
+                        record.user.toLowerCase().trim() === this.loggedIn.toLowerCase() &&
+                        record.percent === 100
+                )
+
+                if (!selfVerified && !hasRecord) return true;
+            })
+
+            return list.reverse();
         }
     },
 
     methods: { 
         localize,
         fetchUsers,
+        getThumbnailFromId,
+        getYoutubeIdFromUrl,
         scrollToSelected() {
             this.$nextTick(() => {
                 const selectedElement = this.$refs.selected;
@@ -71,6 +124,12 @@ export default {
         },
         login(toLogin) {
             this.loggedIn = toLogin;
+            localStorage.setItem("record_user", toLogin)
+            return;
+        },
+        logout() {
+            this.loggedIn = null;
+            localStorage.removeItem("record_user");
             return;
         }
     },
@@ -85,8 +144,6 @@ export default {
 
         const allUsers = await fetchUsers()
         this.allUsers = allUsers
-
-        console.log(this.allUsers)
 
         // Hide loading spinner
         this.loading = false;
@@ -103,10 +160,5 @@ export default {
             },
             deep: true
         },
-        loggedIn: {
-            handler(updated)  {
-                localStorage.setItem("record_user", updated)
-            }
-        }
     },
 };
