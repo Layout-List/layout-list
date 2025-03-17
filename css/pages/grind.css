@@ -82,7 +82,7 @@ main.grind-page {
     gap: 1rem;
     order: -1;
 }
-.grind-level-container .level .actions input[type="number"] {
+.grind-level-container .level .actions input {
     border: none;
     border-radius: 0.5rem;
     padding: 0.7rem;
@@ -91,7 +91,7 @@ main.grind-page {
     color: white;
     width: 4rem;
 }
-.grind-level-container .level .actions input[type="number"]::placeholder {
+.grind-level-container .level .actions input::placeholder {
     color: #7487aa;
 }
 .grind-level-container .results {

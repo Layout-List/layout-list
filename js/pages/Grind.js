@@ -47,7 +47,7 @@ export default {
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
                         <h2>Completed:</h2>
                         <p v-if="completed.length === 0">None!</p>
-                        <p v-else v-for="level in completed.levels">{{ level.name }} {{ level.percent }}% ({{ level.enjoyment }}/10)</p>
+                        <p v-else v-for="level in completed.levels">{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }}</p>
                     </div>
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
@@ -74,9 +74,11 @@ export default {
                                         </div>
                                     </div>
                                     <form class="actions grind-actions">
-                                        <input type="number" placeholder="Enjoyment" min=1 max=10 v-model="typedValues[level.path].enjoyment">
+                                        <!-- this is a string so the site can handle people typing the other half of the fraction
+                                             (since the text box itself won't stop a user from doing that) -->
+                                        <input type="text" placeholder="Enjoyment (number only)" v-model="typedValues[level.path].enjoyment">
                                         <input type="number" placeholder="Percent" value="100" :min="level.percentToQualify" max=100 v-model="typedValues[level.path].percent">
-                                        <Btn v-if="!completed.levels?.some((completedLevel) => level.path === completedLevel.path)" style="background-color:rgb(27, 134, 29);" @click.native.prevent="complete(level.path, level.name)">Complete</Btn>
+                                        <Btn v-if="!completed.levels?.some((completedLevel) => level.path === completedLevel.path)" style="background-color:rgb(27, 134, 29);" @click.native.prevent="complete(level)">Complete</Btn>
                                         <Btn v-else style="background-color:rgb(196, 27, 27);" @click.native.prevent="uncomplete(level.path)">Uncomplete</Btn>
                                     </form>
                                     <div class="extra-stats-container" v-if="hovered === i">
@@ -98,7 +100,7 @@ export default {
                                         <ul class="extra-stats">
                                             <li>
                                                 <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
-                                                <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                                                <p class="director" v-if="level.songLink"><a target="_blank" :href="getSongDownload(level.songLink)" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                                                 <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                                             </li>
                                         </ul>
@@ -167,6 +169,7 @@ export default {
         getYoutubeIdFromUrl,
         score,
         averageEnjoyment,
+        copyURL,
         scrollToSelected() {
             this.$nextTick(() => {
                 const selectedElement = this.$refs.selected;
@@ -176,6 +179,20 @@ export default {
             });
         },
         login(toLogin) {
+            if (this.completed.length > 0) {
+                const invalidFile = this.completed.levels.some(level =>
+                    !this.uncompletedList.some(uncompleted => uncompleted[2].path === level.path)
+                );
+                if (invalidFile) {
+                    if (!confirm("WARNING: You already have records on some levels in your save file. Continuing will remove these levels from your save file. Are you sure you want to continue?")) {
+                        return;
+                    } else {
+                        this.completed.levels = this.completed.levels.filter(level =>
+                            this.uncompletedList.some(uncompleted => uncompleted[2].path === level.path)
+                        );
+                    }
+                }
+            }
             this.loggedIn = toLogin;
             localStorage.setItem("record_user", toLogin)
             return;
@@ -185,32 +202,48 @@ export default {
             localStorage.removeItem("record_user");
             return;
         },
-        complete(path, name) {
+        complete(level) {
 
-            if (!this.typedValues[path].enjoyment || 
-                !this.typedValues[path].percent)
+            const path = level.path
+
+            if (!this.typedValues[path].percent)
+                return;
+            
+            if (this.typedValues[path].percent < (level.percentToQualify || 100) ||
+                this.typedValues[path].percent > 100)
                 return;
 
-            if (this.typedValues[path].enjoyment < 0 ||
-                this.typedValues[path].enjoyment > 10)
+            if (!Number.isInteger(this.typedValues[path].percent))
                 return;
+            
+            if (this.typedValues[path].enjoyment) {
+                
+                const mainString = this.typedValues[path].enjoyment.trim()
+                const enjoymentMatch = mainString.match(/^(\d+)(?:\s*\/\s*\d+)?$/);
+                if (enjoymentMatch) {
+                    this.typedValues[path].enjoyment = parseInt(enjoymentMatch[1], 10);
+                } else {
+                    return;
+                }
 
-            if (!Number.isInteger(this.typedValues[path].enjoyment) || 
-                !Number.isInteger(this.typedValues[path].percent))
-                return;
+                if (!Number.isInteger(this.typedValues[path].enjoyment))
+                    return;
+
+                if (this.typedValues[path].enjoyment < 0 ||
+                    this.typedValues[path].enjoyment > 10)
+                    return;
+            }
+
 
             this.completed.levels.push({
                 path: path,
-                name: name,
+                name: level.name,
                 ...this.typedValues[path]
             })
+
+            this.typedValues[path].enjoyment = null;
+            this.typedValues[path].percent = null;
             return;
-        },
-        initializeTypedValues(path) {
-            this.typedValues[path] = {
-                enjoyment: null,
-                percent: null,
-            };
         },
         uncomplete(path) {
             const index = this.completed.levels.findIndex((level) => level.path === path);
@@ -227,9 +260,6 @@ export default {
             a.download = 'LL_grind_save_' + Date.now() + '.txt';
             a.click();
             URL.revokeObjectURL(url);
-        },
-        promptGlobalData() {
-            
         },
         async submit() {
             this.pressedSubmit = true;
@@ -283,7 +313,7 @@ export default {
                     try {
                         const decompressed = decompressData(e.target.result);
                         const parsed = JSON.parse(decompressed);
-                        const invalidFile = parsed.levels.every(level => 
+                        const invalidFile = parsed.levels.some(level => 
                             !this.uncompletedList.some(uncompleted => uncompleted[2].path === level.path)
                         );
                         if (!invalidFile)
@@ -298,6 +328,12 @@ export default {
                 reader.readAsText(file);
             };
             input.click();
+        },
+        getSongDownload(link) {
+            if (!link.includes('drive.google.com')) return link;
+            const id = link.match(/[-\w]{25,}/)?.[0];
+            if (id === undefined) return link;
+            return `https://drive.usercontent.google.com/uc?id=${id}&export=download`;
         }
     },
 
@@ -317,7 +353,10 @@ export default {
         this.list = this.store.list
         for (const [err, rank, level] of this.list) {
             if (!level.path) continue;
-            this.initializeTypedValues(level.path)
+            this.typedValues[level.path] = {
+                enjoyment: null,
+                percent: null,
+            };
         }
 
         const allUsers = await fetchUsers()
@@ -335,13 +374,14 @@ export default {
                 updated.errors.forEach(err => {
                     this.errors.push(`Failed to load level. (${err}.json)`);
                 })
+                return;
             },
             deep: true
         },
         completed: {
             handler(updated) {
-                const compresed = 
                 localStorage.setItem("grind_completed", compressData(JSON.stringify(this.completed)))
+                return;
             },
             deep: true
         }
