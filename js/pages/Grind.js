@@ -259,7 +259,7 @@ export default {
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'LL_grind_save_' + Date.now() + '.txt';
+            a.download = this.loggedIn + "_" + Date.now() + '.llsave';
             a.click();
             URL.revokeObjectURL(url);
         },
@@ -300,7 +300,7 @@ export default {
         importFromFile() {
             const input = document.createElement('input');
             input.type = 'file';
-            input.accept = '.txt';
+            input.accept = '.llsave';
             input.onchange = async (event) => {
                 const file = event.target.files[0];
                 if (!file) return;
