@@ -20,7 +20,8 @@ export default {
                 <h1>Login</h1>
                 <input type="text" id="username" name="username" placeholder="Username" class="search" v-model="loggingIn" autocomplete="off"><br><br>
                 <div class="user-suggest">
-                    <h3 v-for="(user, i) in filteredUsers" class="suggested-user">
+                    <Btn v-if="loggingIn !== '' && filteredUsers.length === 0" @click.native.prevent="login(loggingIn)">Start</Btn>
+                    <h3 v-else-if="loggingIn !== ''" v-for="(user, i) in filteredUsers" class="director">
                         <span 
                             @click.native.prevent="login(user)"
                             >
@@ -195,6 +196,7 @@ export default {
             }
             this.loggedIn = toLogin;
             localStorage.setItem("record_user", toLogin)
+            this.loggingIn = "";
             return;
         },
         logout() {

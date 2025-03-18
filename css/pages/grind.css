@@ -19,6 +19,7 @@ main.grind-page {
 }
 
 .user-suggest > * {
+    cursor: pointer;
     margin-bottom: 0.7rem;
 }
 
