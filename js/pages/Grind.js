@@ -357,7 +357,7 @@ export default {
             if (!level.path) continue;
             this.typedValues[level.path] = {
                 enjoyment: null,
-                percent: null,
+                percent: 100,
             };
         }
 
