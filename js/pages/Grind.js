@@ -41,9 +41,6 @@ export default {
                         <Btn @click="saveToFile()" v-if="completed.levels.length > 0">Export</Btn>
                         <br>
                         <Btn @click="submit()" v-if="completed.levels.length > 0">Submit</Btn>
-                        <a :href="formUrl" target="_blank">
-                            <Btn v-if="pressedSubmit">Open Form</Btn>
-                        </a>
                         <br v-if="completed.levels.length > 0">
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
                         <h2>Completed:</h2>
@@ -64,7 +61,7 @@ export default {
                                                 <p>#{{ level.rank }} - {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</p>
                                             </div>
                                             <div class="nong-container">
-                                                <p @mouseover="hovered = i" v-if="!(completed.levels?.some((completedLevel) => level.path === completedLevel.path))">More info</p>
+                                                <p class="director" @click="hovered = i" v-if="!(completed.levels?.some((completedLevel) => level.path === completedLevel.path))">More info</p>
                                             </div>
                                         </div>
                                         <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
@@ -122,18 +119,13 @@ export default {
         loggedIn: null,
         formUrl: "https://forms.gle/",
         loggingIn: "",
-        pressedSubmit: false,
         typedValues: {},
         completed: {
             name: "",
-            mobile: false,
-            video: "",
             levels: []
         },
-        serverRes: {},
         loading: true,
         hovered: null,
-        listLoading: true,
     }),
 
     computed: {
@@ -196,6 +188,7 @@ export default {
             }
             this.loggedIn = toLogin;
             localStorage.setItem("record_user", toLogin)
+            this.completed.name = toLogin;
             this.loggingIn = "";
             return;
         },
@@ -252,7 +245,7 @@ export default {
             if (index !== -1) {
                 this.completed.levels.splice(index, 1);
             }
-            this.typedValues[path].percent = 1000;
+            this.typedValues[path].percent = 100;
             return;
         },
         saveToFile() {
@@ -292,11 +285,10 @@ export default {
             }
             localStorage.removeItem("grind_completed");
             this.completed = {
-                name: "",
-                mobile: false,
-                video: "",
+                name: this.loggedIn,
                 levels: []
             }
+            this,initTypedValues()
             return;
         },
         importFromFile() {
@@ -338,6 +330,15 @@ export default {
             const id = link.match(/[-\w]{25,}/)?.[0];
             if (id === undefined) return link;
             return `https://drive.usercontent.google.com/uc?id=${id}&export=download`;
+        },
+        initTypedValues() {
+            for (const [err, rank, level] of this.list) {
+                if (!level.path) continue;
+                this.typedValues[level.path] = {
+                    enjoyment: null,
+                    percent: 100,
+                };
+            }
         }
     },
 
@@ -355,13 +356,7 @@ export default {
         }
 
         this.list = this.store.list
-        for (const [err, rank, level] of this.list) {
-            if (!level.path) continue;
-            this.typedValues[level.path] = {
-                enjoyment: null,
-                percent: 100,
-            };
-        }
+        this.initTypedValues()
 
         const allUsers = await fetchUsers()
         this.allUsers = allUsers
