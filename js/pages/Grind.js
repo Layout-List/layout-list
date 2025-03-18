@@ -252,6 +252,8 @@ export default {
             if (index !== -1) {
                 this.completed.levels.splice(index, 1);
             }
+            this.typedValues[path].percent = 1000;
+            return;
         },
         saveToFile() {
             const compresed = compressData(JSON.stringify(this.completed))
