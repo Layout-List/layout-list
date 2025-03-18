@@ -76,7 +76,7 @@ export default {
                                     <form class="actions grind-actions">
                                         <!-- this is a string so the site can handle people typing the other half of the fraction
                                              (since the text box itself won't stop a user from doing that) -->
-                                        <input type="text" placeholder="Enjoyment (number only)" v-model="typedValues[level.path].enjoyment">
+                                        <input type="text" placeholder="Enjoyment" v-model="typedValues[level.path].enjoyment">
                                         <input type="number" placeholder="Percent" value="100" :min="level.percentToQualify" max=100 v-model="typedValues[level.path].percent">
                                         <Btn v-if="!completed.levels?.some((completedLevel) => level.path === completedLevel.path)" style="background-color:rgb(27, 134, 29);" @click.native.prevent="complete(level)">Complete</Btn>
                                         <Btn v-else style="background-color:rgb(196, 27, 27);" @click.native.prevent="uncomplete(level.path)">Uncomplete</Btn>
