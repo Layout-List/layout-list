@@ -306,8 +306,8 @@ export default {
                 if (!file) return;
 
                 const fileName = file.name;
-                if (!fileName.startsWith("LL_grind_save_")) {
-                    alert(`This file has an invalid name! If you renamed it, please change it to "LL_grind_save_"`)
+                if (!fileName.endsWith('.llsave')) {
+                    alert("This file is not a .llsave file! Maybe you uploaded the wrong one?");
                     return;
                 }
                 const reader = new FileReader();
