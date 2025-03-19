@@ -839,6 +839,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/Quj75Xzaqlw?si=7bm5qC2gvr9cDGv7",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
