@@ -188,7 +188,6 @@ export default {
             }
             this.loggedIn = toLogin;
             localStorage.setItem("record_user", toLogin)
-            this.completed.name = toLogin;
             this.loggingIn = "";
             return;
         },
@@ -198,7 +197,6 @@ export default {
             return;
         },
         complete(level) {
-
             const path = level.path
 
             if (!this.typedValues[path].percent)
@@ -259,6 +257,8 @@ export default {
             URL.revokeObjectURL(url);
         },
         async submit() {
+            this.completed.name = this.loggedIn
+            console.log(this.completed)
             this.pressedSubmit = true;
             const compressed = compressData(JSON.stringify(this.completed))
             const randomString = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
