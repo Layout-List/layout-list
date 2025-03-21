@@ -248,11 +248,21 @@ main.grind-page {
 @media only screen and (max-device-width: 480px) {
     .extra-stats-container {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         float: none;
     }
 
     .extra-stats-container > * {
         float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .level .meta {
+        align-items: center;
+        text-align: center;
     }
 }
