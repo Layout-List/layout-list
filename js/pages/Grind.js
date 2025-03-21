@@ -158,7 +158,7 @@ export default {
         loading: true,
         hovered: null,
         hideUncompleted: false,
-        clickedOnTheInfoThing: true,
+        clickedOnTheInfoThing: false,
         lastScrollPosition: 0,
     }),
 
