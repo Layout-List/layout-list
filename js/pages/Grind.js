@@ -45,7 +45,9 @@ export default {
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
                         <h2>Completed:</h2>
                         <p v-if="completed.length === 0">None!</p>
-                        <p v-else v-for="level in completed.levels">{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }}</p>
+                        <p v-else v-for="level in completed.levels">{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
+                        <br>
+                        <h3 v-if="completed.levels.length > 0">Total: +{{ totalPoints }} pts</h3>
                     </div>
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
@@ -152,6 +154,9 @@ export default {
             })
 
             return list.reverse();
+        },
+        totalPoints() {
+            return this.completed.levels.reduce((total, level) => total + (level.pts || 0), 0);
         }
     },
 
@@ -231,6 +236,7 @@ export default {
             this.completed.levels.push({
                 path: path,
                 name: level.name,
+                pts: score(level.rank, level.difficulty, this.typedValues[path].percent, level.percentToQualify, this.list),
                 ...this.typedValues[path]
             })
 
