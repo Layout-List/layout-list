@@ -207,7 +207,7 @@ main.grind-page {
 }
 
 .extra-stats-container {
-    width: 350%;
+    width: 48vw;
     display: flex;
     justify-content: right;
     align-items: right;
@@ -245,19 +245,8 @@ main.grind-page {
     margin-top: 1.3rem;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 1300px) {
     .extra-stats-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        float: none;
-    }
-
-    .extra-stats-container > * {
-        float: none;
-        margin: 0 auto;
-        text-align: center;
+        width: 60vw
     }
 }

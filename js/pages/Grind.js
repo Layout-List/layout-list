@@ -233,6 +233,7 @@ export default {
             return;
         },
         complete(level) {
+            this.hovered = null;
             const path = level.path
 
             if (!this.typedValues[path].percent)
