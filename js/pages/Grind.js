@@ -263,10 +263,12 @@ export default {
             URL.revokeObjectURL(url);
         },
         async submit() {
-            this.completed.name = this.loggedIn
-            console.log(this.completed)
+            // ???!?!?!?!??!?!?
+            const completedOnSubmit = JSON.parse(JSON.stringify(this.completed));
+            await completedOnSubmit.levels.map((level) => delete level.pts)
+            completedOnSubmit.name = this.loggedIn
             this.pressedSubmit = true;
-            const compressed = compressData(JSON.stringify(this.completed))
+            const compressed = compressData(JSON.stringify(completedOnSubmit))
             const randomString = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
             const randomNumber2 = Math.floor(Math.random() * 1000000);
             const url = `https://filebin.net/${randomString}/${randomNumber2}`
