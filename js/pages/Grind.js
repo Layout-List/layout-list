@@ -37,17 +37,44 @@ export default {
                         <p>{{ loggedIn }}</p>
                         <Btn @click="logout()">Logout</Btn>
                         <br>
+
                         <Btn @click="importFromFile()" style="margin-right: 0.3rem;">Import</Btn>
                         <Btn @click="saveToFile()" v-if="completed.levels.length > 0">Export</Btn>
                         <br>
+
                         <Btn @click="submit()" v-if="completed.levels.length > 0">Submit</Btn>
                         <br v-if="completed.levels.length > 0">
+
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
-                        <h2>Completed:</h2>
-                        <p v-if="completed.length === 0">None!</p>
-                        <p v-else v-for="level in completed.levels">{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
-                        <br>
+
+                        <h2 v-if="completed.levels.length > 0">Completed:</h2>
+                        <div class="completed-levels-container">
+                            <p v-else v-for="level in completed.levels" >{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
+                        </div>
+                        <br v-if="completed.levels.length > 0">
                         <h3 v-if="completed.levels.length > 0">Total: +{{ totalPoints }} pts</h3>
+                        <br>
+                        <h3 
+                            class="director" 
+                            style="text-decoration: underline;" 
+                            @click="clickedOnTheInfoThing = !clickedOnTheInfoThing"
+                        >
+                        What is this?
+                        </h3>
+                        <div v-if="clickedOnTheInfoThing" class="left-info-box">
+                            <p>
+                                This page keeps track of what you haven't completed on the list yet, and can generate a link for easy record submitting.
+                                When you beat a level, you can mark it as completed and set your enjoyment (and percentage, if it isn't 100%).
+                            </p>
+                            <p>
+                                Your data saves to your browser, but you can manually export it to a file as a backup above.
+                            </p>
+                            <p>
+                                When you're ready to submit your records to be added, click "Submit" and paste the link to the <a :href="formUrl" class="director">Google form</a>. Be sure to select the "Grind page" option in the form.
+                            </p>
+
+                        </div>
+                        
                     </div>
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
@@ -95,6 +122,11 @@ export default {
                                                 <div class="type-title-sm">Enjoyment</div>
                                                 <p>{{ averageEnjoyment(level.records) }}/10</p>
                                             </li>
+                                        </ul>
+                                    </div>
+                                    <br v-if="hovered === i">
+                                    <div class="extra-stats-container" v-if="hovered === i">
+                                        <ul class="extra-stats">
                                             <li>
                                                 <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
                                                 <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
@@ -102,6 +134,7 @@ export default {
                                             </li>
                                         </ul>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -125,6 +158,8 @@ export default {
         },
         loading: true,
         hovered: null,
+        hideUncompleted: false,
+        clickedOnTheInfoThing: true,
     }),
 
     computed: {

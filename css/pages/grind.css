@@ -1,7 +1,8 @@
 main.grind-page {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 64px); /* Subtract header height */
+    overflow: hidden;
 }
 .login-container {
     display: block;
@@ -23,11 +24,32 @@ main.grind-page {
     margin-bottom: 0.7rem;
 }
 
+.grind-page-container-full {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.grind-page-container-full .page-leaderboard {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .grind-meta {
-    float: left;
+    width: 300px;
+    flex-shrink: 0;
     height: 100%;
     padding-block: 2rem;
     padding-inline: 4rem;
+    overflow-y: auto;
+    border-right: 1px solid var(--color-background-hover);
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.grind-meta::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 .grind-meta > * {
     margin-top: 0.7rem;
@@ -201,4 +223,24 @@ main.grind-page {
 
 .rank-container {
     white-space: nowrap;
+}
+
+.left-info-box > * {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.left-info-box::last-child {
+    margin-bottom: 3rem;
+}
+
+.uncompleted-container {
+    flex: 0 1 800px; /* This replaces "flex: 1" and sets a max-width of 800px */
+    height: 100%;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.completed-levels-container > * {
+    margin-top: 1.3rem;
 }
