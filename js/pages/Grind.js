@@ -56,8 +56,7 @@ export default {
                         <br>
                         <h3 
                             class="director" 
-                            style="text-decoration: underline;" 
-                            @click="clickedOnTheInfoThing = !clickedOnTheInfoThing"
+                            @click="toggleInfoBox()"
                         >
                         What is this?
                         </h3>
@@ -160,6 +159,7 @@ export default {
         hovered: null,
         hideUncompleted: false,
         clickedOnTheInfoThing: true,
+        lastScrollPosition: 0,
     }),
 
     computed: {
@@ -382,7 +382,15 @@ export default {
                     percent: 100,
                 };
             }
-        }
+        },
+        toggleInfoBox() {
+            const container = document.querySelector('.grind-meta');
+            this.lastScrollPosition = container.scrollTop;
+            this.clickedOnTheInfoThing = !this.clickedOnTheInfoThing;
+            this.$nextTick(() => {
+                container.scrollTop = this.lastScrollPosition;
+            });
+        },
     },
 
     async mounted() {
