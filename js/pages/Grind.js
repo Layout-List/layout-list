@@ -63,7 +63,7 @@ export default {
                                                 <p>#{{ level.rank }} - {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</p>
                                             </div>
                                             <div class="nong-container">
-                                                <p class="director" @click="hovered = i" v-if="!(completed.levels?.some((completedLevel) => level.path === completedLevel.path))">More info</p>
+                                                <p class="director" @click="hovered = null; hovered = i" v-if="!(completed.levels?.some((completedLevel) => level.path === completedLevel.path))">More info</p>
                                             </div>
                                         </div>
                                         <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
@@ -229,6 +229,9 @@ export default {
 
                 if (!Number.isInteger(this.typedValues[path].enjoyment))
                     return;
+                    
+                alert(this.typedValues[path].enjoyment)
+                alert(typeof this.typedValues[path].enjoyment)
 
                 if (this.typedValues[path].enjoyment < 0)
                     this.typedValues[path].enjoyment = 0;
