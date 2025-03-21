@@ -227,9 +227,10 @@ export default {
                 if (!Number.isInteger(this.typedValues[path].enjoyment))
                     return;
 
-                if (this.typedValues[path].enjoyment < 0 ||
-                    this.typedValues[path].enjoyment > 10)
-                    return;
+                if (this.typedValues[path].enjoyment < 0)
+                    this.typedValues[path].enjoyment = 0;
+                if (this.typedValues[path].enjoyment > 10)
+                    this.typedValues[path.enjoyment] = 10
             }
 
 
