@@ -133,7 +133,6 @@ export default {
                                             </li>
                                         </ul>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>

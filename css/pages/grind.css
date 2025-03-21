@@ -244,3 +244,15 @@ main.grind-page {
 .completed-levels-container > * {
     margin-top: 1.3rem;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .extra-stats-container {
+        width: 100%;
+        justify-content: center;
+        float: none;
+    }
+
+    .extra-stats-container > * {
+        float: none;
+    }
+}
