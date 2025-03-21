@@ -231,11 +231,9 @@ export default {
                     return;
                     
                 if (this.typedValues[path].enjoyment < 0) {
-                    alert("less")
                     this.typedValues[path].enjoyment = 0;
                     }
                 if (this.typedValues[path].enjoyment > 10){
-                    alert("greater")
                     this.typedValues[path.enjoyment] = 10
                     }
             }
