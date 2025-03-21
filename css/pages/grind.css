@@ -260,9 +260,4 @@ main.grind-page {
         margin: 0 auto;
         text-align: center;
     }
-
-    .level .meta {
-        align-items: center;
-        text-align: center;
-    }
 }
