@@ -95,18 +95,12 @@ export default {
                                                 <div class="type-title-sm">Enjoyment</div>
                                                 <p>{{ averageEnjoyment(level.records) }}/10</p>
                                             </li>
-                                        </ul>
-                                    </div>
-                                    <br v-if="hovered === i">
-                                    <div class="extra-stats-container" v-if="hovered === i">
-                                        <ul class="extra-stats">
                                             <li>
                                                 <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
                                                 <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                                                 <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                                             </li>
                                         </ul>
-                                        <br>
                                     </div>
                                 </div>
                             </div>
