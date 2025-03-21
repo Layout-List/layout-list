@@ -161,12 +161,19 @@ main.grind-page {
 }
 
 .extra-stats {
-    float: center;
     display: flex;
-    width: 125%;
-    justify-content: left;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    gap: auto;
+}
+
+.extra-stats ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .extra-stats li {
@@ -178,9 +185,14 @@ main.grind-page {
 }
 
 .extra-stats-container {
-    width: 100%;
+    width: 350%;
+    display: flex;
     justify-content: right;
     align-items: right;
+    float: right;
+}
+.extra-stats-container > * {
+    float: center;
 }
 
 .level.completed {
