@@ -230,13 +230,12 @@ export default {
                 if (!Number.isInteger(this.typedValues[path].enjoyment))
                     return;
                     
-                alert(this.typedValues[path].enjoyment)
-                alert(typeof this.typedValues[path].enjoyment)
-
-                if (this.typedValues[path].enjoyment < 0)
+                if (this.typedValues[path].enjoyment < 0) {
                     this.typedValues[path].enjoyment = 0;
-                if (this.typedValues[path].enjoyment > 10)
+                    }
+                if (this.typedValues[path].enjoyment > 10){
                     this.typedValues[path.enjoyment] = 10
+                    }
             }
 
 
