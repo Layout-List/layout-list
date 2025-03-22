@@ -272,10 +272,10 @@ export default {
                     return;
                     
                 if (this.typedValues[path].enjoyment < 0) {
-                    this.typedValues[path].enjoyment = 0;
+                        this.typedValues[path].enjoyment = 0;
                     }
-                if (this.typedValues[path].enjoyment > 10){
-                    this.typedValues[path.enjoyment] = 10
+                if (this.typedValues[path].enjoyment > 10) {
+                        this.typedValues[path].enjoyment = 10
                     }
             }
 
