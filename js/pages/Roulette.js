@@ -2,6 +2,7 @@ import { store } from '../main.js';
 import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from '../util.js';
 import Spinner from '../components/Spinner.js';
 import Btn from '../components/Btn.js';
+import { fetchList } from '../content.js'
 
 
 export default {
@@ -155,7 +156,7 @@ export default {
 
             this.loading = true;
 
-            const fullList = (this.store.list).filter(([_, pos, __]) => pos !== null);
+            const fullList = (await fetchList()).filter(([_, pos, __]) => pos !== null);
 
 
             if (fullList.filter(([err, _]) => err).length > 0) {

@@ -7,7 +7,7 @@ console.clear();
 // the cached data if we push changes that would conflict with the old data, 
 // to prevent showing a billion error messages.
 export const version = 3.2
-const debug = false;
+const debug = true;
 
 export let store;
 
@@ -92,12 +92,13 @@ if (!debug) {
 
     // Decompress data when loading it from storage
     store = Vue.reactive({
-        loaded: false,
+        loaded: true,
         dark: JSON.parse(localStorage.getItem("dark")) || false,
         toggleDark() {
             this.dark = !this.dark;
             localStorage.setItem("dark", JSON.stringify(this.dark));
         },
+        /*
 
         list: localStorage.getItem("listdata")
             ? decompressData(localStorage.getItem("listdata"))
@@ -113,33 +114,41 @@ if (!debug) {
             : null,
         errors: [],
         version
+        */
     });
 } else {
+    /*
     const list = await fetchList();
     const leaderboard = await fetchLeaderboard(list);
     const packs = await fetchPacks(list);
     const staff = await fetchStaff();
+    */
     store = Vue.reactive({
-        loaded: false,
+        loaded: true,
         dark: JSON.parse(localStorage.getItem("dark")) || false,
         toggleDark() {
             this.dark = !this.dark;
             localStorage.setItem("dark", JSON.stringify(this.dark));
         },
-
+        /*
         list,
         staff,
         packs,
         leaderboard,
         errors: [],
         version
+        */
+
     });
 }
 
 let app = Vue.createApp({
     data: () => ({ store }),
 
+    
     async mounted() {
+        return;
+        /*
         console.info("Pre-load completed, checking for new data...");
         store.loaded = true;
         // Update list if it's different than what's stored locally
@@ -175,7 +184,9 @@ let app = Vue.createApp({
         store.packs = updatedPacks;
         store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
         console.info("Up to date!");
+        */
     },
+    
 });
 
 const router = VueRouter.createRouter({history: VueRouter.createWebHashHistory(), routes});

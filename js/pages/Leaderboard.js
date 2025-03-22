@@ -5,6 +5,7 @@ import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import Scroll from '../components/Scroll.js'
+import { fetchLeaderboard, fetchList } from '../content.js';
 
 export default {
     components: { Spinner, Copy, Copied, Scroll },
@@ -224,7 +225,9 @@ export default {
 
     async mounted() {
         // Fetch leaderboard and errors from store
-        const [leaderboard, err] = this.store.leaderboard;
+        console.log('fetching list...')
+        const list = await fetchList()
+        const [leaderboard, err] = await fetchLeaderboard(list);
         this.leaderboard = leaderboard;
         this.err = err;
 

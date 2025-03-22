@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed, rgbaBind, copyURL } from "../util.js";
 import { score, packScore, lightPackColor, darkPackColor } from "../config.js";
-import { averageEnjoyment } from "../content.js";
+import { averageEnjoyment, fetchList, fetchPacks } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 import Copy from "../components/Copy.js";
@@ -312,7 +312,7 @@ export default {
 
     computed: {
         level() {
-            this.packs = this.store.packs;
+            // this.packs = this.store.packs;
             try {
                 return (
                     this.packs[this.selectedPackIndex].levels[this.selected] ||
@@ -350,19 +350,19 @@ export default {
 
     async mounted() {
         // Fetch list and packs from store
-        this.list = this.store.list;
-        this.packs = this.store.packs;
+        this.list = await fetchList();
+        this.packs = await fetchPacks(this.list);
 
         // Error handling
         if (!this.list || !this.packs || this.packs[0] === "err") {
             this.errors = [
                 "Failed to load list or packs. Retry in a few minutes or notify list staff.",
             ];
-        } else {
+        } /* else {
             this.store.errors.forEach((err) =>
                 this.errors.push(`Failed to load level. (${err}.json)`)
             );
-        }
+        } */
 
         // It's easier to initialize the site like this
         this.selectPack(0, this.packs[0]);
@@ -374,6 +374,7 @@ export default {
     },
 
     watch: {
+        /*
         store: {
             handler(updated) {
                 this.list = updated.list;
@@ -389,5 +390,6 @@ export default {
             },
             deep: true,
         },
+        */
     },
 };

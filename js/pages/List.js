@@ -1,7 +1,7 @@
 import { store } from '../main.js';
 import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor, aprilFoolsVideos } from '../config.js';
-import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchUsers } from '../content.js';
+import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchUsers, fetchStaff, fetchList } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
@@ -394,8 +394,9 @@ export default {
 
     async mounted() {
         // Fetch list from store
-        this.list = this.store.list;
-        this.staff = store.staff;
+        console.log('fetchList')
+        this.list = await fetchList();
+        this.staff = await fetchStaff();
         
         this.selectFromParam()
 
@@ -405,9 +406,11 @@ export default {
                 'Failed to load list. Retry in a few minutes or notify list staff.',
             ];
         } else {
+            /*
             this.store.errors.forEach((err) => 
                 this.errors.push(`Failed to load level. (${err}.json)`))
 
+            */
             if (!this.staff) {
                 this.errors.push('Failed to load list staff.');
             }
@@ -453,16 +456,19 @@ export default {
     },
 
     watch: {        
+        /*
         store: {
             handler(updated) {
                 this.list = updated.list;
                 this.staff = updated.staff;
-                updated.errors.forEach(err => {
+
+                updated.errors?.forEach(err => {
                     this.errors.push(`Failed to load level. (${err}.json)`);
                 })
                 this.selectFromParam()
             }, 
             deep: true
         }
+            */
     },
 };

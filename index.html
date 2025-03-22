@@ -76,9 +76,11 @@
                 </div>
             </nav>
         </header>
+        <!--
         <main :class="{ dark: store.dark }" v-if="!store.list || !store.loaded">
             <p class="spinner">Loading...</p>
         </main>
+        -->
         <router-view v-else :class="{ dark: store.dark }"></router-view>
     </body>
 </html>
