@@ -42,18 +42,24 @@ export default {
                         <Btn @click="saveToFile()" v-if="completed.levels.length > 0">Export</Btn>
                         <br>
 
-                        <Btn @click="submit()" v-if="completed.levels.length > 0">Submit</Btn>
+                        <Btn @click="submit()" v-if="completed.levels.length > 0">{{ submitLoading ? "Loading..." : "Get link" }}</Btn>
                         <br v-if="completed.levels.length > 0">
 
                         <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
 
                         <h2 v-if="completed.levels.length > 0">Completed:</h2>
                         <div class="completed-levels-container">
-                            <p v-else v-for="level in completed.levels" >{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
+                            <p v-for="level in completed.levels" >{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
                         </div>
                         <br v-if="completed.levels.length > 0">
                         <h3 v-if="completed.levels.length > 0">Total: +{{ totalPoints }} pts</h3>
                         <br>
+                        <div v-if="lastSubmission">
+                            <p v-if="copied === false" class="director" @click="copySubmission()" style="text-decoration: underline;">Previous submission link \n(click to copy)</p>
+                            <p v-else-if="copied === 'err'">Error copying to clipboard, please copy this link:\n{{ lastSubmission }}</p>
+                            <p v-else-if="copied === true" @click="copySubmission()" class="director" style="text-decoration: underline;">Copied!</p>
+                            <br>
+                        </div>
                         <h3 
                             class="director" 
                             @click="toggleInfoBox()"
@@ -66,10 +72,10 @@ export default {
                                 When you beat a level, you can mark it as completed and set your enjoyment (and percentage, if it isn't 100%).
                             </p>
                             <p>
-                                Your data saves to your browser, but you can manually export it to a file as a backup above.
+                                Your save data saves to your browser, but you can manually export it to a file as a backup above.
                             </p>
                             <p>
-                                When you're ready to submit your records to be added, click "Submit" and paste the link to the <a :href="formUrl" class="director">Google form</a>. Be sure to select the "Grind page" option in the form.
+                                When you're ready to submit your records to be added, click "Submit" and paste the link to the <a :href="formUrl" class="director" target="_blank">Google form</a>. Be sure to select the "Grind page" option in the form.
                             </p>
 
                         </div>
@@ -147,7 +153,7 @@ export default {
         list: [],
         allUsers: [],
         loggedIn: null,
-        formUrl: "https://forms.gle/",
+        formUrl: "https://forms.gle/kmesxiUQUEWC5ZuW9",
         loggingIn: "",
         typedValues: {},
         completed: {
@@ -159,6 +165,9 @@ export default {
         hideUncompleted: false,
         clickedOnTheInfoThing: false,
         lastScrollPosition: 0,
+        lastSubmissionLink: null,
+        copied: false,
+        submitLoading: false,
     }),
 
     computed: {
@@ -188,6 +197,9 @@ export default {
         },
         totalPoints() {
             return this.completed.levels.reduce((total, level) => total + (level.pts || 0), 0);
+        },
+        lastSubmission() {
+            return localStorage.getItem("last_submission_link")
         }
     },
 
@@ -299,8 +311,21 @@ export default {
         },
         async submit() {
             // ???!?!?!?!??!?!?
-            const completedOnSubmit = JSON.parse(JSON.stringify(this.completed));
-            await completedOnSubmit.levels.map((level) => delete level.pts)
+            this.submitLoading = true;
+            let completedOnSubmit = JSON.parse(JSON.stringify(this.completed));
+            await completedOnSubmit.levels.map((level) => {
+                delete level.pts
+            })
+            completedOnSubmit.levels = await completedOnSubmit.levels.filter((level) => {
+                return !this.list.find(([err, rank, current]) => 
+                    current.path === level.path && 
+                    (current.verifier.toLowerCase().trim() === this.loggedIn.toLowerCase() ||
+                    current.records.some(record => 
+                        record.user.toLowerCase().trim() === this.loggedIn.toLowerCase() &&
+                        record.percent === 100
+                    ))
+                )
+            })
             completedOnSubmit.name = this.loggedIn
             this.pressedSubmit = true;
             const compressed = compressData(JSON.stringify(completedOnSubmit))
@@ -312,10 +337,11 @@ export default {
                 body: compressed,
             });
             const res = await req.json();
-            console.log()
+            this.submitLoading = false;
             if (req.status === 201) {
                 await copyURL(url);
                 await alert("File uploaded successfully and copied to clipboard!\n" + url);
+                localStorage.setItem("last_submission_link", url)
                 window.open(this.formUrl, '_blank');
             } else {
                 alert("File upload failed: " + res.message);
@@ -391,6 +417,15 @@ export default {
                 container.scrollTop = this.lastScrollPosition;
             });
         },
+        async copySubmission() {
+            try {
+                await navigator.clipboard.writeText(this.lastSubmission)
+                this.copied = true
+            } catch (e) {
+                console.error(e)
+                this.copied = "err"
+            }
+        }
     },
 
     async mounted() {
