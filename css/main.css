@@ -200,6 +200,10 @@ input[type="checkbox"] {
     padding-bottom:2em
 }
 
+.director {
+    cursor: pointer;
+}
+
 .director:hover {
     text-decoration: underline;
 }

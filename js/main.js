@@ -12,7 +12,7 @@ const debug = false;
 export let store;
 
 // Compresses data passed to the function using Gzip
-function compressData(data) {
+export function compressData(data) {
     const jsonData = JSON.stringify(data);
     const compressed = pako.gzip(jsonData);
 
@@ -24,7 +24,7 @@ function compressData(data) {
 }
 
 // Decompressed data passed to the function using Gzip
-function decompressData(compressedData) {
+export function decompressData(compressedData) {
     const binaryString = atob(compressedData); // Decode base64
     const charData = Uint8Array.from(binaryString, (char) =>
         char.charCodeAt(0)
