@@ -33,6 +33,20 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "nerik",
+			"link": "https://youtu.be/wDTEm7amcy0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/J4u3A90L4UE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
