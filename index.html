@@ -55,17 +55,12 @@
                     <span class="type-label-lg">Packs</span>
                 </router-link>
                 <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    </button>
+                     <div class="color-picker-wrapper nav__icon">
+                        <img :src="store.dark ? '/assets/palette-dark.svg' : '/assets/palette.svg'" alt="Color Palette"/>
+                        <input type="color" class="nav__icon" v-model="selectedColor" v-if="store">
+                    </div>
                     <a class="nav__icon" href="https://discord.gg/K48VRsHsPE" target="_blank">
-                        <img src="/assets/discord.svg" alt="Discord Logo" />
+                        <img :src="!store.dark ? '/assets/discord-dark.svg' : '/assets/discord.svg'" alt="Discord Logo" />
                     </a>
                     <a
                         class="nav__cta type-label-lg"

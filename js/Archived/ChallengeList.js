@@ -99,7 +99,7 @@ export default {
                                 <p>{{ record.enjoyment }}/10</p>
                             </td>
                             <td class="mobile">
-                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${true ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}FPS</p>
@@ -130,7 +130,7 @@ export default {
                         <h3>LIST STAFF</h3>
                         <ol class="staff">
                             <li v-for="editor in staff">
-                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
+                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${true ? '-dark' : ''}.svg\`" :alt="editor.role">
                                 <a class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                             </li>
                         </ol>

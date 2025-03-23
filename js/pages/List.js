@@ -34,7 +34,7 @@ export default {
                 />
                 <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
             </div>
-            <div class="button-bar" :class="store.dark ? 'dark' : ''">
+            <div class="button-bar" :class="true ? 'dark' : ''">
                 <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
                 <select v-model="sortOption">
                     <option value="0">Ranking</option>
@@ -68,7 +68,7 @@ export default {
                         <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
                     </div>
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
-                        <a class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
+                        <a class="pack" v-for="pack in level.packs" :style="{ 'background': true ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                     </div>
                     <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
@@ -120,7 +120,7 @@ export default {
                                 </div>
                             </td>
                             <td class="mobile">
-                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
                             </td>
                             <td class="enjoyment">
                                 <p v-if="record.enjoyment === undefined">?/10</p>
@@ -163,7 +163,7 @@ export default {
                         <h3>List Staff</h3>
                         <ol class="staff">
                             <li v-for="editor in staff">
-                                <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
+                                <img :src="'/assets/' + roleIconMap[editor.role] + (true ? '-dark' : '') + '.svg'" :alt="editor.role">
                                 <a class="type-label-lg link director" target="_blank" :href="editor.link">{{ editor.name }}</a>
                             </li>
                         </ol>
