@@ -80,3 +80,13 @@
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
+
+.nav .nav__actions input[type='color'] {
+    border: 2px solid var(--color-background-hover);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    background-color: transparent;
+    cursor: pointer;
+}
