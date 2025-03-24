@@ -330,8 +330,9 @@ export default {
             this.pressedSubmit = true;
             const compressed = compressData(JSON.stringify(completedOnSubmit))
             const randomString = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+            const formattedDate = new Date().toISOString().slice(0,10).replace(/-/g,'');
             const randomNumber2 = Math.floor(Math.random() * 1000000);
-            const url = `https://filebin.net/${randomString}/${randomNumber2}`
+            const url = `https://filebin.net/${randomString}_${formattedDate}/${randomNumber2}`
             const req = await fetch(url, {
                 method: "POST",
                 body: compressed,
