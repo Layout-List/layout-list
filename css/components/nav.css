@@ -38,6 +38,22 @@
 .nav .nav__actions .nav__icon:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+.nav .nav__actions .nav__icon img {
+    height: 1.5rem;
+}
+
+.color-picker-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.color-picker-wrapper input[type='color'] {
+    position: relative;
+    z-index: 0;
+}
+
 .nav .nav__actions .nav__icon img {
     height: 1.5rem;
 }
@@ -79,4 +95,20 @@
 .nav .nav__actions2 .nav__cta2.router-link-active {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
+}
+
+.nav .nav__actions input[type='color'] {
+    cursor: pointer;
+    opacity: 0%;
+}
+
+.color-picker-wrapper img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 2.2rem;
+    width: 2.2rem;
+    pointer-events: none;
+    z-index: 1;
 }

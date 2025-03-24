@@ -193,6 +193,13 @@
 			"hz": 60,
 			"enjoyment": 8,
 			"mobile": true
+		},
+		{
+			"user": "Mayuviqq",
+			"link": "https://youtu.be/I0miesMduy4",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 8
 		}
 	]
 }
