@@ -41,7 +41,7 @@ export default {
                     <option value="1">Enjoyment</option>
                     <option value="2">Popularity</option>
                 </select>
-                <p style="font-size: 9.5px; opacity: 30%;"@click="descending = !descending">{{ descending === true ? 'Descending' : 'Ascending' }}</p>
+                <p style="font-size: 9.5px; opacity: 30%;" class="director" @click="descending = !descending">{{ descending === true ? 'Descending' : 'Ascending' }}</p>
             </div>
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
@@ -144,7 +144,7 @@ export default {
                     </tr>
                     <p style="padding-top:1.5rem">The levels {{ descending ? 'below' : 'above' }} are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
 
-                    <h3 v-if="level.difficulty > 5" style="padding-top:1.5rem"><a href="https://docs.google.com/spreadsheets/d/1tgwlKJpFMC2lEK8XjFPyKGP1-JJ0z2t6GsvCyojEeCw/">sn0w's extreme spreadsheet</a></h3>
+                    <h3 v-if="level.difficulty > 5" style="padding-top:1.5rem"><a class="director" href="https://docs.google.com/spreadsheets/d/1tgwlKJpFMC2lEK8XjFPyKGP1-JJ0z2t6GsvCyojEeCw/">sn0w's extreme spreadsheet</a></h3>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
