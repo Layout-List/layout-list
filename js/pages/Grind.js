@@ -168,6 +168,7 @@ export default {
         lastSubmissionLink: null,
         copied: false,
         submitLoading: false,
+        shouldRefreshLastSubmitted: false,
     }),
 
     computed: {
@@ -199,6 +200,7 @@ export default {
             return this.completed.levels.reduce((total, level) => total + (level.pts || 0), 0);
         },
         lastSubmission() {
+            this.shouldRefreshLastSubmitted;
             return localStorage.getItem("last_submission_link")
         }
     },
@@ -341,8 +343,9 @@ export default {
             this.submitLoading = false;
             if (req.status === 201) {
                 await copyURL(url);
-                await alert("File uploaded successfully and copied to clipboard!\n" + url);
                 localStorage.setItem("last_submission_link", url)
+                this.shouldRefreshLastSubmitted = true;
+                await alert("File uploaded successfully, you can copy it to your clipboard on the left\n" + url);
                 window.open(this.formUrl, '_blank');
             } else {
                 alert("File upload failed: " + res.message);
