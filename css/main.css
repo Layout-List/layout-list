@@ -186,13 +186,10 @@ input[type="checkbox"] {
     padding-bottom:2em
 }
 
-.director {
+.director:hover {
     text-decoration-color: var(--color-primary);
     text-decoration-thickness: 2px;
-}
-
-.director:hover {
-    text-decoration: underline;
+    text-decoration-line: underline;
 }
 
 @media only screen and (max-device-width: 480px) {
