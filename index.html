@@ -23,6 +23,7 @@
         <link rel="stylesheet" type="text/css" href="/css/pages/packs.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
+        <link rel="stylesheet" type="text/css" href="/css/pages/grind.css" />
         <link
             rel="stylesheet"
             type="text/css"
@@ -39,7 +40,6 @@
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>The LL</h2>
-                <p>v3.5</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -53,6 +53,9 @@
                 </router-link>
                 <router-link class="nav__tab" to="/packs">
                     <span class="type-label-lg">Packs</span>
+                </router-link>
+                <router-link class="nav__tab" to="/grind">
+                    <span class="type-label-lg">Grind</span>
                 </router-link>
                 <div class="nav__actions" v-if="store.list && store.loaded">
                      <div class="color-picker-wrapper nav__icon">

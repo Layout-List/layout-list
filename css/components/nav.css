@@ -8,7 +8,6 @@
     border-bottom: 4px solid transparent;
     display: flex;
     align-items: center;
-    padding-inline: 0.5rem;
     transition: border-color 200ms ease;
 }
 .nav .nav__tab.router-link-active {

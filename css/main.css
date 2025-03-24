@@ -186,6 +186,10 @@ input[type="checkbox"] {
     padding-bottom:2em
 }
 
+.director {
+    cursor: pointer;
+}
+
 .director:hover {
     text-decoration-color: var(--color-primary);
     text-decoration-thickness: 2px;
