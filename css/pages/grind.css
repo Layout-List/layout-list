@@ -250,3 +250,7 @@ main.grind-page {
         width: 60vw
     }
 }
+
+.grind-actions > button {
+    color: white;
+}

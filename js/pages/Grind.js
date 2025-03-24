@@ -45,7 +45,7 @@ export default {
                         <Btn @click="submit()" v-if="completed.levels.length > 0">{{ submitLoading ? "Loading..." : "Get link" }}</Btn>
                         <br v-if="completed.levels.length > 0">
 
-                        <Btn @click="reset()" style="background-color: #d50000;">Reset</Btn>
+                        <Btn @click="reset()" style="background-color: #d50000;color: white;">Reset</Btn>
 
                         <h2 v-if="completed.levels.length > 0">Completed:</h2>
                         <div class="completed-levels-container">
@@ -80,7 +80,7 @@ export default {
 
                         </div>
                         
-                    </div>
+                    </div>  
                     <div class="player-container uncompleted-container">
                         <div v-for="([err, rank, level], i) in uncompletedList">
                             <div class="grind-level-container" @mouseleave="hovered = null" :class="{'stats-focused': hovered === i}">
