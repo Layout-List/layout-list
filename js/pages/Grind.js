@@ -17,7 +17,7 @@ export default {
         </main>
         <main v-else class="grind-page">
             <div v-if="!loggedIn" class="login-container">
-                <h1>Login</h1>
+                <h1>Enter username</h1>
                 <input type="text" id="username" name="username" placeholder="Username" class="search" v-model="loggingIn" autocomplete="off"><br><br>
                 <div class="user-suggest">
                     <Btn v-if="loggingIn !== '' && filteredUsers.length === 0" @click.native.prevent="login(loggingIn)">Start</Btn>
