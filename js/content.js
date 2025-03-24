@@ -691,5 +691,5 @@ export async function fetchUsers() {
 
     const uniqueUsers = Array.from(new Set(userArray.map(user => user.toLowerCase())));
 
-    return userArray
+    return uniqueUsers
 }
