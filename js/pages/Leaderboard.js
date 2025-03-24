@@ -40,7 +40,7 @@ export default {
                         />
                         <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
                     </div>
-                    <div class="button-bar" style="padding-left: 2.5rem;" :class="store.dark ? 'dark' : ''">
+                    <div class="button-bar" style="padding-left: 2.5rem;" :class="true ? 'dark' : ''">
                         <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
                         <select v-model="selectedNation">
                             <option :value="null">All nations</option>
@@ -83,7 +83,7 @@ export default {
                         </div>
                         <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                         <div class="pack-container" v-if="entry.userPacks.length > 0">
-                            <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }} (+{{ pack.score }})</a>
+                            <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': true ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3) }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }} (+{{ pack.score }})</a>
                         </div>
                         <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
                         <table class="table" v-if="entry.created.length > 0">
@@ -123,7 +123,7 @@ export default {
                                     <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <img v-if="score.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+                                    <img v-if="score.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
                                 </td>
                                 <td class="score">
                                     <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
@@ -145,7 +145,7 @@ export default {
                                     <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
                                 </td>
                                 <td class="score">
-                                    <img v-if="score.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
+                                    <img v-if="score.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
                                 </td>
                                 <td class="score">
                                     <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
