@@ -47,6 +47,12 @@ export default {
 
                         <Btn @click="reset()" style="background-color: #d50000;color: white;">Reset</Btn>
 
+                        <div v-if="lastSubmission">
+                            <p v-if="copied === false" class="director" @click="copySubmission()" style="text-decoration: underline;">Previous submission link \n(click to copy)</p>
+                            <p v-else-if="copied === 'err'">Error copying to clipboard, please copy this link:\n{{ lastSubmission }}</p>
+                            <p v-else-if="copied === true" @click="copySubmission()" class="director" style="text-decoration: underline;">Copied!</p>
+                            <br>
+                        </div>
                         <h2 v-if="completed.levels.length > 0">Completed:</h2>
                         <div class="completed-levels-container">
                             <p v-for="level in completed.levels" >{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
@@ -54,12 +60,6 @@ export default {
                         <br v-if="completed.levels.length > 0">
                         <h3 v-if="completed.levels.length > 0">Total: +{{ totalPoints }} pts</h3>
                         <br>
-                        <div v-if="lastSubmission">
-                            <p v-if="copied === false" class="director" @click="copySubmission()" style="text-decoration: underline;">Previous submission link \n(click to copy)</p>
-                            <p v-else-if="copied === 'err'">Error copying to clipboard, please copy this link:\n{{ lastSubmission }}</p>
-                            <p v-else-if="copied === true" @click="copySubmission()" class="director" style="text-decoration: underline;">Copied!</p>
-                            <br>
-                        </div>
                         <h3 
                             class="director" 
                             @click="toggleInfoBox()"
