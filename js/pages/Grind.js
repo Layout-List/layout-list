@@ -1,5 +1,5 @@
 import { store } from '../main.js'
-import { localize, getThumbnailFromId, getYoutubeIdFromUrl, copyURL } from '../util.js';
+import { localize, getThumbnailFromId, getYoutubeIdFromUrl, copyURL, round } from '../util.js';
 import { fetchUsers, averageEnjoyment } from '../content.js'
 import { compressData, decompressData } from '../main.js';
 import Spinner from '../components/Spinner.js';
@@ -197,7 +197,7 @@ export default {
             return list.reverse();
         },
         totalPoints() {
-            return this.completed.levels.reduce((total, level) => total + (level.pts || 0), 0);
+            return round(this.completed.levels.reduce((total, level) => total + (level.pts || 0), 0));
         },
         lastSubmission() {
             this.shouldRefreshLastSubmitted;
