@@ -48,6 +48,13 @@
 			"hz": 60,
 			"enjoyment": 6,
 			"mobile": true
+		},
+		{
+			"user": "ICENOVA",
+			"link": "https://youtu.be/tytDHjX3NSM?si=Zc1ZeMFBvUjMIZrq",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 3
 		}
 	]
 }
