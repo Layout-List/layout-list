@@ -358,5 +358,14 @@
 		"from_rank": null,
 		"above": "alfredos_revenge",
 		"below": "the_enchanting"
+	},
+	{
+		"date": 1742993808,
+		"action": "placed",
+		"name": "absolute_zero",
+		"to_rank": 13,
+		"from_rank": null,
+		"above": "karma",
+		"below": "huang_quan"
 	}
 ]
