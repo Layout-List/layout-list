@@ -1,142 +1,150 @@
 {
-  "id": 96347884,
-  "name": "Ghoulish Night",
-  "creators": [
-	"Xeronius"
-  ],
-  "verifier": "Xeronius",
-  "verification": "https://www.youtube.com/watch?v=bIblZKvGKFg",
-  "percentToQualify": 100,
-  "song": "The Living Tombstone - Grim Grinning Ghosts",
-  "difficulty": 1,
-  "enjoyment": 7,
-  "records": [
-	{
-	  "user": "Blueberry",
-	  "link": "https://youtu.be/3Y9fmI1JxTM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/Fz823OE1X4Q?si=Ea_ywxD3bF8_1_dm",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "ThisGuyKreas",
-	  "link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/2qbvWyAzhR8",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/xtW_PYeb4TQ?si=wa-LC5QgdORzTflu",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/_2K_URJxZJg",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/rt35R9QU0Xk",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Popples",
-	  "link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "Alvaneder",
-	  "link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "Asteria.",
-	  "link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
-	  "percent": 100,
-	  "hz": 280,
-	  "mobile": false
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=FOy9QFTX0-U",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "ToastyTP",
-	  "link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "sn0w",
-	  "link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 96347884,
+	"name": "Ghoulish Night",
+	"creators": [
+		"Xeronius"
+	],
+	"verifier": "Xeronius",
+	"verification": "https://www.youtube.com/watch?v=bIblZKvGKFg",
+	"percentToQualify": 100,
+	"song": "The Living Tombstone - Grim Grinning Ghosts",
+	"difficulty": 1,
+	"enjoyment": 7,
+	"records": [
+		{
+			"user": "Blueberry",
+			"link": "https://youtu.be/3Y9fmI1JxTM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/Fz823OE1X4Q?si=Ea_ywxD3bF8_1_dm",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/6kcczlY35cs?si=XR_DxIUfH-iermfy",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://www.youtube.com/watch?v=g8nBsR6VAtk",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/2qbvWyAzhR8",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/xtW_PYeb4TQ?si=wa-LC5QgdORzTflu",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/_2K_URJxZJg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "LimeDub",
+			"link": "https://youtu.be/rt35R9QU0Xk",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Popples",
+			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=hjLGrMKZkVI",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Asteria.",
+			"link": "https://www.youtube.com/watch?v=hhrPGhUnIeU",
+			"percent": 100,
+			"hz": 280,
+			"mobile": false
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=FOy9QFTX0-U",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=ExO9z0SIc98",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "ToastyTP",
+			"link": "https://www.youtube.com/watch?v=Lw1kSAmFmJI",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Paladean",
+			"link": "https://www.youtube.com/watch?v=Wm9_06eUN9M",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "sn0w",
+			"link": "https://www.youtube.com/watch?v=NFVnSdYPCT8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ZurGT_-zsmc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		}
+	]
 }

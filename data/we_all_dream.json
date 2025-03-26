@@ -193,6 +193,14 @@
 			"hz": 60,
 			"enjoyment": 1,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ZurGT_-zsmc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }
