@@ -349,5 +349,14 @@
 		"from_rank": null,
 		"above": "huang_quan",
 		"below": "go_beyond_nerf"
+	},
+	{
+		"date": 1742993663,
+		"action": "placed",
+		"name": "dreamless_wanderer",
+		"to_rank": 46,
+		"from_rank": null,
+		"above": "alfredos_revenge",
+		"below": "the_enchanting"
 	}
 ]
