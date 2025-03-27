@@ -17,6 +17,10 @@ export default {
         list: {
             type: Array,
             required: true,
+        },
+        fromPacksPage: {
+            type: Boolean,
+            required: false,
         }
     },
     components: { LevelAuthors, Copy, Copied, LevelMeta, Verification, Records, Packs },
@@ -32,7 +36,7 @@ export default {
                 <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
                 <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
             </div>
-            <Packs :packs="level.packs" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels" />
+            <Packs :packs="level.packs" v-show="!fromPacksPage" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels" />
             <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
             <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
             <Verification :verification="level.verification" :showcase="level.showcase || null" />

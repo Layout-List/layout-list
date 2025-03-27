@@ -5,9 +5,10 @@ import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import Scroll from '../components/Scroll.js'
+import User from '../components/Leaderboard/User.js';
 
 export default {
-    components: { Spinner, Copy, Copied, Scroll },
+    components: { Spinner, Copy, Copied, Scroll, User },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -65,99 +66,7 @@ export default {
                     </table>
                     <p class="user" v-else>No users found.</p>
                 </div>
-                <div class="player-container">
-                    <div class="player">
-                        <div class="copy-container">
-                            <h1 class="copy-name" style="padding-right:0.3rem;">
-                                #{{ selected + 1 }} {{ entry.user }}
-                            </h1>
-                            <img class="flag" v-if="entry.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + entry.flag.toLowerCase() + '.svg'" alt="flag" style="margin-right: 10px;width:50px">
-                            <Copy
-                                v-if="!copied"
-                                @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"
-                            ></Copy>
-                            <Copied
-                                v-if="copied"
-                                @click="copyURL('https://laylist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"
-                            ></Copied>
-                        </div>
-                        <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
-                        <div class="pack-container" v-if="entry.userPacks.length > 0">
-                            <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': rgbaBind(packColor(pack.difficulty), 0.2) }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }} (+{{ pack.score }})</a>
-                        </div>
-                        <h2 v-if="entry.created.length > 0">Created ({{ entry.created.length }})</h2>
-                        <table class="table" v-if="entry.created.length > 0">
-                            <tr v-for="score in entry.created">
-                                <td class="rank">
-                                    <p v-if="score.rank === null">&mdash;</p>
-                                    <p v-else>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                            </tr>
-                        </table>
-                        <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length }})</h2>
-                        <table class="table" v-if="entry.verified.length > 0">
-                            <tr v-for="score in entry.verified">
-                                <td class="rank">
-                                    <p v-if="score.rank === null">&mdash;</p>
-                                    <p v-else>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h2 v-if="entry.completed.length > 0">Completed ({{ entry.completed.length }})</h2>
-                        <table class="table" v-if="entry.completed.length > 0">
-                            <tr v-for="score in entry.completed">
-                                <td class="rank">
-                                    <p v-if="score.rank === null">&mdash;</p>
-                                    <p v-else>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                                <td class="score">
-                                    <img v-if="score.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
-                                </td>
-                                <td class="score">
-                                    <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
-                                    <p v-if="score.rating == undefined || score.rating == '?'" class="type-label-lg">{{ "?" }}/10</p>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h2 v-if="entry.progressed.length > 0">Progressed ({{ entry.progressed.length }})</h2>
-                        <table class="table" v-if="entry.progressed.length > 0">
-                            <tr v-for="score in entry.progressed">
-                                <td class="rank">
-                                    <p v-if="score.rank === null">&mdash;</p>
-                                    <p v-else>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
-                                </td>
-                                <td class="score">
-                                    <img v-if="score.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
-                                </td>
-                                <td class="score">
-                                    <p v-if="score.rating !== undefined && score.rating !== '?'" class="type-label-lg">{{ score.rating }}/10</p>
-                                    <p v-if="score.rating == undefined || score.rating == '?'" class="type-label-lg">{{ "?" }}/10</p>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+                <User :rank="selected + 1" :entry="entry" />
             </div>
         </main>
     `,

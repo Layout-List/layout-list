@@ -9,9 +9,10 @@ import DifficultyInfo from '../components/Sidebar/DifficultyInfo.js';
 import RecordRules from '../components/Sidebar/RecordRules.js';
 import TemplateDisclaimer from '../components/Sidebar/TemplateDisclaimer.js';
 import Staff from '../components/Sidebar/Staff.js';
+import Errors from '../components/Sidebar/Errors.js';
 
 export default {
-    components: { Spinner, Scroll, Level, TierInfo, CookiesDisclaimer, RecordRules, DifficultyInfo, TemplateDisclaimer, Staff },
+    components: { Spinner, Scroll, Level, TierInfo, CookiesDisclaimer, RecordRules, DifficultyInfo, TemplateDisclaimer, Staff, Errors },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -61,9 +62,7 @@ export default {
             </div>
             <div class="meta-container">
                 <div class="meta">
-                    <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors">{{ error }}</p>
-                    </div>
+                    <Errors :errors="errors" />
                     <TemplateDisclaimer />
                     <hr class="divider">
                     <Staff />

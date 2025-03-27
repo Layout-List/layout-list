@@ -10,9 +10,11 @@ import TemplateDisclaimer from "../components/Sidebar/TemplateDisclaimer.js";
 import PacksInfo from "../components/Sidebar/PacksInfo.js"
 import PackDifficulty from "../components/Sidebar/PackDifficulty.js"
 import CookiesDisclaimer from "../components/Sidebar/CookiesDisclaimer.js";
+import Level from "../components/List/Level.js";
+import Errors from "../components/Sidebar/Errors.js";
 
 export default {
-    components: { Spinner, LevelAuthors, Copy, Copied, TemplateDisclaimer, PacksInfo, PackDifficulty, CookiesDisclaimer },
+    components: { Spinner, LevelAuthors, Copy, Copied, TemplateDisclaimer, PacksInfo, PackDifficulty, CookiesDisclaimer, Level, Errors },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -52,78 +54,9 @@ export default {
                     <p>{{ errored }}</p>
                 </div>
                     
+                
                 <!-- level page :shocked: -->
-                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels">
-                    <div class="copy-container">
-                        <h1 class="copy-name">  
-                            {{ level.name }}
-                        </h1>
-                        <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
-                        <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
-                    </div>
-                    <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment || null"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
-                    <div v-if="level.showcase" class="tabs">
-                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
-                            <span class="type-label-lg">Verification</span>
-                        </button>
-                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
-                            <span class="type-label-lg">Showcase</span>
-                        </button>
-                    </div>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Points</div>
-                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">ID</div>
-                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ averageEnjoyment(level.records) }}/10</p>
-                        </li>
-                    </ul>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Song</div>
-                            <p v-if="level.songLink"><a class="director" target="_blank" :href="songDownload">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
-                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
-                        </li>
-                    </ul>
-                    <h2>Records ({{ level.records.length }})</h2>
-                    <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
-                    <table class="records">
-                        <tr v-for="record in level.records" class="record">
-                            <td class="percent">
-                                <p>{{ record.percent }}%</p>
-                            </td>
-                            <td class="user">
-                                <div class="user-container">
-                                    <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
-                                    <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
-                                </div>
-                            </td>
-                            <td class="mobile">
-                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
-                            </td>
-                            <td class="enjoyment">
-                                <p v-if="record.enjoyment === undefined">?/10</p>
-                                <p v-else>{{ record.enjoyment }}/10</p>
-                            </td>
-                            <td class="hz">
-                                <p>{{ record.hz }}FPS</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
+                <Level v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels" :level="level" :list="list" :fromPacksPage="true" />
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                 <div class="copy-container">
@@ -161,9 +94,7 @@ export default {
             </div>
             <div class="meta-container">
                 <div class="meta">
-                    <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors" :key="error">{{ error }}</p>
-                    </div>
+                    <Errors :errors="errors" />
                     <TemplateDisclaimer />
                     <hr class="divider">
                     <PacksInfo />
