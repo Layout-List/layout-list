@@ -28,5 +28,13 @@ export default {
     `,
     async mounted() {
         this.staff = store.staff;
+    },
+    watch: {
+        store: {
+            deep: true,
+            handler(updated) {
+                this.staff = updated.staff
+            }
+        }
     }
 }
