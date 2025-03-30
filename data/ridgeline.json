@@ -48,6 +48,13 @@
 			"hz": 60,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/e02p4St-ySM",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
