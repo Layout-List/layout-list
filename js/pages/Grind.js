@@ -16,7 +16,13 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="grind-page">
-            <div v-if="!loggedIn" class="login-container">
+            <div v-if="store.errors.length > 0" class="login-container">
+                <h1>Error</h1>
+                <div class="user-suggest">
+                    <h3>The list is currently broken, please contact a moderator to fix!</h3>
+                </div>
+            </div>
+            <div v-else-if="!loggedIn" class="login-container">
                 <h1>Enter username</h1>
                 <input type="text" id="username" name="username" placeholder="Username" class="search" v-model="loggingIn" autocomplete="off"><br><br>
                 <div class="user-suggest">
@@ -459,7 +465,6 @@ export default {
         store: {
             handler(updated) {
                 this.list = updated.list;
-                this.staff = updated.staff;
                 updated.errors.forEach(err => {
                     this.errors.push(`Failed to load level. (${err}.json)`);
                 })
