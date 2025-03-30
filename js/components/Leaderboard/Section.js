@@ -21,7 +21,10 @@ export default {
                         <p v-else>#{{ score.rank }}</p>
                     </td>
                     <td class="level">
-                        <a class="type-label-lg director" target="_blank" :href="score.link">{{ score.level }}</a>
+                        <a class="type-label-lg" target="_blank" :href="score.link">
+                            <span class="director">{{ score.level }}</span>
+                            <span v-if="score.percent">&nbsp;{{ score.percent }}%</span
+                        </a>
                     </td>
                     <td class="score" v-if="score.score">
                         <p>+{{ localize(score.score) }}</p>
