@@ -1,12 +1,27 @@
 {
 	"id": 111258781,
 	"name": "dreamless Wanderer",
-	"creators": ["Cookie","trastgmd","rieselwiesel","mega","zovi","bastigd"],
+	"creators": [
+		"Cookie",
+		"trastgmd",
+		"rieselwiesel",
+		"mega",
+		"zovi",
+		"bastigd"
+	],
 	"verifier": "rieselwiesel",
 	"verification": "https://youtu.be/fvVJzq7QDBQ?si=CpcEcj02QQmbDlCB",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 6,
 	"song": "Camellia - Dreamless Wanderer",
-	"records": []
+	"records": [
+		{
+			"user": "sulffy",
+			"link": "https://youtu.be/QjhnXmBhxi4",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
+		}
+	]
 }
