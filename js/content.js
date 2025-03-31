@@ -678,18 +678,15 @@ export async function fetchUsers() {
     const list = await fetchList();
 
     list.forEach(([err, rank, level]) => {
-        users.add(level.verifier.trim())
+        users.add(level.verifier)
         for (const creator of level.creators) {
-            users.add(creator.trim())
+            users.add(creator)
         }
         for (const record of level.records) {
-            users.add(record.user.trim())
+            users.add(record.user)
         }
     })
-    
-    const userArray = Array.from(users)
 
-    const uniqueUsers = Array.from(new Set(userArray.map(user => user.toLowerCase())));
-
-    return uniqueUsers
+    console.log(users)
+    return Array.from(users)
 }

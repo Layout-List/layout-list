@@ -27,22 +27,6 @@
 			"hz": 60,
 			"enjoyment": 8,
 			"mobile": true
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/7NlavjpotTY",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 6,
-			"mobile": true
-		},
-		{
-			"user": "sphericle",
-			"link": "https://youtu.be/ZurGT_-zsmc",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 8
 		}
 	]
 }

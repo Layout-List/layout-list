@@ -3,18 +3,21 @@ import { embed, rgbaBind, localize, copyURL } from '../util.js';
 import { score, lightPackColor, darkPackColor, aprilFoolsVideos } from '../config.js';
 import { averageEnjoyment, fetchHighestEnjoyment, fetchLowestEnjoyment, fetchTotalScore, fetchTierLength, fetchUsers, fetchStaff, fetchList } from '../content.js';
 import Spinner from '../components/Spinner.js';
+import Copy from '../components/Copy.js'
+import Copied from '../components/Copied.js'
+import LevelAuthors from '../components/List/LevelAuthors.js';
 import Scroll from '../components/Scroll.js'
-import Level from '../components/List/Level.js'
-import TierInfo from '../components/List/TierInfo.js';
-import CookiesDisclaimer from '../components/Sidebar/CookiesDisclaimer.js';
-import DifficultyInfo from '../components/Sidebar/DifficultyInfo.js';
-import RecordRules from '../components/Sidebar/RecordRules.js';
-import TemplateDisclaimer from '../components/Sidebar/TemplateDisclaimer.js';
-import Staff from '../components/Sidebar/Staff.js';
-import Errors from '../components/Sidebar/Errors.js';
+
+const roleIconMap = {
+    owner: 'crown',
+    admin: 'user-gear',
+    helper: 'user-shield',
+    dev: 'code',
+    trial: 'user-lock',
+};
 
 export default {
-    components: { Spinner, Scroll, Level, TierInfo, CookiesDisclaimer, RecordRules, DifficultyInfo, TemplateDisclaimer, Staff, Errors },
+    components: { Spinner, LevelAuthors, Copy, Copied, Scroll },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -31,14 +34,14 @@ export default {
                 />
                 <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
             </div>
-            <div class="button-bar" :class="true ? 'dark' : ''">
+            <div class="button-bar" :class="store.dark ? 'dark' : ''">
                 <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
                 <select v-model="sortOption">
                     <option value="0">Ranking</option>
                     <option value="1">Enjoyment</option>
                     <option value="2">Popularity</option>
                 </select>
-                <p style="font-size: 9.5px; opacity: 30%;" class="director" @click="descending = !descending">{{ descending === true ? 'Descending' : 'Ascending' }}</p>
+                <p style="font-size: 9.5px; opacity: 30%;"@click="descending = !descending">{{ descending === true ? 'Descending' : 'Ascending' }}</p>
             </div>
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
@@ -147,24 +150,107 @@ export default {
             </div>
             <div class="meta-container">
                 <div class="meta">
-                    <Errors :errors="errors" />
+                    <div class="errors" v-show="errors.length > 0">
+                        <p class="error" v-for="error of errors">{{ error }}</p>
+                    </div>
                     <input type="checkbox" id="randomSelect" v-model="disabledRandomSelect">
-                    <TemplateDisclaimer />
+                    <div class="og">
+                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
+                    </div>
                     <hr class="divider">
-                    <Staff />
+                    <template v-if="staff">
+                        <h3>List Staff</h3>
+                        <ol class="staff">
+                            <li v-for="editor in staff">
+                                <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
+                                <a class="type-label-lg link director" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                            </li>
+                        </ol>
+                    </template>
+
                     <hr class="divider">
+
                     <h3>Tags</h3>
-                    <p class="director" @click="search('⭐')">⭐ Rated</p>
-                    <p class="director" @click="search('✨')">✨ Subject to Exemptions</p>
-                    <p class="director" @click="search('💫')">💫 Accepted Under Old Standards</p>
-                    <p class="director" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
-                    <p class="director" @click="search('❌')">❌ Pending Removal</p>
+                    <p class="director" style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
+                    <p class="director" style="cursor:pointer;" @click="search('✨')">✨ Subject to Exemptions</p>
+                    <p class="director" style="cursor:pointer;" @click="search('💫')">💫 Accepted Under Old Standards</p>
+                    <p class="director" style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
+                    <p class="director" style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
+
                     <hr class="divider">
-                    <RecordRules />
+
+                    <h3>Record Submission Requirements</h3>
+                    <div class="right-text">
+                        <p>
+                            You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, however, "Click Between Frames" is allowed).
+                        </p>
+                        <p>
+                            You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
+                        </p>
+                        <p>
+                            Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). This does not include mods that add artificial click sounds.
+                        </p>
+                        <p>
+                            Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
+                        </p>
+                        <p>
+                            The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
+                        </p>
+                        <p>
+                            The recording must show the player hit the end-wall as well as present your end stats, or the completion will be invalidated.
+                        </p>
+                        <p>
+                            Do not use secret routes, skips, or bug routes!
+                        </p>
+                        <p>
+                            Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
+                        </p>
+                    </div>
                     <hr class="divider">
-                    <DifficultyInfo />
+                    <h3>Difficulty Rankings</h3>
+                    <div class="right-text">
+                        <p>
+                            Impossible Layout = Top Extreme Demons (401 to 750 Points)
+                        </p>
+                        <p>
+                            Legendary Layout = Mid Extreme Demons (201 to 400 Points)
+                        </p>
+                        <p>
+                            Extreme Layout = Beginner Extreme Demons (101 to 200 Points)
+                        </p>
+                        <p>
+                            Mythical Layout = High Insane Demons (71 to 100 Points)
+                        </p>
+                        <p>
+                            Insane Layout = Insane Demons (41 to 70 Points)
+                        </p>
+                        <p>
+                            Hard Layout = Hard Demons (21 to 40 Points)
+                        </p>
+                        <p>
+                            Medium Layout = Medium Demons (11 to 20 Points)
+                        </p>
+                        <p>
+                            Easy Layout = Easy Demons (6 to 10 Points)
+                        </p>
+                        <p>
+                            Beginner Layout = Non Demons (1 to 5 Points)
+                        </p>
+                    </div>
                     <hr class="divider">
-                    <CookiesDisclaimer />
+                    <div class="right-text">
+                        <p>
+                            For your convenience, the Layout List caches the data for the list in your browser.
+                        </p>
+                        <p>
+                            By using the site, you agree to the storage of this data in your browser. 
+                            You can disable this in your browser's settings (turn off local storage), however this will cause 
+                            the site to load very slowly and is not recommended.
+                        </p>
+                        <p>
+                            No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </main>
@@ -173,11 +259,15 @@ export default {
     data: () => ({
         loading: true,
         list: [],
+        listlevels: 0,
         staff: [],
         errors: [],
         selected: 1,
+        toggledShowcase: false,
+        roleIconMap,
         store,
         searchQuery: '',
+        copied: false,
         sortOption: 0,
         descending: true,
         disabledRandomSelect: false,
@@ -186,6 +276,18 @@ export default {
     }),
 
     methods: {
+        embed,
+        score,
+        averageEnjoyment,
+        rgbaBind,
+        lightPackColor,
+        darkPackColor,
+        fetchHighestEnjoyment,
+        fetchLowestEnjoyment,
+        fetchTotalScore,
+        fetchTierLength,
+        localize,
+        copyURL,
         // used for the ability to deselect tag filters
         search(query) {
             if (this.searchQuery === query) {
@@ -219,6 +321,25 @@ export default {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
+        video() {
+            if (!this.level.showcase) {
+                return embed(this.level.verification);
+            }
+
+            return embed(
+                this.toggledShowcase
+                    ? this.level.showcase
+                    : this.level.verification
+            );
+        },
+
+        songDownload() {
+            if (!this.level.songLink.includes('drive.google.com')) return this.level.songLink;
+            const id = this.level.songLink.match(/[-\w]{25,}/)?.[0];
+            if (id === undefined) return this.level.songLink;
+            return `https://drive.usercontent.google.com/uc?id=${id}&export=download`;
+        },
+
         filteredLevels() {
             const query = this.searchQuery.toLowerCase();
             let list = this.list
@@ -328,11 +449,6 @@ export default {
                     } else {
                         foundusers.push(record.user)
                     }
-
-                    if (record.enjoyment && (templevel.creators.includes(record.user))) {
-                        console.warn(`Invalid enjoyment on ${templevel.name}: ${record.enjoyment}/10 by ${record.user}!`)
-                    }
-
                 }
             }
             i++

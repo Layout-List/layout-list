@@ -18,21 +18,6 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/AcXjj7YA0SU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 9
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/quANcD03FKg?si=EBIDmmnd1aTVA3ZV",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 1,
-			"mobile": true
 		}
 	]
 }

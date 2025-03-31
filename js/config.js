@@ -227,9 +227,107 @@ export function packScore(pack) {
 }
 
 // ------------------------
+// Light mode pack colors:
+// ------------------------
+export function lightPackColor(difficulty) {
+    // NOTE: The site uses rgba values for the colors of packs.
+    //      - r is the red content of the color.
+    //      - g is the green content of the color.
+    //      - b is the blue content of the color.
+    //      - a is the alpha/opacity of the color (think alpha trigger in Geometry Dash).
+    //      - The values of r, g, and b are integers between 0 and 255, inclusive.
+    //      - The value of a is a number between 0 and 1, inclusive.
+
+    // If you're not on mobile, an easy way to select and test these values is to open
+    // inspect element, click on a pack's button, and find something that looks like this:
+    // https://imgur.com/a/6q2MsTj. From there, you're able to change the color in real
+    // time (on your device only). When you're done, copy the values from above the color
+    // picker and fill them into the switch statement below.
+
+    // Also, keep in mind that these are the values used *while the pack is selected*.
+    // If a pack is deselected or the user is only hovering over it, the opacity will
+    // decrease.
+
+    // Initialize r, g, b, and a values
+    let r = 0;
+    let g = 0;
+    let b = 0;
+    let a = 1; // The site assumes the opacity is 1, unless specified below.
+    
+    // For help figuring out how this switch statement works, look at the comments on
+    // the switch statement in the score function above.
+    switch (difficulty) { // Set the pack's color based on its difficulty.
+        case 0:
+
+            /* Beginner Packs */
+            r = 255;
+            g = 23;
+            b = 139;
+            a = 0.9;
+            break;
+        case 1:
+
+            /* Easy Packs */
+            r = 52;
+            g = 107;
+            b = 235;
+            break;
+        case 2:
+
+            /* Medium Packs */
+            r = 52;
+            g = 150;
+            b = 82;
+            break;
+        case 3:
+
+            /* Hard Packs */
+            r = 213;
+            g = 239;
+            b = 16;
+            a = 0.9;
+            break;
+        case 4:
+
+            /* Insane Packs */
+            r = 255;
+            g = 120;
+            a = 0.9;
+            break;
+        case 5:
+
+            /* Mythical Packs */
+            r = 147;
+            g = 24;
+            b = 255;
+            a = 0.9;
+            break;
+        case 6:
+
+            /* Extreme Packs */
+            r = 255;
+            a = 0.9;
+            break;
+        case 7:
+
+            /* Legendary Packs */
+            r = 25;
+            g = 25;
+            b = 25;
+            a = 0.8;
+            break;
+        default:
+            
+            /* If there's a mistake */
+            break;
+    }
+    return [r, g, b, a];
+}
+
+// ------------------------
 // Dark mode pack colors:
 // ------------------------
-export function packColor(difficulty) {
+export function darkPackColor(difficulty) {
     // NOTE: The site uses rgba values for the colors of packs.
     //      - r is the red content of the color.
     //      - g is the green content of the color.

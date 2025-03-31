@@ -1,21 +1,7 @@
 {
 	"id": 115443789,
 	"name": "Rose At Twilight",
-	"creators": [
-		"Hydraniac",
-		"QwidziT",
-		"rSnoozy",
-		"Hyperbeat",
-		"jz5",
-		"Bluestone",
-		"fusemax",
-		"zDark",
-		"Riley",
-		"Snips",
-		"sn0w",
-		"Asteria.",
-		"zWren"
-	],
+	"creators": ["Hydraniac","QwidziT","rSnoozy","Hyperbeat","jz5","Bluestone","fusemax","zDark","Riley","Snips","sn0w","Asteria.","zWren"],
 	"verifier": "Hydraniac",
 	"verification": "https://youtu.be/oF2CzpMgfgw?si=-NkHNCsPVyDCyD8P",
 	"percentToQualify": 50,
@@ -23,13 +9,5 @@
 	"difficulty": 8,
 	"song": "NemesisTheory - Rose At Twilight",
 	"enjoyment": 10,
-	"records": [
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/AcXjj7YA0SU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 9
-		}
-	]
+	"records": []
 }

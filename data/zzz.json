@@ -745,28 +745,6 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 8
-		},
-		{
-			"user": "Trekkino",
-			"link": "https://youtu.be/b9M7nWYJdfU",
-			"percent": 100,
-			"hz": 75,
-			"enjoyment": 7
-		},
-		{
-			"user": "Jarzst",
-			"link": "https://youtu.be/474IkL7h3vU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 8
-		},
-		{
-			"user": "Ripper0300",
-			"link": "https://youtu.be/mbelISceHD8?si=z0Sb9Nc7zzMyTw4i",
-			"percent": 100,
-			"hz": 80,
-			"enjoyment": 4,
-			"mobile": true
 		}
 	]
 }

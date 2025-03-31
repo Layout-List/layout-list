@@ -1113,35 +1113,6 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 8
-		},
-		{
-			"user": "ghostshotplayz",
-			"link": "https: //www.youtube.com/live/42E5u-I2GYA",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
-		},
-		{
-			"user": "Jarzst",
-			"link": "https://youtu.be/qPTt6EPYhq4",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 8
-		},
-		{
-			"user": "coinedguy5",
-			"link": "https://youtu.be/wyZimw98qzU",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 10,
-			"mobile": true
-		},
-		{
-			"user": "Mayuviqq",
-			"link": "https://youtu.be/W5UflhgjGq0?si=YR424UOnzAJTtUJb",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 9
 		}
 	]
 }

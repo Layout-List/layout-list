@@ -1,62 +1,47 @@
 {
-	"id": 110578926,
-	"name": "Message In A Bottle",
-	"creators": [
-		"Shums"
-	],
-	"verifier": "Shums",
-	"verification": "https://www.youtube.com/watch?v=tXshSEEgXUg",
-	"percentToQualify": 100,
-	"song": "Taylor Swift - Message In A Bottle",
-	"songLink": "https://drive.google.com/file/d/1OAcpMMa6rf-NOkewAaon9Ab4PfJ4DUjh/view?usp=sharing",
-	"difficulty": 1,
-	"records": [
-		{
-			"user": "Hydraniac",
-			"link": "https://medal.tv/games/geometry-dash/clips/iLTRFSLoJ5uc1F58B?invite=cr-MSw0RkksMTg1OTcxMTAwLA",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/ZxlUaFWM1FY?si=IfimOdi_13NMRMMv",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 8
-		},
-		{
-			"user": "Blysteryx",
-			"link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-			"percent": 100,
-			"hz": 60,
-			"mobile": false,
-			"enjoyment": 6
-		},
-		{
-			"user": "DeleteNine",
-			"link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 4
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/AcXjj7YA0SU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 8
-		},
-		{
-			"user": "sphericle",
-			"link": "https://youtu.be/ZurGT_-zsmc",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		}
-	]
+  "id": 110578926,
+  "name": "Message In A Bottle",
+  "creators": [
+	"Shums"
+  ],
+  "verifier": "Shums",
+  "verification": "https://www.youtube.com/watch?v=tXshSEEgXUg",
+  "percentToQualify": 100,
+  "song": "Taylor Swift - Message In A Bottle",
+  "songLink": "https://drive.google.com/file/d/1OAcpMMa6rf-NOkewAaon9Ab4PfJ4DUjh/view?usp=sharing",
+  "difficulty": 1,
+  "records": [
+	{
+	  "user": "Hydraniac",
+	  "link": "https://medal.tv/games/geometry-dash/clips/iLTRFSLoJ5uc1F58B?invite=cr-MSw0RkksMTg1OTcxMTAwLA",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 7
+	},
+	{
+	  "user": "Poke Zach",
+	  "link": "https://youtu.be/ZxlUaFWM1FY?si=IfimOdi_13NMRMMv",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 8
+	},
+	{
+	  "user": "Blysteryx",
+	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": false,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "DeleteNine",
+	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 4
+	}
+  ]
 }

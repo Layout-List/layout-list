@@ -21,13 +21,5 @@
 	"difficulty": 10,
 	"song": "Waterflame - Ricochet Love",
 	"enjoyment": 8,
-	"records": [
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/1DUQFaWYTuQ",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 7
-		}
-	]
+	"records": []
 }
