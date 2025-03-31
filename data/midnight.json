@@ -33,6 +33,28 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 2
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/0ksUBmTh2gE",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		},
+		{
+			"user": "ICENOVA",
+			"link": "https://youtu.be/tytDHjX3NSM?si=Zc1ZeMFBvUjMIZrq",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 3
 		}
 	]
 }

@@ -379,6 +379,20 @@
 			"hz": 60,
 			"enjoyment": 7,
 			"mobile": true
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/W_YB3cpfg_Y",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

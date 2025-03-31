@@ -334,6 +334,27 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 6
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/No-WOWpfM1g",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

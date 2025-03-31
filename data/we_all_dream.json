@@ -185,6 +185,22 @@
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/G0pd9faPz0Q?si=cjx8jA6lpmklvpvn",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 1,
+			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ZurGT_-zsmc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }

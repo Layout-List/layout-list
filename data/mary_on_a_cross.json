@@ -105,6 +105,41 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 4
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/jWAr1qdyD40",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "Screendoe",
+			"link": "https://medal.tv/games/geometry-dash/clips/jVxweNL7FBnGFluud?invite=cr-MSx4OXosMjEyMTU0NjM2",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "TheClam",
+			"link": "https://youtu.be/HM40w44jIEs?si=AXRFBLev_6DzXlns",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Kubuśś",
+			"link": "https://medal.tv/games/geometry-dash/clips/jWleIy2RoAWQRqH4t?invite=cr-MSxoU0UsMjgwMDAxNTUx",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "YourLighy",
+			"link": "https://www.youtube.com/watch?v=tGFMNBJ7Y50",
+			"percent": 100,
+			"hz": 280,
+			"enjoyment": 8
 		}
 	]
 }

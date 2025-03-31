@@ -1,14 +1,20 @@
 import { store } from "../main.js";
 import { embed, rgbaBind, copyURL } from "../util.js";
-import { score, packScore, lightPackColor, darkPackColor } from "../config.js";
+import { score, packScore, packColor } from "../config.js";
 import { averageEnjoyment, fetchList, fetchPacks } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 import Copy from "../components/Copy.js";
 import Copied from "../components/Copied.js";
+import TemplateDisclaimer from "../components/Sidebar/TemplateDisclaimer.js";
+import PacksInfo from "../components/Sidebar/PacksInfo.js"
+import PackDifficulty from "../components/Sidebar/PackDifficulty.js"
+import CookiesDisclaimer from "../components/Sidebar/CookiesDisclaimer.js";
+import Level from "../components/List/Level.js";
+import Errors from "../components/Sidebar/Errors.js";
 
 export default {
-    components: { Spinner, LevelAuthors, Copy, Copied },
+    components: { Spinner, LevelAuthors, Copy, Copied, TemplateDisclaimer, PacksInfo, PackDifficulty, CookiesDisclaimer, Level, Errors },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -18,7 +24,7 @@ export default {
                 <table class="list" v-if="packs && errored !== 'The pack data is malformed, please alert staff!'">
                     <tr v-for="(pack, index) in packs" :key="index">
                         <td class="level">
-                            <button @click="selectPack(index, pack)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': store.dark ? reactiveOpaque(darkPackColor(pack.difficulty), index) : reactiveOpaque(lightPackColor(pack.difficulty), index) }" :class="{ 'error': !pack }">
+                            <button @click="selectPack(index, pack)" @mouseover="hoverIndex = index" @mouseleave="hoverIndex = null" class="pack-name" :style="{ 'background': reactiveOpaque(packColor(pack.difficulty), index) }" :class="{ 'error': !pack }">
                                 <span class="type-label-lg">
                                     {{ pack.name }}
                                 </span>
@@ -48,78 +54,9 @@ export default {
                     <p>{{ errored }}</p>
                 </div>
                     
+                
                 <!-- level page :shocked: -->
-                <div class="level" v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels">
-                    <div class="copy-container">
-                        <h1 class="copy-name">  
-                            {{ level.name }}
-                        </h1>
-                        <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
-                        <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
-                    </div>
-                    <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment || null"></LevelAuthors>
-                    <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
-                    <div v-if="level.showcase" class="tabs">
-                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
-                            <span class="type-label-lg">Verification</span>
-                        </button>
-                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
-                            <span class="type-label-lg">Showcase</span>
-                        </button>
-                    </div>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Points</div>
-                            <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">ID</div>
-                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Enjoyment</div>
-                            <p>{{ averageEnjoyment(level.records) }}/10</p>
-                        </li>
-                    </ul>
-                    <ul class="stats">
-                        <li>
-                            <div class="type-title-sm">Song</div>
-                            <p v-if="level.songLink"><a class="director" target="_blank" :href="songDownload">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
-                            <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
-                        </li>
-                    </ul>
-                    <h2>Records ({{ level.records.length }})</h2>
-                    <p><strong>{{ (level.difficulty>3)?level.percentToQualify:100 }}%</strong> or better to qualify</p>
-                    <table class="records">
-                        <tr v-for="record in level.records" class="record">
-                            <td class="percent">
-                                <p>{{ record.percent }}%</p>
-                            </td>
-                            <td class="user">
-                                <div class="user-container">
-                                    <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
-                                    <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
-                                </div>
-                            </td>
-                            <td class="mobile">
-                                <img v-if="record.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
-                            </td>
-                            <td class="enjoyment">
-                                <p v-if="record.enjoyment === undefined">?/10</p>
-                                <p v-else>{{ record.enjoyment }}/10</p>
-                            </td>
-                            <td class="hz">
-                                <p>{{ record.hz }}FPS</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
+                <Level v-else-if="selected !== null && selectedPackIndex !== null && selectedPack.levels" :level="level" :list="list" :fromPacksPage="true" />
                 <!-- pack info page -->
                 <div class="level" v-else-if="selectedPackIndex !== null && selected === null">
                 <div class="copy-container">
@@ -157,61 +94,14 @@ export default {
             </div>
             <div class="meta-container">
                 <div class="meta">
-                    <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors" :key="error">{{ error }}</p>
-                    </div>
-                    <div class="og">
-                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
-                    </div>
+                    <Errors :errors="errors" />
+                    <TemplateDisclaimer />
                     <hr class="divider">
-                    <h3>About Packs</h3>
-                    <div class="right-text">
-                        <p>Packs are sets of levels on the Layout List chosen by the staff team that share distinct commonalities and are within a close difficulty range (generally ± 1 difficulty tier).</p>
-                        <p>If you have a suggestion for a new pack, feel free to share it with the list team in #list-discussion in our Discord server!</p>
-                        <p>If you beat all the levels in a pack, it gets displayed on your profile in the leaderboard!  Furthermore, send a screenshot of your list profile in #list-support in our Discord server, and we will give you the roles for the packs you've completed!</p>
-                    </div>
+                    <PacksInfo />
                     <hr class="divider">
-                    <h3>Difficulty Rankings</h3>
-                    <div class="right-text">
-                        <p>
-                            Legendary Packs = Packs with levels from the supreme tier and above (200 points)
-                        </p>
-                        <p>
-                            Extreme Packs = Packs with levels from the extreme tier (150 points)
-                        </p>
-                        <p>
-                            Mythical Packs = Packs with levels from the mythical tier (100 points)
-                        </p>
-                        <p>
-                            Insane Packs = Packs with levels from the insane tier (70 points)
-                        </p>
-                        <p>
-                            Hard Packs = Packs with levels from the hard tier (50 points)
-                        </p>
-                        <p>
-                            Medium Packs = Packs with levels from the medium tier (30 points)
-                        </p>
-                        <p>
-                            Easy Packs = Packs with levels from the easy tier (15 points)
-                        </p>
-                        <p>
-                            Beginner Packs = Packs with levels from the beginner tier (5 points)
-                        </p>
-                    </div>
+                    <PackDifficulty />
                     <hr class="divider">
-                    <div class="right-text">
-                        <p>
-                            For your convenience, the Layout List caches the data for the list in your browser.
-                        </p>
-                        <p>
-                            By using the site, you agree to the storage of this data in your browser. 
-                            You can disable this in your browser's settings (turn off local storage), however this will cause 
-                            the site to load very slowly and is not recommended.
-                        </p>
-                    </div>
-                    <p>
-                        No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
-                    </p>
+                    <CookiesDisclaimer />
                 </div>
             </div>
         </main>
@@ -238,8 +128,7 @@ export default {
         packScore,
         averageEnjoyment,
         rgbaBind,
-        lightPackColor,
-        darkPackColor,
+        packColor,
         copyURL,
 
         // initialize the selected pack

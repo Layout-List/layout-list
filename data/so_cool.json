@@ -1332,6 +1332,50 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https: //www.youtube.com/live/42E5u-I2GYA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/4tR8KqQ5cFA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/6Gv7rI6sHP8",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Virek",
+			"link": "https://youtu.be/E3vE8vw2BYY?si=MM6dGBCF3Xnn5vTb",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "Screendoe",
+			"link": "https://medal.tv/games/geometry-dash/clips/jVJmWmmF58dMldD4Q?invite=cr-MSw1STksMjEyMTU0NjM2",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "EditorTeam",
+			"link": "https://youtu.be/umRtNAJCV-I",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
 		}
 	]
 }

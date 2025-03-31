@@ -12,7 +12,7 @@ const debug = true;
 export let store;
 
 // Compresses data passed to the function using Gzip
-function compressData(data) {
+export function compressData(data) {
     const jsonData = JSON.stringify(data);
     const compressed = pako.gzip(jsonData);
 
@@ -24,7 +24,7 @@ function compressData(data) {
 }
 
 // Decompressed data passed to the function using Gzip
-function decompressData(compressedData) {
+export function decompressData(compressedData) {
     const binaryString = atob(compressedData); // Decode base64
     const charData = Uint8Array.from(binaryString, (char) =>
         char.charCodeAt(0)
@@ -143,12 +143,16 @@ if (!debug) {
 }
 
 let app = Vue.createApp({
-    data: () => ({ store }),
+    data: () => ({ store, selectedColor: '' }),
 
     
     async mounted() {
+ 
+        const cookieColor = localStorage.getItem("color");
+        if (cookieColor) {
+            this.selectedColor = cookieColor
+        }
         return;
-        /*
         console.info("Pre-load completed, checking for new data...");
         store.loaded = true;
         // Update list if it's different than what's stored locally
@@ -186,7 +190,30 @@ let app = Vue.createApp({
         console.info("Up to date!");
         */
     },
-    
+  
+    watch: {
+        selectedColor: {
+            handler(newColor) {
+                const site = document.getElementById("app");
+                // don't ask me what this does because i don't know
+                const rgb = parseInt(newColor.slice(1), 16);
+                const r = (rgb >> 16) & 0xff;
+                const g = (rgb >> 8) & 0xff;
+                const b = rgb & 0xff;
+                const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+                if (luminance > 0.5) {
+                    this.store.dark = false
+                    site.style.setProperty("--color-on-primary", "#000000");
+                } else {
+                    this.store.dark = true;
+                    site.style.setProperty("--color-on-primary", "#ffffff");
+                }
+                site.style.setProperty("--color-primary", newColor)
+                site.style.setProperty("--color-background-hover", newColor + "30")
+                localStorage.setItem("color", newColor)
+            }
+        }
+    }
 });
 
 const router = VueRouter.createRouter({history: VueRouter.createWebHashHistory(), routes});

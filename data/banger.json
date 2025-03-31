@@ -1,40 +1,55 @@
 {
-  "id": 86935334,
-  "name": "banger",
-  "creators": [
-	"MannyHeffley"
-  ],
-  "verifier": "Hydraniac",
-  "verification": "https://youtu.be/yo9TKx5Vt0Y?si=EYzN0BXGLsZLVWlT",
-  "percentToQualify": 100,
-  "song": "xi - Freedom Dive",
-  "songLink": "IF NO NONG, DELETE THIS TAB",
-  "difficulty": 1,
-  "enjoyment": 8,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	}
-  ]
+	"id": 86935334,
+	"name": "banger",
+	"creators": [
+		"MannyHeffley"
+	],
+	"verifier": "Hydraniac",
+	"verification": "https://youtu.be/yo9TKx5Vt0Y?si=EYzN0BXGLsZLVWlT",
+	"percentToQualify": 100,
+	"song": "xi - Freedom Dive",
+	"songLink": "IF NO NONG, DELETE THIS TAB",
+	"difficulty": 1,
+	"enjoyment": 8,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/lmNCCF7y8mc?si=V018Yz-AxJifFIDM",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/DVL1augSdko?si=LBZjaTgrVResyRZe",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ZurGT_-zsmc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		}
+	]
 }
