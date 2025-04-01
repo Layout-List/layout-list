@@ -447,5 +447,12 @@ export const aprilFoolsVideos = [
     "https://www.youtube.com/watch?v=tHPCpso-Fr0",
     "https://www.youtube.com/watch?v=2pFwQiwRbcg",
     "https://www.youtube.com/watch?v=lvqvIi3XgcE&pp=ygUfZGogY3V0cyB0cmF2aXMgc2NvdHQncyBhdXRvdHVuZQ%3D%3D",
-    "https://www.youtube.com/watch?v=GXqTIbJwwDk&pp=ygUKbXVmZmluIGNnNQ%3D%3D"
+    "https://www.youtube.com/watch?v=GXqTIbJwwDk&pp=ygUKbXVmZmluIGNnNQ%3D%3D",
+    "https://www.youtube.com/watch?v=A36v3ME6K6A",
+    "https://www.youtube.com/watch?v=EITxcp3BZbY",
+    "https://www.youtube.com/watch?v=DJOQbkgj9oo",
+    "https://youtu.be/AuyNdkn4jwI", // louis T + louis D = DYNAMIC DUO!?!?!?!!?
+    "https://www.youtube.com/watch?v=AZhWW6URrns",
+    "https://www.youtube.com/watch?v=JhnKPXGys0s",
+    "https://www.youtube.com/watch?v=UaMoX-wEdfQ"
 ]

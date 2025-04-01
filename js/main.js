@@ -127,6 +127,9 @@ if (!debug) {
         loaded: true,
         dark: JSON.parse(localStorage.getItem("dark")) || false,
         toggleDark() {
+            // 20% chance
+            const randomNumber = Math.floor(Math.random() * 5) + 1;
+            if (randomNumber !== 1) return;
             this.dark = !this.dark;
             localStorage.setItem("dark", JSON.stringify(this.dark));
         },

@@ -5,11 +5,6 @@
     "levels": ["garbage_pickup", "now_i_do", "skipitybopmdada", "toronto"]
   },
   {
-    "name": "Skibidi Toilet Pack",
-    "difficulty": 1,
-    "levels": ["garbage_pickup", "now_i_do", "skipitybopmdada", "toronto"]
-  },
-  {
     "name": "The Whole List Pack",
     "wholeList": true,
     "difficulty": 7,
@@ -436,7 +431,32 @@
       "artificial",
       "so_cool"
     ]
-
+  },
+  {
+    "name": "Skibidi Toilet Pack",
+    "difficulty": 7,
+    "levels": [
+      "skibidi_toilet_4",
+      "skibidi_toilet_38",
+      "skibidi_toilet_235",
+      "skibidi_circles",
+      "skipitybopmdada"
+    ]
+  },
+  {
+    "name": "Dogshit Song Pack",
+    "difficulty": 7,
+    "levels": ["rhyotic"]
+  },
+  {
+    "name": "JDK Song Pack",
+    "difficulty": 7,
+    "levels": ["work", "followers", "retro_zone"]
+  },
+  {
+    "name": "The Impossible Game",
+    "difficulty": 7,
+    "levels": ["fire_aura", "original_level", "heaven", "phazd"]
   },
   {
     "name": "Short Pack 2",

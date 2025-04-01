@@ -70,7 +70,7 @@ export default {
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <a class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': (!pack.levels || pack.wholeList) ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                     </div>
-                    <LevelAuthors :creators="[users[Math.floor(Math.random() * users.length)]]" :verifier="users[Math.floor(Math.random() * users.length)]" :enjoyment="0"></LevelAuthors>
+                    <LevelAuthors :creators="!level.skibidiToilet ? [users[Math.floor(Math.random() * users.length)]] : level.creators" :verifier="!level.skibidiToilet ? users[Math.floor(Math.random() * users.length)] : level.verifier" :enjoyment="0"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -80,7 +80,7 @@ export default {
                             <span class="type-label-lg">Showcase</span>
                         </button>
                     </div>
-                    <iframe class="video" id="videoframe" :src="embed(aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)])" frameborder="0"></iframe>
+                    <iframe class="video" id="videoframe" :src="!level.skibidiToilet ? embed(aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)]) : level.verification" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
