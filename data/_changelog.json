@@ -340,5 +340,14 @@
 		"from_rank": null,
 		"above": "achelous",
 		"below": "every_end"
+	},
+	{
+		"date": 1743519235,
+		"action": "placed",
+		"name": "simpson_freedom",
+		"to_rank": 1,
+		"from_rank": null,
+		"above": "map_of_problematique",
+		"below": null
 	}
 ]
