@@ -142,7 +142,7 @@ let app = Vue.createApp({
     async mounted() {
         const cookieColor = localStorage.getItem("color");
         if (cookieColor) {
-            this.selectedColor = cookieColor
+            this.selectedColor = cookieColor;
         }
         console.info("Pre-load completed, checking for new data...");
         store.loaded = true;
