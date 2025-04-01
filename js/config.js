@@ -455,5 +455,6 @@ export const aprilFoolsVideos = [
     "https://www.youtube.com/watch?v=AZhWW6URrns",
     "https://www.youtube.com/watch?v=JhnKPXGys0s",
     "https://www.youtube.com/watch?v=UaMoX-wEdfQ",
-    "https://www.youtube.com/watch?v=1M0HeUBNbyg"
+    "https://www.youtube.com/watch?v=1M0HeUBNbyg",
+    "https://youtu.be/At8v_Yc044Y"
 ]
