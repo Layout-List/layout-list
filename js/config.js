@@ -454,5 +454,6 @@ export const aprilFoolsVideos = [
     "https://youtu.be/AuyNdkn4jwI", // louis T + louis D = DYNAMIC DUO!?!?!?!!?
     "https://www.youtube.com/watch?v=AZhWW6URrns",
     "https://www.youtube.com/watch?v=JhnKPXGys0s",
-    "https://www.youtube.com/watch?v=UaMoX-wEdfQ"
+    "https://www.youtube.com/watch?v=UaMoX-wEdfQ",
+    "https://www.youtube.com/watch?v=1M0HeUBNbyg"
 ]
