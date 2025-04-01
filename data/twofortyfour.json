@@ -1,9 +1,7 @@
 {
 	"id": 114637255,
 	"name": "TwoFortyFour",
-	"creators": [
-		"Fathom"
-	],
+	"creators": ["Fathom"],
 	"verifier": "Fathom",
 	"verification": "https://youtu.be/_ipa-_UzUwM",
 	"percentToQualify": 56,
@@ -11,13 +9,5 @@
 	"difficulty": 4,
 	"song": "Geoxor - Euphoria II",
 	"enjoyment": 9,
-	"records": [
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/AcXjj7YA0SU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 4
-		}
-	]
+	"records": []
 }

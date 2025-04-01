@@ -544,36 +544,6 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
-		},
-		{
-			"user": "Trekkino",
-			"link": "https://youtu.be/b9M7nWYJdfU",
-			"percent": 100,
-			"hz": 75,
-			"enjoyment": 9
-		},
-		{
-			"user": "Jarzst",
-			"link": "https://youtu.be/1yHzQ_HQYXk",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 9
-		},
-		{
-			"user": "ItsMrFancy",
-			"link": "https://youtu.be/3rlQRsfr1yc",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 10,
-			"mobile": true
-		},
-		{
-			"user": "Ripper0300",
-			"link": "https://youtu.be/mbelISceHD8?si=z0Sb9Nc7zzMyTw4i",
-			"percent": 100,
-			"hz": 80,
-			"enjoyment": 8,
-			"mobile": true
 		}
 	]
 }

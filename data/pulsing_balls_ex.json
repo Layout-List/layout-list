@@ -2,7 +2,8 @@
 	"id": 113536213,
 	"name": "Pulsing Balls EX",
 	"creators": [
-		"Cy4nn"
+		"Cy4nn",
+		"C4ynn"
 	],
 	"verifier": "skip",
 	"verification": "https://youtu.be/6zVMbMRBun4",
@@ -17,13 +18,6 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/AcXjj7YA0SU",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 5
 		}
 	]
 }

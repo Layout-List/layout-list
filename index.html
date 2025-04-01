@@ -23,21 +23,23 @@
         <link rel="stylesheet" type="text/css" href="/css/pages/packs.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
-        <link rel="stylesheet" type="text/css" href="/css/pages/grind.css" />
         <link
             rel="stylesheet"
             type="text/css"
             href="/css/components/tabs.css"
         />
-        <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
-        <script src="https://unpkg.com/vue-router@4.5.0/dist/vue-router.global.prod.js"></script>
+        <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
+        <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/pako@2.0.4/dist/pako.min.js"></script>
         <script type="module" src="/js/main.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6691681904612372"
+     crossorigin="anonymous"></script>
     </head>
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>The LL</h2>
+                <p>v3.6</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -52,29 +54,33 @@
                 <router-link class="nav__tab" to="/packs">
                     <span class="type-label-lg">Packs</span>
                 </router-link>
-                <router-link class="nav__tab" to="/grind">
-                    <span class="type-label-lg">Grind</span>
-                </router-link>
-                <div class="nav__actions" v-if="store.list && store.loaded">
-                     <div class="color-picker-wrapper nav__icon">
-                        <img :src="store.dark ? '/assets/palette-dark.svg' : '/assets/palette.svg'"/>
-                        <input type="color" class="nav__icon" v-model="selectedColor" v-if="store">
-                    </div>
-                    <a class="nav__icon" href="https://discord.gg/K48VRsHsPE" target="_blank">
-                        <img :src="!store.dark ? '/assets/discord-dark.svg' : '/assets/discord.svg'" />
+                <div class="nav__actions">
+                    <button
+                        class="nav__icon"
+                        @click.prevent="store.toggleDark()"
+                    >
+                        <img
+                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+                            alt=""
+                        />
+                    </button>
+                    <a class="nav__icon" href="https://discord.gg/MejAZ9dv" target="_blank">
+                        <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
                     <a
                         class="nav__cta type-label-lg"
-                        href="https://forms.gle/kmesxiUQUEWC5ZuW9"
+                        href="https://pointercrate.com/demonlist/?submitter=true"
                         target="_blank"
                         >Submit Record</a
                     >
                 </div>
             </nav>
         </header>
+        <!--
         <main :class="{ dark: store.dark }" v-if="!store.list || !store.loaded">
             <p class="spinner">Loading...</p>
         </main>
+        -->
         <router-view v-else :class="{ dark: store.dark }"></router-view>
     </body>
 </html>

@@ -1,39 +1,31 @@
 {
-	"id": 103000641,
-	"name": "desir3",
-	"creators": [
-		"zDark",
-		"Flare"
-	],
-	"verifier": "zDark",
-	"verification": "https://youtu.be/_8wqjOrd8TQ",
-	"percentToQualify": 100,
-	"song": "onumi - desire",
-	"difficulty": 3,
-	"records": [
-		{
-			"user": "Mystikl",
-			"link": "https://youtu.be/LLpNYmh1XNI",
-			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 6
-		},
-		{
-			"user": "Hyperbeat",
-			"link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
-			"user": "Poke Zach",
-			"link": "https://youtu.be/F-YyZnvMte8",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 7,
-			"mobile": true
-		}
-	]
+  "id": 103000641,
+  "name": "desir3",
+  "creators": [
+	"zDark",
+	"Flare"
+  ],
+  "verifier": "zDark",
+  "verification": "https://youtu.be/_8wqjOrd8TQ",
+  "percentToQualify": 100,
+  "song": "onumi - desire",
+  "difficulty": 3,
+  "records": [
+	{
+	  "user": "Mystikl",
+	  "link": "https://youtu.be/LLpNYmh1XNI",
+	  "percent": 100,
+	  "hz": 60,
+	  "mobile": true,
+	  "enjoyment": 6
+	},
+	{
+	  "user": "Hyperbeat",
+	  "link": "https://youtu.be/0NlzfxqwKXc?si=J3MyMFyMwuYQs59b",
+	  "percent": 100,
+	  "hz": 240,
+	  "mobile": false,
+	  "enjoyment": 5
+	}
+  ]
 }

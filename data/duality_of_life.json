@@ -1,13 +1,13 @@
 {
-  "id": 109999177,
+  "id": 91887127,
   "name": "Duality of Life",
   "creators": [
 	"whitmp4"
   ],
   "verifier": "evil",
-  "verification": "https://www.youtube.com/watch?v=J8xcV-g11I8",
+  "verification": "https://youtu.be/J8xcV-g11I8?si=2IF4CS9n1lr4SMiN",
   "showcase": "https://youtu.be/wAXWIvyLDr8",
-  "percentToQualify": 100,
+  "percentToQualify": 58,
   "song": "Creo - Rivals",
   "difficulty": 4,
   "records": [
@@ -16,7 +16,8 @@
 	  "link": "https://youtu.be/Hx7d_I88Www",
 	  "percent": 100,
 	  "hz": 360,
-	  "mobile": false
+	  "mobile": false,
+	  "enjoyment": "?"
 	},
 	{
 	  "user": "mrperson",
@@ -47,7 +48,8 @@
 	  "link": "https://youtu.be/2yFnAkJ84D0",
 	  "percent": 100,
 	  "hz": 360,
-	  "mobile": false
+	  "mobile": false,
+	  "enjoyment": "?"
 	},
 	{
 	  "user": "Syrcx",

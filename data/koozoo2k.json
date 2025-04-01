@@ -248,27 +248,6 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
-		},
-		{
-			"user": "Trekkino",
-			"link": "https://youtu.be/b9M7nWYJdfU",
-			"percent": 100,
-			"hz": 75,
-			"enjoyment": 10
-		},
-		{
-			"user": "Toop7",
-			"link": "https://youtu.be/HUw27qemmXg",
-			"percent": 100,
-			"hz": 120,
-			"enjoyment": 10
-		},
-		{
-			"user": "Jarzst",
-			"link": "https://youtu.be/icnahLI9Ivs",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
 		}
 	]
 }

@@ -227,9 +227,107 @@ export function packScore(pack) {
 }
 
 // ------------------------
+// Light mode pack colors:
+// ------------------------
+export function lightPackColor(difficulty) {
+    // NOTE: The site uses rgba values for the colors of packs.
+    //      - r is the red content of the color.
+    //      - g is the green content of the color.
+    //      - b is the blue content of the color.
+    //      - a is the alpha/opacity of the color (think alpha trigger in Geometry Dash).
+    //      - The values of r, g, and b are integers between 0 and 255, inclusive.
+    //      - The value of a is a number between 0 and 1, inclusive.
+
+    // If you're not on mobile, an easy way to select and test these values is to open
+    // inspect element, click on a pack's button, and find something that looks like this:
+    // https://imgur.com/a/6q2MsTj. From there, you're able to change the color in real
+    // time (on your device only). When you're done, copy the values from above the color
+    // picker and fill them into the switch statement below.
+
+    // Also, keep in mind that these are the values used *while the pack is selected*.
+    // If a pack is deselected or the user is only hovering over it, the opacity will
+    // decrease.
+
+    // Initialize r, g, b, and a values
+    let r = 0;
+    let g = 0;
+    let b = 0;
+    let a = 1; // The site assumes the opacity is 1, unless specified below.
+    
+    // For help figuring out how this switch statement works, look at the comments on
+    // the switch statement in the score function above.
+    switch (difficulty) { // Set the pack's color based on its difficulty.
+        case 0:
+
+            /* Beginner Packs */
+            r = 255;
+            g = 23;
+            b = 139;
+            a = 0.9;
+            break;
+        case 1:
+
+            /* Easy Packs */
+            r = 52;
+            g = 107;
+            b = 235;
+            break;
+        case 2:
+
+            /* Medium Packs */
+            r = 52;
+            g = 150;
+            b = 82;
+            break;
+        case 3:
+
+            /* Hard Packs */
+            r = 213;
+            g = 239;
+            b = 16;
+            a = 0.9;
+            break;
+        case 4:
+
+            /* Insane Packs */
+            r = 255;
+            g = 120;
+            a = 0.9;
+            break;
+        case 5:
+
+            /* Mythical Packs */
+            r = 147;
+            g = 24;
+            b = 255;
+            a = 0.9;
+            break;
+        case 6:
+
+            /* Extreme Packs */
+            r = 255;
+            a = 0.9;
+            break;
+        case 7:
+
+            /* Legendary Packs */
+            r = 25;
+            g = 25;
+            b = 25;
+            a = 0.8;
+            break;
+        default:
+            
+            /* If there's a mistake */
+            break;
+    }
+    return [r, g, b, a];
+}
+
+// ------------------------
 // Dark mode pack colors:
 // ------------------------
-export function packColor(difficulty) {
+export function darkPackColor(difficulty) {
     // NOTE: The site uses rgba values for the colors of packs.
     //      - r is the red content of the color.
     //      - g is the green content of the color.
@@ -326,3 +424,36 @@ export function packColor(difficulty) {
     }
     return [r, g, b, a];
 }
+
+export const aprilFoolsVideos = [
+    "https://www.youtube.com/watch?v=ineHGnSAhKA",
+    "https://www.youtube.com/watch?v=x5NRyXvqvIY&pp=ygULREogSkRLIHdvcms%3D",
+    "https://youtu.be/nqM-WIUIBmU",
+    "https://youtu.be/qLwU-e_ErxA?si=etQpFAteBx_EPWW5",
+    "https://youtu.be/CBEvfZu4HE4?si=o32q3V4Sb_U-ZWnH",
+    "https://youtu.be/C7KuvfzrWnI",
+    "https://youtu.be/lRnwK01n904?si=xt5RWx5a1EekDTm_",
+    "https://www.youtu.be/kXGgjggW9vo",
+    "https://youtu.be/6saYBeHzArE",
+    "https://youtu.be/8Pc0AEbfnBM?si=4pN21NVheMy19ETc",
+    "https://www.youtube.com/watch?v=O_U65QkH_EU",
+    "https://youtu.be/9JRLCBb7qK8?si=_jMCgm5uL4rXuLMe",
+    "https://youtu.be/siqSAlDDiXw?si=egTdtPa-COnj7aZp",
+    "https://www.youtube.com/watch?v=eDuRoPIOBjE",
+    "https://www.youtube.com/watch?v=M0qiZHV4E3U",
+    "https://www.youtube.com/watch?v=saFn4FSYLa4",
+    "https://www.youtube.com/watch?v=U57s-2h2Aoo",
+    "https://www.youtube.com/watch?v=YJdCpltq-_k",
+    "https://www.youtube.com/watch?v=tHPCpso-Fr0",
+    "https://www.youtube.com/watch?v=2pFwQiwRbcg",
+    "https://www.youtube.com/watch?v=lvqvIi3XgcE&pp=ygUfZGogY3V0cyB0cmF2aXMgc2NvdHQncyBhdXRvdHVuZQ%3D%3D",
+    "https://www.youtube.com/watch?v=GXqTIbJwwDk&pp=ygUKbXVmZmluIGNnNQ%3D%3D",
+    "https://www.youtube.com/watch?v=A36v3ME6K6A",
+    "https://www.youtube.com/watch?v=EITxcp3BZbY",
+    "https://www.youtube.com/watch?v=DJOQbkgj9oo",
+    "https://youtu.be/AuyNdkn4jwI", // louis T + louis D = DYNAMIC DUO!?!?!?!!?
+    "https://www.youtube.com/watch?v=AZhWW6URrns",
+    "https://www.youtube.com/watch?v=JhnKPXGys0s",
+    "https://www.youtube.com/watch?v=UaMoX-wEdfQ",
+    "https://www.youtube.com/watch?v=1M0HeUBNbyg"
+]

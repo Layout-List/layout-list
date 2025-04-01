@@ -326,27 +326,6 @@
 			"percent": 100,
 			"hz": 75,
 			"enjoyment": 5
-		},
-		{
-			"user": "buruc",
-			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
-			"percent": 100,
-			"hz": 60,
-			"enjoyment": 8
-		},
-		{
-			"user": "Zyxo",
-			"link": "https://youtu.be/Gf8_WUwol0M",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
-		},
-		{
-			"user": "Jarzst",
-			"link": "https://youtu.be/elijIVhQWI8",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 9
 		}
 	]
 }
