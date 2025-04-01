@@ -187,6 +187,21 @@ export default {
                         <p>
                             Dude and by the way why tf is it called xdbot like what kind of fucking name is that lets be hoenst thats a dumb name LOL like wdym XD okay number 1 its 2025 nobody over the age of like 7 says that shit anymore and number 2 why am i laughing at this fucking mod like whats so funny bro nobodys reaction to xdbot is XD like its not that funny dawg its just a bot like lock in bro actually dude this shit pisses me off SO much that name better be changed or im quitting the game its horribly insensitive to the GD community as a whole and has hurt many people along the way like who even made ts this guys name is ziliko what a dumb fucking name this guy should quit gd like i bet their entire family hates them because they sit inside all day coding fucking XDbot and laughing like XD LOL XD HAHAHHAHAA ALOL FUNNY BOT LOL GEOMETRY DASH FUNNY LOL like shut the fuck up dude??? nobody cares?!?!?!??!?!?? holy shit
                         </p>
+                        <p>
+                            XHAO (no i havent beaten it)
+legit the worst level on the list. ive said this many times but isotherm was already topped. you can fix this level however many times you want to, but it will never be good to play. Yoncawave had 0 intention of having people beat this when he made it. It is visual gameplay, meant to look cool to watch, but not meant to actually be played. I havent really ever played a level this akward and disgusting to play, it just feels like torture learning even one part because you never know how it is supposed to function. You can click a certain way and it will work one attempt, and do it exactly the same and it will kill you the next attempt. A few things i want to point out for being really bad will follow. 
+the first ufo parts: the gimmick of this part is pretty obviously for visual appeal, and actually doing it is so frustrating and annoying
+52 spider: random unnecessary double click in the middle of a normal part
+59: absurd wave chokepoint
+78 dual: in what world is that good, the ship on the bottom is already affected by mini and dual physics, but did you have to make the ship movement and path THAT akward? WTH
+79: another stupid dual spam!
+83 ship: you gotta be joking
+85 dual: this is the worst part of the level. WHAT IS THAT FIRST GEAR??? the transition into the dual and doing the wave is so awful and abrupt and half the time you just instantly die to the horribly placed gear. and the next click is also terrible. sometimes the spider will die on the top when you buffer (which is how you are intended to do it).
+93 blue orb is way too hard
+the last spider kills you when you buffer, which is exactly what the level tells you to do (a death effect appears telling you to buffer). Your spider on the bottom will randomly hit the side of the block and die. 
+
+So yes this is where i draw the line in "subjectivity" because anyone who hasnt played this level, dont say a word about it because you do NOT know how terrible this really is. #removeXHAO
+                        </p>
                     </div>
                     <hr class="divider">
                     <h3>Difficulty Rankings</h3>
