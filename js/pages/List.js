@@ -155,7 +155,7 @@ export default {
                     </div>
                     <input type="checkbox" id="randomSelect" v-model="disabledRandomSelect">
                     <div class="og">
-                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
+                        <p class="type-label-md">Website developed by <a class="director" href="https://chatgpt.com" target="_blank">ChatGPT</a>.</p>
                     </div>
                     <hr class="divider">
                     <template v-if="staff">
@@ -182,73 +182,44 @@ export default {
                     <h3>Record Submission Requirements</h3>
                     <div class="right-text">
                         <p>
-                            You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack, however, "Click Between Frames" is allowed).
+                            Okay so like bascialyl beat the level legit BUT we need to know ur legit so turn on cheat indicator even though that does basically nothing lmaooooo and also u cant speedhack and also physics bypass is banend but CBF is allowed but physics bypass in CBF is banned because its physics bypass lol and also you need clicks if the level is easy layout or above but not for beginner layouts so u could just kinda get xdbot on geode and bot a bunch of easy stuff and we will never know LOL but why would you even do that it would lowkey take less time to actually beat the level LOL so thats kinda a waste of ur time anyways um u need raw footage for levels extreme+ but we know ur trash ass is not beating ts lets be honest ok thanks have fun!
                         </p>
                         <p>
-                            You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
-                        </p>
-                        <p>
-                            Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). This does not include mods that add artificial click sounds.
-                        </p>
-                        <p>
-                            Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
-                        </p>
-                        <p>
-                            The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
-                        </p>
-                        <p>
-                            The recording must show the player hit the end-wall as well as present your end stats, or the completion will be invalidated.
-                        </p>
-                        <p>
-                            Do not use secret routes, skips, or bug routes!
-                        </p>
-                        <p>
-                            Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
+                            Dude and by the way why tf is it called xdbot like what kind of fucking name is that lets be hoenst thats a dumb name LOL like wdym XD okay number 1 its 2025 nobody over the age of like 7 says that shit anymore and number 2 why am i laughing at this fucking mod like whats so funny bro nobodys reaction to xdbot is XD like its not that funny dawg its just a bot like lock in bro actually dude this shit pisses me off SO much that name better be changed or im quitting the game its horribly insensitive to the GD community as a whole and has hurt many people along the way like who even made ts this guys name is ziliko what a dumb fucking name this guy should quit gd like i bet their entire family hates them because they sit inside all day coding fucking XDbot and laughing like XD LOL XD HAHAHHAHAA ALOL FUNNY BOT LOL GEOMETRY DASH FUNNY LOL like shut the fuck up dude??? nobody cares?!?!?!??!?!?? holy shit
                         </p>
                     </div>
                     <hr class="divider">
                     <h3>Difficulty Rankings</h3>
                     <div class="right-text">
                         <p>
-                            Impossible Layout = Top Extreme Demons (401 to 750 Points)
+                            Demon: 10 stars
                         </p>
                         <p>
-                            Legendary Layout = Mid Extreme Demons (201 to 400 Points)
+                            Insane: 8-9 stars
                         </p>
                         <p>
-                            Extreme Layout = Beginner Extreme Demons (101 to 200 Points)
+                            Harder: 6-7 stars
                         </p>
                         <p>
-                            Mythical Layout = High Insane Demons (71 to 100 Points)
+                            Hard: 4-5 stars
                         </p>
                         <p>
-                            Insane Layout = Insane Demons (41 to 70 Points)
+                            Normal: 3 stars
                         </p>
                         <p>
-                            Hard Layout = Hard Demons (21 to 40 Points)
+                            Easy: 2 stars
                         </p>
                         <p>
-                            Medium Layout = Medium Demons (11 to 20 Points)
+                            Auto: 1 stars
                         </p>
                         <p>
-                            Easy Layout = Easy Demons (6 to 10 Points)
-                        </p>
-                        <p>
-                            Beginner Layout = Non Demons (1 to 5 Points)
+                            N/A: 0 stars
                         </p>
                     </div>
                     <hr class="divider">
                     <div class="right-text">
                         <p>
-                            For your convenience, the Layout List caches the data for the list in your browser.
-                        </p>
-                        <p>
-                            By using the site, you agree to the storage of this data in your browser. 
-                            You can disable this in your browser's settings (turn off local storage), however this will cause 
-                            the site to load very slowly and is not recommended.
-                        </p>
-                        <p>
-                            No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/layout-list/layout-list/">view the site's source code here</a></u>.
+                            For money, the Layout List website sells your data to the <a style="text-decoration: underline;" href="https://www.youtube.com/watch?v=vPPIXdHXn4E" target="_blank">dark web.</a> To opt out of this, paypal $10 to sphericle.
                         </p>
                     </div>
                 </div>

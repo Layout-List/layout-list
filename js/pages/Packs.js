@@ -161,7 +161,7 @@ export default {
                         <p class="error" v-for="error of errors" :key="error">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
+                        <p class="type-label-md">Website developed by <a class="director" href="https://chatgpt.com" target="_blank">ChatGPT</a>.</p>
                     </div>
                     <hr class="divider">
                     <h3>About Packs</h3>
