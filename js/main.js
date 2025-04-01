@@ -150,6 +150,14 @@ let app = Vue.createApp({
 
     
     async mounted() {
+        let randomNumber = Math.floor(Math.random() * 100) + 1;
+        console.log(randomNumber)
+        if (randomNumber == 1) {
+            const site = document.getElementById("app")
+            site.style.setProperty("--color-background", "#FFFFFF")
+            site.style.setProperty("--color-primary", "#FFFFFF")
+        }
+
         return;
         /*
         console.info("Pre-load completed, checking for new data...");
