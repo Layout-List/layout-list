@@ -65,6 +65,8 @@ export default {
                     <Errors :errors="errors" />
                     <TemplateDisclaimer />
                     <hr class="divider">
+                    <p><a class="director" href="https://laylist.pages.dev/#/" target="_blank">April Fools</a></p>
+                    <hr class="divider">
                     <Staff />
                     <hr class="divider">
                     <h3>Tags</h3>
