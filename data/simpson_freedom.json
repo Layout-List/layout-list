@@ -1,7 +1,9 @@
 {
 	"id": 69916842,
 	"name": "Simpson Freedom",
-	"creators": ["SuperstarStudio"],
+	"creators": [
+		"SuperstarStudio"
+	],
 	"verifier": "zHexya",
 	"verification": "https://youtu.be/rf_YpN0KnAs?si=ZY8YYChOTHlna3vI",
 	"percentToQualify": 99,
@@ -9,5 +11,13 @@
 	"difficulty": 11,
 	"song": "xi - Freedom Dive",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/ayzc6JuPpmc",
+			"percent": 100,
+			"hz": 1,
+			"enjoyment": 10
+		}
+	]
 }
