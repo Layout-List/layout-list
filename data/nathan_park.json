@@ -1,22 +1,29 @@
 {
-  "id": 103503692,
-  "name": "Nathan Park",
-  "creators": [
-	"NathanYAY"
-  ],
-  "verifier": "NathanYAY",
-  "verification": "https://youtu.be/vVkW9n0kFYM?si=rBJueHJsFfbDcbA3 ",
-  "percentToQualify": 100,
-  "song": "meganeko - milkshake",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
-	  "percent": 100,
-	  "hz": 60,
-	  "enjoyment": 9,
-	  "mobile": true
-	}
-  ]
+	"id": 103503692,
+	"name": "Nathan Park",
+	"creators": [
+		"NathanYAY"
+	],
+	"verifier": "NathanYAY",
+	"verification": "https://youtu.be/vVkW9n0kFYM?si=rBJueHJsFfbDcbA3 ",
+	"percentToQualify": 100,
+	"song": "meganeko - milkshake",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/un-ug_NzmX8?si=WQyUwEGVaBYV3gZ-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }

@@ -1,86 +1,101 @@
 {
-  "id": 109586957,
-  "name": "Legends Never Die",
-  "creators": [
-	"Shums"
-  ],
-  "verifier": "Shums",
-  "verification": "https://www.youtube.com/watch?v=G53haTzwsMQ",
-  "percentToQualify": 100,
-  "song": "Against The Current - Legends Never Die",
-  "songLink": "https://drive.google.com/file/d/1Y9FgYd-cRkLsFvU5AB5paDWlQU_6uT1I/view?usp=drive_link",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/JdJ3TqZ7Ygc?si=vZ4LcmYQ2rlzgj_M",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "sn0w",
-	  "link": "https://www.youtube.com/watch?v=W8onPZ50xaE",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=xh5RwYyaMmU",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Paladean",
-	  "link": "https://youtu.be/rS93s64gtBs",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "zerarori",
-	  "link": "https://youtu.be/-hqnN5p43Bk",
-	  "percent": 100,
-	  "hz": 240,
-	  "enjoyment": 6
-	}
-  ]
+	"id": 109586957,
+	"name": "Legends Never Die",
+	"creators": [
+		"Shums"
+	],
+	"verifier": "Shums",
+	"verification": "https://www.youtube.com/watch?v=G53haTzwsMQ",
+	"percentToQualify": 100,
+	"song": "Against The Current - Legends Never Die",
+	"songLink": "https://drive.google.com/file/d/1Y9FgYd-cRkLsFvU5AB5paDWlQU_6uT1I/view?usp=drive_link",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/JdJ3TqZ7Ygc?si=vZ4LcmYQ2rlzgj_M",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "sn0w",
+			"link": "https://www.youtube.com/watch?v=W8onPZ50xaE",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/iOVnORZeRoU?si=cC2HfbRTiNRyvnGX",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=xh5RwYyaMmU",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Paladean",
+			"link": "https://youtu.be/rS93s64gtBs",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=U4Jd_bhyYqQ",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/JvTeFPj8PHE?si=z2A5000J9ykpt4E6",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "zerarori",
+			"link": "https://youtu.be/-hqnN5p43Bk",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/Gf8_WUwol0M",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "jarzst",
+			"link": "https://youtu.be/X14U72GntdQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		}
+	]
 }

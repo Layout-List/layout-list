@@ -1,24 +1,10 @@
 :root {
-    --color-background: rgb(0, 255, 251);
-    --color-on-background: black;
-    --color-background-hover: #eee;
-    --color-on-background-hover: black;
-    --color-primary: rgb(130, 33, 33);
-    --color-on-primary: white;
-    --color-error: #de0000;
-    --color-on-error: white;
-    --color-hover: rgb(168, 168, 168);
-    --color-on-hover: rgb(15, 15, 15);
-}
-
-main.dark,
-header.dark {
     color-scheme: dark;
-    --color-background: #341919;
+    --color-background: #1c1b1f;
     --color-on-background: white;
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #eaff00;
+    --color-primary: #5d5e5e;
     --color-primary-disabled: #1f213c;
     --color-on-primary: white;
     --color-error: #de0000;
@@ -200,8 +186,14 @@ input[type="checkbox"] {
     padding-bottom:2em
 }
 
+.director {
+    cursor: pointer;
+}
+
 .director:hover {
-    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
 }
 
 @media only screen and (max-device-width: 480px) {

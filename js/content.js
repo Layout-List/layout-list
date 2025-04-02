@@ -129,16 +129,7 @@ export async function fetchLeaderboard(list) {
     const flagResult = await fetch(`${dir}/_flags.json`);
     const flags = await flagResult.json()
 
-    const scoreMap = {
-        SpaceUK: {
-            created: [],
-            verified: [],
-            completed: [],
-            progressed: [],
-            userPacks: [],
-            flag: flags["SpaceUK"]
-        }
-    };
+    const scoreMap = {};
     const errs = [];
     let possibleMax = 0;
 
@@ -369,19 +360,17 @@ export async function fetchLeaderboard(list) {
     // Wrap in extra Object containing the user and total score
 
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { created, verified, completed, progressed, flag } = scores;
+        const { created, verified, completed, progressed, flag} = scores;
 
 
         let total = [completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
-            
-        if (user === "SpaceUK") total = 999999
 
         scores.userPacks.forEach((pack) => { 
             total += packScore(pack, list)
             pack['score'] = packScore(pack, list)
-        })
+        }) 
 
         return {
             user,
@@ -689,15 +678,18 @@ export async function fetchUsers() {
     const list = await fetchList();
 
     list.forEach(([err, rank, level]) => {
-        users.add(level.verifier)
+        users.add(level.verifier.trim())
         for (const creator of level.creators) {
-            users.add(creator)
+            users.add(creator.trim())
         }
         for (const record of level.records) {
-            users.add(record.user)
+            users.add(record.user.trim())
         }
     })
+    
+    const userArray = Array.from(users)
 
-    console.log(users)
-    return Array.from(users)
+    const uniqueUsers = Array.from(new Set(userArray.map(user => user.toLowerCase())));
+
+    return uniqueUsers
 }

@@ -5,7 +5,7 @@
 		"monthmai"
 	],
 	"verifier": "monthmai",
-	"verification": "https://youtu.be/jLkv3HDfNDY?si=QuFzwPGI78yfCy8V",
+	"verification": "https://youtu.be/FiS6BxaBFPg?si=CAbZMAwkSGVT7rLs",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 2,
@@ -27,6 +27,13 @@
 			"hz": 60,
 			"enjoyment": 4,
 			"mobile": true
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
