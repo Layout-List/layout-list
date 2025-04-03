@@ -48,13 +48,13 @@ export default {
                         <Btn @click="saveToFile()" v-if="completed.levels.length > 0">Export</Btn>
                         <br>
 
-                        <Btn @click="submit()" v-if="completed.levels.length > 0">{{ submitLoading ? "Loading..." : "Get link" }}</Btn>
+                        <Btn @click="submit()" v-if="completed.levels.length > 0">{{ submitLoading ? "Loading..." : "Submit" }}</Btn>
                         <br v-if="completed.levels.length > 0">
 
                         <Btn @click="reset()" style="background-color: #d50000;color: white;">Reset</Btn>
 
                         <div v-if="lastSubmission">
-                            <p v-if="copied === false" class="director" @click="copySubmission()" style="text-decoration: underline;">Previous submission link \n(click to copy)</p>
+                            <p v-if="copied === false" class="director" @click="copySubmission()" style="text-decoration: underline;">Previous submission (click to copy)</p>
                             <p v-else-if="copied === 'err'">Error copying to clipboard, please copy this link:\n{{ lastSubmission }}</p>
                             <p v-else-if="copied === true" @click="copySubmission()" class="director" style="text-decoration: underline;">Copied!</p>
                             <br>
@@ -74,14 +74,14 @@ export default {
                         </h3>
                         <div v-if="clickedOnTheInfoThing" class="left-info-box">
                             <p>
-                                This page keeps track of what you haven't completed on the list yet, and can generate a link for easy record submitting.
+                                This page keeps track of what you haven't completed on the list yet, and can make submitting many levels at once way easier.
                                 When you beat a level, you can mark it as completed and set your enjoyment (and percentage, if it isn't 100%).
                             </p>
                             <p>
                                 Your save data saves to your browser, but you can manually export it to a file as a backup above.
                             </p>
                             <p>
-                                When you're ready to submit your records to be added, click "Submit" and paste the link to the <a :href="formUrl" class="director" target="_blank">Google form</a>. Be sure to select the "Grind page" option in the form.
+                                When you're ready to submit your records to be added, click "Submit" and paste the copied text into the <a :href="formUrl" class="director" target="_blank">Google form</a>. Be sure to select the "Grind page" option in the form.
                             </p>
 
                         </div>
@@ -318,7 +318,6 @@ export default {
             URL.revokeObjectURL(url);
         },
         async submit() {
-            // ???!?!?!?!??!?!?
             this.submitLoading = true;
             let completedOnSubmit = JSON.parse(JSON.stringify(this.completed));
             await completedOnSubmit.levels.map((level) => {
@@ -335,27 +334,13 @@ export default {
                 )
             })
             completedOnSubmit.name = this.loggedIn
-            this.pressedSubmit = true;
             const compressed = compressData(JSON.stringify(completedOnSubmit))
-            const randomString = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-            const formattedDate = new Date().toISOString().slice(0,10).replace(/-/g,'');
-            const randomNumber2 = Math.floor(Math.random() * 1000000);
-            const url = `https://filebin.net/${randomString}_${formattedDate}/${randomNumber2}`
-            const req = await fetch(url, {
-                method: "POST",
-                body: compressed,
-            });
-            const res = await req.json();
+            await copyURL(compressed);
+            localStorage.setItem("last_submission_link", compressed)
+            this.shouldRefreshLastSubmitted = true;
+            await alert("Level code (copy this and paste it into the google form): \n\n,===\\\=]]\]" + compressed);
+            window.open(this.formUrl, '_blank');
             this.submitLoading = false;
-            if (req.status === 201) {
-                await copyURL(url);
-                localStorage.setItem("last_submission_link", url)
-                this.shouldRefreshLastSubmitted = true;
-                await alert("File uploaded successfully, you can copy it to your clipboard on the left\n" + url);
-                window.open(this.formUrl, '_blank');
-            } else {
-                alert("File upload failed: " + res.message);
-            }
             return;
         },
         reset() {

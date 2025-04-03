@@ -144,6 +144,21 @@ let app = Vue.createApp({
         if (cookieColor) {
             this.selectedColor = cookieColor;
         }
+
+        const submissionLink = localStorage.getItem("last_submission_link")
+        
+
+        // this looks sick u gotta admit
+        if (
+            submissionLink && (
+                submissionLink
+                    .includes("filebin")
+            )
+        ) localStorage
+            .removeItem(
+                "last_submission_link"
+            );
+
         console.info("Pre-load completed, checking for new data...");
         store.loaded = true;
         // Update list if it's different than what's stored locally
