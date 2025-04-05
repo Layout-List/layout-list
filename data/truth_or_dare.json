@@ -1,10 +1,12 @@
 {
 	"id": 116769917,
 	"name": "truth or dare",
-	"creators": ["Tanginess"],
+	"creators": [
+		"Tanginess"
+	],
 	"verifier": "Hydraniac",
 	"verification": "https://youtu.be/i4xRQqNeW5E?si=xA4i9Kv7QYpOKMHN",
-	"percentToQualify": 100,
+	"percentToQualify": 53,
 	"password": "Free to copy",
 	"difficulty": 4,
 	"song": "Rukkus - ~NK~ TruthOrDare featJrounds",
