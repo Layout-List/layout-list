@@ -191,6 +191,13 @@
 			"hz": 60,
 			"enjoyment": 8,
 			"mobile": true
+		},
+		{
+			"user": "Altaspooneus",
+			"link": "https://youtu.be/doqhDNowmKk",
+			"percent": 100,
+			"hz": 1000,
+			"enjoyment": 10
 		}
 	]
 }
