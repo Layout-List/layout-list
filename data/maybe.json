@@ -1,10 +1,12 @@
 {
 	"id": 114612969,
 	"name": "maybe",
-	"creators": ["monthmai"],
+	"creators": [
+		"monthmai"
+	],
 	"verifier": "monthmai",
 	"verification": "https://youtu.be/E4Lk5I1RIug",
-	"percentToQualify": 100,
+	"percentToQualify": 55,
 	"password": "Free to copy",
 	"difficulty": 4,
 	"song": "jaydes - entry 4 + 5",
