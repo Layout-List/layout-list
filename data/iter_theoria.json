@@ -1,12 +1,14 @@
 {
 	"id": 113677696,
 	"name": "Iter Theoria",
-	"creators": ["Iza"],
+	"creators": [
+		"Iza"
+	],
 	"verifier": "evil",
 	"verification": "https://www.youtube.com/watch?v=6m7jar-CBU8",
-	"percentToQualify": 100,
+	"percentToQualify": 55,
 	"password": "Free to copy",
 	"difficulty": 6,
 	"song": "DJ-Nate - Theory of Everything",
-	"records" : []
+	"records": []
 }
