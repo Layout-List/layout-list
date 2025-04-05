@@ -338,7 +338,7 @@ export default {
             await copyURL(compressed);
             localStorage.setItem("last_submission_link", compressed)
             this.shouldRefreshLastSubmitted = true;
-            await alert("Level code (copy this and paste it into the google form): \n\n" + compressed);
+            await alert("Submitted! Copy the code on the left and paste it into the record form (make sure to specify you used the grind page)");
             window.open(this.formUrl, '_blank');
             this.submitLoading = false;
             return;
