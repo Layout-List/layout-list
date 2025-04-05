@@ -367,5 +367,14 @@
 		"from_rank": null,
 		"above": "karma",
 		"below": "huang_quan"
+	},
+	{
+		"date": 1743884473,
+		"action": "placed",
+		"name": "everybody_get_boar",
+		"to_rank": 395,
+		"from_rank": null,
+		"above": "carbide_iterations",
+		"below": "asgore"
 	}
 ]
