@@ -385,5 +385,14 @@
 		"from_rank": null,
 		"above": "lucid",
 		"below": "dunewalker"
+	},
+	{
+		"date": 1743884654,
+		"action": "placed",
+		"name": "truth_or_dare",
+		"to_rank": 140,
+		"from_rank": null,
+		"above": "sudden_departure",
+		"below": "search_party"
 	}
 ]
