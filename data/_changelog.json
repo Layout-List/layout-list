@@ -394,5 +394,14 @@
 		"from_rank": null,
 		"above": "sudden_departure",
 		"below": "search_party"
+	},
+	{
+		"date": 1744248734,
+		"action": "placed",
+		"name": "davarishon",
+		"to_rank": 4,
+		"from_rank": null,
+		"above": "sweater_weather",
+		"below": "blacklight"
 	}
 ]
