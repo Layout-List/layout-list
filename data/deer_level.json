@@ -1,7 +1,10 @@
 {
 	"id": 117148203,
 	"name": "DEER LEVEL",
-	"creators": ["Len","zWren"],
+	"creators": [
+		"Len",
+		"zWren"
+	],
 	"verifier": "rSnoozy",
 	"verification": "https://youtu.be/2bs37QxgqrE",
 	"percentToQualify": 56,
@@ -9,5 +12,13 @@
 	"difficulty": 5,
 	"song": "Shikonoko Nokonoko Koshitantan OP",
 	"songLink": "https://drive.google.com/file/d/1rN-ngAFnD4_orvDlhOClx09ee0wo95o0/view?usp=sharing",
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/k3wjfCqfrKbVHgtse?invite=cr-MSxPMXYsMjY3Njk2MzQ2",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
