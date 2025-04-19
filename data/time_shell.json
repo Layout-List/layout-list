@@ -374,6 +374,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 9
+		},
+		{
+			"user": "wert_krapata",
+			"link": "https://youtu.be/2FrbiSaFnP4?si=8BKcweN5qKzHUI5r",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }
