@@ -603,6 +603,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
+		},
+		{
+			"user": "RoboRonin",
+			"link": "https://youtu.be/oWh37XbCZjM?si=h8aqGyITpligEabv",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
 		}
 	]
 }
