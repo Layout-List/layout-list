@@ -592,6 +592,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 9
+		},
+		{
+			"user": "Roboronin",
+			"link": "https://www.youtube.com/watch?v=nOUvVyZZcKM",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
 		}
 	]
 }
