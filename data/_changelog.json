@@ -421,5 +421,14 @@
 		"from_rank": null,
 		"above": "finding_myself",
 		"below": "dont_fear"
+	},
+	{
+		"date": 1745096681,
+		"action": "placed",
+		"name": "doller_menu",
+		"to_rank": 79,
+		"from_rank": null,
+		"above": "inferior_fabrication",
+		"below": "astrid"
 	}
 ]
