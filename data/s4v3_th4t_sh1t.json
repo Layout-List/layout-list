@@ -221,6 +221,13 @@
 			"percent": 100,
 			"hz": 480,
 			"enjoyment": 8
+		},
+		{
+			"user": "Screendoe",
+			"link": "https://youtu.be/aEJKkCM_fAM?feature=shared",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
 		}
 	]
 }
