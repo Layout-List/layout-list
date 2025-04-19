@@ -1156,6 +1156,13 @@
 			"percent": 100,
 			"hz": 144,
 			"enjoyment": 7
+		},
+		{
+			"user": "RealSalsa",
+			"link": "https://www.youtube.com/watch?v=EOsUgSgNxd8",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
