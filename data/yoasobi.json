@@ -491,6 +491,13 @@
 			"percent": 100,
 			"hz": 144,
 			"enjoyment": 8
+		},
+		{
+			"user": "Screendoe",
+			"link": "https://youtu.be/5ZlUo2ju0MA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
 		}
 	]
 }
