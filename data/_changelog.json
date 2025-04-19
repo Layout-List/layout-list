@@ -403,5 +403,14 @@
 		"from_rank": null,
 		"above": "sweater_weather",
 		"below": "blacklight"
+	},
+	{
+		"date": 1745096215,
+		"action": "placed",
+		"name": "from_the_start",
+		"to_rank": 281,
+		"from_rank": null,
+		"above": "core",
+		"below": "wildest_dreams"
 	}
 ]
