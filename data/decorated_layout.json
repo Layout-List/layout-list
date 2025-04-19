@@ -92,6 +92,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 3
+		},
+		{
+			"user": "KasiaUwU",
+			"link": "https://youtu.be/7DByiklHQLM",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 3
 		}
 	]
 }
