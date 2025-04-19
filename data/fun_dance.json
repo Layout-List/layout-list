@@ -1227,6 +1227,14 @@
 			"hz": 300,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "SkyperHz",
+			"link": "https://youtu.be/Yn9SQtdpdxw",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
