@@ -605,11 +605,12 @@
 			"enjoyment": 7
 		},
 		{
-			"user": "RoboRonin",
-			"link": "https://youtu.be/oWh37XbCZjM?si=h8aqGyITpligEabv",
+			"user": "Roboronin",
+			"link": "https://www.youtube.com/watch?v=br3VdoWzXXg",
 			"percent": 100,
 			"hz": 60,
-			"mobile": true
+			"mobile": true,
+			"enjoyment": 8
 		}
 	]
 }

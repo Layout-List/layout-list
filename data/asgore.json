@@ -265,10 +265,12 @@
 			"enjoyment": 9
 		},
 		{
-			"user": "Random",
-			"link": "https://youtu.be/DvrhEmbTCHU",
+			"user": "Roboronin",
+			"link": "https://www.youtube.com/watch?v=br3VdoWzXXg",
 			"percent": 100,
-			"hz": 240
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
 		}
 	]
 }
