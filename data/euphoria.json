@@ -1,55 +1,62 @@
 {
-  "id": 105391908,
-  "name": "Euphoria",
-  "creators": [
-	"Flare"
-  ],
-  "verifier": "Flare",
-  "verification": "https://youtu.be/sUMxZ168u28",
-  "percentToQualify": 55,
-  "song": "Blksmiith - SR20DET",
-  "songLink": "https://drive.google.com/file/d/1_aywbKxf1WjOvfnQBvO0KKlJcD_TYbtE/view?usp=drive_link",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/7k61crF5QNU",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "morsey",
-	  "link": "https://youtu.be/frINpHSiSAk",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 0
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+	"id": 105391908,
+	"name": "Euphoria",
+	"creators": [
+		"Flare"
+	],
+	"verifier": "Flare",
+	"verification": "https://youtu.be/sUMxZ168u28",
+	"percentToQualify": 55,
+	"song": "Blksmiith - SR20DET",
+	"songLink": "https://drive.google.com/file/d/1_aywbKxf1WjOvfnQBvO0KKlJcD_TYbtE/view?usp=drive_link",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/7k61crF5QNU",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "morsey",
+			"link": "https://youtu.be/frINpHSiSAk",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/ejyfIH8Hh-w?feature=shared",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/GSAhn3pu3vU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "KasiaUwU",
+			"link": "https://youtu.be/stM_xmx-uow",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
+		}
+	]
 }
