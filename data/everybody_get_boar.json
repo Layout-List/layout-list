@@ -10,5 +10,14 @@
 	"password": "Free to copy",
 	"difficulty": 0,
 	"song": "Crankdat & Bandlez - Ground Shake [Nejvex Remix]",
-	"records": []
+	"records": [
+		{
+			"user": "poke zach",
+			"link": "https://youtu.be/Gcvv2QzFL8M?si=tXsfdi6MgOD6hiXb",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		}
+	]
 }

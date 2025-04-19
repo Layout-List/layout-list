@@ -1,12 +1,24 @@
 {
 	"id": 109999262,
 	"name": "Mystae Fallentes",
-	"creators": ["whitmp4","DJJDK"],
+	"creators": [
+		"whitmp4",
+		"DJJDK"
+	],
 	"verifier": "DJJDK",
 	"verification": "https://youtu.be/MkPCQywJs6s?si=trTvvB1l5M-n0Byi",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "Dimrain47 - The Falling Mysts",
-	"records": []
+	"records": [
+		{
+			"user": "poke zach",
+			"link": "https://youtu.be/Gcvv2QzFL8M?si=tXsfdi6MgOD6hiXb",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 5
+		}
+	]
 }
