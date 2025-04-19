@@ -466,5 +466,14 @@
 		"from_rank": null,
 		"above": "slm",
 		"below": "vile_vanquish"
+	},
+	{
+		"date": 1745097435,
+		"action": "placed",
+		"name": "disease",
+		"to_rank": 123,
+		"from_rank": null,
+		"above": "rebirth",
+		"below": "aporia"
 	}
 ]
