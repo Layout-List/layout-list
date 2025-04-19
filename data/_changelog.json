@@ -448,5 +448,14 @@
 		"from_rank": null,
 		"above": "invincible",
 		"below": "tdadpflxo"
+	},
+	{
+		"date": 1745097049,
+		"action": "placed",
+		"name": "deer_level",
+		"to_rank": 87,
+		"from_rank": null,
+		"above": "phase",
+		"below": "detonator"
 	}
 ]
