@@ -422,6 +422,12 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
+		},
+		{
+			"user": "Random",
+			"link": "https://youtu.be/DvrhEmbTCHU",
+			"percent": 100,
+			"hz": 240
 		}
 	]
 }
