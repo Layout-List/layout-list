@@ -201,6 +201,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/6cwKnG_N_1Y",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
