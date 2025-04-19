@@ -863,6 +863,13 @@
 			"hz": 300,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "mrlox",
+			"link": "https://youtu.be/FmLrP_FIwTs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }
