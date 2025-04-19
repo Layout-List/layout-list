@@ -430,5 +430,14 @@
 		"from_rank": null,
 		"above": "inferior_fabrication",
 		"below": "astrid"
+	},
+	{
+		"date": 1745096793,
+		"action": "placed",
+		"name": "ryoiki_tenkai",
+		"to_rank": 202,
+		"from_rank": null,
+		"above": "00darkside",
+		"below": "dancing_in_the_dark"
 	}
 ]
