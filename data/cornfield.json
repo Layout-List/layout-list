@@ -574,6 +574,13 @@
 			"hz": 80,
 			"enjoyment": 8,
 			"mobile": true
+		},
+		{
+			"user": "MystaryReborn",
+			"link": "https://youtu.be/qiPaI0axzfU?list=PLPTe6OqeHyEdlJHHtPKcpMKCYf_4Hz-zv",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 9
 		}
 	]
 }
