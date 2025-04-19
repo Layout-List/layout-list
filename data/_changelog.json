@@ -457,5 +457,14 @@
 		"from_rank": null,
 		"above": "phase",
 		"below": "detonator"
+	},
+	{
+		"date": 1745097200,
+		"action": "placed",
+		"name": "hardcore",
+		"to_rank": 50,
+		"from_rank": null,
+		"above": "slm",
+		"below": "vile_vanquish"
 	}
 ]
