@@ -1,69 +1,76 @@
 {
-  "id": 88649221,
-  "name": "M87",
-  "creators": [
-	"Cy4nn"
-  ],
-  "verifier": "Mystikl",
-  "verification": "https://youtu.be/HZZJrS2G4KA",
-  "showcase": "insert link",
-  "percentToQualify": 58,
-  "song": "TheColdSpirit - Sparkler",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/8EDGSyW_dGg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "idiotdash",
-	  "link": "https://youtu.be/8aTeG0WXFrE",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "morsey",
-	  "link": "https://www.youtube.com/watch?v=QGDLMwdRDaw",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/lck-HWpK-Dg",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/KgA334nKC6M",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": "?"
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	}
-  ]
+	"id": 88649221,
+	"name": "M87",
+	"creators": [
+		"Cy4nn"
+	],
+	"verifier": "Mystikl",
+	"verification": "https://youtu.be/HZZJrS2G4KA",
+	"showcase": "insert link",
+	"percentToQualify": 58,
+	"song": "TheColdSpirit - Sparkler",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/8EDGSyW_dGg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "idiotdash",
+			"link": "https://youtu.be/8aTeG0WXFrE",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "morsey",
+			"link": "https://www.youtube.com/watch?v=QGDLMwdRDaw",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/UAj91bP0haE?si=1jda-vdTFD8cUG1u",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/lck-HWpK-Dg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/KgA334nKC6M",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "KasiaUwU",
+			"link": "https://youtu.be/JmxtoNc6TKg",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 6
+		}
+	]
 }
