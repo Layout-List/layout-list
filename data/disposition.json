@@ -399,6 +399,13 @@
 			"link": "https://youtu.be/rfd3-3m_sQI",
 			"percent": 100,
 			"hz": 144
+		},
+		{
+			"user": "kingfloppa",
+			"link": "https://youtu.be/vVOdxHNRoTk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

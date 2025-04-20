@@ -1384,6 +1384,13 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "kingfloppa",
+			"link": "https://youtu.be/vVOdxHNRoTk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

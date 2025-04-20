@@ -360,6 +360,14 @@
 			"link": "https://youtu.be/DvrhEmbTCHU",
 			"percent": 100,
 			"hz": 240
+		},
+		{
+			"user": "kingfloppa",
+			"link": "https://youtu.be/vVOdxHNRoTk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
 		}
 	]
 }
