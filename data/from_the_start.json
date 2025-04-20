@@ -1,7 +1,9 @@
 {
 	"id": 111861466,
 	"name": "From The Start",
-	"creators": ["enexyl"],
+	"creators": [
+		"enexyl"
+	],
 	"verifier": "Poke Zach",
 	"verification": "https://youtu.be/Tx03i8WFQz0?si=cEiWZyVhbISjIIYy",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 2,
 	"song": "From The Start - GoodKid",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/ok_gBt-pEBE?si=Lp2TAxKemwGpewe0",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 5,
+			"mobile": true
+		}
+	]
 }
