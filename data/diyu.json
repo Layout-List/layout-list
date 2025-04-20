@@ -462,6 +462,14 @@
 			"link": "https://youtu.be/DvrhEmbTCHU",
 			"percent": 100,
 			"hz": 240
+		},
+		{
+			"user": "len",
+			"link": "https://youtu.be/9IfN2nSgRoQ?si=N2K3rt_V4YxnH6fe",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }
