@@ -1,0 +1,64 @@
+{
+	"id": 109697903,
+	"name": "Wipe Me Down",
+	"creators": [
+		"Snips"
+	],
+	"verifier": "Snips",
+	"verification": "https://www.youtube.com/watch?v=U4JpovXWrAU",
+	"percentToQualify": 55,
+	"song": "Trill Family, Boosie Badazz, Webbie, Foxx - Wipe Me Down",
+	"songLink": "https://drive.google.com/file/d/1uwZNivKHTVJPAQINtIVzpTtXtCA3_gne/view?usp=drive_link",
+	"difficulty": 8,
+	"enjoyment": 7,
+	"records": [
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/MF5o8k7NEbs",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/GDHLAOZG4CE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=UUw5Mz5puBY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Riley",
+			"link": "https://www.youtube.com/watch?v=H_wlhaNTWM0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=DMq9k2Y0Je8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/Rh1r0XxdSR4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		}
+	]
+}
