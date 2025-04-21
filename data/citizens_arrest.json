@@ -1,54 +1,62 @@
 {
-  "id": 107577501,
-  "name": "Citizens Arrest",
-  "creators": [
-	"Blysteryx"
-  ],
-  "verifier": "Blysteryx",
-  "verification": "https://youtu.be/llSiseJ50qA?si=hh7ATVHth71Z_EB7",
-  "percentToQualify": 100,
-  "song": "TOMBOYY - CONNECT",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "Hydraniac",
-	  "link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/tHYS7MGcQdk?si=VtKUQ38WmYKnalpm",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 1
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/6CFOjLzhTbk",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 1
-	}
-  ]
+	"id": 107577501,
+	"name": "Citizens Arrest",
+	"creators": [
+		"Blysteryx"
+	],
+	"verifier": "Blysteryx",
+	"verification": "https://youtu.be/llSiseJ50qA?si=hh7ATVHth71Z_EB7",
+	"percentToQualify": 100,
+	"song": "TOMBOYY - CONNECT",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/tHYS7MGcQdk?si=VtKUQ38WmYKnalpm",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 1
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=2pNDvibHIsM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/6CFOjLzhTbk",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/EsqeWAyOOuY?si=6F1XhdEvP0k0epr_",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/V2z5E1-uZV0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		}
+	]
 }
