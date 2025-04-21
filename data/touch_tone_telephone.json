@@ -1,7 +1,9 @@
 {
 	"id": 117178022,
 	"name": "Touch Tone Telephone",
-	"creators": ["Asteria!"],
+	"creators": [
+		"Asteria."
+	],
 	"verifier": "Acacia",
 	"verification": "https://youtu.be/aM2Mgs-WYcY?si=Og0_2mfvf9KsRPQ3",
 	"percentToQualify": 53,
