@@ -115,6 +115,14 @@
 			"link": "https://youtu.be/DvrhEmbTCHU",
 			"percent": 100,
 			"hz": 240
+		},
+		{
+			"user": "limedub",
+			"link": "https://youtu.be/CnUgNT66HNg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
