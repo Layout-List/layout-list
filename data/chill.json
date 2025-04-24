@@ -201,6 +201,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "Tyjohn323",
+			"link": "https://www.youtube.com/watch?v=7qg960jAn38&feature=youtu.be",
+			"percent": 100,
+			"hz": 165,
+			"enjoyment": 8
 		}
 	]
 }
