@@ -96,6 +96,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
+		},
+		{
+			"user": "len",
+			"link": "https://youtu.be/rMEPYzde0SM?si=tVeT9n7YCr4-XWlW",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
