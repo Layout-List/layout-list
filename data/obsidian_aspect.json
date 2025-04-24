@@ -160,6 +160,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 3
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://www.youtube.com/watch?v=OTuySGHVHCc",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
 		}
 	]
 }
