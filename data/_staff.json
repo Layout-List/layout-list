@@ -1,43 +1,43 @@
 [
     {
         "role": "owner",
-        "name": "Hydraniac",
-        "link": "https://www.youtube.com/channel/UC5AUz9RpYbFygEgg7pQ8CFg"
-    },
-    {
-        "role": "owner",
-        "name": "sphericle",
-        "link": "https://youtube.com/@zsphericle"
-    },
-    {
-        "role": "owner",
         "name": "Evil",
-        "link": "https://www.youtube.com/@Xeronius_"
+        "link": "https://www.youtube.com/@EvilEmperium"
     },
     {
-        "role": "helper",
-        "name": "Xeronius",
-        "link": "https://www.youtube.com/channel/UCpYR5IK4cjD8jz4ow-oNuJw"
+        "role": "owner",
+        "name": "Hydraniac",
+        "link": "https://www.youtube.com/@Hydraniac"
     },
     {
-        "role": "helper",
-        "name": "sn0w",
-        "link": "https://www.youtube.com/channel/UCRZHNk9mbWaxFQMB92ilKIA"
-    },
-    {
-        "role": "helper",
-        "name": "skip",
-        "link": "https://www.youtube.com/channel/UCKikz8doJyt1OA_68Kareig"
+        "role": "owner",
+        "name": "Sphericle",
+        "link": "https://youtube.com/@zsphericle"
     },
     {
         "role": "helper",
         "name": "Salukis",
-        "link": "https://youtube.com/@salukis"
+        "link": "https://www.youtube.com/@Salukis"
+    },
+    {
+        "role": "helper",
+        "name": "Skip",
+        "link": "https://www.youtube.com/@skiptracingclub"
+    },
+    {
+        "role": "helper",
+        "name": "Sn0w",
+        "link": "https://www.youtube.com/@sn0wiscold"
+    },
+    {
+        "role": "helper",
+        "name": "Xeronius",
+        "link": "https://www.youtube.com/@XeroniusGD"
         
     },
     {
         "role": "dev",
-        "name": "Mystikl",
-        "link": "https://www.youtube.com/@lMystikl"
+        "name": "Sphericle",
+        "link": "https://youtube.com/@zsphericle"
     }
 ]

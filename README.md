@@ -36,23 +36,24 @@ Can I submit multiple levels in one video?
 ## List Admins:
 
 * Evil
-* Sphericle
 * Hydraniac
+* Sphericle
 
 
 ---
 
 ## List Helpers:
 
-* Xeronius
-* sn0wiscold
+* Salukis
 * Skip
+* sn0wiscold
+* Xeronius
 
 
 ---
 
 ## List Developers:
 
-* Mystikl
+* Sphericle
 
 
