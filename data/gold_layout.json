@@ -121,6 +121,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Solo12",
+			"link": "https://youtu.be/0RwEBYSuwQs",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 6
 		}
 	]
 }
