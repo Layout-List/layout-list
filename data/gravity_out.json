@@ -663,6 +663,13 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 2
+		},
+		{
+			"user": "playfuture",
+			"link": "https://www.youtube.com/watch?v=d8W4BJ8tKII",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
 		}
 	]
 }
