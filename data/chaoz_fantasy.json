@@ -47,6 +47,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/c5-VJz2zPRM",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 2
 		}
 	]
 }
