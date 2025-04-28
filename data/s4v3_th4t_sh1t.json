@@ -228,6 +228,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 2
+		},
+		{
+			"user": "Altaspooneus",
+			"link": "https://youtu.be/D2rZtkKmZ5Q",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
 		}
 	]
 }
