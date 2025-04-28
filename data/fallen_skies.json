@@ -28,6 +28,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 7
+		},
+		{
+			"user": "Acacia",
+			"link": "https://youtu.be/XHhwqNXN3PE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 3
 		}
 	]
 }
