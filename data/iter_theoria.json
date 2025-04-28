@@ -10,5 +10,13 @@
 	"password": "Free to copy",
 	"difficulty": 6,
 	"song": "DJ-Nate - Theory of Everything",
-	"records": []
+	"records": [
+		{
+			"user": "LimeDub",
+			"link": "https://youtu.be/QJ_UqjyD_rI",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }
