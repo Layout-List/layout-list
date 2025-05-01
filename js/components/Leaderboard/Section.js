@@ -26,6 +26,9 @@ export default {
                             <span v-if="score.percent">&nbsp;{{ score.percent }}%</span
                         </a>
                     </td>
+                    <td class="score">
+                        <p v-if="score.rating">{{ score.rating }}/10</p>
+                    </td>
                     <td class="score" v-if="score.score">
                         <p>+{{ localize(score.score) }}</p>
                     </td>
