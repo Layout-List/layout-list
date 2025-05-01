@@ -27,7 +27,7 @@ export default {
                         </a>
                     </td>
                     <td class="score">
-                        <p v-if="score.rating">{{ score.rating }}/10</p>
+                        <p v-if="score.rating !== undefined">{{ score.rating }}/10</p>
                     </td>
                     <td class="score" v-if="score.score">
                         <p>+{{ localize(score.score) }}</p>
