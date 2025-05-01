@@ -502,5 +502,14 @@
 		"from_rank": null,
 		"above": "grueling_grotto",
 		"below": "levitating"
+	},
+	{
+		"date": 1746073152,
+		"action": "placed",
+		"name": "lemniscate",
+		"to_rank": 110,
+		"from_rank": null,
+		"above": "fog",
+		"below": "raid"
 	}
 ]
