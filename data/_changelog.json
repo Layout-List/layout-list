@@ -493,5 +493,14 @@
 		"from_rank": null,
 		"above": "swirling_skyscape",
 		"below": "transcendent"
+	},
+	{
+		"date": 1746072995,
+		"action": "placed",
+		"name": "giftbox_layout",
+		"to_rank": 241,
+		"from_rank": null,
+		"above": "grueling_grotto",
+		"below": "levitating"
 	}
 ]
