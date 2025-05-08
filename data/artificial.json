@@ -1185,6 +1185,13 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "cutewalt",
+			"link": "https://youtu.be/HaKXZmFymI4",
+			"percent": 100,
+			"hz": 100,
+			"enjoyment": 10
 		}
 	]
 }
