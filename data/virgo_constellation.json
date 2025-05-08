@@ -215,6 +215,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9
+		},
+		{
+			"user": "salukis",
+			"link": "https://youtu.be/dAqzw7a5O2c",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 9
 		}
 	]
 }
