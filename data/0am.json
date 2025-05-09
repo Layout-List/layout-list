@@ -130,6 +130,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "miniwombat2",
+			"link": "https://youtu.be/N4SWCDv0dls",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }
