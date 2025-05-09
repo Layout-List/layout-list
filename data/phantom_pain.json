@@ -96,6 +96,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 5
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/kttqeq2-Lvw",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 0
 		}
 	]
 }
