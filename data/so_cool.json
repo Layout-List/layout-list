@@ -1420,6 +1420,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "Impressive_Test_764",
+			"link": "https://www.youtube.com/watch?v=sPFbs1CNf8w",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
