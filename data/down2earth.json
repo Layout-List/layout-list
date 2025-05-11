@@ -1,7 +1,9 @@
 {
 	"id": 117765128,
 	"name": "down2earth",
-	"creators": ["dunix"],
+	"creators": [
+		"dunix"
+	],
 	"verifier": "dunix",
 	"verification": "https://youtu.be/gaTmfcf5ARc",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 2,
 	"song": "Ken Carson - Down2Earth",
 	"songLink": "https://drive.google.com/file/d/1JvUbEKFiZ_VuAQsfcCvrmwbLiwNgRZTU/view?usp=drivesdk",
-	"records": []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/GDoP54xanqo?si=NoFVLfeIXIcJwL1p",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }
