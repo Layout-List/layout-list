@@ -511,5 +511,14 @@
 		"from_rank": null,
 		"above": "fog",
 		"below": "raid"
+	},
+	{
+		"date": 1747063768,
+		"action": "placed",
+		"name": "chicken_bake_sn0w",
+		"to_rank": 216,
+		"from_rank": null,
+		"above": "depths",
+		"below": "rgb"
 	}
 ]
