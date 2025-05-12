@@ -1,7 +1,10 @@
 {
 	"id": 117351913,
 	"name": "Holy Holy Layout",
-	"creators": ["GiggsRH","Aconn"],
+	"creators": [
+		"GiggsRH",
+		"Aconn"
+	],
 	"verifier": "GiggsRH",
 	"verification": "https://youtu.be/t5lGNU0FeH8?feature=shared",
 	"percentToQualify": 100,
@@ -9,5 +12,13 @@
 	"difficulty": 3,
 	"song": "Geordie Greep - Holy, Holy",
 	"songLink": "https://api.songfilehub.com/song/680145ba492a1db95acc9e68?download=true&name=57235",
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/sOX7D0vYwaY",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
