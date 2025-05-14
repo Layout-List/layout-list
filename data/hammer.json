@@ -99,6 +99,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
+		},
+		{
+			"user": "Solo12",
+			"link": "https://www.youtube.com/watch?v=ZYxpKwe_KWY",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 6
 		}
 	]
 }
