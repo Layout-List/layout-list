@@ -1,7 +1,10 @@
 {
 	"id": 117562992,
 	"name": "Giftbox Layout",
-	"creators": ["Natteboss","PaardappeLs"],
+	"creators": [
+		"Natteboss",
+		"PaardappeLs"
+	],
 	"verifier": "Natteboss",
 	"verification": "https://youtu.be/GceTdXEiVw4?si=L58VrSqf0pDCxz0N",
 	"percentToQualify": 100,
@@ -9,5 +12,13 @@
 	"difficulty": 3,
 	"song": "Terragazer - Giftbox",
 	"songLink": "https://drive.google.com/file/d/1ZVZMGdpD2JPAzNRLIOTJUNvJABu7Mu2E/view?usp=drivesdk",
-	"records": []
+	"records": [
+		{
+			"user": "Solo12",
+			"link": "https://www.youtube.com/watch?v=o3ZUQrduUpM",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 8
+		}
+	]
 }
