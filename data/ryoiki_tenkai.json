@@ -1,7 +1,9 @@
 {
 	"id": 117111607,
 	"name": "ryoiki tenkai",
-	"creators": ["azakl"],
+	"creators": [
+		"azakl"
+	],
 	"verifier": "azakl",
 	"verification": "https://youtu.be/vmK3mLDSLDE",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 3,
 	"song": "Ghost Ship - Teminite",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "deletenine",
+			"link": "https://youtu.be/i_cA4y_isWs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		}
+	]
 }

@@ -1,48 +1,56 @@
 {
-  "id": 107725713,
-  "name": "tw3rking fish mkii",
-  "creators": [
-	"Hyperbeat"
-  ],
-  "verifier": "Hyperbeat",
-  "verification": "https://www.youtube.com/watch?v=_7K9SrpfEk4",
-  "percentToQualify": 100,
-  "song": "Rich Amiri - I WANT EVERYTHING",
-  "songLink": "https://drive.google.com/file/d/1I8g0z-WJQ6OTue4a5nnOHYWLHc_YuGWV/view?usp=drive_link",
-  "difficulty": 2,
-  "enjoyment": 9,
-  "records": [
-	{
-	  "user": "sn0w",
-	  "link": "https://youtu.be/KgPqngZoHiw",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/83lKGZPfenE?si=yh-kTalNx215EGYy",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/KcehvBNKy1U",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/OmbmtoXC86g",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 2
-	}
-  ]
+	"id": 107725713,
+	"name": "tw3rking fish mkii",
+	"creators": [
+		"Hyperbeat"
+	],
+	"verifier": "Hyperbeat",
+	"verification": "https://www.youtube.com/watch?v=_7K9SrpfEk4",
+	"percentToQualify": 100,
+	"song": "Rich Amiri - I WANT EVERYTHING",
+	"songLink": "https://drive.google.com/file/d/1I8g0z-WJQ6OTue4a5nnOHYWLHc_YuGWV/view?usp=drive_link",
+	"difficulty": 2,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/KgPqngZoHiw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/83lKGZPfenE?si=yh-kTalNx215EGYy",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/KcehvBNKy1U",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/OmbmtoXC86g",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 2
+		},
+		{
+			"user": "deletenine",
+			"link": "https://youtu.be/i_cA4y_isWs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		}
+	]
 }
