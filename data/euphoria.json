@@ -57,6 +57,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "TheCatAstronaut",
+			"link": "https://youtu.be/SpUJe5NWmGw",
+			"percent": 100,
+			"hz": 165,
+			"enjoyment": 10
 		}
 	]
 }
