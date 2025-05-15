@@ -538,5 +538,14 @@
 		"from_rank": null,
 		"above": "solar_system",
 		"below": "sunrise"
+	},
+	{
+		"date": 1747269678,
+		"action": "placed",
+		"name": "hotbox",
+		"to_rank": 187,
+		"from_rank": null,
+		"above": "midnight",
+		"below": "unordinary_life"
 	}
 ]
