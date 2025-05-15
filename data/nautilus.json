@@ -1,113 +1,113 @@
 {
-  "id": 90466544,
-  "name": "nautilus layout",
-  "creators": [
-	"morsey"
-  ],
-  "verifier": "morsey",
-  "verification": "https://youtu.be/Wkvhdrd4sdc",
-  "percentToQualify": 100,
-  "song": "Creo - Nautilus",
-  "difficulty": 3,
-  "records": [
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/mtKw52TFKEI",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/M1pgGyrQEq0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/7pznqYngd6k",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=mBG5FkuCS8k",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": false
-	},
-	{
-	  "user": "rastuyas",
-	  "link": "https://youtu.be/uuzAE7btAI4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/CLTxD1klQf4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=6RASgezhrMQ",
-	  "percent": 100,
-	  "hz": 75,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://www.youtube.com/watch?v=Hl-dbA6Xhp8",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "RaynoXx",
-	  "link": "https://www.youtube.com/watch?v=OPapaEa2d5M",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "azakl",
-	  "link": "https://youtu.be/IRXZo7FWySc",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/zx9Wzm-o-Lg",
-	  "percent": 100,
-	  "hz": 120,
-	  "enjoyment": 7,
-	  "mobile": true
-	}
-  ]
+	"id": 90466544,
+	"name": "nautilus layout",
+	"creators": [
+		"morsey"
+	],
+	"verifier": "morsey",
+	"verification": "https://youtu.be/Wkvhdrd4sdc",
+	"percentToQualify": 100,
+	"song": "Creo - Nautilus",
+	"difficulty": 3,
+	"records": [
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/mtKw52TFKEI",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/M1pgGyrQEq0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/7pznqYngd6k",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "Tupi",
+			"link": "https://www.youtube.com/watch?v=mBG5FkuCS8k",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://youtu.be/uuzAE7btAI4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/CLTxD1klQf4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=6RASgezhrMQ",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=Hl-dbA6Xhp8",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=0eznNz3ZLqY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/uOgx6nuo75A?si=b1H7QmcNaK-MQjU2",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=OPapaEa2d5M",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "azakl",
+			"link": "https://youtu.be/IRXZo7FWySc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/zx9Wzm-o-Lg",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 7,
+			"mobile": true
+		}
+	]
 }

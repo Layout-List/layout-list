@@ -1,109 +1,109 @@
 {
-  "id": 77185894,
-  "name": "Momentum",
-  "creators": [
-	"TheNamesSnek"
-  ],
-  "verifier": "TheNamesSnek",
-  "verification": "https://youtu.be/H_iGdRkkIas",
-  "percentToQualify": 57,
-  "song": "Boom Kitty - Pursuit",
-  "difficulty": 2,
-  "records": [
-	{
-	  "user": "Blathers",
-	  "link": "https://youtu.be/QwD9qlRULhI",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://youtu.be/OpKlMDLx3ZM",
-	  "percent": 100,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/eEfnZ3B9WHs",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "DJJDK",
-	  "link": "https://youtu.be/D3GD8hEdrek",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/FX2NMVuZPmM",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "mrutherford1106",
-	  "link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/RRsOWLtZMX0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/D2G1Ijecq3s",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/01_k0rTAB1U",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://youtu.be/-YXfwZjVG8A",
-	  "percent": 100,
-	  "hz": 120,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "TurtleER",
-	  "link": "https://www.youtube.com/watch?v=s4_m6BNV-ZI&list=PLmBzJRvcYikt-1oj0yY6EYVyIN_D-0x6-&index=5",
-	  "percent": 100,
-	  "hz": 90,
-	  "mobile": true,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/aHI_Q8P_3hw?si=86ZO8n0SfwDo7GsD",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 5
-	}
-  ]
+	"id": 77185894,
+	"name": "Momentum",
+	"creators": [
+		"TheNamesSnek"
+	],
+	"verifier": "TheNamesSnek",
+	"verification": "https://youtu.be/H_iGdRkkIas",
+	"percentToQualify": 57,
+	"song": "Boom Kitty - Pursuit",
+	"difficulty": 2,
+	"records": [
+		{
+			"user": "Blathers",
+			"link": "https://youtu.be/QwD9qlRULhI",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://youtu.be/OpKlMDLx3ZM",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/eEfnZ3B9WHs",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "DJJDK",
+			"link": "https://youtu.be/D3GD8hEdrek",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/FX2NMVuZPmM",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "mrutherford1106",
+			"link": "https://www.youtube.com/watch?v=Rtge8P1BMAU",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/RRsOWLtZMX0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/D2G1Ijecq3s",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/01_k0rTAB1U",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/-YXfwZjVG8A",
+			"percent": 100,
+			"hz": 120,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "TurtleER",
+			"link": "https://www.youtube.com/watch?v=s4_m6BNV-ZI&list=PLmBzJRvcYikt-1oj0yY6EYVyIN_D-0x6-&index=5",
+			"percent": 100,
+			"hz": 90,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/RS5xYEMCZR0?si=J9Ul46WZFRJoWne5",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/aHI_Q8P_3hw?si=86ZO8n0SfwDo7GsD",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 5
+		}
+	]
 }

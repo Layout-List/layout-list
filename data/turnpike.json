@@ -1,46 +1,46 @@
 {
-  "id": 105099317,
-  "name": "Turnpike",
-  "creators": [
-	"Blysteryx"
-  ],
-  "verifier": "Blysteryx",
-  "verification": "https://youtu.be/oRefpYuecf0?si=W9-vT7_tgKOV3UcH",
-  "percentToQualify": 100,
-  "song": "F-777 - Tuxedo Lightsaber Battle",
-  "difficulty": 1,
-  "records": [
-	{
-	  "user": "evil",
-	  "link": "https://youtu.be/dJ0foW_n3cU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=353dln9stV4",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/bcTThlSVcPU?si=QRrWuxSLRFgjRpSP",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "DeleteNine",
-	  "link": "https://youtu.be/M3ClkMTc_sw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 4
-	}
-  ]
+	"id": 105099317,
+	"name": "Turnpike",
+	"creators": [
+		"Blysteryx"
+	],
+	"verifier": "Blysteryx",
+	"verification": "https://youtu.be/oRefpYuecf0?si=W9-vT7_tgKOV3UcH",
+	"percentToQualify": 100,
+	"song": "F-777 - Tuxedo Lightsaber Battle",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "evil",
+			"link": "https://youtu.be/dJ0foW_n3cU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=353dln9stV4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/bcTThlSVcPU?si=QRrWuxSLRFgjRpSP",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/M3ClkMTc_sw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 4
+		}
+	]
 }
