@@ -1,12 +1,21 @@
 {
 	"id": 118736676,
 	"name": "HotBox",
-	"creators": ["Tinkle"],
+	"creators": [
+		"Tinkle"
+	],
 	"verifier": "Tinkle",
 	"verification": "https://youtu.be/zZCQtIOnu5I?si=e3EVO5w_1UeTkm3E",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "Creo- Drift",
-	"records": []
+	"records": [
+		{
+			"user": "evil",
+			"link": "https://youtu.be/j4Z8fDALcgU",
+			"percent": 100,
+			"hz": 240
+		}
+	]
 }
