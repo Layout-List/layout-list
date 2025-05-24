@@ -1,12 +1,23 @@
 {
 	"id": 118797841,
 	"name": "Inferno Wasabi Power",
-	"creators": ["Salukis"],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/c1r7yy7YwSg?si=5q5PLG3Fk-XCUQZ2",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 0,
 	"song": "Geoxor- Stardust",
-	"records": []
+	"records": [
+		{
+			"user": "VeraliGD",
+			"link": "https://youtu.be/jwDPuZg9m6s?si=oEUPmPsFV5m-un2x",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 10,
+			"mobile": true
+		}
+	]
 }
