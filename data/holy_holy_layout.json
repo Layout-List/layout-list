@@ -34,6 +34,13 @@
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "Robotic",
+			"link": "https://www.youtube.com/watch?v=mE2jObsg5Lo",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
