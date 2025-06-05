@@ -11,5 +11,13 @@
 	"difficulty": 5,
 	"song": "Lemon Demon - Touch Tone Telephone",
 	"songLink": "https://drive.google.com/file/d/17euOaxWSxd3AbaEYM1wn8hYHOACUuuVW/view?usp=sharing",
-	"records": []
+	"records": [
+		{
+			"user": "KasiaUwU",
+			"link": "https://youtu.be/tUr5j3F2H4g",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 1
+		}
+	]
 }
