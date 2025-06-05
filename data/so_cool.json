@@ -1429,12 +1429,12 @@
 			"enjoyment": 10
 		},
 		{
-			"user": "Oganesson",
-			"link": "https://youtu.be/agw38Mqs9YA?si=Y5dftAzqLlG_LjyG",
+			"user": "Noyan",
+			"link": "https://youtu.be/GsclV-auaE4",
 			"percent": 100,
 			"hz": 60,
-			"enjoyment": 10,
-			"mobile": true
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
