@@ -80,6 +80,14 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 8
+		},
+		{
+			"user": "jarzst",
+			"link": "https://youtu.be/6oqgPlOE80s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }
