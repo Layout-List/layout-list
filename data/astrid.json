@@ -183,6 +183,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "KasiaUwU",
+			"link": "https://youtu.be/TXhNIU6TUjw",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
 		}
 	]
 }
