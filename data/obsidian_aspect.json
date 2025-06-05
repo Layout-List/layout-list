@@ -167,6 +167,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 5
+		},
+		{
+			"user": "MosoTheKing",
+			"link": "https://www.youtube.com/watch?v=myFdnLO1enI",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 8
 		}
 	]
 }
