@@ -33,6 +33,13 @@
 			"percent": 100,
 			"hz": 330,
 			"enjoyment": 10
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/AROWymWB6DY",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }
