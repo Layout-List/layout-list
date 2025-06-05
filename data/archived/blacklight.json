@@ -1,0 +1,39 @@
+{
+	"id": 110800361,
+	"name": "Blacklight",
+	"creators": [
+		"chinciekn"
+	],
+	"verifier": "Syrcx",
+	"verification": "https://youtu.be/Mn86-gLH_4U",
+	"percentToQualify": 53,
+	"song": "Rukkus - ~NK~ Blacklight FULL",
+	"difficulty": 10,
+	"enjoyment": 8,
+	"records": [
+		{
+			"user": "Riley",
+			"link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/w15-cUBecCM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		},
+		{
+			"user": "rustic",
+			"link": "https://www.youtube.com/watch?v=FJEhcIlfQ_I",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		}
+	]
+}
