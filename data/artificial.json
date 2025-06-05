@@ -1206,6 +1206,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "boomboooom",
+			"link": "https://youtu.be/kfzL_jWzaoI?si=cjO7ZUSOtTpLL0qo",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }
