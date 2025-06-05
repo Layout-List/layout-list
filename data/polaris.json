@@ -507,6 +507,13 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 7
+		},
+		{
+			"user": "zyxo",
+			"link": "https://youtu.be/Cgr10GAaT2k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

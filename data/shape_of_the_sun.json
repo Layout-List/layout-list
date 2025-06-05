@@ -216,6 +216,13 @@
 			"link": "https://youtu.be/DvrhEmbTCHU",
 			"percent": 100,
 			"hz": 240
+		},
+		{
+			"user": "zyxo",
+			"link": "https://youtu.be/Cgr10GAaT2k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

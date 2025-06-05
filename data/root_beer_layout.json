@@ -892,6 +892,13 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "zyxo",
+			"link": "https://youtu.be/Cgr10GAaT2k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }
