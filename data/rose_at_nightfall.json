@@ -1,116 +1,116 @@
 {
-  "id": 103671518,
-  "name": "Rose At Nightfall",
-  "creators": [
-	"Xeronius"
-  ],
-  "verifier": "The16FigureLimit",
-  "verification": "https://www.youtube.com/watch?v=Ds4nB9Kzhfo",
-  "percentToQualify": 59,
-  "song": "NemesisTheory - Rose At Nightfall",
-  "difficulty": 4,
-  "records": [
-	{
-	  "user": "Xeronius",
-	  "link": "https://www.youtube.com/watch?v=o_8MEFCKnRY",
-	  "percent": 100,
-	  "hz": 75,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://www.youtube.com/watch?v=hCRI5VUcDFk&ab_channel=zDark",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 10
-	},
-	{
-	  "user": "Tupi",
-	  "link": "https://www.youtube.com/watch?v=zJOYCrHapc4&ab_channel=Tup1%5BGD%5D",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Blysteryx",
-	  "link": "https://www.youtube.com/watch?v=oOPqww4oryg&ab_channel=Blysofthelist",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Blueberry",
-	  "link": "https://youtu.be/p825t7N9W8c",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/XMd_ZY-92Jg?si=SG9eO-k0DLJKI_nI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hydraniac",
-	  "link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/yTEcVaMh2Ak",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "NiXaNTy",
-	  "link": "https://www.youtube.com/watch?v=7Q_LGXVGark",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/DG-cAM2qos4",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Spaace",
-	  "link": "https://youtu.be/uialwcoujpE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Wingz_GD",
-	  "link": "https://youtu.be/Y03vVg3-tbQ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Poke Zach",
-	  "link": "https://youtu.be/iZIB-MVPZAw?si=9F35cCe6qTIt2k-u",
-	  "percent": 100,
-	  "hz": 60,
-	  "mobile": true,
-	  "enjoyment": 9
-	}
-  ]
+	"id": 103671518,
+	"name": "Rose At Nightfall",
+	"creators": [
+		"Xeronius"
+	],
+	"verifier": "The16FigureLimit",
+	"verification": "https://www.youtube.com/watch?v=Ds4nB9Kzhfo",
+	"percentToQualify": 100,
+	"song": "NemesisTheory - Rose At Nightfall",
+	"difficulty": 4,
+	"records": [
+		{
+			"user": "Xeronius",
+			"link": "https://www.youtube.com/watch?v=o_8MEFCKnRY",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 9
+		},
+		{
+			"user": "zDark",
+			"link": "https://www.youtube.com/watch?v=hCRI5VUcDFk&ab_channel=zDark",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Tupi",
+			"link": "https://www.youtube.com/watch?v=zJOYCrHapc4&ab_channel=Tup1%5BGD%5D",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=oOPqww4oryg&ab_channel=Blysofthelist",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blueberry",
+			"link": "https://youtu.be/p825t7N9W8c",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/XMd_ZY-92Jg?si=SG9eO-k0DLJKI_nI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/s4dbhehgiGg?si=ySl7wxVIatba7YBe",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/yTEcVaMh2Ak",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "NiXaNTy",
+			"link": "https://www.youtube.com/watch?v=7Q_LGXVGark",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/DG-cAM2qos4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Spaace",
+			"link": "https://youtu.be/uialwcoujpE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Wingz_GD",
+			"link": "https://youtu.be/Y03vVg3-tbQ",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/iZIB-MVPZAw?si=9F35cCe6qTIt2k-u",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		}
+	]
 }
