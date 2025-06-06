@@ -411,6 +411,14 @@
 			"hz": 60,
 			"enjoyment": 5,
 			"mobile": true
+		},
+		{
+			"user": "robotic",
+			"link": "https://youtu.be/gvs0J3gN2_g?si=MkCodb7MB3CIZosr",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
 		}
 	]
 }
