@@ -47,6 +47,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/icySPWIoHSg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 2
 		}
 	]
 }
