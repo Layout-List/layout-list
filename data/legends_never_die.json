@@ -104,6 +104,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "robotic",
+			"link": "https://youtu.be/LlJR3BEmQcg?si=rQ3DslN9DmrKvSDn",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }
