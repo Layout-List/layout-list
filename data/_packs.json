@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Brainrot Pack",
+		"difficulty": 3,
+		"levels": [
+			"thick_of_it",
+			"chicken_bake_sn0w",
+			"aura"
+		]
+	},
+	{
 		"name": "Salukis Pack 2",
 		"difficulty": 1,
 		"levels": [
