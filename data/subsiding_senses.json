@@ -1,12 +1,23 @@
 {
 	"id": 118694870,
 	"name": "Subsiding Senses",
-	"creators": ["Angryface"],
+	"creators": [
+		"Angryface"
+	],
 	"verifier": "Angryface",
 	"verification": "https://www.youtube.com/watch?v=XZKovSOO7tk",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "Waterflame - -Viscid-",
-	"records": []
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/7AhziIx-i3Q?si=3zBHgkI7SDITVQUK",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		}
+	]
 }
