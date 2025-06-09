@@ -678,6 +678,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "Noyan",
+			"link": "https://youtu.be/WYKn-BfrLVM",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
