@@ -16,5 +16,13 @@
 	"difficulty": 5,
 	"song": "Camellia - Crystallized",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "Screendoe",
+			"link": "https://www.youtube.com/watch?v=OiSuKL7Nj8A",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		}
+	]
 }
