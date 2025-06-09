@@ -24,6 +24,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 6
+		},
+		{
+			"user": "YourLighy",
+			"link": "https://www.youtube.com/watch?v=Akjb3FvPiaE",
+			"percent": 100,
+			"hz": 280,
+			"enjoyment": 9
 		}
 	]
 }
