@@ -610,5 +610,14 @@
 		"from_rank": null,
 		"above": "so_based",
 		"below": "sombawdy"
+	},
+	{
+		"date": 1750636048,
+		"action": "placed",
+		"name": "dying_star",
+		"to_rank": 3,
+		"from_rank": null,
+		"above": "sweater_weather",
+		"below": "achelous"
 	}
 ]
