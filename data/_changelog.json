@@ -619,5 +619,14 @@
 		"from_rank": null,
 		"above": "sweater_weather",
 		"below": "achelous"
+	},
+	{
+		"date": 1750636069,
+		"action": "placed",
+		"name": "dying_star",
+		"to_rank": 3,
+		"from_rank": null,
+		"above": "project_e",
+		"below": "achelous"
 	}
 ]
