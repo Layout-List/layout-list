@@ -17,6 +17,13 @@
 			"percent": 100,
 			"hz": 480,
 			"enjoyment": 9
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=_i0M9qed7zA",
+			"percent": 97,
+			"hz": 360,
+			"enjoyment": 9
 		}
 	]
 }
