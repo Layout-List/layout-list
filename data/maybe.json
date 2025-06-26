@@ -17,6 +17,13 @@
 			"link": "https://youtu.be/VZCS2_t79-E",
 			"percent": 100,
 			"hz": 240
+		},
+		{
+			"user": "Infinera",
+			"link": "https://www.youtube.com/watch?v=5Wk0H6Qhl2k",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
