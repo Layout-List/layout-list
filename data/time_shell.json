@@ -426,6 +426,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 7
+		},
+		{
+			"user": "Infinera",
+			"link": "https://www.youtube.com/watch?v=N_f-ltms_HQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }
