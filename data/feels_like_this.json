@@ -1,7 +1,9 @@
 {
 	"id": 119397110,
 	"name": "Feels Like This",
-	"creators": ["Squidkid72"],
+	"creators": [
+		"Squidkid72"
+	],
 	"verifier": "Squidkid72",
 	"verification": "https://youtu.be/f3czGIFOC6o?si=YUPzsJwnFecLU1gp",
 	"percentToQualify": 100,
@@ -9,5 +11,13 @@
 	"difficulty": 3,
 	"song": "Robert Grace - breakdown",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/kzx8RqFDdU_puXlMz?invite=cr-MSw3RUMsMjY3Njk2MzQ2",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		}
+	]
 }
