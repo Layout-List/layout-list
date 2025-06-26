@@ -1,12 +1,22 @@
 {
 	"id": 119303227,
 	"name": "Eye Candy",
-	"creators": ["pivithasnolife"],
+	"creators": [
+		"pivithasnolife"
+	],
 	"verifier": "zBlq",
 	"verification": "https://youtu.be/ooWI17LLKiQ?si=149WjhBItgSy0FNl",
 	"percentToQualify": 51,
 	"password": "Free to copy",
 	"difficulty": 6,
 	"song": "Dunderpatrullen - Pixie Crust",
-	"records": []
+	"records": [
+		{
+			"user": "DeltaGD",
+			"link": "https://youtu.be/pmSsOGlYR1U",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 9
+		}
+	]
 }
