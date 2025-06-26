@@ -66,11 +66,12 @@
 			"enjoyment": 7
 		},
 		{
-			"user": "playfuture",
-			"link": "https://www.youtube.com/watch?v=bQHwbPWkwo4",
+			"user": "evil",
+			"link": "https://youtu.be/eUKdi3esO3g",
 			"percent": 100,
 			"hz": 240,
-			"enjoyment": 8
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
