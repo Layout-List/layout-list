@@ -1,7 +1,14 @@
 {
 	"id": 119551372,
 	"name": "Reflections",
-	"creators": ["fusemax","Hydraniac","enexyl","Angryface","sn0w","Asteria."],
+	"creators": [
+		"fusemax",
+		"Hydraniac",
+		"enexyl",
+		"Angryface",
+		"sn0w",
+		"Asteria."
+	],
 	"verifier": "evil",
 	"verification": "https://youtu.be/RiUAwfWpcFY",
 	"percentToQualify": 62,
@@ -9,5 +16,13 @@
 	"difficulty": 6,
 	"song": "Creo - Reflections",
 	"enjoyment": 7,
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/Nkw9V5n_-_c",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
