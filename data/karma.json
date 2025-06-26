@@ -363,6 +363,13 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10
+		},
+		{
+			"user": "thekylester",
+			"link": "https://youtu.be/aiezHfoxYPI?si=L79Wavvuut-ApQCr",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
