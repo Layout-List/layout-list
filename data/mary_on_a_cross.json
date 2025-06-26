@@ -154,6 +154,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 0
+		},
+		{
+			"user": "DeltaGD",
+			"link": "https://youtu.be/XrBLg9ajbys?si=bjLTlZQA95RFDHzq",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 10
 		}
 	]
 }
