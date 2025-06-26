@@ -16,5 +16,13 @@
 	"password": "Free to copy",
 	"difficulty": 8,
 	"song": "TURQUOISEDEATH - Glimmer",
-	"records": []
+	"records": [
+		{
+			"user": "Robotic",
+			"link": "https://youtu.be/YXX3DTfrL7U",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }
