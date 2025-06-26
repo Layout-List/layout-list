@@ -71,6 +71,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 1
+		},
+		{
+			"user": "skivie",
+			"link": "https://www.youtube.com/watch?v=yPXvsZLO3Ao",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
 		}
 	]
 }
