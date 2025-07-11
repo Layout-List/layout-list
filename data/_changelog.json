@@ -646,5 +646,14 @@
 		"from_rank": null,
 		"above": "dark_matter",
 		"below": "toronto"
+	},
+	{
+		"date": 1752197146,
+		"action": "placed",
+		"name": "salukis_is_dead",
+		"to_rank": 384,
+		"from_rank": null,
+		"above": "marenol",
+		"below": "banger"
 	}
 ]
