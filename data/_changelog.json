@@ -664,5 +664,14 @@
 		"from_rank": null,
 		"above": "dancing_moonman",
 		"below": "layout_master"
+	},
+	{
+		"date": 1752197660,
+		"action": "placed",
+		"name": "never_make_it",
+		"to_rank": 220,
+		"from_rank": null,
+		"above": "luigi",
+		"below": "rgb"
 	}
 ]
