@@ -53,6 +53,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 7
+		},
+		{
+			"user": "ICENOVA",
+			"link": "https://www.youtube.com/watch?v=ly7UMC9hsI8",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 10
 		}
 	]
 }
