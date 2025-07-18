@@ -46,6 +46,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 0
+		},
+		{
+			"user": "WDWiktor",
+			"link": "https://www.youtube.com/watch?v=tu7RWIqxCYM",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 5
 		}
 	],
 	"enjoyment": 9
