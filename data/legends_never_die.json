@@ -112,6 +112,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "Fieldfun45",
+			"link": "https://www.youtube.com/watch?v=1PuRxqrkNz0",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }
