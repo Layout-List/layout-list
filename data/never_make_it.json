@@ -1,7 +1,10 @@
 {
 	"id": 120442643,
 	"name": "never make it",
-	"creators": ["Screendoe","Altaspooneus"],
+	"creators": [
+		"Screendoe",
+		"Altaspooneus"
+	],
 	"verifier": "Screendoe",
 	"verification": "https://youtu.be/tCscbbuldPk",
 	"percentToQualify": 100,
@@ -9,5 +12,13 @@
 	"difficulty": 3,
 	"song": "Creo - Never Make It",
 	"enjoyment": 7,
-	"records": []
+	"records": [
+		{
+			"user": "Altaspooneus",
+			"link": "https://medal.tv/games/geometry-dash/clips/krmRgrKpRbgaSLjdH?invite=cr-MSxMdVEsMjU4MzczMjM2",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
+		}
+	]
 }
