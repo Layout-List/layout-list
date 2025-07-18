@@ -157,6 +157,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "wjay",
+			"link": "https://www.youtube.com/watch?v=PQt8gu3rvgA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }
