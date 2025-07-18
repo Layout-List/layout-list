@@ -299,6 +299,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 8
+		},
+		{
+			"user": "WDWiktor",
+			"link": "https://www.youtube.com/watch?v=17qSrW-CHKI",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 6
 		}
 	]
 }
