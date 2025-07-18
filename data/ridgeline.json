@@ -116,6 +116,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "playfuture",
+			"link": "https://www.youtube.com/watch?v=WC628N0D0y0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
 		}
 	]
 }
