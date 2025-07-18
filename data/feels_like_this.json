@@ -25,6 +25,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 5
+		},
+		{
+			"user": "poke zach",
+			"link": "https://youtu.be/_XjvSC5tPuw?si=1jZ33MOaZ-F-elip",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 2
 		}
 	],
 	"songLink": "https://drive.google.com/file/d/1Ijb-exWCgUCxdWvzHY2WHF9-Fq0UTJMK/view?usp=sharing"

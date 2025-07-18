@@ -1,12 +1,23 @@
 {
 	"id": 121006979,
 	"name": "Anyless",
-	"creators": ["Zyxo"],
+	"creators": [
+		"Zyxo"
+	],
 	"verifier": "Zyxo",
 	"verification": "https://youtu.be/m4oYKF0U47E",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 0,
 	"song": "Love You Less - tv room",
-	"records": []
+	"records": [
+		{
+			"user": "poke zach",
+			"link": "https://youtu.be/_XjvSC5tPuw?si=1jZ33MOaZ-F-elip",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 7
+		}
+	]
 }

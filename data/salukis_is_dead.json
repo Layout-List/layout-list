@@ -1,12 +1,23 @@
 {
 	"id": 120904710,
 	"name": "SALUKIS IS DEAD 🎖️",
-	"creators": ["Blysteryx"],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/84CvauvH7sM?si=ZsY7lGMkSkOrdHjC",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "Raise the Black Flag - Teminite",
-	"records": []
+	"records": [
+		{
+			"user": "poke zach",
+			"link": "https://youtu.be/_XjvSC5tPuw?si=1jZ33MOaZ-F-elip",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		}
+	]
 }
