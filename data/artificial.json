@@ -1250,6 +1250,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 10
+		},
+		{
+			"user": "kaP1Bchel",
+			"link": "https://www.youtube.com/watch?v=5GXycygr93A",
+			"percent": 100,
+			"hz": 257,
+			"enjoyment": 9
 		}
 	]
 }
