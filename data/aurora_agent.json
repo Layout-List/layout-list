@@ -308,6 +308,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 8
+		},
+		{
+			"user": "playfuture",
+			"link": "https://www.youtube.com/watch?v=bQHwbPWkwo4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
 		}
 	]
 }
