@@ -1474,6 +1474,13 @@
 			"percent": 100,
 			"hz": 480,
 			"enjoyment": 9
+		},
+		{
+			"user": "Mrgamernav",
+			"link": "https://www.youtube.com/watch?v=pFwecQmT3rE",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
 		}
 	]
 }
