@@ -87,6 +87,14 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "Mrgamernav",
+			"link": "https://www.youtube.com/watch?v=FSUANqIDm0c",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }
