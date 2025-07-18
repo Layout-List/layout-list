@@ -292,6 +292,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "Mrgamernav",
+			"link": "https://www.youtube.com/watch?v=hcO2n-yOmMs",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
 		}
 	]
 }
