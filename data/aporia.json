@@ -34,6 +34,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "WDWiktor",
+			"link": "https://www.youtube.com/watch?v=xyD5tm09fOw",
+			"percent": 100,
+			"hz": 288,
+			"enjoyment": 10
 		}
 	]
 }
