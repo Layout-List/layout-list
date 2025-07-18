@@ -240,6 +240,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "Daniel",
+			"link": "https://www.youtube.com/watch?app=desktop&v=2X_XWEpSWDo",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }
