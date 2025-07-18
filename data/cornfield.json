@@ -523,7 +523,7 @@
 			"enjoyment": 7
 		},
 		{
-			"user": "Krit1calculate",
+			"user": "VeraliGD",
 			"link": "https://youtu.be/OHN3jO2-6DU?si=YholLiI815ReUEy3",
 			"percent": 100,
 			"hz": 120,
@@ -627,6 +627,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "WDWiktor",
+			"link": "https://www.youtube.com/watch?v=-aA3fTjUNzQ",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }

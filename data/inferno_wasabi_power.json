@@ -12,7 +12,7 @@
 	"song": "Geoxor- Stardust",
 	"records": [
 		{
-			"user": "Krit1calculate",
+			"user": "VeraliGD",
 			"link": "https://youtu.be/jwDPuZg9m6s?si=oEUPmPsFV5m-un2x",
 			"percent": 100,
 			"hz": 120,
@@ -89,12 +89,12 @@
 			"enjoyment": 9
 		},
 		{
-			"user": "Mrgamernav",
-			"link": "https://www.youtube.com/watch?v=FSUANqIDm0c",
+			"user": "WDWiktor",
+			"link": "https://www.youtube.com/watch?v=-aA3fTjUNzQ",
 			"percent": 100,
-			"hz": 60,
-			"enjoyment": 8,
-			"mobile": true
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
