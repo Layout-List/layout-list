@@ -99,6 +99,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
+		},
+		{
+			"user": "Noyan",
+			"link": "https://www.youtube.com/watch?v=TIT4LnzufME",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
