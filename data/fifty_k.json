@@ -241,6 +241,13 @@
 			"hz": 480,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "Noyan",
+			"link": "https://www.youtube.com/watch?v=4JPXf0D58ck",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
