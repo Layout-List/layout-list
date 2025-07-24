@@ -7,7 +7,6 @@ import ChallengeLeaderboard from './Archived/ChallengeLeaderboard.js';
 import Grind from './pages/Grind.js'
 
 export default [
-    // Sets the browser link to access each page
     { path: "/", component: List },
     { path: '/level/:level', component: List },
     
