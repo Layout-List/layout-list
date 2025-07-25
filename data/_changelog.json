@@ -682,5 +682,14 @@
 		"from_rank": null,
 		"above": "dabox",
 		"below": "smooktober"
+	},
+	{
+		"date": 1753410906,
+		"action": "placed",
+		"name": "rather_be",
+		"to_rank": 370,
+		"from_rank": null,
+		"above": "go_with_the_flow",
+		"below": "killing_point"
 	}
 ]
