@@ -1,8 +1,10 @@
 {
 	"id": 122481412,
 	"name": "Stitches",
-	"creators": ["Squid"],
-	"verifier": "Squid",
+	"creators": [
+		"Squidkid72"
+	],
+	"verifier": "Squidkid72",
 	"verification": "https://youtu.be/2YG_Gks0UGQ",
 	"percentToQualify": 100,
 	"password": "Free to copy",
