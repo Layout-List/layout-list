@@ -458,6 +458,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 5
+		},
+		{
+			"user": "gbck",
+			"link": "https://youtu.be/FtW0i50sG9M",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6
 		}
 	]
 }
