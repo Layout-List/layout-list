@@ -391,6 +391,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "krit1calculate",
+			"link": "https://www.youtube.com/watch?v=HAanzvkvd34",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 3
 		}
 	]
 }
