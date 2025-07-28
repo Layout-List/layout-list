@@ -1,13 +1,15 @@
 {
 	"id": 122821848,
 	"name": "Im Still Standing",
-	"creators": ["Xeronius"],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "DeleteNine",
 	"verification": "https://www.youtube.com/watch?v=vJCmVwsh1FM",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 2,
-	"song": "Elton John- I’m Still Standing",
-	"songLink": "https://cdn.discordapp.com/attachments/1215815993092210890/1393753900980371466/807006.mp3?ex=688423f8&is=6882d278&hm=d60f1a7b005735ae093db23a069022922b601730bb82cc8c0587b1238701f5fd&",
+	"song": "I'm Still Standing",
+	"songLink": "https://drive.google.com/file/d/1F2kNR3Ntpqi5azwHEB2BwwgF_nyJPbht/view?usp=drive_link",
 	"records": []
 }
