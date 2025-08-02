@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Purgatory Pack",
+		"difficulty": 4,
+		"levels": [
+			"manslaughter",
+			"a_red_level",
+			"frenzied_flames"
+		]
+	},
+	{
 		"name": "Brainrot Pack",
 		"difficulty": 3,
 		"levels": [
