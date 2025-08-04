@@ -86,6 +86,14 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://youtu.be/8mKiRm5LpuQ",
+			"percent": 100,
+			"hz": 40,
+			"mobile": false,
+			"enjoyment": 6
 		}
 	]
 }
