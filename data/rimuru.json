@@ -65,6 +65,14 @@
 			"hz": 60,
 			"enjoyment": 6,
 			"mobile": true
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://www.youtube.com/watch?v=eMcZSQgqqYY",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
