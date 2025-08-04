@@ -501,6 +501,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 6
+		},
+		{
+			"user": "Noyan",
+			"link": "https://www.youtube.com/watch?v=NppAbV5crw4",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
