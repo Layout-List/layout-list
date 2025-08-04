@@ -26,6 +26,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 9
+		},
+		{
+			"user": "Mgnsyt",
+			"link": "https://www.youtube.com/watch?v=MyWagwKdt5I",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
 		}
 	]
 }
