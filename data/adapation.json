@@ -352,7 +352,8 @@
 			"link": "https://youtu.be/MVjUaOOeIaw",
 			"percent": 100,
 			"hz": 60,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 5
 		},
 		{
 			"user": "Skybolt06",
