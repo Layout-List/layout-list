@@ -1,12 +1,22 @@
 {
 	"id": 124018718,
 	"name": "screendoesucksatgd",
-	"creators": ["Screendoe"],
+	"creators": [
+		"Screendoe"
+	],
 	"verifier": "Screendoe",
 	"verification": "https://youtu.be/eJu8EYUIjP4",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "cYsmix - Peer Gynt",
-	"records": []
+	"records": [
+		{
+			"user": "Infinera",
+			"link": "https://www.youtube.com/watch?v=d1PnPcvwPPQ",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }
