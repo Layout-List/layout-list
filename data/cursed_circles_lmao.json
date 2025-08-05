@@ -87,6 +87,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
+		},
+		{
+			"user": "Salukis",
+			"link": "https://youtu.be/umRCsn5lv6w",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 10
 		}
 	]
 }
