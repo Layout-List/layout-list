@@ -37,12 +37,12 @@
 			"enjoyment": 10
 		},
 		{
-			"user": "oganesson",
-			"link": "https://www.youtube.com/watch?v=1IICzFr-jnQ",
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
 			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 10
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }

@@ -1,12 +1,23 @@
 {
 	"id": 121003011,
 	"name": "Drift",
-	"creators": ["dunix"],
+	"creators": [
+		"dunix"
+	],
 	"verifier": "dunix",
 	"verification": "https://youtu.be/XVtfWwedyRQ",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "Creo - Drift",
-	"records": []
+	"records": [
+		{
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		}
+	]
 }

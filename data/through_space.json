@@ -54,12 +54,12 @@
 			"enjoyment": 9
 		},
 		{
-			"user": "Snake",
-			"link": "https://medal.tv/games/geometry-dash/clips/kO5prP5v75gKX_PFH?invite=cr-MSw4VE8sMjY3Njk2MzQ2",
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
 			"percent": 100,
-			"hz": 60,
-			"enjoyment": 7,
-			"mobile": true
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }

@@ -1,7 +1,9 @@
 {
 	"id": 123383012,
 	"name": "DJ Got Us Falling IL",
-	"creators": ["goodp1ggy"],
+	"creators": [
+		"goodp1ggy"
+	],
 	"verifier": "goodp1ggy",
 	"verification": "https://youtu.be/j9HBu6UnZa0",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 3,
 	"song": "Usher - DJ Got Us Fallin' In Love",
 	"songLink": "https://cdn.discordapp.com/ephemeral-attachments/1320592923561164871/1397281159720730766/83489.mp3?ex=6891a1bc&is=6890503c&hm=ef299d052ef8ecfc3ad38b3693f3cf45a0408ba4bad5d562c0f0fcb5afe87374&",
-	"records": []
+	"records": [
+		{
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		}
+	]
 }

@@ -11,5 +11,14 @@
 	"password": "Free to copy",
 	"difficulty": 4,
 	"song": "1nf1n1ty - Zo",
-	"records": []
+	"records": [
+		{
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		}
+	]
 }

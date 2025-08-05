@@ -131,12 +131,12 @@
 			"enjoyment": 8
 		},
 		{
-			"user": "raynoxx",
-			"link": "https://www.youtube.com/watch?v=XOo2SlKHoNY",
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
 			"percent": 100,
-			"hz": 60,
-			"mobile": true,
-			"enjoyment": 9
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }

@@ -91,18 +91,12 @@
 			"enjoyment": 9
 		},
 		{
-			"user": "VonSniddles",
-			"link": "https://medal.tv/games/geometry-dash/clips/kIAe2HzIw8TOCD9TE?invite=cr-MSxneE0sMTk4MDM5NDQw",
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
 			"percent": 100,
 			"hz": 240,
-			"enjoyment": 9
-		},
-		{
-			"user": "ozbozator",
-			"link": "https://medal.tv/games/geometry-dash/clips/kP7foCtnwSHs-66lO?invite=cr-MSxVUlksNDEyMDE3OTQx&v=53",
-			"percent": 100,
-			"hz": 360,
-			"enjoyment": 0
+			"mobile": false,
+			"enjoyment": 6
 		}
 	]
 }
