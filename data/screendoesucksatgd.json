@@ -45,6 +45,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "Tanginess",
+			"link": "https://www.youtube.com/watch?v=mE7qgkplySY",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
 		}
 	]
 }
