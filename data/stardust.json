@@ -508,6 +508,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://youtu.be/GL3aObjyUXg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
 		}
 	]
 }
