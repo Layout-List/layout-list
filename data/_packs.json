@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Tw3rking Sea Life Pack",
+		"difficulty": 4,
+		"levels": [
+			"tw3rking_spermwhale7",
+			"tw3rking_fish_mkii",
+			"tw3rking_seahorse_x"
+		]
+	},
+	{
 		"name": "Self Hate Pack",
 		"difficulty": 3,
 		"levels": [
