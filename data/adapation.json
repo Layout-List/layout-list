@@ -707,6 +707,14 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 4
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://www.youtube.com/live/t3GzqM_VMAs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
 		}
 	]
 }
