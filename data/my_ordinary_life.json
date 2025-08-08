@@ -405,6 +405,13 @@
 			"link": "https://www.youtube.com/watch?v=SsCFwT-kJlI",
 			"percent": 100,
 			"hz": 60
+		},
+		{
+			"user": "fruitbowl",
+			"link": "https://www.youtube.com/watch?v=fQJFSVdidEY",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
 		}
 	]
 }
