@@ -134,6 +134,13 @@
 			"percent": 70,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://youtu.be/9iAw0VpnYVI?si=q4EkRWpYX3idA8FZ",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 0
 		}
 	]
 }
