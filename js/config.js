@@ -142,8 +142,9 @@ export function score(rank, difficulty, percent, minPercent, list) {
     // minPercent - 1 (note that if you c)
     score *=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
-    // Rounds the value of score to the nearest nth decimal, where n is the value of scale.
-    score = round(score);
+    // Rounds the value of score to the nearest nth decimal, where n is the value of scale,
+    // and makes it 0 if the score is negative.
+    score = Math.max(round(score), 0);
 
     return score;
 }
