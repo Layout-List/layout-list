@@ -35,6 +35,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "Oganesson",
+			"link": "https://www.youtube.com/watch?v=1IICzFr-jnQ",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
 		}
 	]
 }
