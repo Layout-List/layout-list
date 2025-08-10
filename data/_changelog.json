@@ -772,5 +772,14 @@
 		"from_rank": null,
 		"above": "mindless_layout",
 		"below": "aporia"
+	},
+	{
+		"date": 1754851467,
+		"action": "placed",
+		"name": "cigarette_ahegao",
+		"to_rank": 39,
+		"from_rank": null,
+		"above": "dirge",
+		"below": "iter_theoria"
 	}
 ]
