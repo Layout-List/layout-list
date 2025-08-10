@@ -1,7 +1,10 @@
 {
 	"id": 123812138,
 	"name": "ref",
-	"creators": ["azakl","zehcrw7"],
+	"creators": [
+		"azakl",
+		"zehcrw7"
+	],
 	"verifier": "azakl",
 	"verification": "https://youtu.be/9uOQOUkfQmc",
 	"percentToQualify": 100,
@@ -10,5 +13,13 @@
 	"song": "osamason - ref",
 	"songLink": "https://drive.google.com/file/d/1z33eFAIPusMpYxTj2DlBVVHFrnUQphUd/view?usp=sharing",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/kNTv88V4yc5FofjUS?invite=cr-MSwxNWwsMTg1OTcxMTAw&v=54",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }
