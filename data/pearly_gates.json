@@ -430,6 +430,13 @@
 			"hz": 60,
 			"enjoyment": 8,
 			"mobile": true
+		},
+		{
+			"user": "fruitbowl",
+			"link": "https://www.youtube.com/watch?v=KbBLFED_5HA",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7
 		}
 	]
 }
