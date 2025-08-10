@@ -1,7 +1,9 @@
 {
 	"id": 124320860,
 	"name": "Gangnam Style",
-	"creators": ["Xeronius"],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Spaace",
 	"verification": "https://www.youtube.com/watch?v=wTAvuqLNEFo",
 	"percentToQualify": 100,
@@ -10,5 +12,13 @@
 	"song": "PSY - Gangnam Style",
 	"songLink": "https://drive.google.com/file/d/1GiDjuXiqkSaDpPoYX2f5Wuwa0zddJQmD/view?usp=sharing",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/kRhkR0nE2KYuVYlh1?invite=cr-MSxpaWIsMTg1OTcxMTAw&v=117",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
