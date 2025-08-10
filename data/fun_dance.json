@@ -1323,6 +1323,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "fruitbowl",
+			"link": "https://www.youtube.com/watch?v=ImhXHb9LCO0",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 5
 		}
 	]
 }
