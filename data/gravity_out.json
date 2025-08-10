@@ -699,6 +699,13 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 0
+		},
+		{
+			"user": "fruitbowl",
+			"link": "https://www.youtube.com/watch?v=slzFFf5zMkE",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
