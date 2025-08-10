@@ -1,5 +1,16 @@
 [
 	{
+		"name": "Salukis LLCC Pack",
+		"difficulty": 3,
+		"levels": [
+			"drift",
+			"hotbox",
+			"subsiding_senses",
+			"salukis_is_dead",
+			"anyless"
+		]
+	},
+	{
 		"name": "Tw3rking Sea Life Pack",
 		"difficulty": 4,
 		"levels": [
