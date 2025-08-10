@@ -1,7 +1,9 @@
 {
 	"id": 124125309,
 	"name": "Murasaki",
-	"creators": ["Hydraniac"],
+	"creators": [
+		"Hydraniac"
+	],
 	"verifier": "Hydraniac",
 	"verification": "https://youtu.be/GTPaLJ-8R2s?si=pzYEXHlkFLF3tmSZ",
 	"percentToQualify": 100,
@@ -9,5 +11,13 @@
 	"difficulty": 4,
 	"song": "Koraii - Crystal River",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/kPy3DSLWJX7FkQr2V?invite=cr-MSxKSWQsMjY3Njk2MzQ2&v=79",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
