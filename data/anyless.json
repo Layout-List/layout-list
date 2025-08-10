@@ -42,6 +42,13 @@
 			"hz": 144,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "Gobryuel",
+			"link": "https://www.youtube.com/watch?v=LvSNVHfYu5A",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
 		}
 	]
 }
