@@ -790,5 +790,14 @@
 		"from_rank": null,
 		"above": "to_the_moon",
 		"below": "layout_prodigy"
+	},
+	{
+		"date": 1754851721,
+		"action": "placed",
+		"name": "murasaki",
+		"to_rank": 133,
+		"from_rank": null,
+		"above": "final_drop",
+		"below": "shizukana"
 	}
 ]
