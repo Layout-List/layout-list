@@ -29,20 +29,35 @@
 			"enjoyment": 10
 		},
 		{
-			"user": "hyperbeat",
-			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 7
-		},
-		{
 			"user": "Oganesson",
 			"link": "https://www.youtube.com/watch?v=1IICzFr-jnQ",
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "raynoxx",
+			"link": "https://www.youtube.com/watch?v=XOo2SlKHoNY",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Screendoe",
+			"link": "https://medal.tv/games/geometry-dash/clips/kPE0zT9pf-N_40RrC?invite=cr-MSxra3QsMjEyMTU0NjM2&v=52",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		},
+		{
+			"user": "hyperbeat",
+			"link": "https://www.youtube.com/watch?v=Cl0taYar7s8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }

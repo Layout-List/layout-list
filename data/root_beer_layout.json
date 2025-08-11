@@ -857,12 +857,26 @@
 			"mobile": true
 		},
 		{
+			"user": "MystaryReborn",
+			"link": "https://youtu.be/ehBXpqoTVt0",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 8
+		},
+		{
 			"user": "wert_krapata",
 			"link": "https://youtu.be/sRWEkOqh4l0?si=ywu4sCEef5_K2C2e",
 			"percent": 100,
 			"hz": 300,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "mrlox",
+			"link": "https://youtu.be/FmLrP_FIwTs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		},
 		{
 			"user": "SkyperHz",

@@ -13,20 +13,20 @@
 	"enjoyment": 8,
 	"records": [
 		{
-			"user": "zyxo",
-			"link": "https://www.youtube.com/watch?v=xOILWjXpdfM",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 9
-		},
-		{
 			"user": "poke zach",
 			"link": "https://youtu.be/_XjvSC5tPuw?si=YnbadA0DocBAgev3",
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 8
+		},
+		{
+			"user": "zyxo",
+			"link": "https://www.youtube.com/watch?v=xOILWjXpdfM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
 		},
 		{
 			"user": "sn0w",

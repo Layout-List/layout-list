@@ -12,20 +12,20 @@
 	"song": "Raise the Black Flag - Teminite",
 	"records": [
 		{
-			"user": "zyxo",
-			"link": "https://www.youtube.com/watch?v=xOILWjXpdfM",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 10
-		},
-		{
 			"user": "poke zach",
 			"link": "https://youtu.be/_XjvSC5tPuw?si=YnbadA0DocBAgev3",
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 9
+		},
+		{
+			"user": "zyxo",
+			"link": "https://www.youtube.com/watch?v=xOILWjXpdfM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "Jolly",

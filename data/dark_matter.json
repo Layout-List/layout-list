@@ -408,19 +408,19 @@
 			"enjoyment": 10
 		},
 		{
-			"user": "zyxo",
-			"link": "https://youtu.be/Cgr10GAaT2k",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
 			"user": "Oganesson",
 			"link": "https://youtu.be/agw38Mqs9YA?si=Y5dftAzqLlG_LjyG",
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "zyxo",
+			"link": "https://youtu.be/Cgr10GAaT2k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		},
 		{
 			"user": "robotic",

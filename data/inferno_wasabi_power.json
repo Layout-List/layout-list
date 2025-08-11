@@ -12,7 +12,7 @@
 	"song": "Geoxor- Stardust",
 	"records": [
 		{
-			"user": "VeraliGD",
+			"user": "Krit1calculate",
 			"link": "https://youtu.be/jwDPuZg9m6s?si=oEUPmPsFV5m-un2x",
 			"percent": 100,
 			"hz": 120,
@@ -27,19 +27,19 @@
 			"enjoyment": 8
 		},
 		{
-			"user": "zyxo",
-			"link": "https://youtu.be/Cgr10GAaT2k",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
-		},
-		{
 			"user": "Poke Zach",
 			"link": "https://youtu.be/imE_VYtYVYU?si=XVX0fyDDyElvNdJ1",
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "zyxo",
+			"link": "https://youtu.be/Cgr10GAaT2k",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		},
 		{
 			"user": "thanos",
@@ -66,6 +66,13 @@
 			"enjoyment": 7
 		},
 		{
+			"user": "playfuture",
+			"link": "https://www.youtube.com/watch?v=bQHwbPWkwo4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/eUKdi3esO3g",
 			"percent": 100,
@@ -74,19 +81,20 @@
 			"enjoyment": 10
 		},
 		{
-			"user": "playfuture",
-			"link": "https://www.youtube.com/watch?v=bQHwbPWkwo4",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 8
-		},
-		{
 			"user": "josikp",
 			"link": "https://www.youtube.com/watch?v=m-6kHTbwnyY",
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "Mrgamernav",
+			"link": "https://www.youtube.com/watch?v=FSUANqIDm0c",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		},
 		{
 			"user": "WDWiktor",
@@ -101,6 +109,14 @@
 			"link": "https://medal.tv/games/geometry-dash/clips/kO1spV6UWKaxAoCLc?invite=cr-MSxIemssMjU4MzczMjM2&v=68",
 			"percent": 100,
 			"hz": 360,
+			"enjoyment": 10
+		},
+		{
+			"user": "oganesson",
+			"link": "https://www.youtube.com/watch?v=1IICzFr-jnQ",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
 			"enjoyment": 10
 		},
 		{

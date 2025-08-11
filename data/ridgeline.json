@@ -70,12 +70,12 @@
 			"hz": 240
 		},
 		{
-			"user": "evil",
-			"link": "https://youtu.be/V2z5E1-uZV0",
+			"user": "len",
+			"link": "https://youtu.be/rMEPYzde0SM?si=tVeT9n7YCr4-XWlW",
 			"percent": 100,
-			"hz": 240,
+			"hz": 60,
 			"mobile": false,
-			"enjoyment": 8
+			"enjoyment": 10
 		},
 		{
 			"user": "evil",
@@ -102,20 +102,20 @@
 			"enjoyment": 10
 		},
 		{
-			"user": "robotic",
-			"link": "https://youtu.be/gvs0J3gN2_g?si=MkCodb7MB3CIZosr",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 5
-		},
-		{
 			"user": "Infinera",
 			"link": "https://www.youtube.com/watch?v=Zgg0r6miD-k",
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "robotic",
+			"link": "https://youtu.be/gvs0J3gN2_g?si=MkCodb7MB3CIZosr",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
 		},
 		{
 			"user": "playfuture",

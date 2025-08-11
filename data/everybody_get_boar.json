@@ -86,19 +86,19 @@
 			"enjoyment": 5
 		},
 		{
+			"user": "playfuture",
+			"link": "https://www.youtube.com/watch?v=bQHwbPWkwo4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/eUKdi3esO3g",
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
-		},
-		{
-			"user": "playfuture",
-			"link": "https://www.youtube.com/watch?v=bQHwbPWkwo4",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
 		},
 		{
 			"user": "Noyan",
@@ -129,6 +129,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "raynoxx",
+			"link": "https://www.youtube.com/watch?v=XOo2SlKHoNY",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
 		},
 		{
 			"user": "hyperbeat",
