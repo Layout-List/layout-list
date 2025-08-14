@@ -9,12 +9,12 @@ import Copied from "../components/Copied.js";
 import TemplateDisclaimer from "../components/Sidebar/TemplateDisclaimer.js";
 import PacksInfo from "../components/Sidebar/PacksInfo.js"
 import PackDifficulty from "../components/Sidebar/PackDifficulty.js"
-import CookiesDisclaimer from "../components/Sidebar/CookiesDisclaimer.js";
+import CacheDisclaimer from "../components/Sidebar/CacheDisclaimer.js";
 import Level from "../components/List/Level.js";
 import Errors from "../components/Sidebar/Errors.js";
 
 export default {
-    components: { Spinner, LevelAuthors, Copy, Copied, TemplateDisclaimer, PacksInfo, PackDifficulty, CookiesDisclaimer, Level, Errors },
+    components: { Spinner, LevelAuthors, Copy, Copied, TemplateDisclaimer, PacksInfo, PackDifficulty, CacheDisclaimer, Level, Errors },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -101,7 +101,7 @@ export default {
                     <hr class="divider">
                     <PackDifficulty />
                     <hr class="divider">
-                    <CookiesDisclaimer />
+                    <CacheDisclaimer />
                 </div>
             </div>
         </main>

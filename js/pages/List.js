@@ -4,7 +4,7 @@ import Spinner from '../components/Spinner.js';
 import Scroll from '../components/Scroll.js'
 import Level from '../components/List/Level.js'
 import TierInfo from '../components/List/TierInfo.js';
-import CookiesDisclaimer from '../components/Sidebar/CookiesDisclaimer.js';
+import CacheDisclaimer from '../components/Sidebar/CacheDisclaimer.js';
 import DifficultyInfo from '../components/Sidebar/DifficultyInfo.js';
 import RecordRules from '../components/Sidebar/RecordRules.js';
 import TemplateDisclaimer from '../components/Sidebar/TemplateDisclaimer.js';
@@ -12,7 +12,7 @@ import Staff from '../components/Sidebar/Staff.js';
 import Errors from '../components/Sidebar/Errors.js';
 
 export default {
-    components: { Spinner, Scroll, Level, TierInfo, CookiesDisclaimer, RecordRules, DifficultyInfo, TemplateDisclaimer, Staff, Errors },
+    components: { Spinner, Scroll, Level, TierInfo, CacheDisclaimer, RecordRules, DifficultyInfo, TemplateDisclaimer, Staff, Errors },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -78,7 +78,7 @@ export default {
                     <hr class="divider">
                     <DifficultyInfo />
                     <hr class="divider">
-                    <CookiesDisclaimer />
+                    <CacheDisclaimer />
                 </div>
             </div>
         </main>
