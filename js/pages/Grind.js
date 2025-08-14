@@ -3,14 +3,13 @@ import { localize, getThumbnailFromId, getYoutubeIdFromUrl, copyURL, round } fro
 import { fetchUsers, averageEnjoyment } from '../content.js'
 import { compressData, decompressData } from '../main.js';
 import Spinner from '../components/Spinner.js';
-import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import Scroll from '../components/Scroll.js'
 import Btn from '../components/Btn.js';
 import { score } from '../config.js';
 
 export default {
-    components: { Spinner, Copy, Copied, Scroll, Btn },
+    components: { Spinner, Copied, Scroll, Btn },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -53,12 +52,9 @@ export default {
 
                         <Btn @click="reset()" style="background-color: #d50000;color: white;">Reset</Btn>
 
-                        <div v-if="lastSubmission">
-                            <p v-if="copied === false" class="director" @click="copySubmission()" style="text-decoration: underline;">Previous submission (click to copy)</p>
-                            <p v-else-if="copied === 'err'">Error copying to clipboard, please copy this link:\n{{ lastSubmission }}</p>
-                            <p v-else-if="copied === true" @click="copySubmission()" class="director" style="text-decoration: underline;">Copied!</p>
-                            <br>
-                        </div>
+                        <br>
+                        <p><a v-if="lastSubmission" class="director" :href="lastSubmission" style="text-decoration: underline;" target="_blank">Previous submission</a></p>
+                        <br>
                         <h2 v-if="completed.levels.length > 0">Completed:</h2>
                         <div class="completed-levels-container">
                             <p v-for="level in completed.levels" >{{ level.name }} {{ level.percent }}%{{ level.enjoyment ? " (" + level.enjoyment + "/10)" : "" }} +{{ level.pts }}</p>
@@ -81,7 +77,7 @@ export default {
                                 Your save data saves to your browser, but you can manually export it to a file as a backup above.
                             </p>
                             <p>
-                                When you're ready to submit your records to be added, click "Submit" and paste the copied text into the <a :href="formUrl" class="director" target="_blank">Google form</a>. Be sure to select the "Grind page" option in the form.
+                                Once you submit, please reset your data with the "Reset" button above.
                             </p>
 
                         </div>
@@ -159,7 +155,7 @@ export default {
         list: [],
         allUsers: [],
         loggedIn: null,
-        formUrl: "https://forms.gle/kmesxiUQUEWC5ZuW9",
+        formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScIIsYaYQDl0di2AtCj1fiHwkScEAyxStFAPP_wtPoTDQxhig/viewform?usp=pp_url",
         loggingIn: "",
         typedValues: {},
         completed: {
@@ -172,7 +168,6 @@ export default {
         clickedOnTheInfoThing: false,
         lastScrollPosition: 0,
         lastSubmissionLink: null,
-        copied: false,
         submitLoading: false,
         shouldRefreshLastSubmitted: false,
     }),
@@ -207,7 +202,9 @@ export default {
         },
         lastSubmission() {
             this.shouldRefreshLastSubmitted;
-            return localStorage.getItem("last_submission_link")
+            const lastSubmissionLink = localStorage.getItem("last_submission_link")
+            console.log(lastSubmissionLink)
+            return lastSubmissionLink
         }
     },
 
@@ -335,11 +332,11 @@ export default {
             })
             completedOnSubmit.name = this.loggedIn
             const compressed = compressData(JSON.stringify(completedOnSubmit))
-            await copyURL(compressed);
-            localStorage.setItem("last_submission_link", compressed)
+            const link = this.formUrl + `&entry.873982318=Yes&entry.82893587=${encodeURIComponent(compressed)}`
+            await copyURL(link);
+            localStorage.setItem("last_submission_link", link)
             this.shouldRefreshLastSubmitted = true;
-            await alert("Submitted! Copy the code on the left and paste it into the record form (make sure to specify you used the grind page)");
-            window.open(this.formUrl, '_blank');
+            window.open(link, '_blank');
             this.submitLoading = false;
             return;
         },
@@ -411,15 +408,6 @@ export default {
             this.$nextTick(() => {
                 container.scrollTop = this.lastScrollPosition;
             });
-        },
-        async copySubmission() {
-            try {
-                await navigator.clipboard.writeText(this.lastSubmission)
-                this.copied = true
-            } catch (e) {
-                console.error(e)
-                this.copied = "err"
-            }
         }
     },
 
@@ -434,6 +422,12 @@ export default {
             const decomp = decompressData(cookiesSave)
             const parsed = JSON.parse(decomp)
             this.completed = parsed;
+        }
+
+        const prev_submission = localStorage.getItem("last_submission_link")
+        if (prev_submission && !prev_submission.startsWith("http")) {
+            const newString = this.formUrl + `&entry.873982318=Yes&entry.82893587=${encodeURIComponent(prev_submission)}`
+            localStorage.setItem("last_submission_link", newString)
         }
 
         this.list = this.store.list
