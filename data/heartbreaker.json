@@ -33,7 +33,8 @@
 			"link": "https://youtu.be/aQTiqlZ2K9g",
 			"percent": 100,
 			"hz": 300,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "AJaX",
