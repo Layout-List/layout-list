@@ -41,7 +41,8 @@
 			"link": "https://youtu.be/WVlDCpnz3QQ",
 			"percent": 100,
 			"hz": 300,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "Blathers",
