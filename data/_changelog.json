@@ -808,5 +808,14 @@
 		"from_rank": null,
 		"above": "rimuru",
 		"below": "malevolence"
+	},
+	{
+		"date": 1756511451,
+		"action": "placed",
+		"name": "exit_42_a",
+		"to_rank": 406,
+		"from_rank": null,
+		"above": "dian",
+		"below": "paint_the_town_red"
 	}
 ]
