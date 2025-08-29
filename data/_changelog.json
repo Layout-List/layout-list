@@ -799,5 +799,14 @@
 		"from_rank": null,
 		"above": "final_drop",
 		"below": "shizukana"
+	},
+	{
+		"date": 1756511319,
+		"action": "placed",
+		"name": "among_the_stars",
+		"to_rank": 164,
+		"from_rank": null,
+		"above": "rimuru",
+		"below": "malevolence"
 	}
 ]
