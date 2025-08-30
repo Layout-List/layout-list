@@ -1,12 +1,17 @@
 {
 	"id": 125132786,
 	"name": "Among The Stars",
-	"creators": ["DJJDK","Blathers","Fuscous"],
+	"creators": [
+		"DJJDK",
+		"Blathers",
+		"Fuscous"
+	],
 	"verifier": "Disastrum",
 	"verification": "https://youtu.be/WranRguPOE8",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 4,
 	"song": "Erik McClure - Europa",
-	"records": []
+	"records": [],
+	"enjoyment": 9
 }
