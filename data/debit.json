@@ -456,6 +456,14 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/-wtNpeP6C8U",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }
