@@ -64,11 +64,12 @@
 			"mobile": true
 		},
 		{
-			"user": "Hydraniac",
-			"link": "https://medal.tv/games/geometry-dash/clips/l0mx1XSuJFgHnD4Hd?invite=cr-MSxjZTEsMTg1OTcxMTAw&v=57",
+			"user": "robotic",
+			"link": "https://youtu.be/gPiInGlHGXs",
 			"percent": 100,
 			"hz": 240,
-			"enjoyment": 8
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }

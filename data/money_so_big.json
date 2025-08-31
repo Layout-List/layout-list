@@ -106,6 +106,14 @@
 			"link": "https://www.youtube.com/watch?v=4yg6BMwRCcs",
 			"percent": 100,
 			"hz": 120
+		},
+		{
+			"user": "robotic",
+			"link": "https://youtu.be/gPiInGlHGXs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }
