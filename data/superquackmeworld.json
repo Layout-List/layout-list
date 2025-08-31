@@ -149,6 +149,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "marhz",
+			"link": "https://youtu.be/xbJibQjZnPc",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 9
 		}
 	]
 }
