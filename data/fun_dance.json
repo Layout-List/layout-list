@@ -1338,6 +1338,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "eb._.atomic",
+			"link": "https://youtu.be/jHlyv6dRUfU",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 5
 		}
 	]
 }
