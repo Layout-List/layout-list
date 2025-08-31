@@ -136,6 +136,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 9
+		},
+		{
+			"user": "dunix",
+			"link": "https://youtu.be/1aeYg1somh0",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 10
 		}
 	]
 }
