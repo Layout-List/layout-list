@@ -1,12 +1,23 @@
 {
 	"id": 123905019,
 	"name": "sparks  of  heaven",
-	"creators": ["rieselwiesel"],
+	"creators": [
+		"rieselwiesel"
+	],
 	"verifier": "rieselwiesel",
 	"verification": "https://youtu.be/8hKv_yKpfMk?si=b0dwuNl73VgZ7wW5",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 4,
 	"song": "Camellia - Exit This Earth's Atmosphere",
-	"records": []
+	"records": [
+		{
+			"user": "hydraniac",
+			"link": "https://www.youtube.com/live/fGEUS9j2G04?si=li3lgAIYxwacSvbS",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		}
+	]
 }

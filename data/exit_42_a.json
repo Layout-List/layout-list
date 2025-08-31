@@ -1,12 +1,23 @@
 {
 	"id": 125275827,
 	"name": "exit 42 a",
-	"creators": ["sn0w"],
+	"creators": [
+		"sn0w"
+	],
 	"verifier": "Asteria.",
 	"verification": "https://youtu.be/BZom8bMGaXw",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "TURQUOISEDEATH - On Three",
-	"records": []
+	"records": [
+		{
+			"user": "hydraniac",
+			"link": "https://www.youtube.com/live/fGEUS9j2G04?si=li3lgAIYxwacSvbS",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		}
+	]
 }

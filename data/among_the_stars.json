@@ -12,6 +12,15 @@
 	"password": "Free to copy",
 	"difficulty": 4,
 	"song": "Erik McClure - Europa",
-	"records": [],
+	"records": [
+		{
+			"user": "hydraniac",
+			"link": "https://www.youtube.com/live/fGEUS9j2G04?si=li3lgAIYxwacSvbS",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	],
 	"enjoyment": 9
 }

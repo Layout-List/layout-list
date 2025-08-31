@@ -94,6 +94,14 @@
 			"hz": 40,
 			"mobile": false,
 			"enjoyment": 6
+		},
+		{
+			"user": "hydraniac",
+			"link": "https://www.youtube.com/live/fGEUS9j2G04?si=li3lgAIYxwacSvbS",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
 		}
 	]
 }
