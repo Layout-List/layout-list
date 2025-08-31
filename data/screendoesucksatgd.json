@@ -82,6 +82,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 6
+		},
+		{
+			"user": "knight",
+			"link": "https://youtu.be/r4ihDHi87Js",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
 		}
 	]
 }
