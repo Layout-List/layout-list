@@ -56,6 +56,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 6
+		},
+		{
+			"user": "Popples",
+			"link": "https://youtu.be/SpobfoROK1U",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 5
 		}
 	]
 }
