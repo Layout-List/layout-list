@@ -25,6 +25,13 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10
+		},
+		{
+			"user": "1st3y1",
+			"link": "https://youtu.be/wJOiaNDQMk4",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 10
 		}
 	]
 }
