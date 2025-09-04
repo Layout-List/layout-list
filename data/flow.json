@@ -322,6 +322,14 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "1st3y1",
+			"link": "https://youtu.be/i3zItcyNyvw",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 1
 		}
 	]
 }

@@ -1310,12 +1310,12 @@
 			"enjoyment": 6
 		},
 		{
-			"user": "MattyRot",
-			"link": "https://youtu.be/hAiyZdICDIE?si=nYp8Zi8El-aJ025x",
+			"user": "1st3y1",
+			"link": "https://youtu.be/i3zItcyNyvw",
 			"percent": 100,
-			"hz": 60,
-			"enjoyment": 6,
-			"mobile": true
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }
