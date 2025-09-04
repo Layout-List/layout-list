@@ -96,6 +96,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 6
+		},
+		{
+			"user": "Infinera",
+			"link": "https://www.youtube.com/watch?v=HtDrwH0kQjs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
 		}
 	]
 }
