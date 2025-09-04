@@ -112,6 +112,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "random",
+			"link": "https://youtu.be/_c4DDoLQqx0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }
