@@ -73,6 +73,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "Infinera",
+			"link": "https://www.youtube.com/watch?v=_mV1Jvg2myE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }
