@@ -1,38 +1,45 @@
 {
-  "id": 110340141,
-  "name": "Blade of Faith",
-  "creators": [
-	"Popples"
-  ],
-  "verifier": "Hyperbeat",
-  "verification": "https://www.youtube.com/watch?v=YPOf4LjnryU",
-  "percentToQualify": 60,
-  "song": "Goukisan - Betrayal of Fate",
-  "difficulty": 7,
-  "enjoyment": 9,
-  "records": [
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/z9LUIKx6-fI?si=cLU_y_SyPIeo2ekH",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/zdz9I-cALnM",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://youtu.be/Vq2LhvK613I",
-	  "percent": 100,
-	  "hz": 360,
-	  "enjoyment": 8
-	}
-  ]
+	"id": 110340141,
+	"name": "Blade of Faith",
+	"creators": [
+		"Popples"
+	],
+	"verifier": "Hyperbeat",
+	"verification": "https://www.youtube.com/watch?v=YPOf4LjnryU",
+	"percentToQualify": 60,
+	"song": "Goukisan - Betrayal of Fate",
+	"difficulty": 7,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/z9LUIKx6-fI?si=cLU_y_SyPIeo2ekH",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/zdz9I-cALnM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Acacia",
+			"link": "https://youtu.be/Vq2LhvK613I",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 8
+		},
+		{
+			"user": "Popples",
+			"link": "https://youtu.be/2WLWK7JHbrM",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 8
+		}
+	]
 }
