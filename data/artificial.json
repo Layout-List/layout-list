@@ -1316,6 +1316,13 @@
 			"hz": 144,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "Votox",
+			"link": "https://youtu.be/eIRJYuC3mKM",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
