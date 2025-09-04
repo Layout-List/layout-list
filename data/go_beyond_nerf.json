@@ -145,6 +145,13 @@
 			"hz": 480,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "nykolol",
+			"link": "https://youtu.be/K5Yi6pnncbQ",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
