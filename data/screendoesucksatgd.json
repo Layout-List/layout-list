@@ -91,11 +91,12 @@
 			"enjoyment": 8
 		},
 		{
-			"user": "Popples",
-			"link": "https://youtu.be/SpobfoROK1U",
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/2uaP938-TjE",
 			"percent": 100,
-			"hz": 144,
-			"enjoyment": 10
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
 		}
 	]
 }
