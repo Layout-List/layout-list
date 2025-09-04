@@ -467,6 +467,14 @@
 			"hz": 144,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "iClone",
+			"link": "https://youtu.be/VFCg15iwYNA?feature=shared",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 5,
+			"mobile": true
 		}
 	]
 }
