@@ -1323,6 +1323,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 8
+		},
+		{
+			"user": "iClone",
+			"link": "https://youtu.be/QCw06qFlZiQ?feature=shared",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }
