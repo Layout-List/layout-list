@@ -59,6 +59,14 @@
 			"enjoyment": 10
 		},
 		{
+			"user": "playfuture",
+			"link": "https://www.youtube.com/watch?v=MwYlGAZ0-BM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
 			"user": "robotic",
 			"link": "https://youtu.be/gPiInGlHGXs",
 			"percent": 100,
@@ -72,14 +80,6 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
-		},
-		{
-			"user": "playfuture",
-			"link": "https://www.youtube.com/watch?v=MwYlGAZ0-BM",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false,
-			"enjoyment": 6
 		}
 	]
 }
