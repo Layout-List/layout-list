@@ -1,183 +1,190 @@
 {
-  "id": 73374303,
-  "name": "SLM",
-  "creators": [
-	"ZBosGaming"
-  ],
-  "verifier": "ZBosGaming",
-  "verification": "https://youtu.be/yrE_54IeZHQ",
-  "showcase": "https://youtu.be/Hfq1ayuidWs",
-  "percentToQualify": 49,
-  "song": "Hard Bass School - SLAVIC LIVES MATTER [RAVE]",
-  "songLink": "https://www.mediafire.com/file/i5tlk1ufoe0d12y/43235.mp3/file",
-  "difficulty": 6,
-  "records": [
-	{
-	  "user": "Kind1e",
-	  "link": "https://www.youtube.com/watch?v=IYL5JuoXG8Y",
-	  "percent": 100,
-	  "hz": 165
-	},
-	{
-	  "user": "Fusion425",
-	  "link": "https://www.youtube.com/watch?v=WNnuemU-r8I",
-	  "percent": 100,
-	  "hz": 288
-	},
-	{
-	  "user": "rustic",
-	  "link": "https://www.youtube.com/watch?v=runB8WNRXes",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "CaioMD",
-	  "link": "https://www.youtube.com/watch?v=XbNrNeABsBg",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "ShimzyZE",
-	  "link": "https://youtu.be/XPz-QPcVLRA",
-	  "percent": 100,
-	  "hz": 240
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/PhvB1yrNfOI",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Blathers",
-	  "link": "https://youtu.be/mYDuAvnf9AQ",
-	  "percent": 70,
-	  "hz": 240
-	},
-	{
-	  "user": "EmeraldOre",
-	  "link": "https://www.youtube.com/watch?v=y74p2wTav_A",
-	  "percent": 66,
-	  "hz": 240
-	},
-	{
-	  "user": "sqrtpie",
-	  "link": "https://youtu.be/xG0p98bsHVk",
-	  "percent": 57,
-	  "hz": 60
-	},
-	{
-	  "user": "culobdj",
-	  "link": "https://www.youtube.com/watch?v=QmALNirFRbg",
-	  "percent": 52,
-	  "hz": 240
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/EpFz2HtJnrs",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": ".com",
-	  "link": "https://www.youtube.com/watch?v=PzzZuVwdco4&ab_channel=TheWebsite",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Seismic",
-	  "link": "https://youtu.be/FszGj-F4PNc",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "nolli",
-	  "link": "https://www.youtube.com/watch?v=fQF6Pm3KyR8",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "rastuyas",
-	  "link": "https://youtu.be/XRCSgHjPTOk",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/7jheoHTxbCg",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Jab",
-	  "link": "https://youtu.be/fe-nkQS_Sgo?si=RtCBLit1oXBokEJ2",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "RFanVS",
-	  "link": "https://youtu.be/6kaGKsAR2UI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "LimeDub",
-	  "link": "https://youtu.be/lIzeuZ6NVxM",
-	  "percent": 50,
-	  "hz": 288,
-	  "mobile": false
-	},
-	{
-	  "user": "Khronos",
-	  "link": "https://youtu.be/McPZTBzi2zs",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "TurtleER",
-	  "link": "https://www.youtube.com/watch?v=kgGegbSJLOA&ab_channel=TurtleERFAKE",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 6
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=bfc70WD6kQ4",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 1
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://www.youtube.com/watch?v=jyRasAmPlDk",
-	  "percent": 100,
-	  "hz": 360,
-	  "enjoyment": 4
-	}
-  ]
+	"id": 73374303,
+	"name": "SLM",
+	"creators": [
+		"ZBosGaming"
+	],
+	"verifier": "ZBosGaming",
+	"verification": "https://youtu.be/yrE_54IeZHQ",
+	"showcase": "https://youtu.be/Hfq1ayuidWs",
+	"percentToQualify": 49,
+	"song": "Hard Bass School - SLAVIC LIVES MATTER [RAVE]",
+	"songLink": "https://www.mediafire.com/file/i5tlk1ufoe0d12y/43235.mp3/file",
+	"difficulty": 6,
+	"records": [
+		{
+			"user": "Kind1e",
+			"link": "https://www.youtube.com/watch?v=IYL5JuoXG8Y",
+			"percent": 100,
+			"hz": 165
+		},
+		{
+			"user": "Fusion425",
+			"link": "https://www.youtube.com/watch?v=WNnuemU-r8I",
+			"percent": 100,
+			"hz": 288
+		},
+		{
+			"user": "rustic",
+			"link": "https://www.youtube.com/watch?v=runB8WNRXes",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "CaioMD",
+			"link": "https://www.youtube.com/watch?v=XbNrNeABsBg",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "ShimzyZE",
+			"link": "https://youtu.be/XPz-QPcVLRA",
+			"percent": 100,
+			"hz": 240
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/PhvB1yrNfOI",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Blathers",
+			"link": "https://youtu.be/mYDuAvnf9AQ",
+			"percent": 70,
+			"hz": 240
+		},
+		{
+			"user": "EmeraldOre",
+			"link": "https://www.youtube.com/watch?v=y74p2wTav_A",
+			"percent": 66,
+			"hz": 240
+		},
+		{
+			"user": "sqrtpie",
+			"link": "https://youtu.be/xG0p98bsHVk",
+			"percent": 57,
+			"hz": 60
+		},
+		{
+			"user": "culobdj",
+			"link": "https://www.youtube.com/watch?v=QmALNirFRbg",
+			"percent": 52,
+			"hz": 240
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/EpFz2HtJnrs",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": ".com",
+			"link": "https://www.youtube.com/watch?v=PzzZuVwdco4&ab_channel=TheWebsite",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Seismic",
+			"link": "https://youtu.be/FszGj-F4PNc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "nolli",
+			"link": "https://www.youtube.com/watch?v=fQF6Pm3KyR8",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://youtu.be/XRCSgHjPTOk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/7jheoHTxbCg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Jab",
+			"link": "https://youtu.be/fe-nkQS_Sgo?si=RtCBLit1oXBokEJ2",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "RFanVS",
+			"link": "https://youtu.be/6kaGKsAR2UI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "LimeDub",
+			"link": "https://youtu.be/lIzeuZ6NVxM",
+			"percent": 50,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Khronos",
+			"link": "https://youtu.be/McPZTBzi2zs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "Acacia",
+			"link": "https://www.youtube.com/watch?v=muIiZ62Z8as",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "TurtleER",
+			"link": "https://www.youtube.com/watch?v=kgGegbSJLOA&ab_channel=TurtleERFAKE",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=bfc70WD6kQ4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/znfHHXTPk8k?si=00-khqDAyvSAVnQH",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=jyRasAmPlDk",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 4
+		},
+		{
+			"user": "nykolol",
+			"link": "https://www.youtube.com/watch?v=SgiY07G5n7o",
+			"percent": 100,
+			"hz": 1000,
+			"enjoyment": 7
+		}
+	]
 }
