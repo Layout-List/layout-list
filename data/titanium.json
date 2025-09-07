@@ -62,6 +62,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "nykolol",
+			"link": "https://youtu.be/pXiKWqO6IeE",
+			"percent": 100,
+			"hz": 1000,
+			"enjoyment": 6
 		}
 	]
 }
