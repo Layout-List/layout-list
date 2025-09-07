@@ -844,5 +844,14 @@
 		"from_rank": null,
 		"above": "black_canvas",
 		"below": "death_to_ye_three"
+	},
+	{
+		"date": 1757281495,
+		"action": "placed",
+		"name": "nothing_to_show",
+		"to_rank": 13,
+		"from_rank": null,
+		"above": "ai",
+		"below": "karma"
 	}
 ]
