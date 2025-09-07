@@ -1,7 +1,9 @@
 {
 	"id": 123916002,
 	"name": "Pressure",
-	"creators": ["Tornabro"],
+	"creators": [
+		"Tornabro"
+	],
 	"verifier": "Tornabro",
 	"verification": "https://www.youtube.com/watch?v=9k1Xu1sGKKc",
 	"percentToQualify": 62,
@@ -10,5 +12,13 @@
 	"song": "Astro Trax // The Energy (Ross Couch Dub Mix)",
 	"songLink": "https://drive.google.com/file/d/1Z638g8LZez0dn6nouIAD0Uua_wacuJck/view?usp=sharing",
 	"enjoyment": 5,
-	"records": []
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/l3C4oxfmkSsc1mEqT?invite=cr-MSxGY2csMTg1OTcxMTAw&v=36",
+			"percent": 66,
+			"hz": 240,
+			"enjoyment": 8
+		}
+	]
 }
