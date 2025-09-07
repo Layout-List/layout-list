@@ -1,12 +1,22 @@
 {
 	"id": 119658395,
 	"name": "Adrift",
-	"creators": ["Mrfelix906"],
+	"creators": [
+		"Mrfelix906"
+	],
 	"verifier": "Mrfelix906",
 	"verification": "https://www.youtube.com/watch?v=xHATXTeT-po",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 0,
 	"song": "Adrift - Infowler & Miss Lina",
-	"records": []
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://www.youtube.com/watch?v=-ZLS08Fo6mQ&feature=youtu.be",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
