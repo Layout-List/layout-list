@@ -835,5 +835,14 @@
 		"from_rank": null,
 		"above": "svalbard",
 		"below": "im_god"
+	},
+	{
+		"date": 1757281364,
+		"action": "placed",
+		"name": "solace",
+		"to_rank": 74,
+		"from_rank": null,
+		"above": "black_canvas",
+		"below": "death_to_ye_three"
 	}
 ]
