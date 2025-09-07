@@ -1562,6 +1562,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9
+		},
+		{
+			"user": "hatredsxd",
+			"link": "https://youtu.be/-EAgFha27us?si=7LsGCf-LWPb_R2J-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
