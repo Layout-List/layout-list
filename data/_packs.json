@@ -311,7 +311,6 @@
 		"name": "Long Pack 2",
 		"difficulty": 5,
 		"levels": [
-			"overtime",
 			"nana",
 			"underlying_grief",
 			"escaping_limbo"
