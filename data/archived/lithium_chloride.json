@@ -1,0 +1,110 @@
+{
+	"id": 99125031,
+	"name": "Lithium Chloride",
+	"creators": [
+		"Len"
+	],
+	"verifier": "Riley",
+	"verification": "https://www.youtube.com/watch?v=20l0zT5ZmuE",
+	"percentToQualify": 71,
+	"song": "Creo - Crazy",
+	"difficulty": 6,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=lwNwf4Y3cno",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "zDark",
+			"link": "https://www.youtube.com/watch?v=Xgc7BrSkl2w",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "ImPhara",
+			"link": "https://www.youtube.com/watch?v=2iKjwQJvNV4",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/6WVp9RXu5cA?si=IBff-IqWhsZtLzpk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/AOjcE6iCyaY",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://www.youtube.com/watch?v=kOc_rmoo5gw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/0zpo-TmhiGE?si=VDSFaJz9v2_RGYmp",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/HSVLEl-oeqE",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=vegzC0osaUQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://youtu.be/g79VLS21TRQ?si=gyu4WqHmUFB8zuSA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/YCIvO57Guek?si=099lIAOeep8EmEPc",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/rOIve5xYzJk",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
+}
