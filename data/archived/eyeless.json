@@ -1,0 +1,103 @@
+{
+	"id": 105508798,
+	"name": "Eyeless",
+	"creators": [
+		"Len"
+	],
+	"verifier": "zDark",
+	"verification": "https://www.youtube.com/watch?v=XenmZDokrNE&ab_channel=zDark",
+	"percentToQualify": 62,
+	"song": "Slipknot - Eyeless",
+	"songLink": "https://drive.google.com/file/d/1c65Uo7jEyhvSweqehIpHrv01XsRFZm_S/view?usp=drive_link",
+	"difficulty": 7,
+	"enjoyment": 8,
+	"records": [
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/wN11hZQ68a4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://youtu.be/IcsBRGD6eyg?si=0_VqC3PwFevNplYK",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "evil",
+			"link": "https://youtu.be/ddb3eSV1JxQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/jVafrNAPonA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "ImPhara",
+			"link": "https://youtu.be/j_RbJKs93lI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=tOuI3eJnfBk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Riley",
+			"link": "https://www.youtube.com/watch?v=HMm4x8aXsBg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "rustic",
+			"link": "https://www.youtube.com/watch?v=_ZfUN4n20xM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Tupi",
+			"link": "https://www.youtube.com/live/ftoZh-HT3Uo",
+			"percent": 100,
+			"hz": 200,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "dunix",
+			"link": "https://youtu.be/VhIkL5Wl6Zg",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 9
+		}
+	]
+}
