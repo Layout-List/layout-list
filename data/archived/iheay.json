@@ -1,0 +1,77 @@
+{
+	"id": 109935967,
+	"name": "ihEay",
+	"creators": [
+		"Len"
+	],
+	"verifier": "Riley",
+	"verification": "https://youtu.be/M6UrDqLMTJI",
+	"percentToQualify": 65,
+	"song": "Three Days Grace - I Hate Everything About You",
+	"songLink": "https://drive.google.com/file/d/1PZ_d-I3gj-fzIdIhR1mLfeNIq-Kcl-80/view?usp=drive_link",
+	"difficulty": 5,
+	"enjoyment": 9,
+	"records": [
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/tqxtgnrbWgg",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/BZeEpqWK210?si=K6nU6fygpLCWgfKQ",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=9cX3WYlM0WA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "monthmai",
+			"link": "https://youtu.be/ur5TyL-yjAw?si=b9ZTZkr8LAJ89Vag",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/iTlLkchdUIqqKTAPV?invite=cr-MSxiNmwsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=YjafoiTiM2o",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://www.youtube.com/live/sO-6_9aS7W0?si=umwsijAujlSOhbed",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "dunix",
+			"link": "https://youtu.be/VhIkL5Wl6Zg",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 9
+		}
+	]
+}
