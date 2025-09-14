@@ -1,7 +1,9 @@
 {
 	"id": 124395036,
 	"name": "Too Many Levels",
-	"creators": ["Flare"],
+	"creators": [
+		"Flare"
+	],
 	"verifier": "Infinera",
 	"verification": "https://www.youtube.com/watch?v=5voLd73l26s",
 	"percentToQualify": 100,
@@ -9,5 +11,6 @@
 	"difficulty": 4,
 	"song": "Metro Boomin, Don Toliver - Too Many Nights",
 	"songLink": "https://drive.google.com/file/d/1oQRYAqsHlcpJ-72aQgd6MIrH6aWxDGSW/view?usp=sharing",
-	"records": []
+	"records": [],
+	"enjoyment": 6
 }
