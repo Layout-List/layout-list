@@ -23,7 +23,7 @@ export default {
                 <span class="type-label-lg">Showcase</span>
             </button>
         </div>
-        <iframe class="video" id="videoframe" :src="video" frameborder="0" allow="fullscreen"></iframe>
+        <iframe class="video" id="videoframe" :src="video" frameborder="0" allowfullscreen allow="fullscreen"></iframe>
     `,
     computed: {
         video() {
