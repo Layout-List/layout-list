@@ -4,7 +4,7 @@
 	"creators": [
 		"F1regek"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://youtu.be/LlS-DEP9_RA?si=YUd-vFSb0hfG6rDK",
 	"showcase": "https://youtu.be/26gSovmjo5o",
 	"percentToQualify": 36,

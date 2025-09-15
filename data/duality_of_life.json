@@ -4,7 +4,7 @@
 	"creators": [
 		"whitmp4"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://www.youtube.com/watch?v=J8xcV-g11I8",
 	"showcase": "https://youtu.be/wAXWIvyLDr8",
 	"percentToQualify": 100,

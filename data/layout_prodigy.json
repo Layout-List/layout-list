@@ -4,7 +4,7 @@
 	"creators": [
 		"whitmp4"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://youtu.be/TbCcc51o_gg?si=iUjJLHfx7GGbUkB2",
 	"percentToQualify": 100,
 	"song": "Creo - Never Make It",

@@ -12,7 +12,7 @@
 		"kloone",
 		"exho"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://youtu.be/AG5Tg_onnsA",
 	"showcase": "https://www.youtube.com/watch?v=YY_b6W3s6gI&ab_channel=LayoutListShowcases",
 	"percentToQualify": 100,

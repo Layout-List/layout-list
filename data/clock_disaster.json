@@ -4,7 +4,7 @@
 	"creators": [
 		"Asteria."
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://www.youtube.com/watch?v=JH3RlFXIH_w",
 	"percentToQualify": 59,
 	"song": "Llaappssee - This Song Means Nothing",

@@ -4,7 +4,7 @@
 	"creators": [
 		"EmeraldOre"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://youtu.be/N0paHVsBIl0",
 	"percentToQualify": 100,
 	"song": "jayya - villain",

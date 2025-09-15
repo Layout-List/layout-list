@@ -6,7 +6,7 @@
 		"Riley",
 		"Flare"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://www.youtube.com/watch?v=TaKXHAA2ZbE",
 	"percentToQualify": 100,
 	"song": "Creo - Dimension",

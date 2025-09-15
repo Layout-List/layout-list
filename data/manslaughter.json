@@ -7,7 +7,7 @@
 		"flare",
 		"fawami"
 	],
-	"verifier": "evil",
+	"verifier": "evil++!",
 	"verification": "https://youtu.be/ywC98Y525Tg",
 	"percentToQualify": 100,
 	"song": "Motionless In White - Slaughterhouse",
