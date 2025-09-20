@@ -483,6 +483,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "MattyRot",
+			"link": "https://youtu.be/qWvMmg9binU?si=rFSi2Q2A0EHtZ-yA",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }
