@@ -871,5 +871,14 @@
 		"from_rank": null,
 		"above": "electrostatic",
 		"below": "vulture"
+	},
+	{
+		"date": 1758396614,
+		"action": "placed",
+		"name": "rock_thing",
+		"to_rank": 251,
+		"from_rank": null,
+		"above": "giftbox_layout",
+		"below": "lies_layout"
 	}
 ]
