@@ -898,5 +898,14 @@
 		"from_rank": null,
 		"above": "sudden_departure",
 		"below": "truth_or_dare"
+	},
+	{
+		"date": 1758397033,
+		"action": "placed",
+		"name": "unnamed_sphere_level",
+		"to_rank": 59,
+		"from_rank": null,
+		"above": "escaping_limbo",
+		"below": "myheadhurts"
 	}
 ]
