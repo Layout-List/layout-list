@@ -880,5 +880,14 @@
 		"from_rank": null,
 		"above": "giftbox_layout",
 		"below": "lies_layout"
+	},
+	{
+		"date": 1758396702,
+		"action": "placed",
+		"name": "nautilus_squidkid72",
+		"to_rank": 212,
+		"from_rank": null,
+		"above": "thick_of_it",
+		"below": "lightmare"
 	}
 ]
