@@ -1,12 +1,22 @@
 {
 	"id": 126039262,
 	"name": "Rock Thing",
-	"creators": ["Screendoe"],
+	"creators": [
+		"Screendoe"
+	],
 	"verifier": "Asteria.",
 	"verification": "https://youtu.be/oCOWpQuDKb0",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "Creo -  Rock Thing",
-	"records": []
+	"records": [
+		{
+			"user": "Popples",
+			"link": "https://youtu.be/DZ2B5zGHnuw",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
