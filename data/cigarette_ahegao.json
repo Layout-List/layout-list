@@ -1,7 +1,9 @@
 {
 	"id": 121690376,
 	"name": "Cigarette Ahegao",
-	"creators": ["Skyyee"],
+	"creators": [
+		"Skyyee"
+	],
 	"verifier": "Zyxo",
 	"verification": "https://youtu.be/OFc_wIe5msU",
 	"percentToQualify": 65,
@@ -9,5 +11,13 @@
 	"difficulty": 6,
 	"song": "Penelope Scott - Cigarette Ahegao",
 	"songLink": "https://drive.google.com/file/d/1e3sZDBxjYFRXkHW-jqw12vYDRYGpky05/view?usp=sharing",
-	"records": []
+	"records": [
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/UbrK8l_hs5c",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 1
+		}
+	]
 }
