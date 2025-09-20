@@ -1,47 +1,54 @@
 {
-  "id": 110420852,
-  "name": "Alfredos Revenge",
-  "creators": [
-	"Iza"
-  ],
-  "verifier": "NiXaNTy",
-  "verification": "https://youtu.be/scYKnBAhOSU",
-  "percentToQualify": 59,
-  "song": "Fleetwire - Cerebral Cobweb",
-  "songLink": "https://drive.google.com/file/d/1LgZvUEREtHu6THxbQ_sqQ1boCDhPtDkS/view?usp=drive_link",
-  "difficulty": 6,
-  "records": [
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/CNK3IcGqmqs?si=MyIAZuQBBE_HFOrf",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=pyOWcpU_jB0",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 4
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	}
-  ]
+	"id": 110420852,
+	"name": "Alfredos Revenge",
+	"creators": [
+		"Iza"
+	],
+	"verifier": "NiXaNTy",
+	"verification": "https://youtu.be/scYKnBAhOSU",
+	"percentToQualify": 59,
+	"song": "Fleetwire - Cerebral Cobweb",
+	"songLink": "https://drive.google.com/file/d/1LgZvUEREtHu6THxbQ_sqQ1boCDhPtDkS/view?usp=drive_link",
+	"difficulty": 6,
+	"records": [
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/CNK3IcGqmqs?si=MyIAZuQBBE_HFOrf",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://www.youtube.com/watch?v=D9xmPSlX7h8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=pyOWcpU_jB0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		},
+		{
+			"user": "Riley",
+			"link": "https://youtu.be/9Q9P2-ZwjrE?si=WdWeqAukKfhEQ1gK",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "nykolol",
+			"link": "https://youtu.be/fx_Fn-fogvg",
+			"percent": 100,
+			"hz": 1000,
+			"enjoyment": 9
+		}
+	]
 }
