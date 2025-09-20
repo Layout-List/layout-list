@@ -108,6 +108,13 @@
 			"hz": 120,
 			"enjoyment": 7,
 			"mobile": true
+		},
+		{
+			"user": "KingFloppa",
+			"link": "https://youtu.be/Iw-FvIrs8jQ?si=FQDIWozlIZQ4Z-4N",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }
