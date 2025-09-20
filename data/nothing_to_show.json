@@ -1,7 +1,9 @@
 {
 	"id": 123914516,
 	"name": "nothing to show",
-	"creators": ["iamfinley"],
+	"creators": [
+		"iamfinley"
+	],
 	"verifier": "nykolol",
 	"verification": "https://youtu.be/u5R4943BfMY",
 	"percentToQualify": 57,
@@ -10,5 +12,13 @@
 	"song": "nothing to show - aidn.",
 	"songLink": "https://drive.google.com/file/d/1ByAEuCSAicHCE9__fqg4IPFyaG850mZp/view?usp=sharing",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/RX7o53k_6Ro",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
