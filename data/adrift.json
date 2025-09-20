@@ -41,6 +41,13 @@
 			"hz": 60,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "Gobryuel",
+			"link": "https://youtu.be/sKCNth8jmy4",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
 		}
 	]
 }
