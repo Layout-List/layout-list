@@ -1,0 +1,93 @@
+{
+	"id": 95591084,
+	"name": "hollywood baby",
+	"creators": [
+		"monthmai",
+		"zDark"
+	],
+	"verifier": "monthmai",
+	"verification": "https://youtu.be/b21VpqBTnPk?si=pm1P-uVkwjnZtC62",
+	"percentToQualify": 57,
+	"password": "679541",
+	"song": "100 gecs - Hollywood Baby",
+	"songLink": "https://www.mediafire.com/file/3mynwrqbredh1og/463664.mp3/file",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "jz5",
+			"link": "https://youtu.be/Z25PbQ3yf5g",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/Kahj5ss_eKA",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=LyfEn1RTOOo",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/S87rAj6Lvg8?si=rK9H-SKqt66RNYCJ",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/7IxIlxFco60",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/I0EvleuglEc?si=vgO-BrChELtO0COu",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "peanutcoolguy",
+			"link": "https://youtu.be/_7H_kOcIs7g",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/GSAhn3pu3vU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/s6TBVWr1L5U",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
+		}
+	]
+}
