@@ -1,0 +1,119 @@
+{
+	"id": 97106827,
+	"name": "money so big",
+	"creators": [
+		"monthmai"
+	],
+	"verifier": "monthmai",
+	"verification": "https://youtu.be/vyywOpRZ78c?si=9BP4x9dbbx1_clar",
+	"percentToQualify": 100,
+	"song": "Yeat - Monëy so big",
+	"songLink": "https://www.mediafire.com/file/4peegf09t09eqwu/1135824.mp3/file",
+	"difficulty": 1,
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/q483IeAQXu0?si=2n-x2JHy8GUevSKr",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
+		},
+		{
+			"user": "Xeronius",
+			"link": "https://youtu.be/MSDSBbS7Tqg",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "DeleteNine",
+			"link": "https://www.youtube.com/watch?v=JmobCvdHSs4",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Popples",
+			"link": "https://www.youtube.com/watch?v=n4-yIDRtQhA",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false
+		},
+		{
+			"user": "LimeDub",
+			"link": "https://www.youtube.com/watch?v=vjund4DVAyU",
+			"percent": 100,
+			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/lfh_U1D8X-Q",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/3rLAoICX3B0",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://www.youtube.com/watch?v=UYD6Ons90v4",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
+		},
+		{
+			"user": "evil++!",
+			"link": "https://youtu.be/8Is0KGkKj7M",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "Alvaneder",
+			"link": "https://www.youtube.com/watch?v=Da7iFmdsKrA&feature=youtu.be",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=Yv7b6NKd14I&t=1815s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/eFi257dm54o?si=mzPcBCtsAiNkyTFL",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://www.youtube.com/watch?v=4yg6BMwRCcs",
+			"percent": 100,
+			"hz": 120
+		},
+		{
+			"user": "robotic",
+			"link": "https://youtu.be/gPiInGlHGXs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
+}
