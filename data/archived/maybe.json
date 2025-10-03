@@ -1,0 +1,29 @@
+{
+	"id": 114612969,
+	"name": "maybe",
+	"creators": [
+		"monthmai"
+	],
+	"verifier": "monthmai",
+	"verification": "https://youtu.be/E4Lk5I1RIug",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 4,
+	"song": "jaydes - entry 4 + 5",
+	"songLink": "https://drive.google.com/file/d/1J_lMBc3lWK_f2ikM9fcMzJXnpLxufgeS/view?usp=sharing",
+	"records": [
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/VZCS2_t79-E",
+			"percent": 100,
+			"hz": 240
+		},
+		{
+			"user": "Infinera",
+			"link": "https://www.youtube.com/watch?v=5Wk0H6Qhl2k",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
+}
