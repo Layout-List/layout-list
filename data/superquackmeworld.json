@@ -156,6 +156,13 @@
 			"percent": 100,
 			"hz": 120,
 			"enjoyment": 9
+		},
+		{
+			"user": "dudemanbro",
+			"link": "https://youtu.be/FqKiTDQavqs",
+			"percent": 100,
+			"hz": 200,
+			"enjoyment": 8
 		}
 	]
 }
