@@ -1,105 +1,112 @@
 {
-  "id": 107691282,
-  "name": "HuangQuan",
-  "creators": [
-	"Snips"
-  ],
-  "verifier": "zDark",
-  "verification": "https://youtu.be/PtKpZeAH71w",
-  "showcase": "https://youtu.be/QoCItbZ3xCs",
-  "percentToQualify": 55,
-  "song": "Influx - 黄泉",
-  "songLink": "https://www.mediafire.com/file/txa5j1p30qr6nur/581117.mp3/file",
-  "difficulty": 8,
-  "enjoyment": 8,
-  "records": [
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/mhdNgdtWOM0",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "TurtleER",
-	  "link": "https://www.youtube.com/watch?v=8HcntjIeAlk&ab_channel=TurtleER",
-	  "percent": 100,
-	  "hz": 300,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://youtu.be/ogfsaT_vB-A",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/7KHNBGmOzPs?si=3Yp0pNT4WaZJerag",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Robotic",
-	  "link": "https://www.youtube.com/watch?v=wg33DV3Up90",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "snips",
-	  "link": "https://youtu.be/GJZdXx_bErU?si=BifkbrbdLpH35F9n",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 7
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://www.youtube.com/watch?v=wG8ytTBK8mQ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 0
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://www.youtube.com/watch?v=Ur3mUpBz0cI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 0
-	},
-	{
-	  "user": "hjog",
-	  "link": "https://www.youtube.com/watch?v=TLLYCuupY8Y",
-	  "percent": 100,
-	  "hz": 480,
-	  "mobile": false,
-	  "enjoyment": 5
-	},
-	{
-	  "user": "Spaace",
-	  "link": "https://www.youtube.com/watch?v=M1DuQ3wdoXo",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 9
-	},
-	{
-	  "user": "Acacia",
-	  "link": "https://www.youtube.com/watch?v=dcWX0m0vfTI",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 1
-	}
-  ]
+	"id": 107691282,
+	"name": "HuangQuan",
+	"creators": [
+		"Snips"
+	],
+	"verifier": "zDark",
+	"verification": "https://youtu.be/PtKpZeAH71w",
+	"showcase": "https://youtu.be/QoCItbZ3xCs",
+	"percentToQualify": 55,
+	"song": "Influx - 黄泉",
+	"songLink": "https://www.mediafire.com/file/txa5j1p30qr6nur/581117.mp3/file",
+	"difficulty": 8,
+	"enjoyment": 8,
+	"records": [
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/mhdNgdtWOM0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "TurtleER",
+			"link": "https://www.youtube.com/watch?v=8HcntjIeAlk&ab_channel=TurtleER",
+			"percent": 100,
+			"hz": 300,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://youtu.be/ogfsaT_vB-A",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/7KHNBGmOzPs?si=3Yp0pNT4WaZJerag",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Robotic",
+			"link": "https://www.youtube.com/watch?v=wg33DV3Up90",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "snips",
+			"link": "https://youtu.be/GJZdXx_bErU?si=BifkbrbdLpH35F9n",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Riley",
+			"link": "https://www.youtube.com/watch?v=wG8ytTBK8mQ",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 0
+		},
+		{
+			"user": "attrixia",
+			"link": "https://www.youtube.com/watch?v=Ur3mUpBz0cI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
+		},
+		{
+			"user": "hjog",
+			"link": "https://www.youtube.com/watch?v=TLLYCuupY8Y",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "Spaace",
+			"link": "https://www.youtube.com/watch?v=M1DuQ3wdoXo",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Acacia",
+			"link": "https://www.youtube.com/watch?v=dcWX0m0vfTI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/FqKiTDQavqs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 0
+		}
+	]
 }
