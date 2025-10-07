@@ -1,31 +1,39 @@
 {
-  "id": 110379634,
-  "name": "Checkpoint",
-  "creators": [
-	"Zetrax"
-  ],
-  "verifier": "Zetrax",
-  "verification": "https://youtu.be/n8-oejhFR50",
-  "percentToQualify": 63,
-  "song": "Douglas Holmquist - Part 5",
-  "songLink": "https://www.mediafire.com/file/6wqm4izsfnlm33h/6037043.mp3/file",
-  "difficulty": 6,
-  "records": [
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=9cX3WYlM0WA",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 3
-	}
-  ]
+	"id": 110379634,
+	"name": "Checkpoint",
+	"creators": [
+		"Zetrax"
+	],
+	"verifier": "Zetrax",
+	"verification": "https://youtu.be/n8-oejhFR50",
+	"percentToQualify": 63,
+	"song": "Douglas Holmquist - Part 5",
+	"songLink": "https://www.mediafire.com/file/6wqm4izsfnlm33h/6037043.mp3/file",
+	"difficulty": 6,
+	"records": [
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=9cX3WYlM0WA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/dbJCrlEGSIY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
+		}
+	]
 }

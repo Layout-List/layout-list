@@ -1,45 +1,53 @@
 {
-  "id": 85857339,
-  "name": "The Enchanting",
-  "creators": [
-	"Flare"
-  ],
-  "verifier": "Dom_Luca",
-  "verification": "https://www.youtube.com/watch?v=BtAXce_yUWE",
-  "showcase": "https://youtu.be/Gj6h7cDZkjw?feature=shared",
-  "percentToQualify": 45,
-  "song": "Djjaner - The Hallucination",
-  "difficulty": 6,
-  "records": [
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/q9meU1zYX_I",
-	  "percent": 100,
-	  "hz": 144,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/39Y1UvJ4tuw",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Syrcx",
-	  "link": "https://www.youtube.com/watch?v=6uGpHeh80Uw",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "Riley",
-	  "link": "https://www.youtube.com/watch?v=4c9ST8oG4do",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 2
-	}
-  ]
+	"id": 85857339,
+	"name": "The Enchanting",
+	"creators": [
+		"Flare"
+	],
+	"verifier": "Dom_Luca",
+	"verification": "https://www.youtube.com/watch?v=BtAXce_yUWE",
+	"showcase": "https://youtu.be/Gj6h7cDZkjw?feature=shared",
+	"percentToQualify": 45,
+	"song": "Djjaner - The Hallucination",
+	"difficulty": 6,
+	"records": [
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/q9meU1zYX_I",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/39Y1UvJ4tuw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=6uGpHeh80Uw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Riley",
+			"link": "https://www.youtube.com/watch?v=4c9ST8oG4do",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/dbJCrlEGSIY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		}
+	]
 }
