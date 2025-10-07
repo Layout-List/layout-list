@@ -331,10 +331,11 @@
 		},
 		{
 			"user": "Mathwizz1209",
-			"link": "https://youtu.be/ve1SUfDhUKQ",
+			"link": "https://youtu.be/6piFkiMaR0s",
 			"percent": 100,
 			"hz": 120,
-			"enjoyment": 4
+			"mobile": false,
+			"enjoyment": 3
 		}
 	]
 }
