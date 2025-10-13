@@ -1,6 +1,6 @@
 # Welcome to the Layout List website repo!
 
-Obviously this list is a fork of the TSL template by Prometheus, but with many added features, like packs and a search bar.
+This website is a fork of the TSL template by Prometheus, but with many added features, like packs and a search bar.
 The extra features were developed by sphericle and Mystikl. Please let us know if you have a feature idea or bug report!
 You are free to fork this template to host your own list, we just ask that you remove the Layout List name and logo.  
 
