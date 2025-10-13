@@ -24,11 +24,11 @@ Can I submit multiple levels in one video?
 
 ---
 
-## List Admins:
+## List Leaders:
 
 * Evil
 * Hydraniac
-* Sphericle
+* sphericle
 
 
 ---
@@ -45,6 +45,6 @@ Can I submit multiple levels in one video?
 
 ## List Developers:
 
-* Sphericle
+* sphericle
 
 
