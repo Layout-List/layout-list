@@ -943,5 +943,14 @@
 		"from_rank": null,
 		"above": "barbarian",
 		"below": "take_me_away"
+	},
+	{
+		"date": 1760473611,
+		"action": "placed",
+		"name": "atomic_bomb",
+		"to_rank": 34,
+		"from_rank": null,
+		"above": "obsidian_aspect",
+		"below": "cruelty_of_hope"
 	}
 ]
