@@ -952,5 +952,14 @@
 		"from_rank": null,
 		"above": "obsidian_aspect",
 		"below": "cruelty_of_hope"
+	},
+	{
+		"date": 1760473899,
+		"action": "lowered",
+		"name": "reflections",
+		"to_rank": 61,
+		"from_rank": 57,
+		"above": "money_machine",
+		"below": "cure"
 	}
 ]
