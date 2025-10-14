@@ -934,5 +934,14 @@
 		"from_rank": null,
 		"above": "m87",
 		"below": "geek_bar_pulse"
+	},
+	{
+		"date": 1760473374,
+		"action": "placed",
+		"name": "anor_londo",
+		"to_rank": 67,
+		"from_rank": null,
+		"above": "barbarian",
+		"below": "take_me_away"
 	}
 ]
