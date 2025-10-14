@@ -961,5 +961,14 @@
 		"from_rank": 57,
 		"above": "money_machine",
 		"below": "cure"
+	},
+	{
+		"date": 1760474109,
+		"action": "placed",
+		"name": "suffocation",
+		"to_rank": 10,
+		"from_rank": null,
+		"above": "huang_quan",
+		"below": "go_beyond_nerf"
 	}
 ]
