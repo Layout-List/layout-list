@@ -970,5 +970,14 @@
 		"from_rank": null,
 		"above": "huang_quan",
 		"below": "go_beyond_nerf"
+	},
+	{
+		"date": 1760474176,
+		"action": "placed",
+		"name": "abyss_angel",
+		"to_rank": 9,
+		"from_rank": null,
+		"above": "suffocation",
+		"below": "ochi_moi"
 	}
 ]
