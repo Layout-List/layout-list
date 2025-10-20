@@ -201,6 +201,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "Mathwizz1209",
+			"link": "https://youtu.be/bmltKEJ5BGY",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }
