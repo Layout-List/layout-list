@@ -252,6 +252,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "oganesson",
+			"link": "https://youtu.be/sOKbI1Q0lgc?si=uqQkwi3X1br1H-Pl",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
 		}
 	]
 }
