@@ -979,5 +979,14 @@
 		"from_rank": null,
 		"above": "suffocation",
 		"below": "ochi_moi"
+	},
+	{
+		"date": 1762005454,
+		"action": "placed",
+		"name": "turn_the_lights_off",
+		"to_rank": 196,
+		"from_rank": null,
+		"above": "midnight",
+		"below": "my_eyes"
 	}
 ]
