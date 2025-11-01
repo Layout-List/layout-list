@@ -988,5 +988,14 @@
 		"from_rank": null,
 		"above": "midnight",
 		"below": "my_eyes"
+	},
+	{
+		"date": 1762005591,
+		"action": "placed",
+		"name": "gizmo_juncture",
+		"to_rank": 151,
+		"from_rank": null,
+		"above": "influx",
+		"below": "bomb_the_rave"
 	}
 ]
