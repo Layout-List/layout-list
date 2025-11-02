@@ -1340,6 +1340,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "atomic.",
+			"link": "https://youtu.be/misB-0w9TyA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
 		}
 	]
 }
