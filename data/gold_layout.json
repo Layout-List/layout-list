@@ -142,6 +142,13 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 9
+		},
+		{
+			"user": "Apple2727",
+			"link": "https://www.youtube.com/watch?v=TBwUJ-Mbrb8",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 7
 		}
 	]
 }
