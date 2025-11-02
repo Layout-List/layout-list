@@ -91,6 +91,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 9
+		},
+		{
+			"user": "blysteryx",
+			"link": "https://www.youtube.com/watch?v=LnvTsJaytLY",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 4
 		}
 	]
 }

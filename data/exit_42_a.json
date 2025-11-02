@@ -39,6 +39,14 @@
 			"link": "https://youtu.be/elVWhGJV0Y8?si=gw-Qh2p2ijI8ISvS",
 			"percent": 100,
 			"hz": 240
+		},
+		{
+			"user": "blysteryx",
+			"link": "https://www.youtube.com/watch?v=LnvTsJaytLY",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 6
 		}
 	]
 }
