@@ -70,6 +70,13 @@
 			"percent": 100,
 			"hz": 144,
 			"enjoyment": 9
+		},
+		{
+			"user": "deletenine",
+			"link": "https://youtu.be/Edh95JmRctM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

@@ -1,12 +1,23 @@
 {
 	"id": 117198518,
 	"name": "Lemniscate",
-	"creators": ["/Swan","Arcerus"],
+	"creators": [
+		"/Swan",
+		"Arcerus"
+	],
 	"verifier": "/Swan",
 	"verification": "https://youtu.be/PsXe8GbtMUw?si=WIJ_L0845YxVFDay",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 5,
 	"song": "Camellia - Newspapers for Magicians",
-	"records": []
+	"records": [
+		{
+			"user": "deletenine",
+			"link": "https://youtu.be/Edh95JmRctM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		}
+	]
 }

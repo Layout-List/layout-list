@@ -11,6 +11,14 @@
 	"difficulty": 4,
 	"song": "Metro Boomin, Don Toliver - Too Many Nights",
 	"songLink": "https://drive.google.com/file/d/1oQRYAqsHlcpJ-72aQgd6MIrH6aWxDGSW/view?usp=sharing",
-	"records": [],
+	"records": [
+		{
+			"user": "deletenine",
+			"link": "https://youtu.be/Edh95JmRctM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		}
+	],
 	"enjoyment": 6
 }

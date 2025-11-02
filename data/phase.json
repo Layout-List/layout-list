@@ -1,78 +1,85 @@
 {
-  "id": 79185862,
-  "name": "phase",
-  "creators": [
-	"ShimzyZE",
-	"Flare"
-  ],
-  "verifier": "ShimzyZE",
-  "verification": "https://youtu.be/XTLBQxJ0ETo",
-  "showcase": "https://www.youtube.com/watch?v=suNd61TAHkE",
-  "percentToQualify": 55,
-  "song": "csx42 - Detonate",
-  "difficulty": 5,
-  "records": [
-	{
-	  "user": "CaioMD",
-	  "link": "https://youtu.be/QwYL46a0y8M",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Armani",
-	  "link": "https://youtu.be/RWmdbAvk_CI",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "Dom_Luca",
-	  "link": "https://youtu.be/FNPTcNzszDo",
-	  "percent": 100,
-	  "hz": 360
-	},
-	{
-	  "user": "mrperson",
-	  "link": "https://youtu.be/yhY44kyultQ",
-	  "percent": 100,
-	  "hz": 144
-	},
-	{
-	  "user": "Mystikl",
-	  "link": "https://youtu.be/yGNHIZMwQnQ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "zDark",
-	  "link": "https://youtu.be/do07LTfK2OQ",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false
-	},
-	{
-	  "user": "Hyperbeat",
-	  "link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
-	  "percent": 100,
-	  "hz": 360,
-	  "mobile": false,
-	  "enjoyment": 8
-	},
-	{
-	  "user": "riley",
-	  "link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 2
-	},
-	{
-	  "user": "attrixia",
-	  "link": "https://youtu.be/GSAhn3pu3vU",
-	  "percent": 100,
-	  "hz": 240,
-	  "mobile": false,
-	  "enjoyment": 5
-	}
-  ]
+	"id": 79185862,
+	"name": "phase",
+	"creators": [
+		"ShimzyZE",
+		"Flare"
+	],
+	"verifier": "ShimzyZE",
+	"verification": "https://youtu.be/XTLBQxJ0ETo",
+	"showcase": "https://www.youtube.com/watch?v=suNd61TAHkE",
+	"percentToQualify": 55,
+	"song": "csx42 - Detonate",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "CaioMD",
+			"link": "https://youtu.be/QwYL46a0y8M",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/RWmdbAvk_CI",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://youtu.be/FNPTcNzszDo",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/yhY44kyultQ",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/yGNHIZMwQnQ",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/do07LTfK2OQ",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/lDO2s5OaT-A?si=-sSe908avg2LaWQ5",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/GSAhn3pu3vU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
+		},
+		{
+			"user": "deletenine",
+			"link": "https://youtu.be/Edh95JmRctM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		}
+	]
 }
