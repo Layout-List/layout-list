@@ -1,7 +1,9 @@
 {
 	"id": 126378547,
 	"name": "Deep Dive",
-	"creators": ["Screendoe"],
+	"creators": [
+		"Screendoe"
+	],
 	"verifier": "Bizdogg",
 	"verification": "https://www.youtube.com/watch?v=3woNRlKRHNw",
 	"percentToQualify": 100,
@@ -9,5 +11,12 @@
 	"difficulty": 2,
 	"song": "Creo - Deep Dive",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "Squidkid72",
+			"link": "https://medal.tv/games/geometry-dash/clips/lbndQVgMc5iNYuOH0?invite=cr-MSxEVHMsMjAxNjg2NTgw&v=89",
+			"percent": 100,
+			"hz": 240
+		}
+	]
 }
