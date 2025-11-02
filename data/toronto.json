@@ -227,6 +227,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "GrumpBoat",
+			"link": "https://youtu.be/aJ-DkLpng2E",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
