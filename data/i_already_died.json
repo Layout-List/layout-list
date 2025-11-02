@@ -1,7 +1,9 @@
 {
 	"id": 125738463,
 	"name": "i already died",
-	"creators": ["Jolly"],
+	"creators": [
+		"Jolly"
+	],
 	"verifier": "Jolly",
 	"verification": "https://youtu.be/WI0aQl9R-9s?si=uspPV1_eom0-A0iy",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 1,
 	"song": "wifiskeleton - Nope your too late i already died",
 	"songLink": "https://drive.google.com/file/d/117-dNlvqvnJuyUBzGwymlV6a0LNgBwGn/view?usp=sharing",
-	"records": []
+	"records": [
+		{
+			"user": "zyxo",
+			"link": "https://www.youtube.com/watch?v=sHC4h2DQ-zQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
 }
