@@ -168,6 +168,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 7
+		},
+		{
+			"user": "oganesson",
+			"link": "https://youtu.be/NbQrnGjeH0E?si=XwTjGmvWnXOOQSTf",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
 		}
 	]
 }
