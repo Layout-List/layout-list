@@ -229,6 +229,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "GOOB",
+			"link": "https://www.youtube.com/watch?v=AwjKbuCFx_Q",
+			"percent": 100,
+			"hz": 4000,
+			"enjoyment": 9
 		}
 	]
 }
