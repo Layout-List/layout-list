@@ -498,6 +498,14 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "Sigma gd",
+			"link": "https://youtu.be/Jtmn2yDedQ8?si=h9iAPMHR9BukPOmB",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }
