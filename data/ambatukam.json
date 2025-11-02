@@ -104,6 +104,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "pixel",
+			"link": "https://youtu.be/J20jWQls9eU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
