@@ -333,7 +333,6 @@ export default {
             completedOnSubmit.name = this.loggedIn
             const compressed = compressData(JSON.stringify(completedOnSubmit))
             const link = this.formUrl + `&entry.873982318=Yes&entry.82893587=${encodeURIComponent(compressed)}`
-            await copyURL(link);
             localStorage.setItem("last_submission_link", link)
             this.shouldRefreshLastSubmitted = true;
             window.open(link, '_blank');
