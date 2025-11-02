@@ -171,6 +171,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "Gobryuel",
+			"link": "https://youtu.be/XxsHsKMoWkY",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 9
 		}
 	]
 }
