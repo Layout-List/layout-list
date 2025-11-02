@@ -72,6 +72,13 @@
 			"hz": 60,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "GrumpBoat",
+			"link": "https://www.twitch.tv/videos/2601616089",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
 		}
 	]
 }
