@@ -1,7 +1,9 @@
 {
 	"id": 126660270,
 	"name": "jort storm",
-	"creators": ["Hyperbeat"],
+	"creators": [
+		"Hyperbeat"
+	],
 	"verifier": "Hyperbeat",
 	"verification": "https://youtu.be/1xG7-nK41rY",
 	"percentToQualify": 100,
@@ -10,5 +12,14 @@
 	"song": "glaive - We Don't Leave The House",
 	"songLink": "https://drive.google.com/file/d/1NK8gx9430gQ8D499gnG61u1VPCzC4iLa/view?usp=drive_link",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "zyxo",
+			"link": "https://youtu.be/UJ4m2bxu1DA?si=rWJ62CYmTVuKXWlu",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 9
+		}
+	]
 }
