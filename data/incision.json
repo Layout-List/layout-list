@@ -148,6 +148,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "Snake",
+			"link": "https://youtu.be/3eXw_NGzTyg",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 0
 		}
 	]
 }
