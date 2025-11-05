@@ -1033,5 +1033,14 @@
 		"from_rank": null,
 		"above": "titanium",
 		"below": "obsidian_aspect"
+	},
+	{
+		"date": 1762359666,
+		"action": "lowered",
+		"name": "yoasobi",
+		"to_rank": 172,
+		"from_rank": 87,
+		"above": "pulsing_balls_ex",
+		"below": "sparks__of__heaven"
 	}
 ]
