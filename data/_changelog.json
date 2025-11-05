@@ -1024,5 +1024,14 @@
 		"from_rank": null,
 		"above": "atmosphere",
 		"below": "superquackmeworld"
+	},
+	{
+		"date": 1762316191,
+		"action": "placed",
+		"name": "ultracrimson",
+		"to_rank": 39,
+		"from_rank": null,
+		"above": "titanium",
+		"below": "obsidian_aspect"
 	}
 ]
