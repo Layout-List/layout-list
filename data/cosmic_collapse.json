@@ -1,21 +1,28 @@
 {
-  "id": 112486877,
-  "name": "Cosmic Collapse",
-  "creators": [
-	"sn0w",
-	"LimeDub",
-	"fusemax",
-	"Blueberry",
-	"rastuyas",
-	"zWren",
-	"Hydraniac"
-  ],
-  "verifier": "sn0w",
-  "verification": "https://youtu.be/afMlvhqLBGE?si=S7b1GGl2pn_lFP14",
-  "percentToQualify": 53,
-  "song": "DM DOKURO - Devourer of Gods (Nonstop Mix)",
-  "songLink": "https://drive.google.com/file/d/18n72p7Q2V26MbuX6ZQBCOy4hXLUV0OHT/view?usp=sharing",
-  "difficulty": 7,
-  "enjoyment": 10,
-  "records": []
+	"id": 112486877,
+	"name": "Cosmic Collapse",
+	"creators": [
+		"sn0w",
+		"LimeDub",
+		"fusemax",
+		"Blueberry",
+		"rastuyas",
+		"zWren",
+		"Hydraniac"
+	],
+	"verifier": "sn0w",
+	"verification": "https://youtu.be/afMlvhqLBGE?si=S7b1GGl2pn_lFP14",
+	"percentToQualify": 53,
+	"song": "DM DOKURO - Devourer of Gods (Nonstop Mix)",
+	"songLink": "https://drive.google.com/file/d/18n72p7Q2V26MbuX6ZQBCOy4hXLUV0OHT/view?usp=sharing",
+	"difficulty": 7,
+	"enjoyment": 10,
+	"records": [
+		{
+			"user": "Snake",
+			"link": "https://medal.tv/games/geometry-dash/clips/lshiQQDM8sTgK0mCb?invite=cr-MSxVSncsMjc0Njc5Nzgx&v=163",
+			"percent": 100,
+			"hz": 240
+		}
+	]
 }
