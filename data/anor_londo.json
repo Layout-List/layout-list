@@ -1,7 +1,9 @@
 {
 	"id": 126289416,
 	"name": "Anor Londo",
-	"creators": ["Popples"],
+	"creators": [
+		"Popples"
+	],
 	"verifier": "Popples",
 	"verification": "https://youtu.be/gg7Mb4FTmos",
 	"percentToQualify": 100,
@@ -9,5 +11,13 @@
 	"difficulty": 5,
 	"song": "Camellia - for the DELTA",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "Snake",
+			"link": "https://medal.tv/games/geometry-dash/clips/lt85LwmgonULK1Gsz?invite=cr-MSxyMWYsMjc0Njc5Nzgx&v=74",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
