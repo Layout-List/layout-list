@@ -1,7 +1,9 @@
 {
 	"id": 126593005,
 	"name": "atomic bomb",
-	"creators": ["pivithasnolife"],
+	"creators": [
+		"pivithasnolife"
+	],
 	"verifier": "Riley",
 	"verification": "https://www.youtube.com/watch?v=6-kB33t1ICk",
 	"percentToQualify": 60,
@@ -9,5 +11,13 @@
 	"difficulty": 7,
 	"song": "dj Nate - Intercept 2",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/ZaSNt-C0dUc",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
