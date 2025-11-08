@@ -1,7 +1,10 @@
 {
 	"id": 117153838,
 	"name": "doller menu",
-	"creators": ["simplyz119","hardhat900"],
+	"creators": [
+		"simplyz119",
+		"hardhat900"
+	],
 	"verifier": "hardhat900",
 	"verification": "https://youtu.be/KvB9jQDjncI",
 	"percentToQualify": 100,
@@ -10,5 +13,13 @@
 	"song": "quarter inch - ANDRS",
 	"songLink": "https://drive.google.com/file/d/1JvCYWOSUXVxzw1NwGKnF2VtkaFtTNwYW/view?usp=sharing",
 	"enjoyment": 8,
-	"records": []
+	"records": [
+		{
+			"user": "crystl",
+			"link": "https://youtu.be/26BctLrHBio",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
