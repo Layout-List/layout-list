@@ -526,6 +526,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "GamRee94",
+			"link": "https://youtu.be/4BmfjKBhvsk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
