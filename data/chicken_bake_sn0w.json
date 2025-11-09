@@ -180,6 +180,13 @@
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "Snake",
+			"link": "https://medal.tv/games/geometry-dash/clips/ltwJTTU8UIEpApfam?invite=cr-MSw2WVYsMjc0Njc5Nzgx&v=84",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
