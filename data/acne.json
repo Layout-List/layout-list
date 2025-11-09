@@ -137,6 +137,14 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 6
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/miZaaQfH5AI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
 		}
 	]
 }

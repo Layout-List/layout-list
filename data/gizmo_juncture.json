@@ -1,7 +1,9 @@
 {
 	"id": 127171263,
 	"name": "Gizmo Juncture",
-	"creators": ["Infinera"],
+	"creators": [
+		"Infinera"
+	],
 	"verifier": "Infinera",
 	"verification": "https://www.youtube.com/watch?v=rUigqGJkAYM",
 	"percentToQualify": 100,
@@ -9,5 +11,14 @@
 	"difficulty": 4,
 	"song": "Waterflame - -Time Machine-",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/miZaaQfH5AI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		}
+	]
 }
