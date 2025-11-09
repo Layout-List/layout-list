@@ -18,6 +18,13 @@
 	"enjoyment": 7,
 	"records": [
 		{
+			"user": "evil++!",
+			"link": "https://youtu.be/RiUAwfWpcFY?si=jhudkeHLLTpD36p3",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
 			"user": "sn0w",
 			"link": "https://youtu.be/Nkw9V5n_-_c",
 			"percent": 100,
@@ -45,13 +52,6 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
-		},
-		{
-			"user": "evil++!",
-			"link": "https://youtu.be/RiUAwfWpcFY?si=jhudkeHLLTpD36p3",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 7
 		},
 		{
 			"user": "Popples",
