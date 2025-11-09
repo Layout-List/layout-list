@@ -89,6 +89,13 @@
 			"percent": 100,
 			"hz": 1000,
 			"enjoyment": 8
+		},
+		{
+			"user": "Snake",
+			"link": "https://medal.tv/games/geometry-dash/clips/ltvBk1GJyIMe00wvb?invite=cr-MSxlUDIsMjc0Njc5Nzgx&v=101",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
 		}
 	]
 }
