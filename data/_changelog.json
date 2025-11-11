@@ -1051,5 +1051,14 @@
 		"from_rank": 245,
 		"above": "ikea",
 		"below": "bliss"
+	},
+	{
+		"date": 1762824004,
+		"action": "raised",
+		"name": "cosmic_collapse",
+		"to_rank": 29,
+		"from_rank": 40,
+		"above": "blade_of_faith",
+		"below": "exosphere"
 	}
 ]
