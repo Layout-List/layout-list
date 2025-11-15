@@ -185,6 +185,13 @@
 			"percent": 100,
 			"hz": 1000,
 			"enjoyment": 7
+		},
+		{
+			"user": "crystl",
+			"link": "https://youtu.be/ADKQn-HT5B0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
 		}
 	]
 }
