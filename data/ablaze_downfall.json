@@ -65,6 +65,13 @@
 			"percent": 100,
 			"hz": 1000,
 			"enjoyment": 10
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/gmp6ROkRUCE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }
