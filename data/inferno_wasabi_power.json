@@ -193,6 +193,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "Haimdavid8888",
+			"link": "https://youtu.be/MEPC_ppi_WY?si=oYu6TIFj6ZfGnxfP",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 9
 		}
 	]
 }
