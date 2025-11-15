@@ -869,6 +869,14 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 6
+		},
+		{
+			"user": "FJKR",
+			"link": "https://www.youtube.com/watch?v=qFa3FOb_39w&t=3s",
+			"percent": 100,
+			"hz": 200,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
