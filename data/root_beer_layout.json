@@ -1006,11 +1006,12 @@
 			"mobile": false
 		},
 		{
-			"user": "eldin1eon",
-			"link": "https://youtu.be/vOCx3B67izo?si=5Ty1kVCvwvZdWuFv",
+			"user": "FJKR",
+			"link": "https://youtu.be/i_Y1zyzHvn8",
 			"percent": 100,
-			"hz": 60,
-			"mobile": false
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }

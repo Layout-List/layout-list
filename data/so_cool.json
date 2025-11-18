@@ -1594,11 +1594,12 @@
 			"mobile": true
 		},
 		{
-			"user": "hayden",
-			"link": "https://youtu.be/beWpeNOWQhM?si=iZuQp-O0s7jCRRYS",
+			"user": "FJKR",
+			"link": "https://youtu.be/i_Y1zyzHvn8",
 			"percent": 100,
-			"hz": 60,
-			"mobile": true
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
