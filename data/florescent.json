@@ -322,6 +322,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "FJKR",
+			"link": "https://youtu.be/K8GJRlT33VI",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
