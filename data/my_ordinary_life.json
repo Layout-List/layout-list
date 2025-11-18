@@ -456,7 +456,8 @@
 			"link": "https://youtu.be/beWpeNOWQhM?si=iZuQp-O0s7jCRRYS",
 			"percent": 100,
 			"hz": 60,
-			"mobile": true
+			"mobile": true,
+			"enjoyment": 10
 		}
 	]
 }
