@@ -1,7 +1,9 @@
 {
 	"id": 125930991,
 	"name": "ULTRACRIMSON",
-	"creators": ["Hyperbeat"],
+	"creators": [
+		"Hyperbeat"
+	],
 	"verifier": "Hyperbeat",
 	"verification": "https://youtu.be/JJNBCXUHY7Q",
 	"percentToQualify": 54,
@@ -9,5 +11,13 @@
 	"difficulty": 7,
 	"song": "Lucy Bedroque, prettifun - Ultraviolet",
 	"songLink": "https://drive.google.com/file/d/1TojGqMpLshQGNVegBK30FD-ViK-SevpF/view?usp=drivesdk",
-	"records": []
+	"records": [
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/4KMPEvUVwcE",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 10
+		}
+	]
 }
