@@ -473,6 +473,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "eldin1eon",
+			"link": "https://youtu.be/Zlu77B4sBlc?si=NwDBjOey0JalqjkV",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 6
 		}
 	]
 }
