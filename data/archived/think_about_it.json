@@ -1,0 +1,127 @@
+{
+	"id": 81217458,
+	"name": "Think About It",
+	"creators": [
+		"DJJDK"
+	],
+	"verifier": "DJJDK",
+	"verification": "https://youtu.be/sSMhnQtCwSs",
+	"showcase": "https://www.youtube.com/watch?v=CB6_h9O5IJg&ab_channel=LayoutListShowcases",
+	"percentToQualify": 52,
+	"song": "KORAII - think about it 🍷~",
+	"difficulty": 5,
+	"records": [
+		{
+			"user": "Fusion425",
+			"link": "https://youtu.be/MfCs-9Ti80s",
+			"percent": 100,
+			"hz": 288
+		},
+		{
+			"user": "Armani",
+			"link": "https://youtu.be/FX2NMVuZPmM",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Blathers",
+			"link": "https://clips.twitch.tv/RudeHealthyLampTebowing-xfp3hlnNNS8j87dI",
+			"percent": 100,
+			"hz": 288
+		},
+		{
+			"user": "Dom_Luca",
+			"link": "https://www.youtube.com/watch?v=tYnoQd3bI7E",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "mrperson",
+			"link": "https://youtu.be/-cAUU5KoBJQ",
+			"percent": 100,
+			"hz": 144
+		},
+		{
+			"user": "Jab",
+			"link": "https://youtu.be/He2CCTYeYhU",
+			"percent": 100,
+			"hz": 240
+		},
+		{
+			"user": "zDark",
+			"link": "https://youtu.be/sFtTYC02uMo",
+			"percent": 100,
+			"hz": 360
+		},
+		{
+			"user": "Mystikl",
+			"link": "https://youtu.be/C02ZsX0yS7E",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "FluffyCatNeo",
+			"link": "https://www.youtube.com/watch?v=TRz8S7FWs7M",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Plazma",
+			"link": "https://www.youtube.com/watch?v=Xp2FhcBPH7c",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "Syrcx",
+			"link": "https://www.youtube.com/watch?v=SvUwkxD16zk&t=343s",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": "?"
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/UD3BVUPPrc4?si=mZuJ4kxdsM09AXbw",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/tXCRr8x7AvY",
+			"percent": 100,
+			"hz": 120,
+			"mobile": false,
+			"enjoyment": 2
+		},
+		{
+			"user": "riley",
+			"link": "https://www.youtube.com/watch?v=I3KN_geNolQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 0
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/iTHnzg6WOkTAKstHr?invite=cr-MSxiN3QsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 3
+		},
+		{
+			"user": "attrixia",
+			"link": "https://youtu.be/GSAhn3pu3vU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		}
+	],
+	"position": 86
+}
