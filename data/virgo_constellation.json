@@ -299,6 +299,14 @@
 			"link": "https://medal.tv/games/geometry-dash/clips/lu2x8znO0f1mtWmpD?invite=cr-MSxpd1ksNDY2MzcyMTU2&v=68",
 			"percent": 100,
 			"hz": 60
+		},
+		{
+			"user": "gam",
+			"link": "https://www.youtube.com/watch?v=nTK91YYiXAs",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }
