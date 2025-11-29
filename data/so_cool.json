@@ -1600,6 +1600,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "noowilksieBR",
+			"link": "https://m.youtube.com/watch?v=6sLPC-9inqY",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }
