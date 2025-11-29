@@ -1608,6 +1608,14 @@
 			"hz": 60,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "croissant",
+			"link": "https://youtu.be/EaMOcpEvqrg",
+			"percent": 100,
+			"hz": 75,
+			"mobile": false,
+			"enjoyment": 8
 		}
 	]
 }
