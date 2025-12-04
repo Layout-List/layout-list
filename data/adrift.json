@@ -140,6 +140,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Stalker_",
+			"link": "https://www.youtube.com/watch?v=gpJZ3p4A6UE",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
