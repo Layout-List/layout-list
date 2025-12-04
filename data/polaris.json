@@ -570,6 +570,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "haimdavid8888",
+			"link": "https://youtu.be/6jqfc6T0HPk",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 8
 		}
 	]
 }
