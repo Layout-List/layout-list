@@ -102,6 +102,13 @@
 			"hz": 480,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "Apple2727",
+			"link": "https://www.youtube.com/watch?v=8XG2RZmfW9w",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 2
 		}
 	]
 }
