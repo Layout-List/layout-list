@@ -1069,5 +1069,14 @@
 		"from_rank": null,
 		"above": "anyless",
 		"below": "toronto"
+	},
+	{
+		"date": 1764974048,
+		"action": "placed",
+		"name": "medaldottvsucks",
+		"to_rank": 219,
+		"from_rank": null,
+		"above": "00darkside",
+		"below": "ryoiki_tenkai"
 	}
 ]
