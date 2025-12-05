@@ -1060,5 +1060,14 @@
 		"from_rank": 40,
 		"above": "blade_of_faith",
 		"below": "exosphere"
+	},
+	{
+		"date": 1764973964,
+		"action": "placed",
+		"name": "go_crazy_",
+		"to_rank": 424,
+		"from_rank": null,
+		"above": "anyless",
+		"below": "toronto"
 	}
 ]
