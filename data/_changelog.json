@@ -1087,5 +1087,14 @@
 		"from_rank": null,
 		"above": "tails_doll_007",
 		"below": "celestia"
+	},
+	{
+		"date": 1764974311,
+		"action": "placed",
+		"name": "deluge",
+		"to_rank": 15,
+		"from_rank": null,
+		"above": "karma",
+		"below": "absolute_zero"
 	}
 ]
