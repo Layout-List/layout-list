@@ -1,7 +1,9 @@
 {
 	"id": 127835355,
 	"name": "Deluge",
-	"creators": ["EdenGardenia"],
+	"creators": [
+		"EdenGardenia"
+	],
 	"verifier": "EdenGardenia",
 	"verification": "https://youtu.be/FBpjCxyUFIs?si=6K4DHLYKSJPxpkY_",
 	"percentToQualify": 64,
@@ -10,5 +12,13 @@
 	"song": "Interlude 1 - Maudlin of the well",
 	"songLink": "https://drive.google.com/file/d/1RHGCd_i0EkgaCzuCvpXhvKPq8mFj6JO9/view?usp=sharing",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "skeeb",
+			"link": "https://youtu.be/Ks3vbWTI2aA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		}
+	]
 }
