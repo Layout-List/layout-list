@@ -1,7 +1,9 @@
 {
 	"id": 128797847,
 	"name": "MedalDotTVSucks",
-	"creators": ["Screendoe"],
+	"creators": [
+		"Screendoe"
+	],
 	"verifier": "alen",
 	"verification": "https://youtu.be/uJt8JuxWplI?si=lXdCuC5HK7tvWwdJ",
 	"percentToQualify": 100,
@@ -9,5 +11,12 @@
 	"difficulty": 3,
 	"song": "Wander of Thought - F-777",
 	"enjoyment": 8,
-	"records": []
+	"records": [
+		{
+			"user": "Screendoe",
+			"link": "https://medal.tv/games/geometry-dash/clips/lEhRM6gWCXOvGGzkX?invite=cr-MSw0dGcsMjEyMTU0NjM2&v=64",
+			"percent": 100,
+			"hz": 480
+		}
+	]
 }
