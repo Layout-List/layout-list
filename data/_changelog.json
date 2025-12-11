@@ -1096,5 +1096,14 @@
 		"from_rank": null,
 		"above": "karma",
 		"below": "absolute_zero"
+	},
+	{
+		"date": 1765413302,
+		"action": "placed",
+		"name": "stains",
+		"to_rank": 82,
+		"from_rank": null,
+		"above": "astrid",
+		"below": "black_canvas"
 	}
 ]
