@@ -1,7 +1,9 @@
 {
 	"id": 128973388,
 	"name": "It Means Everything",
-	"creators": ["Hydraniac"],
+	"creators": [
+		"Hydraniac"
+	],
 	"verifier": "Infinera",
 	"verification": "https://youtu.be/_DUq6hRQadg?si=8w3C2Z_a6zlZL5UP",
 	"showcase": "https://youtu.be/G97_Ldblc-c?si=T2yPPkmrA2cNsIcv",
@@ -11,5 +13,13 @@
 	"song": "Pedro Silva - It Means Everything.",
 	"songLink": "https://drive.google.com/file/d/1EKZvf1UM0_7Jq7u7-i_AigIjJtpe_NzM/view?usp=sharing",
 	"enjoyment": 10,
-	"records": []
+	"records": [
+		{
+			"user": "evil++!",
+			"link": "https://youtu.be/GIo-XXmZkY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
