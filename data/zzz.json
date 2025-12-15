@@ -893,6 +893,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "Kajzerkabied",
+			"link": "https://www.youtube.com/watch?v=AG68BoMYAvI",
+			"percent": 100,
+			"hz": 2000,
+			"enjoyment": 10
 		}
 	]
 }
