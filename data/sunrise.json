@@ -712,6 +712,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Kajzerkabied",
+			"link": "https://www.youtube.com/watch?v=0A3LQFUhhtk",
+			"percent": 100,
+			"hz": 3000,
+			"enjoyment": 9
 		}
 	]
 }
