@@ -26,6 +26,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "RadiantHun",
+			"link": "https://www.youtube.com/watch?v=gK3xnSyZzbY",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }
