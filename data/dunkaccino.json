@@ -352,6 +352,14 @@
 			"hz": 480,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://youtu.be/2SQPUvZNwE0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }
