@@ -1028,6 +1028,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Xay",
+			"link": "https://youtu.be/cNmJ3RCdOAU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
 		}
 	]
 }
