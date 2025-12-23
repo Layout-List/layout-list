@@ -196,6 +196,13 @@
 			"hz": 60,
 			"enjoyment": 5,
 			"mobile": true
+		},
+		{
+			"user": "Ephyaltes",
+			"link": "https://youtu.be/P1XXgg8vJBg",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
 		}
 	]
 }
