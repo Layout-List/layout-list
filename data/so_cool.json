@@ -1639,6 +1639,14 @@
 			"hz": 60,
 			"enjoyment": 2,
 			"mobile": true
+		},
+		{
+			"user": "aresse",
+			"link": "https://youtu.be/MemPaQWQ-OI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
 		}
 	]
 }
