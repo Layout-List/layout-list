@@ -182,6 +182,14 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 10
+		},
+		{
+			"user": "robotic",
+			"link": "https://www.youtube.com/watch?v=kCaaKAhMYSc",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
 		}
 	]
 }
