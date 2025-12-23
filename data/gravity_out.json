@@ -775,6 +775,13 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true
+		},
+		{
+			"user": "Aresse",
+			"link": "https://youtu.be/q6-oA-d-Cak",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }
