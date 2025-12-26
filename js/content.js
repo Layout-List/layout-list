@@ -623,6 +623,8 @@ export function fetchHighestEnjoyment(list, difficulty) {
         }
     });
 
+    if (!maxLevel) return null;
+
     return ` ${endEnjoyment}/10 (${maxLevel.name})`;
 
 }
@@ -646,6 +648,8 @@ export function fetchLowestEnjoyment(list, difficulty) {
             }
         }
     });
+
+    if (!minLevel) return null;
 
     return ` ${endEnjoyment}/10 (${minLevel.name})`;
 
