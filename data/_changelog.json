@@ -1114,5 +1114,14 @@
 		"from_rank": null,
 		"above": "exit_42_a",
 		"below": "renai"
+	},
+	{
+		"date": 1766868593,
+		"action": "placed",
+		"name": "paper_rings",
+		"to_rank": 398,
+		"from_rank": null,
+		"above": "in_yo_jaws",
+		"below": "cursed_circles_lmao"
 	}
 ]
