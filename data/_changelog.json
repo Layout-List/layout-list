@@ -1105,5 +1105,14 @@
 		"from_rank": null,
 		"above": "astrid",
 		"below": "black_canvas"
+	},
+	{
+		"date": 1766868426,
+		"action": "placed",
+		"name": "apple_cider",
+		"to_rank": 412,
+		"from_rank": null,
+		"above": "exit_42_a",
+		"below": "renai"
 	}
 ]
