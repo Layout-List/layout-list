@@ -35,10 +35,10 @@ Can I submit multiple levels in one video?
 
 ## List Helpers:
 
-* Salukis
+* Infinera
 * Skip
 * sn0wiscold
-* Xeronius
+* tangi
 
 
 ---
