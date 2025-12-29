@@ -1132,5 +1132,14 @@
 		"from_rank": null,
 		"above": "pulsing_balls_ex",
 		"below": "sparks__of__heaven"
+	},
+	{
+		"date": 1766984899,
+		"action": "placed",
+		"name": "earl",
+		"to_rank": 161,
+		"from_rank": null,
+		"above": "papermoon",
+		"below": "twofortyfour"
 	}
 ]
