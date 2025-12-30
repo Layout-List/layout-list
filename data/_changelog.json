@@ -1159,5 +1159,14 @@
 		"from_rank": null,
 		"above": "cenit",
 		"below": "our_heart"
+	},
+	{
+		"date": 1767070845,
+		"action": "placed",
+		"name": "blizzard",
+		"to_rank": 101,
+		"from_rank": null,
+		"above": "our_heart",
+		"below": "euphoria"
 	}
 ]
