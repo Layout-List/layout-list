@@ -1150,5 +1150,14 @@
 		"from_rank": null,
 		"above": "breaking_it_off",
 		"below": "because_we_miss"
+	},
+	{
+		"date": 1767070794,
+		"action": "placed",
+		"name": "sorryforpartying_asteria",
+		"to_rank": 103,
+		"from_rank": null,
+		"above": "cenit",
+		"below": "our_heart"
 	}
 ]
