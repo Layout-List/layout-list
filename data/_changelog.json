@@ -1168,5 +1168,14 @@
 		"from_rank": null,
 		"above": "our_heart",
 		"below": "euphoria"
+	},
+	{
+		"date": 1767212263,
+		"action": "placed",
+		"name": "things_left_unsaid",
+		"to_rank": 219,
+		"from_rank": null,
+		"above": "fissure",
+		"below": "kitty_kat"
 	}
 ]
