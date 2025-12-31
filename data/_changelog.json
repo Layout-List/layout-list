@@ -1177,5 +1177,14 @@
 		"from_rank": null,
 		"above": "fissure",
 		"below": "kitty_kat"
+	},
+	{
+		"date": 1767212483,
+		"action": "placed",
+		"name": "death_cones",
+		"to_rank": 67,
+		"from_rank": null,
+		"above": "escaping_limbo",
+		"below": "unnamed_sphere_level"
 	}
 ]
