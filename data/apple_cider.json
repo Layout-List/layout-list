@@ -1,7 +1,9 @@
 {
 	"id": 129360536,
 	"name": "apple cider",
-	"creators": ["Hayden"],
+	"creators": [
+		"Hayden"
+	],
 	"verifier": "Poke Zach",
 	"verification": "https://www.youtube.com/watch?v=MevFC_AvNyw",
 	"percentToQualify": 100,
@@ -10,5 +12,14 @@
 	"song": "beabadoobee - apple cider",
 	"songLink": "https://drive.google.com/file/d/1BCY0vMQW9qP-KIRmZcCPfgb-zVK64-df/view?usp=drive_link",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "Oganesson ",
+			"link": "https://youtu.be/JF61f0smstE?si=GPHBm1VNjFLDS3MG",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 10
+		}
+	]
 }

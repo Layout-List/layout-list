@@ -404,6 +404,14 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true
+		},
+		{
+			"user": "Oganesson ",
+			"link": "https://youtu.be/JF61f0smstE?si=GPHBm1VNjFLDS3MG",
+			"percent": 100,
+			"hz": 60,
+			"mobile": true,
+			"enjoyment": 0
 		}
 	]
 }
