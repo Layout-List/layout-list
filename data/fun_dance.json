@@ -1422,6 +1422,13 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "Sigma gd",
+			"link": "https://youtu.be/j5CW_AWhuQc?si=M6yco_zBxs_9e2xG",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
