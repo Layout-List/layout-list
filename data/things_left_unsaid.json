@@ -1,7 +1,9 @@
 {
 	"id": 130327672,
 	"name": "Things Left Unsaid",
-	"creators": ["Screendoe"],
+	"creators": [
+		"Screendoe"
+	],
 	"verifier": "fusemax",
 	"verification": "https://www.youtube.com/watch?v=TwOUmlucdq8",
 	"percentToQualify": 100,
@@ -9,5 +11,12 @@
 	"difficulty": 3,
 	"song": "Xorberax - things left unsaid <Extended>",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "Screendoe",
+			"link": "https://medal.tv/games/geometry-dash/clips/lNPhjcOGha0YHWWjF?invite=cr-MSxPYWEsMjEyMTU0NjM2",
+			"percent": 100,
+			"hz": 480
+		}
+	]
 }
