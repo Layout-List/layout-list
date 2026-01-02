@@ -92,6 +92,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 9
+		},
+		{
+			"user": "Shums",
+			"link": "https://www.youtube.com/watch?v=SNET_QR_Kvw",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 7
 		}
 	]
 }
