@@ -1186,5 +1186,14 @@
 		"from_rank": null,
 		"above": "escaping_limbo",
 		"below": "unnamed_sphere_level"
+	},
+	{
+		"date": 1767328774,
+		"action": "placed",
+		"name": "fiberglass",
+		"to_rank": 4,
+		"from_rank": null,
+		"above": "pressure",
+		"below": "dying_star"
 	}
 ]
