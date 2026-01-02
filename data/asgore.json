@@ -355,6 +355,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "meltedbutters",
+			"link": "https://youtu.be/XQCrhuesVBM",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
 		}
 	]
 }
