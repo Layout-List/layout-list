@@ -1408,6 +1408,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "skyeful",
+			"link": "https://youtu.be/fNMsjC6Dtf0",
+			"percent": 100,
+			"hz": 60,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }
