@@ -1,12 +1,22 @@
 {
 	"id": 121656871,
 	"name": "Blizzard",
-	"creators": ["GenesiSuperNova"],
+	"creators": [
+		"GenesiSuperNova"
+	],
 	"verifier": "GenesiSuperNova",
 	"verification": "https://youtu.be/kgYN5KBlqqM",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 5,
 	"song": "Creo - Flow",
-	"records": []
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/l7OamD0KgktuJbcjS?invite=cr-MSx2aFUsMTg1OTcxMTAw&v=216",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		}
+	]
 }
