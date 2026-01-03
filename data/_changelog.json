@@ -1195,5 +1195,14 @@
 		"from_rank": null,
 		"above": "pressure",
 		"below": "dying_star"
+	},
+	{
+		"date": 1767412185,
+		"action": "placed",
+		"name": "eggx",
+		"to_rank": 186,
+		"from_rank": null,
+		"above": "smooktober",
+		"below": "kill_pressure"
 	}
 ]
