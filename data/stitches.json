@@ -228,6 +228,14 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 9
+		},
+		{
+			"user": "dunix",
+			"link": "https://youtu.be/zpNYOUJPPys",
+			"percent": 100,
+			"hz": 144,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }
