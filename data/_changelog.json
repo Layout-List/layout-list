@@ -1204,5 +1204,14 @@
 		"from_rank": null,
 		"above": "smooktober",
 		"below": "kill_pressure"
+	},
+	{
+		"date": 1767412301,
+		"action": "placed",
+		"name": "max",
+		"to_rank": 6,
+		"from_rank": null,
+		"above": "incision",
+		"below": "project_e"
 	}
 ]
