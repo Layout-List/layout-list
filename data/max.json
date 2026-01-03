@@ -1,12 +1,15 @@
 {
 	"id": 129324431,
 	"name": "MAX",
-	"creators": ["Tinkle"],
+	"creators": [
+		"Tinkle"
+	],
 	"verifier": "Tinkle",
 	"verification": "https://www.youtube.com/watch?v=lptQlgJ4H3w",
 	"percentToQualify": 66,
 	"password": "Free to copy",
 	"difficulty": 9,
 	"song": "Viscerality - Upgrade",
-	"records": []
+	"records": [],
+	"songLink": "https://drive.google.com/file/d/1rwSOZ6z7AYiqfyX1CuKEUgrdc2gM4Zqi/view?usp=drive_link"
 }
