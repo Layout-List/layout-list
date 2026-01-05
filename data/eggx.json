@@ -1,12 +1,22 @@
 {
 	"id": 129242023,
 	"name": "EggX",
-	"creators": ["Xvelocityy"],
+	"creators": [
+		"Xvelocityy"
+	],
 	"verifier": "Xvelocityy",
 	"verification": "https://www.youtube.com/watch?v=KA52vTMwEWo",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 3,
 	"song": "djjaner - Might and Magic 2021",
-	"records": []
+	"records": [
+		{
+			"user": "Tinkle",
+			"link": "https://youtu.be/KMg_-ifxp-A?si=135ddAWY3kXsBbHQ",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		}
+	]
 }
