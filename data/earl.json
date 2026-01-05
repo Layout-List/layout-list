@@ -34,6 +34,13 @@
 			"hz": 60,
 			"enjoyment": 6,
 			"mobile": true
+		},
+		{
+			"user": "Vink",
+			"link": "https://www.youtube.com/watch?v=zucUEydxlak",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }
