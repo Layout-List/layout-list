@@ -1,7 +1,9 @@
 {
 	"id": 128850053,
 	"name": "Stains",
-	"creators": ["Squidkid72"],
+	"creators": [
+		"Squidkid72"
+	],
 	"verifier": "Screendoe",
 	"verification": "https://youtu.be/788PegIPhaI",
 	"percentToQualify": 100,
@@ -10,5 +12,13 @@
 	"song": "Stains - Unflirt",
 	"songLink": "https://drive.google.com/file/d/1OOtqrPbJi6jdrFKWUv3z_FqSxz5T2Wnv/view?usp=sharing",
 	"enjoyment": 9,
-	"records": []
+	"records": [
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/lQUGs6CuiadGaoAYe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
+		}
+	]
 }
