@@ -1,12 +1,14 @@
 {
 	"id": 129012828,
 	"name": "Death Cones",
-	"creators": ["SarcasticMuch"],
+	"creators": [
+		"SarcasticMuch"
+	],
 	"verifier": "SarcasticMuch",
 	"verification": "https://youtu.be/d1Wuot5IA9U",
 	"percentToQualify": 100,
 	"password": "Free to copy",
-	"difficulty": 5,
+	"difficulty": 6,
 	"song": "Deftones - Swerve City",
 	"songLink": "https://drive.google.com/file/d/1XcZ_StxS8BbD0o57ObD7J8fllXKtZ0Tq/view?usp=drive_link",
 	"records": []
