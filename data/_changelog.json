@@ -1213,5 +1213,14 @@
 		"from_rank": null,
 		"above": "incision",
 		"below": "project_e"
+	},
+	{
+		"date": 1768088428,
+		"action": "placed",
+		"name": "red_flag",
+		"to_rank": 4,
+		"from_rank": null,
+		"above": "project_e",
+		"below": "dying_star"
 	}
 ]
